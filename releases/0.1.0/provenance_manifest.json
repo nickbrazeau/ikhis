@@ -1,0 +1,2328 @@
+{
+  "agent_runs": [
+    {
+      "run_id": "C-RUN-20260912-01",
+      "agent_role": "cytokine_extractor",
+      "timestamp_start": "2026-09-12 04:14:49 UTC",
+      "timestamp_end": "2026-09-12 19:14:28 UTC",
+      "timezone": "UTC",
+      "LLM_provider": "OpenAI",
+      "LLM_model": "unavailable",
+      "model_snapshot_if_available": "unavailable",
+      "reasoning_mode": "unavailable",
+      "protocol_version": "0.1.0",
+      "agent_prompt_version": "research/EXTRACTION_CONTRACT.md 0.1.0; parent lane assignment",
+      "instruction_bundle_hash": "962d0317e4f70af12562a0f863e64dc75a7ae3d82744a8179cd2f3d28b9fa999",
+      "source_versions": "[{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC10781646.xml\",\"source_id\":\"C-S01\",\"version\":\"Online 2023-12-06; Nature 625 (2024); PMC10781646.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open1.json\",\"source_id\":\"C-S02\",\"version\":\"bioRxiv v1, 2025-12-15\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open6.json\",\"source_id\":\"C-S03\",\"version\":\"Nature Methods 18, 1181–1191 (2021); author manuscript PMC8493809\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC2119001.xml\",\"source_id\":\"C-S04\",\"version\":\"J Exp Med 174(5):1209–1220; PMC2119001.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC1810496.xml\",\"source_id\":\"C-S05\",\"version\":\"Clin Exp Immunol 147(3):564–572; PMC1810496.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open2.json\",\"source_id\":\"C-S06\",\"version\":\"Oncotarget 6(42):44123–44133, 2015-12-09\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC534504.xml\",\"source_id\":\"C-S07\",\"version\":\"PNAS 101(47):16606–16611; PMC534504.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC2193232.xml\",\"source_id\":\"C-S08\",\"version\":\"J Exp Med 192(4):517–528; PMC2193232.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC12776526.xml\",\"source_id\":\"C-S09\",\"version\":\"Research Square v1; PMC12776526.1\"}]",
+      "retrieval_queries": "[{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Immune Dictionary\\\" cytokine Nature 2023\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q01\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Human Cytokine Dictionary\\\"\",\"result_source_ids\":[\"C-S02\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q02\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"CytoSig\\\" cytokine signaling 2021 Nature Methods\",\"result_source_ids\":[\"C-S03\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q03\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"human monocytes interleukin 10 inhibits LPS cytokine production receptor STAT3 study\",\"result_source_ids\":[\"C-S04\",\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q04\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Dictionary of immune responses to cytokines\\\" PMC\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q05\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"poor regulator\\\" STAT3\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q06\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"human interleukin 12 receptor beta 1 deficiency interferon gamma production 1998\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q07\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"IL-15 trans-presentation human dendritic cells NK cells IL15R alpha study\",\"result_source_ids\":[\"C-S06\",\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q08\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"A single-cell cytokine dictionary of human peripheral blood\\\" 2026 publication journal\",\"result_source_ids\":[\"C-S02\",\"C-S09\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q09\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Systematic investigation of cytokine signaling activity\\\" PMC\",\"result_source_ids\":[\"C-S03\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q10\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Distinct roles of IL-12 and IL-15\\\" Ferlazzo 2004\",\"result_source_ids\":[\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q11\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Residual type 1 immunity\\\" 10952721 IL-12\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q12\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"poor regulator\\\" 2007 DOI\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q13\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Interleukin 10(IL-10) inhibits cytokine synthesis\\\" 1991\",\"result_source_ids\":[\"C-S04\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q14\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"STAT3\\\" \\\"poor regulator\\\" \\\"Williams\\\" \\\"2007\\\"\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q15\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Distinct roles of IL-12 and IL-15\\\" \\\"IL-12\\\" \\\"blocked\\\"\",\"result_source_ids\":[\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q16\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Residual Type 1 Immunity\\\" \\\"Stat4\\\" \\\"MAP\\\"\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q17\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Dictionary of immune responses to cytokines\\\" \\\"Il1b\\\" \\\"Il1r1\\\"\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q18\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC12776526/ \\\"Version\\\"\",\"result_source_ids\":[],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q19\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC1810496/ \\\"IL-6\\\" \\\"IL-10\\\" \\\"Abstract\\\"\",\"result_source_ids\":[],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q20\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC2193232/ \\\"Abstract\\\"\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q21\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC10781646/ \\\"4 h\\\" \\\"IL-1β\\\"\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q22\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"SOCS3\\\" \\\"IL-10\\\" \\\"5\\\" monocytes\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open7.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q23\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Transpresentation of interleukin-15 by IL-15/IL-15Rα\\\" doi\",\"result_source_ids\":[\"C-S06\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open7.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q24\",\"searched_at\":\"2026-09-12\"},{\"database\":\"bioRxiv API\",\"lane\":\"preprint status\",\"query\":\"details/biorxiv/10.64898/2025.12.12.693897/na/json\",\"result_source_ids\":[\"C-S02\"],\"screening_notes\":\"Version1, date2025-12-15, published=NA; raw JSON saved.\",\"search_id\":\"C-Q27\",\"searched_at\":\"2026-09-12\"},{\"database\":\"NCBI Entrez EUtilities\",\"lane\":\"full-text retrieval\",\"query\":\"efetch db=pmc id=1810496,534504,2193232,10781646,2119001,12776526 retmode=xml\",\"result_source_ids\":[\"C-S01\",\"C-S04\",\"C-S05\",\"C-S07\",\"C-S08\",\"C-S09\"],\"screening_notes\":\"Mixed full-text/metadata response. Explicit access classification retained per source.\",\"search_id\":\"C-Q28\",\"searched_at\":\"2026-09-12\"}]",
+      "retrieval_dates": "[\"2026-09-12\"]",
+      "source_hashes": "{\"research/cytokine/snapshots/PMC10781646.txt\":\"5800341289afa6b8f5b94a8490ad87e58767e2f89a537730c30ca091936eea93\",\"research/cytokine/snapshots/PMC10781646.xml\":\"cdeefd81ddec026ccc32292d2ff428312e9331187217f2baf95b73386227a133\",\"research/cytokine/snapshots/PMC12776526.txt\":\"9361c53a21f54affb3fe0450a44cfb1f398c615f707f21300b6076e389098d0e\",\"research/cytokine/snapshots/PMC12776526.xml\":\"b5eb7fa311846f14f30de12ff62393c3bb13203e3890632dadcc2bffd19430b0\",\"research/cytokine/snapshots/PMC1810496.xml\":\"f7993bdc507d40185cee9d442f80352c9cf6acf3699627962bf8f4a6d3cbb661\",\"research/cytokine/snapshots/PMC2119001.txt\":\"b8da7ec812a4af73a955d451f7493b377d021a95385225379c7ca64ea0acf6d6\",\"research/cytokine/snapshots/PMC2119001.xml\":\"75a1f66ee0b4bcc5761557e1dc4fe4805791b7022f585d5d67e9e7d97aa30e61\",\"research/cytokine/snapshots/PMC2193232.txt\":\"05b8494ee3be3c6863d849ae6816d8495331e2a621c99caa1696b782ccf84d9f\",\"research/cytokine/snapshots/PMC2193232.xml\":\"1cafaa4e24ae1789756440cdece1e9670fa0bc6c27f40f7adf9616f69512cc57\",\"research/cytokine/snapshots/PMC534504.xml\":\"623342701f7a90e76c163651a779d90bf9dd59131a7992b334fb89fdb11574cb\",\"research/cytokine/snapshots/hcd_biorxiv_api.json\":\"aad63d5def0b98781389bdb8f82d01720508fb82cea609cae3ddd055cfae0d1a\",\"research/cytokine/snapshots/metadata.json\":\"8c42a52e3d6a95926fdfc894095e161dd2e23d0480a9b76e621f391fae88c988\",\"research/cytokine/snapshots/open1.json\":\"3b52b42ebbe3ef495120b4daa7d388bf60f5fb0fb8a27b60edfaf0016d7c9263\",\"research/cytokine/snapshots/open2.json\":\"f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0\",\"research/cytokine/snapshots/open3.json\":\"d9dc26428e7fdb7e067a2d228206337b4b6aba480806b652b8c26392a1f17458\",\"research/cytokine/snapshots/open4.json\":\"a6d5bae4931439f1e296a2bd6e225d5f881dffebb22c168cb4ddc4bd863ed77b\",\"research/cytokine/snapshots/open5.json\":\"4159833a379adcbd188547771cf631d49b1befdc6cbe4737bdd3997e3ff2a515\",\"research/cytokine/snapshots/open6.json\":\"8d198a3c0e20035dc2ee4945dc7d7e9b581c7f54264b674b9f13620187e8706f\",\"research/cytokine/snapshots/open7.json\":\"d69e2f5591bbb0d719e3db4aad2e86b2dd19f2c77052ca1f2b9a6b87856eba42\",\"research/cytokine/snapshots/pmc_fulltext.xml\":\"77d173dcd567817d51400495a3d1b6750790685d43f24e820618f459fd3fcb1f\",\"research/cytokine/snapshots/search1.json\":\"b4fc221fcc0eedcafac0d2830603a188f63450b5a028a03a04b11ad9e4ce7c3d\",\"research/cytokine/snapshots/search2.json\":\"2d9b31e904cc334c925419e26a94f278e55d8e56c346be3955c74719e1e7b9de\",\"research/cytokine/snapshots/search3.json\":\"83f76e61110794713fad05a4147e8c9c4830914b386dddf87388843e758f3aa1\",\"research/cytokine/snapshots/search4.json\":\"b0d48b1485f731e219a576ee7db7a02ee7c04ca9a9a6c2ea52ddf4e2c287c983\"}",
+      "code_commit": "unavailable",
+      "environment_hash": "d063f24a25da83fd908f291f2f895b63724e313ffef606942c79e0ea90b1c2df",
+      "output_hash": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+      "critic_run_ids": "[\"CR-CYT-20260912-01\"]",
+      "human_edits": "unavailable",
+      "original_metadata": "{\"LLM_model\":\"unavailable\",\"LLM_provider\":\"OpenAI\",\"access_limits\":[\"Web CAPTCHA/403/preview restrictions recorded in snapshots\",\"C-S05 and C-S07 remain abstract/excerpt-limited\",\"C-S04 full text is OCR; exact numeric effects not adopted\"],\"agent_prompt_version\":\"research/EXTRACTION_CONTRACT.md 0.1.0; parent lane assignment\",\"agent_role\":\"Cytokine/signaling and perturbation-transcriptomic evidence extractor\",\"builder_sha256\":\"52a7f67389ee42d52d4d2d7bd5d0a2d0530e1eef0fdf67544d9fcf925fb76d22\",\"calibration_status\":\"No scientific prior calibration performed; no human adjudication claimed\",\"code_commit\":\"unavailable\",\"critic_run_ids\":[\"CR-CYT-20260912-01\"],\"environment\":{\"installed_dependency\":\"requests 2.32.5 in ignored research/cytokine/.venv\",\"platform\":\"macOS-26.6.2-arm64-arm-64bit\",\"python\":\"3.9.6\"},\"environment_hash\":\"d063f24a25da83fd908f291f2f895b63724e313ffef606942c79e0ea90b1c2df\",\"human_edits\":\"unavailable\",\"initial_extraction_timestamp_end\":\"2026-09-12 17:02:34 UTC\",\"instruction_bundle_hash\":\"962d0317e4f70af12562a0f863e64dc75a7ae3d82744a8179cd2f3d28b9fa999\",\"instruction_versions\":[{\"path\":\"README.md\",\"sha256\":\"830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf\"},{\"path\":\"research/EXTRACTION_CONTRACT.md\",\"sha256\":\"35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e\"},{\"path\":\"/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/research-router-skill/SKILL.md\",\"sha256\":\"e9e39c6c411da80f9fd62a62e70cbedac2404bdcfb51ddb8fda1dc3332c7e357\"},{\"path\":\"/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/ncbi-entrez-skill/SKILL.md\",\"sha256\":\"a0df39c740f481ad8cf613cb3f61603dc321829f8fb7dd11737481118ab9695c\"},{\"path\":\"/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/biorxiv-skill/SKILL.md\",\"sha256\":\"9d463dff920a77e66ea22112fbe8b381a466bb0e363e4ab7488fecde35778de2\"}],\"model_snapshot_if_available\":\"unavailable\",\"output_hash\":\"e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d\",\"protocol_version\":\"0.1.0\",\"reasoning_mode\":\"unavailable\",\"retrieval_dates\":[\"2026-09-12\"],\"retrieval_queries\":[{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Immune Dictionary\\\" cytokine Nature 2023\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q01\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Human Cytokine Dictionary\\\"\",\"result_source_ids\":[\"C-S02\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q02\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"CytoSig\\\" cytokine signaling 2021 Nature Methods\",\"result_source_ids\":[\"C-S03\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q03\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"human monocytes interleukin 10 inhibits LPS cytokine production receptor STAT3 study\",\"result_source_ids\":[\"C-S04\",\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search1.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q04\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Dictionary of immune responses to cytokines\\\" PMC\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q05\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"poor regulator\\\" STAT3\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q06\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"human interleukin 12 receptor beta 1 deficiency interferon gamma production 1998\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q07\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"IL-15 trans-presentation human dendritic cells NK cells IL15R alpha study\",\"result_source_ids\":[\"C-S06\",\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q08\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"A single-cell cytokine dictionary of human peripheral blood\\\" 2026 publication journal\",\"result_source_ids\":[\"C-S02\",\"C-S09\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q09\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Systematic investigation of cytokine signaling activity\\\" PMC\",\"result_source_ids\":[\"C-S03\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open2.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q10\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Distinct roles of IL-12 and IL-15\\\" Ferlazzo 2004\",\"result_source_ids\":[\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q11\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Residual type 1 immunity\\\" 10952721 IL-12\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q12\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"poor regulator\\\" 2007 DOI\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q13\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Interleukin 10(IL-10) inhibits cytokine synthesis\\\" 1991\",\"result_source_ids\":[\"C-S04\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q14\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"STAT3\\\" \\\"poor regulator\\\" \\\"Williams\\\" \\\"2007\\\"\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q15\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Distinct roles of IL-12 and IL-15\\\" \\\"IL-12\\\" \\\"blocked\\\"\",\"result_source_ids\":[\"C-S07\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q16\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Residual Type 1 Immunity\\\" \\\"Stat4\\\" \\\"MAP\\\"\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q17\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Dictionary of immune responses to cytokines\\\" \\\"Il1b\\\" \\\"Il1r1\\\"\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search3.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q18\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC12776526/ \\\"Version\\\"\",\"result_source_ids\":[],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q19\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC1810496/ \\\"IL-6\\\" \\\"IL-10\\\" \\\"Abstract\\\"\",\"result_source_ids\":[],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q20\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC2193232/ \\\"Abstract\\\"\",\"result_source_ids\":[\"C-S08\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q21\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"site:pmc.ncbi.nlm.nih.gov/articles/PMC10781646/ \\\"4 h\\\" \\\"IL-1β\\\"\",\"result_source_ids\":[\"C-S01\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/search4.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q22\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Activated signal transducer\\\" \\\"SOCS3\\\" \\\"IL-10\\\" \\\"5\\\" monocytes\",\"result_source_ids\":[\"C-S05\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open7.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q23\",\"searched_at\":\"2026-09-12\"},{\"database\":\"web search; primary publications and repositories screened\",\"lane\":\"cytokine/signaling and perturbation transcriptomics\",\"query\":\"\\\"Transpresentation of interleukin-15 by IL-15/IL-15Rα\\\" doi\",\"result_source_ids\":[\"C-S06\"],\"screening_notes\":\"Actual batched search response retained in research/cytokine/snapshots/open7.json; result mapping documented by selected source registry, not an exhaustive search.\",\"search_id\":\"C-Q24\",\"searched_at\":\"2026-09-12\"},{\"database\":\"bioRxiv API\",\"lane\":\"preprint status\",\"query\":\"details/biorxiv/10.64898/2025.12.12.693897/na/json\",\"result_source_ids\":[\"C-S02\"],\"screening_notes\":\"Version1, date2025-12-15, published=NA; raw JSON saved.\",\"search_id\":\"C-Q27\",\"searched_at\":\"2026-09-12\"},{\"database\":\"NCBI Entrez EUtilities\",\"lane\":\"full-text retrieval\",\"query\":\"efetch db=pmc id=1810496,534504,2193232,10781646,2119001,12776526 retmode=xml\",\"result_source_ids\":[\"C-S01\",\"C-S04\",\"C-S05\",\"C-S07\",\"C-S08\",\"C-S09\"],\"screening_notes\":\"Mixed full-text/metadata response. Explicit access classification retained per source.\",\"search_id\":\"C-Q28\",\"searched_at\":\"2026-09-12\"}],\"revisions\":[{\"agent_role\":\"Cytokine evidence extractor responding to independent adversarial review\",\"critic_run_id\":\"CR-CYT-20260912-01\",\"new_source_retrievals\":0,\"original_pack_hash\":\"bb0178ad4182dc96ba47bd3a29d2ee3d41a249c19e73ccb553789e62e62fce9b\",\"response_path\":\"research/cytokine/review_response.json\",\"response_sha256\":\"bd8e422b605517a44997a2c55ff304b43f2d72b40f53ed4ffcb64ab4a904c5fb\",\"revised_pack_hash\":\"e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d\",\"run_id\":\"C-REV-20260912-01\",\"timestamp_end\":\"2026-09-12 19:14:28 UTC\",\"timestamp_start\":\"2026-09-12 19:10:42 UTC\",\"validation\":{\"assertions\":25,\"cohort_link_acyclic\":\"pass\",\"critic_unchanged\":\"pass\",\"foreign_keys\":\"pass\",\"generator_reproduces_pack\":\"pass\",\"needs_full_text\":4,\"null_assertions\":6,\"required_fields\":\"pass\",\"snapshot_exists\":\"pass\"}}],\"run_id\":\"C-RUN-20260912-01\",\"source_hashes\":{\"research/cytokine/snapshots/PMC10781646.txt\":\"5800341289afa6b8f5b94a8490ad87e58767e2f89a537730c30ca091936eea93\",\"research/cytokine/snapshots/PMC10781646.xml\":\"cdeefd81ddec026ccc32292d2ff428312e9331187217f2baf95b73386227a133\",\"research/cytokine/snapshots/PMC12776526.txt\":\"9361c53a21f54affb3fe0450a44cfb1f398c615f707f21300b6076e389098d0e\",\"research/cytokine/snapshots/PMC12776526.xml\":\"b5eb7fa311846f14f30de12ff62393c3bb13203e3890632dadcc2bffd19430b0\",\"research/cytokine/snapshots/PMC1810496.xml\":\"f7993bdc507d40185cee9d442f80352c9cf6acf3699627962bf8f4a6d3cbb661\",\"research/cytokine/snapshots/PMC2119001.txt\":\"b8da7ec812a4af73a955d451f7493b377d021a95385225379c7ca64ea0acf6d6\",\"research/cytokine/snapshots/PMC2119001.xml\":\"75a1f66ee0b4bcc5761557e1dc4fe4805791b7022f585d5d67e9e7d97aa30e61\",\"research/cytokine/snapshots/PMC2193232.txt\":\"05b8494ee3be3c6863d849ae6816d8495331e2a621c99caa1696b782ccf84d9f\",\"research/cytokine/snapshots/PMC2193232.xml\":\"1cafaa4e24ae1789756440cdece1e9670fa0bc6c27f40f7adf9616f69512cc57\",\"research/cytokine/snapshots/PMC534504.xml\":\"623342701f7a90e76c163651a779d90bf9dd59131a7992b334fb89fdb11574cb\",\"research/cytokine/snapshots/hcd_biorxiv_api.json\":\"aad63d5def0b98781389bdb8f82d01720508fb82cea609cae3ddd055cfae0d1a\",\"research/cytokine/snapshots/metadata.json\":\"8c42a52e3d6a95926fdfc894095e161dd2e23d0480a9b76e621f391fae88c988\",\"research/cytokine/snapshots/open1.json\":\"3b52b42ebbe3ef495120b4daa7d388bf60f5fb0fb8a27b60edfaf0016d7c9263\",\"research/cytokine/snapshots/open2.json\":\"f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0\",\"research/cytokine/snapshots/open3.json\":\"d9dc26428e7fdb7e067a2d228206337b4b6aba480806b652b8c26392a1f17458\",\"research/cytokine/snapshots/open4.json\":\"a6d5bae4931439f1e296a2bd6e225d5f881dffebb22c168cb4ddc4bd863ed77b\",\"research/cytokine/snapshots/open5.json\":\"4159833a379adcbd188547771cf631d49b1befdc6cbe4737bdd3997e3ff2a515\",\"research/cytokine/snapshots/open6.json\":\"8d198a3c0e20035dc2ee4945dc7d7e9b581c7f54264b674b9f13620187e8706f\",\"research/cytokine/snapshots/open7.json\":\"d69e2f5591bbb0d719e3db4aad2e86b2dd19f2c77052ca1f2b9a6b87856eba42\",\"research/cytokine/snapshots/pmc_fulltext.xml\":\"77d173dcd567817d51400495a3d1b6750790685d43f24e820618f459fd3fcb1f\",\"research/cytokine/snapshots/search1.json\":\"b4fc221fcc0eedcafac0d2830603a188f63450b5a028a03a04b11ad9e4ce7c3d\",\"research/cytokine/snapshots/search2.json\":\"2d9b31e904cc334c925419e26a94f278e55d8e56c346be3955c74719e1e7b9de\",\"research/cytokine/snapshots/search3.json\":\"83f76e61110794713fad05a4147e8c9c4830914b386dddf87388843e758f3aa1\",\"research/cytokine/snapshots/search4.json\":\"b0d48b1485f731e219a576ee7db7a02ee7c04ca9a9a6c2ea52ddf4e2c287c983\"},\"source_versions\":[{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC10781646.xml\",\"source_id\":\"C-S01\",\"version\":\"Online 2023-12-06; Nature 625 (2024); PMC10781646.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open1.json\",\"source_id\":\"C-S02\",\"version\":\"bioRxiv v1, 2025-12-15\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open6.json\",\"source_id\":\"C-S03\",\"version\":\"Nature Methods 18, 1181–1191 (2021); author manuscript PMC8493809\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC2119001.xml\",\"source_id\":\"C-S04\",\"version\":\"J Exp Med 174(5):1209–1220; PMC2119001.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC1810496.xml\",\"source_id\":\"C-S05\",\"version\":\"Clin Exp Immunol 147(3):564–572; PMC1810496.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/open2.json\",\"source_id\":\"C-S06\",\"version\":\"Oncotarget 6(42):44123–44133, 2015-12-09\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC534504.xml\",\"source_id\":\"C-S07\",\"version\":\"PNAS 101(47):16606–16611; PMC534504.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC2193232.xml\",\"source_id\":\"C-S08\",\"version\":\"J Exp Med 192(4):517–528; PMC2193232.1\"},{\"retrieved_at\":\"2026-09-12\",\"snapshot_path\":\"research/cytokine/snapshots/PMC12776526.xml\",\"source_id\":\"C-S09\",\"version\":\"Research Square v1; PMC12776526.1\"}],\"timestamp_end\":\"2026-09-12 19:14:28 UTC\",\"timestamp_start\":\"2026-09-12 04:14:49 UTC\",\"timezone\":\"UTC\",\"validation\":{\"assertions\":25,\"cohort_link_acyclic\":\"pass\",\"critic_unchanged\":\"pass\",\"foreign_keys\":\"pass\",\"generator_reproduces_pack\":\"pass\",\"needs_full_text\":4,\"null_assertions\":6,\"required_fields\":\"pass\",\"snapshot_exists\":\"pass\"}}"
+    },
+    {
+      "run_id": "G-RUN-20260912-01",
+      "agent_role": "genomic_extractor",
+      "timestamp_start": "2026-09-12T04:15:13Z",
+      "timestamp_end": "2026-09-12T17:34:46.535322+00:00",
+      "timezone": "UTC (runtime clock); user timezone America/New_York",
+      "LLM_provider": "OpenAI",
+      "LLM_model": "unavailable",
+      "model_snapshot_if_available": "unavailable",
+      "reasoning_mode": "unavailable",
+      "protocol_version": "0.1.0",
+      "agent_prompt_version": "EXTRACTION_CONTRACT-0.1.0; parent genomic delegation",
+      "instruction_bundle_hash": "{\"README.md\":\"830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf\",\"research/EXTRACTION_CONTRACT.md\":\"35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e\"}",
+      "source_versions": "{\"G01\":\"2014 primary publication; exact publisher revision unavailable\",\"G02\":\"2017 primary publication; exact publisher revision unavailable\",\"G03\":\"2017 primary publication; exact publisher revision unavailable\",\"G04\":\"2018 primary publication; exact publisher revision unavailable\",\"G05\":\"2016 primary publication; exact publisher revision unavailable\",\"G06\":\"2022 primary publication; exact publisher revision unavailable\",\"G07\":\"2022 primary publication; exact publisher revision unavailable\",\"G08\":\"2007 primary publication; exact publisher revision unavailable\",\"G09\":\"2014 primary publication; exact publisher revision unavailable\",\"G10\":\"2019 primary publication; exact publisher revision unavailable\"}",
+      "retrieval_queries": "pack.json searches; 18 actual queries",
+      "retrieval_dates": "Source retrieval timestamps in pack.json are saved snapshot timestamps; all runtime dates retained without inference.",
+      "source_hashes": "unavailable; centrally computed from snapshots",
+      "code_commit": "unavailable; git rev-parse HEAD reported not a git repository",
+      "environment_hash": "8221d5f3bddd35d865dcbec48091ad40dc55cda7f9e205f7e70c5d8b72054fd1",
+      "output_hash": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+      "critic_run_ids": "[\"biological-review-multiomic-20260912-01\"]",
+      "human_edits": "unavailable",
+      "original_metadata": "{\"LLM_model\":\"unavailable\",\"LLM_provider\":\"OpenAI\",\"agent_prompt_version\":\"EXTRACTION_CONTRACT-0.1.0; parent genomic delegation\",\"agent_role\":\"Genomic evidence extractor\",\"code_commit\":\"unavailable; git rev-parse HEAD reported not a git repository\",\"critic_run_ids\":[\"biological-review-multiomic-20260912-01\"],\"environment_hash\":\"8221d5f3bddd35d865dcbec48091ad40dc55cda7f9e205f7e70c5d8b72054fd1\",\"environment_hash_basis\":\"SHA256 of Python version concatenated with platform description; not a complete environment/package lockfile.\",\"execution_notes\":[\"Research sources accessed read-only.\",\"Wrote only research/genomic/.\",\"Network-limited public XML request was rerun with required escalation; endpoint returned 404. Public PMC HTML retrieval subsequently succeeded.\",\"Eight original full-text HTML snapshots, two original PubMed abstract/metadata snapshots, and web search/access-limitation snapshots retained.\",\"No calibration, human adjudication or exhaustive coverage claimed.\",\"Three independent genomic review findings corrected; final integrating-agent disposition and any human adjudication remain separate.\"],\"human_edits\":\"unavailable\",\"instruction_bundle_hash\":{\"README.md\":\"830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf\",\"research/EXTRACTION_CONTRACT.md\":\"35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e\"},\"model_snapshot_if_available\":\"unavailable\",\"output_hash\":{\"build_pack.py\":\"c5c16d971068920ab8ed242c4c43b4ad096e2df814e06db953b0e7bba06bf686\",\"notes.md\":\"cd2b8db162a50583adada1fff37a68232262ef6903f8b2b75c665f62b412bf63\",\"pack.json\":\"8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6\",\"review_response.json\":\"81926babb2c47084c75b09b011a79ba76f5528ca93e0797fafb0d45678cb5ea7\"},\"protocol_version\":\"0.1.0\",\"reasoning_mode\":\"unavailable\",\"retrieval_dates\":\"Source retrieval timestamps in pack.json are saved snapshot timestamps; all runtime dates retained without inference.\",\"retrieval_queries\":\"pack.json searches; 18 actual queries\",\"run_id\":\"G-RUN-20260912-01\",\"skills_used\":[\"life-science-research:research-router-skill\",\"life-science-research:ncbi-entrez-skill (instructions inspected; no Entrez calls needed)\"],\"source_hashes\":\"unavailable; centrally computed from snapshots\",\"source_versions\":{\"G01\":\"2014 primary publication; exact publisher revision unavailable\",\"G02\":\"2017 primary publication; exact publisher revision unavailable\",\"G03\":\"2017 primary publication; exact publisher revision unavailable\",\"G04\":\"2018 primary publication; exact publisher revision unavailable\",\"G05\":\"2016 primary publication; exact publisher revision unavailable\",\"G06\":\"2022 primary publication; exact publisher revision unavailable\",\"G07\":\"2022 primary publication; exact publisher revision unavailable\",\"G08\":\"2007 primary publication; exact publisher revision unavailable\",\"G09\":\"2014 primary publication; exact publisher revision unavailable\",\"G10\":\"2019 primary publication; exact publisher revision unavailable\"},\"timestamp_end\":\"2026-09-12T17:34:46.535322+00:00\",\"timestamp_start\":\"2026-09-12T04:15:13Z\",\"timezone\":\"UTC (runtime clock); user timezone America/New_York\"}"
+    },
+    {
+      "run_id": "P_RUN_20260912_01",
+      "agent_role": "proteomic_extractor",
+      "timestamp_start": "2026-09-12 04:15:09 UTC",
+      "timestamp_end": "2026-09-12 17:03:23 UTC",
+      "timezone": "UTC (runtime clock); user timezone America/New_York",
+      "LLM_provider": "OpenAI",
+      "LLM_model": "unavailable",
+      "model_snapshot_if_available": "unavailable",
+      "reasoning_mode": "unavailable",
+      "protocol_version": "README v0.1.0",
+      "agent_prompt_version": "research/EXTRACTION_CONTRACT.md v0.1.0 plus parent proteomic-lane assignment",
+      "instruction_bundle_hash": "unavailable",
+      "source_versions": "Source registry in pack.json; publication versions retained, changing database versions unavailable",
+      "retrieval_queries": "pack.json searches; actual batch tool responses in snapshots/search*.json",
+      "retrieval_dates": "[\"2026-09-12\"]",
+      "source_hashes": "unavailable",
+      "code_commit": "unavailable",
+      "environment_hash": "unavailable",
+      "output_hash": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+      "critic_run_ids": "[\"biological-review-multiomic-20260912-01\"]",
+      "human_edits": "unavailable",
+      "original_metadata": "{\"LLM_model\":\"unavailable\",\"LLM_provider\":\"OpenAI\",\"agent_prompt_version\":\"research/EXTRACTION_CONTRACT.md v0.1.0 plus parent proteomic-lane assignment\",\"agent_role\":\"proteomic and paired transcriptomic evidence extractor\",\"code_commit\":\"unavailable\",\"completion_scope\":\"Bounded pilot extraction delivered; source-specific gaps and unresolved independence preserved.\",\"critic_run_ids\":[\"biological-review-multiomic-20260912-01\"],\"environment_hash\":\"unavailable\",\"generator_status\":\"pack.json is the authoritative manual extraction; no separate proteomic generator existed. apply_review_corrections.py replays the verified review corrections idempotently.\",\"human_edits\":\"unavailable\",\"instruction_bundle_hash\":\"unavailable\",\"instruction_file_hashes\":{\"README.md\":\"830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf\",\"research/EXTRACTION_CONTRACT.md\":\"35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e\"},\"model_snapshot_if_available\":\"unavailable\",\"output_hash\":\"965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937\",\"protocol_version\":\"README v0.1.0\",\"reasoning_mode\":\"unavailable\",\"retrieval_dates\":[\"2026-09-12\"],\"retrieval_queries\":\"pack.json searches; actual batch tool responses in snapshots/search*.json\",\"retrieval_time_precision\":\"Date only per retrieval; start/end read from runtime clock\",\"review_repairs\":[{\"actor\":\"extracting agent\",\"corrected_assertion_ids\":[\"P_A01\",\"P_A06\",\"P_A07\",\"P_A15\",\"P_A16\"],\"critic_run_id\":\"biological-review-multiomic-20260912-01\",\"human_adjudication\":false,\"input_pack_sha256\":\"8967ada9749b304dcb16630d3524c889d29a8405f01910a2f7af703e52cd44bb\",\"output_pack_sha256\":\"965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937\",\"repair_id\":\"P_REPAIR_20260912_01\",\"replay_script\":\"research/proteomic/apply_review_corrections.py\",\"review_response\":\"research/proteomic/review_response.json\",\"timestamp_end\":\"2026-09-12T19:08:26Z\",\"timestamp_start\":\"2026-09-12T19:05:01Z\"}],\"run_id\":\"P_RUN_20260912_01\",\"skills_used\":[\"research-router-skill\",\"ncbi-entrez-skill (helper attempted; missing requests dependency)\"],\"source_hashes\":\"unavailable\",\"source_versions\":\"Source registry in pack.json; publication versions retained, changing database versions unavailable\",\"timestamp_end\":\"2026-09-12 17:03:23 UTC\",\"timestamp_start\":\"2026-09-12 04:15:09 UTC\",\"timezone\":\"UTC (runtime clock); user timezone America/New_York\",\"tool_failures\":[{\"error\":\"missing_dependency: requests is required; No module named requests\",\"operation\":\"Entrez efetch PMC3273988 using system Python\"},{\"error\":\"missing_dependency: requests is required; No module named requests\",\"operation\":\"Entrez efetch PMC3273988,PMC3497699 using bundled Python\"},{\"error\":\"Initial sandbox DNS error; approved retry returned HTTP404\",\"operation\":\"Europe PMC fullTextXML PMC3497699\"}],\"validation\":\"22 unique assertions; all source and cohort references valid; source snapshots unchanged. Five reviewed records have source-supported locator or unsigned-direction corrections; no mixed directions remain. Correction replay is idempotent.\",\"work_scope\":\"External research read-only; writes confined to research/proteomic/\"}"
+    },
+    {
+      "run_id": "RUN_COORDINATOR_0.1.0",
+      "agent_role": "coordinator",
+      "timestamp_start": "2026-09-12T04:15:04Z",
+      "timestamp_end": "2026-09-13T01:32:18.749780+00:00",
+      "timezone": "America/New_York",
+      "LLM_provider": "OpenAI",
+      "LLM_model": "GPT-6",
+      "model_snapshot_if_available": "unavailable",
+      "reasoning_mode": "unavailable",
+      "protocol_version": "0.1.0",
+      "agent_prompt_version": "0.1.0",
+      "instruction_bundle_hash": "021f3866c55eb351ddbe150c37a5e0b3e498eda29e1a1e812341821fdeff6edc",
+      "source_versions": "source_registry.csv",
+      "retrieval_queries": "search_log.csv",
+      "retrieval_dates": "source_registry.csv",
+      "source_hashes": "artifact_hashes.csv",
+      "code_commit": "unavailable",
+      "environment_hash": "3f078a7c3ca495bd640f5690c2129d76c41b533dbf1db00802a2c7250ab7e4b2",
+      "output_hash": "6d3e869aabcd2ab11a041eed2ba4adf6bccc4433e640385292dc1f4a7207661e",
+      "critic_run_ids": "[\"CR-CYT-20260912-01\",\"biological-review-multiomic-20260912-01\",\"implementation-review-20260912-01\"]",
+      "human_edits": "unavailable",
+      "original_metadata": "{\"code_commit\":\"unavailable\",\"model\":\"GPT-6\",\"model_provider\":\"OpenAI\",\"model_snapshot\":\"unavailable\",\"note\":\"Folder is not a Git repository. README is the active specification; sandbox/smpl.md is historical narrower context. Runtime start is first recorded timestamp, not a claimed exact turn start.\",\"output_hash_scope\":{\"kind\":\"canonical_JSON_table_contents\",\"tables\":[\"entities\",\"edge_assertions\",\"evidence_instances\",\"prior_parameters\"]},\"reasoning_mode\":\"unavailable\",\"retrieval_completed_at\":\"2026-09-13T01:30:23.554033+00:00\",\"run_id\":\"RUN_COORDINATOR_0.1.0\",\"timestamp_end\":\"2026-09-13T01:32:18.749780+00:00\",\"timestamp_end_scope\":\"Evidence and implementation finalized; subsequent build and hash verification recorded in release manifests\",\"timestamp_start\":\"2026-09-12T04:15:04Z\",\"timezone\":\"America/New_York\"}"
+    }
+  ],
+  "critic_runs": [
+    {
+      "critic_run_id": "CR-CYT-20260912-01",
+      "role": "Adversarial Biological Reviewer",
+      "scope": "Independent adversarial biological review of research/cytokine/pack.json and protocol/PROTOCOL.md v0.1.0; all 24 cytokine assertions and their saved primary-source evidence were inspected. This reviewer did not author the cytokine pack. This is agent review, not human adjudication.",
+      "timestamp_start": "2026-09-12T17:21:26Z",
+      "timestamp_end": "2026-09-12T17:26:57Z",
+      "independence": "separate_agent_not_extractor_for_reviewed_lane"
+    },
+    {
+      "critic_run_id": "biological-review-multiomic-20260912-01",
+      "role": "Adversarial Biological Reviewer",
+      "scope": "Independent adversarial biological review of research/proteomic/pack.json and research/genomic/pack.json. The reviewer did not author either pack and did not edit them. Cytokine pack excluded because this reviewer authored it. Review addresses evidence extraction, source locators, molecular layers, evidence grades, species, context, donor reuse and null/discordant results. Integrated network and code review are separate.",
+      "timestamp_start": "2026-09-12 17:21:35 UTC",
+      "timestamp_end": "2026-09-12 17:30:11 UTC",
+      "independence": "separate_agent_not_extractor_for_reviewed_lane"
+    },
+    {
+      "critic_run_id": "implementation-review-20260912-01",
+      "role": "Adversarial Biological Reviewer",
+      "scope": "Independent scientific/data-integrity and implementation review of scripts/kb.py, tests/test_kb.py and protocol/PROTOCOL.md, with scoring annotations inspected as a dependency. The reviewer authored the genomic evidence pack but did not author or edit the reviewed compiler, tests or protocol. Review focuses on hypothesis polarity, source-derived numerical gating, molecular layers, cohort reuse, entity identity, compatible paths and freeze provenance. Parent coordinator was repairing the implementation concurrently; findings identify the reviewed snapshot and are open for coordinator disposition.",
+      "timestamp_start": "2026-09-12 19:10:48 UTC",
+      "timestamp_end": "2026-09-12 19:25:28 UTC",
+      "independence": "separate_agent_not_extractor_for_reviewed_lane"
+    }
+  ],
+  "adjudications": [
+    {
+      "adjudication_id": "ADJ_BIO-M001",
+      "finding_id": "BIO-M001",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "qualified_locator_correction",
+      "rationale": "P_A06 cites main-text Fig5C line181; saved legend labels that response B. Critic recommendation was checked against original source and the B/C mismatch remains explicit.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M002",
+      "finding_id": "BIO-M002",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "unsigned_distribution_difference",
+      "rationale": "P_A07 direction changed to association; full-text/data limitation retained.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M003",
+      "finding_id": "BIO-M003",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "unsigned_platform_cohort_discordance",
+      "rationale": "P_A15 direction changed to association; no opposing signed estimates invented.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M004",
+      "finding_id": "BIO-M004",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "unsigned_reagent_discordance",
+      "rationale": "P_A16 direction changed to association; original limits retained.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M005",
+      "finding_id": "BIO-M005",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "unsigned_shRNA_heterogeneity",
+      "rationale": "G-A012 direction changed to association; intervention inconsistency and isoform caveat retained.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M006",
+      "finding_id": "BIO-M006",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "recovered_ancestry_context",
+      "rationale": "GCO02 and G-A006 now preserve source-reported European American/Caucasian analysis restriction.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_BIO-M007",
+      "finding_id": "BIO-M007",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "recovered_IL7_costimulation",
+      "rationale": "GCO10 and G-A015 include IL7 5ng/mL and CD3/CD28 doses from methods.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_CR-CYT-001",
+      "finding_id": "CR-CYT-001",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "corrected_and_retained_temporal_contrast",
+      "rationale": "C-A11 corrected to 24h Fig7; C-A25 preserves qualitative 7h null. See research/cytokine/review_response.json. Human adjudication pending.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_CR-CYT-002",
+      "finding_id": "CR-CYT-002",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "explicit_hypothesis_and_relation_with_null_adequacy_gate",
+      "rationale": "Scoring annotations state tested hypotheses independently from sign. All pilot nulls are inconclusive. Inadequate absence evidence cannot update existence. Shared-hypothesis and null regression tests pass; weights remain uncalibrated.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_CR-CYT-003",
+      "finding_id": "CR-CYT-003",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "downgraded_to_unspecified_protein_compartment",
+      "rationale": "C-A18 now protein production with compartment unavailable and needs_full_text; no numerical priors or paths. Authors terminology retained with attribution.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_CR-CYT-004",
+      "finding_id": "CR-CYT-004",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "structured_participant_subset_link",
+      "rationale": "C-CO08 links to C-CO09 for known P1/P3 overlap. Distinct preparations and unresolved further reuse retained.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_IMPL-R001",
+      "finding_id": "IMPL-R001",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "measurement_vocabulary_and_layer_validation",
+      "rationale": "Compiler checks all supported measurement/object-layer combinations and rejects unknown measurement labels. Independent response records synthetic rejection checks; reviewed pilot passes.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_IMPL-R002",
+      "finding_id": "IMPL-R002",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "hypothesis_identity_and_individual_eligibility",
+      "rationale": "Known hypothesis required; grouping uses canonical hypothesis/context/measurement rather than descriptive predicates; inconclusive records cannot inherit numerical priors. Compiled-database regressions pass.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_IMPL-R003",
+      "finding_id": "IMPL-R003",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "fail_closed_pathway_compilation",
+      "rationale": "Null/unsupported transitions, tuple bridges, unknown/reversed time and incompatible treatment are rejected. Production compiler accepts no external bridge assertions and materializes no paths; source-backed bridge ingestion remains future work.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_IMPL-R004",
+      "finding_id": "IMPL-R004",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "propagate_high_severity_challenges",
+      "rationale": "High source/cohort ancestor/context findings quarantine dependent evidence; protocol/compiler findings conservatively withhold numerical outputs until disposition. Regression probes pass.",
+      "human_adjudication_status": "pending"
+    },
+    {
+      "adjudication_id": "ADJ_IMPL-R005",
+      "finding_id": "IMPL-R005",
+      "adjudicator_role": "coordinating_agent",
+      "decision": "separate_related_and_reviewed_protein_coverage",
+      "rationale": "Coverage reports related_assertion_count and reviewed_protein_assertion_count. Neither is represented as independent direct analyte measurement or complete cytokine coverage.",
+      "human_adjudication_status": "pending"
+    }
+  ],
+  "artifact_hashes": [
+    {
+      "artifact_id": "ART_00316e50daec4179",
+      "path": "research/references/uniprot_IL4.response.json",
+      "sha256": "b81885e7b7e5379c2dfea1045ebc7d02d1ae52df4d73d360c6df9adbd251cfcd",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_004279d8a8fe2387",
+      "path": "research/genomic/snapshots/Gsearch4_retrieval.txt",
+      "sha256": "5ec38ebfaf165ff4306e916279953aec0b3961a381f16316fb012967c592113c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_00c7719655395b25",
+      "path": "protocol/PROTOCOL.md",
+      "sha256": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_02bcf77c1abc9e83",
+      "path": "research/genomic/snapshots/Gcorrection_supp_retrieval.txt",
+      "sha256": "fa11f71cd5029162cc874a738c51ec8ed2694f013b2d6f86e4c230f7f7f47d15",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0340f33f0202fd00",
+      "path": "research/genomic/review_response.json",
+      "sha256": "81926babb2c47084c75b09b011a79ba76f5528ca93e0797fafb0d45678cb5ea7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_03cd8353b8597329",
+      "path": "research/references/uniprot_IL15.response.json",
+      "sha256": "e12984c10ab56dcdbd7c6ffddadb9c06cf1d5f97e5877030a3c9860b17fe59a4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_040ace7ffc7be636",
+      "path": "research/references/pubmed_entity_CCL3.request.json",
+      "sha256": "6e638a0e09cf073f631f4da88a80706749ff929849c302e24bd09ea0daa18cf7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_04d5d567439a3ac6",
+      "path": "research/review_multiomic.json",
+      "sha256": "6178648fa2dcfa1c2b1b33d2f95c453e968ccc5977530c2676a6b782d8b7e545",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_05d0ef238ab0aa96",
+      "path": "research/references/pubmed_entity_IL16.json",
+      "sha256": "41799610c7a38f190eabf950a4cd8e04a6740c477fa3dbe4fd84511477a9fa50",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_05d3e328d4cb9f9f",
+      "path": "research/proteomic/snapshots/open1.json",
+      "sha256": "34ce09a1babe5ae0a79518dbb5d8d9b850c9f630e48d567254b692a9750f5e38",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_060540e3e6f7046b",
+      "path": "provenance/skill_snapshots/uniprot-skill.md",
+      "sha256": "456b5f2cb25b12403b5f000fa808bbc1f1278709bedbffdc4919a7677d31fe2c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_077e55a1c978a795",
+      "path": "research/references/pubmed_entity_IL2.response.json",
+      "sha256": "758339c9d49aad8011f63f522e5c315db516275fe3485f8f48131294ab8ff299",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_093128d967906bb8",
+      "path": "research/references/uniprot_IFNG.response.json",
+      "sha256": "826d5c1b147be010ad9b06cdd3f638548f05350b5c3ebc01c1772b1aa51202ff",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_09a4a63f2a65168e",
+      "path": "data/source_overrides.json",
+      "sha256": "60d1736dbe1da124f1a0ab7c9df5f52a03430d6cf444d994de8272d382f2b248",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0b55318f3bdba7d2",
+      "path": "research/references/uniprot_CXCL10.request.json",
+      "sha256": "2179fcc52a7e5c0a68605b7cd88998741bd6ddbd1f0618f2c9341294ecba7a93",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0beae6ed47a3206f",
+      "path": "research/references/pubmed_entity_IFNG.response.json",
+      "sha256": "6c5027694e783db980df0a25a11e57c3dbe9324c50e557f52b5b3e63ce7158ec",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0bec21f8071ff8e6",
+      "path": "research/references/pubmed_entity_CCL26.request.json",
+      "sha256": "14120474689a8885f064c362130c37678c15d2d5b450021971f564330f0585b3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0c8881a44957b2b1",
+      "path": "research/references/uniprot_IL13.json",
+      "sha256": "3664589414d41a843764556324da2a279cdd2ed1a7097b007e92d282366c1306",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0cf1d533e7404726",
+      "path": "research/references/pubmed_entity_IL10.response.json",
+      "sha256": "a5fde7ccbeed5a41c67e399f7794f353b958fda516daba97de81a527aad31e30",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_0fa48b50f70ae940",
+      "path": "research/proteomic/snapshots/bendall_fulltext.html",
+      "sha256": "73c3dcc246f01706db7fd878734c3f2d836391da1e7918f4315acf1bddef8c55",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_10734e806ed4c096",
+      "path": "research/references/pubmed_entity_CCL26.json",
+      "sha256": "eb70a6b50b5028bf1bf3f204f8b82712f1584e1f164cb7251a9c33befef04720",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_10fdc292dee62fea",
+      "path": "research/references/uniprot_CCL3.json",
+      "sha256": "f60c8beadec02ecd90cc38521bf90bc45cb631c3d5926386a9f29d05b4b53576",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_11766862c5b83fd8",
+      "path": "research/references/pubmed_entity_IL1B.request.json",
+      "sha256": "d22720216e50c7fc3b7e9e346be19a98025b7c1e8b36fd243485126abfbd73e9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_12e36888defa33b0",
+      "path": "research/references/pubmed_entity_CCL4.response.json",
+      "sha256": "0cab6b24d74c242ed9b10249cc5b5e1352598bf478bf0d4a77f5a61e32c25458",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_133fec079259a78f",
+      "path": "research/references/pubmed_entity_CCL17.json",
+      "sha256": "140443c913f2a4815107587f9b0363849bcabb4f1bbf3bd809e1517fa665032a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_13d48371bb0f5d48",
+      "path": "research/references/uniprot_IL2.response.json",
+      "sha256": "b99b1fc1be9dcc322e249c44f329bcf139e9bf9ea5d3b46aef0cd3564749587b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_13db47753cb1e500",
+      "path": "research/genomic/snapshots/G07_fulltext.html",
+      "sha256": "90dec76f49467727354b9ec9f7e3a1689c75a4879fe92702917f4458ffed15b5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_13e4d7de16766201",
+      "path": "research/references/uniprot_CCL26.json",
+      "sha256": "77d1b55e180906f46407c713bf0919f1790fc6898249b6548e5aa8ef182fc5ba",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_150fe845cdcc0164",
+      "path": "research/references/pubmed_B.request.json",
+      "sha256": "031a2b3db027ceae20a3e30a74fec4f7316cebffb4384ac040825927b5ed68d3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_156ac7b0b9e45058",
+      "path": "research/implementation_review_response.json",
+      "sha256": "096cd568db2f7fb3983462a72dd4eb25c707fdfa632bb507c0a192666692f70b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_159045b0e3fc90f7",
+      "path": "research/references/uniprot_CSF2.response.json",
+      "sha256": "fc38c73b996541e7ef705ca1e93763d3c96b87ea2e7f7d915aab2e5a759b96fa",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_17a4581d3d30fd16",
+      "path": "research/cytokine/snapshots/open1.json",
+      "sha256": "3b52b42ebbe3ef495120b4daa7d388bf60f5fb0fb8a27b60edfaf0016d7c9263",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_17b14a999d24f8b2",
+      "path": "research/references/pubmed_entity_CCL17.response.json",
+      "sha256": "68bd9e36d7100670642f5d1ed681acb577b36ba3dcd06c5415d5d87f63a55dec",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_19bbf1847b4b7790",
+      "path": "data/project_checklist.json",
+      "sha256": "3792db283358364476e030d40550bfba4dbb02170f507c6600c1d2c37532f036",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_19d41433d178db30",
+      "path": "research/references/pubmed_entity_IL1A.json",
+      "sha256": "473f8bc0d92379b0d291637002a68e6caeb84e2915740b4929c3284cd7b0ab8d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1a46d5d25bbf4e95",
+      "path": "research/references/uniprot_IL6.json",
+      "sha256": "6fb15320a443a455a08fe049b9a077f539a106072baac06b1f448de35b381a39",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1ac5823b77d99ac1",
+      "path": "research/proteomic/apply_review_corrections.py",
+      "sha256": "fe9e75e925fc84f51c990fdb03b76d5af4827079a07068602e1fb1993a18b048",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1b04375cef53541b",
+      "path": "research/genomic/snapshots/G09_retrieval.txt",
+      "sha256": "639d82268108ac1cee8dcca782a2cb0bc6ecc595bf68c3138dcdda5abee03718",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1bc6bc7d7a012b26",
+      "path": "research/cytokine/pmc_request.json",
+      "sha256": "136d851a61e9378362df7b1b6d73b14121fdd3916cf6666eab2b73c8cb82efb7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1d598abda97be13c",
+      "path": "research/proteomic/snapshots/extract2.json",
+      "sha256": "5e6d7a8cb7fdc9c6d6036c9b2d612244bf0de03bc62ebca77ea7298f883325d8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1dd640a995651ad8",
+      "path": "research/genomic/snapshots/G05_fulltext.txt",
+      "sha256": "87a2bc34e00150f79458f23efe25c280aecd496b31acc29f9b7624b0dce39da1",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1e1d13e91084f2c2",
+      "path": "research/genomic/snapshots/G10_fulltext.txt",
+      "sha256": "443ce61649e0eb33b31f1780e7f7cf2b2bc1128c4180f07d56a2f2aae5236a66",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1ea09d264176c7b9",
+      "path": "research/references/uniprot_CCL26.fallback.json",
+      "sha256": "b32ba4aa8389ec5988c4444b9c2cad878a5eb9a395bfd919bdb0bbb0e50c4dfc",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1f518cbe0643c9c4",
+      "path": "research/references/pubmed_entity_CCL4.request.json",
+      "sha256": "0b8585ff6d0295ceee5aef0f0ee34a6dfbe4ba9ee445847e4dfe2e189ea85915",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_1f6dbd3441aefd75",
+      "path": "research/references/uniprot_CXCL10.response.json",
+      "sha256": "dd9d2c1f03d3ae96323d07e9772383f691693cf28c349e4251dbb0cc1cf54758",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_20bf0ef9e8a7853d",
+      "path": "research/references/uniprot_IL5.json",
+      "sha256": "60d57a8bcd962eb40fb7343e4cde9ee004ebd1da4e5976b9b031f087305dc5b1",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_20fa3329416bcfbb",
+      "path": "research/genomic/snapshots/G10_retrieval.txt",
+      "sha256": "3cde6c8f23db94a0e83180d816b37c9e52357e611c4ad34ac302ebf3e95769b8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_21271fd9c3ac4c4f",
+      "path": "research/genomic/snapshots/G06_open.txt",
+      "sha256": "12ff96ede606113d227851de616310821525737269843b19b5863385e17f2402",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_21967e0a1c34e88b",
+      "path": "research/cytokine/snapshots/PMC10781646.txt",
+      "sha256": "5800341289afa6b8f5b94a8490ad87e58767e2f89a537730c30ca091936eea93",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_22298f6b737eab5b",
+      "path": "research/references/resource_01.html",
+      "sha256": "511207a03fe6f8a2d8e02c4bda8d85a68cbaae5609ec4023b2ae632021ef9231",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_246f575a5ce497ad",
+      "path": "research/genomic/snapshots/G02b_retrieval.txt",
+      "sha256": "313fced2da5b8c22095e7e4ba69fee261777f04295e5964ba1707a11b15be9d0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_25349f0d8991670b",
+      "path": "research/cytokine/snapshots/PMC2119001.xml",
+      "sha256": "75a1f66ee0b4bcc5761557e1dc4fe4805791b7022f585d5d67e9e7d97aa30e61",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_279258a0dd9e1992",
+      "path": "research/references/pubmed_entity_IL2.json",
+      "sha256": "20d6c9e68d16c2531d206f48857dc349a3af308b01092243a6f3f177d8b44657",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_28860e9a70a40bde",
+      "path": "research/references/uniprot_CCL2.json",
+      "sha256": "af5e39a492bb231b9c574b15072f1571637445068dae3843d2268a4653f02730",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_289c317ce65b766c",
+      "path": "research/references/uniprot_IL16.response.json",
+      "sha256": "29751923ec6c0ac52d67d42bd0e0c32ad51334231ef6e1e306043a8d4652f565",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_28d1be0f05394d0b",
+      "path": "research/references/pubmed_entity_CCL11.request.json",
+      "sha256": "361372c416e29737d395e46ec7cc2949f9bea649f6663acb2378b5a0502a816c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_28f0249d0bf9307d",
+      "path": "research/genomic/snapshots/G05b_retrieval.txt",
+      "sha256": "710c52feaafafcb234ffeaa17ae0b244497b449a92c97a0da0f77b7647720c1c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2922be766fd7d60e",
+      "path": "research/proteomic/snapshots/platelet_fulltext.txt",
+      "sha256": "4af749dc94413e0b2c21192a7536b5a5774a50c1982cf37bd03fe5059caf865e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_29ba94a12bb50194",
+      "path": "research/references/uniprot_IL12A.response.json",
+      "sha256": "3220d687dd119fb2b4f94338f90980cc8c12e67cb15a444e4f4e476b8575cecf",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2a62ec1affec1dcd",
+      "path": "research/references/pubmed_entity_CCL2.response.json",
+      "sha256": "9c11e2c149c88996422b48c502b3bac61c0619e5d7c7b277a3168d4e0946a8c9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2ac8852e3df7495d",
+      "path": "research/cytokine/snapshots/hcd_biorxiv_api.json",
+      "sha256": "aad63d5def0b98781389bdb8f82d01720508fb82cea609cae3ddd055cfae0d1a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2ae34f409d82eb22",
+      "path": "research/genomic/snapshots/G04_open.txt",
+      "sha256": "84fefacb0d631b7da4bfb4b82f8e6d2af37a1b0d76c12da931031bb95c14aa1e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2cb18d636d3a6462",
+      "path": "research/references/uniprot_IL12A.request.json",
+      "sha256": "f38d7cbabbba0afadaa9ce86024907018b736942b4ece63c11f722e1114f2d52",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2d750e6eeadf69df",
+      "path": "research/references/pubmed_entity_IL12A.json",
+      "sha256": "6d83a023edd54ee9e31d21af27cc08132b0041a49c2953d93e3bada819808cbe",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2e538829a2fb4ae6",
+      "path": "research/references/pubmed_A.json",
+      "sha256": "41e37ff9d03076e1f11bd00625ed9e98b4bf83d246600027f312ac37038c5cc4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_2ec9891f20628a40",
+      "path": "research/proteomic/snapshots/atlas_publisher_page.txt",
+      "sha256": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_300b42d4ef83eded",
+      "path": "research/cytokine/build_pack.py",
+      "sha256": "52a7f67389ee42d52d4d2d7bd5d0a2d0530e1eef0fdf67544d9fcf925fb76d22",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_310c6eb2904734e7",
+      "path": "research/references/pubmed_entity_VEGFA.response.json",
+      "sha256": "a27783324b6b98383cb55d80ccc5476736ae2cba1914a35b4d0637b4537542a4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3155b4dcbb623806",
+      "path": "research/references/pubmed_A.response.json",
+      "sha256": "4527e7fd61593b8edbc21feb196af911e54ae3b0699e6cf10a36df53c82a5c75",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_31e119e27df523b8",
+      "path": "research/references/pubmed_entity_IL6.request.json",
+      "sha256": "fede4f2d86fbc45eec5b0271591b992fc646c2dce9aace66ea278460e25a882f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_31f73504b9bff77a",
+      "path": "research/references/resource_17.html",
+      "sha256": "fd2cb3ca8404a66d05485772912d96255cc7f73f95c6dd10e9bc20bfa3f64af5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_32cf8ba99359d7a6",
+      "path": "research/cytokine/snapshots/PMC2193232.xml",
+      "sha256": "1cafaa4e24ae1789756440cdece1e9670fa0bc6c27f40f7adf9616f69512cc57",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_32d1fcae85601444",
+      "path": "research/references/uniprot_IL1A.request.json",
+      "sha256": "64e3c3ce3c17de7e968acd41958706b2450ee8065378d9af0a448360f6c7828a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_330357cfccf6773b",
+      "path": "research/references/uniprot_CCL11.request.json",
+      "sha256": "fae34fbf452e819bd85dec39e7a36cc8f186ab26c7db176c5859ba3aef441d35",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_330f1d2420bb9684",
+      "path": "research/references/pubmed_entity_IL17A.response.json",
+      "sha256": "c7dd1478c81b179347a478c56ff495d669eb0b286b14349f5c8099055b516d1c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_335a6d38d41e8784",
+      "path": "research/references/pubmed_entity_IL6.response.json",
+      "sha256": "ff88fc5ac3df45d2e6727cb2772b7fac07991035925e48717ffbd67433bea6c4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_348540ac2d176995",
+      "path": "research/references/resource_22.html",
+      "sha256": "5e0cb3553ee8959f280e8fd7da240434e03a885ca8108dde4e20022767c98a5a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_36383dab99d85d18",
+      "path": "research/references/pubmed_D.request.json",
+      "sha256": "5880df97938eec4c6ae94c9fbf53423b9f58493267644a22ca81ea745698aa0a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_367fed1a8f2ff114",
+      "path": "research/references/uniprot_IL1A.response.json",
+      "sha256": "06fdb501b28789be5c39fc677d8afadce27be5588490c63884071ee7746ff075",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3769e466c08a21e6",
+      "path": "research/cytokine/snapshots/search1.json",
+      "sha256": "b4fc221fcc0eedcafac0d2830603a188f63450b5a028a03a04b11ad9e4ce7c3d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_390365e246e922e3",
+      "path": "research/cytokine/snapshots/open4.json",
+      "sha256": "a6d5bae4931439f1e296a2bd6e225d5f881dffebb22c168cb4ddc4bd863ed77b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3925df0744d905be",
+      "path": "research/references/pubmed_entity_CCL22.json",
+      "sha256": "75d9d6700180a7b57bce0dd5b13fc4d7bfc067dff06454446cdde4056139dd90",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3a3b852d9b3fd31e",
+      "path": "research/references/pubmed_entity_IL10.request.json",
+      "sha256": "deb57f2cfe84002047fc4b307d4603ba9010c2f41be91cd2948e4507584d30d0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3a716bf4a328d59e",
+      "path": "research/references/uniprot_IL16.json",
+      "sha256": "787cb9ed6c0d5736719e08f5ad3cd7823cf1f13060e4bccb0b2c36a564d44fe0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3b3118b4ee53a7f5",
+      "path": "research/proteomic/snapshots/extract1.json",
+      "sha256": "1dcb162b3750c70b20f1be791498dc12046a520691c947a5b8fe01f0018a17ad",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3c9c81a9a7e6280e",
+      "path": "research/references/pubmed_entity_CCL11.json",
+      "sha256": "24e17b583d4e6655f47eac0f16dbeb790198a6df52467a5fb5c9b8821fb30b0e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3ce35a628813ff16",
+      "path": "requirements-research.txt",
+      "sha256": "c0ee2c01270411fcd5c8bf8e78d080237c4d1c61ae34d197c935d29cf50a8833",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3d7a85d3bda73e7c",
+      "path": "research/references/pubmed_entity_IL4.json",
+      "sha256": "5ac0a90f90c011e9187e8d50453a7f708e8cb85d7138187fbe98ea41e57aa014",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3db39e1ed8418dc5",
+      "path": "research/references/pubmed_entity_IFNG.request.json",
+      "sha256": "a7c49c11f5b175b1ef9f75f0581cbc4daadf3d54c515e647a0d163989c5fbeb3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3e546b3ff70c5d62",
+      "path": "research/genomic/snapshots/G08_open.txt",
+      "sha256": "2ca2ed156d83aa7e45425de54fbd1f0b5311e231ced85f63d44418a2ce9d5ebf",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3ecf575012a46dd2",
+      "path": "research/proteomic/snapshots/search5.json",
+      "sha256": "e75df81b921fa739d035d55b2eb5c6b63972b1fad1932fd7c18e05213f2fa2d4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3f323061238bad97",
+      "path": "research/proteomic/snapshots/atlas_publisher_page.html",
+      "sha256": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_3fd51e78a43a18fd",
+      "path": "research/references/pubmed_entity_VEGFA.json",
+      "sha256": "8f70bb43c84fc4111aa3c4788aa24fdd93daacfcfebd780a717c0dce02a41345",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_41f4340d33ca2b8e",
+      "path": "research/genomic/snapshots/G04_fulltext.html",
+      "sha256": "b00f8fea385ccd45e5f52e4dec0e77ba2e8904404c4f9c6003fa846a98976c2e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4361e90a282f5b34",
+      "path": "research/proteomic/snapshots/search2.json",
+      "sha256": "c36ddae22b9a23b7629464d463ff95f1dd78797965b8399f570a3fcfcbca53b3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_437abed297ccb9bb",
+      "path": "research/references/resource_03.html",
+      "sha256": "b3d2c99b8dd47fcc8f8443c81c687ceb2bc24a9f24d3aa1fd9c93e6f48a43831",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_449111bbf6cc0f48",
+      "path": "research/references/uniprot_CCL4.response.json",
+      "sha256": "4a2af9bca8a7999acf1342ca8760c88570663585e9d63c7994fe5820dda539c6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_455232aab7c69604",
+      "path": "research/references/uniprot_CCL13.json",
+      "sha256": "fcbf90dfe2f8a72bf34e0f461e00bec4e0570578ffddf5a809db23241157b63e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_47aa48b837ea15e2",
+      "path": "research/references/uniprot_CCL13.response.json",
+      "sha256": "ce13a37b6e48cc3350e10d89797cc3dfdd5000c5eff104fc2aa9f5ccafac6b46",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4857e48b4eefe282",
+      "path": "research/references/pubmed_entity_IL17A.json",
+      "sha256": "60d3bf4bbf487f15b2c9e717ecae1054e0d46bb75d6af9f0c036a57551693006",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_48c421187f537fa2",
+      "path": "research/genomic/notes.md",
+      "sha256": "cd2b8db162a50583adada1fff37a68232262ef6903f8b2b75c665f62b412bf63",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_491c04925d6fb71f",
+      "path": "research/references/uniprot_IL12B.response.json",
+      "sha256": "e47886b0d8a9929a8260610b76edc4f6accf03d02ec10b8f73e151cc37d9d28a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_49a4245a51b195ed",
+      "path": "research/references/pubmed_entity_IL16.request.json",
+      "sha256": "29ce63250295d5087424c737e2b50ce8f1807482bc8aff9bffd62572826fac96",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4ac297a67e77b343",
+      "path": "research/proteomic/notes.md",
+      "sha256": "9c8ac7147af39b62f09f945b832b251043d34f4ae9ce26ab4ea3a47fafec1d62",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4b2e288efe8f0e38",
+      "path": "research/genomic/snapshots/G02correction_retrieval.txt",
+      "sha256": "5864589d6cb156b4aab5004be1daa53500e90cc4598444ce28aab69fcd1ea3be",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4c53a9d6c242d599",
+      "path": "research/genomic/snapshots/G03_open.txt",
+      "sha256": "50d425c42dfb6c1960bb1afea0943ed8800fc90730ed2efc6692f86e32f36a51",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4c8ea919cc4cdc8d",
+      "path": "research/references/uniprot_IL5.response.json",
+      "sha256": "e1500ac4b76ed5d9a2a682446d54b1f30eb4cf22ac969096bcdabdbcdfc03844",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_4d1a50a9f476b890",
+      "path": "research/references/pubmed_entity_IL5.request.json",
+      "sha256": "75339320d47c756959dc1e52b87decdea02cceef1c8f0fff03fd28bc36c9aacd",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5047e17a167d9a41",
+      "path": "research/references/pubmed_entity_CXCL10.response.json",
+      "sha256": "30aa69254c52cc38e0d3c658ca148fd215e5e9a2d769a8e22f0117382f90efd4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_50a1e12e8f26af25",
+      "path": "research/references/uniprot_IL1B.request.json",
+      "sha256": "1e48c5ffad6e5e7fd89c356e6455519a0cc983ba260510029e296bb45378ce0c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_50a6111bd037115f",
+      "path": "research/references/uniprot_CCL26.request.json",
+      "sha256": "8884a1bc79460a25b97d90cd7a1383c4c809fb788a9843e929170e23ce91e9fb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_50c0be24a5a8f65c",
+      "path": "research/references/alias_plan.json",
+      "sha256": "747e7940b91a392576b00169575940b00dd871d1aa96fc4bb35ae309dc440055",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5172442b1e4121d6",
+      "path": "research/proteomic/snapshots/search1.json",
+      "sha256": "b58f8b5df81724f54eb4a18a5b95457af183ab593606b84002d21f6f2e2c2ed2",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_51cb38953aece05a",
+      "path": "research/cytokine/run.json",
+      "sha256": "a4fe7bef469c43256fddff957e7c30ec388aa09503bb2b7334e8e5b45c698dbd",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_52e625351312bb26",
+      "path": "data/scoring_annotations.json",
+      "sha256": "423812a5894107dae8a27f55a8c121a56b32611a961298a4b04fd04d427fa7bb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_533a3b33cf4285e7",
+      "path": "research/cytokine/snapshots/metadata.json",
+      "sha256": "8c42a52e3d6a95926fdfc894095e161dd2e23d0480a9b76e621f391fae88c988",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_550bc9f7120ecb79",
+      "path": "research/references/pubmed_entity_CCL13.json",
+      "sha256": "215499a646124280db1e15873579f71e31af3ce6253d9600c36da1fca28612b4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_555eb109da59ba57",
+      "path": "research/references/pubmed_entity_IL15.json",
+      "sha256": "a53eb40084125f82f2356add74c8ef0675f4d7a34b18ff968e91ea9fcc5d07f8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_55fb57a4f06b6756",
+      "path": "research/references/pubmed_entity_LTA.json",
+      "sha256": "6e7c03a7e8a34d5796e7fdc42dcd4c9ce1eddd8c18808aaecccc1a96d8918fed",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5616136f2ef5767f",
+      "path": "research/references/pubmed_entity_IL6.json",
+      "sha256": "06c430d2cf91fa93585f69cc4122f4d3ac63001fb03c29dd4da7a91883375e19",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_566e5a3ed6f8598b",
+      "path": "research/cytokine/.gitignore",
+      "sha256": "57a8ad0e62346f7b0f2e261d59a7b90f1310043424bcb9d229208f183f1940d9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_58422c1f7f3d90be",
+      "path": "research/genomic/snapshots/G03b_retrieval.txt",
+      "sha256": "74ddccc82ab1c0f27523bd4e698d8426ab184fb1264f88af1463ba27d4df8e07",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5c6e5c3ad3d599a7",
+      "path": "research/references/pubmed_B.response.json",
+      "sha256": "1e374117069b8b13f12a7c2cbb30f3e32b0db0ed92242b06a35ac2c90ae3978b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5c857e3d34c3f3c7",
+      "path": "research/references/uniprot_CCL4.json",
+      "sha256": "bb90d278544edf2ecbd3b263495635f193f9c0b8592d2361835506e8720686de",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5e459ad307114431",
+      "path": "research/cytokine/snapshots/search3.json",
+      "sha256": "83f76e61110794713fad05a4147e8c9c4830914b386dddf87388843e758f3aa1",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5e8bfaff6c857c5a",
+      "path": "research/references/resource_20.html",
+      "sha256": "8ad515e1f6d2f397eb905a8c1566494aaaa3e19f7e692c683d3f6648b8645f77",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5edfb53c479354e5",
+      "path": "research/references/pubmed_D.response.json",
+      "sha256": "063311ebfdb56a93d38c84c82fd10e5e33c871358858464f06266396927bc69e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5f9fc1376cc22e5e",
+      "path": "research/cytokine/pack.json",
+      "sha256": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5fc124f5ddc64023",
+      "path": "provenance/environment.json",
+      "sha256": "c194490463c5bea2fe3500765879bf6926257ea9565591fb6249597fc35f7619",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5fd6e8d52c09c318",
+      "path": "research/references/uniprot_LTA.json",
+      "sha256": "37c513b236b9a61bcc7835f974add2d051f2191f4d3a1b1ebb10f7181b98a69f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_5ff1f20b6ede4a9f",
+      "path": "research/genomic/snapshots/G01_open.txt",
+      "sha256": "d4efbae49f1d84743f6be185db85a5536c70e59e499031cd474179a7a648bd11",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_613aaf4c8792efcd",
+      "path": "research/references/pubmed_entity_IL15.request.json",
+      "sha256": "7f66779ed1099c6cadead3c8e629813455384452e5fcbfcf277e2a5a4fdebef8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_628974718bdae9f4",
+      "path": "research/references/uniprot_IL17A.request.json",
+      "sha256": "cceebb4396ecc3cf6b41b2449c0194d72fcd5fcd81dd0f9ab77dfa43450a0dfd",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_62c732601824bfd2",
+      "path": "research/genomic/snapshots/G05c_retrieval.txt",
+      "sha256": "e240beb3f432d6c81f722a8b92d17a34d2b462f5a30576a0686029c472a07dd5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_62f8545d6e5c94c8",
+      "path": "research/references/resource_10.html",
+      "sha256": "13ceafe512d6f8dc557bd48b13394fabeab743acd832068c4ee58d86b6eb88b3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_63c6bddf13ffc27e",
+      "path": "research/references/pubmed_entity_IL12B.json",
+      "sha256": "0a53a1872efc6f884b91f125743057c7ea60e7073f0907c1f0902d10d3a7616e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_63f9ad421ff58116",
+      "path": "research/cytokine/snapshots/search2.json",
+      "sha256": "2d9b31e904cc334c925419e26a94f278e55d8e56c346be3955c74719e1e7b9de",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_645d57d5b3c1cbd0",
+      "path": "research/references/uniprot_IL10.response.json",
+      "sha256": "0e631125c45b685691d7595b284a7caa0e596f4c0133f56cdbf13e1ddfa034a7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_65dda70ec0100fec",
+      "path": "requirements-research.lock",
+      "sha256": "b590ba9aa122415ac6b551c0f2e07a4abc493ac2b2c41d8537796298a765c972",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_672ab2ec346fafb3",
+      "path": "research/references/uniprot_CCL11.response.json",
+      "sha256": "968e7a3e9615509a993ba5140566a0210d83ed26338f663774f1c78842852b31",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_68c683c95cf48f4c",
+      "path": "research/references/uniprot_IL1B.json",
+      "sha256": "80677a941288d75bfa9451844eff7a9ed29b1dc718bf7658ab8d7470ac3a89a4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_68f5e7803cc7b3a9",
+      "path": "research/references/pubmed_entity_IL13.request.json",
+      "sha256": "180e57bedffffb284cf798371fe56f14a8faa75b8284cc91c8beb3f74cfb6501",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_698b86ade587d286",
+      "path": "provenance/skill_snapshots/research-router-skill.md",
+      "sha256": "e9e39c6c411da80f9fd62a62e70cbedac2404bdcfb51ddb8fda1dc3332c7e357",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_69b4c2cc59c2ca83",
+      "path": "research/references/pubmed_entity_IL7.request.json",
+      "sha256": "4530ec14b02544c877c3720933911734f9e4bedf6fb581ea59e97d288d84dcc6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6a04fa0b01512c96",
+      "path": "research/EXTRACTION_CONTRACT.md",
+      "sha256": "35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6a27245891494f94",
+      "path": "research/proteomic/snapshots/methods.json",
+      "sha256": "20ed5d9d4fce163028d063aad39a21ca6bffa341b2cf49ec6bf5658f8d08ce0c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6ac6b3b3f0b05f36",
+      "path": "research/references/pubmed_entity_IL12B.request.json",
+      "sha256": "600bf7563f63cfaefcaf475b8e0991f07a126cfb2f906393eaee8315ea84d871",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6b16f2bf485cbbf1",
+      "path": "research/proteomic/snapshots/search3.json",
+      "sha256": "d260164e0a42a3745b81ed951ec79917069e2e2456f01abcd06e079dd40a665b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6b4cbc20ae38e0cd",
+      "path": "research/references/pubmed_entity_IL1B.response.json",
+      "sha256": "a0af1ebcfce8c35081059bc083cb761cd3fad5e5e34412848bb3de883c0d1e21",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6b6092c4a18e78cf",
+      "path": "tests/test_kb.py",
+      "sha256": "71d741e6f4a3854e8c3ed2de7bb04d54fe82920bcaeac63674e67ea87fb87656",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6dd2259a4a4a6ae8",
+      "path": "research/references/pubmed_entity_CCL13.response.json",
+      "sha256": "f93ff17a5492e6c1e18c02969251d1553a3ab56093c7b70ffedce832e5f3588f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6e51a0ab37a5e622",
+      "path": "research/references/pubmed_entity_IL17A.request.json",
+      "sha256": "a5939fd4359e576135fb31f636d081d84afdadda497b76a2925b3a09d7017c2f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_6ef78b9fb093e583",
+      "path": "research/references/uniprot_IL15.request.json",
+      "sha256": "dbf3ae371de6bcc59d7db726f1d8334354ba965bb5f39db31be158b9ace077a5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_70a09edc06bfc853",
+      "path": "research/references/pubmed_entity_LTA.request.json",
+      "sha256": "c35ed814e7fee5cd6680d4520178ca2a7fe69c96c38be0dddaea30fbf736da28",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7136a065ee2a9f89",
+      "path": "research/proteomic/snapshots/reap_fulltext.pdf",
+      "sha256": "bba7753a2baea26cb649e574e530791a040f1d37958b1e59f244d9331058356d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7175539d272aa451",
+      "path": "research/references/uniprot_IL6.request.json",
+      "sha256": "2726cf4539ee6cb674e1bf89df99a13f6aefad6f351cc7d6762874b955f8e838",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_71870e50d2cc1b93",
+      "path": "research/proteomic/snapshots/extract3.json",
+      "sha256": "6af3e7c4129c2432098ba3fef4eca06a4e83b0cd3777c9c95af48ef369c48252",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_719f7872a6ad5fd2",
+      "path": "research/references/uniprot_CXCL8.response.json",
+      "sha256": "87ff344a4a29d838682bf9d01dfbe29f6ee3c2344e07cb0c5f7499b7d8f829d4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_727e5124e34f569d",
+      "path": "research/cytokine/snapshots/PMC10781646.xml",
+      "sha256": "cdeefd81ddec026ccc32292d2ff428312e9331187217f2baf95b73386227a133",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7287715501d6af9e",
+      "path": "research/references/pubmed_entity_CSF2.request.json",
+      "sha256": "bd134c49d906875ec6a388fb959fcecaa08e6e787f1730d73237912501b0022d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_733e75d6e1715eb2",
+      "path": "research/references/pubmed_entity_CCL2.request.json",
+      "sha256": "1b21ba0959b7975b9983a74708dac38e613847b04a012fa5d67baa6920781700",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_75f2176061545a92",
+      "path": "research/references/uniprot_IL15.json",
+      "sha256": "a682b20afa52bfb33d35f98a5f30fa3cbaa2dac4da49acdd9bc67d2f31600c75",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_764433a0f03727b9",
+      "path": "reports/PROJECT_STATUS.md",
+      "sha256": "622cca37b6b04c8e865afac199575d12121f0a9a64895932aa03579ebf740a6e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_76cd9b1e0a3c2228",
+      "path": "research/cytokine/snapshots/open2.json",
+      "sha256": "f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_76f5612531b0e18d",
+      "path": "research/cytokine/snapshots/PMC2193232.txt",
+      "sha256": "05b8494ee3be3c6863d849ae6816d8495331e2a621c99caa1696b782ccf84d9f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7793861c72e56051",
+      "path": "scripts/kb.py",
+      "sha256": "977b5d439913980c7e9b30d8b59c9788f7bebc3a1021482dcfaa52b530698e9a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_77d4ecb00df6aaec",
+      "path": "research/references/pubmed_entity_CCL3.json",
+      "sha256": "bb5926d08d04a41ca17be23fccee4c43814f8974fc2c6f47a34e86de4b5fa6c5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_789156ee6c2bf0ed",
+      "path": "research/references/pubmed_entity_LTA.response.json",
+      "sha256": "dd5eea4a9ed8a81315aedb1429255c3cc993a62b1a0fda609e345fa72be34942",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_78bf1d0543b772e3",
+      "path": "research/genomic/snapshots/G09_fulltext.html",
+      "sha256": "2757c6c4e56a14030dc9f42d38c01dfad94e2d0472e36d013f96f35e697781fb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_78c0918c7d48621e",
+      "path": "research/references/uniprot_CCL26.response.json",
+      "sha256": "ad48f4a00c5d42a37f48d1682fd6b78d99cc7b279c417674388c1a656e0b4189",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_78f19a64c97858f2",
+      "path": "research/references/uniprot_IL12A.json",
+      "sha256": "ce089ec46e6ee82b91bdf4a3f8e1263c83baaeb28081dd8eaed5ffd1b959a022",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_79e99fc438c0b321",
+      "path": "research/proteomic/run.json",
+      "sha256": "e5c488529be3cb6d6050ae9fffdbf14ac0bed2b3b35bf84c7eb5ce103e96bf33",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7a4e92861dcbe805",
+      "path": "research/references/uniprot_CCL17.request.json",
+      "sha256": "2bb7e042b4a5f068982016cf3b035ea195ef1a40d51958fc8ed49be4a5d9c29a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7aab84b1f9d5122a",
+      "path": "research/references/pubmed_entity_CSF2.json",
+      "sha256": "8b05b85ecdf4de9605810f5d2b4aebbea6f45ac32614d1165cd49287e69b98db",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7af09ab0a9024394",
+      "path": "research/review_implementation.json",
+      "sha256": "eff01477aa7ce0d386481c336b9f53dfc43e172c66e96654a77b2098380589d8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7b05b2234dfa7a9a",
+      "path": "research/references/pubmed_entity_IL15.response.json",
+      "sha256": "8cbd85dad510fc02492a82b6592ab5a3b66f259ff46ebed08c1006cdc5876935",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7cb1f35a7f021144",
+      "path": "research/proteomic/snapshots/cite_publisher_page.txt",
+      "sha256": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7ce1622a741d09d5",
+      "path": "research/genomic/snapshots/G03_fulltext.html",
+      "sha256": "6bde78d536f1eb9d88c669269432b0d59c0e02155d5f02f54fbb7690c5ff1df8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7d216e304d46b979",
+      "path": "research/references/resource_07.html",
+      "sha256": "4184d91c72132b407ef17a7914250a9f9b0ac7481a81aecae852d0cb7c154fe3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7ec54745faa2a4fb",
+      "path": "research/references/pubmed_entity_IFNG.json",
+      "sha256": "0fc3f99eaa63c85a6380fc1b42ba609e2e14af5cb68748f77afb25ebba077e21",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7f1495c326b089fb",
+      "path": "research/references/pubmed_entity_TNF.response.json",
+      "sha256": "4dad62f3e607d969bc62f1fb2799723205b9b8307c2881021ac92a5032aaad87",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_7f821438a087c1cc",
+      "path": "research/references/uniprot_TNF.json",
+      "sha256": "e0ff0ba226d6d35a9fff2f24366edb2f7bf6bba1c8e6ae18c907f8463b2623f7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_800588c3fa0db2f4",
+      "path": "research/references/pubmed_entity_CCL26.response.json",
+      "sha256": "734a2939c74bc2b9944730c6a5997e4cb7fd6da5e64f1f5f4c89aa3f44e4f167",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_808b870926223772",
+      "path": "research/references/pubmed_entity_IL1A.request.json",
+      "sha256": "92250c2274f3adc99f33c9d17590e582c7cad889843a0fc9a7abfd42febb2279",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_81799751140e422f",
+      "path": "research/references/uniprot_CCL17.response.json",
+      "sha256": "3a7b1bf1e2692b7ad43da179ffc497982c5512ba4f074f82e94453392e390b57",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_82837f92eb15f740",
+      "path": "research/references/uniprot_VEGFA.request.json",
+      "sha256": "94186762428301e000a558c71c029d852c6c2428e63faa39bd73904b20f16cda",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_86c07178647e5e4d",
+      "path": "research/genomic/snapshots/search_01.json",
+      "sha256": "71e142343d80b14718de1590ffefdacc31b47783395eb660b8f1c047e82252f5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_86de7b70a8b3e3a2",
+      "path": "research/references/resource_12.html",
+      "sha256": "c5d8d124691dc870f34d7ce74e77a4b047fccc8b76249c6489c5e29456f29b9e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_873ed6ba0821e3c8",
+      "path": "research/proteomic/snapshots/bendall_fulltext.txt",
+      "sha256": "9a9f86d6f0be3e361b3b235b3ad50bb654236ea251654e27ca40c88c698ebf95",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_87f3213f2b1ca9c2",
+      "path": "research/references/uniprot_CCL2.response.json",
+      "sha256": "32757b3c5497bbb4940f982ef79cb5f1659d0226284eff53ef22d9132483bf87",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_88a3aaed733475f9",
+      "path": "research/proteomic/snapshots/open2.json",
+      "sha256": "78249fb5817b3c38481fa0a87feba95ba8fe5788a499ad91ff2bec26c9c9309a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_88c5d453a7007af8",
+      "path": "research/references/uniprot_IFNG.json",
+      "sha256": "9d276b5007880b6ba39d35194c87745c3f60f2bc2793468062e88328f3e5b205",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_89b073d6f4b2f4bf",
+      "path": "research/genomic/snapshots/G02_open.txt",
+      "sha256": "374da8796b5882d8cdb32e9c16db26c6802e916a5c5e81defe8bdbc4d80ec497",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8a919077680d2456",
+      "path": "research/references/uniprot_CCL2.request.json",
+      "sha256": "382ae624756f1a6ebd12743e8bfddf45f2f92f192ba7900230ae788997436e7e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8ac04d704acf66ec",
+      "path": "research/references/pubmed_entity_IL7.json",
+      "sha256": "3b69d48ce815a626948673456665eb48fa241945071d7c58fea3b1ea2f449a29",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8bc95565293f00e0",
+      "path": "research/references/pubmed_entity_CCL3.response.json",
+      "sha256": "732426a9f0549c5cb4855ee94fb22cf3e040e38c1ceaa0bead96bfac5f6bd1f6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8c47bfc058e5494b",
+      "path": "research/references/uniprot_IL5.request.json",
+      "sha256": "21d453c7168260f90bd5ca5a95f5b6b7afbe7a4f304c660f0da871b3f58f26ae",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8c5428688adb19e5",
+      "path": "research/genomic/snapshots/G01_fulltext.txt",
+      "sha256": "fbbabd48dc54c65150ba6a3a2299aa83ed85c8dc399012bfd018d6bb81893fd6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8cb3763945707801",
+      "path": "research/references/pubmed_entity_IL12A.response.json",
+      "sha256": "70cfcff9063ab32ebabc8bbf5819f7a7effc9e60cd768d54ba5e7a1cdba577c9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8d4b39629be1a72d",
+      "path": "research/references/uniprot_IL7.request.json",
+      "sha256": "ea18bf9c3f8225a7fb5fc5432af9120c90bc512d71af3bbd10c61730182349bf",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8df9ce2fa885be03",
+      "path": "research/genomic/snapshots/G02_fulltext.txt",
+      "sha256": "8475690c1c795fff7c9880e69a02fad1118593f5959f702e44350d7c9f66be09",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8e9aa3250182d486",
+      "path": "research/references/resource_21.html",
+      "sha256": "aa9c2044fcadce3637f78c43798812a3ef830b0415cf674b8672b349f8b660f9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8f5bbcc89be788fe",
+      "path": "research/references/resource_23.html",
+      "sha256": "7ae0b9b85f8737c419b00282de2ac4106165dca2f48e7ef9ce6284e32b9be0fc",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8f99cfdc1e85d800",
+      "path": "research/references/uniprot_VEGFA.response.json",
+      "sha256": "e340608c082a9276ee41ca4969f41e6ab27e523e5310b3009836ca77971a38c5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_8fb7fb6f4188f3dc",
+      "path": "research/genomic/snapshots/G07_fulltext.txt",
+      "sha256": "1a517413b1e1f32d6bd6079bc63eb39861ea1979f1befac18362ad2286153e18",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9164dfa80b8d2c33",
+      "path": "research/references/uniprot_IL17A.response.json",
+      "sha256": "c0335180f329bc02b0633a0b1ad0c70766433c34a46fada96844375d426e2d77",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_91b8f0c0a8e21e0c",
+      "path": "research/references/uniprot_IL1A.json",
+      "sha256": "9fc3a121a644741a9d7ffd41844dab9e556c2821ded130273979b51e6855140b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_93d3843f52ae8927",
+      "path": "research/references/uniprot_IL10.request.json",
+      "sha256": "f661fb9b54a777ac800d9f665a13fd78e3f51f0b52d05fa311698f5953389014",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_93eaedb156875de9",
+      "path": "research/references/pubmed_entity_VEGFA.request.json",
+      "sha256": "0c313e82c516ac607af805b23de6fc8bad3fe5885e33a456c4b99b60ff2a3f08",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9442e3ad05ca8e46",
+      "path": "research/references/resource_14.html",
+      "sha256": "7e6c4ef019bf27d8cb9a9629b9c5d42b693e665b7ecab045de42240a2fac559a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_95636a20fc0afdfb",
+      "path": "research/references/resource_19.html",
+      "sha256": "8a3ba035dc6cda9acafe552c2af2b0571221def0601a5a387a22d207b567c850",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_957dca4550490ad2",
+      "path": "research/references/uniprot_IL10.json",
+      "sha256": "fd6bde5be61aa73ba6aac09bcff9fc92036b580367c09f9969b725174b649b1e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_95c0bd1de917eccc",
+      "path": "research/references/pubmed_entity_CXCL8.response.json",
+      "sha256": "786de2f45ff09b3cc8ea6d7bf2d24412095b837c5851b7400d7cff81576b1fc6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_966bb5f076352743",
+      "path": "research/references/uniprot_LTA.request.json",
+      "sha256": "337707ad7d252f1027287dbf3d8568620a4a9dc1f4b6ae70060347fd73b144f0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9816d5355d0d645e",
+      "path": "research/references/pubmed_C.response.json",
+      "sha256": "568a6ee90016e161f719638f1760c3d4adc008936bb565fd76038b767cfc2b94",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_98a413f6ec4d002c",
+      "path": "research/references/pubmed_C.json",
+      "sha256": "96d1b0810aba31ce6826c1ae206605ac304f52ea4ede08bd045b36392c520948",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9c349815b4cd5116",
+      "path": "research/references/pubmed_entity_IL7.response.json",
+      "sha256": "714f3332a8c38a548c96eca66eabf1cf47c83bcc9e6ef1043604e1c27ab67c7f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9c60c79d9ebd2c24",
+      "path": "research/references/pubmed_C.request.json",
+      "sha256": "ad95b28cf3503842dc5d017bf1c755867475a9b436b6c64d56db896d875f88dd",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9e01fccadb2c8e5a",
+      "path": "RUNNING.md",
+      "sha256": "5d07db438307cc4cbb22d80d7082ab1f25555b7f96c27f16983a92d2defa5204",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9e140fba39b0acc3",
+      "path": "research/references/pubmed_entity_CCL22.request.json",
+      "sha256": "08a1a9589b8395ea07c53cb1b2700b8e4bdefffb240223aaa70616657f326d33",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_9ec9101e8de9e709",
+      "path": "research/cytokine/notes.md",
+      "sha256": "8eef313a70e10ad7f9ae90e673b1824cc5b51018dae7689273205055bd36f90c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a08fed1e4ca5ec68",
+      "path": "research/references/pubmed_entity_IL4.request.json",
+      "sha256": "66a6defec26e0f20325f6af77214deb1d5a181a135402e55557440c3abe44a76",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a19b0b3d33dc9218",
+      "path": "research/references/resource_registry.json",
+      "sha256": "cc79d8951673d79435be85d55612c0aeb5a64110d232eee3a709ce11302a2a83",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a3550e031e61b468",
+      "path": "research/cytokine/snapshots/open6.json",
+      "sha256": "8d198a3c0e20035dc2ee4945dc7d7e9b581c7f54264b674b9f13620187e8706f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a39f0871c3a3fbb4",
+      "path": "provenance/skill_snapshots/deep-research.md",
+      "sha256": "fe92f226b47314a3963738a7b98d5afc5d51973c7b589c72277e3cc9e59d44eb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a4559f17f1c2841f",
+      "path": "research/references/pubmed_entity_IL1A.response.json",
+      "sha256": "b5371146e202b73a122b8759b408ed654306deb0d15b79c8a400ac51bdffd98b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a4b0f3ed6587b34a",
+      "path": "scripts/write_status.py",
+      "sha256": "77e4d124a432edcfbb812f919a1a28c9f5e45dbcc632a8175335d51f19e979e0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a50f26a169c9e8e3",
+      "path": "research/references/resource_04.html",
+      "sha256": "407c216919d76e93c20766b1b118a2b42f2e972eed88da53cf8a65173fad9637",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a5e4fc6be64e9e19",
+      "path": "research/references/uniprot_IL4.request.json",
+      "sha256": "bac7175f60ce778345b30e800f08e052f7fe4da7021c18932903564c790088b6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a60360512464ae0f",
+      "path": "research/references/uniprot_VEGFA.json",
+      "sha256": "64143d4a8be940508a41a64616aa5f24d96b12c5538fb514424d9606a2adc6c3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a6e092dacdd5ba57",
+      "path": "research/references/pubmed_entity_IL4.response.json",
+      "sha256": "961907198211f5b95ea493c38f9d8d6e562bedd0f07f69b11ee9fd5339e8bee7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a727f73d6a82351f",
+      "path": "research/genomic/snapshots/G05_fulltext.html",
+      "sha256": "188969120233572f5e81a117857db69883c9f3dc74b85b9291a627e7b2fcd135",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a79974388b2f0c9e",
+      "path": "research/genomic/snapshots/G02_fulltext.html",
+      "sha256": "d9d79f2a8201bf96a7fa80b68ef492f431a922ca879ab2973f9bf6c3a2a639f3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a7bcce30c52fff1f",
+      "path": "research/references/pubmed_entity_IL2.request.json",
+      "sha256": "5d328e302b350c3c1dcd2156fd4defd8f820d9b5fb21c29083754c3353c70b8b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a8cdc1384aad8ad5",
+      "path": "research/genomic/snapshots/Gsearch7_retrieval.txt",
+      "sha256": "986dcf30bd9d69454cd2cb80d7cca67ce6b3374c5ec4aba4c6009db6a02a4126",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a8eecc26929824a5",
+      "path": "research/references/pubmed_entity_CCL11.response.json",
+      "sha256": "2e3e51a18ac38e16743ff7a8f2c256b79f9cea6a30a53996f1d0f5bf8183ac28",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_a91b9658eb3750e3",
+      "path": "research/references/uniprot_IL2.json",
+      "sha256": "11b4c9dfb95dcf90ba6f3abafdab2ef3290293eca78158c748d50152ea456f14",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_aa63952e668927ba",
+      "path": "research/proteomic/snapshots/search4.json",
+      "sha256": "4500b7fd124cf851a6ae37d3c81b48b91ad2e5cf80ab5e0dde2e1e118230505d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_aa677078426e116c",
+      "path": "research/cytokine/snapshots/search4.json",
+      "sha256": "b0d48b1485f731e219a576ee7db7a02ee7c04ca9a9a6c2ea52ddf4e2c287c983",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_aaebd0c3fc2cf75a",
+      "path": "provenance/adjudications.json",
+      "sha256": "2252d7d9be35550c3b6c419035a4a12e351052e6abbdc5cd5f2808ff8aa72351",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_aaee9c2b964ded81",
+      "path": "research/references/pubmed_entity_IL1B.json",
+      "sha256": "4156342e0ce3a386f27d876e45489cf0890d1e245d83d67e3bde4e610677fe7e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ab64dea262abab2b",
+      "path": "research/references/pubmed_entity_CXCL10.request.json",
+      "sha256": "3081eb8522d2a373e2549b3b6f39f26b2b436cda4bc8be8e5647ef75b8b6c29e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ab7bcce86ff19928",
+      "path": "research/genomic/snapshots/G01_fulltext.html",
+      "sha256": "ca2b3158a5ede8d44f8def50e8c0ebe859f9744a1eb8f6fa8567d8da77f6ee47",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ac365c5375a4401f",
+      "path": "research/cytokine/snapshots/pmc_fulltext.xml",
+      "sha256": "77d173dcd567817d51400495a3d1b6750790685d43f24e820618f459fd3fcb1f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ac534ef3b01088d4",
+      "path": "research/references/uniprot_TNF.request.json",
+      "sha256": "1da53522b6738cc4b183a70f4e693048bd4ea2cd8d1f049271e4bcb930537a42",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_adda31919c330683",
+      "path": "research/references/pubmed_D.json",
+      "sha256": "39d227a53722a16d011156b139a327f65452526c211be6184a6895204f4a3085",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ae5f30b3a0db3f2d",
+      "path": "research/references/pubmed_entity_CSF2.response.json",
+      "sha256": "884c211cd551396b0c5ea39fdbba721bac6f162fe0f9bf745ddd263b8bace4b8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_aff2481d71f081af",
+      "path": "research/references/uniprot_CXCL8.request.json",
+      "sha256": "00622fb5574fec4d9d11d95ff0029d73179a58a24a1cb70cda068c196540f44a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b0b052f9821edeea",
+      "path": "research/genomic/snapshots/Gfind6_retrieval.txt",
+      "sha256": "b7222d2c52a542e41d1dc0c66df555cfedbe2a67272622aaaa2d6534ef5e1e94",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b19fc11e1482be74",
+      "path": "research/references/resource_15.html",
+      "sha256": "cda8f7e324124dbe19fd1d8f88e8b9c943bde9401e736dcbbd0c796f0bb18731",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b23f65309edad646",
+      "path": "research/references/pubmed_entity_IL12A.request.json",
+      "sha256": "0a23e9c86cfd35bddf220b26fa0ff3522d011a65cfdd775a1813833294a67fe7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b320de36598532f0",
+      "path": "research/cytokine/snapshots/PMC12776526.txt",
+      "sha256": "9361c53a21f54affb3fe0450a44cfb1f398c615f707f21300b6076e389098d0e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b42fa137fbc34d49",
+      "path": "research/references/resource_16.html",
+      "sha256": "2ad2677117c93b148ae0dcdebe064633fbe1da4309b7b48a51c8e277fe1fa251",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b6b71d59c6b33131",
+      "path": "research/genomic/snapshots/G07_open.txt",
+      "sha256": "f4ed1da2486a671657cd22805eaa8bfb84a23ae741f1423e89e819f360258d53",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b8adf421c7ba40f0",
+      "path": "research/references/pubmed_entity_CCL13.request.json",
+      "sha256": "5a181bf5254b7b92a488cfb9c1a5077bc05b9f76ef0d7b6f2a4a3dd1c404c76f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b8d69c3ad2786d2a",
+      "path": "research/proteomic/snapshots/platelet_fulltext.html",
+      "sha256": "13728c96a93ea8a6762c20dae81bab2979cb84046a4f42b2432b735c02151359",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b9269ca403ca11e1",
+      "path": "research/cytokine/snapshots/PMC534504.xml",
+      "sha256": "623342701f7a90e76c163651a779d90bf9dd59131a7992b334fb89fdb11574cb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_b97e2cb7b8a70805",
+      "path": "research/references/resource_13.html",
+      "sha256": "b6d3907cdd632f5683eedc24a3d58dcce48872aab0d786a25401bcea9361f86b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ba5747e71f8122b5",
+      "path": "research/genomic/snapshots/G09_fulltext.txt",
+      "sha256": "07839a64b266b604b56f1849f6b3b361adf5c2993bcdd0558b382a9a0facd094",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ba79b61be2654d36",
+      "path": "provenance/skill_snapshots/ncbi-entrez-skill.md",
+      "sha256": "a0df39c740f481ad8cf613cb3f61603dc321829f8fb7dd11737481118ab9695c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_bb71bb424f839360",
+      "path": "research/references/pubmed_entity_TNF.request.json",
+      "sha256": "d9390a7dc1fc88c75abb30aeef0c180b31391e0ebef49d1a1e9f07661cb07d4b",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_bbacc59f0b63a2e8",
+      "path": "research/cytokine/snapshots/open5.json",
+      "sha256": "4159833a379adcbd188547771cf631d49b1befdc6cbe4737bdd3997e3ff2a515",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_bbb51170a1859808",
+      "path": "research/cytokine/snapshots/open3.json",
+      "sha256": "d9dc26428e7fdb7e067a2d228206337b4b6aba480806b652b8c26392a1f17458",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_bcd9332eb27dc02f",
+      "path": "research/references/search_registry.json",
+      "sha256": "c766bbe8727bd126588cc440a4404fb99b33c09250fff65f76d9b6fcec5aa171",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_bd6f98a36b5c8de5",
+      "path": "reports/RESEARCH_SYNTHESIS.md",
+      "sha256": "203f375dd87aa59f2e01095420de1d40db0716dfd30a560874ced6eb6279c4fa",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_be7c816e8c4b5562",
+      "path": "research/genomic/snapshots/G10_fulltext.html",
+      "sha256": "fd9b54e4e1b84f4dc51b3cd26a3f379f611eced0f5e63d99555bd0b85b454efa",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_be8a51ce47c2a39c",
+      "path": "research/cytokine/snapshots/open7.json",
+      "sha256": "d69e2f5591bbb0d719e3db4aad2e86b2dd19f2c77052ca1f2b9a6b87856eba42",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_becf5489b6297a4d",
+      "path": "research/references/pubmed_entity_CXCL10.json",
+      "sha256": "26bedebaa5a811f98eb4f9ccc4ce2d20e183d796a8046f27af603b2232b5afa2",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c06bb1d1867d354d",
+      "path": "scripts/retrieve_references.py",
+      "sha256": "ed9449638e61a8664379b86ee44c70b29c7e887b888f6aea7365b7319905535d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c080f39694f4a2a9",
+      "path": "research/references/resource_11.html",
+      "sha256": "bffdedbde05ae0788290da20a8eaa43b4aa926f341f0728b773cc376d8e75c86",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c0eb158c3eba7b4b",
+      "path": "research/proteomic/snapshots/cite_publisher_page.html",
+      "sha256": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c13a1cb5ee03c659",
+      "path": "research/references/uniprot_CCL22.request.json",
+      "sha256": "66839f8fde82888c4789ee0bba6a5b6ff0a7b420dfdad4231e1641e3c96317f9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c2b5553f78fc05cf",
+      "path": "research/references/pubmed_entity_IL12B.response.json",
+      "sha256": "3bf42438e3bc9b1a5f04e565767eea986f7af82babf7208852de241cadd6953e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c46dc48f100e8d4c",
+      "path": "research/references/pubmed_entity_IL5.json",
+      "sha256": "b0c7ea6b353dbe808f1d1d210baddd3edcf6bd69a0383d823f777d8d0d6c04e7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c4799f8cab7d251f",
+      "path": "research/references/uniprot_IL1B.response.json",
+      "sha256": "b76decb50df3147f0fa3240601134822256ac59dfaff7f86f6812c66c28ea5c3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c48690faaf0503b5",
+      "path": "provenance/USER_REQUEST.md",
+      "sha256": "39b3b916189087ad5cede22fde9592216860dc1e1375f351bf8a2e3c1e2a0380",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c4880c735d3b26a6",
+      "path": "research/references/resource_08.html",
+      "sha256": "4e1380746cec86eca3a6c5dd3e65fbeab58a2d8758539a6ea4dc2c98c5a88f0f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c4ec01a3625f751d",
+      "path": "research/references/pubmed_B.json",
+      "sha256": "0ff698447090cbb548129c5d9a6a0711f2bab4f82487d151987b5520e32586fa",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c5a15e90aafbc886",
+      "path": "research/references/pubmed_entity_CCL22.response.json",
+      "sha256": "2cb10e1f0b4b4e7f0fca4552f5539ef8046958c3f733197dfc188cb66f155ef3",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c646439ad350214e",
+      "path": "research/references/uniprot_IL12B.json",
+      "sha256": "aefe8f13ba48952f0d1548e466bd3143647a8f9eadf1f722e070a8be5c9b5b18",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c661a8ea0939214f",
+      "path": "research/references/uniprot_CCL22.response.json",
+      "sha256": "48958ddd5890a048855670f7e5cc1544a81a7017c871b2eefc1a518f4c48c691",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c6e55fa4a66b9db5",
+      "path": "research/references/pubmed_entity_IL5.response.json",
+      "sha256": "6d71bba44d1b231b084d1f1563573a6c239626bdcec048d14ef4685a4533edb6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c7a080cf2f5e5e3e",
+      "path": "research/genomic/snapshots/G04_fulltext.txt",
+      "sha256": "bea3af30fa10d267347a9a2401e0b56a8004eb1144fb885f68597c7d5fc03374",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c7be928aea7fae30",
+      "path": "research/references/pubmed_entity_IL10.json",
+      "sha256": "cd2083b32799520db9512d73a67037469b6f7edd25c57d3e71c4ce17f174ef03",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_c8faa5565b3c10d6",
+      "path": "research/references/uniprot_CSF2.json",
+      "sha256": "59983f09e79dca0479258b562b5c0481124dc92c9bbb71c69497ce09c8430a81",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_caae013a24643f30",
+      "path": "research/genomic/snapshots/G03_fulltext.txt",
+      "sha256": "ad8910e5fd1b2e1bb5760547b251254404700ac08f6991e7f0f40c9af9f3b027",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ccfa420f47c4fbe5",
+      "path": "research/references/uniprot_IL16.request.json",
+      "sha256": "f54590c1496b7c95e7e9a906f52eee61bf3bb8b098bea4e2458624dfca2592c0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_cde500d50ccf71b9",
+      "path": "research/references/uniprot_CCL3.request.json",
+      "sha256": "abc50aa18182f2eab7add423c99ce25247c9b03f291d704014eff1a0d4300bec",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ce71816f540edbea",
+      "path": "research/references/uniprot_CSF2.request.json",
+      "sha256": "2cc04e30be635e676be1f6ecfc2998dadc205cc090ef02b7b9f2b4eb2145a932",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d1f1fdc567cdbae8",
+      "path": "research/genomic/snapshots/Gfollowup5_retrieval.txt",
+      "sha256": "68950a87ab45971eee526ea2d70e50df015eed35237f7a9882d807c41f6b4ceb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d4cd1a6112ff2216",
+      "path": "provenance/session.json",
+      "sha256": "9227a911d9b97884cba2f1860e2da6227399646c8129716faed97de27aa8c946",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d5c1405e70dcffd8",
+      "path": "research/genomic/run.json",
+      "sha256": "e218fe9d2f370d28fbd33bef999e207a121f7a2ae219e1538f4772f28e2c4867",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d68f62ffbcce98e3",
+      "path": "research/proteomic/snapshots/search6.json",
+      "sha256": "d2d45217330507e9ce6478d4746c0fc846095aba894ee68f4d80b72949008f39",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d825c94614590a12",
+      "path": "research/references/pubmed_entity_IL13.response.json",
+      "sha256": "3d660da31a5fd38af5d94ddd6a44d18cda64caf992868684e455b86520b5f7f0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d82ab49f91a6ba16",
+      "path": "README.md",
+      "sha256": "942a9151ed094446ecc918381d713ead4569e6b5c0b84445c4ae6e675a21efe4",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_d85accd3791fa53f",
+      "path": "research/references/uniprot_TNF.response.json",
+      "sha256": "50a102bda6102765009eb0c58040ea254934289f607dbd4be232399ef545cb26",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_da3d3ba2c11c37fc",
+      "path": "research/references/uniprot_IL4.json",
+      "sha256": "d356080c4ed94add51e600bb3a563628a9dc099bedf5c3d95372da7b290ab2cf",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_da72ed60abeef85e",
+      "path": "research/references/pubmed_entity_CCL17.request.json",
+      "sha256": "17f3183d7edf5876f9c8cd5fd5d1d1d739b06495348cb1b6bba2c2055578f99d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ddce621a8ae58101",
+      "path": "research/cytokine/snapshots/PMC12776526.xml",
+      "sha256": "b5eb7fa311846f14f30de12ff62393c3bb13203e3890632dadcc2bffd19430b0",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_deef0d006e36a587",
+      "path": "research/references/pubmed_entity_CCL2.json",
+      "sha256": "ff4687359394dbb5dfe89162894c052bf3ac6f761f64bd82ae4f8101f3a46be1",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_defea8ad8c42c43d",
+      "path": "research/references/pubmed_entity_TNF.json",
+      "sha256": "471cda6d60f538e95dc4ea0548341cfc01ba1c05dab3d1fba886b70833ff2311",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_dfe1a41bee5212e3",
+      "path": "research/references/uniprot_IL12B.request.json",
+      "sha256": "d4ef11bf582c7ac00674d2d0fcd605f455609ef3a19aeddda565d5d039bac895",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e02e7190e661dbe0",
+      "path": "research/proteomic/pack.json",
+      "sha256": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e0476884e4401cf0",
+      "path": "scripts/annotate_scoring.py",
+      "sha256": "685f050bfb4b6b74808ea9f736f8f379c766823ad3c0c808680995703e6e5279",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e223956dba4fd83f",
+      "path": "research/references/uniprot_CCL3.response.json",
+      "sha256": "d298dcef503158bbffbafc91ff3ed4ba57c4cba3faf1403624edfb0baf8ab16c",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e33c310558a97c0c",
+      "path": "research/references/pubmed_entity_CXCL8.request.json",
+      "sha256": "8ad15e8615a099bacba68a8f87ec50da79582cc24283131c45dc7fc36f89a211",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e33d067fcf1b251f",
+      "path": "research/references/pubmed_entity_CCL4.json",
+      "sha256": "187d964bded13b76955acceb6482e477539949eee2bb9db3fa670d675b2e3469",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e35666a11e16e419",
+      "path": "research/references/pubmed_entity_CXCL8.json",
+      "sha256": "7bfc9c46a8435f2a06064a0258fc9803e0f31a03dd9e254a02cb15c5c8fe0b59",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e407c78397300f8a",
+      "path": "provenance/skill_manifest.json",
+      "sha256": "0d94bc46790df2702611e2a6fa6c640f03d4433ce05e9469acb5e2960c37dc42",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e484f691d6819f9f",
+      "path": "research/references/uniprot_CCL4.request.json",
+      "sha256": "9ff025ce91338f480d7d961cf6518b4e9b04717f8836b9242c291ab9997ae646",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e49b8460ec1f911e",
+      "path": "research/references/pubmed_entity_IL16.response.json",
+      "sha256": "b81ea3f49e8b2f2c4701218e73080f0ffcbb686d543451e7520d95c891746083",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e4f9f1f2b353489d",
+      "path": "research/references/pubmed_A.request.json",
+      "sha256": "fafe820a26fdfbf8cee759c4742248942476c2dcfc62753eb24b5d262ac77fb1",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e661bdaea5854981",
+      "path": "research/references/uniprot_IL7.response.json",
+      "sha256": "3a267746bcc4d4efeb4a4154ecfe049e7afa8ce152d4af1f6fc7643992ec76b5",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e890cfa1f2089f57",
+      "path": "research/references/resource_06.html",
+      "sha256": "73543cbf5f0339a3a0fe272f5ef2e59b18feccec644a28578776e4f82e594a91",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e8ba63d494e05399",
+      "path": "research/references/uniprot_IL17A.json",
+      "sha256": "b475356a182537e3717192dd12b849b0ef559d1e61fe2cd60322ae54c7348e23",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e96ec2bc390e3e24",
+      "path": "research/genomic/snapshots/Gsearch3_retrieval.txt",
+      "sha256": "c2ee108de1f9a82dd9eb49b08fa21b2fb13675c5d420f03518edf8ee3dd0d5ce",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_e9a558b6911ed2de",
+      "path": "research/references/uniprot_CXCL10.json",
+      "sha256": "981ca215a3471f7b987ef9ed2e5368f93434400d791a379a9c23c82fd06d3aec",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ea0a67a435df8819",
+      "path": "protocol/README.original.md",
+      "sha256": "830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ea1a31ce98ba031f",
+      "path": "research/references/resource_02.html",
+      "sha256": "9f759d28535cb6639733ea1d8de8ff59e244bb979e0b8ddda5948bd71ef8ea45",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_eac98e074d0b671d",
+      "path": "research/references/uniprot_IL7.json",
+      "sha256": "26f432747e41c5c725665d514634018aab2fd66b119cefc5262e607fe27404d9",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_eae8ef55734e5fd3",
+      "path": "research/proteomic/review_response.json",
+      "sha256": "d660342dd7a2717013ab255b670020c4bb12f7d3145d844594a3918789cc3605",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_eb9846829ba42de8",
+      "path": "research/genomic/snapshots/search_02.json",
+      "sha256": "60d7f54ca2902e9823f68396169d2aba1c19d85da7c99d8a9ad4fd6a6d82e08e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_edc06007ad98af60",
+      "path": "research/genomic/snapshots/G05_open.txt",
+      "sha256": "99c0394656e6b5bf925160701b2bc1da21310874bf86bdf7512f5402e0b8357a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_ee6094933870fe59",
+      "path": "research/references/uniprot_CCL22.json",
+      "sha256": "cbd6c304448f3d236ddefa0726c93c66b5a45392ba11605cdfb380f10cd8a514",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_eef7b430129d1cc5",
+      "path": "research/cytokine/biorxiv_request.json",
+      "sha256": "e95c4071e75be7410181bb1cf1098cc2267704653823fbfdd92b8b3ae91f47e8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f16e1eab1e1252d6",
+      "path": "research/references/uniprot_CXCL8.json",
+      "sha256": "19da5514a81bf17c3680e117d4e49f86d192fc54826fb022de4d7304b9d81d5d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f1ae2bfaf114afdc",
+      "path": "research/references/uniprot_CCL17.json",
+      "sha256": "91be4ae1029f2f7fda075cd3d71ec7d8c3ccd7e6e9ae67a8008458b91571305e",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f1d22d05bbbfdd51",
+      "path": "research/cytokine/snapshots/PMC1810496.xml",
+      "sha256": "f7993bdc507d40185cee9d442f80352c9cf6acf3699627962bf8f4a6d3cbb661",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f279dc7960ddb690",
+      "path": "research/review_cytokine.json",
+      "sha256": "f526336a026170742eed03c25e81f28a9bc98774cce7c5f820a4fa9f68bed09a",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f2b27365bc5ff5e5",
+      "path": "research/genomic/pack.json",
+      "sha256": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f3e2ef3bad4b916c",
+      "path": "research/references/uniprot_IL2.request.json",
+      "sha256": "2ab2019a360d048f240f4552601114f5ec26ad6f20ffa6c3efd09ed66282178d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f49bfdfe9e4c760b",
+      "path": "research/references/pubmed_entity_IL13.json",
+      "sha256": "30ddb4085c7ee30d0f940cf7577e92d6c16485ad352647d7cab065fbb5e9dfc7",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f50f866d4811dac1",
+      "path": "research/references/uniprot_IFNG.request.json",
+      "sha256": "77967ecb30f3a4922b4358f807847b1af4402bce109debfb98a13f67d78f879f",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f525a509a4b0e5a1",
+      "path": "research/references/uniprot_LTA.response.json",
+      "sha256": "836c50cfeb559a779bba5092cb3b207013cfeb10a4c755ee2559065900dcfe61",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f5b37932b0518393",
+      "path": "research/cytokine/review_response.json",
+      "sha256": "bd8e422b605517a44997a2c55ff304b43f2d72b40f53ed4ffcb64ab4a904c5fb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f69c34d36d3fd41f",
+      "path": "research/references/uniprot_CCL13.request.json",
+      "sha256": "649d001f51ed3499297d6ff62b47ac660583b8801e95c9d74eccd39e91e8a504",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f75f999569ab37cb",
+      "path": "research/references/uniprot_CCL11.json",
+      "sha256": "e6a6bc43ad1949904efb185cb3ba96d5ed3e6a413be735617d837fe3ca79e901",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f7d0de9637bf2708",
+      "path": "research/references/uniprot_IL6.response.json",
+      "sha256": "ba67a15bf0527e9e1419233ddb7c177ce9e4dcd6e248002ed2e48a8e00be5b23",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_f8061d51116044ad",
+      "path": "research/references/resource_09.html",
+      "sha256": "0f49da29417cae73bf867332e049b2286c38424d2c26977f7e1384dfb09a350d",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fb351495a923bc3b",
+      "path": "research/proteomic/snapshots/open3.json",
+      "sha256": "55bf684aea6dba87a915b28e45488c912f5fc6eb2b3f021e3aba8f5436cc20b8",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fc1a14d59bcf49cb",
+      "path": "research/genomic/build_pack.py",
+      "sha256": "c5c16d971068920ab8ed242c4c43b4ad096e2df814e06db953b0e7bba06bf686",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fdb44e6e9725279c",
+      "path": "research/references/uniprot_IL13.response.json",
+      "sha256": "dec6b22ee436a294669cdc1e20663983ebf78edb1d5d8b1873ddd3f8af62ebcb",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fe5eb091f69cd4d1",
+      "path": "research/cytokine/snapshots/PMC2119001.txt",
+      "sha256": "b8da7ec812a4af73a955d451f7493b377d021a95385225379c7ca64ea0acf6d6",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fe608029ea457dfb",
+      "path": "research/references/uniprot_IL13.request.json",
+      "sha256": "ea65d07e1684f0a53cacbda7b3c5b44c4baf03c6f1e433a326efb4c5bf594f06",
+      "hash_scope": "exact_local_bytes"
+    },
+    {
+      "artifact_id": "ART_fe6f3d0240505db1",
+      "path": "research/proteomic/snapshots/open4.json",
+      "sha256": "33af42195fbe81aad787405261cf95a4032bd19ff972bd9975430718018fe4a9",
+      "hash_scope": "exact_local_bytes"
+    }
+  ]
+}

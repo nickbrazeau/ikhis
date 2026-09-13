@@ -1,0 +1,50 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "655",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "31029506",
+      "21886162",
+      "28476436",
+      "32723296",
+      "33182504",
+      "33846499",
+      "25430645",
+      "30547375",
+      "41314518",
+      "10389546"
+    ],
+    "translationset": [
+      {
+        "from": "cytokine",
+        "to": "\"cytokin\"[All Fields] OR \"cytokine's\"[All Fields] OR \"cytokines\"[Supplementary Concept] OR \"cytokines\"[All Fields] OR \"cytokine\"[All Fields] OR \"cytokines\"[MeSH Terms] OR \"cytokinic\"[All Fields] OR \"cytokins\"[All Fields]"
+      },
+      {
+        "from": "chemokine",
+        "to": "\"chemokine's\"[All Fields] OR \"chemokines\"[Supplementary Concept] OR \"chemokines\"[All Fields] OR \"chemokine\"[All Fields] OR \"chemokines\"[MeSH Terms] OR \"chemokins\"[All Fields]"
+      },
+      {
+        "from": "human",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "humans",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "receptor",
+        "to": "\"receptor\"[All Fields] OR \"receptor's\"[All Fields] OR \"receptors\"[All Fields]"
+      },
+      {
+        "from": "perturbation",
+        "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+      }
+    ],
+    "querytranslation": "\"CCL11\"[All Fields] AND (\"cytokin\"[All Fields] OR \"cytokine s\"[All Fields] OR \"cytokines\"[Supplementary Concept] OR \"cytokines\"[All Fields] OR \"cytokine\"[All Fields] OR \"cytokines\"[MeSH Terms] OR \"cytokinic\"[All Fields] OR \"cytokins\"[All Fields] OR (\"chemokine s\"[All Fields] OR \"chemokines\"[Supplementary Concept] OR \"chemokines\"[All Fields] OR \"chemokine\"[All Fields] OR \"chemokines\"[MeSH Terms] OR \"chemokins\"[All Fields])) AND (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields] OR (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields])) AND (\"receptor\"[All Fields] OR \"receptor s\"[All Fields] OR \"receptors\"[All Fields] OR (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields])) AND 1900/01/01:2026/09/12[Date - Publication]"
+  }
+}

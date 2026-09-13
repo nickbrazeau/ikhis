@@ -1,0 +1,46 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "35127",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "35021063",
+      "34062119",
+      "39198645",
+      "39616195",
+      "41162704",
+      "40716489",
+      "42167233",
+      "35026155",
+      "31142858",
+      "41591301"
+    ],
+    "translationset": [
+      {
+        "from": "immune",
+        "to": "\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization's\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields]"
+      },
+      {
+        "from": "leukocyte",
+        "to": "\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields]"
+      },
+      {
+        "from": "proteomic",
+        "to": "\"proteom\"[All Fields] OR \"proteome\"[Supplementary Concept] OR \"proteome\"[All Fields] OR \"proteome\"[MeSH Terms] OR \"proteomes\"[All Fields] OR \"proteomical\"[All Fields] OR \"proteomically\"[All Fields] OR \"proteomics\"[MeSH Terms] OR \"proteomics\"[All Fields] OR \"proteomic\"[All Fields]"
+      },
+      {
+        "from": "phosphoproteomic",
+        "to": "\"phosphoproteome\"[All Fields] OR \"phosphoproteomes\"[All Fields] OR \"phosphoproteomic\"[All Fields] OR \"phosphoproteomics\"[All Fields]"
+      },
+      {
+        "from": "secretome",
+        "to": "\"secretome\"[MeSH Terms] OR \"secretome\"[All Fields] OR \"secretomes\"[All Fields] OR \"secretomic\"[All Fields] OR \"secretomics\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization s\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields] OR (\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields])) AND (\"proteom\"[All Fields] OR \"proteome\"[Supplementary Concept] OR \"proteome\"[All Fields] OR \"proteome\"[MeSH Terms] OR \"proteomes\"[All Fields] OR \"proteomical\"[All Fields] OR \"proteomically\"[All Fields] OR \"proteomics\"[MeSH Terms] OR \"proteomics\"[All Fields] OR \"proteomic\"[All Fields] OR (\"phosphoproteome\"[All Fields] OR \"phosphoproteomes\"[All Fields] OR \"phosphoproteomic\"[All Fields] OR \"phosphoproteomics\"[All Fields]) OR (\"secretome\"[MeSH Terms] OR \"secretome\"[All Fields] OR \"secretomes\"[All Fields] OR \"secretomic\"[All Fields] OR \"secretomics\"[All Fields]) OR \"CITE-seq\"[All Fields] OR \"CyTOF\"[All Fields]) AND 1900/01/01:2026/09/12[Date - Publication]"
+  }
+}

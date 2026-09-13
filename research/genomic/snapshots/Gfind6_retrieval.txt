@@ -1,0 +1,195 @@
+Internal Error ()
+citeturn48view0 [wordlim: 200] Source: find({"ref_id":"turn19view0","pattern":"European"}); Total lines: 1
+No matching text found for "European"--------------------------------------------------------------------------------
+Internal Error ()
+citeturn48view1 [wordlim: 200] Source: find({"ref_id":"turn19view0","pattern":"rs12251836"}); Total lines: 1
+No matching text found for "rs12251836"--------------------------------------------------------------------------------
+Internal Error ()
+citeturn48view2 [wordlim: 200] Source: find({"ref_id":"turn19view0","pattern":"Data availability"}); Total lines: 1
+No matching text found for "Data availability"--------------------------------------------------------------------------------
+Internal Error ()
+citeturn48view3 [wordlim: 200] Source: find({"ref_id":"turn19view0","pattern":"Methods"}); Total lines: 1
+No matching text found for "Methods"--------------------------------------------------------------------------------
+Author Correction: Discovery of stimulation-responsive immune enhancers with CRISPR activation | Nature (https://www.nature.com/articles/s41586-018-0227-7)
+citeturn48view4 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: find({"ref_id":"turn27view0","pattern":"Supplementary Information"}); Redirected to URL: https://www.nature.com/articles/s41586-018-0227-7?error=cookies_not_supported&code=7259bca5-c960-4b54-86bf-264b610aa7a9; Total lines: 566
+L245: Search author on:cite107†PubMed†www.ncbi.nlm.nih.gov cite108†Google Scholar†scholar.google.co.uk L246: 
+L247:   11. Dmytro S. Lituiev
+L248: 
+L249: cite109†View author publications L250: 
+L251: Search author on:cite110†PubMed†www.ncbi.nlm.nih.gov cite111†Google Scholar†scholar.google.co.uk L252: 
+L253:   12. Michelle L. Nguyen
+L254: 
+L255: cite112†View author publications L256: 
+L262: Search author on:cite116†PubMed†www.ncbi.nlm.nih.gov cite117†Google Scholar†scholar.google.co.uk L263: 
+L264:   14. Meena Subramaniam
+L265: 
+L266: cite118†View author publications L267: 
+L268: Search author on:cite119†PubMed†www.ncbi.nlm.nih.gov cite120†Google Scholar†scholar.google.co.uk L269: 
+L270:   15. Zhongmei Li
+L271: 
+L272: cite121†View author publications L273: 
+L274: Search author on:cite122†PubMed†www.ncbi.nlm.nih.gov cite123†Google Scholar†scholar.google.co.uk L275: 
+L276:   16. Jonathan M. Woo
+L277: 
+L278: cite124†View author publications L279: Search author on:cite125†PubMed†www.ncbi.nlm.nih.gov cite126†Google Scholar†scholar.google.co.uk L280: 
+L281:   17. Therese Mitros
+L282: 
+L283: cite127†View author publications L284: 
+L285: Search author on:cite128†PubMed†www.ncbi.nlm.nih.gov cite129†Google Scholar†scholar.google.co.uk L286: 
+L287:   18. Graham J. Ray
+L288: 
+L289: cite130†View author publications L290: 
+L291: Search author on:cite131†PubMed†www.ncbi.nlm.nih.gov cite132†Google Scholar†scholar.google.co.uk L292: 
+L293:   19. Gemma L. Curie
+L294: 
+L295: cite133†View author publications L296: Search author on:cite134†PubMed†www.ncbi.nlm.nih.gov cite135†Google Scholar†scholar.google.co.uk L297: 
+L298:   20. Nicki Naddaf
+L299: 
+L300: cite136†View author publications L301: 
+L302: Search author on:cite137†PubMed†www.ncbi.nlm.nih.gov cite138†Google Scholar†scholar.google.co.uk L303: 
+L304:   21. Julia S. Chu
+L305: 
+L306: cite139†View author publications L307: 
+L308: Search author on:cite140†PubMed†www.ncbi.nlm.nih.gov cite141†Google Scholar†scholar.google.co.uk L309: 
+L310:   22. Hong Ma
+L311: 
+L312: cite142†View author publications L313: Search author on:cite143†PubMed†www.ncbi.nlm.nih.gov cite144†Google Scholar†scholar.google.co.uk L314: 
+L315:   23. Eric Boyer
+L316: 
+L317: cite145†View author publications L318: 
+L319: Search author on:cite146†PubMed†www.ncbi.nlm.nih.gov cite147†Google Scholar†scholar.google.co.uk L320: 
+L321:   24. Frederic Van Gool
+L322: 
+L323: cite148†View author publications L324: 
+L325: Search author on:cite149†PubMed†www.ncbi.nlm.nih.gov cite150†Google Scholar†scholar.google.co.uk L326: 
+L327:   25. Hailiang Huang
+L328: 
+L329: cite151†View author publications L330: Search author on:cite152†PubMed†www.ncbi.nlm.nih.gov cite153†Google Scholar†scholar.google.co.uk L331: 
+L332:   26. Ruize Liu
+L333: 
+L334: cite154†View author publications L335: 
+L336: Search author on:cite155†PubMed†www.ncbi.nlm.nih.gov cite156†Google Scholar†scholar.google.co.uk L337: 
+L338:   27. Victoria R. Tobin
+L339: 
+L340: cite157†View author publications L341: 
+L342: Search author on:cite158†PubMed†www.ncbi.nlm.nih.gov cite159†Google Scholar†scholar.google.co.uk L343: 
+L344:   28. Kathrin Schumann
+L345: 
+L346: cite160†View author publications L347: Search author on:cite161†PubMed†www.ncbi.nlm.nih.gov cite162†Google Scholar†scholar.google.co.uk L348: 
+L349:   29. Mark J. Daly
+L350: 
+L351: cite163†View author publications L352: 
+L353: Search author on:cite164†PubMed†www.ncbi.nlm.nih.gov cite165†Google Scholar†scholar.google.co.uk L354: 
+L355:   30. Kyle K. Farh
+L356: 
+L357: cite166†View author publications L358: 
+L359: Search author on:cite167†PubMed†www.ncbi.nlm.nih.gov cite168†Google Scholar†scholar.google.co.uk L360: 
+L361:   31. K. Mark Ansel
+L362: 
+L363: cite169†View author publications L364: Search author on:cite170†PubMed†www.ncbi.nlm.nih.gov cite171†Google Scholar†scholar.google.co.uk L365: 
+L366:   32. Chun J. Ye
+L367: 
+L368: cite172†View author publications L369: 
+L370: Search author on:cite173†PubMed†www.ncbi.nlm.nih.gov cite174†Google Scholar†scholar.google.co.uk L371: 
+L372:   33. William J. Greenleaf
+L373: 
+L374: cite175†View author publications L375: 
+L376: Search author on:cite176†PubMed†www.ncbi.nlm.nih.gov cite177†Google Scholar†scholar.google.co.uk L377: 
+L378:   34. Mark S. Anderson
+L379: 
+L380: cite178†View author publications L381: Search author on:cite179†PubMed†www.ncbi.nlm.nih.gov cite180†Google Scholar†scholar.google.co.uk L382: 
+L383:   35. Jeffrey A. Bluestone
+L384: 
+L385: cite181†View author publications L386: 
+L387: Search author on:cite182†PubMed†www.ncbi.nlm.nih.gov cite183†Google Scholar†scholar.google.co.uk L388: 
+L389:   36. Howard Y. Chang
+L390: 
+L391: cite184†View author publications L392: 
+L393: Search author on:cite185†PubMed†www.ncbi.nlm.nih.gov cite186†Google Scholar†scholar.google.co.uk L394: 
+L395:   37. Jacob E. Corn
+L396: 
+L397: cite187†View author publications L398: Search author on:cite188†PubMed†www.ncbi.nlm.nih.gov cite189†Google Scholar†scholar.google.co.uk L399: 
+L400:   38. Alexander Marson
+L401: 
+L402: cite190†View author publications L403: 
+L404: Search author on:cite191†PubMed†www.ncbi.nlm.nih.gov cite192†Google Scholar†scholar.google.co.uk L405: ### Corresponding authors
+L406: 
+L407: Correspondence to Jacob E. Corn (jcorn@berkeley.edu) or Alexander Marson (alexander.marson@ucsf.edu).
+L408: 
+L409: ## Supplementary information
+L410: 
+L411: ### cite193†Supplementary Information (download PDF )†media.springernature.com L412: 
+L413: ## Rights and permissions
+L414: 
+L415: cite194†Reprints and permissions†s100.copyright.com L416: 
+L417: ## About this article
+L418: ### Cite this article
+L419: 
+L420: Simeonov, D.R., Gowen, B.G., Boontanrart, M. et al. Author Correction: Discovery of stimulation-responsive immune enhancers with CRISPR activation. Nature 559, E13 (2018). https://doi.org/10.1038/s41586-018-0227-7
+L421: 
+L422:   * Published: 13 June 2018
+L423: 
+L424:   * Version of record: 13 June 2018
+L425: 
+L426:   * Issue date: 26 July 2018
+L427: 
+L428:   * DOI (Digital Object Identifier): https://doi.org/10.1038/s41586-018-0227-7
+L429: ### Share this article
+L430: 
+L431: Anyone you share the following link with will be able to read this content:
+L432: 
+L433: Sorry, a shareable link is not currently available for this article.
+L434: 
+L435: Provided by the Springer Nature SharedIt content-sharing initiative
+L436: ## Explore content
+L437: 
+L438:   * cite195†Research articles L439:   * cite196†News L440:   * cite197†Opinion L441:   * cite198†Research Analysis L442:   * cite199†Careers L443:   * cite200†Books & Culture L444:   * cite201†Podcasts L445:   * cite202†Videos L446:   * cite203†Current issue L447:   * cite204†Browse issues L448:   * cite205†Collections L449:   * cite206†Subjects L450: 
+L451:   * cite207†Follow us on Facebook†www.facebook.com L452:   * cite208†Follow us on Bluesky†bsky.app L453:   * cite209†Follow us on X†twitter.com L454:   * cite8†Subscribe L455:   * cite9†Sign up for alerts†journal-alerts.springernature.com L456:   * cite10†RSS feed L457: ## About the journal
+L458: 
+L459:   * cite210†Journal Staff L460:   * cite211†About the Editors L461:   * cite212†Research Cross-Journal Editorial Team L462:   * cite213†Journal Information L463:   * cite214†Journal Metrics L464:   * cite215†Our publishing models L465:   * cite216†Editorial Values Statement L466:   * cite217†Editorial policies L467:   * cite218†Journalistic Principles L468:   * cite219†History of Nature L469:   * cite220†Awards L470:   * cite221†Contact L471:   * cite222†Send a news tip L472: ## Publish with us
+L473: 
+L474:   * cite223†For Authors L475:   * cite224†For Referees L476:   * cite225†Language editing services†authorservices.springernature.com L477:   * cite226†Open access funding L478:   * cite227†Submit manuscript†mts-nature.nature.com L479: 
+L480: ## Search
+L481: 
+L482: Search articles by subject, keyword or author
+L483: 
+L484: [Input]
+L485: 
+L486: Show results from [Select]
+L487: 
+L488: [Button: Search]
+L489: 
+L490: cite228†Advanced search L491: ### Quick links
+L492: 
+L493:   * cite229†Explore articles by subject L494:   * cite230†Find a job L495:   * cite231†Guide to authors L496:   * cite232†Editorial policies L497: 
+L498: Nature (Nature)
+L499: 
+L500: ISSN (International Standard Serial Number) 1476-4687 (online)
+L501: 
+L502: ISSN (International Standard Serial Number) 0028-0836 (print)
+L503: 
+L504: ## nature.com footer links
+L505: 
+L506: ### About Nature Portfolio
+L507: 
+L508:   * cite233†About us L509:   * cite234†Press releases L510:   * cite235†Press office†press.nature.com L511:   * cite236†Contact us†support.nature.com L512: ### Discover content
+L513: 
+L514:   * cite0†Journals A-Z L515:   * cite229†Articles by subject L516:   * cite237†protocols.io†www.protocols.io L517:   * cite238†Nature Index†www.natureindex.com L518: 
+L519: ### Publishing policies
+L520: 
+L521:   * cite239†Nature portfolio policies L522:   * cite240†Open access L523: ### Author & Researcher services
+L524: 
+L525:   * cite241†Reprints & permissions L526:   * cite242†Research data†www.springernature.com L527:   * cite243†Language editing†authorservices.springernature.com L528:   * cite244†Scientific editing†authorservices.springernature.com L529:   * cite245†Nature Masterclasses†masterclasses.nature.com L530:   * cite246†Research Solutions†solutions.springernature.com L531: ### Libraries & institutions
+L532: 
+L533:   * cite247†Librarian service & tools†www.springernature.com L534:   * cite248†Librarian portal†www.springernature.com L535:   * cite249†Open research L536:   * cite250†Recommend to library†www.springernature.com L537: 
+L538: ### Advertising & partnerships
+L539: 
+L540:   * cite251†Advertising†partnerships.nature.com L541:   * cite252†Partnerships & Services†partnerships.nature.com L542:   * cite253†Media kits†partnerships.nature.com L543:   * cite254†Branded content†partnerships.nature.com L544: ### Professional development
+L545: 
+L546:   * cite255†Nature Awards L547:   * cite256†Nature Careers L548:   * cite257†Nature Conferences†conferences.nature.com L549: ### Regional websites
+L550: 
+L551:   * cite258†Nature Africa L552:   * cite259†Nature China†www.naturechina.com L553:   * cite260†Nature India L554:   * cite261†Nature Japan†www.natureasia.com L555:   * cite262†Nature Middle East L556: 
+L557:   * cite263†Privacy Policy L558:   * cite264†Use of cookies L559:   * [Button: Your privacy choices/Manage cookies ]
+L560:   * cite265†Legal notice L561:   * cite266†Accessibility statement L562:   * cite267†Terms & Conditions L563:   * cite268†Your US state privacy rights†www.springernature.com L564: 
+L565: © 2026 Springer Nature Limited
+

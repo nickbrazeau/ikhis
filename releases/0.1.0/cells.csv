@@ -1,0 +1,36 @@
+cell_id,name,ontology_id,mapping_status
+CELL_04b97d7dad482b2a,T cell,unavailable,local_only
+CELL_10cd91d4ac4e7453,PHA-activated T-cell blast,unavailable,local_only
+CELL_1825c36445989253,immature monocyte-derived DC,unavailable,local_only
+CELL_1a9f9446462ddc1d,CD14+ monocyte,unavailable,local_only
+CELL_263efe2e97c4ac93,monocyte-derived dendritic cell,unavailable,local_only
+CELL_2763701275533c6c,CD8 T cell,unavailable,local_only
+CELL_4225ef4835590a73,platelet,unavailable,local_only
+CELL_4c8abe85a0b3944e,HeLa,unavailable,local_only
+CELL_5153e6f94e2eb08b,NK cell with autologous monocyte-derived DC,unavailable,local_only
+CELL_5fcc318b6fd68242,A549,unavailable,local_only
+CELL_60c5022e92416d77,PBMC,unavailable,local_only
+CELL_713fd1fe83bfdd96,autologous NK cell with engineered DC,unavailable,local_only
+CELL_825c73fa5a2b3538,primary CD4+ T cell,unavailable,local_only
+CELL_881e0fe1b618ceea,NK cell,unavailable,local_only
+CELL_8ee0e35ba872e8f5,B cell,unavailable,local_only
+CELL_9d811d513346d227,Jurkat T cell line,unavailable,local_only
+CELL_9f413d36c3312776,autologous NK cell with engineered DC and Daudi targets,unavailable,local_only
+CELL_a3943b9542c52f06,memory CD4 T cell,unavailable,local_only
+CELL_b65286fb46640d60,CD4+ T cell,unavailable,local_only
+CELL_bd5a5b981941ec25,neutrophil,unavailable,local_only
+CELL_bf39fd85713e205e,CD14-positive monocyte,unavailable,local_only
+CELL_c808c967a4586a17,CD14+ monocytes gated in PBMC,unavailable,local_only
+CELL_cc227c24c88c955a,mature B lymphocyte,unavailable,local_only
+CELL_d62dd162e7b57bd7,umbilical-vein endothelial cell; neutrophil,unavailable,local_only
+CELL_d855fecfe0ab0513,elutriated monocyte,unavailable,local_only
+CELL_d8aa1f7a23340391,expanded mycobacterium-specific CD4 Th1 T-cell clone,unavailable,local_only
+CELL_e2a35baf501a1a42,monocyte and neutrophil,unavailable,local_only
+CELL_e2dc5ef3f3f85765,naive CD4+ CD62L+ CD44- T cell,unavailable,local_only
+CELL_e3d7b3058e421223,monocyte,unavailable,local_only
+CELL_e7c39386ca756ebc,central-memory CD4+ T cell,unavailable,local_only
+CELL_ea43f9ffaa67683f,B cell (naive and intermediate pooled),unavailable,local_only
+CELL_ea7840f5f64fd135,monocyte-derived mature dendritic cell,unavailable,local_only
+CELL_ec833b19d159ba68,unavailable,unavailable,local_only
+CELL_f3aa6bef0bc607b3,naive CD4+ T cell,unavailable,local_only
+CELL_f44fb86bdb4f0471,T lymphocyte,unavailable,local_only

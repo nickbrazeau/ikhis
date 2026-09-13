@@ -1,0 +1,1059 @@
+
+					Interleukin 10(EL,.10)Inhibits Cytokine Synthesis by
+Human Monocytes: An Autoregulatory Role of IL-10
+Produced by Monocytes
+By Ren6de WaalMalefyt,John Abrams,*BruceBennett,
+Carl G. Figdor,~andJan E. de Vries
+From the *Departments of Human Immunology and Immunology, DNAX Research Institute,
+Palo Alto, California 94304; and the tl~'vision of Immunology, the Netherlands Cancer
+Institute, 1066 CX Amsterdam, The Netherlands
+Surnlnliry
+In the present study we demonstrate that human monocytes activated by lipopolysaccharides
+(LPS) were able to produce high levels of interleukin 10 (I1-10), previously designated cytokine
+synthesis inhibitory factor (CSIF), in a dose dependent fashion. I1-10 was detectable 7 h after
+activation of the monocytes and maximal levelsof I1-10production were observed after 24--48 h.
+These kinetics indicated that the production of Ibl0 by human monocytes was relatively late
+as compared to the production of IDiot, I1-1/3,I1.-6,I1-8, tumor necrosis factor ot(TNFot), and
+granulocytecolony-stimulatingfactor (G-CSF), which were all secreted at high levels4-8 h after
+activation. The production of I1-10 by LPS activated monocytes was, similar to that of ILlot,
+FL-1/3,l'b6, I1-8, TNFc~ granulocyte-macrophage colony-stimulating factor (GM-CSF), and G-CSF,
+inhibited by II-4. Furthermore we demonstrate here that I1-10, added to monocytes, activated
+by interferon 3r LPS, or combinations of LPS and IFN-3' at the onset of the cultures,
+strongly inhibited the production of I1-1ot, I1-1B, I1-6, I1-8, TNFOt, GM-CSF, and G-CSF at
+the transcriptional level. Viral-I1-10, which has similar biological activities on human cells, also
+inhibited the productionof TNFOt and GM-CSF by monocytes followingLPSactivation. Activation
+of monocytes by LPS in the presence of neutralizing anti-I1-10 monoclonal antibodies resulted
+in the production of higher amounts of cytokines relative to LPS treatment alone, indicating
+that endogenously produced I1-10 inhibited the production of I1-1ot, I1-1B, I1-6, I1-8, TNFot,
+GM-CSF, and G-CSF. In addition, I1-10 had autoregulatory effects since it strongly inhibited
+I1-10mRNA synthesis in LPS activated monocytes. Furthermore, endogenously produced I1-10
+was found to be responsible for the reduction in classII major histocompatibilitycomplex (MHC)
+expression following activation of monocyteswith LPS. Taken together our results indicate that
+I1-10 has important regulatory effects on immunological and inflammatory responses because
+of its capacity to down.regulate class II MHC expression and to inhibit the production of
+proinflammatory cytokines by monocytes.
+Murine--IL-10was recently identified and its gene cloned
+based on its cytokine synthesis inhibitory (CSIF)1ac-
+tivity (1, 2). In murine systems, I1-10 was produced by the
+CD4 + Th2 subset and inhibits the cytokine production,
+particularly IFN-3', by Thl clones (1, 2). The inhibition of
+cytokine production by I1-10 was observed only when mac-
+rophages, but not when B cells were used as APCs (3). In
+addition to its CSIF activity, I1-10was shown to be pleiotropic
+and to act on different cell types, including thymocytes (4),
+IAbbreviationsusedin thispaper:CSIF,cytokinesynthesisinhibitoryfactor;
+G-CSF, granulocytecolony-stimulatingfactor;GM-CSF,granulocyte-
+macrophagecolony-stimulatingfactor;v-Ibl0, viral-IL-10.
+cytotoxic T cells (5), mast cells (6), B cells (7), and macro-
+phages (3).
+Human I1-10 also exhibits CSIF activity (8). We have
+demonstrated that the production of IFN-'y and granulocyte-
+macrophage colony-stimulatingfactor (GM-CSF) by PBMC
+activated by PHA or anti-CD3 mAbs was strongly inhibited
+by ILl0 and that this inhibition occurred at the transcrip-
+tional level (8). Both human and routine I1-10have extensive
+sequence homology to a previously uncharacterized open
+reading frame in the Epstein Barr virus genome, BCRF-1
+(2, 8). Expression of the open reading frame yielded an ac-
+tive protein, designated viral-ILl0 (v-I1-10), which shared
+most properties with human and routine Ibl0, includingCSIF
+activity on mouse and human T cells (9).
+1209 J. Exp.Med.9 The RockefellerUniversityPress90022-1007/91/11/1209/12 $2.00
+Volume174 November1991 1209-1220
+Recently, we described that human II~10 and v-Ibl0 were
+able to inhibit antigen specific proliferative T cell responses
+by reducing the antigen presenting capacity of human mono-
+cytes via downregulation of class II MHC molecules (9a).
+Here we describe that human monocytes were able to pro-
+duce high levels of IL-10 following activation with LPS and
+that this production was relatively late as compared to that
+of other monokines. In addition, it is reported here that IL-10
+strongly inhibited the production of the proinflammatory
+cytokines IL-lo~, IL-1/3, IL-6, II~8, and TNFot and the hae-
+matopoietic growth factors GM-CSF and granulocyte colony-
+stimulating factor (G-CSF) by monocytes activated by LPS,
+IFN-'y, or LPS and IFN-y. Endogenously produced IL-10
+had not only autoregulatory effects on IL-lct, Ibl/3, Ib6,
+II,8, TNFct, GM-CSF, and G-CSF production by monocytes,
+but also downregulated its own production and class II MHC
+expression on monocytes in an autoregulatory fashion. These
+results indicate that IL-10 has important regulatory effects
+on immunological and inflammatory responses.
+Materials and Methods
+Isolationand CultureofHuman Monocytes. Human PBMs were
+isolated from 500 ml blood of normal donors as described previ-
+ously (10, 11).Mononuclear cells were isolated by density centrifu-
+gation in a blood component separator, followed by fractionation
+into lymphocytes and monocytes by centrifugal elutriation. The
+monocyte preparation was >95% pure, as judged by nonspecific
+esterase staining and contained more than 98% viable cells. Mono-
+cytes were cultured in Yssel's medium (12) containing HSA sup-
+plemented with 1% pooled heat inactivated human AB+ serum.
+This culture medium was endotoxin free as determined by the
+Limulus amebocyte lysate assay (<0.2 ng/ml of endotoxin). The
+monocytes were cultured at a concentration of 4 x l& cells/m1
+in teflon bags (Jansen MNL, St. Nildaas, Belgium), which prevented
+adhesion of these calls. After culture for the times indicated, mono-
+cytes were collected and analyzed for cell surface expression by in-
+direct immunofluorescence or analyzed for lymphokine gene ex-
+pression by Northern and PCR analysis. In addition, monocyte
+culture supernatants werecollected fordetermination ofIblc~, IL-1B,
+IL-6,IL-8,Ibl0, TNFot, GM-CSF, and G-CSF production following
+activation of these ceils. The viability of the ceils after culture always
+exceeded 95% as determined by trypan blue exclusion.
+Reagents. Recombinant human IL-10and v-Ibl0 were expressed
+in Escherichia coli as glutathione-S-transferase fusion proteins,
+purified, and digested with thrombin to remove the N-terminal
+fusion part (13), resulting in active human and v-IL-10 as described
+previously (9a). Purified human rlL-4 and rlFN-3' were provided
+by Schering-Plough Research (Bloomfidd, NJ). LPS(E.coli0127:B8)
+was obtained from Difco Laboratories (Detroit, MI). The neu-
+tralizing anti-Ibl0 mAb 19F1 was raised against v-IL-10 and
+efficiently neutralized both human and viral-Ibl0 (Silver, J., and
+J. Abrams, manuscript in preparation).
+Probes. The following probes were used for northern analysis:
+600 bp Sma I fragment (nt 1299 - 1899) of pCD-hTGF/3 (14), 1200
+bp Pst I fragment of pAL (/3-actin) (8), 567 bp BamHI-Xba I frag-
+ment (nt 1 - 567) of pCD-hII_,6 (14), 268 bp Hind III fragment
+(nt 29 - 297) of SP64-3-10c (IL-8) (15), 760 bp Bgl II - Hind III
+fragment (nt 159 - 919) of pCD-SRot-hlL-10 (8). The following
+oligonucleotides were used for Southern analysis of PCR products:
+IL-lot: 5'-CATGGGTGCTTATAAGTCATC-Y (nt 500-521) (16);
+IL-1/3: 5'-CGATCACTGAACTGCACGCTCCGGG-3' (nt 444 -
+469) (16);Ib6: 5'GAGGTATACCTAGAGTACCTC-Y (nt 510 - 531)
+(17); IL-8: 5'-TAAAGACATACTCCAAACCTT-3' (nt 200 - 221)
+(15); IL-10: 5'-CAGGTGAAGAATCCTTTAATAAGCTCCAA-
+GAGAAAGGCATCTACA AAGCCATGAGTGAGTTTGACATC-
+3' (nt 429 - 498) (8); TNF~: 5-GC~G~GAGCTGAGAGATAAC-
+3' (nt 500 - 521)(18);GM-CSF: 5'-CCGC~GTCTCCTGAACCT-Y
+(nt 150 - 168)(19); actin: 5'-C~AACCCTAAGGCCAACCGTG-
+3' (nt 250 - 272) (20); and G-CSF: 5'-GCCCTGGAAGGGATC-
+TCCCCC-Y (nt 400 - 421) (21).
+mRNA Isolationand NorthernAnalysis. Total ILNA was iso-
+lated from 20 x 106 monocytes by the guanidinium thioeyanate-
+CsC1 procedure (22). For northern analysis, 10/~g total tLNA per
+sample was separated according to size on 1% agarose gels con-
+raining 6.6% formaldehyde, transferred to Nytran nylon membranes
+(Schleicher & Schuell, Keene, NH) and hybridized with probes,
+labeled to high specific activity (>10s cpm//~g) by the hexamer
+labeling technique (23). Filters were hybridized, washed under strin-
+gent conditions, and developed as previously described (24).
+PolymeraseChainReaction(PCR) Analysis. 1/xg of total tLNA
+was reversetranscribed using oligo (dT) 12-18asprimer (Boehringer
+Mannheim, Indianapolis, IN) and AMV reverse transcriptase
+(Boehringer Mannheim) according to the procedure of Krug and
+Berger (25) in a 20/zl reaction. 2/xl of reverse transcript (equivalent
+to 100 ng of total RNA) was used directly for each amplification
+reaction. Conditions for PCR were as follows: in a 50/~1reaction,
+25 nmol of each primer, 125/~M each of dGTP, dATP, dCTP and
+dTTP (Pharmacia, Uppsala, Sweden), 50 mM KC1, 10 mM Tris-
+HC1, pH 8.3, 1.5 mM MgC12, 1 mg/ml gelatin, 100/~g/ml non-
+acetylated BSA and 1 U Vent DNA polymerase(New England Bin-
+labs, Beverly,MA). Primers used were as follows: IL-lotsenseprimer
+5'-CATCGCCAATGACTCAGAGGAAG-Y (nt 302-325), Iblc~
+antisense primer 5'-qroCCAAGCACACCCAGTAGTCTIV_K2TT-Y
+(nt 770 - 743) (16), IL-1B sense primer 5'-CCAGCTACGAAT-
+CTCGGACCACC-3' (nt 230 - 253), IL-1/J anti sense primer
+5'-TTAGGAAGACACAAATIV_~ATGGTGAAGTCAGT-3' (nt 896
+- 863) (16), 11.-6sense primer 5'-ATGAACTCCTTCTCCACA-
+AGC-3' (nt 1 - 21), Ib6 anti sense primer 5'-CTACATTTGCC-
+GAAGAGCCCTCAGGCTGGACTG-3' (nt 810 - 777) (17), Ib8
+sense primer 5'-ATGACTTCCAAGCTGGCCGTG-3' (nt 1 - 21),
+I1-8 anti sense primer 5'-TTATGAATTCTCAGCCCTCTTCAA-
+AAACTTCTC-Y (nt 302 - 269) (15), IL-10sense primer 5'-ATG-
+CCCCAAGCTGAGAACCAAGACCCA-Y (nt 323 - 349), IL-10
+anti sense primer 5'-TCTCAAGGGGCTGGGTCAGCTATCC-
+CA-3' (nt 674 - 648) (8), TNFc~ sense primer 5'-AGAGGGA-
+AGAGTTCCCCAGGGAC-Y (nt 310 - 333), TNFc~ anti sense
+primer 5'-TGAGTCGGTCACCCTTCTCCAG-Y (nt 782 - 760)
+(18), GM-CSF sense primer 5'-GCATCTCTGCACCCGCCCG-
+CTCGCC-3' (nt 76-100), GM-CSF anti sense primer 5'-CCTGC-
+TTGTACAGCTCCAGGCGGGT-Y (nt 276 - 250) (19), G-CSF
+sense primer 5'-GAGTGTGCCACCTACAAGCTGTGCC-Y (nt
+233 - 258), G-CSF anti sense primer 5'-CCTGGGTGGGCTG-
+CAGGGCAGGGGC-3' (nt 533 - 508) (21),/~-actin sense primer
+5'-GTGGGGCGCCCCAGGCACCA-3' (nt 1 - 20), B-actin anti
+sense primer 5'-GTCCTTAATGTCACGCACGATTTC-3' (nt 548
+- 530) (20). Reactions were incubated in a Perkin-Elmer/Cetus DNA
+Thermal cycler for 20 cycles (denaturation 30 s 94~ annealing
+30 s 55~ extension 60 s 72~ Reactions were extracted with
+CHCI3 and 40/xl per sample was loaded on 1% agarose gels in
+TAE buffer. Products were visualized by ethidium bromide staining.
+Subsequently, gels were denatured in 0.5 M NaOH, 1.5 M NaC1,
+neutralized in 10 M ammonium acetate, and transferred to Nytran
+nylon membranes. Membranes were pre-hybridized in 6 x SSC,
+1210 Interleukin 10 Inhibits Monokine Production
+60
+E
+r
+v
+O
+T-
+in
+50
+40 84
+30
+20
+10
+1 3.5
+[] LPS
+7.5 20 48 98
+TIME (h)
+A B 250
+200
+E
+c 150
+100
+50
+0
+[] Lps]
+m
+98
+1 3.5 7.5 20 48
+TIME (h)
+6
+E
+r
+,,' 4
+z
+I-
+2
+[] LPS
+i_ll_
+D
+m
+E
+O3
+e-
+LL
+(/)
+O
+|
+L9
+1.0
+0.8
+0.6
+0.4
+0.2
+0 0.0
+1 3.5 7.5 20 48 98 1 3.5
+.
+[] LPS
+m j
+7.5 20 48 98
+TIME (h) TIME (h)
+Figure 1. The kinetics of II-10, IL-6,TNFot, and GM-CSF production by human monocytes, activatedby LPS. Human monocytes, isolatedby cen-
+trifugal elutriation were cultured in teflon bags (4 x lffS/ml) in the absence or presence of LPS (1 #g/ml) and production of (A) IL-10,(B) Ib6,
+(C) TNFoe and (D) GM-CSF was determined in the culture supernatants harvested at the times indicated by cytokine specificELISA's.
+1% SDS, 10 x Denhardt's solution (0.2% Ficoll, 0.2% polyvinyl-
+pyrrolidone, 0.2% BSA, pentax fraction V) and 200 #g/ml E. coli
+tRNA (Boehringer, Mannheim, FRG) for 4 h at 55~ Oligonu-
+cleotide probes (200 ng), specific for a sequence internal to the
+primers used in the amplification, were labeled at the 5' end by
+T4 polynucleotide kinase (New England Biolabs) and qr-3Zp-ATP
+(Amersham, Arlington Heights, IL) as described (26). Probes were
+separated from nonincorporated nucleotides by passage over a Nick
+column (Pharmacia) and added to the hybridization mix. Following
+hybridization for 12 h at 55~ filters were washed in 0.1 x SSC
+(1 x SSC:150 mM NaC1, 15 mM Na-citrate pH = 7.0), 1% SDS
+at room temperature and exposed to Kodak XAK-5 films for 1-2 h.
+LymphokineDeterminations. The production oflL-lcr and TNFc~
+by monocytes was measured by lymphokine specific ELIS~s ob-
+tained from Endogen (Boston, MA). The lower detection limit
+of these ELISA's were 50 pg/ml and 10 pg/ml respectively. Produc-
+tion of Ib13 was determined by lymphokine specific ELISA ob-
+tained from Cistron (Pine Brook, NJ). The sensitivity of this ELISA
+1211 de Waal Malefyt et al.
+was 20 pg/ml, lb6 levelswere determined by lymphokine specific
+ELISA purchased from Genzyme (Boston, MA). The sensitivity
+of this assaywas 0.313 ng/ml. Ib8 and G-CSF specificELISA's
+were obtained from R&D Systems (Minneapolis, MN) and used
+to quantitate Ib8 and G-CSF production. The sensitivity of these
+ELISA'swas 4.7 pg/ml and 7.2 pg/ml respectively.GM-CSFproduc-
+tion was determined by lymphokine specificELISA as described
+previously(27). The sensitivity of this ELISAwas 50 pg/ml. IL-IO
+production was determinedby a specificELISAin which the anti-IL-
+10mAbJES 9D7 was used as acoating antibody and the anti-IL-10
+mAb JES3-12G8 as a tracer antibody (Silver,J., and J. Abrams,
+manuscript in preparation). The sensitivity of this ELISAwas 50
+pg/ml.
+ImmunofluorescenceAnalysis. Cells(10s) were incubated in V
+bottom microtiter plates (Flow Laboratories, McLean,VA) with
+10/~1 of purified mAb (1 mg/ml) for 30 rain at 4~ After two
+washes with PBScontaining 0.02 mM sodium azide and 1% BSA
+(Sigma Chemical Co., St. Louis, MO), the cells were incubated
+with 1/40 dilution of FITC labeled F(ab')2 fragments of goat
+anti-mouse antibody (Tago,Inc., Burlingame, CA) for 30 min at
+4~ After three additional washes, the labeled cellsampleswere
+analyzedby flow microfluometry on aFACScan(BectonDickinson
+and Co., Sunnyvale,CA). The anti-MHC classII mAbs PdVS.2
+(HLA-DR/DP/DQ) (28), Q5/13 HLA-DR/DP (29), and L243
+(HLA-DR) (30) were described previously.
+Results
+ILIO Is Producedby Human Monocytes. We have shown
+previously that I1-10 was produced by activated human T
+cell clones, activated peripheral blood T and B cells, EBV
+transformed B cell lines (8) and monocytes (Abrams, J., H.
+Yssel, and M. G. Roncarolo, manuscript in preparation). Here
+we further characterize Ibl0 production by human mono-
+cytes. Highly-purified human monocytes, isolated by cen-
+trifugal elutriation, produced I1.10 following activation by
+LPS. In addition, it is shown that these human monocytes
+were able to produce high levels of I1.6, TNFc~, and GM-
+CSF (Fig. 1). Kinetics of cytokine production by LPS acti-
+vated monocytes indicated that I1.10 production by mono-
+cytes was relatively late. It was first detected in supernatants
+harvested at 7.5 h, but maximal production was observed
+20-48 h after activation. In contrast, TNFol and I1-6 were
+f-
+v
+0
+--I
+12-
+10
+_m
+1 10
+i100
+me=
+N
+LPS (ng/ml)
+Figure 2. The productionof ILl0 by humanmonocytesin response
+to increasingconcentrationsof LPS.Human monocytes(4 x 106/ml)
+wereculturedin teflonbagswith increasingconcentrationsof LPSfor
+24 h and the productionof Ib10 was determinedby ELISA.
+produced rapidly upon activated and reached maximal levels
+of production at 3.5 and 7.5 h following activation respec-
+tively (Fig. 1). However, GM-CSF production was alsofirst
+detected 7.5 h after activation of monocytes by LPS, but in
+this case maximal production levels were reached at 20 h.
+Dose response studies indicated that activation ofmonocytes
+by LPS at 10 ng/ml already resulted in significant levels of
+11.10 production, whereas the maximal I1.10 synthesis was
+observed at LPS concentrations of 1 /zg/ml (Fig. 2).
+IL,IOInhibitsCytokineProductionbyHuman Monocytes. IL-10
+has been shown to inhibit IFN-3"and GM-CSF production
+by activated PBMC (8). To determinethe effectsof I1-10on
+the production of cytokines by monocytes, highly-purified
+monocytes were activated for 24 h by LPS in the absence or
+presence of I1.10. In addition, monocytes were activated with
+Table 1. Effectsof ExogenousIL-IO, EndogenousIL-IO, and IL-4 on CytokineProductionby Human Monocytes
+IL-lt~ IL-I~ IL-6 IL-8 IL-10 TNFcr GM-CSF G-CSF
+ng/ml
+Medium 37~ 0 0 0 150 0 0 0 0
+LPS 1.2 44.8 261.7 479 30.6 21.2 0.6 90
+LPS+ IL-4 0 9.7 135.7 418 11.9 5.1 0 17.5
+LPS+ IL-IO 0 13.6 78 434 ND 2.6 0 21.1
+LPS+ alL- 10 2.7 50.6 323 672 ND 47.6 5.5 110
+Human monocytes,isolatedby centrifugalelutriationwereculturedin teflonbagsat a concentrationof 4 x 106ceUs/mland activatedby LPS(1
+/zg/ml)in the absenceandpresenceofIL-10(100U/ml), IL-4(100U/ml) or anti-IL-10mAb 19FI(10#g/ml) for 24h andproductionofcytokines
+was determinedin the supernatantsby cytokinespecificELISA's.ND: not done.
+1212 Interleukin
+10 InhibitsMonokineProduction
+A 3 B 20
+E
+e-
+"7,
+..I
+2
+I I ' I I '
+I 0 0 0 r 0 0 0 r
+C~" 0 0 ,r- 0 0 ,,--
+LL 0 ,r- 0 "-
+__ ~ "w--
+I II I
+LPS LPS + IFN-y
+~'~ 10
+'7,
+iI
+0 I I I I I ' I ' I I I '
+I
+I ' I ' I '
+~" 0 0 0 r 0 0 0 ~-"
+0 0 ,,-- 0 0 ,--
+LL 0 T- 0 "--
+l .ll 1
+LPS LPS + IFN-y
+C
+E
+80
+60
+E
+'- 40
+co
+" 20
+0
+2
+E
+e-
+v
+a. I
+In
+oI
+0
+' I '
+' ~ 0 0 0 "- 0 0 0 "--
+C~' 0 0 -,-- 0 0 ,---
+LL 0 "" 0 v--
+I II I
+LPS LPS + IFN-y
+I ' ~ ' " l " I " I " I " I " I '
+' 0 0 0 ,r- 0 0 0 ,r-
+~:~ 0 0 ,r-- 0 0 v--
+IJ.. 0 "-" 0
+I II I
+LPS LPS + IFNT
+D 20
+m
+E
+l,'--
+v
+10
+U.
+Z
+I'--
+0 I FI.n
+' ?'- 0 0 0 ~ 0 0 0 "--
+S~ 0 0 ~ 0 0 ,,--
+LL 0 v-- 0 r-
+I II
+LPS LPS + IFN- "Y
+Figure 3. The effects of Ibl0 on the production of cytokines by mono-
+cytes activated by IFN-% LPS or LPS and IFN-% Human monocytes (4
+x 106/ml) were cultured with IFN-3, (100 U/ml), 1, 10, 100, or 1,000
+ng/ml LPS and combinations of LPS (1, 10, 100, or 1,000 ng/ml) and
+IFN-'y (100 U/ml) either in the absence (E]) or presence ([]) of IblO (100
+U/ml) for 24 h and production of(A) Iblo~, (B) IL-1/~,(C) IL-6, (D) TNFo4
+and (E) GM-CSF was determined by cytokine specific ELISA's in the su-
+pernatants.
+1213 de Waal Malefyt et aL
+LPSfor 24 h in the presenceof IL-4(100U/ml) or neutralizing
+anti-Ibl0 mAb 19F1, which was raised against v-Ibl0 but
+efficiently neutralized both human I1:10 and v-IL-10 (Silver,
+J., andJ. Abrams, manuscript in preparation) (Thelatter results
+are discussed below). Cytokine production was determined
+in the supernatants of these cultures, harvested 24 h after ac-
+tivation, by cytokine specific ELISA's. As shown in shown
+in Table 1, monocyteswhich were incubated in mediumalone
+at 37~ did not produce I1:1c~,11:1/3,I1:6, Ibl0, TNFcr
+GM-CSF, and G-CSF. Under these conditions, only significant
+levelsof I1:8 were synthesized. Activation of monocyteswith
+LPS (1/~g/ml) resulted in production of high levelsof I1:1ol,
+Ib113, I1.-6, Ib8, II:10, TNFot, GM-CSF, and G-CSF. In-
+terestingly, IL-10inhibited the production of I1:1o~,I1:1/3,
+I1:6, I1:8, TNFc~, GM-CSF, and G-CSF to various extents
+(Table 1). The strongest inhibitory effects of I1.-10were ob-
+served on the production of I1:1c~, TNFol, GM-CSF, and
+G-CSF, which were blocked by 80-100%. The inhibition of
+I1:1/3and I1:6 production was lesspronounced, whereas the
+synthesis of IL-8 was only slightly affected by I1:10.
+ILIOAlso InhibitsCytokine ProductionofMonocytesActivated
+byIFN-% IL-10alsoinhibitedcytokineproductionby mono-
+cytes activated by IFN-% or combinationsof IFN-3, and LPS.
+In Fig. 3, it is shown that IFN-3, at optimal concentrations
+of 100 U/ml generally was a less potent inducer of cytokine
+secretion than was LPSat optimal concentrationsof I/~g/ml.
+Furthermore, it is demonstrated that the effects of combina-
+tions of IFN-3/and LPS on cytokine production by mono-
+cytes generally were additive. The strongest inhibitory effects
+of Ibl0 were observed on IL-la, TNFo~and GM-CSF produc-
+tion. TNFc~ and GM-CSF secretionwas suppressed by more
+than 90%, even following activation of the monocytes by
+optimal LPS and IFN-y concentrations. Although consider-
+able inhibitory effects on I1:1/3 and IL-6 secretion were ob-
+served at optimal stimulation conditions, their inhibition was
+more pronounced when the monocytes were stimulated by
+suboptimal concentrations of LPS, either in the absence or
+presence of optimal concentrations of IFN-%
+Viral11_,10InhibitsCytokine ProductionbyMonocytes. Viral
+I1:10 and human I1:10 have similar effects on human cells
+(9). In Fig. 4, it is shown that both I1:10 and v-I1:10 in-
+hibited TNFc~ and GM-CSF production by monocytes in a
+similar fashion. I1:10 and v-I1:10, added at concentrations
+of 100 U/ml, had significant inhibitory effectson TNFo~and
+GM-CSF production by monocytes following activation by
+LPS (1/zg/ml). These inhibitory effects of IL-10and v-IL-10
+on TNF-o~ and GM-CSF secretion were reversed when incu-
+bations were carried out in the presence of mAb 19F1 (Fig.
+4), demonstrating the specificity of the inhibitory effects of
+v-I1:10. In fact, activation of monocytesby LPS in the pres-
+ence of I1:10 or v-IL-10 and the neutralizing anti-I1:10 mAb
+resulted evenin enhanced productionof TNFc~ and GM-CSF,
+indicating that endogenouslyproduced Ibl0 suppressed the
+production of these cytokines.
+EndogenouslyProducedILIO Inhibits Cytokine Productionby
+Monocytes. The inhibitory effectsof endogenouslyproduced
+IL-10on cytokineproductionby monocyteswas further evalu-
+Figure 4. The effectsof human Ibl0 and viral-Ibl0 on the production
+of TNF~ and GM-CSF by LPS activated monocytes. Human monocytes
+(4 x 106/ml)were activated by LPS (1/zg/ml) and cultured with human
+II.-10(100 U/ml) or viral-IIr in the absence or in the presence of neu-
+tralizinganti-IL-10mAb 19F1(10/~g/ml) for 24 h and production of (.4)
+TNFtx and (B) GM-CSF was determined by cytokine specific ELISA's.
+ated by quantifyingcytokinelevelsproducedby LPS activated
+monocytes in the presence of neutralizing anti-I1:lO mAb.
+In Table 1 it is shown that LPS plus anti-I1:10 treatment
+of monocytes resulted in higher levelsof cytokine produc-
+tion as compared to activation by LPS alone, indicating that
+endogenously produced I1:10 in addition to its inhibitory
+effectson TNFcz and GM-CSF productionblocked the produc-
+tion of IL-lo~,I1:1/3, IL-6, IL8, and G-CSF. The most sig-
+nificant inhibitory effects were found on the production of
+Ibla, GM-CSF, and TNF~ whereas the inhibitory effects
+on IL-1/3,I1:6, IL-8, and G-CSF expression were consider-
+able, but less pronounced. Taken together these results indi-
+cate that both exogenous I1-10 and endogenously produced
+I1:10inhibit the production of I1:1c~,I1:1B,IL-6,1I:8, TNF~
+GM-CSF, and G-CSF by LPS activated monocytes.
+11.4 Inhibits ILIO Production by Activated Monocytes. We
+demonstrated previously that Ib4 inhibited production of
+IL-1/3,IL-6, and TNFc~ by LPS activated monocytes (31). To
+determinewhether IL-4alsoinhibited l-b10production, mono-
+cytes were activated by LPS for 24 h and Ibl0 secretion was
+measured. As shown in Table 1, II.-4strongly inhibited I1:10
+production by LPS activated monocytes. Furthermore, Ib4,
+1214 Interleukin 10 Inhibits Monokine Production
+Figure 6. The effectsof I1:10on the expressionof cytokine specific
+mKNA levelsby human monocytesactivatedby LPS. mKNA was iso-
+lated from human monocytes(4 x lO~/ml),activatedby LPS (1 #g/ml)
+in the absenceor presenceof 11:10(100U/ml) for 7 h and expressionof
+I1:6,I1:8,Ibl0, TGF-/3,and Bactinwasdeterminedbynorthern analyses.
+Figure 5. The effectsofexogenousIL-10,endogenouslyproducedIbl0
+and I1:4 on the expressionof cytokine specificmRNA levelsby human
+monocytesactivatedby LPS.Human monocytes(4 x 106/ml)were cul-
+tured in medium at 4~ and 37~ or activatedby LPS (1 mg/ml) in the
+absenceorpresenceofII:4 (100U/ml), I1:10(100U/ml) and neutralizing
+anti-IL-10mAb 19F1(10#g/ml) and mKNA was isolatedafter 24 h. Ex-
+pressionof/~-actin,I1:1o~,I1:1B,I1:6,I1:8,TNF-o~,GM-CSFand G-CSF
+was determined on reversetranscribed mRNA by PCR analyseswith
+cytokine specificprimers followedby Southern blotting of the reaction
+productswith internalprobes,cDNA obtainedfrom a CD4+ T cellclone
+was included as control for expressionof TNFol and GM-CSF.
+in addition to its inhibitory effects on IL-I~, Ib6, and TNFcr
+secretion, efficiently blocked the production of GM-CSF and
+G-CSF. However, as observed for IL-10, the production of
+IL-8 was only slightly affected by IL-4. CoUectively these data
+indicate that IL-4 and Ibl0 have comparable inhibitory effects
+of cytokine production by activated monocytes.
+InhibitionofMonokineProductionOccursat the Transc@tional
+Level. To determine at which level Ib10 inhibited the produc-
+tion of cytokines by monocytes, comparative PCK analyses
+were performed on KNA isolated from monocytes, activated
+by LPS in the absence or presence of IL-10, IL-4 or the neu-
+tralizing anti-IL-10 mAb for 24 h. The cytokine measure-
+ments of this experiment are shown in Table 1. mKNA iso-
+lated from these samples was reverse transcribed into cDNA
+and subsequently amplified with cytokine specific primers.
+A relatively small number of cycles was used for amplification
+to ensure that the amount of amplified DNA was propor-
+tional to the cycle number and correlated with the amount
+of specific mRNA in the original sample. It is shown in Fig.
+5 that under these conditions equivalent amounts of/~-actin
+specific cDNA were amplified. Monocytes incubated at 4~
+in medium alone for 24 h expressed very low levels of IL-8
+mRNA. Incubation of these cells at 37~ resulted in an in-
+1215 de Waal Malefyt et al.
+Figure 7. TheeffectsofexogenousIbl0, en-
+dogenouslyproducedII.-10andIb4 ontheex-
+pressionof IL-IOand TGFI3specificmRNA
+levelsbyhumanmonocytesactivatedbyLPS.
+Human monocytes(4 x 106/ml)werecul-
+turedinmediumat4~ and37~ oractivated
+byLPS(1 mg/ml)in the absenceor presence
+oflb4 (100U/ml),II-10(100U/ml)andneu-
+tralizinganti-Ibl0 mAb19F1(10/~g/ml)and
+mRNAwasisolatedafter24h. Expressionof
+(/1)Ibl0, TGFBand13-actinwasdetermined
+bynorthernanalysesand(B)expressionofIL-
+10 was determined on reverse transcribed
+mRNAbyPCRanalysiswithcytokinespecific
+primersfollowedbySouthernblottingof the
+reactionproductswith internalprobes.
+creased expression of IL-8 mRNA, but did not induce ex-
+pression of IL-lc~, IL-113,IL-6, IL-10, TNF~ GM-CSF, or
+G-CSF mRNA. LPS activation resulted in a strong expres-
+sion of II.-lo~,IL-113,IL-6,IL-8, and G-CSF mRNA, whereas
+TNFc~ and GM-CSF mRNA were moderately induced. Fur-
+thermore, it is shown in Fig. 5 that IL-lc~, I1.-6,TNF~ GM-
+CSF, and G-CSF expression was strongly inhibited by IL-10
+and II.-4 at the mRNA level(Fig. 5), whereas IL-13 and II:8
+expression were only slightly affected by IL-10. Activation
+of monocytes by LPS in the presence of the anti-IL-10 mAb
+resulted in a moderate enhancement in expression of IL-lc~,
+IL-113,IL-6, IL-8, and G-CSF mRNA and a strong increase
+in TNFo~ and GM-CSF mRNA synthesis. The levels of ex-
+pression of cytokine specific mRNA and their modulation
+by exogenous and endogenous IblO or IL-4 correlated well
+with secretion of the corresponding proteins as shown in Table
+1 and indicated that IL-10and IL-4inhibited cytokine expres-
+sion by LPS activated monocytes at the transcriptional level.
+IL-IO Regulates 11_,10mRNA but not TGF/3 mRNA Ex-
+pression in Activated Monocytes. Having demonstrated that
+human monocytes produced IL-10 relatively late following
+activation by LPS, we determined whether II.-10could affect
+endogenous IL-10mRNA synthesis. Human monocytes were
+activated by LPS in the presence or absence of IL-10 for 7 h
+and mRNA expression was analyzed by northern blotting.
+In Fig. 6 it is shown that IL-10 mRNA was detected 7 h
+after activation by LPS and that IL-10 had no or only min-
+imal inhibitory effectson IL-IOmRNA expression at this time
+point. In contrast, the expression of IL-6 and IL-8 mRNA
+was strongly inhibited by IL-10. However, in another series
+of experiments where monocytes were activated for 24 h by
+LPS, Ibl0 strongly reduced the expression of IIr ml~NA
+as shown by northern analysis in Fig. 7. Furthermore, it is
+shown in Fig. 7 that activation of monocytes with LPS in
+the presence of a neutralizing anti-IL-10 mAb resulted in an
+upregulation of I1.-10mRNA expression at 24 h. These results
+were confirmed by PCR analysis with Ibl0 specific primers
+since the RNA used in this latter experiment was also used
+for the PCR analyses shown in Fig. 5. It is shown in Fig. 7
+B that the quantitative differences observed in II~10 mRNA
+1216 Interleukin10 InhibitsMonokineProduction
+A n,-
+iii
+nn
+Z
+,..I
+_.1
+iii
+(J
+iii
+nr"
+.
+1
+or
+I~ ' .Tfs'"i'~2'
+"
+"*~'i'~3'
+"':['~,t
+O
+N
+T
+R
+O
+L
+FLUORESC. INTENSITY
+B
+rr
+LU
+Z
+..-I
+LM
+L.)
+._i
+IJJ
+r'r
+v-i.
+*~-"- LPS
+....
+FLUORESC. INTENSITY
+C rr
+ILl
+00
+z
+-,J
+-,J
+ILl
+U.I
+tr
+9
+~-,i.
+LPS
+~'/~~"LP$+= IL-IO
+<
+FLUORESC. INTENSITY
+D
+13:
+ILl
+Z
+LU
+(J
+-,J
+iii
+nc
+~. LPS
+,,-,. ,I,
+, I ~ + ~ ' I L - I O
+....
+FLUORESC. INTENSITY
+Figure 8. The effectsof endogenously produced IL-10on classII MHC
+expression by human monocytes, activated with LPS. Human monocytes
+were cultured with (A) 0 ng/ml LPS, (B) 0.1 ng/ml LPS, (C) 10 ng/ml
+LPS, or (D) 1,000 ng/ml LPS in the absence or presence of neutralizing
+anti-IL-10mAb 19F1(10mg/ml) for 40 h and expressionof HLA-DR/DP
+(Q5/13) was determined by indirect immunofluorescence.
+1217 de Waal Malefyt et al.
+expression by Northern analysis correlated with those ob-
+served by comparative PCR analysis. In addition, the more
+sensitive PCR analysis allowed the detection of low levels
+of I1,10mRNA that were induced 24 h after cultureof mono-
+cytes in medium alone at 37~ These results indicate that
+I1,10 has autoregulatory effects on I1,10 mRNA synthesis
+and if mRNA levels accurately reflect I1,10 protein produc-
+tion, probably on I1,10 production by human monocytes as
+well. However, downregulationof I1,10production occurred
+rather late in the activation process. TGF/3 mKNA, which
+was expressed constitutivelyin freshlyisolated non activated
+monocytes, was not enhancedby LPS activation for 7 or 24 h
+(Figs. 6 and 7). In addition, it is shown in Figs. 6 and 7 that
+the levels of TGF/~ mRNA were not affected when activa-
+tions were carried out in the presence of I1,4, I1,10, or neu-
+tralizing anti-I1,10 mAbs.
+11,10 Has Autoregulatory Effects on Class II MHC Expres-
+sion by Monocytes. Recently, we demonstrated that I1,10
+downregulated the expression of class II MHC molecules on
+the cell surface of human monocytes (ga). I1,10 was shown
+to downregulate constitutive, I1,4 or IFN-3'-induced MHC
+class II expression. Since monocytes produce high levels of
+I1,10 following activation by LPS, the possibility that en-
+dogenous I1,10could inhibit classII MHC expression by LPS
+activated monocytes was investigated. Monocytes were acti-
+vated by various concentrations of LPS in the presence or
+absence of the neutralizing anti-I1,10 mAb. In Fig. 8 it is
+shown that activation of monocytes with LPS reduced the
+constitutive HLA-DK/DP expression on these cellsin a dose
+dependent manner. However, in the presence of the neu-
+tralizing anti-I1,10 mAb 19F1 strong induction of HLA-
+DK/DP expression was observed. Identical results were ob-
+tained with severalHLA-DR or HLA-DK/DP specificmAb.
+These results indicate that endogenously produced I1,10, in
+an autoregulatory fashion, was responsible for the downregu-
+lation of class II MHC expression on human monocytes fol-
+lowing LPS activation.
+Discussion
+In the present study we demonstrated that human IL-10
+was produced in relatively large quantities by monocytes fol-
+lowing activation. Kinetic studies showed that low levels of
+1I.,10could be detected 7 h after activation of the monocytes,
+and maximal II.,10production occurred 24-48 h after activa-
+tion. This was relatively late as compared to the production
+of I1,1oe,I1,1/~, I1,6, I1,8 and TNF-o~, which were secreted
+at high levels between 4-8 h after activation (31-33). In ad-
+dition, we showed that human I1,10 has strong inhibitory
+effects on cytokineproduction by monocytes following acti-
+vation with IFN-'y, LPS or combinationsof IFN-3' and LPS.
+These inhibitory effects are specificfor I1,10 since they could
+be completelyneutralized by mAb 19F1which inhibits both
+I1,10 and v-I1,10 activity. II.,10added at concentrations of
+100 U/ml reduced IDlol, TNF-ol, GM-CSF, and G-CSF syn-
+thesis by more than 90% followingoptimal activation of the
+monoeytes by combinations of IFN-'y (100 U/ml) and LPS
+(1 #g/ml). The inhibitory effects on II,13, I1,6, and I1,8
+production were somewhat lesspronounced, particularlywhen
+the monocyteswere optimally activated by combinations of
+IFN-~/and LPS. The mechanism by which ID10 inhibits
+cytokine production by monocytes is not clear. It remains
+to be determined whether these effectsof ILl0 are direct or
+indirectly mediated via other factors. SinceIL-1can induce
+IL-6 production in fibroblasts, thymocytes, and monocytes
+(34-36), it is, for example, possible that the partial inhibi-
+tion ofID6 production is the result ofreducedIbl production.
+Viral-IL-10 which has been shown to possess biological
+activities, on human cells similar to human IL-10 (9), was
+lessextensivelytested. However, v-Ibl0 inhibited TNFoLand
+GM-CSF production by LPS activatedmonocytes to the same
+extent as did human Ibl0. These inhibitory effects of v-Ib
+10 on TNFol and GM-CSF production were neutralized by
+mAb 19F1, illustrating the specificity of the v-Ibl0 effects.
+Inhibition of Ibhx, IL-lfl, Ib6, 11.-8,TNF-ol, GM-CSF,
+and G-CSF secretionoccurred at the transcriptionallevel.IL-10
+stronglyinhibited cytokine specificmRNA synthesisinduced
+by LPS, as determinedby northern and PCR analyses.PCR
+analyseswere performed underconditions that alloweda com-
+parison of the reaction products of individual samplesin a
+semiquantitative manner. This was validated by the fact that
+amplification of cDNA's with primers specific for fl-actin
+resulted in equivalent amounts of reaction products between
+the samples and quantitatively comparable results were ob-
+tained when IL-10mRNA expression was determinedin the
+same samples by both northern and PCR analysis. In addi-
+tion, cytokine mRNA expression levelscorrelated with the
+protein levelsin the supernatants of these cultures. Ibl0 failed
+to affect TGF-fl mRNA expression in activated monocytes.
+However, it has to be noted here that TGF-fl was constitu-
+tively expressed in nonactivated monocytes and that activa-
+tion of the monocytesby LPS did not affectTGF-fl mRNA
+levels. Assoian et al. (37) havedemonstrated that monocytes
+constitutivelyexpress TGF-fl mRNA and that TGF-fl secre-
+tion requires monocyte activation. However, it remains to
+be determinedwhether Ibl0 has an effect on the conversion
+of TGF-fl from its latent to its active form.
+The production of IL-10was shown to be inhibited by Ib4
+at the transcriptional level. Although the inhibitory effects
+of I1.-4on Ibl0 production were considerable, IL-4was not
+ableto block the production of I1.-10completely.IL-4inhibited
+the production of IL-10only up to 70%, even when high
+ID4 concentrations (400U/ml), which were su~dent to com-
+pletely inhibit the production of Ibl, Ib6, and TNF~ were
+used (results not shown). We (31) and others (38-40) have
+demonstrated previously that II_,4 was able to inhibit the
+production of IL-lot, IDlfl, IL-6, IL-8 (41), and TNFc~ by
+human monocytes. These findings were confirmed here and
+extendedby demonstrating that IL-4alsoinhibited the produc-
+tion of IbS, GM-CSF, and G-CSF by LPS activated human
+monocytes. This inhibition occurred at the transcriptional
+level.The data furthermoreillustrate that IL-4and Ibl0 have
+similar effectson cytokineexpression by human monocytes,
+which underlinesthe pleiotropiceffectsofcytokinesand redun-
+dancy in the immune system.
+Interestingly, II.-10is an autoregulatory cytokine, since it
+strongly inhibited IL-10mRNA synthesis in monocytesacti-
+vated for 24 h. In addition, activation of monocytesby LPS
+in the presence of neutralizing anti-Ibl0 mAbs resulted in
+an increased expression of IL-10mRNA at 24 h, indicating
+that endogenously produced Ibl0 alsoinhibited Ibl0 mRNA
+synthesis. The fact that Ibl0 is able to downregulateits own
+productionby human monocytes makesthis the first cytokine
+that is regulated by a negative feedback mechanism. Au-
+toregulatoryeffectsofendogenously produced ID10 were also
+observedon the production of Iblcx, Iblfl, Ib6, ID8, TNF-c~,
+GM-CSF, and G-CSF by LPS activatedmonocytes. However,
+the inhibitory effectsof endogenous IL-10on the production
+of these cytokines were lesspronounced than those of exoge-
+nous Ibl0 added at the onset of the culture. This is related
+to the fact that Iblot, IL-lfl, IL-6, IL-8,TNF-ot, and G-CSF
+are already produced at high levels 4-8 h after activation,
+whereas maximal endogenous Ibl0 production occurs much
+later at 24-48 h after activation. This notion is supported
+by the observation that the strongest inhibitory effectsof en-
+dogenously produced IL-10were found on GM-CSF secre-
+tion which was shown to be produced late following activa-
+tion of the monocytes. Assuming that Ibl0 mRNA synthesis
+reflects and precedes Ibl0 protein secretion, and that Ibl0
+can only interact with its receptor on the cell surface, these
+results suggest that the inhibitory effects of endogenously
+produced Ibl0 occur relatively late and may therefore be of
+particular importance in the later phases of an immune re-
+sponse.
+IL-10was first described in the mouse as a CSIF produced
+by Th2 cells, which inhibited cytokine production (pre-
+dominatelyIFN-3' by Thl cells (1). This inhibitory effect of
+mouse-IL-10 on cytokine production by Thl cells required
+the presence of macrophages (3). Recentlywe demonstrated
+that human IL-10 and v-IL-10 strongly inhibited antigen
+specific T cell proliferation when monocytes were used as
+APC (9a). In addition, it was shown that reduction in the
+antigen specific proliferative T cellresponseswerefor a major
+part due to the reduced antigen presenting capacity of the
+monocytescaused by strong downregulatoryeffectsof I[rl0
+on class II MHC antigen expression on these cells. These
+data, together with the present finding that IL-10is produced
+lateby monocytesand has autoregulatory effectson IL-10secre-
+tion by these ceils,indicate that IL-10may havestrong down-
+regulatory effectson ongoing antigen specificT cellresponses.
+Therefore IL-10 may be a cytokine that plays a major role
+in dampening antigen driven proliferative T cell responses.
+The notion, that IL-10produced by monocytes may also have
+strong autoregulatoryfeedback activity on T cell activation,
+is supported by the observation that IL-10produced by mono-
+cytes following activation by LPS is responsible for down-
+regulation ofclassII MHC antigens on these cells, sinceclass
+II MHC expression was not reduced and even strongly en-
+hanced when LPS stimulations were carried out in the pres-
+ence of the neutralizing anti-II.rl0 mAh.
+The finding that IL-10has strong downregulatory effects
+on the secretion of the proinflammatorycytokines ILoloe,IL-
+1218 lnterleukin10 Inhibits MonokineProduction
+lfl, IL-6, Ib8, and TNF-c~ which are all involved in acute
+and chronic inflammatoryprocesses, many autoimmune dis-
+eases, including rheumatoid arthritis and not only modulate
+the activation and function of cells of the immune system
+but also those of endothelial cells, keratinocytes and hepato-
+cytes (42-44), suggests that II.-10 is a powerful inhibitor of
+inflammation. Basedon its properties described thus far,which
+include inhibition of antigen specific T cell proliferation by
+reducing the APC capacity of monocytes through downregu-
+lation of class II MHC antigens on these cells and inhibitory
+effects on proinflammatorycytokine secretion by monocytes,
+it seems that II,-10 plays a major role as a suppressor of im-
+mune and inflammatory responses.
+The authors thank Dr. KevinMoore (DNAX) for stimulating discussions,Dr. Anje te Veldeand Mr.
+Richard Huijbens for isolation of monocytesand excellenttechnicalsupport, Dr. Rob Kasteleinand Ms.
+KarenJohnson for providingrecombinant 11,-10and v-IL-10,and Mrs.Janet Dillon forexcellentsecretarial
+assistance.
+The DNAX ResearchInstitute of Molecularand Cellular Biologyis supported by Schering-PloughCor-
+poration.
+AddresscorrespondencetoJan E. de Vries,Human ImmunologyDepartment, DNAX ResearchInstitute,
+901 California Avenue, Palo Alto, CA 94304-1104.
+Receivedfor publication 24 June 1991.
+References
+1. Fiorentino,D.F.,M.W.Bond,and T.R. Mosmann. 1989.Two
+types of mouse T helper cell. IV. Th2 clones secrete a factor
+that inhibits cytokine production by Thl clones.J. ExI~Med.
+170:2081.
+2. Moore,K.W.,P.Vieira,D.F.Fiorentino,M.L. Trounstine,T.A.
+Khan, and T.R. Mosmann. 1990.Homologyofcytokine syn-
+thesis inhibitory factor (I1.-10)to the Epstein-Barrvirusgene
+BCRF1. Science(Wash. DO. 248:1230.
+3. Fiorentino, D.F., A. Zlotnik, P. Vieira, T.R. Mosmann, M.
+Howard, K.W. Moore, and A. O'Garra. 1991. 1I.,10acts on
+the antigen presenting cellto inhibit cytokine production by
+Thl cells.J. Iramunol. 146:3444.
+4. MacNeil,I.A., T. Suda, K.W. Moore, T.R. Mosmann, and
+A. Zlotnik. 1990. Ilrl0, a novel growth cofactor for mature
+and immature T cells.J. lmmunoL 145:4167.
+5. Chen, W.F., and A. Zlotnik. 1991. Ibl0: A novelcytotoxic
+T cell differentiation factor.J. lmmunol. 147:528.
+6. Thompson-Snipes,L.A., V.Dhar,M.W.Bond,T.R. Mosmann,
+K.W.Moore,andD.M. Rennick. 1991.Interleukin10:A novel
+stimulatory factor for mast cellsand their progenitors.J. Exp.
+Med. 173:507.
+7. Go, N.F., B.E. Castle, R. Barrett, R. Kastelein, W. Dang,
+T.R. Mosmann, K.W.Moore, and M. Howard. 1990. Inter-
+leukin 10, a novelB cellstimulatory factor: Unresponsiveness
+of X chromosome linkedimmunodeficiencyB cells.J. Exp.
+Med. 172:1625.
+8. Vieira, P., R. de WaalMalefyt, M.-N. Dang, K.E. Johnson,
+R. Kastelein,D.F.Fiorentino,J.E. de "Cries,M.-G. RJoncarolo,
+T.R. Mosmann, and K.W.Moore. 1991.Isolation and expres-
+sion of human cytokine synthesis inhibitory factor cDNA
+clones: Homology to Epstein-Barrvirus open reading frame
+BCRF1. Proa Natl. Acad. Sci. USA. 88:1172.
+9. Hsu, D.-H., R. de Waal Malefyt, D.F. Fiorentino, M.-N.
+Dang, P. Vieira,J.E. de Vries,H. Spits, T.R. Mosmann, and
+K.W. Moore. 1990. Expression of interleukin-10 activity by
+Epstein-BarrvirusproteinBCRF1.Science(Wash.DC). 250:830.
+9a.de WaalMalefyt, R., J. Haanen, H. Spits, M.-G. Roncarolo,
+A. te Velde,C. Figdor,K. Johnson, R. Kastelein, H. Yssel,
+and J.E. de Vries. 1991. Interleukin 10(IL-10)and viral IL-10
+strongly reduceantigen-specifichuman T cellproliferationby
+diminishing the antigen-presenting capacityof monocytesvia
+downregulation of dass II major histocompatibility complex
+expression,j. ExF Med. 174:915.
+10. Fidgor,C.G., W.S. Bont, I. Touw,D. Roos, E.E. Roosnek,
+and J.E. De Vries. 1982. Isolation of functionally different
+human monocytesby counterflow centrifugation elutriation.
+Blood. 60:46.
+11. Figdor,C.G., W.L. van Es,J.M.M. Leemans,and W.S. Bont.
+1984. A centrifugal elutriation system of separating small
+numbers of cells.J. Immunol. Methods. 68:73.
+12. Yssel,H., J.E. de "Cries,M. Kohen, W. van Blitterswyk, and
+H. Spits. 1984.Serum freemedium for generation and propa-
+gation offunctionalhuman cytotoxicand helperT cellclones.
+J. Immunol. Methods. 72:219.
+13. Smith, D.B., and K.S.Johnson. 1988.Singlesteppurification
+ofpolypeptidesexpressedinE. coliasfusionswith glutathione-
+S-transferase. Gene. 67:31.
+14. Yokota,T., F. Lee,N. Arai,D. Rennick, A. Zlotnik, T. Mos-
+mann, A. Miyajima, Y. Takabe, R. Kastelein, G. Zurawski,
+and K. Arai. 1987. Strategiesfor cloning mouse and human
+lymphokinegenesusingamammaliancDNA expressionvector.
+In Lymphokines.D.W.Goeddel,and D.W.Webb,editors. Ac-
+ademic Press, New York. 1-26.
+15. Schmid, J., and C. Weissmann. 1987. Induction of mRNA
+for a serineprotease and a b-thromboglobulin-like protein in
+mitogen-stimulated human leukocytes.J. Immunol. 139:250.
+16. March,C.J., B. Mosley,A. Larsen,D.P. Cerretti, G. Braedt,
+V. Price,S. Gillis,C.S. Henney,S.R. Kronheim, K. Grabstein,
+P.J. Conlon, T.P. Hopp, and D. Cosman. 1985. Cloning, se-
+quence, and expressionof two distinct human interleukin-1
+1219 de WaalMalefytet al.
+complementary DNAs. Nature (Lond.). 315:641.
+17. Hirano, T., K. Yasukawa, H. Harada, T. Toga,Y. Watanabe,
+T. Matsuda, K. Kashiwamura, K. Nakajima, K. Koyoma, A.
+Iwamatsu, S. Tsunasawa, F. Sakiyama, H. Matsui, Y. Taka-
+horn, T. Taniguchi, and T. Kishimoto. 1986. Complementary
+DNA for a novel human interleukin (BSF-2)that induces B
+lymphocytesto produceimmunoglobin. Nature(Long). 324:73.
+18. Pennica, D., G.E. Nedwin, J.S. Hayflick, P.H. Seeburg, R.
+Derynck, M.A. Palladino,W.J. Kohr,B.B.Aggarwal, and D.V.
+Goeddd. 1984.Human tumour necrosisfactor:precursorstruc-
+ture, expression,andhomologyto lymphotoxin. Nature(Lond.).
+312:724.
+19. Lee,F., T. Yokota,T. Otsuka, L. Gemmell, N. I.arson,J. Luh,
+K. Arai, andD. Rennick. 1985.IsolationofcDNA fora human
+granulocyte-macrophage colony-stimulating-factor by func-
+tionalexpressionin mammaliancells.Pro~Natl. Acad.Sci. USA.
+82:4360.
+20. Alonso, S., A. Minty, Y. Bourlet, and M. Buckingham. 1986.
+Comparison of three actin-coding sequences in the mouse:
+Evolutionary relationships between the actin genes of warm-
+blooded vertebrates.J. Mol. Evol. 23:11.
+21. Nagata, S., M. Tsuchija, S. Asano, Y. Kaziro, T. Yamazaki,
+O. Yamamoto,Y. Hirata, N. Kubota, M. Oheda, H. Nomura,
+and M. Ono. 1986.Molecularcloning and expressionofcDNA
+for human granulocytecolony-stimulatingfactor.Nature(Lond.).
+319:415.
+22. Chirgwin, J.M., A.E. Przybyla, R.J. MacDonald, and W.J.
+Rutter. 1979. Isolation of biologically active ribonucleic acid
+from sources enriched in dbonuclease. Biochemistry. 18:5294.
+23. Feinberg,A.P., and B.Vogelstein.1983.A technique forradio-
+labeling DNA restriction endonuclease fragments to high
+specificactivity. Anal. Biochem. 132:6.
+24. De Waal Malefyt, R., B. Alarcon, H. Yssd, J. Sancho, A.
+Miyajima, C. Terhorst, H. Spits, and J.E. de Vries. 1989. In-
+troduction of T cellreceptor (TCR)-~ cDNA has differential
+effectson TCR-3'~/CD3 expressionbyPEER andLyon-1cells.
+j. Immunol. 142:3634.
+25. Krug, M.S., and S.L. Berger. 1987. First strand cDNA syn-
+thesis primed with oligo (dT). Methods Enzymol. 152:316.
+26. Maniatis, T., J. Sambrook, and E.F. Fritsch. 1989. Molecular
+Cloning: A Laboratory Manual. eds. Cold Spring Harbor
+Laboratories, Cold Spring Harbor, NY. pp. 545.
+27. Bacchetta, R., R. de Waal Malefyt, H. Yssel,J. Abrams,J.E.
+de Vries, H. Spits, and M.G. Roncarolo. 1990. Host-reactive
+CD4 + and CD8 + T cell clones isolated from a human chi-
+meraproduce IL-5,Ib2, IFN-% and granulocyte/macrophage-
+colony-stimulating factor but not IL-4.j. Immunol. 144:902.
+28. Koning, F., G.M.T.H. Schrender, M. Giphart, and J.W.
+Bruning. 1984.A mousemonoclonalantibody detecting aDR-
+related MT2-1ikespecificity:Serologyand biochemistry. Hum.
+ImmunoL 9:221.
+29. Quaranta, V., L.E. Walker, M.A. Pelligrino, and S. Ferrone.
+1980. Purification of immunologically functional subsets of
+human h-like antigens on a monoclonal antibody (Q5/13) im-
+munoadsorbent. J. ImmunoI. 136:2348.
+30. Lampson, L.A., and R. Levy.1980.Two populations ofIn-like
+molecules on a human B cell line.J. Imraunol. 125:293.
+31. te Velde,A.A., R.J.F. Huijbens, K. Heije, J.E. de "Cries,and
+C.G. Figdor. 1990. Interleukin 4 (IL-4)inhibits secretion of
+IIH/3, tumor necrosisfactor-a, and ID6 by human monocytes.
+Blood. 76:1392.
+32. Aarden, L.A., E.R. de Groot, O.L. Schaap, and P.M. Lans-
+dorp. 1987.Production ofhybridoma growth factorby human
+monocytes. Fur.j. Immunol. 17:1411.
+33. Lonnemann, G., S.Endres,J.W.M. Vander Meet,J.G. Cannon,
+K.M. Koch, and C.A. Dinarello. 1989.Differencesin the syn-
+thesis and kinetics ofreleaseof interleukin lcz,interleukin 1/~
+and tumor necrosisfactor from human mononuclear cells.Eur.
+J. Immunol. 19:1531.
+34. Helle, M., J.P.J. Brakenhoff,E.R. de Groot, and L.A. Aarden.
+1988. Interleukin 6 is involvedin interleukin 1-inducedactivi-
+ties. Eur.J. Immunol. 18:957.
+35. Van Damme, J., S. Cayphas, G. Opdenakker, A. Billiau, and
+J. VanSnick. 1987.Interleukin 1 and poly(rI):poly(rC) induce
+production ofa hybridomagrowth factorby human fibroblasts.
+Eur.J. Immunol. 17:1.
+36. Tosato, G., and K.D. Jones. 1990. Interleukin-1 induces
+interleukin-6 production in peripheralblood monocytes.Blood.
+75:1305.
+37. Assoian, R.K., B.E. Fleurdelys, H.C. Stevenson, PJ. Miller,
+D.K. Madtes, E.W. Raines, R. Ross, and M.B. Sporn. 1987.
+Expressionand secretionof type fl transforming growth factor
+by activated human macrophages. Proa Natl. Acad. $ci. USA.
+84:6020.
+38. Essner, R., K. Rhoades, W.H. McBride, D.L. Morton, and
+J.S. Economou. 1989. IL-4downregulates IL-1and TNF gene
+expression in human monocytes.J. Immunol. 142:3857.
+39. Hart, P.H., G.F. Vitti, D.R. Burgess, G.A. Whitty, D.S.Pic-
+coli, and J.A. Hamilton. 1989. Potential antiinflammatory
+effectsofinterleukin-4: suppressionofhuman monocytetumor
+necrosis factor oe, interleukin-1 and prostaglandin E2. Proc.
+Natl. Acad. Sci. USA. 86:3803.
+40. Donelly, R.P., M.J. Fenton, D.S. Finbloom, and T.L. Gerrard.
+1990. Differential regulation of II--1 production in human
+monocytes by IFN-y and Ib4. J. Iramunol. 145:569.
+41. Standiford, T.J., R.M. Strieter, S.W.Chensue, J. Westwick,
+K. Kasahara, and S.L. KunkeL1990. IL-4inhibits the expres-
+sion of 1I-,8from stimulated human monocytes.J. Immunol.
+145:1435.
+42. Dinarello, C.A. 1988. Biology of interleukin 1. FASEB (Fed.
+Am. Soc. Extx Biol.)J. 2:108.
+43. Kishimoto, T. 1989.Thebiologyofinterleukin-6. Blood. 74:1.
+44. Baggiolini, M., A. Waltz, and S.L.Kunkel. 1989.Neutrophil-
+activating peptide-1/interleukin-8, a novelcytokine that acti-
+vates neutrophils. J. Clin. Invest. 84:1045.
+1220 Interleukin
+10 InhibitsMonokineProduction
+
+				

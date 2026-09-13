@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+
+  <!-- Meta -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="en" name="dc.language"/>
+  <meta content="width=device-width,
+            initial-scale=1.0" name="viewport"/>
+  <meta name="author" content="Saez-Rodriguez Lab"/>
+  <meta name="description"
+    content="OmniPath integrated intercellular and intracellular signaling pathways database"/>
+  <meta name="apple-mobile-web-app-title" content="OmniPath"/>
+  <meta name="application-name" content="OmniPath"/>
+  <meta name="msapplication-TileColor" content="#603cba"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <!-- Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/omnipath.css"/>
+
+  <!-- Icons -->
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png%3Fv=7"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png%3Fv=7"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png%3Fv=7"/>
+  <link rel="manifest" href="site.webmanifest%3Fv=7"/>
+  <link rel="mask-icon" href="safari-pinned-tab.svg%3Fv=7" color="#f7b200"/>
+  <link rel="shortcut icon" href="favicon.ico%3Fv=7"/>
+
+  <!-- Scripts -->
+  <script src="js/anchor-offset.js"></script>
+
+  <!-- Title -->
+  <title>
+   OmniPath :: Intra- &amp; intercellular signaling knowledge
+  </title>
+
+ </head>
+
+ <!-- Page content -->
+ <body>
+  <script>0</script>
+  <!-- Title:Intra- &amp; intercellular signaling knowledge-->
+  <div class="grid-container u-align-left thirds">
+    <div>
+      <img src="img/omnipath_logo.png" title="Welcome to OmniPath!" class="full-width"/>
+    </div>
+    <div class="span2 u-align-right">
+      <!--<h2 class="u-pull-right">OmniPath: literature curated mammalian signaling pathways</h2>-->
+      <h2>OmniPath: intra- &amp; intercellular signaling knowledge</h2>
+    </div>
+  </div>
+  <div class="grid-container u-align-left full">
+    <nav>
+      <a class="topmenu" href="index.html#about"><span class="nav">
+        about
+      </span></a>
+      <a class="topmenu" href="index.html#tutorials"><span class="nav">
+        tutorials
+      </span></a>
+      <a class="topmenu" href="index.html#faq"><span class="nav">
+        FAQ
+      </span></a>
+      <a class="topmenu" href="index.html#help"><span class="nav">
+        help
+      </span></a>
+      <a class="topmenu" href="index.html#papers"><span class="nav">
+        papers
+      </span></a>
+      <a class="topmenu" href="index.html#webserv"><span class="nav">
+        web service
+      </span></a>
+      <a class="topmenu" href="index.html#python"><span class="nav">
+        Python
+      </span></a>
+      <a class="topmenu" href="index.html#r"><span class="nav">
+        R/Bioconductor
+      </span></a>
+      <a class="topmenu" href="index.html#cyto"><span class="nav">
+        Cytoscape
+      </span></a>
+      <a class="topmenu" href="info.html"><span class="nav">
+        resources
+      </span></a>
+      <a class="topmenu" href="index.html#build"><span class="nav">
+        custom build
+      </span></a>
+      <a class="topmenu" href="index.html#partners"><span class="nav">
+        partners
+      </span></a>
+      <a class="topmenu" href="index.html#contrib"><span class="nav">
+        contributors
+      </span></a>
+    </nav>
+  </div>
+  <div class="grid-container u-align-center full">
+    <div></div>
+    <div>
+      <a id="browse-button"
+         href="https://explore.omnipathdb.org/">Browse the database in OmniPath Explorer</a><br>
+    <span>Explore data integrated from 160+ resources</span>
+    </div>
+    <div></div>
+  </div>
+  <div class="grid-container u-align-left thirds">
+    <div class="content-box">
+      <h4>What is OmniPath?</h4>
+      <p>
+        OmniPath is a database of molecular biology prior knowledge
+        developed in <a href="https://saezlab.org/">Saez Lab</a> and
+        <a href="https://www.earlham.ac.uk/korcsmaros-group">Korcsmaros Lab</a>.
+        It combines data from
+        <a href="info.html">more than 100 resources</a>
+        and contains protein-protein and gene regulatory interactions,
+        enzyme-PTM relationships, protein complexes, protein annotations and
+        intercellular communication. <a href="index.html#about">Read more</a>
+      </p>
+    </div>
+    <div class="content-box">
+      <h4 id="publications" class="target">Read our papers</h4>
+      <ul>
+        <li>
+            <a href="https://www.embopress.org/doi/full/10.15252/msb.20209923" title="Mol Syst Biol 2021, open access">About the current OmniPath, especially the intercellular communication knowledge</a>
+        </li>
+        <li>
+            <a href="index.html#cyto-paper" title="Bioinformatics 2019, PDF">About the Cytoscape app</a>
+        </li>
+        <li>
+            <a href="https://rdcu.be/m53B" title="Nature Methods 2016, Read Cube">The first OmniPath paper</a>
+        </li>
+        <li>
+            <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fnmeth.4077/MediaObjects/41592_2016_BFnmeth4077_MOESM495_ESM.pdf"  title="Nature Methods 2016, PDF">An in depth
+            analysis of literature curated pathways</a>
+        </li>
+      </ul>
+      <a href="index.html#papers">Bibliography details</a>
+    </div>
+    <div class="content-box">
+      <h4 id="tutorials" class="target">How to use?</h4>
+      <p>More than ten workflows, tutorials and little examples. R, Python and
+      web service queries. How to extract networks from OmniPath? How to build
+      intercellular communication networks? How to combine OmniPath data with
+      drug targets or tissue expression?
+      <a href="https://workflows.omnipathdb.org/">Show me</a></p>
+    </div>
+    <div class="content-box">
+      <a href="index.html#fig-resources" class="no-uline">
+        <img src="img/omnipath_resources_360.png" class="full-width" title="Resources in OmniPath"/>
+        <p class="caption">Overview of the resources in OmniPath</p>
+      </a>
+    </div>
+    <div class="content-box">
+      <a href="index.html#fig-design" class="no-uline">
+        <img src="img/omnipath_design_360.png" class="full-width" title="The design of OmniPath"/>
+        <p class="caption">Design of the OmniPath software family</p>
+      </a>
+    </div>
+    <div class="content-box">
+      <a href="index.html#fig-applications" class="no-uline">
+        <img src="img/omnipath_applications_360.png" class="full-width" title="OmniPath applications"/>
+        <img src="img/omnipath_applications_2_360.png" class="full-width" title="OmniPath applications"/>
+        <p class="caption">Applications of OmniPath</p>
+      </a>
+    </div>
+    <div class="content-box">
+      <h4 id="r" class="target">
+        <a href="https://r.omnipathdb.org/" class=no-uline>
+          <img src="img/r-bioc-logo.svg" alt="Bioconductor logo"/>
+        </a><br/>
+        R/Bioconductor
+      </h4>
+      <p>
+        With the <a href="https://r.omnipathdb.org/">OmnipathR package</a>
+        it's really easy to fetch data from the
+        OmniPath web service into R data frames, build intercellular
+        signaling networks and input data for
+        <a href="https://www.nature.com/articles/s41592-019-0667-5">NicheNet</a>.
+        Available from
+        <a href="http://bioconductor.org/packages/release/bioc/html/OmnipathR.html">Bioconductor</a> and
+        <a href="https://github.com/saezlab/OmnipathR">github</a>.
+      </p>
+    </div>
+    <div class="content-box">
+      <h4 id="python" class="target">
+        <a href="https://github.com/saezlab/omnipath" class=no-uline>
+          <img src="img/python-logo.svg" alt="Python logo"/>
+        </a><br/>
+        Python
+      </h4>
+      <p>
+        The Python client downloads OmniPath data into <a href="https://pandas.pydata.org/">pandas</a> data frames. It is also able to build
+        intercellular (ligand-receptor) networks. Available from
+        <a href="https://pypi.org/project/omnipath/">PyPI</a> and
+        <a href="https://github.com/saezlab/omnipath">github</a>.
+      </p>
+    </div><div class="content-box">
+      <h4 id="cyto" class="target">
+        <a href="https://apps.cytoscape.org/apps/omnipath" class=no-uline>
+          <img src="img/cytoscape-logo.svg" alt="Cytoscape logo"/>
+        </a><br/>
+        Cytoscape
+      </h4>
+      <p>
+        Load OmniPath networks directly into Cytoscape with the
+        <a href="https://apps.cytoscape.org/apps/omnipath">OmniPath plug-in</a>.
+        Read more about the plug-in in <a href="index.html#cyto-paper" title="PDF">this paper</a>.
+      </p>
+    </div>
+    <div class="content-box">
+      <h4 id="build" class="target">Build your own OmniPath</h4>
+      <p>
+        The pypath Python module builds the OmniPath databases. It's super
+        flexible, customizable, comes with versatile APIs and many useful
+        utilities (e.g. ID translation). Available in
+        <a href="https://pypi.org/project/pypath-omnipath/">PyPI</a> and
+        <a href="https://github.com/saezlab/pypath">github</a>.
+      </p>
+    </div>
+    <div class="content-box">
+      <h4 id="help" class="target">Help</h4>
+      <p>
+        Some questions we've already answered in the <a href="index.html#faq">FAQ</a>.
+        Have a question about OmniPath data or tools? Something doesn't work?
+        Need a new feature? Open an issue:
+        <a href="https://github.com/saezlab/pypath/issues">pypath, OmniPath data</a>,
+        <a href="https://github.com/saezlab/OmnipathR/issues">OmnipathR (R client)</a>,
+        <a href="https://github.com/saezlab/omnipath/issues">omnipath Python client</a>,
+        <a href="https://github.com/saezlab/Omnipath_Cytoscape/issues">OmniPath Cytoscape plug-in</a>.
+        Pull requests are also welcome. Private messages:
+        omnipathdb@gmail.com.
+      </p>
+    </div>
+    <div class="content-box">
+      <h4 id="webserv" class="target">Web service</h4>
+      <p>
+        <a href="https://github.com/saezlab/pypath/blob/master/webservice.rst">Examples of HTTP requests to the OmniPath web service.</a>
+      </p>
+      <h4>Metabolic</h4>
+      <p>
+        Combined metabolic and signaling network in
+        <a href="https://metapkn.omnipathdb.org/">MetaPKN</a>
+        by Aurelien Dugourd.
+      </p>
+    </div>
+  </div>
+
+  <div class="grid-container u-align-left quarters">
+
+  <div class="span3">
+    <p  class="picture">
+    <img src="https://static.omnipathdb.org/omnipath_cover_webpage_980px.jpeg"
+    class="full-width"
+    title="Illustration by Spencer Phillips, EMBL-EBI. This cover artwork
+is the result of a collaboration between Spencer Phillips,
+Mary Todd-Bergman, Denes Turei, Tamas Korcsmaros and
+Julio Saez-Rodriguez, starting with the initial idea of using
+lenses by Jakob Wirbel (RWTH-Aachen).
+A modified version of this figure appeared in the Cover of
+Nature Methods Dec 2016."/>
+   </p>
+   <p class="caption">
+    <em>
+     Illustration by Spencer Phillips, EMBL-EBI.
+    This cover artwork is the result of a collaboration between
+    Spencer Phillips, Mary Todd-Bergman, Denes Turei, Tamas Korcsmaros and
+    Julio Saez-Rodriguez, starting with the initial idea of using lenses
+    by Jakob Wirbel (RWTH-Aachen). A modified version of this figure appeared
+    in the
+     <a href="https://www.nature.com/nmeth/journal/v13/n12/covers/index.html" target="_blank">
+      Cover of Nature Methods Dec 2016
+     </a>
+    </em>
+   </p>
+  </div>
+
+  <!-- Twitter -->
+  <div id="twitter" class="u-pull-right">
+   <a class="twitter-timeline u-pull-right" data-height="700" data-lang="en" data-link-color="#FAB81E" data-width="225" href="https://twitter.com/omnipathdb?ref_src=twsrc%5Etfw">
+    Tweets by omnipathdb
+   </a>
+   <script async="" src="https://platform.twitter.com/widgets.js">
+   </script>
+  </div>
+
+  </div>
+
+  <!-- OmniPath Intro -->
+  <div class="grid-container u-align-left full">
+
+  <div>
+  <h4  id="about" class="target">What is OmniPath?</h4>
+
+  <p>
+   OmniPath is a database of molecular biology prior knowledge. It combines
+   data from over 100 resources and builds 5 integrated databases: signaling
+   network (interactions), enzyme-PTM relationships, protein complexes,
+   protein annotations (function, localization, tissue, disease, structure,
+   etc), and intercellular communication roles (e.g. ligand, receptor;
+   intercell). More information is available in our recent
+   <a href="https://www.embopress.org/doi/full/10.15252/msb.20209923">
+   paper</a>.
+   </p>
+     <p id="fig-resources" class="picture target">
+      <a class="no-uline" href="https://static.omnipathdb.org/pypath_overview.pdf">
+      <img src="https://static.omnipathdb.org/pypath_overview.png" class="full-width" title="Overview of resources in pypath and OmniPath.
+New additions since Nov 2016 highlighted in violet.
+Expanded from Fig 1 of Turei et al. Nature Methods (2016)."/>
+     </a>
+    </p>
+    <p class="caption">
+      Overview of resources in pypath and OmniPath.
+      New additions since Nov 2016 highlighted in violet.
+      Expanded from Fig 1 of Turei et al. Nature Methods (2016).
+      For high resolution PDF
+      <a href="https://static.omnipathdb.org/pypath_overview.pdf">
+        click here
+      </a>.
+    </p>
+
+  <p>
+   The OmniPath databases are built by the Python module
+   <a href="https://github.com/saezlab/pypath">pypath</a> and are distributed
+   by the web service at <a href="index.html">omnipathdb.org</a>.
+   The web service can be queried by any HTTP client, or the R/Bioconductor
+   package <a href="https://github.com/saezlab/OmnipathR">OmnipathR</a> and
+   a <a href="https://github.com/saezlab/omnipath">Python client</a>. These
+   clients also provide some convenient methods for post-processing and are
+   also available in
+   <a href="http://bioconductor.org/packages/release/bioc/html/OmnipathR.html">
+   Bioconductor</a> and
+   <a href="https://pypi.org/project/omnipath/">pypi</a>.
+   In addition, the R package provides an integration
+   to <a href="https://github.com/saeyslab/nichenetr">NicheNet</a>, a
+   <a href="https://www.nature.com/articles/s41592-019-0667-5">method</a>
+   for inferring ligand-receptor interaction and downstream pathways from
+   scRNA data. Furthermore, the R package contains interface to 20 further
+   resources which are independent from OmniPath.
+  </p>
+  </div>
+
+  <div class="grid-container u-align-left quarters">
+
+  <div class="span3">
+  <p id="fig-applications" class="picture target">
+    <img style="width: 100%" src="img/omnipath_applications.svg" alt="OmniPath databases and their applications" title="OmniPath databases and their applications" />
+  </p>
+  </div>
+  <div>
+  <p class="caption">
+    OmniPath consists of five databases (top), each of them combine data from
+    a number of original resources. This database knowledge can be used for
+    the analysis of various omics data (middle) with various tools (bottom).
+  </p>
+  </div>
+
+  <div class="span3">
+  <p class="picture">
+    <img style="width: 100%" src="img/omnipath_applications_2.svg" alt="In silico inference of signaling mechanisms using OmniPath together with various tools" title="In silico inference of signaling mechanisms using OmniPath together with various tools" />
+  </p>
+  </div>
+  <div>
+  <p class="caption">
+    Database knowledge from OmniPath, together with transcriptomics data, can
+    be used to infer signaling mechanisms such as transcription factor
+    activities, pathway activities and ligand-receptor interaction
+    activities. The names of some software tools are shown on the arrows.
+  </p>
+  </div>
+
+  <div class="span3">
+  <p id="fig-design" class="picture target">
+    <img style="width: 100%" src="https://workflows.omnipathdb.org/omnipath_workflow.svg" alt="OmniPath infrastructure and workflow" />
+  </p>
+  </div>
+  <div>
+  <p class="caption">
+    Workflow and design: OmniPath is based on four major types of resources,
+    and the pypath Python package combines the resources to build five
+    databases. The databases are available by the database builder software
+    <a href="https://github.com/saezlab/pypath">pypath</a>, the web resource
+    at https://omnipathdb.org/, the R package
+    <a href="https://github.com/saezlab/OmnipathR">OmnipathR</a>, the Python
+    client <a href="https://github.com/saezlab/omnipath">omnipath</a>,
+    the <a href="https://apps.cytoscape.org/apps/omnipath">Cytoscape plug-in</a>
+    and can be exported to formats such as Biological Expression Language
+    (BEL).
+  </p>
+  </div>
+  </div>
+
+  </div>
+
+  <!-- FAQ -->
+  <div class="grid-container u-align-left full">
+  <h4 id="faq" class="target">Frequently asked questions</h4>
+
+  <strong>Is the data tissue or cell type specific?</strong>
+
+  <p>
+    No, the original resources collect data from a variety of tissues, cell
+    types and physiological conditions. In most of the cases this information
+    is not even included with the data. Even if it would be included, we
+    couldn't use it to obtain a, for example, T-cell specific signaling
+    network, because the number of cell types and conditions is enormous.
+    The same interactions present across many cell types and conditions, and
+    at the same time, the signaling of T-cells also varies depending on the
+    conditions and the sub-lineage. Instead of looking for cell type specific
+    signaling networks, we recommend you to use omics data to contextualize
+    the generic network from OmniPath. For example, use transcriptomics data
+    to limit the network to proteins expressed in your cell type of interest.
+    If you don't have such data, use public resources such as
+    <a href="https://www.ebi.ac.uk/gxa/home">Expression Atlas</a>,
+    <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>,
+    <a href="https://hb.flatironinstitute.org/">HumanBase</a>,
+    <a href="https://portals.broadinstitute.org/ccle">CCLE</a> etc. An easy
+    quick solution is to use the
+    <a href="https://www.proteinatlas.org/">Human Protein Atlas</a>
+    which is also available in the OmniPath annotations database,
+    we show this in the <a href="https://workflows.omnipathdb.org/">"Combining
+    OmniPath annotations and networks" tutorial</a>.
+  </p>
+
+  <strong>Is there a confidence score?</strong>
+
+  <p>
+    The network, the enzyme-PTM relationships and complexes can be filtered
+    by either the `curation_effort` value (unique resource-reference pairs)
+    or by the number of references. By removing the records with no references
+    one can easily select the literature curated part of the data. In the
+    <em>intercell</em> database a `consensus_score` is available for each
+    <em>composite</em> record: the number of resources annotating the protein
+    for a certain category (e.g. if three resources agree that a protein is a
+    transporter that’s more trustworthy compared to an annotation based on a
+    single resource). We emphasize that these metrics express the likelihood
+    that a piece of data is correct but has nothing to do with its biological
+    significance: maybe a weak interaction is described by many resources
+    while an important one by only one resource. Also such metrics are
+    distorted by data integration across databases, for example the data
+    collected orignally by PhosphoSite has been included in many other
+    resources.
+  </p>
+
+  <strong>I am a company, can I use OmniPath?</strong>
+
+  <p>
+    The data redistributed by the OmniPath web service doesn't have a license,
+    each original resource carries over its license. You can use the
+    <em>license = "commercial"</em> parameter in the web service queries and
+    in the R and Python clients. This way you get only the records which
+    allow commercial use. <a href="info.html">Here</a> you find the license
+    information of all the resources in OmniPath.
+  </p>
+
+  <strong>How often do you update OmniPath?</strong>
+
+  <p>
+    We add new resources every couple of months. We also update all the
+    resources at least once a year. Most of the original resources don't
+    update their contents so often, and some of them do it at a higher
+    frequency. Before every update we
+    <a href="https://archive.omnipathdb.org/">archive</a> the data. A log of
+    updates is also available
+    <a href="https://archive.omnipathdb.org/README.txt">here</a>.
+  </p>
+
+  <strong>Some data in OmniPath seems to be wrong</strong>
+
+  <p>
+    All databases unavoidably contain some errors. The errors in OmniPath
+    either come from the original resources or are introduced by a data
+    processing mistake. We are very grateful if you report errors and we
+    use the reports to improve the quality of OmniPath. If you found a
+    particular wrong record, please report it by
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRb9OZXZNItuF4hs5vBz0S4e6jHsSOeOHPAxKyZlRxK7hDAg/viewform">
+    this form</a>. Systematic errors affecting many records can be
+    reported <a href="https://github.com/saezlab/pypath/issues/new?assignees=&labels=bug&template=data_issue.md&title=">here</a>. Also
+    in this case one example of the wrong records is very helpful.
+  </p>
+
+  </div>
+
+  <!-- Publications -->
+  <div class="grid-container u-align-left full">
+
+  <h4 id="papers" class="target">OmniPath publications</h4>
+
+  <strong>Recent paper with a focus on intercellular signaling knowledge</strong>
+  <p>
+   D Turei, A Valdeolivas, L Gul, N Palacio-Escat, M Klein, O Ivanova, M Olbei, A Gabor, F Theis, D Modos, T Korcsmaros and J Saez-Rodriguez (2021) Integrated intra- and intercellular signaling knowledge for multicellular omics analysis.
+   <em>
+    <a href="https://www.embopress.org/doi/full/10.15252/msb.20209923">Mol Syst Biol</a>
+   </em>
+   17: e9923<br/>
+   <a href="https://pubmed.ncbi.nlm.nih.gov/33749993/">
+    PMID: 33749993</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+   <a href="https://www.embopress.org/doi/pdfdirect/10.15252/msb.20209923?download=true">
+    PDF</a>
+  </p>
+
+  <strong id="cyto-paper" class="target">About the OmniPath Cytoscape plug-in</strong>
+  <p>
+   F Ceccarelli, D Turei, A Gabor, J Saez-Rodriguez (2020) Bringing Data
+    From Curated Pathway Resources to Cytoscape With OmniPath.
+   <em>
+    Bioinformatics
+   </em>
+   36 (1)<br/>
+   <a href="https://www.ncbi.nlm.nih.gov/pubmed/31886476">
+    PMID: 31886476</a><!--&nbsp;&nbsp;|&nbsp;&nbsp;
+   <a href="#">
+     Abstract</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+   <a href="#">
+     PDF</a> -->
+  </p>
+
+  <strong>The OmniPath paper with the original objectives and design</strong>
+  <p>
+   D Turei, T Korcsmaros and J Saez-Rodriguez (2016) OmniPath: guidelines
+    and gateway for literature-curated signaling pathway resources.
+   <em>
+    Nature Methods
+   </em>
+   13 (12)<br/>
+   <a href="https://www.ncbi.nlm.nih.gov/pubmed/27898060">
+    PMID: 27898060</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+   <a href="https://rdcu.be/m53B" title="Access the paper via readcube">
+    Full text</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fnmeth.4077/MediaObjects/41592_2016_BFnmeth4077_MOESM495_ESM.pdf">
+    Supplementary</a>
+  </p>
+
+  </div> <!-- End of Publications -->
+
+  <!-- Miscellaneous -->
+  <div class="grid-container full u-align-left">
+  <div class="span4">
+    <h4 id="misc">Miscellaneous</h4>
+  </div>
+  </div>
+
+  <div class="grid-container fifths u-align-left">
+
+  <div id="partners" class="target">
+    <h6>OmniPath is part of</h6>
+
+    <ul>
+    <li>
+    <a href="http://www.indra.bio/">
+        INDRA
+    </a>
+    </li>
+    <li>
+    <a href="https://www.opentargets.org/">
+        Open Targets
+    </a>
+    </li>
+    <li>
+    <a href="https://bel-commons.scai.fraunhofer.de/">
+        BEL Commons
+    </a>
+    </li>
+    </ul>
+  </div>
+
+  <div>
+    <h6>OmniPath in meta-databases</h6>
+
+    <ul>
+    <li>
+    <a href="https://omictools.com/omnipath-tool" target="_blank">
+        OmicTools
+    </a>
+    </li>
+    <li>
+    <a href="http://pathguide.org/fullrecord.php?organisms=all&amp;availability=all&amp;standards=all&amp;order=alphabetic&amp;DBID=582" target="_blank">
+        PathGuide
+    </a>
+    </li>
+    </ul>
+  </div>
+
+  <div>
+    <h6>OmniPath press releases</h6>
+
+    <ul>
+    <li>
+    <a href="https://www.ebi.ac.uk/about/news/press-releases/omnipath-sends-strong-signal">
+        EMBL-EBI
+    </a>
+    </li>
+    <li>
+    <a href="https://www.earlham.ac.uk/newsroom/omnipath-sends-strong-signal">
+        Earlham Institute
+    </a>
+    </li>
+    <li>
+    <a href="https://phys.org/news/2016-11-combining-pathway-resources-clearer-view.html">
+        Phys.org
+    </a>
+    </li>
+    </ul>
+  </div>
+
+  <div>
+    <h6>Contributing groups</h6>
+
+    <ul>
+    <li>
+    <a href="https://saezlab.org/">
+        Saez Lab
+    </a>
+    </li>
+    <li>
+    <a href="https://www.earlham.ac.uk/korcsmaros-group">
+        Korcsmaros Lab
+    </a>
+    </li>
+    <li>
+    <a href="https://www.helmholtz-muenchen.de/icb/research/groups/theis-lab/overview/index.html">
+        Theis Lab
+    </a>
+    </li>
+    </ul>
+  </div>
+
+  <div>
+    <h6>Papers citing OmniPath</h6>
+    <span class="small">
+    <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16231161883554967931">Mol Syst Biol 2021</a>,
+    <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1029762973517023768">Bioinformatics 2020</a>,
+    <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2131297002329856377">Nat Methods 2016</a>
+    (total 171 citations by April 2021)
+    </span>
+  </div>
+
+  </div> <!-- End of Misc -->
+
+  <!-- Institute logos -->
+  <div  id="contrib" class="target grid-container u-align-left quarters">
+
+    <div class="font-medium">
+    <a class="no-uline" href="https://www.ebi.ac.uk/">
+      <img alt="EMBL-EBI, Hinxton" class="logo align-middle" style="max-width: 190px;"
+        src="img/embl_ebi_logo.png"/>
+    </a>
+    </div>
+
+    <div>
+    <a class="no-uline" href="https://www.rwth-aachen.de/go/id/a/?lidx=1">
+      <img alt="JRC-COMBINE, RWTH Aachen" class="logo align-middle" style="max-width: 190px;"
+        src="img/rwth_logo.png"/>
+    </a>
+    </div>
+
+    <div>
+    <a class="no-uline" href="https://www.earlham.ac.uk/">
+      <img alt="Earlham Institure, Norwich" class="logo align-middle" style="max-width: 181px;"
+        src="img/earlham_logo.png"/>
+    </a>
+    </div>
+
+    <div>
+    <a class="no-uline" href="https://www.uni-heidelberg.de/en">
+      <img alt="University Hospital Heidelberg" class="logo align-middle" style="max-width: 232px;"
+        src="img/uniklinik_hd_logo.png"/>
+    </a>
+    </div>
+
+  </div>
+<div class="grid-container u-align-left full">
+  <div>
+  <p>
+   <a href="https://denes.omnipathdb.org/">
+    Dénes Türei</a>,&nbsp;
+   <a href="https://github.com/alberto-valdeolivas">
+    Alberto Valdeolivas</a>,&nbsp;
+   <a href="https://www.earlham.ac.uk/lejla-gul">
+    Leila Gul</a>,&nbsp;
+   <a href="https://quadram.ac.uk/people/dezso-modos/">
+    Dezs&#337; Módos</a>,&nbsp;
+   <a href="https://saezlab.org/person/francesco-ceccarelli/">
+    Francesco Ceccarelli</a>,&nbsp;
+   <a href="http://saezlab.org/person/nicolas-palacio/">
+    Nicolàs Palacio</a>,&nbsp;
+   <a href="http://saezlab.org/person/olga-ivanova/">
+    Olga Ivanova</a>,&nbsp;
+   <a href="https://github.com/michalk8">
+    Michal Klein</a>,&nbsp;
+   <a href="https://saezlab.org/person/attila-gabor/">
+    Attila Gábor</a>,&nbsp;
+   <a href="https://www.earlham.ac.uk/m%C3%A1rton-olbei">
+    Márton Ölbei</a>,&nbsp;
+   <a href="https://saezlab.org/">
+    Saez Lab</a>&nbsp;&amp;&nbsp;
+   <a href="https://www.earlham.ac.uk/korcsmaros-group">
+    Korcsmaros Lab</a>&nbsp;&amp;&nbsp;
+   <a href="https://www.helmholtz-muenchen.de/icb/research/groups/theis-lab/overview/index.html">
+    Theis Lab</a>&nbsp;
+   2016-2022.<br/>Feedback: omnipathdb@gmail.com
+  </p>
+  <p>
+   <a class="no-uline" href="https://validator.w3.org/check/referer">
+    <img alt="Valid HTML5" src="img/html5.png"/>
+   </a>
+   <a class="no-uline" href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img alt="Valid CSS3" src="img/css3.png"/>
+   </a>
+  </p>
+  </div>
+</div>
+ </body>
+</html>

@@ -1,0 +1,395 @@
+Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis - PubMed (https://pubmed.ncbi.nlm.nih.gov/17660817/)
+citeturn14view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://pubmed.ncbi.nlm.nih.gov/17660817/","lineno":null}); Total lines: 528
+L0: cite0†Skip to main page content L1: 
+L2: cite1†Log in†account.ncbi.nlm.nih.gov Show account info
+L3: 
+L4: [Input]
+L5: 
+L6: Search: [Input: ]Search
+L7: 
+L8: cite2†Advanced L9: 
+L10: [Button: Save ][Button: Email ]
+L11: 
+L12: [Button: Send to]
+L13: 
+L14:   * cite3†Clipboard L15:   * cite4†My Bibliography†account.ncbi.nlm.nih.gov L16:   * cite5†Collections†account.ncbi.nlm.nih.gov L17:   * cite3†Citation manager L18: 
+L19: Display options
+L20: 
+L21: Display options
+L22: 
+L23: Format [Select]
+L24: 
+L25: [Input]
+L26: 
+L27: ## Save citation to file
+L28: 
+L29: [Input]
+L30: 
+L31: Format: [Select]
+L32: 
+L33: [Button: Create file ] [Button: Cancel ]
+L34: ## Email citation
+L35: 
+L36: Email address has not been verified. Go to cite6†My NCBI account settings†account.ncbi.nlm.nih.gov to confirm your email and then refresh this page.
+L37: 
+L38: [Input]
+L39: 
+L40: To:
+L41: 
+L42: Subject: [Input]
+L43: 
+L44: Body:
+L45: 
+L46: Format: [Select]
+L47: 
+L48: [Input] MeSH and other data
+L49: 
+L50: [Button: Send email ] [Button: Cancel ]
+L51: 
+L52: [Input] [Input]
+L53: ### Add to Collections
+L54: 
+L55: [Input]
+L56: 
+L57:   * [Input] Create a new collection
+L58:   * [Input] Add to an existing collection
+L59: 
+L60: Name your collection: [Input]
+L61: 
+L62: Name must be less than 100 characters
+L63: 
+L64: Choose a collection: [Select]
+L65: 
+L66: Unable to load your collection due to an error
+L67: cite3†Please try again L68: 
+L69: [Button: Add ] [Button: Cancel ]
+L70: 
+L71: ### Add to My Bibliography
+L72: 
+L73: [Input]
+L74: 
+L75:   * [Input] My Bibliography
+L76: 
+L77: Unable to load your delegates due to an error
+L78: cite3†Please try again L79: 
+L80: [Button: Add ] [Button: Cancel ]
+L81: ## Your saved search
+L82: 
+L83: [Input]
+L84: 
+L85: Name of saved search: [Input]
+L86: 
+L87: Search terms:
+L88: 
+L89: cite3†Test search terms L90: 
+L91: Would you like email updates of new search results? Saved Search Alert Radio Buttons
+L92: 
+L93:   * [Input] Yes
+L94:   * [Input] No
+L95: 
+L96: Email: (cite7†change†www.ncbi.nlm.nih.gov )
+L97: 
+L98: Frequency: [Select]
+L99: 
+L100: Which day? [Select]
+L101: 
+L102: Which day? [Select]
+L103: 
+L104: Report format: [Select]
+L105: 
+L106: Send at most: [Select]
+L107: 
+L108: [Input] Send even when there aren't any new results
+L109: 
+L110: Optional text in email:
+L111: 
+L112: [Button: Save ] [Button: Cancel ]
+L113: ## Create a file for external citation management software
+L114: 
+L115: [Input] [Input]
+L116: 
+L117: [Button: Create file ] [Button: Cancel ]
+L118: 
+L119: ## Your RSS Feed
+L120: 
+L121: [Input]
+L122: 
+L123: Name of RSS Feed: [Input: Name]
+L124: 
+L125: Number of items displayed: [Select]
+L126: 
+L127: [Button: Create RSS ] [Button: Cancel ]
+L128: 
+L129: RSS Link [Input: Your RSS Feed Link] [Button: Copy ]
+L130: 
+L131: ### Full text links
+L132: 
+L133: cite8†Nature Publishing Group†doi.org L134: 
+L135: cite3†Full text links L136: ### Actions
+L137: 
+L138: Cite
+L139: 
+L140: Collections
+L141: 
+L142: Add to Collections
+L143: 
+L144: [Input]
+L145: 
+L146:   * [Input]Create a new collection
+L147:   * [Input]Add to an existing collection
+L148: 
+L149: Name your collection: [Input]
+L150: 
+L151: Name must be less than 100 characters
+L152: 
+L153: Choose a collection: [Select]
+L154: 
+L155: Unable to load your collection due to an error
+L156: cite3†Please try again L157: 
+L158: [Button: Add ][Button: Cancel ]
+L159: 
+L160: Display options
+L161: 
+L162: Display options
+L163: 
+L164: Format [Select]
+L165: 
+L166: [Button: Nat Genet ]
+L167: 
+L168: Actions
+L169:   * cite9†Search in PubMed L170:   * cite10†Search in NLM Catalog†www.ncbi.nlm.nih.gov L171:   * cite3†Add to Search L172: 
+L173: . 2007 Sep;39(9):1083-91.
+L174: 
+L175: doi: 10.1038/ng2103. Epub 2007 Jul 29.
+L176: # Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis
+L177: cite11†Simon G Gregory ^{  cite12†1 }, cite13†Silke Schmidt , cite14†Puneet Seth , cite15†Jorge R Oksenberg , cite16†John Hart , cite17†Angela Prokop , cite18†Stacy J Caillier , cite19†Maria Ban , cite20†An Goris , cite21†Lisa F Barcellos , cite22†Robin Lincoln , cite23†Jacob L McCauley , cite24†Stephen J Sawcer , cite25†D A S Compston , cite26†Benedicte Dubois , cite27†Stephen L Hauser , cite28†Mariano A Garcia-Blanco , cite29†Margaret A Pericak-Vance , cite30†Jonathan L Haines ; cite31†Multiple Sclerosis Genetics Group L178: 
+L179: Affiliations Expand
+L180: ### Affiliation
+L181: 
+L182:   * ^{1} Center for Human Genetics, Department of Molecular Genetics and Microbiology, Duke University Medical Center, Durham, North Carolina 27710, USA.
+L183: 
+L184:   * PMID: 17660817
+L185:   * DOI: cite8†10.1038/ng2103†doi.org L186: 
+L187: Item in Clipboard
+L188: # Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis
+L189: 
+L190: Simon G Gregory et al. Nat Genet. 2007 Sep.
+L191: 
+L192: Show details
+L193: 
+L194: Display options
+L195: 
+L196: Display options
+L197: 
+L198: Format [Select]
+L199: 
+L200: [Button: Nat Genet ]
+L201: 
+L202: Actions
+L203: 
+L204:   * cite9†Search in PubMed L205:   * cite10†Search in NLM Catalog†www.ncbi.nlm.nih.gov L206:   * cite3†Add to Search L207: 
+L208: . 2007 Sep;39(9):1083-91.
+L209: 
+L210: doi: 10.1038/ng2103. Epub 2007 Jul 29.
+L211: ### Authors
+L212: 
+L213: cite11†Simon G Gregory ^{  cite32†1 }, cite13†Silke Schmidt , cite14†Puneet Seth , cite15†Jorge R Oksenberg , cite16†John Hart , cite17†Angela Prokop , cite18†Stacy J Caillier , cite19†Maria Ban , cite20†An Goris , cite21†Lisa F Barcellos , cite22†Robin Lincoln , cite23†Jacob L McCauley , cite24†Stephen J Sawcer , cite25†D A S Compston , cite26†Benedicte Dubois , cite27†Stephen L Hauser , cite28†Mariano A Garcia-Blanco , cite29†Margaret A Pericak-Vance , cite30†Jonathan L Haines ; cite31†Multiple Sclerosis Genetics Group L214: ### Affiliation
+L215: 
+L216:   * ^{1} Center for Human Genetics, Department of Molecular Genetics and Microbiology, Duke University Medical Center, Durham, North Carolina 27710, USA.
+L217: 
+L218:   * PMID: 17660817
+L219:   * DOI: cite8†10.1038/ng2103†doi.org L220: 
+L221: Item in Clipboard
+L222: 
+L223: [Button: Full text links ]Cite
+L224: 
+L225: Display options
+L226: 
+L227: Display options
+L228: 
+L229: Format [Select]
+L230: ## Abstract
+L231: Multiple sclerosis is a demyelinating neurodegenerative disease with a strong genetic component. Previous genetic risk studies have failed to identify consistently linked regions or genes outside of the major histocompatibility complex on chromosome 6p. We describe allelic association of a polymorphism in the gene encoding the interleukin 7 receptor alpha chain (IL7R) as a significant risk factor for multiple sclerosis in four independent family-based or case-control data sets (overall P = 2.9 x 10(-7)).
+L232: Further, the likely causal SNP, rs6897932, located within the alternatively spliced exon 6 of IL7R, has a functional effect on gene expression. The SNP influences the amount of soluble and membrane-bound isoforms of the protein by putatively disrupting an exonic splicing silencer.
+L233: cite33†PubMed Disclaimer L234: ## Comment in
+L235: 
+L236:   * cite34†IL-7Ralpha and multiple sclerosis risk. L237: 
+L238: Harley JB. Harley JB. Nat Genet. 2007 Sep;39(9):1053-4. doi: 10.1038/ng0907-1053. Nat Genet. 2007. PMID: 17728770 No abstract available.
+L239: ## Publication types
+L240: 
+L241:   * [Button: Research Support, N.I.H., Extramural ]
+L242: 
+L243: Actions
+L244: 
+L245:     * cite35†Search in PubMed L246:     * cite36†Search in MeSH†www.ncbi.nlm.nih.gov L247:     * cite3†Add to Search L248: 
+L249:   * [Button: Research Support, Non-U.S. Gov't ]
+L250: 
+L251: Actions
+L252: 
+L253:     * cite37†Search in PubMed L254:     * cite38†Search in MeSH†www.ncbi.nlm.nih.gov L255:     * cite3†Add to Search L256: ## MeSH terms
+L257: 
+L258:   * [Button: Adult ]
+L259: 
+L260: Actions
+L261: 
+L262:     * cite39†Search in PubMed L263:     * cite40†Search in MeSH†www.ncbi.nlm.nih.gov L264:     * cite3†Add to Search L265: 
+L266:   * [Button: Alternative Splicing ]
+L267: 
+L268: Actions
+L269: 
+L270:     * cite41†Search in PubMed L271:     * cite42†Search in MeSH†www.ncbi.nlm.nih.gov L272:     * cite3†Add to Search L273: 
+L274:   * [Button: Animals ]
+L275: 
+L276: Actions
+L277: 
+L278:     * cite43†Search in PubMed L279:     * cite44†Search in MeSH†www.ncbi.nlm.nih.gov L280:     * cite3†Add to Search L281: 
+L282:   * [Button: Case-Control Studies ]
+L283: 
+L284: Actions
+L285:     * cite45†Search in PubMed L286:     * cite46†Search in MeSH†www.ncbi.nlm.nih.gov L287:     * cite3†Add to Search L288: 
+L289:   * [Button: Cell Line, Tumor ]
+L290: 
+L291: Actions
+L292: 
+L293:     * cite47†Search in PubMed L294:     * cite48†Search in MeSH†www.ncbi.nlm.nih.gov L295:     * cite3†Add to Search L296: 
+L297:   * [Button: Chromosome Mapping ]
+L298: 
+L299: Actions
+L300: 
+L301:     * cite49†Search in PubMed L302:     * cite50†Search in MeSH†www.ncbi.nlm.nih.gov L303:     * cite3†Add to Search L304: 
+L305:   * [Button: Europe ]
+L306: 
+L307: Actions
+L308:     * cite51†Search in PubMed L309:     * cite52†Search in MeSH†www.ncbi.nlm.nih.gov L310:     * cite3†Add to Search L311: 
+L312:   * [Button: Family Health ]
+L313: 
+L314: Actions
+L315: 
+L316:     * cite53†Search in PubMed L317:     * cite54†Search in MeSH†www.ncbi.nlm.nih.gov L318:     * cite3†Add to Search L319: 
+L320:   * [Button: Female ]
+L321: 
+L322: Actions
+L323: 
+L324:     * cite55†Search in PubMed L325:     * cite56†Search in MeSH†www.ncbi.nlm.nih.gov L326:     * cite3†Add to Search L327: 
+L328:   * [Button: Gene Expression ]
+L329: 
+L330: Actions
+L331: 
+L332:     * cite57†Search in PubMed L333:     * cite58†Search in MeSH†www.ncbi.nlm.nih.gov L334:     * cite3†Add to Search L335:   * [Button: Gene Frequency ]
+L336: 
+L337: Actions
+L338: 
+L339:     * cite59†Search in PubMed L340:     * cite60†Search in MeSH†www.ncbi.nlm.nih.gov L341:     * cite3†Add to Search L342: 
+L343:   * [Button: Genetic Predisposition to Disease ]
+L344: 
+L345: Actions
+L346: 
+L347:     * cite61†Search in PubMed L348:     * cite62†Search in MeSH†www.ncbi.nlm.nih.gov L349:     * cite3†Add to Search L350: 
+L351:   * [Button: Genotype ]
+L352: 
+L353: Actions
+L354: 
+L355:     * cite63†Search in PubMed L356:     * cite64†Search in MeSH†www.ncbi.nlm.nih.gov L357:     * cite3†Add to Search L358: 
+L359:   * [Button: Haplotypes ]
+L360: 
+L361: Actions
+L362:     * cite65†Search in PubMed L363:     * cite66†Search in MeSH†www.ncbi.nlm.nih.gov L364:     * cite3†Add to Search L365: 
+L366:   * [Button: HeLa Cells ]
+L367: 
+L368: Actions
+L369: 
+L370:     * cite67†Search in PubMed L371:     * cite68†Search in MeSH†www.ncbi.nlm.nih.gov L372:     * cite3†Add to Search L373: 
+L374:   * [Button: Humans ]
+L375: 
+L376: Actions
+L377: 
+L378:     * cite69†Search in PubMed L379:     * cite70†Search in MeSH†www.ncbi.nlm.nih.gov L380:     * cite3†Add to Search L381: 
+L382:   * [Button: Linkage Disequilibrium ]
+L383: 
+L384: Actions
+L385:     * cite71†Search in PubMed L386:     * cite72†Search in MeSH†www.ncbi.nlm.nih.gov L387:     * cite3†Add to Search L388: 
+L389:   * [Button: Male ]
+L390: 
+L391: Actions
+L392: 
+L393:     * cite73†Search in PubMed L394:     * cite74†Search in MeSH†www.ncbi.nlm.nih.gov L395:     * cite3†Add to Search L396: 
+L397:   * [Button: Middle Aged ]
+L398: 
+L399: Actions
+L400: 
+L401:     * cite75†Search in PubMed L402:     * cite76†Search in MeSH†www.ncbi.nlm.nih.gov L403:     * cite3†Add to Search L404: 
+L405:   * [Button: Multiple Sclerosis / genetics* ]
+L406: 
+L407: Actions
+L408:     * cite77†Search in PubMed L409:     * cite78†Search in MeSH†www.ncbi.nlm.nih.gov L410:     * cite3†Add to Search L411: 
+L412:   * [Button: Odds Ratio ]
+L413: 
+L414: Actions
+L415: 
+L416:     * cite79†Search in PubMed L417:     * cite80†Search in MeSH†www.ncbi.nlm.nih.gov L418:     * cite3†Add to Search L419: 
+L420:   * [Button: Polymorphism, Single Nucleotide* ]
+L421: 
+L422: Actions
+L423: 
+L424:     * cite81†Search in PubMed L425:     * cite82†Search in MeSH†www.ncbi.nlm.nih.gov L426:     * cite3†Add to Search L427: 
+L428:   * [Button: Receptors, Interleukin-7 / genetics* ]
+L429: 
+L430: Actions
+L431:     * cite83†Search in PubMed L432:     * cite84†Search in MeSH†www.ncbi.nlm.nih.gov L433:     * cite3†Add to Search L434: 
+L435:   * [Button: Transfection ]
+L436: 
+L437: Actions
+L438: 
+L439:     * cite85†Search in PubMed L440:     * cite86†Search in MeSH†www.ncbi.nlm.nih.gov L441:     * cite3†Add to Search L442: 
+L443:   * [Button: United States ]
+L444: 
+L445: Actions
+L446: 
+L447:     * cite87†Search in PubMed L448:     * cite88†Search in MeSH†www.ncbi.nlm.nih.gov L449:     * cite3†Add to Search L450: ## Substances
+L451: 
+L452:   * [Button: Receptors, Interleukin-7 ]
+L453: 
+L454: Actions
+L455: 
+L456:     * cite89†Search in PubMed L457:     * cite90†Search in MeSH†www.ncbi.nlm.nih.gov L458:     * cite3†Add to Search L459: 
+L460:   * [Button: interleukin-7 receptor, alpha chain ]
+L461: 
+L462: Actions
+L463: 
+L464:     * cite91†Search in PubMed L465:     * cite92†Search in MeSH†www.ncbi.nlm.nih.gov L466:     * cite3†Add to Search L467: 
+L468: ## Grants and funding
+L469: 
+L470:   * cite93†G0000934/MRC_/Medical Research Council/United Kingdom L471: ## LinkOut - more resources
+L472: 
+L473:   * ### Full Text Sources
+L474: 
+L475:     * cite8†Nature Publishing Group†doi.org L476:   * ### Other Literature Sources
+L477: 
+L478:     * cite94†The Lens - Patent Citations Database†www.lens.org L479:   * ### Medical
+L480: 
+L481:     * cite95†MedlinePlus Health Information†medlineplus.gov L482:   * ### Molecular Biology Databases
+L483: 
+L484:     * cite96†BioCyc†biocyc.org L485:     * cite97†GlyGen glycoinformatics resource†glygen.org L486: 
+L487: Full text links [Button: [x]]
+L488: 
+L489: cite8†Nature Publishing Group†doi.org L490: 
+L491: [Button: [x]]
+L492: 
+L493: Cite
+L494: 
+L495: [Button: Copy ]
+L496: [Input] Download .nbib .nbib
+L497: 
+L498: Format: [Select]
+L499: 
+L500: Send To
+L501: 
+L502:   * cite3†Clipboard L503:   * cite98†Email†account.ncbi.nlm.nih.gov L504:   * cite3†Save L505:   * cite4†My Bibliography†account.ncbi.nlm.nih.gov L506:   * cite5†Collections†account.ncbi.nlm.nih.gov L507:   * cite3†Citation Manager L508: [Button: [x]]
+L509: 
+L510: Follow NCBI
+L511: 
+L512: cite99†Connect with NLM†www.nlm.nih.gov L513: 
+L514: National Library of Medicine
+L515: cite100†8600 Rockville Pike Bethesda, MD 20894†www.google.com L516: 
+L517: cite101†Web Policies†www.nlm.nih.gov L518: cite102†FOIA†www.nih.gov L519: cite103†HHS Vulnerability Disclosure†www.hhs.gov L520: cite104†Help†support.nlm.nih.gov L521: cite105†Accessibility†www.nlm.nih.gov L522: cite106†Careers†www.nlm.nih.gov L523: 
+L524:   * cite107†NLM†www.nlm.nih.gov L525:   * cite108†NIH†www.nih.gov L526:   * cite109†HHS†www.hhs.gov L527:   * cite110†USA.gov†www.usa.gov 

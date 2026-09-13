@@ -1,0 +1,338 @@
+Activated platelets mediate inflammatory signaling by regulated interleukin 1β synthesis - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock icon
+) or https:// means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+J Cell Biol. 2001 Aug 6;154(3):485–490. doi: 10.1083/jcb.200105058
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Activated platelets mediate inflammatory signaling by regulated interleukin 1β synthesis
+Stephan Lindemann
+Stephan Lindemann
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Stephan Lindemann
+4, Neal D Tolley
+Neal D Tolley
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Neal D Tolley
+4, Dan A Dixon
+Dan A Dixon
+2Department of Oncological Sciences, University of Utah, Salt Lake City, UT 84112
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Dan A Dixon
+2,4, Thomas M McIntyre
+Thomas M McIntyre
+1Department of Internal Medicine, University of Utah, Salt Lake City, UT 84112
+3Department of Pathology, University of Utah, Salt Lake City, UT 84112
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Thomas M McIntyre
+1,3,4, Stephen M Prescott
+Stephen M Prescott
+1Department of Internal Medicine, University of Utah, Salt Lake City, UT 84112
+5Huntsman Cancer Institute, University of Utah, Salt Lake City, UT 84112
+Find articles by Stephen M Prescott
+1,5, Guy A Zimmerman
+Guy A Zimmerman
+1Department of Internal Medicine, University of Utah, Salt Lake City, UT 84112
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Guy A Zimmerman
+1,4, Andrew S Weyrich
+Andrew S Weyrich
+1Department of Internal Medicine, University of Utah, Salt Lake City, UT 84112
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+Find articles by Andrew S Weyrich
+1,4
+Author information
+Article notes
+Copyright and License information
+1Department of Internal Medicine, University of Utah, Salt Lake City, UT 84112
+2Department of Oncological Sciences, University of Utah, Salt Lake City, UT 84112
+3Department of Pathology, University of Utah, Salt Lake City, UT 84112
+4Program in Human Molecular Biology and Genetics, University of Utah, Salt Lake City, UT 84112
+5Huntsman Cancer Institute, University of Utah, Salt Lake City, UT 84112
+✉
+Address correspondence to Andrew S. Weyrich, Program in Human Molecular Biology and Genetics, University of Utah, 15 North 2030 East, Bldg. 533, Rm. 4220, Salt Lake City, UT 84112. Tel.: (801) 585-0702. Fax: (801) 585-0701. E-mail: andy.weyrich@hmbg.utah.edu
+Received 2001 May 10; Revised 2001 Jun 22; Accepted 2001 Jun 25.
+Copyright © 2001, The Rockefeller University Press
+This article is distributed under the terms of an Attribution–Noncommercial–Share Alike–No Mirror Sites license for the first six months after the publication date (see http://www.rupress.org/terms). After six months it is available under a Creative Commons License (Attribution–Noncommercial–Share Alike 4.0 Unported license, as described at http://creativecommons.org/licenses/by-nc-sa/4.0/).
+PMC Copyright notice
+PMCID: PMC2196422 PMID: 11489912
+Abstract
+Platelets release preformed mediators and generate eicosanoids that regulate acute hemostasis and inflammation, but these anucleate cytoplasts are not thought to synthesize proteins or cytokines, or to influence inflammatory responses over time. Interrogation of an arrayed cDNA library demonstrated that quiescent platelets contain many messenger RNAs, one of which codes for interleukin 1β precursor (pro–IL-1β). Unexpectedly, the mRNA for IL-1β and many other transcripts are constitutively present in polysomes, providing a mechanism for rapid synthesis. Platelet activation induces rapid and sustained synthesis of pro–IL-1β protein, a response that is abolished by translational inhibitors. A portion of the IL-1β is shed in its mature form in membrane microvesicles, and induces adhesiveness of human endothelial cells for neutrophils. Signal-dependent synthesis of an active cytokine over several hours indicates that platelets may have previously unrecognized roles in inflammation and vascular injury. Inhibition of β3 integrin engagement markedly attenuated the synthesis of IL-1β, identifying a new link between the coagulation and inflammatory cascades, and suggesting that antithrombotic therapies may also have novel antiinflammatory effects.
+Keywords: adhesion; cytokines; integrins; platelets; translation
+Introduction
+Platelets are anucleate blood cells that are required for hemostasis, and also participate in pathologic thrombotic syndromes. Additionally, platelets have inflammatory actions and are a rich source of chemokines, cytokines, and growth factors that are preformed and packaged in storage granules (Klinger, 1997). After platelet activation, these mediators influence wound surveillance, repair, and vascular remodeling by signaling target cells and inducing leukocyte accumulation (Weyrich et al., 1996; Mannaioni et al., 1997; Barry and FitzGerald, 1999). Activated platelets also synthesize eicosanoids from arachidonic acid released from membrane phospholipids, a process that contributes to inflammation and thrombosis (Barry et al., 1997, 1999; Barry and FitzGerald, 1999). Secretion of granular proteins and eicosanoid generation are rapid processes that occur within minutes after platelet activation.
+Platelets are thought to play a minor role, if any, in ongoing inflammation or vascular injury and repair beyond initial adhesion, secretion, and eicosanoid synthesis. However, activation of platelets does not appear to decrease their life span (Reimers et al., 1976; Michelson et al., 1996; Berger et al., 1998), and thrombogenic adhesive platelets remain functional (Berger et al., 1998). This observation suggests that activated platelets may contribute to thrombotic and inflammatory cascades for much longer periods than previously believed. Consistent with this notion, we recently demonstrated that activated platelets translate constitutive mRNAs into proteins, and that this process continues for hours after stimulation with thrombin- or integrin-mediated adhesion (Weyrich et al., 1998; Pabla et al., 1999). In this report, we use a model of platelet–fibrin clot formation to demonstrate for the first time that activated platelets synthesize an inflammatory cytokine, interleukin (IL)*-1β. Accumulation of IL-1β is prolonged, attenuated by blocking engagement of β3 integrins, and mediates signaling of endothelial cells with consequent neutrophil (polymorphonuclear leukocyte [PMN]) adhesion. It was reported earlier that stimulated platelets possess IL-1β activity, but they were not thought to actively synthesize this inflammatory protein (Hawrylowicz et al., 1989; Loppnow et al., 1998). Regulated cytokine synthesis establishes the potential for previously unrecognized biologic roles for platelets in inflammation and vascular injury.
+Results and discussion
+The mRNA for IL-1β and other transcripts are associated with the polysomes of resting platelets
+We extracted mRNA from resting platelets and identified constitutively present transcripts using an arrayed cDNA library. Interrogation of 588 cDNAs demonstrated that numerous mRNAs are present in resting platelets (Fig. 1
+A). Table I is an abbreviated list of these mRNAs, highlighting transcripts for which the corresponding protein has been reported in platelets. The hybridization patterns were similar among different platelet donors (unpublished data) and identical when mRNA from resting platelets and platelets activated with thrombin were examined, indicating that as expected, there was no new transcription (unpublished data). The mRNA for IL-1β was one of the constitutive transcripts in unstimulated platelets (Fig. 1, A and B; Table I). Leukocyte-specific transcripts were not detected, indicating that platelets were the source of IL-1β mRNA and protein (see below) in our assays (Fig. 1 B; Table I).
+Figure 1.
+Open in a new tab
+mRNA for IL-1β is present in platelets and associated with polysomes. (A) Total RNA from quiescent platelets was isolated and analyzed using an arrayed cDNA library. The circle indicates duplicate hybridizations with the cDNA for pro–IL-1β. (B) Total RNA from resting platelets (pl) or lipopolysaccharide- stimulated monocytes (mo) was isolated and analyzed by reverse transcription PCR for COX-1, IL-8, GM-CSF, ENA-78, Bcl-3, or IL-1β. (C) The ribosomal profiles of resting platelets (left) or platelets activated with thrombin (0.1 U/ml; 1 h) (right) were determined (see Materials and methods). 28S and 18S rRNA and mRNA for IL-1β and GAPDH were assayed in each ribosomal fraction. Fractions 1–3 contain monosomes and low-order polysomes, and fractions 4–6 contain higher order polysomes. This figure is representative of three independent experiments.
+Table I. mRNAs expressed in human platelets.
+Platelet-derived mRNAs
+23-kD highly basic protein
+40S ribosomal protein S9
+Apoptosis inhibitor survivin
+β-Actin
+Cadherin 4
+Caspase-2 precursor
+Caspase-3
+Caspase-4 precursor
+CD9 antigen
+Cell apoptosis susceptibility protein
+Collagen 6 α subunit
+Cytosolic superoxide dismutase 1 (SOD1)
+GAPDH
+Glutathione S-transferase
+GPIIIa (CD61)
+Hepatoma-derived growth factor
+Histocompatibility leukocyte antigen class I HLA-C allele HLA-4
+IL-1β precursor
+IL-10 precursor
+Integrin-linked kinase (ILK)
+Insulin-like growth factor 1A
+Lamin α 4 subunit
+Low density lipoprotein receptor related protein 2
+Osteonectin
+p38 mitogen-activated protein kinase
+Paxillin
+Platelet-derived growth factor A (PDGF-A)
+Phospholipase A2
+Platelet basic protein precursor
+RHO GDI α
+RHO GDI β
+Tissue inhibitor of metalloproteinase 1 (TIMP-1)
+Tubulin α1
+Ubiquitin
+Ubiquitin conjugating enzyme
+Vascular endothelial growth factor receptor 1 (VEGF-R1)
+Vimentin
+Open in a new tab
+We examined the monosome and polysome fractions from platelets and found that ribosomal profiles for resting and activated cells paralleled each other, and that ribosomal RNA is primarily located in monosomal fractions. In contrast, IL-1β transcripts were located in the polysomes of resting and activated platelets (Fig. 1 C), as were many other mRNAs (unpublished data). Thrombin activation did not alter the distribution of IL-1β mRNA in monosomes and polysomes (Fig. 1 C and unpublished data). These results were unexpected, as a shift from monosomes to polysomes is characteristic of translational control at the level of polypeptide initiation, an important posttranscriptional regulatory mechanism (Kaspar and Gehrke, 1994; Sachs et al., 1997). Thus, platelets have translational checkpoints and control mechanisms beyond chain initiation as reported for Nanos in Drosophila embryos (Clark et al., 2000), and for IL-1β in mononuclear leukocytes under certain conditions of stimulation (Kaspar and Gehrke, 1994). Such translational control mechanisms may be specialized for rapid synthesis of critical transcripts (Clark et al., 2000).
+IL-1β mRNA is translated into protein by activated platelets during fibrin clot formation
+Next, we examined expression of the IL-1β gene product in resting platelets by immunocytochemistry, and found neither the precursor nor the mature form (Fig. 2, A
+, top left, B, and Fig. 3)
+. In contrast, IL-1β was robustly detected in complexes of platelets and fibrin after activation with thrombin in the presence of fibrinogen, a model of clot formation and retraction (Fig. 2 A, top right). The result is consistent with previous reports that IL-1β activity is present in stimulated platelets (Hawrylowicz et al., 1989; Loppnow et al., 1998). Pretreatment of platelets with puromycin, a translational inhibitor, completely inhibited IL-1β synthesis (Fig. 2, A, bottom left, B, and C). However, platelet–fibrin clumps formed in response to thrombin, indicating that puromycin was not nonspecifically toxic. Similarly, staining of parallel samples for P-selectin, which is constitutively stored in α-granules, was unchanged by pretreatment with puromycin, indicating that this translational inhibitor did not alter the detection of resident proteins (Fig. 2 A, bottom right). When platelets were stimulated with thrombin in the presence of fibrinogen, IL-1β and P-selectin were associated with the fibrin lattice (Fig. 2 A), consistent with a previous report for P-selectin distribution (Siljander et al., 1996) (also see below).
+Figure 2.
+Open in a new tab
+IL-1β is synthesized by platelets in fibrin clots. (A) Immunolocalization of IL-1β or P-selectin with actin in resting platelets (Baseline) or platelets activated with thrombin (0.1 U/ml) after pretreatment with puromycin (100 μM) or control buffer. Freshly isolated platelets were incubated as indicated for 8 h and examined by immunocytochemical analysis. Red immunofluorescence is staining for IL-1β (top right) or P-selectin (bottom right). Green immunofluorescence is staining for actin. In online supplemental Fig. S1, immunostaining for IL-1β was quenched when the antibodies were preincubated with purified IL-1β protein (http://www.jcb.org/cgi/content/full/154/3/485/DC1). Representative of five independent experiments. (B) Total IL-1β (mean ± SEM, n = 6) synthesized by resting platelets (Co) or platelets activated with thrombin (IIa) (8 h) in the presence or absence of puromycin (Puro; 100 μM) was determined by ELISA. (C) Platelets were pretreated with puromycin or DMSO, activated with thrombin, and incubated in the presence of [35S]methionine for 8 h. The cells were then lysed and the proteins were immunoprecipitated with an antibody that preferentially recognizes pro–IL-1β. A single labeled protein with a molecular mass corresponding to pro–IL-1β was identified (arrow). A second experiment yielded a similar result. Bars, 10 μm.
+Figure 3.
+Open in a new tab
+Platelet agonists trigger prolonged IL-1β accumulation in fibrin complexes. Platelets were activated with thrombin (0.1 U/ml) (A) or PAF (1 nM) (B) in the presence of fibrinogen for the designated time periods. Precursor and mature IL-1β were measured by ELISA. These data are the mean ± SEM for four independent experiments. (C) Control platelets or cells activated with thrombin (0.1 U/ml), ADP (20 μM), collagen (200 μg/ml), or epinephrine (10 μM) were incubated for 18 h and IL-1β was assayed (mean ± SEM; n = 4).
+We confirmed that IL-1β is synthesized by activated platelets by incubating them with [35S]methionine, stimulating them with thrombin, and immunoprecipitating labeled proteins with an antibody that preferentially recognizes IL-1β precursor (pro–IL-1β). This process yielded a 32-kD band, which coincides with the expected mass of pro–IL-1β (Fig. 2 C). This labeled product was absent in thrombin-stimulated platelets that were pretreated with puromycin. Puromycin also completely inhibited accumulation of pro– and mature IL-1β when measured by ELISA, indicating that it inhibits synthesis and not conversion of pro–IL-1β into its mature form (Fig. 2 B).
+We next measured IL-1β levels in resting and activated platelets over an extended time period. Accumulation of pro–IL-1β was sustained over hours and was followed by processing of the precursor into its mature, active form (Fig. 3 A). Pro–IL-1β was detectable in thrombin-stimulated platelets within 30 min (unpublished data), a rapid synthetic response that may result from localization of IL-1β transcripts in polysomes in resting platelets (see above) (Clark et al., 2000). Platelets synthesized IL-1β in every experiment (n > 30), although the magnitude was variable among donors (unpublished data). This variability was not likely to be due to contaminating leukocytes, as we did not detect macrophage colony stimulating factor (M-CSF) (60 ± 13 vs. 69 ± 1 pg/ml in control vs. activated cells [18 h], respectively), a monocyte-derived cytokine. In addition, we detected no increase in IL-1β protein levels when lymphocytes or monocytes were added to isolated platelets, concentrations of which were 10-fold greater than the trace numbers of leukocytes that were sometimes detected in our preparations (unpublished data). Platelet-activating factor (PAF) also induced IL-1β synthesis (Fig. 3 B) as did ADP, collagen, and epinephrine (Fig. 3 C). Together, Figs. 1–3 demonstrate that platelets synthesize an important cytokine, IL-1β, and have the potential to influence inflammatory events over several hours by activation-induced translation of a cytokine from constitutive mRNA.
+IL-1β synthesized by activated platelets signals endothelial cells and induces PMN adhesion
+Approximately 60% of mature IL-1β is retained within the platelets or the fibrin mesh that surrounds aggregated platelets (Fig. 2 A). The remaining IL-1β is found in the extracellular milieu. Fractionation of the supernatant revealed that half of the IL-1β was associated with platelet microvesicles, a finding confirmed by assay of β3 integrins and P-selectin in the same samples (Fig. 4
+A and unpublished data). The remaining IL-1β in the supernatant fraction was completely soluble (Fig. 4 A). Soluble and microvesicle-associated IL-1β delivered outside-in signals to human endothelial cells and induced their adhesiveness for neutrophils (Fig. 4 B and unpublished data), a response dependent on synthesis of E-selectin, intercellular adhesion molecule 1, and chemokines (McEver et al., 1998). However, IL-1β exported in microvesicles was at least fivefold more potent than soluble IL-1β when equivalent volumes of sample were tested (unpublished data), suggesting that other inflammatory mediators packaged in microvesicles (Barry et al., 1999) may act in concert with IL-1β to induce endothelial adhesiveness. In this regard, we recently found that IL-1β acts in concert with P-selectin to induce expression of cyclooxygenase (COX)-2 when human monocytes interact with activated platelets (unpublished data). Recombinant IL-1β receptor antagonist inhibited the response to platelet-derived IL-1β and purified IL-1β, but did not inhibit adhesiveness induced by tumor necrosis factor α (Fig. 4 B and unpublished data). These data indicate that IL-1β synthesized by activated platelets induces inflammatory responses of target endothelial cells.
+Figure 4.
+Open in a new tab
+Microvesicle-derived IL-1β induces endothelial adhesiveness for neutrophils (PMNs) and synthesis of this cytokine requires engagement of β3 integrins. (A) Control platelets or platelets activated with thrombin (0.1 U/ml) or PAF (1 nM) were incubated for 18 h. IL-1β was then measured in the fibrin-rich cell lysates (C) or the supernatant fractions that contained soluble IL-1β (S) or IL-1β exported in microvesicles (MV). The same fractions were immunoblotted for P-selectin (P-Sel) and β3 integrins (inset and unpublished data). (B) A portion of the microvesicle fraction assayed in A, recombinant pro–IL-1β, or recombinant mature IL-1β was incubated with endothelial cell monolayers in the presence or absence of a specific IL-1β receptor antagonist. After 4 h, the endothelial cells were washed, 111In-labeled PMNs were added, and adhesion was measured after an additional 30-min incubation. The data in A and B are the mean ± SEM of three independent experiments. (C) Platelets were lysed immediately (Co; baseline) or incubated for 18 h alone, with thrombin (IIa), or with thrombin plus a control antibody (CoAb) or mAb c7E3 (100 μg/ml). The inset illustrates platelet– fibrin complex formation induced by thrombin in the presence of mAb c7E3 or the control antibody. The bar graph illustrates values for the measurements of total mature IL-1β levels by ELISA (mean ± SEM of four independent experiments), and the asterisks designate P < 0.05 compared with maximum IL-1β synthesis over 18 h (Max).
+β3 integrins regulate IL-1β synthesis by platelets
+In this model of clot formation and maturation, IL-1β is synthesized by platelets as they associate with the fibrin network (Fig. 2 A). Therefore, we pretreated platelets with mAb c7E3, an antibody that interrupts engagement of integrins αIIbβ3 and αVβ3 and prevents the retraction of the fibrin mesh (Coller, 1985; Pabla et al., 1999). We found that pretreatment with c7E3 inhibited clot retraction, whereas a panel of control antibodies had no effect (Fig. 4 C, inset, and unpublished data). In addition, IL-1β levels were markedly reduced when platelets were pretreated with c7E3, compared with those treated with a control antibody in parallel (Fig. 4 C). These results indicate that β3 integrins transmit outside-in signals to translational mechanisms that regulate IL-1β synthesis, and suggest that some of the therapeutic benefits of blocking β3 integrin engagement may result from interrupting consequent inflammatory responses.
+Although the exact mechanisms are not yet clear, integrins may regulate translation in platelets at checkpoints independent of initial ribosomal mRNA interactions, as IL-1β transcripts are constitutively present in platelet polysomes (see above). In parallel experiments we have found that translational control proteins are physically separate from mRNAs in resting platelets, and that integrin engagement redistributes these proteins to mRNA-rich areas (Lindemann et al., 2001). Dissection of mechanisms of signal-dependent synthesis of specific gene products such as IL-1β by platelets may yield new insights into translational control in specialized cells (Weyrich et al., 1998; Clark et al., 2000) and reveal new activities of platelets in atherogenesis, tissue remodeling, and tumor angiogenesis (Weyrich et al., 1996; Barry et al., 1997; Mannaioni et al., 1997; Pinedo et al., 1998).
+Materials and methods
+Platelet isolation
+Washed platelets were isolated from acid-citrate-dextrose–anticoagulated human blood as described previously (Weyrich et al., 1996). Platelets (5 × 108 total) were resuspended in M199 medium containing 100 μg/ml of fibrinogen, and were left quiescent or stimulated with thrombin, PAF, ADP, collagen, or epinephrine for 0.5–18 h. In selected experiments, platelets were pretreated with mAb c7E3 (ReoPro [Abciximab]; Lilly), control antibodies, or puromycin. After each time point, the platelets were pelleted by centrifugation and the supernatant was collected. The pellet was lysed in 0.5 ml of RIPA buffer. The lysate and supernatant were stored in aliquots at −20°C until further use.
+Polysome analysis
+Polysomes were isolated from platelets using minor modifications of published protocols (Kaspar and Gehrke, 1994). In brief, platelets (7.5 × 109) were lysed in a high-salt buffer to remove polysomes from the cytoskeleton (200 mM Tris, 520 mM KCl, 30 mM MgCl2, 4% Triton X-100, and 200 mM sucrose, pH 9.5). The cells were passed three times through a 21-gauge tuberculin syringe, followed by a brief centrifugation to remove all insoluble material and heparin (10 mg/ml), and NaCl (150 mM) was added to the lysate. Mitochondria were removed by further centrifugation (5 min, 14,000 g) and the resulting supernatant was placed on a 4-ml sucrose gradient (0.5–2 M) and centrifuged at 4°C for 2 h (43,700 rpm) using an SW55 Ti swinging bucket rotor (Beckman Coulter).
+Sucrose gradients were fractionated using an ISCO UA-6 254-nm continuous flow chamber into 760-μl aliquots. Total RNA in each fraction was isolated for analysis of ribosomal RNA and mRNA for IL-1β and glutaraldehyde 3-phosphate dehydrogenase (GAPDH) as described previously (Weyrich et al., 1998). The total mRNA pool in platelets was also determined by interrogation of cDNA libraries according to the manufacturer's instructions (array 7742-1; CLONTECH Laboratories, Inc.). In selected experiments, sucrose cushions were used to isolate mRNAs associated with polysomes of resting and thrombin-activated platelets as described previously (Davies and Abe, 1995). The sucrose cushion was based on ribosomal profiles from complete sucrose gradients that were fractionated with the ISCO continuous flow chamber (see above).
+ELISA
+ELISAs for pro–IL-1β, mature IL-1β, and M-CSF were performed according to the manufacturer (R&D Systems; Bender Med Systems). The pro– and mature IL-1β ELISAs did not cross react with one another.
+Immunoprecipitation of [35S]methionine–labeled proteins
+Immunoprecipitation of metabolically labeled IL-1β was conducted as described previously (Weyrich et al., 1998) using an antibody that preferentially recognizes pro–IL-1β (Research Diagnostics, Inc.).
+Immunolocalization of platelet-derived IL-1β
+Platelets were left quiescent or stimulated with 0.01 U/ml thrombin for 8 h as described above. Immunocytochemistry for IL-1β, P-selectin, and polymerized actin was conducted as described previously (Weyrich et al., 1996, 1998).
+Isolation of platelet microvesicles
+Platelets were activated with PAF or thrombin as indicated above. After 8 h, the platelet suspensions were centrifuged for 4 min at 15,500 g. The pellet was lysed in RIPA buffer and the supernatant was collected and recentrifuged at 100,000 g in a Ti80 rotor (Beckman Coulter) for 90 min at 4°C to collect platelet microvesicles (George et al., 1982). The resulting pellet from high-speed centrifugation of the supernatant pool, which contained microvesicles, was lysed in RIPA buffer. Mature IL-1β was assayed in the pellet lysates, the microvesicle fraction, and the soluble supernatant by ELISA. The same samples were also examined by Western analysis using mAb S12 to detect P-selectin in the microvesicle fraction.
+PMN adhesion to activated endothelial cells
+Human umbilical endothelial cells were incubated with platelet supernatants or microvesicle fractions for 4 h in the presence or absence of a recombinant IL-1β receptor antagonist (R&D Systems). In parallel, human umbilical endothelial cells were also stimulated with tumor necrosis factor α (100 U/ml), recombinant active IL-1β, or recombinant pro–IL-1β. After 4 h, the human umbilical endothelial cells were thoroughly washed and PMN adhesion to the cell surface was quantitated as described previously in detail (Lorant et al., 1991; Lindemann et al., 2000).
+Online supplemental material
+Fig. S1(available at http://www.jcb.org/cgi/content/full/154/3/485/DC1) demonstrates that immunostaining of platelet-derived IL-1β is quenched when the antibodies are preincubated with purified IL-1β protein. Platelets were prepared for immunocytochemical detection of IL-1β protein as described in Fig. 2 A, the exception being that the anti–IL-1β antibody was quenched with excess IL-1β protein. The left panel depicts staining for IL-1β with quenched antibody. The middle panel shows the same cells stained for actin. The right panel is an overlay of the two panels. Note that staining for IL-1β is absent in the left and right panels.
+Supplemental Material
+[Supplemental Material Index]
+jcellbiol_154_3_485__index.html (623B, html)
+Acknowledgments
+We thank Donnie Benson, Jennifer Eyre, and Margaret Vogel for excellent technical assistance, Michelle Bills for preparation of the manuscript, Diana Lim for preparation of the figures, and our colleagues for helpful comments and critical reading of the manuscript.
+This work was supported by grants from the National Institutes of Health (HL56713 to A.S. Weyrich, HL44525 to G.A. Zimmerman), the Atorvastatin Research Awards (A.S. Weyrich), the Western State Affiliate of the American Heart Association (S. Lindemann, AHA Grant 0020030Y), the American Heart Association (D.A. Dixon, AHA Grant 9930102N), and a National Institutes of Health Special Center of Research in Adult Respiratory Distress Syndrome (P50 HL50153).
+The online version of this article contains supplemental material.
+Footnotes
+*
+Abbreviations used in this paper: COX, cyclooxygenase; GAPDH, glutaraldehyde 3-phosphate dehydrogenase; IL, interleukin; M-CSF, macrophage colony stimulating factor; PAF, platelet-activating factor; PMN, polymorphonuclear leukocyte; pro–IL-1β, IL-1β precursor.
+References
+Barry, O.P., and G.A. FitzGerald. 1999. Mechanisms of cellular activation by platelet microparticles. Thromb. Haemost.
+82:794–800.
+[PubMed] [Google Scholar]
+Barry, O.P., D. Pratico, J.A. Lawson, and G.A. FitzGerald. 1997. Transcellular activation of platelets and endothelial cells by bioactive lipids in platelet microparticles. J. Clin. Invest.
+99:2118–2127.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Barry, O.P., M.G. Kazanietz, D. Pratico, and G.A. FitzGerald. 1999. Arachidonic acid in platelet microparticles up-regulates cyclooxygenase-2-dependent prostaglandin formation via a protein kinase C/mitogen-activated protein kinase-dependent pathway. J. Biol. Chem.
+274:7545–7556.
+[DOI] [PubMed] [Google Scholar]
+Berger, G., D.W. Hartwell, and D.D. Wagner. 1998. P-selectin and platelet clearance. Blood.
+92:4446–4452.
+[PubMed] [Google Scholar]
+Clark, I.E., D. Wyckoff, and E.R. Gavis. 2000. Synthesis of the posterior determinant Nanos is spatially restricted by a novel cotranslational regulatory mechanism. Curr. Biol.
+10:1311–1314.
+[DOI] [PubMed] [Google Scholar]
+Coller, B.S. 1985. A new murine monoclonal antibody reports an activation-dependent change in the conformation and/or microenvironment of the platelet glycoprotein IIb/IIIa complex. J. Clin. Invest.
+76:101–108.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Davies, E., and S. Abe. 1995. Methods for isolation and analysis of polyribosomes. Methods Cell Biol.
+50:209–222.
+[DOI] [PubMed] [Google Scholar]
+George, J.N., L.L. Thoi, L.M. McManus, and T.A. Reimann. 1982. Isolation of human platelet membrane microparticles from plasma and serum. Blood.
+60:834–840.
+[PubMed] [Google Scholar]
+Hawrylowicz, C.M., S.A. Santoro, F.M. Platt, and E.R. Unanue. 1989. Activated platelets express IL-1 activity. J. Immunol.
+143:4015–4018.
+[PubMed] [Google Scholar]
+Kaspar, R.L., and L. Gehrke. 1994. Peripheral blood mononuclear cells stimulated with C5a or lipopolysaccharide to synthesize equivalent levels of IL-1 beta mRNA show unequal IL-1 beta protein accumulation but similar polyribosome profiles. J. Immunol.
+153:277–286.
+[PubMed] [Google Scholar]
+Klinger, M.H. 1997. Platelets and inflammation. Anat. Embryol.
+196:1–11.
+[DOI] [PubMed] [Google Scholar]
+Lindemann, S., M. Sharafi, M. Spiecker, M. Buerke, A. Fisch, T. Grosser, K. Veit, C. Gierer, W. Ibe, J. Meyer, and H. Darius. 2000. NO reduces PMN adhesion to human vascular endothelial cells due to downregulation of ICAM-1 mRNA and surface expression. Thromb. Res.
+97:113–123.
+[DOI] [PubMed] [Google Scholar]
+Lindemann, S., N.D. Tolley, J.R. Eyre, L.W. Kraiss, T.M. Mahoney, and A.S. Weyrich. 2001. Integrins regulate the intracellular distribution of eukaryotic initiation factor 4E in platelets: a checkpoint for translational control. J. Biol. Chem.
+In press. [DOI] [PubMed] [Google Scholar]
+Loppnow, H., R. Bil, S. Hirt, U. Schonbeck, M. Herzberg, K. Werdan, E.T. Rietschel, E. Brandt, and H.D. Flad. 1998. Platelet-derived interleukin-1 induces cytokine production, but not proliferation of human vascular smooth muscle cells. Blood.
+91:134–141.
+[PubMed] [Google Scholar]
+Lorant, D.E., K.D. Patel, T.M. McIntyre, R.P. McEver, S.M. Prescott, and G.A. Zimmerman. 1991. Coexpression of GMP-140 and PAF by endothelium stimulated by histamine or thrombin: a juxtacrine system for adhesion and activation of neutrophils. J. Cell Biol.
+115:223–234.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Mannaioni, P.F., M.G. Di Bello, and E. Masini. 1997. Platelets and inflammation: role of platelet-derived growth factor, adhesion molecules and histamine. Inflamm. Res.
+46:4–18.
+[DOI] [PubMed] [Google Scholar]
+McEver, R.P., J. Loscalzo, and A.I. Schafer, editors. 1998. Interactions of leukocytes with the vessel wall. In Thrombosis and Hemorrhage. 2nd ed. Williams and Wilkens, Baltimore, MD. 321–336.
+Michelson, A.D., M.R. Barnard, H.B. Hechtman, H. MacGregor, R.J. Connolly, J. Loscalzo, and C.R. Valeri. 1996. In vivo tracking of platelets: circulating degranulated platelets rapidly lose surface P-selectin but continue to circulate and function. Proc. Natl. Acad. Sci. USA.
+93:11877–11882.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Pabla, R., A.S. Weyrich, D.A. Dixon, P.F. Bray, T.M. McIntyre, S.M. Prescott, and G.A. Zimmerman. 1999. Integrin-dependent control of translation: engagement of integrin αIIbβ3 regulates synthesis of proteins in activated human platelets. J. Cell Biol.
+144:175–184.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Pinedo, H.M., H.M. Verheul, R.J. D'Amato, and J. Folkman. 1998. Involvement of platelets in tumour angiogenesis? Lancet.
+352:1775–1777.
+[DOI] [PubMed] [Google Scholar]
+Reimers, H.J., R.L. Kinlough-Rathbone, J.P. Cazenave, A.F. Senyi, J. Hirsh, M.A. Packham, and J.F. Mustard. 1976. In vitro and in vivo functions of thrombin-treated platelets. Thromb. Haemost.
+35:151–166.
+[PubMed] [Google Scholar]
+Sachs, A.B., P. Sarnow, and M.W. Hentze. 1997. Starting at the beginning, middle, and end: translation initiation in eukaryotes. Cell.
+89:831–838.
+[DOI] [PubMed] [Google Scholar]
+Siljander, P., O. Carpen, and R. Lassila. 1996. Platelet-derived microparticles associate with fibrin during thrombosis. Blood.
+87:4651–4663.
+[PubMed] [Google Scholar]
+Weyrich, A.S., M.R. Elstad, R.P. McEver, T.M. McIntyre, K.L. Moore, J.H. Morrissey, S.M. Prescott, and G.A. Zimmerman. 1996. Activated platelets signal chemokine synthesis by human monocytes. J. Clin. Invest.
+97:1525–1534.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Weyrich, A.S., D.A. Dixon, R. Pabla, M.R. Elstad, T.M. McIntyre, S.M. Prescott, and G.A. Zimmerman. 1998. Signal-dependent translation of a regulatory protein, Bcl-3, in activated human platelets. Proc. Natl. Acad. Sci. USA.
+95:5556–5561.
+[DOI] [PMC free article] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+[Supplemental Material Index]
+jcellbiol_154_3_485__index.html (623B, html)
+jcellbiol_154_3_485_F2_index.html (2KB, html)
+jcellbiol_154_3_485__JCB200105058.FS1.jpg (117.1KB, jpg)
+jcellbiol_154_3_485__JCB200105058.FS1.gif (15.1KB, gif)
+Articles from The Journal of Cell Biology are provided here courtesy of The Rockefeller University Press
+ACTIONS
+View on publisher site
+PDF (310.7 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top
