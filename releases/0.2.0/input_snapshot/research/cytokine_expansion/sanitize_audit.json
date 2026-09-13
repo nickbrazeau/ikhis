@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-13 18:04:55 UTC",
+  "scope": "research/cytokine_expansion",
+  "script": "scripts/sanitize_snapshots.py",
+  "remaining_findings": 0,
+  "changes_in_final_pass": 0,
+  "notes": "Selected Chrome snapshots exclude account and external URL metadata. Irrelevant publisher token redacted from search03. No raw snapshot was duplicated."
+}

@@ -1,0 +1,26 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4709758/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim sections.
+Mediators Inflamm. 2015 Dec 29;2015:436067. doi: 10.1155/2015/436067
+Gene Expression Profiling of IL-17A-Treated Synovial Fibroblasts from the Human Temporomandibular Joint
+Toshio Hattori, Naomi Ogura, Miwa Akutsu, Mutsumi Kawashima, Suguru Watanabe, Ko Ito, Toshirou Kondoh
+PMCID: PMC4709758 PMID: 26839464
+
+[2.1 Isolation and Culture of Synovial Fibroblasts]
+Human synovial tissue was obtained from three patients (TMJ1-3) who underwent arthroscopy for ID or open TMJ surgery for OA (TMJ1, female, age: 23 years, used for the oligonucleotide microarray analysis, real-time PCR, and ELISA. TMJ2, female, age: 26 years, used for ELISA. TMJ3, male, age 59 years, used for ELISA).
+For the experiments, FLSs obtained from passages 6 to 8 were used.
+
+[2.6 Enzyme Linked Immunosorbent Assay]
+Synovial fibroblasts were plated at a density of 5 × 104 cells per well in 24-well plates with Ham's F12 medium containing 10% FBS. Confluent cells were cultured for 24 h in the same medium containing 2% FBS. After incubation with IL-17A for the appropriate length of time, culture supernatants were collected and stored at −80°C until use. The kinetics of IL-6 protein production was examined in control samples and in synovial fibroblasts incubated with IL-17A (10 ng/mL) for 4, 8, 12, and 24 h. To examine the dose dependency of IL-6 protein expression, the cells were treated with IL-17A at concentrations of 1, 10, and 50 ng/mL for 24 h. The IL-6 levels in the conditioned medium were measured using ELISA kit (R&D Systems, McKinley, MN, USA), according to the manufacturer's protocol. The ELISA experiments were independently performed six times.
+
+[3.5 Effect of IL-17A on IL-6 Protein Production]
+Synovial fibroblasts were incubated with concentrations of IL-17A of 1, 10, and 50 ng/mL for 24 h. IL-17A increased the IL-6 levels in the conditioned media of synovial fibroblasts in a dose-dependent manner, although there was no significant difference between the cells treated with 1 ng/mL IL-17A and the untreated controls (Figure 5).
+IL-6 protein levels were significantly increased in the conditioned media from the cells treated with 10 ng/mL IL-17A for 24 h compared to the untreated control cells in all three samples, although the level of the increase varied among the individual three samples (Figure 7).
+
+[Figure7 caption]
+Effect of IL-17A on IL-6 production by three human synovial fibroblast samples. Synovial fibroblast samples were isolated from three patients with TMD (TMJ1-3). The cells were treated with 10 ng/mL IL-17A for 24 h, following which the IL-6 protein levels in the conditioned medium were then assayed using ELISA. Data are shown as means ± SD (n = 6); ∗ P < 0.05; ∗∗ P < 0.01.
+
+[3.6 Effect of Signaling Inhibitors]
+The induction of IL-6 by IL-17A was decreased in synovial fibroblasts by pretreatment with LY294002 (a PI3K inhibitor), (5z)-7-Oxozeaenol (a TAK1 inhibitor), and PS-1145 (an IKKβ inhibitor); in contrast, its production was not affected by an IRAK-1/4 inhibitor (Figure 8). IL-6 production was inhibited by 35.0% by LY294002, by 95.7% by (5z)-7-Oxozeaenol, and by 21.2% by PS-1145 (Figure 8).
+
+[Figure8 caption]
+Effect of inhibitors of the NFκB signaling pathway on IL-17A-induced IL-6 production by synovial fibroblasts. Synovial fibroblasts were pretreated with the IRAK 1/4 inhibitor (20 μM), 20 μM LY294002, 1 μM (5z)-7-Oxozeaenol, or 10 μM PS-1145 for 30 min and were then treated with 10 ng/mL IL-17A for 8 h, following which the IL-6 protein levels in the conditioned medium were assayed using ELISA. Results are expressed as means ± SD (n = 4); ∗ P < 0.05; ∗∗ P < 0.01.

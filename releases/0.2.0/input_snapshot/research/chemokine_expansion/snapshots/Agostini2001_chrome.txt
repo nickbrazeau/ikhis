@@ -1,0 +1,56 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/
+Retrieved: 2026-09-13 17:51:33 UTC
+Transport: Chrome CUA getAXState, tab 1487303533. Exact selected visible article passages, not reconstructed source text. Accessibility spacing around superscripts normalized only where indicated by plain-text conventions. Sections and AX node IDs identify inspected locators.
+Title: CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection
+Am J Pathol. 2001 May;158(5):1703–1711. doi: 10.1016/S0002-9440(10)64126-0
+PMCID: PMC1891930 PMID: 11337368
+Authors: Carlo Agostini, Fiorella Calabrese, Federico Rea, Monica Facco, Alicia Tosoni, Monica Loy, Gianni Binotto, Marialuisa Valente, Livio Trentin, Gianpietro Semenzato
+
+Materials and Methods / Study Populations / sec2 / AX123,127
+According to our protocol, 56 consecutive transbronchial biopsies and BALs were performed during the follow-up of 24 lung allograft recipients (14 men and 10 women) who underwent surveillance bronchoscopy for clinical suspicion of infection or rejection. All patients underwent immunosuppression with rabbit anti-thymocyte globulin postoperatively, followed by a triple immunosuppression regimen of cyclosporin A or tacrolimus, azathioprine or RAD, and prednisone.
+Overall, 47 of 58 biopsy samples showed no histological signs of rejection and eight showed acute rejection ISHLT grade A1 ( n  = 3), A2 ( n  = 3), and A3 ( n  = 2). Three patients were classified as suffering from BOS.
+
+Materials and Methods / Purification / sec3 / AX137,139
+AMs and T cells were enriched from the BAL cell suspensions by rosetting with neuraminidase-treated sheep red blood cells followed by F/H gradient separations and removing residual CD3 +  lymphocytes using high-gradient magnetic separation columns (Mini MACS; Miltenyi Biotec, Germany).
+After this multistep selection procedure >95% of the above cells were viable, as judged by the trypan blue exclusion test. Staining with mAb showed that >99% of purified lymphocytes were CD3+ T cells.
+
+Materials and Methods / Immunohistochemical Analysis / sec5 / AX148–149
+Expression of CXCR3 and CXCL10 was measured by permanent section immunohistochemistry with anti-CXCR3 and anti-IP10 antibodies. Four-μm thick paraffin-embedded sections were used for immunostaining using the standard avidin-biotin complex method (Vectastain ABC Kit; Vector Laboratories, Burlingame, CA).
+Primary antibodies were applied at the following concentrations: anti-hCXCR3 mAb 1:100 and anti-hIP-10/CXCL10 polyclonal 1:100 for 1 hour in a humidified chamber at 37°C.
+The intensity of antibody staining was classified in three groups: strong, weak, and negative. Parallel control slides were prepared either lacking primary antibody or lacking primary and secondary antibodies, or stained with normal sera to control for background reactivity.
+
+Materials and Methods / Generation of Macrophage Supernatants / sec7 / AX162
+To verify the ability of AMs to release CXCL10, AMs (1 × 10 6 /ml) were isolated from the BALs of allograft recipients, resuspended in RPMI medium, and cultured for 24 hours in 24-well plates at 37° in 5% CO 2 . In separate experiments AMs were stimulated with IFN-γ (100 U/ml), phorbol myrisate acetate (10 ng/ml), and lipopolysaccharide (10 μg/ml; Difco Labs., Detroit, MI). After the incubation period, supernatants were harvested, filtered through a 0.45-μm Millipore filter, and immediately stored at −80°C. At the end of the culture time AM viability was always >95%. Chemotactic activity of supernatants was determined as reported below.
+
+Materials and Methods / Phenotypic Evaluation of BAL Cells / sec6 / AX156 (same inspected Chrome state, added during provenance review repair)
+Cells were scored using a FACScan analyzer (Becton Dickinson, Mountain View, CA), and data were processed using the Macintosh CELLQuest software program (Becton Dickinson). The expression of cytoplasmic cytokine was evaluated after permeabilization of cell membranes using 1:2 diluted PermeaFix (Ortho, Raritan, NJ) for 40 minutes. After permeabilization procedures, anti-IL-4, anti-IFN-γ, and anti-CXCL10 antibodies were added. Because pulmonary cells bore cytoplasmic cytokines in a unimodal expression pattern, indicating that the entire cell population exhibits relatively homogeneous fluorescence, the percentage of positive cells does not represent the most accurate way of enumerating positive cells. The mean fluorescence intensity was used to compare the positivity of these specific antigens on different cell populations. To evaluate whether the shift of the positive cell peak was statistically significant, the Kolmogorov-Smirnov test for analysis of histograms was used according to the Macintosh CELLQuest software user’s guide (Becton Dickinson).
+
+Figure 5 / f5 / AX252 (same inspected Chrome state, added during provenance review repair)
+Flow cytometry profile of AMs recovered from three representative patients with A1-A3 rejection episodes, a patient with active BOS, a patient showing no rejection signs, and a control patient. The expression of cytoplasmic cytokines was determined as reported in the Material and Methods section. The figure shows that AMs from lung allograft recipients with A1-A3 rejection episodes or BOS express CXCL10.
+
+Materials and Methods / Migration Activity / sec8 / AX166–170
+T-cell migration was measured in a 48-well modified Boyden chamber (AC48 Neuro Probe Inc.). The chamber is made of two sections: different chemotactic stimuli were loaded in the bottom section while cells were added in the top compartment. Polyvinylpyrrolidone-free polycarbonate membranes with 3- to 5-μm pores (for lung T cells obtained from allograft patients and the CXCR3+ and CXCR− T cell lines, respectively; Osmonics, Livermore, CA) and coated with fibronectin were placed between the two chamber parts.
+To evaluate the migratory properties of pulmonary T lymphocytes rhIP-10/CXCL10 (200 ng/ml) were used. The CXCR− and CXCR3+ cell lines (300-19, kindly provided by Dr. B. Moser, Theodor-Kocher Institute, University of Bern, Switzerland) were used as negative and positive controls. Thirty μl of chemokines or control medium were added to the bottom wells, and 50 μl of 5.0 × 10 6 cells/ml T cells or CXCR−/+ cells resuspended in RPMI 1640 were added to the top wells. The chamber was incubated at 37°C with 5% CO 2 for 2 hours. The membranes were then removed, washed with PBS on the upper side, fixed, and stained with DiffQuik (Dade AG, Düdingen, Switzerland). Cells were counted in three fields per well at ×800 magnification. All assays were performed in triplicate. In blocking experiments, cell suspensions were preincubated before chemotaxis assay for 30 minutes at 4°C with anti-human CXCR3 mAb at the concentration of 20 μg/ml.
+
+Materials and Methods / Chemotactic Activity / sec9 / AX174
+The CXCR− and CXCR3+ cell lines were also used to evaluate both the chemotactic activities of macrophage supernatants and the fluid component of BAL samples. Supernatants from cell cultures and the fluid components of BALs were obtained as reported above and used undiluted; different concentrations of CXCL10 were used as a positive control. Chemotactic assays were performed as reported above. In blocking experiments, anti-CXCL10 was added to the cell supernatants before chemotaxis assay at the concentration of 20 μg/ml.
+
+Results / CXCR3 Expressed by Pulmonary T Cells / sec13 / AX218,222
+To characterize the biological properties of CXCR3, highly purified T cells isolated from the BALs of patients with allograft rejection and T cell alveolitis were assessed for their migratory capabilities in response to different concentrations of CXCL10. The evaluation of the migratory capabilities of pulmonary T cells in normal patients or patients with no signs of rejection was prevented by the low recovery of pulmonary T cells from the BAL. For this reason, the 300-19 T cell lines expressing high levels of CXCR3 or not expressing CXCR3 were used as positive and negative controls for the in vitro chemotaxis assay.
+Pulmonary T cells purified from the BAL of patients with grade A1 to A3 and BOS exhibited a definite migratory capability in response to CXCL10. The migratory capability was influenced by CXCR expression. In fact, the blocking of the CXCR3 receptor with specific antibodies determined a marked inhibition of CXCL10-induced chemotaxis.
+
+Figure 3 / f3 / AX229
+Chemotactic activity of CXCL10 on BAL T cells purified from three representative patients with A1-A3 rejection episodes and a patient with active BOS. The assays were performed using a modified Boyden chamber in triplicate and data are given as mean ± SD. CXL10 shows significant chemotactic activity on BAL T cells ( A–D ) and the CXCR3+ T cell clone ( E ). The number of BAL T cells migrating in response to CXCL10 was higher in patients with A2-A3 grade rejection than in patients with lower grade rejection (A1). Because of the limited number of patients evaluated the difference was not significant.
+
+Results / Expression of CXCL10 / sec14 / AX234,236,246
+The expression of CXCL10 was observed in macrophage-infiltrating lung biopsies of patients with histological evidence of A1-A3 rejection or with BOS; interestingly, also a few epithelial cells expressed CXCL10.
+Macrophages isolated from the BAL of recipients with rejection episodes or BOS expressed CXCL10.
+
+Figure 4 / f4 / AX242
+Immunohistochemistry for CXCL10 expression by AMs infiltrating transbronchial biopsy in a representative lung allograft recipient with a rejection episode classified as grade A2. The figure shows that several AMs are strongly marked by the anti-CXCL10 antibody. Scattered epithelial cells also bear CXCL10. Original magnification, ×400.
+
+Results / Supernatants Obtained by Cultured Macrophages / sec15 / AX257–261
+Cell-free supernatants were obtained from 24-hour cultured AMs and tested for their capabilities of inducing T cell migration. Supernatants obtained from AMs of patients with acute rejection episodes or BOS exerted significant chemotactic activity on the CXCR3+ cell line; the CXCR3-negative cell line did not migrate in the presence of supernatants (data not shown). The addition of an anti-CXCL10 neutralizing antibody, but not of a control antibody, inhibited chemotactic activities of supernatants (data not shown). The inhibitory activity shown by the neutralizing antibody was not complete (range, 46 to 79%). This suggests that other CXCR3 ligands, including CXCL9 and CXL11, are likely to be present in conditioned media and interact with the CXCR3+ T cell clone, mediating its migration.
+
+Figure 6 / f6 / AX268
+Chemotactic activity of supernatants obtained from 24-hour cultures of AMs from three representative patients with A1-A3 rejection episodes and a patient with active BOS. Supernatants obtained from AMs of lung allograft recipients with rejection episodes or with BOS exerted chemotactic activity on the CXCR3 + 300-19 T-cell line that was inhibited by a neutralizing anti-CXCL10 antibody ( white bars ). The inhibitory activity was not complete, indicating that AMs release other proteins into supernatants that are able to interact with the CXCR3+ T cell clone.

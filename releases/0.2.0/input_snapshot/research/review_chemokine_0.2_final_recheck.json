@@ -1,0 +1,299 @@
+{
+  "critic_run_id": "XCH-FINAL-RECHECK-20260913-01",
+  "scope": "Independent biological review of final chemokine expansion: four new primary human assertions, two associated source/cohort records, retained full-text gates, null semantics and exact source bundle. Preparatory primary-passage inspection preceded this timestamped final hash-validation and serialization phase. Earlier review artifacts remain immutable.",
+  "timestamp_start": "2026-09-13T18:49:52.567465+00:00",
+  "agent_role": "Adversarial Biological Reviewer, independent of chemokine extractor; retrieved Loetscher primary passages but did not author these chemokine assertions",
+  "model": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.2.0",
+  "responds_to": "XCH-RECHECK-20260913-01",
+  "original_review_path": "research/review_chemokine_0.2.json",
+  "original_review_sha256": "575764c960c7fc67b0991f86a473fe187dbc3a7e6fadda272f8e188a010f4226",
+  "previous_recheck_path": "research/review_chemokine_0.2_recheck.json",
+  "previous_recheck_sha256": "271adf3241d3c3721f91e2f95489fe7564bc9f43e372d8c6aa6cf6593bf8639f",
+  "reviewed_pack_hashes": {
+    "research/chemokine_expansion/pack.json": "7c93e1ddf84ae4fea6cc1fbb347d38282a60cdbeba48b161243c6c2dbb5ca081"
+  },
+  "reviewed_source_hashes": {
+    "research/chemokine_expansion/snapshots/Agostini2001_chrome.txt": "a67f2adc3ad98ca5492909a6ce51ce7acf754730eb58e1fcd262a04e0077416b",
+    "research/chemokine_expansion/snapshots/Godiska1997_chrome.txt": "e78920682e3c4dbae1c53fd441be4347b1b681c57c27e4d9735588fe5df6e5db",
+    "research/chemokine_expansion/snapshots/Provost2013_chrome.txt": "db3e82e3879360f1ab9bc229f9b2f0c4338afe6d2226502fcea0d7dde57bce51",
+    "research/chemokine_expansion/snapshots/ScalleyKim2012_chrome.txt": "d51cd8c1af55301b05ea981a56e9253281df189c09da41cf274fba0d4b21c5ea",
+    "research/chemokine_expansion/snapshots/Viney2014_chrome.txt": "98a580bc653e9a6d9acac0b081287f7389b81732f331e7118620965fc550a101",
+    "research/chemokine_expansion/snapshots/followup_fullmethods1.json": "2878795f19b69d040debb0a455dc5a71971059d6cd403ace304a1f3c73b4655a",
+    "research/chemokine_expansion/snapshots/followup_search10.json": "9edd28895238fe12d920addad365f075e93fa5524a22d63ee746d162ce982b48",
+    "research/chemokine_expansion/snapshots/followup_search11.json": "466836e0da1e41ceec0050df2a3bae9fc5c3ef28b84dd275c567b4be1fd30eba",
+    "research/chemokine_expansion/snapshots/followup_search12.json": "02ea4a421085a954f219d439a77dfda1c83e9f0f29a1fcc1d1e2d587bcab71c3",
+    "research/chemokine_expansion/snapshots/followup_search13.json": "72290df31c19d4a0d96fcf8293ba8f7398de2d399416446be20ed826cfaea5d2",
+    "research/chemokine_expansion/snapshots/followup_search5.json": "62a14479fba117f7abefc9da667be3d07bee53544a8beb75a1beba03cad37d01",
+    "research/chemokine_expansion/snapshots/followup_search6.json": "ad0ba6a5543af65e538fae0d05ddb7ead69c1bbc3423a53bd135184371e20dad",
+    "research/chemokine_expansion/snapshots/followup_search7.json": "e8f330e3389e4413aa5389657eb1aadfb9e8f5e3b6e38b07dffc1f0244dc8453",
+    "research/chemokine_expansion/snapshots/followup_search8.json": "d90445a624cf5562ee6c9ac4f985c3c43cff3ca916dceac7a8dabadf04465b9b",
+    "research/chemokine_expansion/snapshots/followup_search9.json": "e2637123c75f8a42f7f6b76bbc9fcd56bf1285b7bb22204dc55930bc4df4217d",
+    "research/chemokine_expansion/snapshots/open1.json": "7d698aacc66a6779732ed19f39161b236edfd167dd490c6271f5a1732b10d2d6",
+    "research/chemokine_expansion/snapshots/open3.json": "41d43672588a41471e8f6feb0e57e4b386a6ae66457f3e374d9313ae5ecb8a28",
+    "research/chemokine_expansion/snapshots/search1.json": "c9f95422a19306c646f0da293128cedb1cc58ea8d2859a9fbd75ddba4beed402",
+    "research/chemokine_expansion/snapshots/search2.json": "fe2c137425a915383bffe21e4a06b262a6cc6b80f266996cd8b15c9c375c676b",
+    "research/chemokine_expansion/snapshots/search3.json": "ef3ff143edd890b90064bc16d8067a10fe3aaaaa36c47cca1b0a45c6f6898e4c",
+    "research/fulltext_followup/XCH_S008_Loetscher1996_selected_primary.json": "8e2348c3968eb66097d95214eb45d8fdc4946b2f21b3a4a9449b7f97afe8976f"
+  },
+  "assertion_content_hashes": {
+    "XCH_A001": "3d618ff0dcf0320677dcc788fdbf8dda0934c89895868cae6d84412a17627e30",
+    "XCH_A002": "47f3d14da0fca0997870ff4663b750e93eb2ba81b9ee92029e454fcc5b1b9cf4",
+    "XCH_A003": "d2208f42356767244b3ac5cd98d9fcb44b24d5a0176ee97f3cb685f4b9d744ee",
+    "XCH_A004": "dcd36d7282a203d5a079ef5b9e5c6801a5c8fb8c9e58dbf567aa0062392db7b2",
+    "XCH_A005": "2d8754e8c676cd2957beac898d9989ce46f88b29e992b1cd08f275c391c1b292",
+    "XCH_A006": "b6b8adf272506332f4dd3c5ff12d219eb3742fa0d757471471651772da864422",
+    "XCH_A007": "f0579e99b0ec1ae6f1259e09452346eb8438cd0e660e37f23d88ef5ee8946c3b",
+    "XCH_A008": "8d737399f7d2c2d6e651ca9df8111ae71a608bfda9a0ba3eb269eef38f10a11f",
+    "XCH_A009": "4367fe60192d36690bfcbaaf9e21a15baa073d9904695120fe46a14c2c051fed",
+    "XCH_A010": "082094cabf6ce25fbce27f28c554b8d3e67f2feeec993cc9ed9ba378ba16bf2a",
+    "XCH_A011": "41cb7572c161b4b0d703fa3b6d82a022adb46e13fb35c6e72a276153917f3c25",
+    "XCH_A012": "57a3e867bed849fe801868b4c14b75025ae92a021d278b9912ac58b340255480",
+    "XCH_A013": "c69cd52b64b16c2191dc6e9db23774016c03b4a03be9cc66e827c14b9a0b8178",
+    "XCH_A014": "2d5718239ea7c4654215bb027070512b2143c86749e2aa2ddd9d4bd3bd9c2015",
+    "XCH_A015": "3e607fdcecae94b1df98932669cce995371f1fa6645bf17ad03714ffd60d50e7",
+    "XCH_A016": "09d2f5754593c9747abe14e6a5e64b5532d4ee098dedaf165348a7fe4994dc64",
+    "XCH_A017": "41e1b2d62781dc6fdf4ba17ad020091e5ad7c0295d6bd3aba01dfe579fa4c84e",
+    "XCH_A018": "aee0bae7151a03eae59e3e9bb2766f50120b0a475147383740e0957913b9ac25",
+    "XCH_A019": "dc9846bea2a94ad0a515002b0c481bd4cfc81b515094fff06c26ebd2af010f85",
+    "XCH_A020": "ba492c45dbcf5be2262a373c7afe11464f3e1b96a1d4829ffdbd5ea3d06a0e8f",
+    "XCH_A021": "5292d52a8158c23d1bdbcea15f1dc61bd822f5cd183aa19d050c2444d89eb791",
+    "XCH_A022": "efafd0380d8c0553f8f86af552f8e3f9ed5860470b100e1928fab33db7a8c746",
+    "XCH_A023": "f1a2fbb63cbf15f8a48e16b3f4f9dfc6bb2a03bb16ff6e1f1b5a767d4b499c5b",
+    "XCH_A024": "6bb171a05fd874facf2e62261450c8f31f5d7f22912dc2e55ac98f6a8969ab16",
+    "XCH_A025": "c3e69e21bbbe12f20e6912b818ac9eb1bb9d21a3841024d9ed05cbb16401a38e",
+    "XCH_A026": "1dec1b0b8d9697068a61a95e70f7bd844e5ee64ce3c8f2a76d71cff2430b7037"
+  },
+  "findings": [],
+  "finding_dispositions": [
+    {
+      "finding_id": "XCH-REV001",
+      "target_type": "assertion",
+      "target_id": "XCH_A021",
+      "disposition": "resolved",
+      "evidence": "Named Agostini2001_chrome.txt now archives Methods sec6/AX156 with permeabilization and cytoplasmic flow plus Figure5/AX252 macrophage-CXCL10 caption. Sec5/Figure4 independently support immunohistochemistry. P1 intracellular/localized protein remains distinct from extracellular secretion."
+    },
+    {
+      "finding_id": "XCH-REV002",
+      "target_type": "assertion",
+      "target_id": "XCH_A010",
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011"
+      ],
+      "disposition": "resolved",
+      "evidence": "Structured stimulation now specifies soluble recombinant human CCL17 and CCL22 concentration series respectively, matching Viney S3/S14/Figure1A. Human Hut78 lymphoma-line identity and untranscribed dose-range limit retained."
+    }
+  ],
+  "coverage": {
+    "assertions_inspected": 26,
+    "cohorts_inspected": 14,
+    "source_records_inspected": 10,
+    "reviewed_extraction_assertions": [
+      "XCH_A001",
+      "XCH_A002",
+      "XCH_A003",
+      "XCH_A004",
+      "XCH_A005",
+      "XCH_A006",
+      "XCH_A007",
+      "XCH_A008",
+      "XCH_A009",
+      "XCH_A010",
+      "XCH_A011",
+      "XCH_A018",
+      "XCH_A019",
+      "XCH_A020",
+      "XCH_A021",
+      "XCH_A022",
+      "XCH_A023",
+      "XCH_A024",
+      "XCH_A025",
+      "XCH_A026"
+    ],
+    "full_text_gated_assertions": [
+      "XCH_A012",
+      "XCH_A013",
+      "XCH_A014",
+      "XCH_A015",
+      "XCH_A016",
+      "XCH_A017"
+    ],
+    "newly_reviewed_primary_assertions": [
+      "XCH_A023",
+      "XCH_A024",
+      "XCH_A025",
+      "XCH_A026"
+    ],
+    "new_source_records": [
+      "XCH_S010"
+    ],
+    "upgraded_source_records": [
+      "XCH_S008"
+    ],
+    "new_cohort_records": [
+      "XCH_CO013",
+      "XCH_CO014"
+    ],
+    "previously_reviewed_sources_unchanged": true,
+    "limits": "Earlier 22 assertion assessments carry forward from the preceding recheck, with unchanged prior supporting-file hashes checked. Four additions and their Methods/Results were independently inspected in this follow-up. No figure digitization, donor-level deduplication, empirical prior calibration or human adjudication was performed. Historical six Taub assertions remain provisional. New secretion evidence does not validate their original migration contexts."
+  },
+  "assertion_assessments": [
+    {
+      "target_ids": [
+        "XCH_A001",
+        "XCH_A002",
+        "XCH_A003",
+        "XCH_A004"
+      ],
+      "assessment": "P3 supported for fresh primary human eosinophil CCR3-antibody-sensitive migration/calcium responses. Ligand-specific calcium doses,1.5h migration and fresh-cell context match Figures3\u20134. Antibody numeric dose is appropriately withheld because extracted PDF symbols corrupt micrograms; C5a-control text inconsistency is disclosed. Murine L1.2 and IL5-primed experiments are not substituted."
+    },
+    {
+      "target_ids": [
+        "XCH_A008",
+        "XCH_A022"
+      ],
+      "assessment": "Godiska primary DC migration and macrophage extracellular CCL22 Western-blot endpoints are distinguished. Biological migration uses chemically synthesized mature human ligand, not CHO-host recipients. Day6/day9 source-cell cultures are not presumed identical to DC recipient donors. n=7 is not relabeled as seven people."
+    },
+    {
+      "target_ids": [
+        "XCH_A009"
+      ],
+      "assessment": "P1 intracellular CCL22 localization in CD1a/CD83-defined dermal DCs is supported by double staining/electron microscopy. The extraction does not promote rough-ER localization or proximity to CCR4 cells to measured extracellular release or causal recruitment. Four-versus-five case discrepancy is disclosed."
+    },
+    {
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011",
+        "XCH_A018",
+        "XCH_A019"
+      ],
+      "assessment": "Hut78 migration is human cell-line evidence; calcium responses are cultured primary human Th2 evidence. Transfected murine L1.2 receptor blockade/mutation/binding assays are excluded from these human-primary claims. Figure3E EC50 values1.6nM CCL17 and2.5nM CCL22 are assay potency,not affinity or truth probability. Ligand stimulation fields are repaired and verified."
+    },
+    {
+      "target_ids": [
+        "XCH_A012",
+        "XCH_A013",
+        "XCH_A014",
+        "XCH_A015",
+        "XCH_A016",
+        "XCH_A017"
+      ],
+      "assessment": "CCL3/CD8 and CCL4/CD4 activated-cell tendency matches Taub abstract without claiming subset exclusivity. Later rapid-purification responsiveness provides a preparation-context contrast. All six remain needs_full_text; resting-cell nulls are inconclusive. Donor overlap across publications is unresolved and not certified independent."
+    },
+    {
+      "target_ids": [
+        "XCH_A020",
+        "XCH_A021"
+      ],
+      "assessment": "Primary rejection-associated BAL T-cell chemotaxis with CXCR3 antibody supports P3 in the recorded disease/treatment context. 300-19 recipient-line supernatant assays are excluded. Failure to obtain no-rejection T cells is missingness,not a response null. Macrophage CXCL10 localization remains observational P1,with the exact source-bundle correction verified in this recheck."
+    },
+    {
+      "target_ids": [
+        "XCH_A005",
+        "XCH_A006",
+        "XCH_A007"
+      ],
+      "assessment": "Provost full Methods sec0005-0007 and Figures2C/5C support human blood eosinophil results. Healthy/asthma recruitment8/30 is separate from Figure2C seven and Figure5 four independent experiments per group, all technical duplicates. Continuous IL5 10ng/mL,CCL26 100nM,8micrometer Matrigel pores and vehicle-subtracted migration retained. Figure5 antiCCR3 clone61828/7B11 10micrograms/mL both chambers10min before ligand differs from generic15min IL5 protocol and is disclosed. Healthy blockade only measured18h. Baseline late kinetics12-18h and blockade late interval9-18h remain distinct. P3 healthy blocker-sensitive response and P2 asthma ligand response are supported; antibody-insensitive late component stays an inconclusive null and does not establish CCR3 independence."
+    },
+    {
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011",
+        "XCH_A021"
+      ],
+      "assessment": "Both recorded repair dispositions verified against the revised named snapshots; grades and human host boundaries unchanged."
+    },
+    {
+      "target_ids": [
+        "XCH_A023",
+        "XCH_A024"
+      ],
+      "assessment": "Pass at P1 for directly quantified extracellular CCL3 and CCL4 in mixed primary human PBMC conditioned medium. Methods Chemotaxis AX269-276 reports 10 million PBMC/mL, LPS1 microgram/mL, IFNG1000 U/mL and IL2 50 U/mL for48h, with71 and398ng/mL respectively. Rules Based Medicine is the named quantitation provider; assay platform, detection limits, uncertainty, secretion donor count and pooling remain unavailable. No unstimulated comparator supports induction; no source-cell subset or release mechanism is assigned. Ba/F3 transfectant migration is excluded from human recipient evidence, and six phosphoflow donors exposed to a three-ligand mixture are not secretion donors or individual ligand effects."
+    },
+    {
+      "target_ids": [
+        "XCH_A025",
+        "XCH_A026"
+      ],
+      "assessment": "Pass at P2 for primary donor-buffy-coat PBL CXCL10 chemotaxis and fresh-cell nonresponse in Loetscher1996 Figure4/Results p967. Cultured arm received IL2 400U/mL for10d; fresh arm did not undergo this culture. Methods p964 specifies48-well NeuroProbe chambers,3micrometer pores for primary PBL,100000 cells per upper well,60min at37C,technical triplicates and five fields counted, with no-chemoattractant baseline. Numeric graph dose/effect estimates are appropriately withheld. No matching-donor claim, purified T-cell subtype claim, primary-cell receptor-blockade result, surface-protein measurement or affinity estimate is inferred from separate receptor-transfectant, RNA or unsuccessful binding experiments. Fresh-cell null scoring is inconclusive without equivalence or precision."
+    }
+  ],
+  "cohort_assessments": [
+    {
+      "target_id": "XCH_CO013",
+      "assessment": "Pass. Healthy volunteer source established by Human Blood Samples Methods; unreported source-experiment donor count retained as unavailable. CCL3 and CCL4 share one PBMC-supernatant cohort and are not independent biological replication."
+    },
+    {
+      "target_id": "XCH_CO014",
+      "assessment": "Pass. Fresh and cultured PBL kept in one assay-family cohort; unique donors, donor matching, ancestry and cross-study independence unresolved. Triplicate wells remain technical replicates."
+    }
+  ],
+  "supported_boundaries": [
+    "No full source-to-target path is asserted.",
+    "RNA is not substituted for secreted protein.",
+    "Source species and engineered recipient host are not conflated.",
+    "Repeated assay panels and technical wells are not added to independent donor counts.",
+    "All ordinary null observations retain inconclusive evidence relations.",
+    "Primary full-text gaps remain explicitly gated despite narrow excerpt support.",
+    "Extracellular protein concentrations are reported measurements rather than induction effects, secretion rates or calibrated priors.",
+    "Loetscher primary PBL response is distinct from murine300-19 and humanJurkat receptor-transfectant response. PBL receptor dependence is not inferred.",
+    "All four ordinary null observations are inconclusive for absence.",
+    "Source gaps for original historical migration studies remain visible even when a separate primary study fills ligand-level coverage."
+  ],
+  "remaining_source_gaps": [
+    {
+      "target_type": "source",
+      "target_id": "XCH_S005",
+      "target_ids": [
+        "XCH_A012",
+        "XCH_A013",
+        "XCH_A015",
+        "XCH_A016"
+      ],
+      "status": "needs_full_text",
+      "reason": "Science1993 full methods remain unavailable after access attempts; exact doses, cell preparation, time and donor independence are not verified."
+    },
+    {
+      "target_type": "source",
+      "target_id": "XCH_S006",
+      "target_ids": [
+        "XCH_A014",
+        "XCH_A017"
+      ],
+      "status": "needs_full_text",
+      "reason": "1995JImmunolMethods metadata now verified, but primary excerpt does not supply complete experimental methods."
+    }
+  ],
+  "source_gap_dispositions": [
+    {
+      "target_type": "source",
+      "target_id": "XCH_S008",
+      "disposition": "resolved_for_extracted_primary_PBL_migration",
+      "evidence": "Primary published PDF Methods p964 and Figure4/Results p967 now archived, hash bound and independently read. Dose-response graph values and donor count remain unextracted; no affinity or primary receptor-blockade claim approved."
+    },
+    {
+      "target_type": "source",
+      "target_id": "XCH_S005",
+      "disposition": "remains_full_text_gated",
+      "evidence": "Repeated access attempts did not recover complete original Methods. New ScalleyKim supernatant evidence is a distinct experiment and publication."
+    },
+    {
+      "target_type": "source",
+      "target_id": "XCH_S006",
+      "disposition": "remains_full_text_gated",
+      "evidence": "Verified metadata and primary abstract do not establish missing original doses, preparation, time or donor basis."
+    }
+  ],
+  "conclusion": "No new biological findings at the exact final pack and source hashes. Twenty assertions pass independent source review, including four new primary human measurements/contrasts; six historical Taub records remain full-text gated. Both original findings remain resolved. All four ordinary nulls are inconclusive. This is independent agent review, not human adjudication or calibrated probability approval. Any subsequent pack or supporting-source change requires recheck.",
+  "validation": {
+    "all_primary_additional_supporting_and_query_snapshot_paths_bound": true,
+    "source_bundle_sanitizer_findings": 0,
+    "ordinary_nulls_inconclusive": true,
+    "original_review_unchanged": true,
+    "previous_recheck_unchanged": true,
+    "pack_hash_rechecked_at_write": true
+  },
+  "timestamp_end": "2026-09-13T18:49:52.581857+00:00"
+}

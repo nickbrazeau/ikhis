@@ -1,0 +1,84 @@
+{
+  "retrieval_id": "XCH-S008-FT-20260913-01",
+  "retrieved_at": "2026-09-13T18:34:36Z",
+  "title": "Chemokine receptor specific for IP10 and Mig: structure, function, and expression in activated T-lymphocytes",
+  "doi": "10.1084/jem.184.3.963",
+  "pmid": "9064356",
+  "pmcid": "PMC2192763",
+  "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2192763/",
+  "retrieved_pdf_url": "https://rcastoragev2.blob.core.windows.net/590c0087dcacff8f17507212f11224e7/PMC2192763.pdf",
+  "source_type": "Primary published article PDF mirror; seven pages; title and article identity verified against PMC and publisher.",
+  "transport": "web indexed PDF text; selected actual source lines, with OCR artifacts retained.",
+  "locators": [
+    {
+      "section": "Identity and human chemokines, printed p963-964",
+      "excerpt": "L0@P0: Chemokine Receptor Specific for IP10 and Mig: Structure,\nL1@P0: Function, and Expression in Activated T-Lymphocytes\nL2@P0: By Marcel Loetscher,* Basil Gerber,* Pius Loetscher,*~\nL3@P0: Simon A.Jones,* Luca Piali,* Ian Clark-Lewisfl Marco Baggiolini,*\nL4@P0: and Bernhard Moser*\nL5@P0: From the * Theodor Kocher Institute, University of Bern, CH-3OOO-Bern-9, Switzerland; the\nL6@P0: \nL7@P0: 9 Division of Rheumatology, University Hospital, CH-3010 Bern, Switzerland; and ~the Hanson\nL8@P0: Centre for Cancer Research, Adelaide, South Australia and Biomedical Research Centre, University of\nL9@P0: British Columbia, Vancouver, BC, VrT- 1Z3, Canada\nL44@P0: Materials and Methods\nL45@P0: Human Chemokines. The CXC-chemokines Mig, IL-8,\nL46@P0: GROe~, NAP-2, GCP-2, ENA78, PF4, the CC-chemokines\nL47@P0: 963 j. Exp. Med. \u000e9 The Rockefeller University Press\nL48@P0: 9 0022-1007/96/09/963/07 $2.00\nL49@P0-1: Volume 184 September 1996 963-969 MCP-I, MCP-2, MCP-3, MCP-4, MIP-lot, MIP-1]3, RANTES,\nL50@P1: I309, eotaxin, and the chemokine-related lymphotactin were\nL51@P1: chenfically synthesized according to established protocols (18). The\nL52@P1: CXC-chemokine IP10 was purchased from PeproTech (Rocky\nL53@P1: Hill, NJ)."
+    },
+    {
+      "section": "Methods Northern blot, Receptor Transfectants, Calcium Changes, Chemotaxis, printed p964",
+      "excerpt": "L78@P1: Northern Blot Analysis. l()-I.tg samples of total RNA were ex\u0002amined from freshly isolated human blood monocytes, neutro\u0002phils, lymphocytes (PBL), nylon wool-purified T cells, and from\nL79@P1: cultured cells, including cloned human CD4 + and CD8 + T cells\nL80@P1: (KT30 and ERCD8, respectively), cloned NK-cells (ERNK57)\nL81@P1: and PBL cultured for 10 d (i-2.5 • 106 cells/ml in R.PMI-1640\nL82@P1: medium containing 2 mM glutamine, 1• non-essential amino\nL83@P1: acids, l mM sodium pyruvate, 100 I~g/ml kanamycin, 5 • 10 -5 M\nL84@P1: 2-mercaptoethanol, and 5% human serum) in the presence of 400\nL85@P1: U/ml hrlL-2. RNA samples were analyzed with 32p-labeled 5'-\nL86@P1: fraganent of the IPl0/MigR DNA (10 9 cpm/~g DNA) at 5 •\nL87@P1: I0 ~' cpm/ml hybridization solution as described (20).\nL88@P1: Receptor Transfectants. To generate stable transfectants, 4 X\nL89@P1: 10 ~' of either mouse pre-B cells (300-19) (24), human promyelo\u0002cytic cells (GM-1) (25) or human acute T cell leukemia cells\nL90@P1: (Jurkat) (26) were transfected by electroporation with 20 I, zg of\nL91@P1: receptor cDNA in pcDNA3, linearized with BgllI as described\nL92@P1: (27). IP10/MigR transfected cells were cloned by limited dilu\u0002tion under selection of G-418 (Life Technologies, Inc., Gaithers\u0002burg, MD) at 1.0 mg/ml for 300-19 and 0.8 mg/ml for Jurkat\nL93@P1: and GM-1 cells. G 418-resistant clones were screened for recep\u0002tor expression by 1LNA Dot blot analysis.\nL94@P1: Ca 2+ Changes. Changes in the cytosolic free Ca 2+ concentra\u0002tion ([Cae+]i) were measured in cells loaded with fura-2 by incu\u0002bation for 30 rain at 37~ with 0.1 nmol fura-2 acetoxymethyl\u0002ester per 10 ~' cells in a buffer containing 136 mM NaC1, 4.8 mM\nL95@P1: KC1, 1 mM CaCI2, 5 mM glucose, and 20 mM Hepes, pH 7.4. Af\u0002ter centrifugation, loaded cells were resuspended in the same buf\u0002fer (1 (I ~ cells/ml), stimulated with the indicated chemokine at 37~\nL96@P1: and the [Ca2+Ji-related fluorescence changes were recorded (28).\nL97@P1: Chemotaxis. Cell migration was assessed in 48-well chambers\nL98@P1: (Neuro Probe, Cabin John, MD) using polyvinylpyrrolidone-free\nL99@P1: polycarbonate membranes (Nucleopore) with 5-Ltm pores for\nL100@P1: IP10/MigR transfected cells (26) or 3-1*m pores for human PBL\nL101@P1: (29). RPMI 1640 supplemented with 20 mM Hepes, pH 7.4, and\nL102@P1: 1% pasteurized plasma protein solution (Swiss Red Cross Labora\u0002tory, Bern, Switzerland) was used to dissolve the chemokines\nL103@P1: (lower wells), and to dilute the cells (100,000 receptor transfec\u0002tants or PBL in the upper well). After 60 min at 37~ the mem\u0002brane was removed, washed on the upper side with PBS, fixed\nL104@P1: and stained. All assays were done in triplicate, and the migrated\nL105@P1: cells were counted in five randomly selected fields at t,000-fold\nL106@P1: magnification. Spontaneous migration was determined in the ab\u0002sence of chemoattractant."
+    },
+    {
+      "section": "Figure2 and transfected-cell results; unsuccessful binding; Figure3 RNA, printed p966",
+      "excerpt": "L246@P3: Figure 2. Responses induced\nL247@P3: by IP10 and Mig in stably trans\u0002fected cells expressing lPl0/\nL248@P3: MigR. Concentration-depen\u0002dent [Ca2§ changes in IPIO/\nL249@P3: MigR transfected 300-19 cells.\nL250@P3: IP10 and Mig were added at 1,\nL251@P3: 10, and lO0-nM to Fura-2/AM\nL252@P3: loaded cells (arrowhead), and\nL253@P3: [Ca2+]i-dependent fluorescence\nL254@P3: changes were recorded, Non\u0002transfected cells (lower tracings)\nL255@P3: were stimulated with IP10-or\nL256@P3: Mig at 100 nM under identical\nL257@P3: conditions. To test for receptor\nL258@P3: desensitization and cross-desensi\u0002tization IPI0/MigP, expressing\nL259@P3: 300-19 cells were sequentially\nL260@P3: stimulated with 100 nM IPI0 or\nL261@P3: Mig, and with IPl0 followed by\nL262@P3: Mig or vice versa, and fluores\u0002cence changes were recorded.\nL263@P3: Chemotaxis of IPl0/MigR. expressing Jurkat cells stimulated with IP10 (closed circles) and Mig (closed squares) was determined as described in Materials\nL264@P3: and Methods, The lower panel shows responses of non-transfected Jurkat cells (open symbols). Mean nunrbers (+-- SD) of migrating cells per five high\u0002power fields are presented.\nL265@P3: potential agonists at concentrations up to 100 nM, includ\u0002ing the CXC-chemokines IL-8, Gl~Oot, NAP-2, GCP-2,\nL266@P3: ENA78, PF4, the CC-chemokines MCP-1, MCP-2,\nL267@P3: MCP-3, MCP-4, MIP-I~x, MIP-1]3, RANTES, I309, eo\u0002taxin, and the chemokine-related lymphotactin, Identical\nL268@P3: results were obtained with the murine and the human\nL269@P3: transfected ceils. These observations demonstrate that the\nL270@P3: novel receptor is highly selective for IPI0 and Mig, and we\nL271@P3: propose to name it IP10/Mig receptor (IPl0/MigR.). As\nL272@P3: shown in Fig. 2, repeated stimulation with IP10 or Mig re\u0002suited in desensitization as commonly observed for chemo\u0002kine receptors. Furthermore, cross-desensitization occurred\nL273@P3: when the cells were stimulated with IPl0 followed by Mig\nL274@P3: or vice versa, confirming that the receptor has high affinity\nL275@P3: for both chemokines. At 100 nM concentration, it became\nL276@P3: evident that Mig was more potent in cross-desensitization\nL277@P3: than IP10, suggesting higher affinity or binding stability of\nL278@P3: IP10/MigR for Mig.\nL279@P3: Transfected cells expressing the IP10/MigR readily mi\u0002grated toward IP10 and Mig while the non-transfected, pa\u0002rental cells did not respond (Fig. 2). Both agonists showed a\nL280@P3: typically biphasic concentration dependence. IP10 induced\nL281@P3: migration at concentrations above 1 nM whereas the re\u0002sponse of Mig became detectable above 10 nM. The effi\u0002cacy, which is measured by the maximum number of mi\u0002grating cells, was about twice as high for Mig than for IPl0.\nL282@P3: These results demonstrate that the IP10/MigP,., like all\nL283@P3: known chemokine receptors in leukocytes, signals for lo\u0002comotion.\nL284@P3: Despite the expression of functional IP10/MigP,., we\nL285@P3: were unable to perform satisfactory binding experiments\nL286@P3: with radioactive ligands. Nonspecific binding was always\nL287@P3: between 60 and 80% of the total, preventing the determi\u0002nation of the binding parameters. Since IP10 and Mig are\nL288@P3: highly cationic (pI values of 10.8 and 11.1), unspecific in\u0002966 IPl0/Mig R.eceptor in T (;ells\nL289@P3: teraction with cell surface proteoglycans may explain the\nL290@P3: anomalous behavior. Indeed, chemokine receptor-unre\u0002lated, heparinase-sensitive binding sites for IP10 (and PF4)\nL291@P3: were detected on a variety of blood and tissue cells (42),\nL292@P3: and we have observed that heparan sulfate binds IP10 and\nL293@P3: Figure 3. Expression oflPl(l/MigP. RNA in human blood leukocytes.\nL294@P3: Northern blot analysis was pertbrmed with 10 Ixg of total t/.NA from\nL295@P3: freshly isolated human blood monocytes, neutrophils, lymphocytes (PBL),\nL296@P3: nylon wool-purified T cells (PTC), and from cultured cells, including\nL297@P3: cloned human CD4 + and C1)8\" T cells (KT30 and ERCD& respec\u0002tively), cloned NK cells (ERNK57) and PBL cultured for 1(1 d ill the\nL298@P3: presence of I L-2 (40(I U/ml). P, NA samples were analyzed with a 1PI()/\nL299@P3: MigR I)NA probe as described in Materials and Methods. Lower panel\nL300@P3-4: shows ethidium bromide-stained It.NA in the agarose gel bet\\~re blotting. 19o]"
+    },
+    {
+      "section": "Figure4, expression and human primary lymphocyte response, printed p967",
+      "excerpt": "L314@P4: Figure 4. IPI0 and Mig responses of peripheral blood lymphocytes\nL315@P4: (PBL). Freshly isolated PBL from donor blood huffy coats were used as\nL316@P4: such (lower tracings and open symbols) or after culturing for 10 d in the pres\u0002ence of IL-2 (400 U/ml) (upper tracings and closed symbols). [Ca2+]i changes\nL317@P4: and chemotaxis were determined as in Fig. 2.\nL318@P4: Mig and prevents lymphocyte chemotaxis (data not\nL319@P4: shown).\nL320@P4: Expression in Aaivated T-LymphocHes. In view of the\nL321@P4: observed chemokine selectivity it was of interest to exam\u0002ine the occurrence of the IP10/MigR in leukocytes and re\u0002lated cell lines. As shown in Fig. 3, abundant expression of\nL322@P4: mRNA of the expected size was found in the cloned\nL323@P4: CD4 + T cells, KT30, that were used for isolation of the re\u0002ceptor cDNA. Similar levels of expression were observed\nL324@P4: in the CD8 + T cell clone, ERCD8, and the NK cell clone,\nL325@P4: ERNK57. In freshly isolated blood lymphocytes and nylon\nL326@P4: wool-purified T cells, by contrast, IP10/MigR transcripts\nL327@P4: were barely detectable. However, when these cells were\nL328@P4: cultured in the presence of IL-2, a strong upregulation was\nL329@P4: obtained, and the level of receptor mRNA approached that\nL330@P4: ofT and NK cell clones. No IP10/MigR transcripts were\nL331@P4: found in freshly isolated blood monocytes, neutrophil leu\u0002kocytes, eosinophil leukocytes. Additional leukocyte-related\nL332@P4: cells that did not express IP10/MigR mRNA include the\nL333@P4: mast cell line, HMC-1, the promyelocytic leukemia line,\nL334@P4: HL60, the histiocytic lymphoma, U937, the chronic myelog\u0002eneous leukemia line, K562, the acute T cell leukemia line,\nL335@P4: Jurkat, the acute lymphoblastic leukemia line, Molt, the\nL336@P4: B-lymphoblastic cell lines Daudi and Raft, lymphocytes\nL337@P4: from patients with chronic and acute B-lymphoid leukemia\nL338@P4: (B-CLL and B-ALL), mature basophils from a patient with\nL339@P4: basophilic leukemia, and the erythroleukemia cell line,\nL340@P4: HEL. By contrast, the receptors for chemokines which\nL341@P4: have been shown previously to attract lymphocytes, i.e.\nL342@P4: MCP-1, MCP-2, MCP-3, MIP-le~, MIP-1[3 and\nL343@P4: RANTES (29, 43-46), are also found in monocytes and\nL344@P4: granulocytes. Therefore, the exclusive expression of IP10/\nL345@P4: MigR in activated T-lymphocytes is an exciting finding\nL346@P4: and suggests that this novel receptor may mediate selective\nL347@P4: lymphocyte recruitment.\nL348@P4: Responses of Human T-Lymphocytes. In agreement with\nL349@P4: the cellular distribution of the IP10/MigR, we found that\nL350@P4: activated human T-lymphocytes are highly responsive to\nL351@P4: IP10 and Mig (Fig. 4). The activity of IP10 and Mig as in\u0002ducers of [Ca2+]i changes and in vitro chemotaxis was con\u0002sistent with the effects observed in the transfected cells ex\u0002pressing the IP10/MigR as IP10 was more potent but less\nL352@P4: efficacious than Mig. Activation of the T-lymphocytes by\nL353@P4: culturing in the presence of IL-2 was required, and no re\u0002sponse was observed with freshly isolated blood lym\u0002phocytes.\nL369@P4: The authors wish to thank Regula Stuber Roos and Dr. Wei Liu for their help with PCR, and Dr. Beatrice\nL370@P4: Dewald for discussions. We also thank Dr. Antonio Lanzavecchia for providing the human T cell clones, and\nL371@P4: Dr. Graeme Bilbe for his support in the generation of the cDNA library. Donor blood buffy coats were pro\u0002vided by the Swiss Central Laboratory Blood Transfusion Service, SRK."
+    }
+  ],
+  "access_history": [
+    {
+      "attempt": "PMC article via web",
+      "outcome": "Browser verification page; no methods HTML."
+    },
+    {
+      "attempt": "CiteSeer primary PDF direct open",
+      "outcome": "Cache miss; indexed searches recovered page-specific methods/results."
+    },
+    {
+      "attempt": "PMC article and PDF in Chrome",
+      "outcome": "Article abstract/PDF-only confirmed; PDF rendered seven pages but accessibility did not expose article text."
+    },
+    {
+      "attempt": "Publisher article via web",
+      "outcome": "Abstract plus PDF-access message; full text not retrieved there."
+    },
+    {
+      "attempt": "Indexed primary PMC PDF mirror discovered by exact primary phrase search",
+      "outcome": "Complete PDF text accessible; relevant Methods/Results/figures independently read."
+    }
+  ],
+  "query_log": [
+    {
+      "query": "\"Chemokine receptor specific for IP10 and mig\" PMC",
+      "outcome": "PMC2192763/PMID9064356 verified."
+    },
+    {
+      "query": "\"je1843963.pdf\"; \"Chemokine Receptor Specific for IP10\" \"300\" \"Jurkat\"; \"Chemokine Receptor Specific for IP10\" \"Materials\"",
+      "outcome": "CiteSeer primary PDF indexed passages, other-source candidates not imported."
+    },
+    {
+      "query": "site:citeseerx.ist.psu.edu/document \"Chemokine Receptor Specific for IP10\" \"300-19\"; site:citeseerx.ist.psu.edu/document \"Chemokine Receptor Specific for IP10\" \"Jurkat\"",
+      "outcome": "Primary Methods p964 recovered."
+    },
+    {
+      "query": "site:citeseerx.ist.psu.edu/document?doi=bb7bea21614e19bef1998a2c8cf851a1ac923298 \"Receptor Expression\" \"PBL\"; site:citeseerx.ist.psu.edu/document \"Chemokine Receptor Specific for IP10\" \"Figure 3\"; site:citeseerx.ist.psu.edu/document \"Chemokine Receptor Specific for IP10\" \"100 nM\"",
+      "outcome": "Primary Figure2/3 p966 recovered."
+    },
+    {
+      "query": "\"Chemokine Receptor Specific for IP10\" \"Figure 4\" \"PBL\"; \"Chemokine Receptor Specific for IP10\" \"Receptor Expression in\"; \"Chemokine Receptor Specific for IP10\" \"fresh\" \"IL-2\" \"967\"",
+      "outcome": "Primary p967 Figure4 context recovered."
+    },
+    {
+      "query": "\"Freshly isolated PBL from donor blood\" \"IP10\"; \"IP10/MigR\" \"PBL\" \"267\" \"receptor\"; \"IP10/MigR\" \"fresh\" \"response\" \"IL-2\" site:citeseerx.ist.psu.edu",
+      "outcome": "Primary PMC PDF mirror identified; patent results not imported into article evidence."
+    }
+  ],
+  "limits": [
+    "Source has historical OCR artifacts and figure graph values were not digitized.",
+    "Unique donors and cross-publication overlap unavailable; triplicate assays are technical replicates.",
+    "Human primary PBL experiments separate from murine300-19 and humanGM-1/Jurkat transfectants.",
+    "Binding parameter determination failed because nonspecific binding60-80%; response potency must not be called measured affinity."
+  ]
+}

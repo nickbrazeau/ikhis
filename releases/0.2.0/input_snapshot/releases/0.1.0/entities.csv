@@ -1,0 +1,161 @@
+entity_id,name,entity_type,layer,external_id,species,mapping_status
+ENT_01b80a2dd31fefd8,IGHE,transcript,T,unavailable,Homo sapiens,local_only
+ENT_030d22676eedca56,inflammatory bowel disease,disease_phenotype,F,unavailable,Homo sapiens,local_only
+ENT_041d2cfb29a3e067,ICOS,transcript,T,unavailable,Homo sapiens,local_only
+ENT_04dc6656ca6c45fc,CCL3,gene,G,unavailable,Homo sapiens,local_only
+ENT_08968262c79cdfa7,IL7R,transcript,T,unavailable,Homo sapiens,local_only
+ENT_097dd9d5babcd718,CCL26,protein,P,UniProt:Q9Y258,Homo sapiens,verified
+ENT_09a97505ae6a769e,CXCL10,protein,P,UniProt:P02778,Homo sapiens,verified
+ENT_09b01b901444c61a,rs3807306,variant,G,unavailable,Homo sapiens,local_only
+ENT_0a833e7f0956d6e8,IRF5,splice_event,T,unavailable,Homo sapiens,local_only
+ENT_0b2883c54ef93018,IL15 neutralization,experimental_intervention,C,unavailable,Homo sapiens,local_only
+ENT_0d0eeea56efc3208,plasma IL6 assay signal,protein,P,unavailable,Homo sapiens,local_only
+ENT_0d8bbf3db272192e,CCL13,protein,P,UniProt:Q99616,Homo sapiens,verified
+ENT_0f3634a190e187f9,IL12,protein,P,unavailable,Homo sapiens,local_only
+ENT_11fce20812601278,IL1A,protein,P,UniProt:P01583,Homo sapiens,verified
+ENT_122580d5af3d26e4,HIP1,transcript,T,unavailable,Homo sapiens,local_only
+ENT_1529d1ab67eb3792,rs7700004 T allele,variant,G,unavailable,Homo sapiens,local_only
+ENT_15d00a4bdcce13be,IL12A,gene,G,unavailable,Homo sapiens,local_only
+ENT_16b7cbfcf4561804,IL12A,protein,P,UniProt:P29459,Homo sapiens,verified
+ENT_16d6dc03ec07ab0d,IFNG,gene,G,unavailable,Homo sapiens,local_only
+ENT_175ce38bb4b1ad52,IL12B,protein,P,UniProt:P29460,Homo sapiens,verified
+ENT_17d9586a5c5fa616,ICOS,protein,P,unavailable,Homo sapiens,local_only
+ENT_1c6a23f4c7653560,thrombin-stimulated platelet,cell_state,C,unavailable,Homo sapiens,local_only
+ENT_1c7bf29d33b68948,IL17A,protein,P,UniProt:Q16552,Homo sapiens,verified
+ENT_1e0119e5c30f74eb,rs6897932 C allele,variant,G,unavailable,Homo sapiens,local_only
+ENT_1e2accf01ed4751c,Il4,protein,P,unavailable,Mus musculus,local_only
+ENT_1ed823f665a6a54b,lipopolysaccharide,microbial_stimulus,P,unavailable,Homo sapiens,local_only
+ENT_203abc627abbbaa5,platelet-derived microvesicle fraction containing IL1B,extracellular_fraction,P,unavailable,Homo sapiens,local_only
+ENT_20ba1de6e5d8ef11,rs6897932 C risk allele,variant,G,unavailable,Homo sapiens,local_only
+ENT_23734a3336aa1319,NK-cell proliferation,cellular_process,F,unavailable,Homo sapiens,local_only
+ENT_26323584816f8eed,IL15RA mRNA co-electroporation,experimental_intervention,T,unavailable,Homo sapiens,local_only
+ENT_26871fd42dfc89a8,IL1B,protein,P,UniProt:P01584,Homo sapiens,verified
+ENT_2a4303e030327ad6,IFNG,protein,P,UniProt:P01579,Homo sapiens,verified
+ENT_2c6be02c33c9dd31,TNFRSF1A,splice_event,T,unavailable,Homo sapiens,local_only
+ENT_2cd3b4cc8c682086,VAMP8,transcript,T,unavailable,Homo sapiens,local_only
+ENT_2f28e3a1208ef265,VEGFA,gene,G,unavailable,Homo sapiens,local_only
+ENT_2fdfad319350f8bc,rs2523506 A allele,variant,G,unavailable,Homo sapiens,local_only
+ENT_36b6e058ede9db91,rs61839660-equivalent SNP knock-in,variant,G,unavailable,Mus musculus,local_only
+ENT_39bdf0efad6aae42,CCL13,gene,G,unavailable,Homo sapiens,local_only
+ENT_3e8d6003def3d76f,LTA,gene,G,unavailable,Homo sapiens,local_only
+ENT_3f9b0b6a9cc7f93e,IRF7,transcript,T,unavailable,Homo sapiens,local_only
+ENT_4253513bcf8b7966,IL2RA,transcript,T,unavailable,Homo sapiens,local_only
+ENT_42c2d81a39cc9910,CCL17,gene,G,unavailable,Homo sapiens,local_only
+ENT_455d79d0bd6edd5f,BMP6,protein,P,unavailable,Homo sapiens,local_only
+ENT_48a526b55aa1c253,IL4I1,transcript,T,unavailable,Homo sapiens,local_only
+ENT_4a43549f9f661137,p38 MAPK phosphorylation,protein_modification,P,unavailable,Homo sapiens,local_only
+ENT_4b238b68f6a36eb1,Il1b,protein,P,unavailable,Mus musculus,local_only
+ENT_4c182f0101f9b526,immature dendritic cell,cell,C,unavailable,Homo sapiens,local_only
+ENT_4c2d3d0cd226cb6c,CSF2,gene,G,unavailable,Homo sapiens,local_only
+ENT_4ec703fd743c5e9b,CCL3,protein,P,UniProt:P10147,Homo sapiens,verified
+ENT_4ef3e5bae2c77085,rs202092481 (CD1C Arg43Ter),variant,G,unavailable,Homo sapiens,local_only
+ENT_50077e6edf47f2d5,IL7R,protein,P,unavailable,Homo sapiens,local_only
+ENT_5209a3a1a6e87309,CCL11,protein,P,UniProt:P51671,Homo sapiens,verified
+ENT_53062f1eaca66062,IL16,protein,P,UniProt:Q14005,Homo sapiens,verified
+ENT_534ee9a767ea40cf,IL16,gene,G,unavailable,Homo sapiens,local_only
+ENT_54b3af75e0fcfbf5,mature IL1B,protein,P,unavailable,Homo sapiens,local_only
+ENT_59a4a3709ca21a85,CXCL8,gene,G,unavailable,Homo sapiens,local_only
+ENT_5ca395a5e5b03bca,IL13,gene,G,unavailable,Homo sapiens,local_only
+ENT_5f0dfc075a0530c6,CD4 surface abundance,protein,P,unavailable,Homo sapiens,local_only
+ENT_5fe34bc58d70f972,IL2,protein,P,UniProt:P60568,Homo sapiens,verified
+ENT_63481bb4a04e1735,TNF,protein,P,UniProt:P01375,Homo sapiens,verified
+ENT_649e4f9ac17b6ad6,IL7-induced STAT5 phosphorylation,protein_modification,P,unavailable,Homo sapiens,local_only
+ENT_65e629cd13524598,TNFRSF9,protein,P,unavailable,Homo sapiens,local_only
+ENT_667de96f412a1cbe,CXCL10,gene,G,unavailable,Homo sapiens,local_only
+ENT_6b5ebee82dd77bee,microvesicle-induced endothelial adhesiveness for neutrophils,cellular_process,F,unavailable,Homo sapiens,local_only
+ENT_6ce40d6dbdfb3126,rs61839660 alternate allele in CaRE4,variant,G,unavailable,Homo sapiens,local_only
+ENT_6d9356029e40987d,thrombin,protein,P,unavailable,Homo sapiens,local_only
+ENT_6fff2b77daca0822,VEGFA,protein,P,UniProt:P15692,Homo sapiens,verified
+ENT_70a95e777b2ace92,memory CD4 T-cell total proteome,protein_set,P,unavailable,Homo sapiens,local_only
+ENT_739c3ea3751d38a4,rs61839660 minor allele,variant,G,unavailable,Homo sapiens,local_only
+ENT_78d02fac5056ea39,AIMP1,transcript,T,unavailable,Homo sapiens,local_only
+ENT_792b9003ca77a35c,rs1179625,variant,G,unavailable,Homo sapiens,local_only
+ENT_7a6675876c542fd6,rs1800693-associated MS signal,variant,G,unavailable,Homo sapiens,local_only
+ENT_7bfd7fdddd57392b,STAT5 phosphorylation,protein_modification,P,unavailable,Homo sapiens,local_only
+ENT_7e40a64d355b15d6,cis genetic variation at VAMP8,variant_set,G,unavailable,Homo sapiens,local_only
+ENT_7ef97468222a6bbb,neutrophil adhesion to endothelial cells,cellular_process,F,unavailable,Homo sapiens,local_only
+ENT_7f51448c358ce873,Il2ra,protein,P,unavailable,Mus musculus,local_only
+ENT_802c565982ce6871,IL15:IL15RA-expressing dendritic cell,cell,C,unavailable,Homo sapiens,local_only
+ENT_81535a06aa5c3fb8,IL1B,gene,G,unavailable,Homo sapiens,local_only
+ENT_8340e2eb12afa7e7,GDPD5,transcript,T,unavailable,Homo sapiens,local_only
+ENT_85673a3194ae7657,NK-cell cytotoxicity,cellular_process,F,unavailable,Homo sapiens,local_only
+ENT_85a6d880a40f326f,Ifngr1,transcript,T,unavailable,Mus musculus,local_only
+ENT_86e2db569151aca0,CaRE4 luciferase reporter,reporter,P,unavailable,Homo sapiens,local_only
+ENT_871fc15775c83f06,DDX39B 5-prime UTR luciferase reporter,reporter,P,unavailable,Homo sapiens,local_only
+ENT_88ed83f75b35f0d2,IL10,gene,G,unavailable,Homo sapiens,local_only
+ENT_88feb3b9ca14e788,CD27 agonist antibody,antibody,P,unavailable,Homo sapiens,local_only
+ENT_8e71685f79d67bb6,rs2523506,variant,G,unavailable,Homo sapiens,local_only
+ENT_8e9b3077f0780986,IL2,gene,G,unavailable,Homo sapiens,local_only
+ENT_8f0d851284637a44,rs7131225,variant,G,unavailable,Homo sapiens,local_only
+ENT_8f1940684a7a953a,CCL2,protein,P,UniProt:P13500,Homo sapiens,verified
+ENT_8f3c6894eb2ae018,IL1 receptor antagonist,protein_reagent,P,unavailable,Homo sapiens,local_only
+ENT_916d7f0b5f44ae3c,STAT3 phosphorylation,protein_modification,P,unavailable,Homo sapiens,local_only
+ENT_933152b32102e8e6,rs2511162 A/A genotype,variant,G,unavailable,Homo sapiens,local_only
+ENT_95fba28cf68386f8,rs76863441,variant,G,unavailable,Homo sapiens,local_only
+ENT_9628edc14de72e62,IL34,protein,P,unavailable,Homo sapiens,local_only
+ENT_96fe7188061ae8ce,CCL26,gene,G,unavailable,Homo sapiens,local_only
+ENT_97ae9323f2ac4612,IFNA13,transcript,T,unavailable,Homo sapiens,local_only
+ENT_9910df1d759bdaf7,IL3,protein,P,unavailable,Homo sapiens,local_only
+ENT_9a78f9a737146989,LTA,protein,P,UniProt:P01374,Homo sapiens,verified
+ENT_9afc33de7d5c782e,IL12 neutralization,experimental_intervention,C,unavailable,Homo sapiens,local_only
+ENT_9d5c95971a8fae67,TNF-induced endothelial adhesiveness for neutrophils,cellular_process,F,unavailable,Homo sapiens,local_only
+ENT_9d79226ed7ba388c,IFN-alpha (subtype unavailable),protein,P,unavailable,Homo sapiens,local_only
+ENT_a179b17c94f6069d,cis genetic variation at TNF,variant_set,G,unavailable,Homo sapiens,local_only
+ENT_a2943607c9485d43,rs6897932,variant,G,unavailable,Homo sapiens,local_only
+ENT_a7926543f6d04df4,plasma CXCL9 assay signal,protein,P,unavailable,Homo sapiens,local_only
+ENT_a843df3b115de664,CCL17,protein,P,UniProt:Q92583,Homo sapiens,verified
+ENT_a8dc18fdf070cbce,IL-12,assay_concept,P,unavailable,Homo sapiens,local_only
+ENT_a91925d3707cdc02,IL17A,gene,G,unavailable,Homo sapiens,local_only
+ENT_a923bdcc563c65cc,IL1B protein,protein,P,unavailable,Homo sapiens,local_only
+ENT_aac20750d95ddc6f,CXCL8,protein,P,UniProt:P10145,Homo sapiens,verified
+ENT_ad7a9dd7822061c1,IL4R,transcript,T,unavailable,Homo sapiens,local_only
+ENT_ae1235eb5c454b5a,IL15 mRNA electroporation,experimental_intervention,T,unavailable,Homo sapiens,local_only
+ENT_af9e80b37704b4e4,IL10,transcript,T,unavailable,Homo sapiens,local_only
+ENT_b0e6f455e91bb71c,STAT3,protein,P,unavailable,Homo sapiens,local_only
+ENT_b68a57fbf39e14f2,IL13,protein,P,UniProt:P35225,Homo sapiens,verified
+ENT_b752306aa7e3264f,multiple sclerosis,disease,F,unavailable,Homo sapiens,local_only
+ENT_b7f2228fe3fc668e,GAB2,transcript,T,unavailable,Homo sapiens,local_only
+ENT_b9593c04ef3c4ada,IL10,protein,P,UniProt:P22301,Homo sapiens,verified
+ENT_b9ba92f91bfd639b,CCL4,gene,G,unavailable,Homo sapiens,local_only
+ENT_beddd1c7261b30f2,IL4,gene,G,unavailable,Homo sapiens,local_only
+ENT_bfc35c75c6e3ce2a,rs12805435,variant,G,unavailable,Homo sapiens,local_only
+ENT_bfc8af10c594f005,IL4,protein,P,UniProt:P05112,Homo sapiens,verified
+ENT_c379a5891574043c,CCL2,gene,G,unavailable,Homo sapiens,local_only
+ENT_c80734d70dcceaa3,IL15,protein,P,UniProt:P40933,Homo sapiens,verified
+ENT_c88d1e5e3d2d4db0,IL7R soluble protein,soluble_protein,P,unavailable,Homo sapiens,local_only
+ENT_cb0c5bd63c605a68,cis genetic variation at AIMP1,variant_set,G,unavailable,Homo sapiens,local_only
+ENT_cb86356b563fe9a9,TNF,transcript,T,unavailable,Homo sapiens,local_only
+ENT_cbb9130d1c6b4bf6,IL7R exon 6,splice_event,T,unavailable,Homo sapiens,local_only
+ENT_ce955b5431fb0f6e,rs4963128,variant,G,unavailable,Homo sapiens,local_only
+ENT_cf121e92071c6ef1,TNF,gene,G,unavailable,Homo sapiens,local_only
+ENT_d00fa27e685171e9,plasma CD1C assay signal,protein,P,unavailable,Homo sapiens,local_only
+ENT_d18931cd0cba5b5d,rs9657975 T/T genotype,variant,G,unavailable,Homo sapiens,local_only
+ENT_d44f897924c1c649,Il4i1,transcript,T,unavailable,Mus musculus,local_only
+ENT_d9016c15d41e98e5,CCL11,gene,G,unavailable,Homo sapiens,local_only
+ENT_d9d2ec0b1f21b24b,rs2523506 by rs6897932 genotype interaction,variant_interaction,G,unavailable,Homo sapiens,local_only
+ENT_db48e2e9ec12e60c,IL5,protein,P,UniProt:P05113,Homo sapiens,verified
+ENT_dc4564b108519c43,dasatinib,drug,P,unavailable,Homo sapiens,local_only
+ENT_ddc9057f9b2e4911,IL12B,gene,G,unavailable,Homo sapiens,local_only
+ENT_e0272f4bc23312cf,CD14-positive monocyte,cell_type,C,unavailable,Homo sapiens,local_only
+ENT_e09152e8c4ddcab6,STAT4 DNA-binding complex,protein_complex,P,unavailable,Homo sapiens,local_only
+ENT_e13517a21490eac4,monocyte,cell,C,unavailable,Homo sapiens,local_only
+ENT_e3e64decadf38f83,plasma PLA2G7 assay signal,protein,P,unavailable,Homo sapiens,local_only
+ENT_e5598617b8bc893c,VEGF,assay_concept,P,unavailable,Homo sapiens,local_only
+ENT_e5bf58d1ff9a8c0a,CCL22,gene,G,unavailable,Homo sapiens,local_only
+ENT_e692baa1b3e0fce6,CD8A surface abundance,protein,P,unavailable,Homo sapiens,local_only
+ENT_e7ad5f0c0bdbc662,IL6,protein,P,UniProt:P05231,Homo sapiens,verified
+ENT_e7d9d3b7a2fb6017,monocyte-derived dendritic cell,cell,C,unavailable,Homo sapiens,local_only
+ENT_ea61d535e6dc0e64,CD4,protein,P,unavailable,Homo sapiens,local_only
+ENT_ec793c0d8c89a973,NK-cell CD56-bright versus CD56-dim state,cell_state_comparison,C,unavailable,Homo sapiens,local_only
+ENT_ecd6a047adc987fc,CSF2,protein,P,UniProt:P04141,Homo sapiens,verified
+ENT_ef4c894e824dfedb,DDX39B,transcript,T,unavailable,Homo sapiens,local_only
+ENT_f06128cc46880c36,IL5,gene,G,unavailable,Homo sapiens,local_only
+ENT_f1e293e143d38031,IL1A,gene,G,unavailable,Homo sapiens,local_only
+ENT_f38409a9b4ecd1e1,CCL22,protein,P,UniProt:O00626,Homo sapiens,verified
+ENT_f8695e78998ab710,STAP1,transcript,T,unavailable,Homo sapiens,local_only
+ENT_f876c10c810517b8,CCL4,protein,P,UniProt:P13236,Homo sapiens,verified
+ENT_fa4b74cff7ae28d5,IL7,gene,G,unavailable,Homo sapiens,local_only
+ENT_fb04a51a04283511,IL15,gene,G,unavailable,Homo sapiens,local_only
+ENT_fb5c44e2bc4db2ff,IL6,gene,G,unavailable,Homo sapiens,local_only
+ENT_fc4758f5b656a1c2,IL12A:IL12B,protein_complex,P,IUPHAR:4977,Homo sapiens,verified
+ENT_ff24e6b81557dfad,IL7,protein,P,UniProt:P13232,Homo sapiens,verified

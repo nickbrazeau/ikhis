@@ -1,0 +1,41 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3965571/
+Retrieved: 2026-09-13 17:54 UTC (minute precision)
+Transport: Chrome CUA initial accessibility state, tab 1487303539. Exact selected visible article passages; superscript accessibility fragments joined and inline reference links omitted. Sections/AX IDs are locators.
+Title: DISTINCT CONFORMATIONS OF THE CHEMOKINE RECEPTOR CCR4 WITH IMPLICATIONS FOR ITS TARGETING IN ALLERGY
+Author manuscript; available in PMC: 2014 Oct 1. Published in final edited form as: J Immunol. 2014 Feb 21;192(7):3419–3427. doi: 10.4049/jimmunol.1300232
+PMCID: PMC3965571 PMID: 24563252
+Authors: Jonathan M Viney, David P Andrew, Rhian M Phillips, Andrea Meiser, Pallavi Patel, Melissa Lennartz-Walker, David J Cousins, Nicholas P Barton, David A Hall, James E Pease
+
+Experimental Procedures / Materials / S3 / AX175–179
+Reagents were purchased from Sigma Aldrich and Invitrogen unless otherwise stated. Recombinant human CCL17 and CCL22 were purchased from Peprotech Ltd. (London, UK). Radiolabelled 125I-CCL17 and 125I-CCL22 were purchased from Perkin Elmer (Cambridge, MA). 96 well ChemoTx® chemotaxis plates (101-5, pore size 5 μm) were purchased from Neuroprobe (Gaithersburg MD, USA).
+
+Experimental Procedures / Cell culture and transfection / S5 / AX192–204
+The murine pre-B lymphoma L1.2 cell line and the human T cell lines Hut78 and CEM-4 were cultured in suspension in RPMI+glutaMAX (Invitrogen, Paisley UK) containing 10% heat-inactivated fetal calf serum, 100 units/ml penicillin, 0.1 mg/ml streptomycin, 1 mM sodium pyruvate, 50 μM β-mercaptoethanol, and non-essential amino acids at 37°C, 5% CO2.
+For the generation of highly polarized human Th2 cells, peripheral blood was taken from healthy volunteers following informed consent and according to an approved protocol. Naïve CD4+ cells were isolated and polarized following 4 weeks in culture using previously described methods (28).
+
+Experimental Procedures / Chemotaxis assay / S7 / AX222–228
+After confirmation of receptor expression by flow cytometry, the chemotactic ability of the cells was measured using ChemoTx™ plates (Neuroprobe, Gathersburg MD, USA), as described previously (27). Briefly, 0.1% BSA in RPMI was used to compose several chemokine concentrations, which were pipetted into previously blocked wells of the plate. The membrane was placed on top, and droplets containing 2×105 cells added on top of the membrane to each well. After 5 hours incubation at 37°C and 5% CO2, the membrane was removed and migration assessed by either cell counting with a haemocytometer or by staining with the live cell dye CellTiter Glo® (Promega, Southampton, UK) and reading luminescence counts. Haemocytometer counts were expressed as a percentage of total cells migrated. CellTiter Glo luminescence counts were converted to chemotactic index (counts/buffer control counts). In inhibition studies, prior to their use, cells were preincubated for 15 minutes at room temperature with 10μg/ml of 10E4, 1G1 or the respective isotype controls either alone or in combination.
+
+Experimental Procedures / Intracellular calcium flux / S9 / AX240–246
+Chronically activated human Th2 lymphocytes were prepared as previously described (30) and were labelled with the dye Fluo-3 (Molecular Probes, Eugene, OR) at a final concentration of 4 μM. Following washing, cells were plated at 300,000 cells per well and stimulated with chemokine at varying concentrations. Ca2+ mobilization was then measured on a 96-well FLIPR System (Molecular Devices, Sunnyvale, CA) as previously described (31).
+
+Experimental Procedures / Data and statistical analyses / S12 / AX267
+Data are presented as the mean ± SEM of at least three independent experiments. Data were analysed and graphed using Prism software (GraphPad, San Diego, CA, USA).
+
+Results / S14 / AX275–277
+The human cell line Hut78 is a T cell lymphoma that endogenously expresses the chemokine receptor CCR4, and therefore serves as a useful model system to examine ligand-receptor interactions. Hut78 cells (Fig. 1A) migrated in a dose-dependent manner to soluble CCL17 and CCL22, exhibiting the typical bell-shaped response with both chemokines demonstrating similar potency and maximal effect. Similar data was observed with the cell line CEM-4 (data not shown).
+
+Figure 1 / F1 / AX291
+(A) Hut78 cell migration to increasing concentrations of CCL17 and CCL22. CCR4 expression on Hut78 cells using 1G1 (B) and 10E4 (C) mAbs; shaded histograms are isotype controls. (D) CCR4 endocytosis on Hut78 cells following chemokine treatment measured using CCR4 mAbs. n=3, *p<0.05, **p<0.01 and ***p<0.001.
+
+Results / S15 / AX310–322
+We subsequently investigated the ability of CCL17 and CCL22 to induce calcium mobilisation in Th2 lymphocytes, in particular, assessing the ability of each chemokine to desensitize responses to a subsequent stimulus of the same or alternate ligand (homologous and heterologous desensitization). Initial treatment of Th2 cells with a 50 nM concentration of CCL17, resulted in intracellular calcium release, and rendered the cells unresponsive to a second identical CCL17 stimulus (Fig. 3A). Similar results were observed when two consecutive doses of 50 nM CCL22 were employed (Fig. 3B). However, when heterologous desensitization was examined in the same fashion, CCL22 rendered cells unresponsive to subsequent CCL17 treatment (Fig. 3C), but the converse was not observed, with CCL17 having little if any impact on subsequent CCL22 responses (Fig. 3D). Dose response analysis of calcium release in human Th2 cells in response to increasing concentrations of chemokine found that CCL17 and CCL22 had equal potency and maximal effects (Fig. 3E), as was the case with their activity in chemotaxis assays (Fig. 1A).
+
+Figure 3 / F3 / AX329
+Homologous (A & B)/heterologous (C & D) desensitization of calcium responses following CCL17/CCL22 treatment. Arrows indicate addition of chemokine. Data are representative of three independent experiments. (E) Calcium release of Th2 cells after CCL17/CCL22 treatment. EC50 values = 1.6 nM and 2.5 nM respectively. n=3.
+
+Figure 5 / F5 / AX451
+Binding of 125I-CCL17 (A) and 125I-CCL22 (B) to CCR4 transfectants in the presence of unlabelled chemokine, an isotype control (IgG2a) mAb or the CCR4-specific mAb 10E4. (B) and (C) - Migration of CCR4 transfectants to CCL17 (C) or CCL22 (D) following pre-treatment with either 10E4, 1G1, or both antibodies combined (closed symbols and dashed lines). Isotype treated cells are shown as open symbols and solid lines. Competitive staining of Hut78 cells with the 10E4 and 1G1 antibodies (E). n=3,*p<0.05, **p<0.01 and ***p<0.001.
+
+Reference 30 / R30 / AX864
+Zabel BA, Agace WW, Campbell JJ, Heath HM, Parent D, Roberts AI, Ebert EC, Kassam N, Qin S, Zovko M, LaRosa GJ, Yang LL, Soler D, Butcher EC, Ponath PD, Parker CM, Andrew DP. Human G protein-coupled receptor GPR-9-6/CC chemokine receptor 9 is selectively expressed on intestinal homing T lymphocytes, mucosal lymphocytes, and thymocytes and is required for thymus-expressed chemokine-mediated chemotaxis. J. Exp. Med. 1999;190:1241–1256. doi: 10.1084/jem.190.9.1241.

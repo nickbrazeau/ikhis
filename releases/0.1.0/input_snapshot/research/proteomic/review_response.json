@@ -1,0 +1,144 @@
+{
+  "response_id": "P_REPAIR_20260912_01",
+  "critic_run_id": "biological-review-multiomic-20260912-01",
+  "critic_review_path": "research/review_multiomic.json",
+  "critic_review_sha256": "6178648fa2dcfa1c2b1b33d2f95c453e968ccc5977530c2676a6b782d8b7e545",
+  "critic_review_preserved": true,
+  "timestamp_start": "2026-09-12T19:05:01Z",
+  "timestamp_end": "2026-09-12T19:08:26Z",
+  "actor": "proteomic extracting agent",
+  "human_adjudication": false,
+  "scope": "Own-directory source-verified repairs of proteomic findings BIO-M001 through BIO-M004 and all remaining mixed-direction semantics. Protocol prior policy remains with the coordinator.",
+  "old_file_hashes": {
+    "pack.json": "8967ada9749b304dcb16630d3524c889d29a8405f01910a2f7af703e52cd44bb",
+    "run.json": "4cc3983545fb85e81fd5f70853c127ad3bc07931c2ddfc98bc40fddadd787d50",
+    "notes.md": "949bec97cc719241cb9d11882a4868b7d06221403ff5dae05336be111edc5028",
+    "apply_review_corrections.py": null
+  },
+  "new_file_hashes": {
+    "pack.json": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+    "run.json": "e5c488529be3cb6d6050ae9fffdbf14ac0bed2b3b35bf84c7eb5ce103e96bf33",
+    "notes.md": "9c8ac7147af39b62f09f945b832b251043d34f4ae9ce26ab4ea3a47fafec1d62",
+    "apply_review_corrections.py": "fe9e75e925fc84f51c990fdb03b76d5af4827079a07068602e1fb1993a18b048"
+  },
+  "corrections": [
+    {
+      "finding_id": "followup_mixed_direction_audit",
+      "assertion_id": "P_A01",
+      "disposition": "corrected_by_extracting_agent_pending_coordinator_adjudication",
+      "field_changes": {
+        "direction": {
+          "old": "mixed",
+          "new": "association"
+        },
+        "uncertainty": {
+          "old": "Caption reports FDR <5%; effect sizes unavailable.",
+          "new": "Caption reports FDR <5%; effect sizes and signed protein-level changes unavailable. Total-profile differences do not establish both increase and decrease."
+        }
+      },
+      "supporting_snapshot": "research/proteomic/snapshots/atlas_publisher_page.txt",
+      "supporting_snapshot_sha256": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+      "source_locator": "line 498; Supplementary Figure 5g",
+      "rationale": "Accessible caption describes total-proteome differences, with no extracted signed protein-level effects; association records the unsigned direction while P2 design remains unchanged."
+    },
+    {
+      "finding_id": "BIO-M001",
+      "assertion_id": "P_A06",
+      "disposition": "corrected_by_extracting_agent_pending_coordinator_adjudication",
+      "field_changes": {
+        "source_locator": {
+          "old": "Fig. 5B legend",
+          "new": "Fig. 5C as cited in the main-text STAT5 paragraph; bendall_fulltext.txt:181. Saved Fig. 5 legend at line 175 instead labels this STAT5 result B."
+        },
+        "limitations": {
+          "old": "PTM site, antibody clone, dose and duration unavailable in extracted main text. Two donors; phosphorylation is not measured cell function.",
+          "new": "PTM site, antibody clone, dose and duration unavailable in extracted main text. Two donors; phosphorylation is not measured cell function. The saved source has a panel-label discrepancy: main text cites Fig. 5C for STAT5, while the Fig. 5 legend labels STAT5 B and PLC-gamma-2 C; use the specific STAT5 passage."
+        }
+      },
+      "supporting_snapshot": "research/proteomic/snapshots/bendall_fulltext.txt",
+      "supporting_snapshot_sha256": "9a9f86d6f0be3e361b3b235b3ad50bb654236ea251654e27ca40c88c698ebf95",
+      "source_locator": "lines 175 and 181; Figure 5 legend and main-text STAT5 paragraph",
+      "rationale": "Main text cites Figure 5C, but saved legend calls STAT5 panel B. Locator repaired to the main-text passage and the source-internal discrepancy preserved; no equivalence claim added."
+    },
+    {
+      "finding_id": "BIO-M002",
+      "assertion_id": "P_A07",
+      "disposition": "corrected_by_extracting_agent_pending_coordinator_adjudication",
+      "field_changes": {
+        "direction": {
+          "old": "mixed",
+          "new": "association"
+        },
+        "source_locator": {
+          "old": "Supplementary Fig. 6b caption; extract in open3.json",
+          "new": "Supplementary Fig. 6b caption; cite_publisher_page.txt:257 (also captured in open3.json)"
+        }
+      },
+      "supporting_snapshot": "research/proteomic/snapshots/cite_publisher_page.txt",
+      "supporting_snapshot_sha256": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+      "source_locator": "line 257; Supplementary Figure 6b",
+      "rationale": "KS distribution difference is unsigned and does not establish opposing effects."
+    },
+    {
+      "finding_id": "BIO-M003",
+      "assertion_id": "P_A15",
+      "disposition": "corrected_by_extracting_agent_pending_coordinator_adjudication",
+      "field_changes": {
+        "direction": {
+          "old": "mixed",
+          "new": "association"
+        },
+        "source_locator": {
+          "old": "Protein\u2013phenotype associations paragraph; Supplementary Table 18",
+          "new": "Protein-phenotype associations paragraph; extract2.json source line 148, referring to Supplementary Table 18 (table not independently extracted)"
+        }
+      },
+      "supporting_snapshot": "research/proteomic/snapshots/extract2.json",
+      "supporting_snapshot_sha256": "5e6d7a8cb7fdc9c6d6036c9b2d612244bf0de03bc62ebca77ea7298f883325d8",
+      "source_locator": "source line L148; Protein-phenotype associations paragraph",
+      "rationale": "Non-replication between platform/cohort groups does not determine the two effect signs. Supplementary Table 18 is referenced by the paragraph but was not independently extracted."
+    },
+    {
+      "finding_id": "BIO-M004",
+      "assertion_id": "P_A16",
+      "disposition": "corrected_by_extracting_agent_pending_coordinator_adjudication",
+      "field_changes": {
+        "direction": {
+          "old": "mixed",
+          "new": "association"
+        },
+        "source_locator": {
+          "old": "Protein\u2013phenotype associations paragraph; Supplementary Table 18",
+          "new": "Protein-phenotype associations paragraph; extract2.json source line 149, referring to Supplementary Table 18 (table not independently extracted)"
+        }
+      },
+      "supporting_snapshot": "research/proteomic/snapshots/extract2.json",
+      "supporting_snapshot_sha256": "5e6d7a8cb7fdc9c6d6036c9b2d612244bf0de03bc62ebca77ea7298f883325d8",
+      "source_locator": "source line L149; Protein-phenotype associations paragraph",
+      "rationale": "IBD association detected by Olink and one of two SomaScan assays establishes reagent disagreement, without opposing signed estimates."
+    }
+  ],
+  "mixed_direction_audit": {
+    "records_inspected": [
+      "P_A01",
+      "P_A07",
+      "P_A15",
+      "P_A16"
+    ],
+    "mixed_records_remaining": 0,
+    "rule": "Use mixed only when the extracted evidence establishes opposing signed changes; unsigned contrasts or significance discordance remain association."
+  },
+  "generator_status": "pack.json is the authoritative manual extraction; no separate proteomic generator existed. apply_review_corrections.py replays the verified review corrections idempotently.",
+  "validation": {
+    "assertion_count": 22,
+    "unique_assertion_ids": true,
+    "source_and_cohort_references_valid": true,
+    "source_snapshots_changed": false,
+    "replay_command": "python3 research/proteomic/apply_review_corrections.py",
+    "replay_expected_field_edits": 0,
+    "replay_observed_field_edits": 0,
+    "file_hashes_verified": true,
+    "critic_review_hash_verified_unchanged": true
+  },
+  "reviewer_finding_refinement": "BIO-M001 is repaired using Figure 5C in the main text, but the original Figure 5B legend locator was supported by the saved legend itself. The response preserves this internal B/C discrepancy rather than claiming the saved legend consistently labels STAT5 C."
+}

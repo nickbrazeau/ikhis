@@ -1,0 +1,23 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1810496/",
+  "retrieval_date": "2026-09-13",
+  "retrieval_method": "Chrome browser rendered full primary article; exact selected passages transcribed from returned DOM text",
+  "access_status": "Full article readable in Chrome; selected outcome and assay passages archived here. Browser content export was unsupported; no successful PDF file archive is claimed.",
+  "passages": [
+    {"locator": "Materials and methods: Assay of TNF-alpha", "text": "TNF-α was assayed in culture supernatants using a human TNF-α enzyme-linked immunosorbent assay (ELISA) assay kit (BD OptEIA, BD Biosciences, San Diego, CA, USA) and the dissociated enhanced lantanide fluoroimmuno assay (DELFIA) system (Perkin Elmer). For each experiment samples were assayed in triplicate. The assays were sensitive to TNF-α levels of > 10 pg/ml."},
+    {"locator": "Results: LPS-induced TNF-alpha production is STAT3-independent, final sentence", "text": "LPS-induced TNF-α levels after 2 and 24 h were not significantly different between treatment groups and suggested that endogenous STAT3 activation did not regulate LPS-induced TNF-α production by human monocytes."},
+    {"locator": "Figure 2C caption", "text": "(c) LPS-induced TNF-α levels (ng/ml) in culture supernatants after 2 and 24 h. The data presented in box-and-whisker plots are from seven individual donors assayed in triplicate (median, quartiles and range of TNF-α levels)."}
+  ],
+  "structured_methods_observed": {
+    "cell_source": "human peripheral-blood buffy coats",
+    "cell_type": "primary monocytes",
+    "purity": "approximately 85%",
+    "preconditioning": "overnight M-CSF culture",
+    "comparison": "uninfected, control vector, STAT3 expression and dominant-negative STAT3 groups",
+    "LPS_concentration": "500 ng/mL",
+    "readouts": "culture-supernatant TNF at 2 and 24 hours",
+    "independent_donors_for_TNF_endpoint": 7,
+    "technical_replicates": "triplicate; not extra independent donors",
+    "null_adequacy": "No equivalence margin or precision demonstrating absence; nonsignificance only"
+  }
+}

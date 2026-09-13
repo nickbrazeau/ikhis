@@ -1,0 +1,5 @@
+record_id,evidence_id,regulatory_element_id,perturbation,measured_outcome
+REG_G-A005,EV_G-A005,,anti-CD3/CD28,CaRE4 luciferase reporter
+REG_G-A007,EV_G-A007,,plate-bound anti-CD3/CD28,Il2ra
+REG_G-A008,EV_G-A008,,DDX39B siRNA depletion,IL7R exon 6
+REG_G-A009,EV_G-A009,,unavailable,DDX39B 5-prime UTR luciferase reporter

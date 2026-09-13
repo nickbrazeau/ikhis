@@ -1,0 +1,2562 @@
+[
+  {
+    "candidate_id": "XCH_CAN001",
+    "query_id": "XCH_Q001",
+    "title": "Chemokine receptor usage by human eosinophils. The importance of CCR3 demonstrated using an antagonistic monoclonal antibody.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9005985/",
+    "doi": "10.1172/JCI119145",
+    "pmid": "9005985",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN002",
+    "query_id": "XCH_Q001",
+    "title": "Cloning and functional characterization of a novel human CC chemokine that binds to the CCR3 receptor and activates human eosinophils.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9365122/",
+    "doi": "unavailable",
+    "pmid": "9365122",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN003",
+    "query_id": "XCH_Q001",
+    "title": "Cloning, expression, and characterization of the human eosinophil eotaxin receptor.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8642344/",
+    "doi": "unavailable",
+    "pmid": "8642344",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN004",
+    "query_id": "XCH_Q001",
+    "title": "Macrophage-derived chemokine is a functional ligand for the CC chemokine receptor 4.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9430724/",
+    "doi": "unavailable",
+    "pmid": "9430724",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN005",
+    "query_id": "XCH_Q001",
+    "title": "CCL26/eotaxin-3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin-1 and CCL24/eotaxin-2 - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23532518/",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN006",
+    "query_id": "XCH_Q001",
+    "title": "Monocyte chemotactic protein-4: tissue-specific expression and signaling through CC chemokine receptor-2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9060459/",
+    "doi": "unavailable",
+    "pmid": "9060459",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN007",
+    "query_id": "XCH_Q001",
+    "title": "Cloning of the human eosinophil chemoattractant, eotaxin. Expression, receptor binding, and functional properties suggest a mechanism for the selective recruitment of eosinophils - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8609214/",
+    "doi": "unavailable",
+    "pmid": "8609214",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN008",
+    "query_id": "XCH_Q001",
+    "title": "Membrane-bound eotaxin-3 mediates eosinophil transepithelial migration in IL-4-stimulated epithelial cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16983721/",
+    "doi": "unavailable",
+    "pmid": "16983721",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN009",
+    "query_id": "XCH_Q001",
+    "title": "CCL26/eotaxin‐3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin‐1 and CCL24/eotaxin‐2 - Provost - 2013 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN010",
+    "query_id": "XCH_Q001",
+    "title": "Eotaxin-1 (CCL11) - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4338813/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Review/background result; no new primary assertion extracted."
+  },
+  {
+    "candidate_id": "XCH_CAN011",
+    "query_id": "XCH_Q001",
+    "title": "Macrophage-Derived Chemokine (MDC/CCL22) and CCR4 Are Involved in the Formation of T Lymphocyte-Dendritic Cell Clusters in Human Inflamed Skin and Secondary Lymphoid Tissue - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891894/",
+    "doi": "10.1016/S0002-9440(10)64077-1",
+    "pmid": "11290544",
+    "decision": "include",
+    "reason": "Included narrow protein-localization extraction from inspected full text."
+  },
+  {
+    "candidate_id": "XCH_CAN012",
+    "query_id": "XCH_Q001",
+    "title": "The T cell-directed CC chemokine TARC is a highly specific biological ligand for CC chemokine receptor 4 - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9169480/",
+    "doi": "unavailable",
+    "pmid": "9169480",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN013",
+    "query_id": "XCH_Q001",
+    "title": "brought to you by",
+    "url": "https://files01.core.ac.uk/download/pdf/9028213.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN014",
+    "query_id": "XCH_Q001",
+    "title": "CCL11",
+    "url": "https://en.wikipedia.org/wiki/CCL11",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN015",
+    "query_id": "XCH_Q001",
+    "title": "CCL13",
+    "url": "https://en.wikipedia.org/wiki/CCL13",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN016",
+    "query_id": "XCH_Q001",
+    "title": "Human CCL11/Eotaxin",
+    "url": "https://resources.rndsystems.com/pdfs/datasheets/ic3201t.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN017",
+    "query_id": "XCH_Q001",
+    "title": "Regulation of eosinophil recruitment and heterogeneity during allergic airway inflammation",
+    "url": "https://www.frontiersin.org/journals/allergy/articles/10.3389/falgy.2025.1585142/pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Review/background result; no new primary assertion extracted."
+  },
+  {
+    "candidate_id": "XCH_CAN018",
+    "query_id": "XCH_Q001",
+    "title": "receptors than other CCR3 chemokines (Table 1.5). Furthermore, some chemokines are full agonists (CCL5, CCL11) while others are only partial agonists (CCL7) at CCR3 based on intracellular calcium responses (Daugherty *et al.*, 1996). Thus, while there are nine known ligands that induce chemotaxis via CCR3 receptors they do not have equal efficacy and potency at CCR3 receptors and they may not affect eosinophil recruitment equally *in vivo*.",
+    "url": "https://digitalcollections.ohsu.edu/record/729/files/732_etd.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN019",
+    "query_id": "XCH_Q001",
+    "title": "im199903976p",
+    "url": "https://www.researchgate.net/profile/Andrew-Walls/publication/12809218_C-C_Chemokines_in_Allergen-Induced_Late-Phase_Cutaneous_Responses_in_Atopic_Subjects_Association_of_Eotaxin_with_Early_6-Hour_Eosinophils_and_of_Eotaxin-2_and_Monocyte_Chemoattractant_Protein-4_with_t/links/00b7d520958be0e2c7000000/C-C-Chemokines-in-Allergen-Induced-Late-Phase-Cutaneous-Responses-in-Atopic-Subjects-Association-of-Eotaxin-with-Early-6-Hour-Eosinophils-and-of-Eotaxin-2-and-Monocyte-Chemoattractant-Protein-4-with.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN020",
+    "query_id": "XCH_Q001",
+    "title": "1498413382476194983-US20060002926A1",
+    "url": "https://patentimages.storage.googleapis.com/70/2f/80/c7c516f44289f6/US20060002926A1.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN021",
+    "query_id": "XCH_Q001",
+    "title": "CCL26",
+    "url": "https://en.wikipedia.org/wiki/CCL26",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN022",
+    "query_id": "XCH_Q001",
+    "title": "Eotaxin",
+    "url": "https://en.wikipedia.org/wiki/Eotaxin",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN023",
+    "query_id": "XCH_Q001",
+    "title": "CCL22",
+    "url": "https://en.wikipedia.org/wiki/CCL22",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN024",
+    "query_id": "XCH_Q001",
+    "title": "CCL11",
+    "url": "https://de.wikipedia.org/wiki/CCL11",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN025",
+    "query_id": "XCH_Q002",
+    "title": "Chemokine receptor specific for IP10 and mig: structure, function, and expression in activated T-lymphocytes. | Journal of Experimental Medicine | Rockefeller University Press",
+    "url": "https://rupress.org/jem/article/184/3/963/50973/Chemokine-receptor-specific-for-IP10-and-mig",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN026",
+    "query_id": "XCH_Q002",
+    "title": "CCL5-mediated T-cell chemotaxis involves the initiation of mRNA translation through mTOR/4E-BP1 | Blood | American Society of Hematology",
+    "url": "https://ashpublications.org/blood/article/111/10/4892/24301/CCL5-mediated-T-cell-chemotaxis-involves-the",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN027",
+    "query_id": "XCH_Q002",
+    "title": "Chemokines enhance immunity by guiding naive CD8+ T cells to sites of CD4+ T cell–dendritic cell interaction | Nature",
+    "url": "https://www.nature.com/articles/nature04651",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Inspected description concerns mouse ligands/mouse chemotaxis or nonhuman in vivo work; not used as primary human functional evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN028",
+    "query_id": "XCH_Q002",
+    "title": "Monocyte chemotactic protein-4: tissue-specific expression and signaling through CC chemokine receptor-2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9060459/",
+    "doi": "unavailable",
+    "pmid": "9060459",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN029",
+    "query_id": "XCH_Q002",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7684437/",
+    "doi": "unavailable",
+    "pmid": "7684437",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN030",
+    "query_id": "XCH_Q002",
+    "title": "Variants of CCR5, which are permissive for HIV-1 infection, show distinct functional responses to CCL3, CCL4 and CCL5 - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1369982/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN031",
+    "query_id": "XCH_Q002",
+    "title": "Human monocyte chemoattractant protein (MCP)-4 is a novel CC chemokine with activities on monocytes, eosinophils, and basophils induced in allergic and nonallergic inflammation that signals through the CC chemokine receptors (CCR)-2 and -3",
+    "url": "https://openalex.org/W1604941563",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN032",
+    "query_id": "XCH_Q002",
+    "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7682337/",
+    "doi": "10.1126/science.7682337",
+    "pmid": "7682337",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN033",
+    "query_id": "XCH_Q002",
+    "title": "CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN034",
+    "query_id": "XCH_Q002",
+    "title": "Lymphocyte‐specific chemokine receptor CXCR3: regulation, chemokine binding and gene localization - Loetscher - 1998 - European Journal of Immunology - Wiley Online Library",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-4141%28199811%2928%3A11%3C3696%3A%3AAID-IMMU3696%3E3.0.CO%3B2-W",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN035",
+    "query_id": "XCH_Q002",
+    "title": "Engagement of Two Distinct Binding Domains on CCL17 Is Required for Signaling through CCR4 and Establishment of Localized Inflammatory Conditions in the Lung - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3855316/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Inspected description concerns mouse ligands/mouse chemotaxis or nonhuman in vivo work; not used as primary human functional evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN036",
+    "query_id": "XCH_Q002",
+    "title": "CXCL10 contributes to p38-mediated apoptosis in primary T lymphocytes in vitro - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1043466612001834",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN037",
+    "query_id": "XCH_Q002",
+    "title": "MONOCYTE CHEMOTACTIC PROTEINS IN",
+    "url": "https://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape7/PQDD_0022/MQ50737.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN038",
+    "query_id": "XCH_Q002",
+    "title": "US00000011034751B120210615",
+    "url": "https://patentimages.storage.googleapis.com/ef/a8/af/bdab2da90f9af3/US11034751.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN039",
+    "query_id": "XCH_Q002",
+    "title": "c01_O",
+    "url": "https://catalogimages.wiley.com/images/db/pdf/9781119611257.excerpt.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN040",
+    "query_id": "XCH_Q002",
+    "title": "BioScience Trends Advance Publication",
+    "url": "https://www.jstage.jst.go.jp/article/bst/advpub/0/advpub_2016.01072/_pdf/-char/en",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN041",
+    "query_id": "XCH_Q002",
+    "title": "Chemokine receptors in human basophils: inducible",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN042",
+    "query_id": "XCH_Q002",
+    "title": "Human CCL17/TARC Antibody",
+    "url": "https://resources.rndsystems.com/pdfs/datasheets/mab364.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN043",
+    "query_id": "XCH_Q002",
+    "title": "Macrophage inflammatory protein",
+    "url": "https://en.wikipedia.org/wiki/Macrophage_inflammatory_protein",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN044",
+    "query_id": "XCH_Q002",
+    "title": "CCL3",
+    "url": "https://en.wikipedia.org/wiki/CCL3",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN045",
+    "query_id": "XCH_Q002",
+    "title": "CCL17",
+    "url": "https://es.wikipedia.org/wiki/CCL17",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN046",
+    "query_id": "XCH_Q002",
+    "title": "Chemochine",
+    "url": "https://it.wikipedia.org/wiki/Chemochine",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN047",
+    "query_id": "XCH_Q002",
+    "title": "CCL17",
+    "url": "https://en.wikipedia.org/wiki/CCL17",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN048",
+    "query_id": "XCH_Q002",
+    "title": "CCR5",
+    "url": "https://en.wikipedia.org/wiki/CCR5",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN049",
+    "query_id": "XCH_Q003",
+    "title": "Chemokine receptor usage by human eosinophils. The importance of CCR3 demonstrated using an antagonistic monoclonal antibody.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9005985/",
+    "doi": "10.1172/JCI119145",
+    "pmid": "9005985",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN050",
+    "query_id": "XCH_Q003",
+    "title": "Human Macrophage–derived Chemokine (MDC), a Novel Chemoattractant for Monocytes, Monocyte-derived Dendritic Cells, and Natural Killer Cells - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2196293/",
+    "doi": "10.1084/jem.185.9.1595",
+    "pmid": "9151897",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN051",
+    "query_id": "XCH_Q003",
+    "title": "Human macrophage-derived chemokine (MDC), a novel chemoattractant for monocytes, monocyte-derived dendritic cells, and natural killer cells - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9151897/",
+    "doi": "10.1084/jem.185.9.1595",
+    "pmid": "9151897",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN052",
+    "query_id": "XCH_Q003",
+    "title": "Engagement of Two Distinct Binding Domains on CCL17 Is Required for Signaling through CCR4 and Establishment of Localized Inflammatory Conditions in the Lung - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3855316/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Inspected description concerns mouse ligands/mouse chemotaxis or nonhuman in vivo work; not used as primary human functional evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN053",
+    "query_id": "XCH_Q003",
+    "title": "Engagement of Two Distinct Binding Domains on CCL17",
+    "url": "https://journals.plos.org/plosone/article/file",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Inspected description concerns mouse ligands/mouse chemotaxis or nonhuman in vivo work; not used as primary human functional evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN054",
+    "query_id": "XCH_Q003",
+    "title": "Chemokine receptor usage by human eosinophils. The importance of",
+    "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/119000/119145/cache/119145.1-20201218131536-covered-e0fd13ba177f913fd3156f593ead4cfd.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN055",
+    "query_id": "XCH_Q003",
+    "title": "CCL26/eotaxin‐3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin‐1 and CCL24/eotaxin‐2 - Provost - 2013 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN056",
+    "query_id": "XCH_Q003",
+    "title": "Regulation and modulation of eosinophil effector functions - Elsner - 1999 - Allergy - Wiley Online Library",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/all.1999.54.1.15",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Review/background result; no new primary assertion extracted."
+  },
+  {
+    "candidate_id": "XCH_CAN057",
+    "query_id": "XCH_Q003",
+    "title": "Recombinant Human Eotaxin-3 (CCL-26) - Leinco Technologies",
+    "url": "https://www.leinco.com/p/recombinant-human-eotaxin-3/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN058",
+    "query_id": "XCH_Q003",
+    "title": "EP0778892A1 - Macrophage derived chemokine and chemokine analogs - Google Patents",
+    "url": "https://patents.google.com/patent/EP0778892A1/en",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN059",
+    "query_id": "XCH_Q003",
+    "title": "US6548631B1 - Macrophage derived chemokine (MDC) as an anti-viral agent for the treatment and prevention of lentivirus infection - Google Patents",
+    "url": "https://patents.google.com/patent/US6548631B1/en",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN060",
+    "query_id": "XCH_Q003",
+    "title": "US6994977B2 - Method of identifying inhibitors of C—C chemokine receptor 3 - Google Patents",
+    "url": "https://patents.google.com/patent/US6994977B2/en",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN061",
+    "query_id": "XCH_Q003",
+    "title": "The CCL17/CCL22–CCR4 Axis in Pain Pathogenesis: A Comprehensive Review of Immune-Mediated Mechanisms and Therapeutic Opportunities - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12647308/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Review/background result; no new primary assertion extracted."
+  },
+  {
+    "candidate_id": "XCH_CAN062",
+    "query_id": "XCH_Q003",
+    "title": "A Comprehensive Analysis of Immune Constituents in Blood and Bronchoalveolar Lavage Allows Identification of an Immune Signature of Severe Asthma in Children - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8327906/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN063",
+    "query_id": "XCH_Q003",
+    "title": "CCL22",
+    "url": "https://es.wikipedia.org/wiki/CCL22",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN064",
+    "query_id": "XCH_Q003",
+    "title": "CCL22",
+    "url": "https://en.wikipedia.org/wiki/CCL22",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN065",
+    "query_id": "XCH_Q004",
+    "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7682337/",
+    "doi": "10.1126/science.7682337",
+    "pmid": "7682337",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN066",
+    "query_id": "XCH_Q004",
+    "title": "The effects of human recombinant MIP-1 alpha, MIP-1 beta, and RANTES on the chemotaxis and adhesion of T cell subsets.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7524282/",
+    "doi": "unavailable",
+    "pmid": "7524282",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN067",
+    "query_id": "XCH_Q004",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7684437/",
+    "doi": "unavailable",
+    "pmid": "7684437",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN068",
+    "query_id": "XCH_Q004",
+    "title": "DISTINCT CONFORMATIONS OF THE CHEMOKINE RECEPTOR CCR4 WITH IMPLICATIONS FOR ITS TARGETING IN ALLERGY - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965571/",
+    "doi": "unavailable",
+    "pmid": "24563252",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN069",
+    "query_id": "XCH_Q004",
+    "title": "Surrogate antibodies that specifically bind and neutralize CCL17 but not CCL22.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23750473/",
+    "doi": "unavailable",
+    "pmid": "23750473",
+    "decision": "exclude",
+    "reason": "Inspected description concerns mouse ligands/mouse chemotaxis or nonhuman in vivo work; not used as primary human functional evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN070",
+    "query_id": "XCH_Q004",
+    "title": "T-cell adhesion induced by proteoglycan-immobilized cytokine MIP-1 beta - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7678446/",
+    "doi": "unavailable",
+    "pmid": "7678446",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN071",
+    "query_id": "XCH_Q004",
+    "title": "Fully Human Antagonistic Antibodies against CCR4 Potently Inhibit Cell Signaling and Chemotaxis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4117600/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN072",
+    "query_id": "XCH_Q004",
+    "title": "Chemotaxis of T lymphocytes on extracellular matrix proteins Analysis of the in vitro method to quantitate chemotaxis of human T cells - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/pii/002217599500087Q",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN073",
+    "query_id": "XCH_Q004",
+    "title": "A degradatory fate for CCR4 suggests a primary role in Th2 inflammation - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32052476/",
+    "doi": "unavailable",
+    "pmid": "32052476",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN074",
+    "query_id": "XCH_Q004",
+    "title": "Distinct conformations of the chemokine receptor CCR4 with implications for its targeting in allergy - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24563252/",
+    "doi": "unavailable",
+    "pmid": "24563252",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN075",
+    "query_id": "XCH_Q004",
+    "title": "A high-throughput chemotaxis detection method for CCR4+ T cell migration inhibition using image cytometry - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7755103/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN076",
+    "query_id": "XCH_Q004",
+    "title": "Gain-of-function CCR4 mutations in adult T cell leukemia/lymphoma | Journal of Experimental Medicine | Rockefeller University Press",
+    "url": "https://rupress.org/jem/article/211/13/2497/41458/Gain-of-function-CCR4-mutations-in-adult-T-cell",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN077",
+    "query_id": "XCH_Q004",
+    "title": "MONOCLONAL ANTIBODIES IN IMMUNODIAGNOSIS AND IMMUNOTHERAPY",
+    "url": "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/140164/mab.2012.0112.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN078",
+    "query_id": "XCH_Q004",
+    "title": "Distribution and Chemotactic Mechanism of CD4+ T Cells in",
+    "url": "https://d197for5662m48.cloudfront.net/documents/publicationstatus/187996/preprint_pdf/e463a9c5eb6a17fafeabb19eccf0d8da.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN079",
+    "query_id": "XCH_Q004",
+    "title": "Fully Human Antagonistic Antibodies against CCR4",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN080",
+    "query_id": "XCH_Q004",
+    "title": "https://theses.gla.ac.uk/",
+    "url": "https://theses.gla.ac.uk/38971/1/1996Al-MughalesPhD.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN081",
+    "query_id": "XCH_Q004",
+    "title": "pone.0081465 1..13",
+    "url": "https://rcastoragev2.blob.core.windows.net/45772af8e7d4d1174eed875d57762e72/PMC3855316.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN082",
+    "query_id": "XCH_Q004",
+    "title": "The role of chemokines in the pathology of multiple sclerosis and other neuroinflammatory",
+    "url": "https://shura.shu.ac.uk/7108/2/10701010.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN083",
+    "query_id": "XCH_Q004",
+    "title": "CCL17",
+    "url": "https://en.wikipedia.org/wiki/CCL17",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN084",
+    "query_id": "XCH_Q004",
+    "title": "CCR4",
+    "url": "https://en.wikipedia.org/wiki/CCR4",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN085",
+    "query_id": "XCH_Q004",
+    "title": "CCR1",
+    "url": "https://en.wikipedia.org/wiki/CCR1",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN086",
+    "query_id": "XCH_Q004",
+    "title": "CCL17",
+    "url": "https://es.wikipedia.org/wiki/CCL17",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN087",
+    "query_id": "XCH_Q004",
+    "title": "Macrophage inflammatory protein",
+    "url": "https://en.wikipedia.org/wiki/Macrophage_inflammatory_protein",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN088",
+    "query_id": "XCH_Q004",
+    "title": "CCR5",
+    "url": "https://en.wikipedia.org/wiki/CCR5",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Encyclopedia, patent, commercial reagent information or book excerpt; not selected primary experimental evidence."
+  },
+  {
+    "candidate_id": "XCH_CAN089",
+    "query_id": "XCH_Q004",
+    "title": "Checking your browser - reCAPTCHA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2196293/",
+    "doi": "10.1084/jem.185.9.1595",
+    "pmid": "9151897",
+    "decision": "await_full_text",
+    "reason": "Narrow reported results retained as provisional assertions; full methods/context review remains required."
+  },
+  {
+    "candidate_id": "XCH_CAN090",
+    "query_id": "XCH_Q004",
+    "title": "Checking your browser - reCAPTCHA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Potentially relevant candidate or contextual method study; full text, assay host and exact ligand-specific primary results not resolved within the bounded retrieval."
+  },
+  {
+    "candidate_id": "XCH_CAN091",
+    "query_id": "XCH_Q005",
+    "title": "DISTINCT CONFORMATIONS OF THE CHEMOKINE RECEPTOR CCR4 WITH IMPLICATIONS FOR ITS TARGETING IN ALLERGY - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965571/",
+    "doi": "10.4049/jimmunol.1300232",
+    "pmid": "24563252",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN092",
+    "query_id": "XCH_Q005",
+    "title": "Inhibition of CXCR3‐mediated chemotaxis by the human chemokine receptor‐like protein CCX‐CKR - Vinet - 2013 - British Journal of Pharmacology - Wiley Online Library",
+    "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.12042",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN093",
+    "query_id": "XCH_Q005",
+    "title": "CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "10.1016/S0002-9440(10)64126-0",
+    "pmid": "11337368",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN094",
+    "query_id": "XCH_Q005",
+    "title": "Frontiers | CXCR3 inhibitors for therapeutic interventions: current status and perspectives",
+    "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1556196/full",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN095",
+    "query_id": "XCH_Q005",
+    "title": "β-Arrestin-2–Dependent Signaling Promotes CCR4–mediated Chemotaxis of Murine T-Helper Type 2 Cells - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6002661/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN096",
+    "query_id": "XCH_Q005",
+    "title": "Kelly, Christopher James (2019) Profiling chemokine signalling bias of CCR4, CCR7 and CCR10. PhD thesis | --- | ---",
+    "url": "https://theses.gla.ac.uk/41049/1/2018KellyPhD.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN097",
+    "query_id": "XCH_Q005",
+    "title": "A selective and potent CXCR3 antagonist SCH 546738 attenuates the development of autoimmune diseases and delays graft rejection | BMC Immunology | Springer Nature Link",
+    "url": "https://link.springer.com/article/10.1186/10.1186/1471-2172-13-2",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN098",
+    "query_id": "XCH_Q005",
+    "title": "CXCR3 Requires Tyrosine Sulfation for Ligand Binding and a Second Extracellular Loop Arginine Residue for Ligand-Induced Chemotaxis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1592751/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN099",
+    "query_id": "XCH_Q005",
+    "title": "CXCR3-mediated T-cell chemotaxis involves ZAP-70 and is regulated by signalling through the T-cell receptor - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2265907/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN100",
+    "query_id": "XCH_Q005",
+    "title": "Vaccine Adjuvants: Methods and Protocols (Methods in Molecular Biology, 1494) 1493964437, 9781493964437 - DOKUMEN.PUB",
+    "url": "https://dokumen.pub/vaccine-adjuvants-methods-and-protocols-methods-in-molecular-biology-1494-1493964437-9781493964437.html",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN101",
+    "query_id": "XCH_Q005",
+    "title": "The CCL17/CCL22–CCR4 Axis in Pain Pathogenesis: A Comprehensive Review of Immune-Mediated Mechanisms and Therapeutic Opportunities - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12647308/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Background or peripheral scope; no selected primary ligand-specific assertion."
+  },
+  {
+    "candidate_id": "XCH_CAN102",
+    "query_id": "XCH_Q005",
+    "title": "CCR4 as a Therapeutic Target for Cancer Immunotherapy",
+    "url": "https://www.mdpi.com/2072-6694/13/21/5542",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN103",
+    "query_id": "XCH_Q005",
+    "title": "CXCR3‐mediated T‐cell chemotaxis involves ZAP‐70 and is regulated by signalling through the T‐cell receptor - Dar - 2007 - Immunology - Wiley Online Library",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2567.2006.02534.x",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN104",
+    "query_id": "XCH_Q005",
+    "title": "Lymphocyte Migration Into Atherosclerotic Plaque",
+    "url": "https://www.ahajournals.org/doi/pdf/10.1161/atvbaha.114.303227",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN105",
+    "query_id": "XCH_Q005",
+    "title": "Cardiovascular Research (2008) 78, 250–256",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN106",
+    "query_id": "XCH_Q005",
+    "title": "F1000Research 2020, 9:1197 Last updated: 01 APR 2022",
+    "url": "https://pdfs.semanticscholar.org/83c6/7cf786284e4da892e75c8b77746b899b8f59.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN107",
+    "query_id": "XCH_Q005",
+    "title": "Oral inflammatory diseases and systemic inflammation: role of the macrophage",
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2012.00118/pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN108",
+    "query_id": "XCH_Q005",
+    "title": "JOURNAL OF VIROLOGY, Nov. 2011, p. 11069–11078",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN109",
+    "query_id": "XCH_Q006",
+    "title": "Distinct conformations of the chemokine receptor CCR4 with implications for its targeting in allergy - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24563252/",
+    "doi": "10.4049/jimmunol.1300232",
+    "pmid": "24563252",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN110",
+    "query_id": "XCH_Q006",
+    "title": "CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "10.1016/S0002-9440(10)64126-0",
+    "pmid": "11337368",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN111",
+    "query_id": "XCH_Q006",
+    "title": "A Comparative Study of the Effects of Nine CXCR3 Antagonists on Macrophage Function and the Treatment of Acute Lung Injury",
+    "url": "https://journal.hep.com.cn/FBL/EN/10.31083/FBL45931",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN112",
+    "query_id": "XCH_Q006",
+    "title": "Targeting macrophage-derived SPP1 enhances CD8 T cell infiltration via ROS-DNA fragment/cGAS-STING/STAT1-mediated CXCL9/10 in tumor microenvironment - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12829364/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN113",
+    "query_id": "XCH_Q006",
+    "title": "Estrogen Receptor Blockade Potentiates Immunotherapy for Liver Metastases by Altering the Liver Immunosuppressive Microenvironment | Cancer Research Communications | American Association for Cancer Research",
+    "url": "https://aacrjournals.org/cancerrescommun/article/4/8/1963/746918/Estrogen-Receptor-Blockade-Potentiates",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN114",
+    "query_id": "XCH_Q006",
+    "title": "CXCL10 deficiency limits macrophage infiltration, preserves lung matrix, and enables lung growth in bronchopulmonary dysplasia - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10594718/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN115",
+    "query_id": "XCH_Q006",
+    "title": "DISTINCT CONFORMATIONS OF THE CHEMOKINE RECEPTOR CCR4 WITH IMPLICATIONS FOR ITS TARGETING IN ALLERGY - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965571/",
+    "doi": "10.4049/jimmunol.1300232",
+    "pmid": "24563252",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN116",
+    "query_id": "XCH_Q006",
+    "title": "Recruited Monocyte-Derived Macrophages Drive T Cell Inflammation in Immune Checkpoint Inhibitor-Mediated Pneumonitis | Cancer Communications",
+    "url": "https://spj.science.org/doi/10.34133/cancomm.0049",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN117",
+    "query_id": "XCH_Q006",
+    "title": "Novel Therapeutic Approach Targeting CXCR3 to Treat Immunotherapy Myocarditis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867805/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN118",
+    "query_id": "XCH_Q006",
+    "title": "CXCR3/CXCL10 expression in the synovium of children with juvenile idiopathic arthritis | Arthritis Research & Therapy | Springer Nature Link",
+    "url": "https://link.springer.com/article/10.1186/ar1481",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN119",
+    "query_id": "XCH_Q006",
+    "title": "Pathogenic roles of CXCL10 signaling through CXCR3 and TLR4 in macrophages and T cells: relevance for arthritis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5518115/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN120",
+    "query_id": "XCH_Q006",
+    "title": "CC Chemokine Receptor 4 (CCR4) as a Possible New Target for Therapy - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9779674/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN121",
+    "query_id": "XCH_Q006",
+    "title": "Lymphocyte Migration Into Atherosclerotic Plaque",
+    "url": "https://www.ahajournals.org/doi/pdf/10.1161/atvbaha.114.303227",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN122",
+    "query_id": "XCH_Q006",
+    "title": "Chitinase Dependent Control of Protozoan Cyst Burden in the Brain",
+    "url": "https://scispace.com/pdf/chitinase-dependent-control-of-protozoan-cyst-burden-in-the-4umi6i6axz.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN123",
+    "query_id": "XCH_Q006",
+    "title": "JPR_A_254276 1987..2001",
+    "url": "https://www.dovepress.com/article/download/56023",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN124",
+    "query_id": "XCH_Q006",
+    "title": "r",
+    "url": "https://www.omicsonline.org/open-access-pdfs/in-chronic-bronchitis-lung-macrophages-drive-mucus-formation-and-steroidresistant-inflammation.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN125",
+    "query_id": "XCH_Q006",
+    "title": "2107139",
+    "url": "https://watermark02.silverchair.com/ajrccm_165_10_1404.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN126",
+    "query_id": "XCH_Q006",
+    "title": "Jenh et al. BMC Immunology 2012, 13:2",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN127",
+    "query_id": "XCH_Q006",
+    "title": "List of human clusters of differentiation",
+    "url": "https://en.wikipedia.org/wiki/List_of_human_clusters_of_differentiation",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN128",
+    "query_id": "XCH_Q007",
+    "title": "CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "10.1016/S0002-9440(10)64126-0",
+    "pmid": "11337368",
+    "decision": "include",
+    "reason": "Same study reused for methods upgrade; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN129",
+    "query_id": "XCH_Q007",
+    "title": "A selective and potent CXCR3 antagonist SCH 546738 attenuates the development of autoimmune diseases and delays graft rejection - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298469/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN130",
+    "query_id": "XCH_Q007",
+    "title": "Ligand activation induces different conformational changes in CXCR3 receptor isoforms as evidenced by plasmon waveguide resonance (PWR) - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5587768/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN131",
+    "query_id": "XCH_Q007",
+    "title": "cells into the TME (Figure 5) (Ohnuma et al., 2015). This anti-tumor response is potentiated in combination with other anti-tumor immunotherapeutic approaches including CpG adjuvant therapy, adoptive T cell transfer therapy and checkpoint blockade therapy (anti-CTLA-4 and anti-PD-1) (Barreira da Silva et al., 2015). In view of these recent findings, data from our current trial showing that serum DPPIV activity was decreased following treatment with YS110 in a dose-dependent manner would suggest that anti-tumor activity via DPPIV inhibition may constitute yet another mechanism of action for the anti-tumor activity of YS110.",
+    "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/hojokin/dl/28_15040101-01.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN132",
+    "query_id": "XCH_Q007",
+    "title": "A review of the pleiotropic actions of the IFN-inducible CXC chemokine receptor 3 ligands in the synovial microenvironment - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11071919/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN133",
+    "query_id": "XCH_Q007",
+    "title": "CXCR3 inhibitors for therapeutic interventions: current status and perspectives - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12331677/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN134",
+    "query_id": "XCH_Q007",
+    "title": "Nasal polyps 15-lipoxygenase 1 promotes CCL26/Eotaxin3 expression through ERK activation - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6842430/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN135",
+    "query_id": "XCH_Q007",
+    "title": "Structural insights into the activation and inhibition of CXC chemokine receptor 3 - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026165/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN136",
+    "query_id": "XCH_Q007",
+    "title": "Single Cell and Bulk RNA-Seq Profiling of Non-Metastatic Versus Bone-Metastatic Prostate Cancer Identifies the CXCL10-CXCR3 Axis as a Key Determinant of Tumor Microenvironment and Treatment Resistance",
+    "url": "https://www.mdpi.com/2227-9059/14/4/943",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN137",
+    "query_id": "XCH_Q007",
+    "title": "Metabolic profiling of ligands for the chemokine receptor CXCR3 by liquid chromatography-mass spectrometry coupled to bioaffinity assessment - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4551560/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN138",
+    "query_id": "XCH_Q007",
+    "title": "The Chemokine Receptor CXCR3 Isoform B Drives Breast Cancer Stem Cells - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31619923/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN139",
+    "query_id": "XCH_Q007",
+    "title": "The expression of the chemokine receptor CXCR3 and its ligand, CXCL10, in human breast adenocarcinoma cell lines - ScienceDirect",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165247803003158",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN140",
+    "query_id": "XCH_Q007",
+    "title": "Adoptive transfer of Ag-specific WT and Cxcr3-/-CD8 + T cells. (A)... | Download Scientific Diagram",
+    "url": "https://www.researchgate.net/figure/Adoptive-transfer-of-Ag-specific-WT-and-Cxcr3--CD8-T-cells-A-Schematic-of_fig3_324632954",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN141",
+    "query_id": "XCH_Q007",
+    "title": "Validating the Specificity of CXCR3 Antagonists: A Comparative Guide",
+    "url": "https://pdf.benchchem.com/1680/Validating_the_Specificity_of_CXCR3_Antagonists_A_Comparative_Guide.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN142",
+    "query_id": "XCH_Q007",
+    "title": "CCR5 is a novel target for the treatment of experimental alopecia areata",
+    "url": "https://public-pages-files-2025.frontierspartnerships.org/articles/10.1002/cia2.12092/pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN143",
+    "query_id": "XCH_Q007",
+    "title": "Received: 29 May 2021  |  Revised: 5 September 2021  |  Accepted: 16 September 2021",
+    "url": "https://ss.bjmu.edu.cn/Sites/Uploaded/File/2023/03/086381388678732252787980143.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN144",
+    "query_id": "XCH_Q007",
+    "title": "Regulation of global CD8+ T‐cell positioning by the actomyosin cytoskeleton",
+    "url": "https://folia.unifr.ch/documents/307786/files/ste_rgc.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN145",
+    "query_id": "XCH_Q007",
+    "title": "Lymphocyte deficiency limits Epstein-Barr virus latent",
+    "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/6054892/Hannigan_MolCancer_2011_10_11.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN146",
+    "query_id": "XCH_Q007",
+    "title": "CXCR5",
+    "url": "https://en.wikipedia.org/wiki/CXCR5",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN147",
+    "query_id": "XCH_Q007",
+    "title": "CCR5 Mediated Natural Killer Cell Activation Increases Immune Inflammatory Response to Storm",
+    "url": "https://www.reddit.com/r/u_MGK_2/comments/v0bfbo",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN148",
+    "query_id": "XCH_Q007",
+    "title": "CXCR5",
+    "url": "https://zh.wikipedia.org/wiki/CXCR5",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Candidate screened; primary methods/host or scope unresolved, no assertion imported from this result."
+  },
+  {
+    "candidate_id": "XCH_CAN149",
+    "query_id": "XCH_Q008",
+    "title": "CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1891930/",
+    "doi": "10.1016/S0002-9440(10)64126-0",
+    "pmid": "11337368",
+    "decision": "include",
+    "reason": "Full relevant Methods and Results inspected after Chrome retrieval; narrowly scoped assertions upgraded or added."
+  },
+  {
+    "candidate_id": "XCH_CAN150",
+    "query_id": "XCH_Q009",
+    "title": "Distinct conformations of the chemokine receptor CCR4 with implications for its targeting in allergy",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965571/",
+    "doi": "10.4049/jimmunol.1300232",
+    "pmid": "24563252",
+    "decision": "include",
+    "reason": "Full relevant Methods and Results inspected after Chrome retrieval; narrowly scoped assertions upgraded or added."
+  },
+  {
+    "candidate_id": "XCH_CAN151",
+    "query_id": "XCH_Q010",
+    "title": "Human macrophage-derived chemokine (MDC), a novel chemoattractant for monocytes, monocyte-derived dendritic cells, and natural killer cells",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9151897/",
+    "doi": "10.1084/jem.185.9.1595",
+    "pmid": "9151897",
+    "decision": "include",
+    "reason": "Full relevant Methods and Results inspected after Chrome retrieval; narrowly scoped assertions upgraded or added."
+  },
+  {
+    "candidate_id": "XCH_CAN152",
+    "query_id": "XCH_Q011",
+    "title": "CCL26/eotaxin‐3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin‐1 and CCL24/eotaxin‐2 - Provost - 2013 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "include",
+    "reason": "Primary study reused for methods recovery; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN153",
+    "query_id": "XCH_Q011",
+    "title": "Chemotaxis of T lymphocytes on extracellular matrix proteins. Analysis of the in vitro method to quantitate chemotaxis of human T cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7544817/",
+    "doi": "10.1016/0022-1759(95)00087-q",
+    "pmid": "7544817",
+    "decision": "await_full_text",
+    "reason": "Primary study reused for methods recovery; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN154",
+    "query_id": "XCH_Q011",
+    "title": "R",
+    "url": "https://www.iucpq.ca/app/uploads/2024/07/rapport_criucpq_2013-2014.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN155",
+    "query_id": "XCH_Q011",
+    "title": "                    POUR PRÉ",
+    "url": "https://www.iucpq.ca/app/uploads/2024/07/criucpq_rapport_2012-2013_0.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN156",
+    "query_id": "XCH_Q011",
+    "title": "1565.pdf",
+    "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN157",
+    "query_id": "XCH_Q011",
+    "title": "Title Author(s) | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant Miura, Naoya; Shaheen, Sharif M.; Akita, Hidetaka; Nakamura, Takashi; Harashima, Hideyoshi --- | --- Title Citation | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant Nucleic acids research, 43(3), 1317-1331 https://doi.org/10.1093/nar/gkv008 Title Issue Date | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant 2015-02-19 Title Doc URL | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant http://hdl.handle.net/2115/59281 Title Rights(URL) | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant http://creativecommons.org/licenses/by/4.0/ Title Type | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant article Title File Information | A KALA-modified lipid nanoparticle containing CpG-free plasmid DNA as a potential DNA vaccine carrier for antigen presentation and as an immune-stimulative adjuvant NAR43-3 1317-1331.pdf",
+    "url": "https://pdfs.semanticscholar.org/aed5/e947a1ed2979fbbc2fbff878b92886843b15.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN158",
+    "query_id": "XCH_Q011",
+    "title": "Role of HAART in reconstituting T-cell function and HIV inhibitory activity in the female genital tract during chronic HIV infection",
+    "url": "https://open.uct.ac.za/bitstream/11427/6034/1/thesis_hsf_2014_dabee_s.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN159",
+    "query_id": "XCH_Q011",
+    "title": "JCI - Volume 115, Issue 12",
+    "url": "https://www.jci.org/115/12",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN160",
+    "query_id": "XCH_Q011",
+    "title": "ETH Library",
+    "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/fcf500e9-d0f7-46c3-ac5f-a8f76ef0917a/content",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN161",
+    "query_id": "XCH_Q011",
+    "title": "Type-2 Cytokines Promote the Secretion of the Eosinophil–Attractant CCL26 by Intestinal Epithelial Cells in Food-Sensitized Patients - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9254714/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN162",
+    "query_id": "XCH_Q011",
+    "title": "Proton pump inhibitors decrease eotaxin-3/CCL26 expression in chronic rhinosinusitis with nasal polyps: the possible role of the non-gastric H,K-ATPase - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5222859/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN163",
+    "query_id": "XCH_Q011",
+    "title": "Eotaxin-3 as a Plasma Biomarker for Mucosal Eosinophil Infiltration in Chronic Rhinosinusitis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6369170/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN164",
+    "query_id": "XCH_Q011",
+    "title": "Arp2/3 is critical for lamellipodia and response to extracellular matrix cues but is dispensable for chemotaxis",
+    "url": "https://eurekamag.com/research/051/635/051635473.php",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN165",
+    "query_id": "XCH_Q011",
+    "title": "CX3CR1+ Macrophage Facilitates the Resolution of Allergic Lung Inflammation via Interacting CCL26 - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10263139/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN166",
+    "query_id": "XCH_Q011",
+    "title": "Slow Reacting Substance - an overview | ScienceDirect Topics",
+    "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/slow-reacting-substance",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN167",
+    "query_id": "XCH_Q011",
+    "title": "CCL26–CX3CR1 Axis Mediates a Feedback Loop between Cancer Cell and PMN-MDSCs to Promote CD8+ T Cell Exhaustion during Stomach Carcinogenesis - ScienceDirect",
+    "url": "https://www.sciencedirect.com/org/science/article/pii/S2639527425002217",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN168",
+    "query_id": "XCH_Q011",
+    "title": "MEANS AND METHODS FOR THE PREDICTION OF TREATMENT RESPONSE OF A CANCER PATIENT - Patent application",
+    "url": "https://www.patentsencyclopedia.com/app/20130330325",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN169",
+    "query_id": "XCH_Q011",
+    "title": "Effects of Eosinophilopoietins and C-C Chemokines on Chemotaxis, Adhesion, and ROS Production of Blood Eosinophil Subtypes in Asthma Patients - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12640587/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN170",
+    "query_id": "XCH_Q012",
+    "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7682337/",
+    "doi": "10.1126/science.7682337",
+    "pmid": "7682337",
+    "decision": "await_full_text",
+    "reason": "Primary study reused for methods recovery; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN171",
+    "query_id": "XCH_Q012",
+    "title": "CCL26/eotaxin‐3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin‐1 and CCL24/eotaxin‐2 - Provost - 2013 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "include",
+    "reason": "Primary study reused for methods recovery; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN172",
+    "query_id": "XCH_Q012",
+    "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta",
+    "url": "https://hero.epa.gov/reference/7047084/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN173",
+    "query_id": "XCH_Q012",
+    "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta (1993) | Dennis D. Taub | 769 Citations",
+    "url": "https://scispace.com/papers/preferential-migration-of-activated-cd4-and-cd8-t-cells-in-2anumj1rqd",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN174",
+    "query_id": "XCH_Q012",
+    "title": "Preferential Migration of Activated CD4 <sup>+</sup> and CD8 <sup>+</sup> T Cells in Response to MIP-1α and MIP-1β",
+    "url": "https://openalex.org/W1984123968",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN175",
+    "query_id": "XCH_Q012",
+    "title": "(PDF) CCL26/eotaxin-3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin-1 and CCL24/eotaxin-2",
+    "url": "https://www.researchgate.net/publication/236084062_CCL26eotaxin-3_is_more_effective_to_induce_the_migration_of_eosinophils_of_asthmatics_than_CCL11eotaxin-1_and_CCL24eotaxin-2",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN176",
+    "query_id": "XCH_Q012",
+    "title": "Runx-mediated regulation of CCL5 via antagonizing two enhancers influences immune cell function and anti-tumor immunity - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32218434/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN177",
+    "query_id": "XCH_Q012",
+    "title": "Regulated expression and binding of three VLA (β1) integrin receptors on T cells (1990) | Yoji Shimizu | 657 Citations",
+    "url": "https://scispace.com/papers/regulated-expression-and-binding-of-three-vla-b1-integrin-81ut3yfv1h",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN178",
+    "query_id": "XCH_Q012",
+    "title": "Received: 26 February 2021",
+    "url": "https://rcastoragev2.blob.core.windows.net/67938dd41c976b1d0b4bbba22cae7109/PMC8236119.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN179",
+    "query_id": "XCH_Q012",
+    "title": "Chemokine expression in simian immunodeficiency virus-induced AIDS encephalitis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1865261/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN180",
+    "query_id": "XCH_Q012",
+    "title": "Chemokine ligand-receptor interactions as potential therapeutic targets for atopic dermatitis: from basic to clinical research - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070927/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN181",
+    "query_id": "XCH_Q012",
+    "title": "Pharmacological inhibition of chitotriosidase | JIR | Dove Medical Press",
+    "url": "https://www.dovepress.com/pharmacological-inhibition-of-chitotriosidase-chit1-as-a-novel-therape-peer-reviewed-fulltext-article-JIR",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN182",
+    "query_id": "XCH_Q012",
+    "title": "The Role of Chemokines in the Pathogenesis of HTLV-1",
+    "url": "https://public-pages-files-2025.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00421/pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN183",
+    "query_id": "XCH_Q012",
+    "title": "Expression of the chemokine superfamily in rheumatoid arthritis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1534851/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN184",
+    "query_id": "XCH_Q012",
+    "title": "| UNIVERSITI PUTRA MALAYSIA COPY NUMBER VARIATION OF C-C CHEMOKINE LIGAND 3-LIKE 1 (CCL3L1), C-C CHEMOKINE RECEPTOR TYPE 5 (CCR5) AND CCR2 POLYMORPHISMS ON THE OUTCOMES OF ANTIRETROVIRAL THERAPY AMONG MALAYSIAN HIV PATIENTS IRMA IZANI MOHAMAD ISA FPSK(p) 2020 1 |",
+    "url": "https://psasir.upm.edu.my/id/eprint/90061/1/FPSK%28p%29%202020%201%20-%20IR.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN185",
+    "query_id": "XCH_Q012",
+    "title": "REVIEW ARTICLE",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN186",
+    "query_id": "XCH_Q012",
+    "title": "Untitled",
+    "url": "https://usiena-air.unisi.it/retrieve/bfcdd1b9-d5b5-49e8-9a83-0e2f5448075c/phd_unisi_097187.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN187",
+    "query_id": "XCH_Q012",
+    "title": "dep",
+    "url": "https://s3.amazonaws.com/na-st01.ext.exlibrisgroup.com/01IOWA_INST/upload/1764610575347/20241206%20JA%20Thesis%20Final.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN188",
+    "query_id": "XCH_Q013",
+    "title": "CCL26/eotaxin‐3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin‐1 and CCL24/eotaxin‐2 - Provost - 2013 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "include",
+    "reason": "Primary study reused for methods recovery; not independent replication."
+  },
+  {
+    "candidate_id": "XCH_CAN189",
+    "query_id": "XCH_Q013",
+    "title": "IFN‐α amplifies human naïve B cell TLR‐9‐mediated activation and Ig production - Giordani - 2009 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0908560",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN190",
+    "query_id": "XCH_Q013",
+    "title": "Lipopolysaccharide‐triggered desensitization of TNF‐α mRNA expression involves lack of phosphorylation of IκBα in a murine macrophage‐like cell line, P388D1 - Fujihara - 2000 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.68.2.267",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN191",
+    "query_id": "XCH_Q013",
+    "title": "Signaling to localized degranulation in neutrophils adherent to immune complexes - Nauclér - 2002 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.71.4.701",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN192",
+    "query_id": "XCH_Q013",
+    "title": "A dominant role for FcγRII in antibody‐enhanced dengue virus infection of human mast cells and associated CCL5 release - Brown - 2006 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0805441",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN193",
+    "query_id": "XCH_Q013",
+    "title": "Activation of primary T lymphocytes results in lysosome development and polarized granule exocytosis in CD4+ and CD8+ subsets, whereas expression of lytic molecules confers cytotoxicity to CD8+ T cells - Shen - 2006 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0603298",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN194",
+    "query_id": "XCH_Q013",
+    "title": "Subthreshold concentrations of anti‐proteinase 3 antibodies (c‐ANCA) specifically prime human neutrophils for fMLP‐induced leukotriene synthesis and chemotaxis - Hattar - 2001 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/abs/10.1189/jlb.69.1.89",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN195",
+    "query_id": "XCH_Q013",
+    "title": "Preconditioning with high mobility group box 1 (HMGB1) induces lipopolysaccharide (LPS) tolerance - Aneja - 2008 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0108030",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN196",
+    "query_id": "XCH_Q013",
+    "title": "Fluorescent Ly6G antibodies determine macrophage phagocytosis of neutrophils and alter the retrieval of neutrophils in mice - Bucher - 2015 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.1AB1014-488RR",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN197",
+    "query_id": "XCH_Q013",
+    "title": "Stimulation of Ly‐6G on neutrophils in LPS‐primed mice induces platelet‐activating factor (PAF)‐mediated anaphylaxis‐like shock - Tanaka - 2012 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.1210697",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN198",
+    "query_id": "XCH_Q013",
+    "title": "Mycoplasma contaminants present in exosome preparations induce polyclonal B cell responses - Quah - 2007 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0507277",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN199",
+    "query_id": "XCH_Q013",
+    "title": "Expression of α4β7 and E‐selectin ligand by circulating memory B cells: implications for targeted trafficking to mucosal and systemic sites - Rott - 2000 - Journal of Leukocyte Biology - Wiley Online Library",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.68.6.807",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN200",
+    "query_id": "XCH_Q013",
+    "title": "Science Japan Highlights",
+    "url": "https://advertising.science.org/wp-content/uploads/2022/03/japanhighlightsfeb172022.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Screened peripheral/background citation or unrelated study; no primary ligand-specific assertion imported."
+  },
+  {
+    "candidate_id": "XCH_CAN201",
+    "query_id": "XCH_Q014",
+    "title": "CCL26/eotaxin-3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin-1 and CCL24/eotaxin-2",
+    "url": "https://jlb.onlinelibrary.wiley.com/doi/full/10.1189/jlb.0212074",
+    "doi": "10.1189/jlb.0212074",
+    "pmid": "23532518",
+    "decision": "include",
+    "reason": "Full Methods and Results recovered; three assertions upgraded with context and mechanistic uncertainty retained."
+  },
+  {
+    "candidate_id": "XCH_CAN202",
+    "query_id": "XCH_Q015",
+    "title": "Chemokine receptor usage by human eosinophils. The importance of CCR3 demonstrated using an antagonistic monoclonal antibody.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9005985/",
+    "doi": "10.1172/JCI119145",
+    "pmid": "9005985",
+    "decision": "include",
+    "reason": "Relevant full Methods and Results/Figures3–4 inspected; four narrow eosinophil assertions upgraded, with OCR and donor-overlap limits explicit."
+  },
+  {
+    "candidate_id": "XCH_CAN203",
+    "query_id": "XCH_Q016",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2191042/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Primary migration candidate; complete Methods not yet inspected."
+  },
+  {
+    "candidate_id": "XCH_CAN204",
+    "query_id": "XCH_Q016",
+    "title": "Mohamed Hachicha",
+    "url": "https://www.collectionscanada.gc.ca/obj/s4/f2/dsk3/ftp04/NQ25241.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN205",
+    "query_id": "XCH_Q016",
+    "title": "ISABELLE FI LLION",
+    "url": "https://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape4/PQDD_0020/MQ55852.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN206",
+    "query_id": "XCH_Q016",
+    "title": "TNF and IL-6 mediate MIP-1a expression in bleomycin-induced",
+    "url": "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/141711/jlb0528.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN207",
+    "query_id": "XCH_Q016",
+    "title": "Rapid Publication",
+    "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/117000/117788/JCI95117788.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN208",
+    "query_id": "XCH_Q016",
+    "title": "SIMONE COGHETTO ACEDO",
+    "url": "https://connect.itf.edu.br/galeria/getImage/385/2769468554288346.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN209",
+    "query_id": "XCH_Q016",
+    "title": "Tumour-targeted interleukin-12 and entinostat combination therapy improves cancer survival by reprogramming the tumour immune cell landscape - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8390765/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN210",
+    "query_id": "XCH_Q016",
+    "title": "A Novel Highly Potent Therapeutic Antibody Neutralizes Multiple Human Chemokines and Mimics Viral Immune Modulation - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3422223/",
+    "doi": "10.1371/journal.pone.0043332",
+    "pmid": "22912856",
+    "decision": "include",
+    "reason": "Primary PBMC source assay recovered separately; no primary-human recipient claim from transfectants."
+  },
+  {
+    "candidate_id": "XCH_CAN211",
+    "query_id": "XCH_Q016",
+    "title": "Chemokine Receptor N-Terminus Charge Dictates Reliance on Post-Translational Modifications for Effective Ligand Capture and Following Boosting by Defense Peptides - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11477141/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN212",
+    "query_id": "XCH_Q016",
+    "title": "Cytotoxic T cells swarm by homotypic chemokine signalling - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7669268/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Primary migration candidate; complete Methods not yet inspected."
+  },
+  {
+    "candidate_id": "XCH_CAN213",
+    "query_id": "XCH_Q016",
+    "title": "Thymoquinone Inhibits the CXCL12-Induced Chemotaxis of Multiple Myeloma Cells and Increases Their Susceptibility to Fas-Mediated Apoptosis - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3164673/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN214",
+    "query_id": "XCH_Q016",
+    "title": "Chemokine positioning determines mutually exclusive roles for their receptors in extravasation of pathogenic human T cells - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9928044/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN215",
+    "query_id": "XCH_Q016",
+    "title": "Tumor-educated macrophages promote cytokine-driven lung colonization in triple-negative breast cancer - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13285593/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN216",
+    "query_id": "XCH_Q016",
+    "title": "HIV-1 Nef Inhibits Ruffles, Induces Filopodia, and Modulates Migration of Infected Lymphocytes - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2820911/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN217",
+    "query_id": "XCH_Q016",
+    "title": "CCR5 susceptibility to ligand-mediated down-modulation differs between human T lymphocytes and myeloid cells - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4560160/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN218",
+    "query_id": "XCH_Q016",
+    "title": "Transient surface CCR5 expression by naïve CD8+ T cells within inflamed lymph nodes is dependent on HEV interaction and augments helper T-cell dependent memory response - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4868656/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN219",
+    "query_id": "XCH_Q016",
+    "title": "CXCL9/Mig Mediates T cells Recruitment to Valvular Tissue Lesions of Chronic Rheumatic Heart Disease Patients - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3708284/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN220",
+    "query_id": "XCH_Q017",
+    "title": "Chapter Three ................................................ Materials and Methods",
+    "url": "https://uokerbala.edu.iq/wp-content/uploads/2024/09/Rp_Immunological-and-Diagnostic-Study-of-the-Causes-of-Otitis-Media-Infection.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN221",
+    "query_id": "XCH_Q017",
+    "title": "An In Vitro Model of Angiogenesis during Wound Healing Provides Insights into the Complex Role of Cells and Factors in the Inflammatory and Proliferation Phase - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6213254/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN222",
+    "query_id": "XCH_Q017",
+    "title": "Combination of macrophage inflammatory protein 1 alpha with existing therapies to enhance the antitumor effects on murine hepatoma - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4572594/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN223",
+    "query_id": "XCH_Q017",
+    "title": "Human Alveolar Macrophage Gene Responses to Mycobacterium tuberculosis Strains H37Ra and H37Rv - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2660564/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN224",
+    "query_id": "XCH_Q017",
+    "title": "Systemic administration of the chemokine macrophage inflammatory protein 1α exacerbates inflammatory bowel disease in a mouse model - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1774881/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN225",
+    "query_id": "XCH_Q017",
+    "title": "The influence of macrophage inflammatory protein-1α on protective immunity mediated by antiviral cytotoxic T cells - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1782947/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN226",
+    "query_id": "XCH_Q017",
+    "title": "Frontiers | Melatonin and Leishmania amazonensis Infection Altered miR-294, miR-30e, and miR-302d Impacting on Tnf, Mcp-1, and Nos2 Expression",
+    "url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2019.00060/full",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN227",
+    "query_id": "XCH_Q017",
+    "title": "10.1128/IAI.71.10.5785-5793.2003.",
+    "url": "https://citeseerx.ist.psu.edu/document",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN228",
+    "query_id": "XCH_Q017",
+    "title": "Frontiers | The Secretome Derived From 3D-Cultured Umbilical Cord Tissue MSCs Counteracts Manifestations Typifying Rheumatoid Arthritis",
+    "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2019.00018/full",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN229",
+    "query_id": "XCH_Q017",
+    "title": "(PDF) The interaction between different types of activated RAW 264.7 cells and macrophage inflammatory protein-1 alpha",
+    "url": "https://www.researchgate.net/publication/51509987_The_interaction_between_different_types_of_activated_RAW_2647_cells_and_macrophage_inflammatory_protein-1_alpha",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN230",
+    "query_id": "XCH_Q017",
+    "title": "Diagnostic efficacy of serum cytokines and chemokines in fungal bloodstream infection in febrile patients - Wang - 2020 - Journal of Clinical Laboratory Analysis - Wiley Online Library",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcla.23149",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN231",
+    "query_id": "XCH_Q017",
+    "title": "Arnica montana effects on gene expression in a human macrophage cell line. Evaluation by quantitative Real-Time PCR",
+    "url": "https://www.siomi.it/wp-content/uploads/pubblicazioni/2016/09/1-s2.0-S1475491616000126-main.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN232",
+    "query_id": "XCH_Q017",
+    "title": "The interaction between different types of activated RAW 264.7 cells and macrophage inflammatory protein-1 alpha - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3148983/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN233",
+    "query_id": "XCH_Q017",
+    "title": "Treatment of complement-associated disorders Ashkenazi, Avi ;   et al. [Ashkenazi, Avi]",
+    "url": "https://uspto.report/patent/app/20050214308",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN234",
+    "query_id": "XCH_Q017",
+    "title": "The Fully human anti-CD47 antibody SRF231 exerts dual-mechanism antitumor activity via engagement of the activating receptor CD32a - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32345627/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN235",
+    "query_id": "XCH_Q017",
+    "title": "Int. J. Mol. Sci. 2020, 21, 434",
+    "url": "https://mdpi-res.com/bookfiles/book/2585/Therapy_and_Prevention_of_Atopic_Dermatitis_and_Psoriasis.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN236",
+    "query_id": "XCH_Q017",
+    "title": "International Journal of",
+    "url": "https://pdfs.semanticscholar.org/6fbf/28899140b75269798243e6b54539a074c58c.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN237",
+    "query_id": "XCH_Q018",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes - PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2191042/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Primary migration candidate; complete Methods not yet inspected."
+  },
+  {
+    "candidate_id": "XCH_CAN238",
+    "query_id": "XCH_Q018",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes - PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7684437/",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Primary migration candidate; complete Methods not yet inspected."
+  },
+  {
+    "candidate_id": "XCH_CAN239",
+    "query_id": "XCH_Q018",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes. | Journal of Experimental Medicine | Rockefeller University Press",
+    "url": "https://rupress.org/jem/article-abstract/177/6/1821/50415/Human-macrophage-inflammatory-protein-alpha-MIP-1",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "await_full_text",
+    "reason": "Primary migration candidate; complete Methods not yet inspected."
+  },
+  {
+    "candidate_id": "XCH_CAN240",
+    "query_id": "XCH_Q018",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes. | Request PDF",
+    "url": "https://www.researchgate.net/publication/270785337_Human_macrophage_inflammatory_protein_alpha_MIP-1_alpha_and_MIP-1_beta_chemokines_attract_distinct_populations_of_lymphocytes",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN241",
+    "query_id": "XCH_Q018",
+    "title": "Top 450 Journal of Experimental Medicine papers published in 1993",
+    "url": "https://scispace.com/journals/journal-of-experimental-medicine-2vyhdb10/1993",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN242",
+    "query_id": "XCH_Q018",
+    "title": "Human macrophage inflammatory protein alpha (MIP-1 alpha) and MIP-1 beta chemokines attract distinct populations of lymphocytes.",
+    "url": "https://openalex.org/W2107469531",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN243",
+    "query_id": "XCH_Q018",
+    "title": "Top 267 papers published by Genentech in 1993",
+    "url": "https://scispace.com/institutions/genentech-1ye5l4ki/1993",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN244",
+    "query_id": "XCH_Q018",
+    "title": "Volume 177 Issue 6 | Journal of Experimental Medicine | Rockefeller University Press",
+    "url": "https://rupress.org/jem/issue/177/6",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN245",
+    "query_id": "XCH_Q018",
+    "title": "Top 38 papers published in the topic of Macrophage inflammatory protein in 1993",
+    "url": "https://scispace.com/topics/macrophage-inflammatory-protein-dmvoopki/1993",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN246",
+    "query_id": "XCH_Q018",
+    "title": "Molecular and Immunologic Signatures are Related to Clinical Benefit from Treatment with Vocimagene Amiretrorepvec (Toca 511) and 5-Fluorocytosine (Toca FC) in Patients with Glioma | Clinical Cancer Research | American Association for Cancer Research",
+    "url": "https://aacrjournals.org/clincancerres/article-abstract/26/23/6176/82933",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN247",
+    "query_id": "XCH_Q018",
+    "title": "Rankless | Kevin B. Bacon",
+    "url": "https://www.rankless.org/authors/kevin-b-bacon",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN248",
+    "query_id": "XCH_Q018",
+    "title": "(PDF) MIP-1α and MIP-1β differentially mediate mucosal and systemic adaptive immunity",
+    "url": "https://www.researchgate.net/publication/11068578_MIP-1a_and_MIP-1b_differentially_mediate_mucosal_and_systemic_adaptive_immunity",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN249",
+    "query_id": "XCH_Q018",
+    "title": "Vγ9+/Vδ2+ T-LYMPHOZYTEN",
+    "url": "https://jlupub.ub.uni-giessen.de/bitstreams/c5779743-9899-4dbc-8d13-60d7242b3fa6/download",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN250",
+    "query_id": "XCH_Q018",
+    "title": "Cytokines PIS",
+    "url": "https://cdn.stemcell.com/media/files/pis/DX20749-PIS_1_0_0.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN251",
+    "query_id": "XCH_Q018",
+    "title": "Page 2 o",
+    "url": "https://tools.thermofisher.com/content/sfs/manuals/88-7035.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN252",
+    "query_id": "XCH_Q018",
+    "title": "Abstract",
+    "url": "https://docserv.uni-duesseldorf.de/servlets/DerivateServlet/Derivate-3355",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN253",
+    "query_id": "XCH_Q018",
+    "title": "Universidad de Oviedo",
+    "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/49093/TD_MarioGarciaDominguez.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN254",
+    "query_id": "XCH_Q018",
+    "title": "doi:10.1016/j.clim.2008.03.458",
+    "url": "https://orbilu.uni.lu/bitstream/10993/27352/1/pfleger%20et%20al.%202008%20relation%20of%20circulating%20conentrations.pdf",
+    "doi": "unavailable",
+    "pmid": "unavailable",
+    "decision": "exclude",
+    "reason": "Peripheral, background or unmatched candidate; no evidence imported."
+  },
+  {
+    "candidate_id": "XCH_CAN255",
+    "query_id": "XCH_Q019",
+    "title": "A Novel Highly Potent Therapeutic Antibody Neutralizes Multiple Human Chemokines and Mimics Viral Immune Modulation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3422223/",
+    "doi": "10.1371/journal.pone.0043332",
+    "pmid": "22912856",
+    "decision": "include",
+    "reason": "Relevant full primary Methods/Results inspected with human-primary and transfected-host contexts separated."
+  },
+  {
+    "candidate_id": "XCH_CAN256",
+    "query_id": "XCH_Q020",
+    "title": "Chemokine receptor specific for IP10 and mig: structure, function, and expression in activated T-lymphocytes.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2192763/",
+    "doi": "10.1084/jem.184.3.963",
+    "pmid": "9064356",
+    "decision": "include",
+    "reason": "Relevant full primary Methods/Results inspected with human-primary and transfected-host contexts separated."
+  }
+]

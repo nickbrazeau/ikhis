@@ -1,0 +1,133 @@
+{
+  "critic_run_id": "implementation-review-IMPL02-20260913-01",
+  "scope": "Independent software-only adversarial review of the root-authored Release 0.2 compiler, scoring annotation generator, snapshot sanitizer and tests; lifecycle comparison against the archived Release 0.1 compiler. Scope: immutable release manifests, predecessor dependency closure, exact-file review approval, screening validation, targeted credential redaction and explicit security-redaction ledgers. This reviewer did not author or modify the implementation. No primary biological sources were retrieved or reviewed; all acceptance probes used synthetic data.",
+  "timestamp_start": "2026-09-13 17:42:36 UTC",
+  "timestamp_end": "2026-09-13 17:46:16 UTC",
+  "agent_role": "Independent Software and Release Integrity Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "reviewed_file_hashes": {
+    "scripts/kb.py": "0be50c18d0f99db8bdc54dd667fb7c025f441d8d6f349cf291fade913625fc81",
+    "scripts/annotate_scoring.py": "2c1c18f5a5d58b91f591fdfc7c54161a1ddb550cc1713b6b43dadb2a6594a1d7",
+    "scripts/sanitize_snapshots.py": "04221e193e4d6cbe8c59e7e455512b5d0f4ca69d79194da1a03f52fb2408f72e",
+    "tests/test_kb.py": "bbfafee7fc594291a49a0cff12b9d63ee69038a7937e59923639c9da5bfd2907",
+    "tests/test_release_lifecycle.py": "67d2937e1ea238f86792ed824187f413013125d78a597aa32e86652cc0f7efb3",
+    "tests/test_snapshot_security.py": "5bf17cb7fd8544e48ae00756d217519937f6b3ee616c3ba92383ac30b53f6db2",
+    "releases/0.1.0/input_snapshot/scripts/kb.py": "977b5d439913980c7e9b30d8b59c9788f7bebc3a1021482dcfaa52b530698e9a"
+  },
+  "coverage": {
+    "methods": [
+      "Read scripts/kb.py, scripts/annotate_scoring.py, scripts/sanitize_snapshots.py and all three test modules; compared lifecycle changes with releases/0.1.0/input_snapshot/scripts/kb.py.",
+      "Ran python3 -m unittest discover -s tests -v: 32 tests passed.",
+      "Ran isolated temporary-root integration builds with synthetic sources/assertions and the actual compiler/validator; only reference-entity ingestion was replaced with 30 synthetic aliases.",
+      "Verified Release 0.1.0 read-only: 388 manifest entries checked, zero mismatches, one explicit security redaction and exact_original_bytes_preserved=false.",
+      "Ran a synthetic predecessor-snapshot closure probe: the new snapshot contained the predecessor manifest, generated output and archived external input, and the predecessor verified after copying the new input snapshot into an isolated root.",
+      "Tested sanitizer encoding variants using synthetic credential values only. Compared legacy current and archived pack hashes without inspecting content."
+    ],
+    "limits": "The timestamp_start is the first recorded UTC clock capture during this review; static inspection began shortly before that capture. This is a bounded software review, not a biological-content review, full historical rebuild or broad secret scan. The root coordinator may repair findings after these reviewed hashes; dispositions are intentionally open for coordinator adjudication. Security-ledger verification checks replacement bytes against the explicit local ledger; it does not authenticate the ledger through an external trust anchor."
+  },
+  "findings": [
+    {
+      "finding_id": "IMPL02-001",
+      "severity": "high",
+      "target_type": "code",
+      "target_id": "scripts/kb.py",
+      "challenge": "Exact expansion-pack approval does not bind the scoring annotations actually compiled. A reviewed inconclusive annotation can be replaced with support in the separate working scoring file while the approved pack and primary-source hashes still match.",
+      "evidence": "At reviewed lines 337 and 353, build checks the pack/source approval, then overwrites the assertion with data/scoring_annotations.json without comparing that row with the scoring_annotation inside the approved pack. An isolated synthetic build used an approved pack whose annotation was inconclusive and an external annotation of supports; build returned True, the compiled evidence relation was supports, and an existence prior of 0.7142857142857143 was available. The probe ran the actual validator and compiler, substituting only reference-entity ingestion with 30 synthetic aliases. No production record was evaluated or altered.",
+      "recommendation": "Derive expansion scoring directly from the exact approved pack, or require the external row to equal the reviewed annotation and reject mismatches. Restrict imported annotation keys so a scoring row cannot overwrite extraction/context/QC fields. Add an integration regression that changes only external scoring after approval and confirms rejection or withholding.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL02-002",
+      "severity": "high",
+      "target_type": "code",
+      "target_id": "scripts/kb.py",
+      "challenge": "Carried-forward lanes are unconditionally considered independently reviewed, even when their current extraction or source bytes have changed since the frozen review.",
+      "evidence": "Reviewed line 337 short-circuits the exact-file checker for cytokine, genomic and proteomic. In an isolated synthetic legacy-lane build, the assertion object was replaced and no review approval existed; build returned True, status was reviewed and an existence prior of 0.7142857142857143 remained available under the stale scoring hypothesis. The current three production legacy pack files were compared by hash only and are equal to their archived counterparts, so the probe establishes a missing acceptance guard rather than an identified changed production claim. scripts/annotate_scoring.py also regenerates support for its legacy ID list without checking the underlying pack/source bytes.",
+      "recommendation": "Grandfather only the exact archived legacy pack and source hashes, accounting explicitly for an approved security-redaction ledger. Changed legacy bytes must require the same independent approval as new packs. Bind approved curation overlays and their source dependencies to the effective record and regenerate annotations only from that approved effective extraction. Add a regression changing a legacy pack and a legacy source independently.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL02-003",
+      "severity": "medium",
+      "target_type": "code",
+      "target_id": "scripts/kb.py",
+      "challenge": "Mandatory expansion screening can be omitted entirely while build validation still passes. The screening validator checks only rows that happen to be present.",
+      "evidence": "At reviewed lines 390-394, a missing screening.json becomes an empty list; lines 528-534 do not assert lane-level screening presence or correspondence with included sources. The exact-approved synthetic expansion pack used for IMPL02-001 contained one extracted source/assertion but no screening.json and no search records. build returned True and screening_candidates contained zero rows. This violates the amendment/contract requirement for new lane candidate decisions and exact queries without requiring any biological-content interpretation.",
+      "recommendation": "Require a valid screening artifact for every expansion lane with extracted sources, at least one registered query and a linked include decision for each included source. If an expansion lane has no sources, require an explicit documented empty result. Validate this before constructing or freezing the release and add a missing-screening integration regression.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL02-004",
+      "severity": "medium",
+      "target_type": "code",
+      "target_id": "scripts/sanitize_snapshots.py",
+      "challenge": "The targeted AWS signed-link scanner misses credential fields when the first question mark is percent encoded or a JSON string represents the ampersand as a Unicode escape. These representations can pass the compiler credential check unchanged.",
+      "evidence": "Synthetic-only probes showed sanitize returned unchanged text for https%3A%2F%2Fexample.invalid%2Fa%3FX-Amz-Signature%3DSYNTHETIC_SIGNATURE and for JSON containing https://example.invalid/a?x=1 followed by the literal escape \\u0026X-Amz-Security-Token=SYNTHETIC_TOKEN. In both cases the synthetic credential value remained; an ordinary ?X-Amz-Signature= control was correctly removed. SIGNED_FIELD recognizes literal ?/& and %26, but not %3F or JSON-escaped separators, and findings does not inspect decoded JSON string values. No real credential values were retrieved or displayed by these probes.",
+      "recommendation": "Sanitize JSON string values with format-aware handling and cover percent-encoded question marks/separators without unnecessarily decoding or rewriting unrelated source text. Ensure the scanner uses the same handling and remains idempotent. Add tests for the two reproduced encodings and preserve noncredential evidence text and URL metadata.",
+      "disposition": "open"
+    }
+  ],
+  "corrections_observed_during_review": [],
+  "supported_boundaries": [
+    "Frozen build and freeze commands reject a release whose manifest already exists; existing tests confirm the database is preserved.",
+    "Archived external inputs allow old-release verification despite later working-input edits; snapshot copy conflicts are rejected.",
+    "Predecessor dependency files are included in the new input snapshot, and the synthetic isolated predecessor verification passed.",
+    "Exact expansion approval rejects changed pack bytes, changed source bytes and missing source files when exercised directly.",
+    "Security redactions retain the historical manifest digest, report exception paths visibly, and reject replacement-byte tampering that does not match the ledger.",
+    "The current three production legacy pack hashes equal the archived pack hashes. The legacy approval finding describes an unguarded modification route, not an observed production alteration."
+  ],
+  "probe_results": {
+    "unit_tests": {
+      "run": 32,
+      "failures": 0,
+      "errors": 0
+    },
+    "approved_expansion_external_scoring_override": {
+      "build_passed": true,
+      "reviewed_annotation": "inconclusive",
+      "compiled_annotation": "supports",
+      "existence_estimate": 0.7142857142857143,
+      "availability": "available"
+    },
+    "legacy_lane_changed_bytes_without_approval": {
+      "build_passed": true,
+      "status": "reviewed",
+      "existence_estimate": 0.7142857142857143,
+      "availability": "available"
+    },
+    "missing_expansion_screening": {
+      "build_passed": true,
+      "screening_candidate_count": 0,
+      "extracted_source_count": 1
+    },
+    "credential_encoding": {
+      "percent_encoded_first_question_mark": {
+        "changed": false,
+        "synthetic_secret_remains": true
+      },
+      "json_unicode_ampersand": {
+        "changed": false,
+        "synthetic_secret_remains": true
+      },
+      "ordinary_query_control": {
+        "changed": true,
+        "synthetic_secret_remains": false
+      }
+    },
+    "predecessor_closure": {
+      "predecessor_manifest_in_new_snapshot": true,
+      "predecessor_archived_input_in_new_snapshot": true,
+      "new_release_manifest_verifies": true,
+      "isolated_predecessor_verifies_without_working_root": true
+    },
+    "release_0_1_verification": {
+      "checked": 388,
+      "mismatches": [],
+      "documented_security_redactions": [
+        "research/cytokine/snapshots/search1.json"
+      ],
+      "exact_original_bytes_preserved": false
+    }
+  }
+}

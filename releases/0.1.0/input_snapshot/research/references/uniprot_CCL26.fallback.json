@@ -1,0 +1,6 @@
+{
+  "transport": "urllib.request",
+  "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ACCL26+AND+organism_id%3A9606+AND+reviewed%3Atrue&size=10&format=json",
+  "retrieved_at": "2026-09-12T19:09:59.488571+00:00",
+  "error": "<urlopen error [Errno 54] Connection reset by peer>"
+}

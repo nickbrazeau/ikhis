@@ -1,0 +1,53 @@
+{
+  "response_id": "XCH-RESPONSE-20260913-01",
+  "responds_to": "XCH-REVIEW-20260913-01",
+  "timestamp": "2026-09-13 18:24:00 UTC",
+  "pack_hash": "7c93e1ddf84ae4fea6cc1fbb347d38282a60cdbeba48b161243c6c2dbb5ca081",
+  "human_adjudication_status": "pending",
+  "changes": [
+    {
+      "finding_id": "XCH-REV001",
+      "target_id": "XCH_A021",
+      "status": "resolved_by_independent_recheck_human_adjudication_pending",
+      "action": "Named Agostini snapshot now contains exact previously inspected sec6 cytoplasmic-flow method and Figure5 caption; P1 localization unchanged."
+    },
+    {
+      "finding_id": "XCH-REV002",
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011"
+      ],
+      "status": "resolved_by_independent_recheck_human_adjudication_pending",
+      "action": "Structured stimulation now names soluble recombinant human CCL17 orCCL22 concentration series; lymphoma-line context unchanged."
+    }
+  ],
+  "methods_upgrades": [
+    "XCH_A005",
+    "XCH_A006",
+    "XCH_A007"
+  ],
+  "preserved_gates": [
+    "XCH_A012",
+    "XCH_A013",
+    "XCH_A014",
+    "XCH_A015",
+    "XCH_A016",
+    "XCH_A017"
+  ],
+  "validation": "Shared sanitizer reports zero further changes. All query IDs resolve; no ordinary null reclassified as adequate absence.",
+  "independent_recheck": "research/review_chemokine_0.2_recheck.json",
+  "previous_passing_pack_hash": "4e486687b3b161f0411ee5c3f926ee10a833a7e24e6ca1a980d55a0e64340182",
+  "final_additions": [
+    "XCH_A023",
+    "XCH_A024",
+    "XCH_A025",
+    "XCH_A026"
+  ],
+  "final_additions_review_status": "independently_rechecked_no_new_findings",
+  "final_independent_review": {
+    "path": "research/review_chemokine_0.2_final_recheck.json",
+    "sha256": "5cc9f34a18cd8534f714c65d0d80eee186c7e9de8dc3e7a63390d25aa6677f66",
+    "result": "20 reviewed extractions pass;6 original Taub assertions remain needs_full_text;all4 nulls inconclusive;no new findings",
+    "human_adjudication": "pending"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "endpoint": "efetch",
+  "params": {
+    "db": "pmc",
+    "id": "4465562,2198963,2673366,4709758,6581624,5172478,9576869,3656131",
+    "retmode": "xml"
+  },
+  "response_format": "xml",
+  "max_items": 8,
+  "max_depth": 1,
+  "timeout_sec": 60,
+  "save_raw": true,
+  "raw_output_path": "/Users/nfb9/Documents/Github/ikhis/research/cytokine_expansion/snapshots/pmc_fulltext.xml"
+}

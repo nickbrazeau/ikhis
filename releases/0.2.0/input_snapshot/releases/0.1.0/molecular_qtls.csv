@@ -1,0 +1,15 @@
+record_id,evidence_id,qtl_type,target_entity_id,effect_size,effect_unit,colocalization
+QTL_G-A001,EV_G-A001,eQTL,ENT_122580d5af3d26e4,unavailable,unavailable,unavailable
+QTL_G-A002,EV_G-A002,eQTL,ENT_f8695e78998ab710,unavailable,unavailable,unavailable
+QTL_G-A003,EV_G-A003,eQTL,ENT_8340e2eb12afa7e7,unavailable,unavailable,unavailable
+QTL_G-A006,EV_G-A006,eQTL,ENT_4253513bcf8b7966,unavailable,unavailable,unavailable
+QTL_G-A013,EV_G-A013,eQTL,ENT_b7f2228fe3fc668e,unavailable,unavailable,unavailable
+QTL_G-A014,EV_G-A014,eQTL,ENT_b7f2228fe3fc668e,unavailable,unavailable,unavailable
+QTL_G-A016,EV_G-A016,sQTL,ENT_2c6be02c33c9dd31,unavailable,unavailable,unavailable
+QTL_G-A017,EV_G-A017,sQTL,ENT_0a833e7f0956d6e8,unavailable,unavailable,unavailable
+QTL_G-A021,EV_G-A021,eQTL,ENT_3f9b0b6a9cc7f93e,unavailable,unavailable,unavailable
+QTL_G-A022,EV_G-A022,eQTL,ENT_97ae9323f2ac4612,unavailable,unavailable,unavailable
+QTL_G-A023,EV_G-A023,pQTL,ENT_50077e6edf47f2d5,unavailable,unavailable,unavailable
+QTL_G-A024,EV_G-A024,pQTL,ENT_c88d1e5e3d2d4db0,unavailable,unavailable,unavailable
+QTL_P_A14,EV_P_A14,pQTL,ENT_d00fa27e685171e9,-2.23,SD of normalized signal per effect allele,unavailable
+QTL_P_A17,EV_P_A17,pQTL,ENT_e3e64decadf38f83,unavailable,unavailable,unavailable

@@ -1,0 +1,108 @@
+{
+  "critic_run_id": "CR-CYT-20260912-01",
+  "response_role": "Cytokine extractor; final release disposition belongs to integrating agent",
+  "timestamp_start": "2026-09-12 19:10:42 UTC",
+  "timestamp_end": "2026-09-12 19:14:28 UTC",
+  "reviewed_pack_hash": "bb0178ad4182dc96ba47bd3a29d2ee3d41a249c19e73ccb553789e62e62fce9b",
+  "revised_pack_hash": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+  "original_run_hash": "733db3e1610805edc1e00fcd1debe7bc6baebf1ec70b2bbba3cd5ddb118aa89c",
+  "original_builder_hash": "781f84922ea062ce2ca1b536e769489f5abe0bb80d25d27c322c4648ad2c9f50",
+  "revised_builder_hash": "52a7f67389ee42d52d4d2d7bd5d0a2d0530e1eef0fdf67544d9fcf925fb76d22",
+  "critic_file_hash": "f526336a026170742eed03c25e81f28a9bc98774cce7c5f820a4fa9f68bed09a",
+  "original_critic_preserved": true,
+  "changes": [
+    {
+      "finding_id": "CR-CYT-001",
+      "status": "corrected",
+      "targets": [
+        "C-A11",
+        "C-A25",
+        "C-CO04"
+      ],
+      "change": "C-A11 decrease moved from seven hours/Fig6 to 24 hours/Fig7A-B, with Northern and RT-PCR/Southern confirmation. New C-A25 separately retains seven-hour no/minimal inhibition as a qualitative null, not proof of zero effect. Both share a temporal-contrast group; no numeric effects imputed.",
+      "before": {
+        "C-A11.duration": "7 hours",
+        "C-A11.time_point": "7 hours",
+        "C-A11.source_locator": "Fig6 and Results: autoregulatory effects"
+      },
+      "after": {
+        "C-A11.duration": "24 hours",
+        "C-A11.time_point": "24 hours",
+        "C-A11.source_locator": "Fig7A-B and Results: IL10 Regulates IL10 mRNA but not TGFB mRNA Expression in Activated Monocytes",
+        "C-A25.duration": "7 hours",
+        "C-A25.direction": "null",
+        "C-A25.qualitative_confidence": "low"
+      },
+      "evidence_locators": [
+        "research/cytokine/snapshots/PMC2119001.txt lines 515-519, Fig6 caption",
+        "research/cytokine/snapshots/PMC2119001.txt lines 556-568, Fig7 caption",
+        "research/cytokine/snapshots/PMC2119001.txt lines 594-608, time-specific autoregulation Results"
+      ]
+    },
+    {
+      "finding_id": "CR-CYT-003",
+      "status": "corrected",
+      "targets": [
+        "C-A18"
+      ],
+      "change": "Replaced definite secretion with IFNG protein production of unspecified compartment. Preserved authors secretion terminology as attributed wording, assay/time unavailable and needs_full_text. Explicitly withhold from mechanistic paths.",
+      "before": {
+        "predicate": "decreases_secreted_protein",
+        "measurement": "secreted_protein",
+        "object_type": "secreted_protein"
+      },
+      "after": {
+        "predicate": "decreases_protein_production",
+        "measurement": "protein_abundance",
+        "object_type": "protein",
+        "qc_status": "needs_full_text",
+        "compartment": "unavailable"
+      },
+      "evidence_locators": [
+        "research/cytokine/snapshots/PMC534504.xml abstract",
+        "research/cytokine/snapshots/search3.json primary-source Figure4A excerpt; complete extracellular assay methods unavailable"
+      ]
+    },
+    {
+      "finding_id": "CR-CYT-004",
+      "status": "corrected",
+      "targets": [
+        "C-CO08",
+        "C-CO09"
+      ],
+      "change": "C-CO08 (P1/P3 clones) now has parent_cohort C-CO09 (expanded P1/P3/P4/P17 set). Notes define this as participant-subset overlap, not cell-preparation ancestry. Separate dataset/assay identities and unresolved historical/sample-level matching remain.",
+      "before": {
+        "C-CO08.parent_cohort": "unavailable",
+        "C-CO09.parent_cohort": "unavailable"
+      },
+      "after": {
+        "C-CO08.parent_cohort": "C-CO09",
+        "C-CO09.parent_cohort": "unavailable",
+        "independence_status": "unresolved; known link now structured"
+      },
+      "evidence_locators": [
+        "research/cytokine/snapshots/PMC2193232.txt lines 27-29, Patients and clone-generation Methods"
+      ]
+    },
+    {
+      "finding_id": "CR-CYT-002",
+      "status": "assigned_to_integrating_agent",
+      "targets": [
+        "protocol/PROTOCOL.md#prior-construction"
+      ],
+      "change": "No protocol edits made in this lane. Root owns hypothesis/polarity and null-evidence scoring. New seven-hour C-A25 explicitly disclaims equivalence and exact-zero interpretation."
+    }
+  ],
+  "validation": {
+    "required_fields": "pass",
+    "foreign_keys": "pass",
+    "snapshot_exists": "pass",
+    "cohort_link_acyclic": "pass",
+    "generator_reproduces_pack": "pass",
+    "critic_unchanged": "pass",
+    "assertions": 25,
+    "null_assertions": 6,
+    "needs_full_text": 4
+  },
+  "human_adjudication": "unavailable"
+}

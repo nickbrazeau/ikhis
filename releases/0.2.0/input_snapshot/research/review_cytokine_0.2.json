@@ -1,0 +1,156 @@
+{
+  "critic_run_id": "cytokine-review-CYT02-20260913-01",
+  "scope": "Independent descriptive primary-literature extraction review of all 22 assertions in finalized research/cytokine_expansion/pack.json at the user-specified hash. Compared the eight source records, eight cohort records, all nine referenced primary snapshots (including XCI-S01 additional_snapshot_paths), scoring annotations and notes. Focus: human versus nonhuman experimental arm, measured layer and compartment, source-specific exposure context, donor versus technical replication, conflicting source numbers and inconclusive nulls. Reviewer did not author this lane or edit the pack. No experimental design or additional procedural detail is proposed.",
+  "timestamp_start": "2026-09-13 18:06:02 UTC",
+  "timestamp_end": "2026-09-13 18:09:36 UTC",
+  "agent_role": "Independent Cytokine Evidence Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "reviewed_file_hashes": {
+    "research/cytokine_expansion/pack.json": "c5e092d0622df616967d847dfc3ca0fc53b04f33ad0536d0c254de1f51d59474",
+    "research/cytokine_expansion/notes.md": "7b5bdd47c758780f5dd9b60aa0c42b8d5daae0fcab7ab8b12850f2e795b7f01e",
+    "research/cytokine_expansion/snapshots/open01.json": "20bcd212cf3860600b2f07c1cc658ee61b8b68cab6c39e5ef69481b775b9a04f",
+    "research/cytokine_expansion/snapshots/PMC4465562_survival.txt": "0e96f4a08af8a07a57beb330ee899e2e79c6d377ef289ef483dbcc3ce2a013a3",
+    "research/cytokine_expansion/snapshots/PMC2198963_selected.txt": "a257de5e5496e32330ee6dc4fab139a61df54e0c599dc470bea63e9ea407957b",
+    "research/cytokine_expansion/snapshots/PMC6581624_selected.txt": "d9a5bdf7302e77e310d70c5f64cf23c436fa127c5d1ae4554a4e28dd33c67283",
+    "research/cytokine_expansion/snapshots/PMC5172478_selected.txt": "4713510a1cf3a6534d0694b3dd7ad1f00fddf8012e02b26080cd4f097e9575ca",
+    "research/cytokine_expansion/snapshots/PMC4709758_selected.txt": "31c3de47536fbbddcfbd7576b9778d3fd4ec0a3aa66ae8e9f75456c3d80480eb",
+    "research/cytokine_expansion/snapshots/PMC3656131_selected.txt": "88996d97ce409e8181e32b8ec75f5ead269caabcd2e79452769a95ca1710a9c5",
+    "research/cytokine_expansion/snapshots/PMC9576869_selected.txt": "12ba8b0c2948b4072686e7b70fa621bb1a53bdebbc76d0dbc8547a1bd1b8608a",
+    "research/cytokine_expansion/snapshots/PMC2673366_selected.txt": "8743d685793f380d13a8188302d3c0e81fd2958dfb3bfad5d058a9c3d0b8536b"
+  },
+  "coverage": {
+    "assertion_count": 22,
+    "source_count": 8,
+    "cohort_count": 8,
+    "primary_snapshot_count": 9,
+    "methods": [
+      "Read the selected primary methods, outcomes and figure-caption passages for all eight sources, including the separate CSF2 survival snapshot.",
+      "Compared each assertion endpoint, layer, species, context, dose/time fields, uncertainty and scoring relation with its cited source passages.",
+      "Checked actual source identity and cohort linkage for every assertion, exact input hash, unique assertion IDs and presence of all referenced snapshots.",
+      "Checked every null annotation for inappropriate absence scoring and compared each quantitative observation with its source-specific denominator and uncertainty."
+    ],
+    "limits": "This is a bounded review of supplied selected passages, including explicitly labeled recorder observations. It is not a reproduction of primary analyses, a complete-article/supplement audit, an image-level plot reading or an exhaustive literature review. Missing concentration ranges, unique donor counts and unresolved source discrepancies remain limitations rather than inferred values. Human adjudication and empirical calibration remain pending."
+  },
+  "findings": [],
+  "findings_summary": "No material biological extraction finding was identified in the 22 finalized assertions at the recorded hash. This does not waive the exact-source approval dependency noted below.",
+  "assertion_assessments": [
+    {
+      "assertion_ids": [
+        "XCI-A01",
+        "XCI-A02"
+      ],
+      "source_id": "XCI-S01",
+      "result": "pass",
+      "evidence": "The cited time-course text identifies total-cell immunoblots and the respective protein directions. The extraction does not substitute surface availability for total protein or infer function from receptor abundance. Human eosinophils and unavailable donor-level uncertainty are retained."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A03"
+      ],
+      "source_id": "XCI-S01",
+      "result": "pass",
+      "evidence": "The separate survival snapshot supports the antisense-versus-control viability contrast, its reported quantitative percentages and endpoint timing. The assertion retains unavailable replicate/donor uncertainty and avoids a direct ligand-binding or complete receptor-path claim."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A04",
+        "XCI-A05",
+        "XCI-A06",
+        "XCI-A19"
+      ],
+      "source_id": "XCI-S02",
+      "result": "pass",
+      "evidence": "Wild-type and mutant cytokine survival effects, antibody inhibition and the separate adhesion nondetection agree with the selected primary results. The mutant is a distinct reagent. Survival and adhesion are not merged across their different endpoints or exposure contexts. Caption-specific donor statements and uncertain overlap are preserved; unrelated cell-line binding experiments are not assigned to the primary-human assertions."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A07",
+        "XCI-A08"
+      ],
+      "source_id": "XCI-S03",
+      "result": "pass",
+      "evidence": "The relevant arm measures phosphorylation in CD4 gates within unfractionated human PBMCs, with source-specific resting/stimulation context and five donors. The expression-stratum relationship is observational; it is not a human receptor-blockade experiment or a functional suppression/proliferation measurement.",
+      "interpretation_boundary": "The source also describes subset-dependent sensitivity beyond the amount of CD25. XCI-A08 supports the reported descriptive stratified association, not a universal CD25-only ranking across Foxp3-defined subsets."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A09",
+        "XCI-A22"
+      ],
+      "source_id": "XCI-S04",
+      "result": "pass_with_retained_source_uncertainty",
+      "evidence": "The quiescent culture and preconditioned culture are distinct. Mixed human lymphocytes are not relabeled as purified Tregs. The conflicting cycling percentages and dose/timing labels are disclosed, a harmonized numerical effect is withheld, confidence is low, and the quiescent observation remains inconclusive for absence."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A10",
+        "XCI-A11",
+        "XCI-A12",
+        "XCI-A20"
+      ],
+      "source_id": "XCI-S05",
+      "result": "pass",
+      "evidence": "Extracellular IL6 ELISA outcomes are not inferred from transcript profiling. The positive cytokine condition, inhibitor contrasts and low-dose nondetection retain their different endpoint times and source-specific contexts. Three patients are distinguished from repeated assay measurements, and the inhibitor donor basis remains unknown. Inhibition is not upgraded to unique target or receptor proof; both null observations remain inconclusive."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A13",
+        "XCI-A14"
+      ],
+      "source_id": "XCI-S06",
+      "result": "pass",
+      "evidence": "The assertions use the pooled human primary-cell arm rather than the mouse knockout experiments. Extracellular IL1A is described as recovered protein without a defined export mechanism, including the cell-damage caveat. The neutralization contrast retains missing antibody concentration and remains inconclusive rather than proving universal independence. Experiment repetitions are not relabeled as donors."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A15",
+        "XCI-A21"
+      ],
+      "source_id": "XCI-S07",
+      "result": "pass_with_retained_source_uncertainty",
+      "evidence": "Human keratinocyte and fibroblast extracellular responses remain separate and retain their different concentration-response descriptions. Figure-specific exposure timing is used transparently despite the differing generic-method statement. The pack does not transplant mouse/receptor-blockade results to these direct human cytokine-response assertions, and per-figure donor identity remains unavailable."
+    },
+    {
+      "assertion_ids": [
+        "XCI-A16",
+        "XCI-A17",
+        "XCI-A18"
+      ],
+      "source_id": "XCI-S08",
+      "result": "pass",
+      "evidence": "The neutralization-dependent portion of a biofluid response, the mixture migration contrast and immunoreactive protein abundance are distinct assertions. Fluid sample counts are separated from unknown adult target-cell donor counts and technical fields/wells. Reported values preserve the stated uncertainty and normalization. No fetal migration, source-cell secretion, active-isoform amount, sole-ligand attribution or receptor-blockade proof is inferred."
+    }
+  ],
+  "null_scoring_check": {
+    "result": "pass",
+    "assertion_ids": [
+      "XCI-A09",
+      "XCI-A12",
+      "XCI-A14",
+      "XCI-A19",
+      "XCI-A20"
+    ],
+    "all_relations": "inconclusive",
+    "adequate_absence_claims": 0
+  },
+  "release_approval_dependency": {
+    "status": "required_for_eligibility",
+    "source_id": "XCI-S01",
+    "assertion_id": "XCI-A03",
+    "primary_snapshot": "research/cytokine_expansion/snapshots/open01.json",
+    "additional_supporting_snapshot": "research/cytokine_expansion/snapshots/PMC4465562_survival.txt",
+    "additional_snapshot_sha256": "0e96f4a08af8a07a57beb330ee899e2e79c6d377ef289ef483dbcc3ce2a013a3",
+    "requirement": "Approval validation must cover all nine referenced primary and additional snapshot files, not only each source record primary snapshot_path. The separate survival snapshot is essential to XCI-A03. The coordinator was notified that primary-only path collection in the integration gate would not invalidate approval if this additional source file changed. This is an integration requirement, not a biological finding against the currently reviewed bytes."
+  },
+  "corrections_observed_during_review": [],
+  "supported_boundaries": [
+    "All 22 assertion IDs are unique and resolve to registered sources and cohorts; all referenced snapshot files exist.",
+    "The five null/context observations remain inconclusive for relationship absence.",
+    "Source-specific numeric contradictions are disclosed rather than silently averaged or harmonized.",
+    "Technical repetitions, cytometry events and counted fields are not inflated into independent participants.",
+    "No unsupported cross-species transfer, molecular-layer substitution or complete mechanistic path was established in this pack."
+  ],
+  "human_adjudication_status": "pending",
+  "conclusion": "The finalized pack passes this bounded descriptive extraction review at the recorded pack and source hashes, provided release approval binds every primary and additional supporting snapshot. No biological findings are open from this review; human adjudication remains pending."
+}

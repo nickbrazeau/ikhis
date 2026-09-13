@@ -1,0 +1,11 @@
+{
+  "0.1.0": {
+    "previous_release": null,
+    "status": "frozen"
+  },
+  "0.2.0": {
+    "previous_release": "0.1.0",
+    "status": "frozen",
+    "scope": "Priority cytokine/chemokine/receptor primary-evidence expansion; eight inherited source-access corrections; reviewed screening and immutable release lineage"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "review_response_id": "implementation-review-response-IMPL02-20260913-01",
+  "critic_run_id": "implementation-review-IMPL02-20260913-recheck-01",
+  "original_review": {
+    "path": "research/review_implementation_0.2.json",
+    "sha256": "14e84dfb0fbd1a398a384863068fddffc429bcc87ab5b6ff0508468f9b5b9be0",
+    "preserved_unchanged": true
+  },
+  "timestamp_start": "2026-09-13 17:53:31 UTC",
+  "timestamp_end": "2026-09-13 17:59:20 UTC",
+  "agent_role": "Independent Software and Release Integrity Reviewer",
+  "scope": "Independent software-only recheck of coordinator-authored repairs to IMPL02-001 through IMPL02-004. The reviewer added synthetic regression tests but did not modify implementation. Includes scoring_rules.py, exact curation dependency checks, predecessor security-redaction eligibility, source-to-screening correspondence and exact-hash synthetic-review scan exceptions including archived predecessor copies. No primary biological evidence was retrieved or reviewed.",
+  "reviewed_file_hashes": {
+    "scripts/kb.py": "0a24b3131c6ed9c9bf3b60065451da19e5e6de08563e36d3cc35825b157b94c0",
+    "scripts/annotate_scoring.py": "c9938c66bd0ac8dce33dc8f0a1615a2220073d6035a778d5cf9f094d5e4248fe",
+    "scripts/scoring_rules.py": "580a76d6d381fc14cd035e8b8775972d8b4410a4c1abd849cdc4756f0908372e",
+    "scripts/sanitize_snapshots.py": "2bdb501bfa0d6321c2799ab144f480ea24660091aef7335e9636cd4422e64e3b",
+    "tests/test_kb.py": "bbfafee7fc594291a49a0cff12b9d63ee69038a7937e59923639c9da5bfd2907",
+    "tests/test_release_lifecycle.py": "67d2937e1ea238f86792ed824187f413013125d78a597aa32e86652cc0f7efb3",
+    "tests/test_snapshot_security.py": "5bf17cb7fd8544e48ae00756d217519937f6b3ee616c3ba92383ac30b53f6db2",
+    "tests/test_review_integrity.py": "cd3be257a8ea8ef0aae620b37e292ed6cd4464c0956c9dbdcd059ddcbc6d119b",
+    "provenance/security_scan_exceptions.json": "091c6cf2f1fdf2195376b9c84cd7a2140276f51d0b3d189c70c3be01c271d2e2"
+  },
+  "hashes_stable_through_final_tests": true,
+  "result": "pass",
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v (also rerun through unittest discovery for this final hash capture)",
+    "tests_run": 40,
+    "failures": 0,
+    "errors": 0,
+    "result": "pass",
+    "new_test_file": "tests/test_review_integrity.py",
+    "new_regression_test_count": 8,
+    "screening_subtests": [
+      "unrelated include candidate",
+      "matching exclude-only candidate",
+      "matching await_full_text candidate for reviewed extraction"
+    ]
+  },
+  "finding_rechecks": [
+    {
+      "finding_id": "IMPL02-001",
+      "result": "pass",
+      "evidence": "An exact-reviewed inconclusive expansion annotation cannot be upgraded by a supports row in data/scoring_annotations.json. The compiler reads annotation values from the approved pack through explicit_annotation, whose whitelist excludes extraction/QC fields. The synthetic integration regression passed."
+    },
+    {
+      "finding_id": "IMPL02-002",
+      "result": "pass",
+      "evidence": "The unchanged synthetic legacy baseline remains eligible, while changing its pack or its source independently withholds numerical eligibility. A valid predecessor security-redaction replacement remains eligible. Exact curation bundle checks invalidate approval after a base source or base pack edit. A curated legacy assertion without an explicit scoring annotation returns unavailable rather than inheriting legacy support. The carried-forward supports/inconclusive ID definitions are identical to the archived 0.1 definitions."
+    },
+    {
+      "finding_id": "IMPL02-003",
+      "result": "pass",
+      "evidence": "Missing expansion screening is rejected. A registered but unrelated candidate, a matching exclude decision, and a matching await_full_text decision for a reviewed extraction are also rejected. A matching include decision succeeds. Code inspection confirms provisional-only sources may use include or await_full_text, preserving the distinction from reviewed evidence."
+    },
+    {
+      "finding_id": "IMPL02-004",
+      "result": "pass",
+      "evidence": "The percent-encoded first query delimiter and JSON Unicode-escaped delimiter reproductions are sanitized and detected. Sanitization is idempotent and preserves expiration metadata and unrelated text. The original ordinary-link tests also pass."
+    }
+  ],
+  "additional_probe_results": {
+    "legacy_audited_redaction_allowed": {
+      "rejected": false,
+      "row": {
+        "status": "reviewed",
+        "evidence_relation": "supports",
+        "availability": "available",
+        "estimate": 0.7142857142857143
+      },
+      "screening_count": 1
+    },
+    "exact_curation_bundle_allowed": true,
+    "curation_source_change_rejected": true,
+    "curation_base_pack_change_rejected": true,
+    "scoring_rejects_extraction_keys": true,
+    "curated_legacy_without_annotation_fails_closed": true
+  },
+  "synthetic_review_exception": {
+    "result": "pass",
+    "reason": "The improved scanner recognized the deliberately synthetic examples in the immutable original critic report. An exact-file-hash and exact-kind exception preserves that report without allowing changed files or unlisted source files.",
+    "ledger_path": "provenance/security_scan_exceptions.json",
+    "checks": {
+      "raw_scanner_still_detects_fixture": true,
+      "working_exact_hash_exception_applies": true,
+      "unlisted_source_still_detected": true,
+      "wrong_exception_kind_rejected": true,
+      "changed_review_bytes_detected": true,
+      "archived_copy_uses_its_snapshot_ledger": true,
+      "nested_predecessor_copy_uses_its_snapshot_ledger": true,
+      "changed_archived_copy_detected": true
+    },
+    "actual_source_snapshot_exceptions": 0
+  },
+  "remaining_issues": [],
+  "conclusion": "All four original findings pass this independent bounded recheck. No remaining material issue was identified within this software review scope. Original critic findings remain unchanged for coordinator adjudication.",
+  "limitations": [
+    "Pass results apply to the exact hashes above and the reproduced software acceptance paths; they are not a certification of all possible behavior.",
+    "No production knowledge-base build or biological-content review was performed. All build probes used temporary synthetic evidence inputs.",
+    "The original immutable review and this follow-up response are separate records; coordinator dispositions and human adjudication remain separate."
+  ]
+}

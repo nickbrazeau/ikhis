@@ -1,0 +1,181 @@
+Innate Immune Activity Conditions the Effect of Regulatory Variants upon Monocyte Gene Expression - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC4064786/)
+citeturn11view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4064786/","lineno":null}); Total lines: 552
+L0: cite0†Skip to main content L1: 
+L2: cite1†Image†cdn.ncbi.nlm.nih.gov Search
+L3: 
+L4: cite2†Image†cdn.ncbi.nlm.nih.gov Log in cite3†Image†cdn.ncbi.nlm.nih.gov cite4†Image†cdn.ncbi.nlm.nih.gov L5: 
+L6:   * cite5†Dashboard†www.ncbi.nlm.nih.gov L7:   * cite6†Publications†www.ncbi.nlm.nih.gov L8:   * cite7†Account settings†www.ncbi.nlm.nih.gov L9:   * [Button: Log out ]
+L10: 
+L11: Search… [Input: Search NCBI] Search NCBI
+L12: 
+L13: Primary site navigation
+L14: 
+L15: cite8†Image: Close†cdn.ncbi.nlm.nih.gov L16: 
+L17: Search [Input: Search NCBI]
+L18: 
+L19: Logged in as:
+L20:   * cite5†Dashboard†www.ncbi.nlm.nih.gov L21:   * cite6†Publications†www.ncbi.nlm.nih.gov L22:   * cite7†Account settings†www.ncbi.nlm.nih.gov L23: 
+L24: [Button: Log in ]
+L25: 
+L26: cite1†Image: PMC search open icon†cdn.ncbi.nlm.nih.gov cite8†Image: PMC search close ison†cdn.ncbi.nlm.nih.gov L27: 
+L28: Search PMC Full-Text Archive [Input: Search PMC Full-Text Archive] Search in PMC cite9†Image: Search†cdn.ncbi.nlm.nih.gov L29: 
+L30:   * cite10†Journal List L31:   * cite11†User Guide L32: 
+L33: [Button: Science]
+L34: 
+L35: . Author manuscript; available in PMC: 2014 Sep 7.
+L36: Published in final edited form as: Science. 2014 Mar 7;343(6175):1246949. doi: cite12†10.1126/science.1246949†doi.org L37: # Innate Immune Activity Conditions the Effect of Regulatory Variants upon Monocyte Gene Expression
+L38: 
+L39: cite13†Benjamin P Fairfax†pubmed.ncbi.nlm.nih.gov L40: 
+L41: ### Benjamin P Fairfax
+L42: 
+L43: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L44: 
+L45: Find articles by cite13†Benjamin P Fairfax†pubmed.ncbi.nlm.nih.gov L46: 
+L47: ^{1,}^{*}, cite14†Peter Humburg†pubmed.ncbi.nlm.nih.gov L48: ### Peter Humburg
+L49: 
+L50: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L51: 
+L52: Find articles by cite14†Peter Humburg†pubmed.ncbi.nlm.nih.gov L53: 
+L54: ^{1,}^{#}, cite15†Seiko Makino†pubmed.ncbi.nlm.nih.gov L55: 
+L56: ### Seiko Makino
+L57: 
+L58: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L59: 
+L60: Find articles by cite15†Seiko Makino†pubmed.ncbi.nlm.nih.gov L61: 
+L62: ^{1,}^{#}, cite16†Vivek Naranbhai†pubmed.ncbi.nlm.nih.gov L63: ### Vivek Naranbhai
+L64: 
+L65: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L66: 
+L67: Find articles by cite16†Vivek Naranbhai†pubmed.ncbi.nlm.nih.gov L68: 
+L69: ^{1}, cite17†Daniel Wong†pubmed.ncbi.nlm.nih.gov L70: 
+L71: ### Daniel Wong
+L72: 
+L73: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L74: 
+L75: Find articles by cite17†Daniel Wong†pubmed.ncbi.nlm.nih.gov L76: 
+L77: ^{1}, cite18†Evelyn Lau†pubmed.ncbi.nlm.nih.gov L78: ### Evelyn Lau
+L79: 
+L80: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L81: 
+L82: Find articles by cite18†Evelyn Lau†pubmed.ncbi.nlm.nih.gov L83: 
+L84: ^{1}, cite19†Luke Jostins†pubmed.ncbi.nlm.nih.gov L85: 
+L86: ### Luke Jostins
+L87: 
+L88: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L89: 
+L90: Find articles by cite19†Luke Jostins†pubmed.ncbi.nlm.nih.gov L91: 
+L92: ^{1}, cite20†Katharine Plant†pubmed.ncbi.nlm.nih.gov L93: ### Katharine Plant
+L94: 
+L95: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L96: 
+L97: Find articles by cite20†Katharine Plant†pubmed.ncbi.nlm.nih.gov L98: 
+L99: ^{1}, cite21†Robert Andrews†pubmed.ncbi.nlm.nih.gov L100: 
+L101: ### Robert Andrews
+L102: 
+L103: ^{2}Wellcome Trust Sanger Institute, University of Cambridge, Hinxton CB10 1SA, UK.
+L104: 
+L105: Find articles by cite21†Robert Andrews†pubmed.ncbi.nlm.nih.gov L106: 
+L107: ^{2}, cite22†Chris McGee†pubmed.ncbi.nlm.nih.gov L108: ### Chris McGee
+L109: 
+L110: ^{2}Wellcome Trust Sanger Institute, University of Cambridge, Hinxton CB10 1SA, UK.
+L111: 
+L112: Find articles by cite22†Chris McGee†pubmed.ncbi.nlm.nih.gov L113: 
+L114: ^{2}, cite23†Julian C Knight†pubmed.ncbi.nlm.nih.gov L115: ### Julian C Knight
+L116: 
+L117: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L118: 
+L119: Find articles by cite23†Julian C Knight†pubmed.ncbi.nlm.nih.gov L120: 
+L121: ^{1,}^{*}
+L122: 
+L123:   * [Button: Author information]
+L124:   * [Button: Copyright and License information]
+L125: 
+L126: ^{1}Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK.
+L127: 
+L128: ^{2}Wellcome Trust Sanger Institute, University of Cambridge, Hinxton CB10 1SA, UK.
+L129: 
+L130: ^{*}
+L131: Corresponding author. bfairfax@well.ox.ac.uk (B.P.F.); julian@well.ox.ac.uk (J.C.K.)
+L132: 
+L133: ^{#}
+L134: 
+L135: Contributed equally.
+L136: 
+L137: cite24†PMC Copyright notice L138: 
+L139: PMCID: PMC4064786  EMSID: EMS58422  PMID: cite25†24604202†pubmed.ncbi.nlm.nih.gov L140: ## Abstract
+L141: To systematically investigate the impact of immune stimulation upon regulatory variant activity, we exposed primary monocytes from 432 healthy Europeans to interferon-γ (IFN-γ) or differing durations of lipopolysaccharide and mapped expression quantitative trait loci (eQTLs). More than half of cis-eQTLs identified, involving hundreds of genes and associated pathways, are detected specifically in stimulated monocytes.
+L142: Induced innate immune activity reveals multiple master regulatory trans-eQTLs including the major histocompatibility complex (MHC), coding variants altering enzyme and receptor function, an IFN-β cytokine network showing temporal specificity, and an interferon regulatory factor 2 (IRF2) transcription factor–modulated network. Induced eQTL are significantly enriched for genome-wide association study loci, identifying context-specific associations to putative causal genes including CARD9, ATM, and IRF8.
+L143: Thus, applying pathophysiologically relevant immune stimuli assists resolution of functional genetic variants.
+L144: * * *
+L145: Inappropriate immune activity and associated inflammation are involved in the pathogenesis of a broad range of common diseases including inflammatory bowel disease, atherosclerosis, rheumatoid arthritis, and cancer. Moreover, a significant proportion of common disease risk loci identified with genome-wide association studies (GWAS) implicate immune genes (cite26†1 ).
+L146: Most GWAS loci consist of single-nucleotide polymorphisms (SNPs) within noncoding, putatively regulatory DNA, often at a distance from any gene coding regions (cite27†2 ). The identification of functional regulatory variants and associated modulated genes is key to interpreting GWAS findings and establishing how genes are associated with disease. This can be explored by mapping gene expression as a quantitative trait (eQTL mapping) (cite28†3 –cite29†6 ).
+L147: The effect of a regulatory variant on gene expression is frequently dependent on the cell and tissue type (cite30†7 –cite31†9 ). The extent to which specific cellular pathway activation by environmental agents can modulate regulatory variant effects is relatively unexplored.
+L148: Monocytes are cardinal innate immune cells that constitutively express receptors responsive to pathogens and cytokines including Toll-like receptors (TLRs) (cite32†10 ), with activity being intricately regulated by the cellular environment and interactions with other immune cell types. Upon stimulation, monocytes exhibit large-scale gene transcription with concomitant cytokine production, enhanced antigen processing, and migration (cite33†11 , cite34†12 ).
+L149: Context-specific genetic variants that directly modulate innate immune responses or gain regulatory capacity upon pathway activation have been subject to selective pressure and may affect disease susceptibility (cite35†13 ). It is probable that such variants are widespread, although they are functionally unidentifiable in resting cells. Supporting this, macrophages derived from different mouse strains demonstrate multiple de novo trans-regulatory loci upon inflammatory stimuli (cite36†14 ).
+L150: We hypothesized that the transformation in monocyte transcriptional activity accompanying innate immune responses would allow us to detect the effect of context-specific regulatory genetic variation upon gene expression in humans.
+L151: ## Results
+L152: ### Innate Immune Stimuli–Induced Transcriptomes
+L153: Interindividual variation in the early (2 hours) and late (24 hours) inflammatory responses to lipopolysaccharide (LPS), a component of gram-negative bacterial cell walls that triggers TLR4 signaling (cite32†10 ), and interferon-γ (IFN-γ) (24 hours), a cytokine acting through the JAK-STAT (Janus kinase–signal transducer and activator of transcription) signaling pathway, important in mycobacterial and viral infections (cite37†15 , cite38†16 ), was characterized in highly purified primary CD14^{+} human monocytes from 432 individuals of European ancestry.
+L154: Genome-wide gene expression profiling and genotyping were performed with HumanHT-12 v4 BeadChip (Illumina) and HumanOmniExpress-12v1.0 BeadChip (Illumina). We tested 609,704 SNPs [minor allele frequency (MAF) > 0.04] and expression data for 15,421 probes for 414 individuals in the naïve state, 367 individuals after exposure to IFN-γ, 322 individuals after 24-hour LPS, and 261 individuals after 2-hour LPS.
+L155: To allow comparison with naïve monocytes from the same individuals, expression data from untreated, incubated samples from a subset of 59 individuals were used to regress out expression changes attributable to incubation from the treated samples. Data across all four conditions were available from 228 individuals, permitting cross-treatment comparison.
+L156: As anticipated, treatment induced significant changes in monocyte expression profiles (cite39†table S1 ) with hierarchical cluster analysis demonstrating that group membership was defined by treatment (cite40†fig. S1 ). Analysis of differential gene expression was consistent with biological expectations in terms of identified canonical pathways, the most significant upstream regulators, and the transcriptomic differences between early and late responses to LPS (cite39†table S1 and cite40†fig. S1 ) (cite41†17 ).
+L157: ### Identifying Context-Specific Local Genetic Regulatory Variants
+L158: Local, likely cis-acting eQTL (referred to as cis-eQTL) were defined as SNPs showing association with gene expression that were located within a 1-Mb window of the associated probe. We tested for association with gene expression using an additive linear model (cite42†18 ). We included surrogate variables consisting of major principal components (PC) of the expression data as covariates to limit the effect of confounding factors.
+L159: Similar to others (cite43†19 , cite44†20 ), we find this enhanced detection of cis- and trans-eQTLs (cite40†fig. S2 ). Using this approach, we found that the majority of all cis-eQTLs observed affected gene expression only upon cell stimulation, and a significant proportion of constitutive eQTL present in naïve cells were no longer present after treatment (cite45†Fig. 1, A and B , and cite46†table S2 ).
+L160: Across all four data sets, most genes show evidence of eQTL, with 83.7% of probes tested (12,905/15,421 probes) showing association under at least one condition [false discovery rate (FDR) < 0.05].
+L161: #### Fig. 1. Genotype modulates the gene expression response to innate immune stimuli in monocytes.
+L162: 
+L163: cite47†Open in a new tab L164: (A) Cis-eQTL mapping of 228 individuals with matched expression data available across all four treatments shows that the majority of eQTL are context-dependent. Genes with significant eQTL (FDR < 0.05) are hierarchically clustered along the y axis according to the t statistic of the most significant eQTL present across treatments (along the x axis). (B) Gene expression values before and after treatment plotted pairwise by individual.
+L165: In clockwise order: 2-hour LPS induces differential expression of IL18RAP dependent on rs2058659 genotype; 2-hour LPS treatment results in uniform PPARG up-regulation, whereas continued LPS exposure over 24 hours is associated with reduction in expression in carriers of the A allele of rs709162; an eQTL tagged by rs7131225 found in untreated cells (naïve state) for GDPD5 transcription could not be detected after gene induction with IFN-γ; and IFN-γ stimulation leads to induction of STAP1 expression in carriers of the T allele of rs7700004, relative to the C allele.
+L166: (C) Cis-eQTL displays context-specific directional effects. rs1179625 is the SNP with the greatest effect on expression of HIP1 in the naïve state and after 24-hour LPS but exhibits opposing direction of effect. ns, not significant. (D) Induction by LPS reveals stimulus-specific cis-eQTL for LTA and TNF. (E and F) Genes within the (E) TLR4 signaling and (F) IFN-γ signaling pathways highlighted for those with eQTL for shared data set illustrating context specificity.
+L167: For the 228 individuals for whom we had expression data for all four conditions, we observed 21,516 independent cis SNP-probe associations across data sets (defined as the most significantly associated SNP with expression for a given probe per data set), 24.6% of which had the lowest P value for association in naïve cells, 21.6% after 2-hour LPS, 25.4% after 24-hour LPS, and 28.3% after IFN-γ.
+L168: A total of 11,476 probes had at least one eQTL, of which 43.4% (4977 of 11,476) only had eQTL after monocyte stimulation. We find that eQTL are similarly specific to the unstimulated state, with 54.1% of naïve eQTL (2866 of 5299) not found after treatment (cite45†Fig. 1A , cite40†fig. S3 , and cite46†table S2 ). One explanation for many context-specific eQTL is that treatment increases expression to quantifiable levels, thus allowing eQTL detection.
+L169: To investigate the extent to which this contributed to the observed stimulus specificity of eQTL, we restricted our analysis to probes with detectable expression (Illumina detection score P < 0.01) in more than 90% of samples from each data set. We found that 33.4% (1702 of 5082) of these probes only had an eQTL after treatment, indicating that context-specific eQTL are identified because of both treatment-induced regulatory effects and treatment-inducing gene expression to detectable levels.
+L170: We observed that the range of effect sizes (all eQTL, 6.0 to 94.7%; median, 11.3%) was markedly similar across the different conditions, although IFN-γ–associated eQTL had slightly larger effect sizes than all others (cite40†fig. S4 ).
+L171: Cell-specific eQTL more often involve enhancer elements distal to the transcription start site (TSS) when compared to eQTL shared across cell types (cite30†7 ). It is unclear whether eQTL induced by innate immune stimuli show a similar distribution. By analyzing all expression-associated SNPs (eSNPs), we found that the more conditions an eSNP was observed across, the more proximal it was to the TSS (P < 2.2 × 10^{−16}).
+L172: Even when assessing only significant eSNPs with association below a P < 5 × 10^{−8} threshold, a similar effect was apparent (P < 2.9 × 10^{−11}). We find that the effect size for an eSNP increases with proximity to the TSS (cite40†fig. S5 ) and that eSNPs that could only be observed after treatment were significantly more distal than those observed in the naïve state (P < 2.2 × 10^{−16}) (cite40†fig. S5 ), consistent with the pattern previously observed with cell type–specific eQTLs.
+L173: For a minority of eQTL, associations were observed across conditions, but with the direction of effect switching between those conditions. We mapped the most significant association per condition (cite41†17 ) and identified 20 genes, including HIP1 and STEAP4, with shared peak eQTLs mapping to a single locus but with opposing directions across conditions (cite45†Fig. 1C , cite40†fig. S6 , and cite46†table S2 ).
+L174: A diverse set of immune-related genes were found to show eQTL after induction with LPS or IFN-γ, ranging from transcription factor genes such as ETS2, JUN, and IRF2 (interferon regulatory factor 2) to key cytokines and receptors such as IL8 (interleukin-8), IL32, IL18R1, and FAS (cite46†table S2 ). For LTA, an eQTL was observed after 2-hour LPS, whereas no eQTL was apparent for TNF on induction at 2 hours but was seen on down-regulation after 24-hour LPS (cite45†Fig. 1D ).
+L175: We investigated the relationship of specific treatments with observed eQTLs in terms of canonical gene pathways. This resolved contiguous pathways of induced eQTL activity (cite40†fig. S7 ).
+L176: For the TLR4 pathway, eQTL specific to treatment were revealed for nodal genes including TIRAP, TRAF6, FADD, and MAP (mitogen-activated protein) kinase genes, whereas genes encoding key components of the inflammasome such as CASP1 and PYCARD, as well as downstream cytokines including IL6, CXCL9, and IFNB1, showed eQTL specific to early and late responses to LPS (cite45†Fig. 1E ).
+L177: Similarly, treatment revealed eQTL in nodal IFN-γ signaling pathway genes and many downstream genes involved in the proteasome, apoptosis, antigen processing, and presentation (cite45†Fig. 1F ).
+L178: ### Trans-eQTL and Stimulus-Specific Hotspots
+L179: Associations involving distant genes (trans-eQTL, defined as SNPs >1 Mb from the probe) may define gene networks regulated by specific SNPs and can provide unbiased insights into pathway identity and underlying biological processes. It is unclear whether the relative paucity of trans-eQTL observed in human eQTL studies, usually attributable to limited power, may also reflect that many trans networks are undetectable in baseline states (cite48†21 ).
+L180: Our genome-wide eQTL mapping across stimuli in the full data sets, correcting for multiple testing, resolved a total of 1838 trans-associating genes at FDR <0.05 (394 genes at P < 5 × 10^{−12}, approximate to Bonferroni-corrected P = 0.05). Trans-associating loci showed a high degree of context specificity—most notably after IFN-γ treatment when multiple novel trans-eQTLs were identified that were frequently unobservable in the naïve state (cite49†Fig. 2 , cite40†fig. S8 , and cite50†table S3 ).
+L181: Several loci, such as the previously described 12q15 locus at LYZ (cite51†8 , cite52†22 ) and the major histocompatibility complex (MHC), showed significant trans associations across treatments, whereas other master regulatory SNPs were resolved only in LPS or IFNγ–induced cells and putatively driven by cis-eQTL modulating cytokine release, enzymes, and transcription factors (cite49†Fig. 2 ).
+L182: #### Fig. 2. Trans-eQTL demonstrate context specificity and identify master regulatory loci after treatment.
+L183: 
+L184: cite53†Open in a new tab L185: (A to D) Circular plots demonstrating chromosomal location of trans-acting eQTL of naïve (A), 2-hour LPS treatment (B), 24-hour LPS treatment (C), and IFN treatment (D).
+L186: From outside to inside: examples of major trans hubs are indicated by rs number of lead eSNP and for that eSNP the name of any cis gene, the nearest gene or genomic region; chromosome number; colored dots are significant trans-eQTL (color denotes treatment, size relative −log_{10} P value as per legend); black dots are significant cis-eQTL to the same SNP in these treatments, possibly identifying driver genes; gray lines indicate probes significantly regulated in trans; innermost joining lines illustrate start and end points of multiloci trans-eQTL (unique to a treatment by colored lines, observed in a minimum of two data sets by gray lines)—only multiloci eQTL mapping to more than one probe with an FDR <0.05 in the shared data set (n = 228) are illustrated.
+L187: ### Stimulus Specificity for MHC Trans-eQTL
+L188: The MHC has been previously associated with trans-eQTL in primary tissues (cite51†8 , cite43†19 ). Trans associations to the MHC predominantly map to SNPs in the class II region and demonstrate plasticity across stimuli (cite49†Fig. 2 and cite40†fig. S9 ), with 45 genes mapping in trans (FDR < 0.05) to the class II region after IFN-γ treatment in the paired 228 data set, whereas after 24 hours of exposure to LPS, only one observation is made.
+L189: Moreover, after IFN-γ treatment, we see the same trans-associating genes as in the naïve state, but almost all show increased effect sizes. The number of trans-associated genes mirrors class II expression, where IFN-γ and chronic LPS are associated with robust increases and suppression of class II gene expression, respectively (cite54†23 ) (cite40†fig. S9 ), suggesting that relative expression of class II genes may control trans effects.
+L190: ### Temporal Resolution of Cis- and Trans-eQTL Involving IFNβ Signaling
+L191: Cis-eQTL regulating cytokine release could be envisaged to affect expression of cytokine-modulated genes in the inflammatory cascade resulting in dose response–invoked eQTL in trans over time. An example of such temporal effects involves IFNB1, encoding the cytokine IFN-β, which exhibits a temporal relationship between genetic modulators and gene networks (cite55†Fig. 3 ). After 2-hour LPS (cite55†Fig.
+L192: 3A ), we observe a local cis-eQTL for IFNB1 at rs2275888; the same SNP associated in trans after 24-hour LPS with IRF9, IFI6, EPSTI1, LY6E, and MX1 expression.
+L193: #### Fig. 3. Temporal effects for a stimulus-specific trans-eQTL.
+L194: 
+L195: cite56†Open in a new tab L196: (A) A stimulus-specific local cis-acting eQTL for IFNB1 in monocytes after 2-hour LPS treatment tagged by rs2275888, which is in complete linkage disequilibrium (LD) (r^{2} = 1) with 15 other SNPs located ~60 kb telomeric to IFNB1 within the intronic sequence of PTPLAD2. (B) rs2275888 is significantly associated in trans with expression of known interferon-induced genes including IFI6 and ESTI1 only after 24-hour LPS.
+L197: (C) Single SNP analysis at rs2275888 to resolve further genes in trans defined 17 genes showing significant trans association (FDR < 0.05) to rs2275888 after 24-hour LPS stimulation as illustrated in this circular plot. (D) IPA network analysis of trans-associated genes after LPS induction revealed a major network containing 19 genes (P = 1 × 10^{−44}) based on the fit of the trans genes and biological functions.
+L198: The IFNβ signaling cascade is shown with trans-associated genes to rs2275888 highlighted supporting the associations arising through cis-eQTL–driven differential expression of IFNB1.
+L199: We further interrogated trans associations to rs2275888 on a single SNP basis. This revealed that most associations occur after 24-hour LPS, with 17 genes in trans, many of which were archetypal early interferon response genes (cite55†Fig. 3, B and C , and cite57†table S4 ). Ingenuity pathway analysis (IPA) of trans-associated genes after LPS stimulation resolved an IFN-β–driven network and identified a key role for the upstream regulator IRF7 (P = 9.5 × 10^{−26}) (cite55†Fig. 3D ).
+L200: Anti-viral response was the most significant disease and biological annotation (P = 1 × 10^{−16}), whereas significant canonical pathways included interferon signaling (P = 5.8 × 10^{−8}) and pattern recognition receptors (recognition of bacteria and viruses) (P = 6.7 × 10^{−08}). This temporal relationship between a cis-eQTL and trans-associated gene network is consistent with the downstream consequences of differential IFN-β expression after LPS induction modulated by rs2275888.
+L201: ### Coding Polymorphisms Associate with Stimulus-Specific Trans Networks
+L202: We identified stimulus-specific trans networks putatively driven by coding variants. One such example is a trans hub observed at rs1800440, which codes for an amino acid substitution (p.Asn453Ser) in the first exon of CYP1B1, encoding a monocyte-expressed cytochrome P450 enzyme (cite58†24 ).
+L203: This polymorphism is associated with a reduction in the half-life of CYP1B1 to one-third that of wild type (cite59†25 ) and is a cis-eQTL for CYP1B1 (cite46†table S2 ), consistent with reduced half-life driving a compensatory increase in transcription of the variant allele. Single SNP analysis of rs1800440 identified 43 genes, predominantly implicated in cancer and the inflammatory response, associating in trans after IFN-γ treatment (cite57†table S4 ).
+L204: This variant shows significant variation in interpopulation allele frequency, the minor allele being very rare in African and Asian populations [fixation index (FST) of 0.288 (P = 0.03) and integrated haplotype score (iHS) of −2.126 for the CEU (Caucasian) HapMap population], suggesting possible selection pressure.
+L205: Similar examples of structural variants driving trans networks were identified after IFN-γ up-regulation of IDO2 involving a p.Arg248Trp substitution in exon 9 (rs10109853), which results in a 90% reduction in tryptophan catalytic activity (cite60†26 ), and after LPS induction to a p.Ala87Thr variant (rs3745601) in P2RY11 modulating ligand binding (cite61†27 ) (cite40†fig. S8 and cite50†table S3 ).
+L206: ### Gene Targets of the Transcription Factor IRF2 Modulated by a Stimulus-Specific Cis-eQTL
+L207: Cis-eQTL that regulate transcription factor abundance may generate associations in trans to transcription factor target genes (cite51†8 , cite43†19 , cite52†22 , cite62†28 , cite63†29 ). We report a significant context-specific trans gene hub to chromosome 4q35 tagged by rs13149699. This SNP displayed a strong stimulus-specific cis association with IRF2, encoding the transcription factor IRF2.
+L208: Carriage of the A allele of rs13149699 resulted in LPS-induced up-regulation of IRF2 expression, whereas the G allele was associated with coincident suppression of expression. IFN-γ stimulation caused up-regulation of both IRF2 alleles, although more markedly so in A allele carriers (P = 6.9 × 10^{−32}) (cite64†Fig. 4A ). The ENCODE data set (cite65†30 ) shows that rs13149699, which is located in an intergenic region 57 kb telomeric to IRF2 (cite64†Fig.
+L209: 4B ), is spanned by a deoxyribonuclease I (DNase I) hypersensitive site in primary CD14^{+} monocytes and binds a cluster of transcription factors including REL-A (nuclear factor κB p65) (cite40†fig. S10 ). In the stimulated cells, this SNP is associated with a major trans network, and on single SNP analysis, more than 300 trans genes were defined in the complete data sets (cite64†Fig. 4, C to E , and cite57†table S4 ).
+L210: Analysis of paired samples showed no probes associating in the naïve cells, implicating treatment-induced differential expression of IRF2 at rs13149699 as the driver of the trans network. IPA of rs13149699 trans-associated genes supported their modulation by IRF2 and interferon signaling, with overrepresentation of interferon-associated pathways and IRF2 identified as an upstream regulator (P = 7.9 × 10^{−11}).
+L211: #### Fig. 4. Cis regulation of IRF2 at rs13149699 has profound transcriptional consequences in trans.
+L212: 
+L213: cite66†Open in a new tab L214: (A) A significant cis-eQTL to the transcription factor IRF2 seen only after treatment (P values shown for shared data set; in the full data sets, P_{LPS2} = 2.1 × 10^{−35}, P_{LPS24} = 6.4 × 10^{−55} , P_{IFNγ} = 2.6 × 10^{−59}, and P_{naïve} = ns). (B) Local association plot for 367 individuals after IFN-γ treatment including imputed genotypes. The peak eQTL for IRF2 remains rs13149699, 57-kb 3′ to the gene.
+L215: (C) eQTL analysis was performed on rs13149699 alone in the shared (n = 228) data set to identify associated genes missed due to correction for multiple testing across all SNPs—qq plots demonstrating number of probes with expression associated with rs13149699 across treatments. Treatment results in significant numbers of probes deviating from expected, with greatest deviation after 2-hour LPS. (D) Bar charts demonstrating number of significantly associated probes at different FDR thresholds.
+L216: Note relative absence of associations in untreated state despite the same number of tests being performed. (E) Circular plots demonstrating location of transeQTL (FDR < 0.05) after analysis on rs13149699 in the complete data sets. (F) Windows flanking probes tested for eQTL were defined, and the number of IRF2 ChIP-seq binding sites per treatment was counted. Probes in trans to rs13149699 were significantly enriched for IRF2 binding in both treatments (Fisher’s exact test).
+L217: (G) Box plot showing allelic expression of RAB24 by rs13149699. (H) ChIP-seq for IRF2 from primary monocytes for different treatments illustrating differential binding 0.5-kb 3′ to RAB24. Also shown are ENCODE tracks for CD14^{+} DNase I hypersensitivity, H3K27Ac (seven cell lines), and vertebrate conservation (Multiz Alignment & Conservation 100 Species).
+L218: To investigate whether these trans-associated genes were bona fide IRF2 targets in monocytes, we performed chromatin immunoprecipitation followed by high-throughput sequencing (ChIP-seq) for primary monocytes from two healthy volunteers using the same experimental conditions to define IRF2 binding sites (cite67†table S5 ). We found that genes in trans to rs13149699 were significantly enriched for IRF2 binding in corresponding treatments (cite64†Fig.
+L219: 4, F to H ) with 8.0- and 8.7-fold relative increase in trans-associated genes residing in a 25-kb window around IRF2 binding sites after 2-hour LPS or IFN-γ, respectively, compared to those not in trans to rs13149699 (LPS2 P = 3.5 × 10^{−6}, IFN-γ P = 1.9 × 10^{−6}; Fisher’s exact test). It was apparent that not only were genes in trans to rs13149699 dependent on stimulation, but also that different stimuli elicited different genes in trans, implying that IRF2 regulation is similarly context-dependent.
+

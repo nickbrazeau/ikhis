@@ -1,0 +1,30 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3656131/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim human-cell sections; mouse experiments not included as human evidence.
+J Invest Dermatol. Author manuscript; available in PMC: 2013 Dec 1.
+Published in final edited form as: J Invest Dermatol. 2013 Feb 14;133(6):1541–1549. doi: 10.1038/jid.2012.512
+IL-1R1 signaling facilitates Munro’s microabscess formation in psoriasiform imiquimod-induced skin inflammation
+Mireia Uribe-Herranz, Li-Hua Lian, Kirsten M Hooper, Katelynn A Milora, Liselotte E Jensen
+PMCID: PMC3656131 PMID: 23407395
+
+[MATERIALS AND METHODS: Cell culture and viability assays]
+Pooled human primary keratinocytes were obtained from Life Technologies (Grand Island, NY) and maintained in EpiLife or Defined Keratinocyte Serum Free medium (Life Technologies) with gentamicin (25 μg/ml, Life Technologies). Cells were adapted to Defined Keratinocyte Serum Free medium for at least 24 hours prior to treatments.
+Cell permeabilization was determined by measuring release of lactate dehydrogenase (LDH, Cytotoxicity Detection kit, Roche Applied Science, Indianapolis, IN).
+
+[Culture treatments and neutralization/inhibition experiments]
+Confluent cells were treated with medium only, imiquimod (Invivogen, San Diego, CA), polyinosinic-polycytidylic acid (poly(I:C), Sigma-Aldrich) and/or IL-1α (species matched, PeproTech, Rocky Hill, NJ) at the indicated concentrations. Activity of IL-1α was blocked using the neutralizing antibody MAB200 (R&D Systems, Minneapolis, MN) as described elsewhere (Olaru and Jensen, 2010b). Control cells were treated with isotype matched IgG2a (R&D Systems).
+
+[Statistical analyses]
+Arithmetic mean and standard deviations (SD) from one representative experiment of at least three independent experiments (n=2 per independent time-point and treatment within each individual experiment unless stated/indicated otherwise) are shown in figures. Significance was determined using the Student’s t test.
+
+[RESULTS: IL-1α is released by imiquimod treated human and mouse keratinocytes in vitro]
+Increased levels of the IL-1α cytokine could be detected in the culture medium as early as 3 hours after addition of imiquimod (Figure 2a). This appears to be earlier than the loss of membrane potential as determined by measuring lactate dehydrogenase LDH (Figure 2b). Furthermore, reduced cell density was observed after 24 hours (data not shown). IL-1β could not be detected in conditioned medium from the above keratinocyte cultures (data not shown).
+
+[Figure2 caption]
+Human primary keratinocytes produce and release elevated levels of IL-1α in response to imiquimod in vitro.
+Cells were treated with medium or imiquimod as indicated. (a) Expression of IL-1α and IL-1β mRNA and protein was examined using real-time RT-PCR and ELISA, respectively. Levels of mRNA are represented as fold change (mean ± SD) compared to medium only treated samples at the same time-points. IL-1 cytokine levels are shown as protein concentration in the culture conditioned medium (mean ± SD). (b) Levels of LDH in the culture medium were determined and represented as fold change (means ± SD) compared to medium only treated control conditioned medium.
+
+[RESULTS: Imiquimod induced chemokine expression is independent of IL-1α signaling]
+IL-1 and poly(I:C) induced chemokine expression was significantly reduced when human keratinocytes were co-treated with an IL-1α neutralizing antibody compared to cells receiving an isotype matched control antibody (Figure 3a). Surprisingly, cells treated with imiquimod and the IL-1α neutralizing antibody responded equally well as control cells treated with isotype matched immunoglobulin and imiquimod (Figure 3a). Interestingly, the constitutive (medium only) production of CXCL1, CXCL2 and IL-8 was reduced in the presence of the IL-1α neutralizing antibody when cultures were continued for 24 hours (Figure 3b).
+
+[Figure3a caption]
+Primary human keratinocytes were pre-treated for 30 min with neutralizing anti-human IL-1α IgG (black bars) or isotype matched IgG (white bars) before the addition of medium only, 50 μg/ml imiquimod, 10 ng/ml human IL-1α or 25 μg/ml poly(I:C). Chemokine expression was examined using ELISA (mean ± SD) after 6 hours.

@@ -1,0 +1,14 @@
+{
+  "run_id": "RUN_COORDINATOR_0.1.0",
+  "timestamp_start": "2026-09-12T04:15:04Z",
+  "timestamp_end": "2026-09-13T01:32:18.749780+00:00",
+  "retrieval_completed_at": "2026-09-13T01:30:23.554033+00:00",
+  "timezone": "America/New_York",
+  "model_provider": "OpenAI",
+  "model": "GPT-6",
+  "model_snapshot": "unavailable",
+  "reasoning_mode": "unavailable",
+  "code_commit": "unavailable",
+  "note": "Folder is not a Git repository. README is the active specification; sandbox/smpl.md is historical narrower context. Runtime start is first recorded timestamp, not a claimed exact turn start.",
+  "timestamp_end_scope": "Evidence and implementation finalized; subsequent build and hash verification recorded in release manifests"
+}

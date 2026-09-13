@@ -1,0 +1,28 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2673366/
+Retrieved: 2026-09-13 via Chrome visible article DOM. Selected verbatim primary-source sections; navigation/account information excluded.
+Immunology. 2009 Apr;126(4):543–551. doi: 10.1111/j.1365-2567.2008.02903.x
+Human mid-gestation amniotic fluid contains interleukin-16 bioactivity
+Catherine A Thornton, Judith A Holloway, Janis K Shute, John W Holloway, Norma D Diaper, John O Warner
+PMCID: PMC2673366 PMID: 19278422
+
+[Materials and methods: Tissue, blood and amniotic fluid samples; relevant cohort passage]
+Amniotic fluid and peripheral blood were collected using standard procedures from women undergoing diagnostic amniocentesis at 16–18 weeks of gestation (n= 20) and also from women undergoing elective Caesarean section at term (n= 16). Only amniotic fluid samples from pregnancies with no indication of fetal abnormality were included in this study. Cell-free amniotic fluid was prepared by centrifugation at 900 g and then stored at −80° until analysis.
+
+[IL-16 enzyme-linked immunosorbent assay]
+The IL-16 in amniotic fluid and plasma samples was measured using a commercially available IL-16-specific enzyme-linked immunosorbent assay (ELISA) according to the manufacturer’s instructions (Biosource, Invitrogen, Oxford, UK). All samples were assayed at a dilution of 1 in 2 in the dilution buffer provided and the sensitivity of the assay was 23 pg/ml.
+
+[Chemotaxis assay]
+CD4+ T cells were isolated from venous blood collected from healthy adult donors into lithium heparin. After preparation of peripheral blood mononuclear cells on Histopaque (Sigma, Dorset, UK), CD4+ T cells were isolated using the CD4+ T-cell isolation kit and LS+ columns for midiMACs (Miltenyi Biotec, Bisley, UK). The purity of the enriched population was assessed using flow cytometry (cellQuest on FACscan, BD Biosciences) and was routinely found to be > 95% CD4+ CD3+ T cells. Cells were washed and resuspended in RPMI-1640 with Glutamax, 100 U/ml penicillin, 100 μg/ml streptomycin and 0·1% human serum albumin (chemotaxis assay buffer) at 2 × 106 cells/ml.
+T-cell chemotaxis was assayed using 5 μm pore polyvinylpyrrolidone-free polycarbonate filters (Costar; Corning Incorporated, Corning, NY) in micro-Boyden chambers. A serial dilution of recombinant human IL-16 (R&D Systems, Abingdon, UK) of 0·1 pg/ml to 1 μg/ml was prepared in chemotaxis assay buffer and amniotic fluid was diluted (neat, 1/2, 1/10, 1/100) in chemotaxis assay buffer and added to the lower wells of the assay chamber in triplicate. The filter was fixed in place, enriched CD4+ T cells were added (100 000/well) and the chamber was incubated for 2 hr at 37° in 5% CO2 in air. The filter was then removed, washed in phosphate-buffered saline and scraped to remove the cells on the upper surface of the filter, then the migrated cells adherent to the lower side were fixed in methanol and stained (Hema–Gurr; BDH). The numbers of cells in each of five high-power (× 400) fields were counted and the value obtained from control wells (buffer only) was subtracted. Neutralizing experiments were conducted by pretreating the sample (amniotic fluid final concentration 1 in 10) with goat polyclonal anti-IL-16 antibody (10 μg/ml final concentration; R&D Systems) for 45 min at room temperature. The ability to neutralize recombinant human IL-16 was assessed as a positive control. An isotype control (goat IgG; R&D Systems) at the same concentration was included.
+
+[Results: Amniotic fluid IL-16; Figure1a]
+Amniotic fluid collected from women undergoing diagnostic amniocentesis at 16–18 weeks (n= 20) had significantly higher levels of immunoreactive IL-16 than amniotic fluid collected during elective Caesarean section at term (n= 16; P< 0·001; Fig. 1a).
+
+[Results: Amniotic fluid IL-16; Figure1b]
+Bioactivity of IL-16 in amniotic fluid was assessed using chemotaxis for adult CD4+ T cells. Chemotactic activity was significantly greater (P= 0·0006) in amniotic fluid at 16–18 weeks of gestation compared to that collected at term (134·76 ± 17·67 cells per field of view for 16–18 weeks amniotic fluid diluted 1 in 2 versus 21·79 ± 13·53 cells per field of view for term amniotic fluid diluted 1 in 2; mean ± SEM; n= 6 per group). Chemotactic activity for CD4+ cells was observed in early gestation amniotic fluid to a dilution of 1 in 100 (Fig. 1b).
+
+[Results: Amniotic fluid IL-16; Figure1c]
+Neutralizing experiments were conducted with mid-pregnancy amniotic fluid using a goat polyclonal anti-IL-16 antibody. Lower levels of chemotactic activity for CD4+ T cells were observed in the presence of neutralizing anti-IL-16 antibody with each of the donors tested (n= 5; Fig. 1c). Overall, the chemotactic activity of amniotic fluid for CD4+ T cells was significantly lower (P= 0·0006) in the presence of neutralizing anti-IL-16 (42·09 ± 6·95%; mean ± SEM; n= 5) than in the absence of neutralizing antibody/presence of isotype control (99·67 ± 7·88%; mean ± SEM; n= 5). The isotype control antibody had a negligible effect on chemotaxis.
+
+[Results: Amniotic fluid IL-16, chemotactic activity and atopic disease]
+There was no correlation between IL-16 protein levels and the chemotactic properties of the amniotic fluid sample (Spearman’s r = 0·291; not significant) either when analysing the sample series as a complete set, or separately for atopic versus non-atopic outcome.

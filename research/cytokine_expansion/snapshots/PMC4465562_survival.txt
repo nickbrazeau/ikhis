@@ -1,0 +1,20 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4465562/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim passages. Earlier Methods and Figure2 remain in open01.json.
+
+[Methods: culture conditions]
+Eosinophils were stimulated for up to 48 h with 10 ng/ml GM-CSF, and their viability was determined as previously described (27). Briefly, eosinophils were suspended in RPMI 1640 medium (Invitrogen Life Technologies) supplemented with 2–5% FBS (HyClone), 100 U/ml penicillin G, 100 μg/ml streptomycin, and 0.25 μg/ml amphotericin B (Invitrogen Life Technologies). Cells were cultured at a density of 1 × 106/ml in a humidified atmosphere containing 95% air and 5% CO2. The cultures were maintained in 24-well sterile, flat-bottom plates (Costar) previously coated with 1% human serum albumin.
+
+[Methods: inhibition of ICAM1]
+ICAM-1 expression was inhibited with an antisense oligodeoxynucleotide applied to in vitro-cultured eosinophils. A phosphorothioate-modified antisense oligodeoxynucleotide directed against human ICAM-1 corresponding to the sequence of ISIS 2302 (29) (5′-CCCAAGCTGGCATCCGTCA-3′) and its sense control (5′-CCTGGAGTGATGCCTAATAAT-3′) were synthesized commercially (BioSource International). Cells were transfected with 50 nM oligonucleotide using the FuGENE 6 reagent as instructed by the manufacturer (Roche Molecular Biochemicals). All experiments using sense and antisense oligonucleotides were monitored for the expression of ICAM-1.
+
+[Results, Figure5 target-expression validation]
+Pretreatment of eosinophils with the phosphorothioated antisense oligonucleotide ISIS 2302 at 50 nM for 1 h before GM-CSF stimulation efficiently prevented the expression of ICAM-1 24 h later, whereas control sense oligonucleotide had no effect on ICAM-1 up-regulation (Fig. 5A).
+
+[Results: Figure7A]
+Flow cytometric analysis with annexin V and 7-AAD staining performed 48 h after cytokine stimulation showed a significant decrease in eosinophil viability (42% of viable cells) upon inhibition of ICAM-1 when compared with control GM-CSF-treated (78%) and GM-CSF/sense oligonucleotide-treated cells (73%; Fig. 7A).
+
+[Figure7A caption]
+Flow cytometric analysis of eosinophil survival after treatment with ICAM-1 antisense oligonucleotides and anti-GM-CSF- and anti-ICAM-1- neutralizing Abs. A, Freshly isolated eosinophils were treated with antisense oligonucleotide against ICAM-1 (50 nM) before stimulation with GM-CSF. Comparison with live (7-ADD-negative/annexin V-negative) eosinophils showed prolongation of eosinophil survival upon stimulation with GM-CSF for 48 h. Inhibition of ICAM-1 expression with antisense oligonucleotide showed abrogation of eosinophil survival when compared with GM-CSF-stimulated control (Ctr) and sense ODN-treated cells.
+
+[Statistical analysis]
+The results of eosinophil viability and cytokine measurements are expressed as means ± SD. To determine significant differences between the two groups, a two-tailed Student t test was performed using a Sigma-Plot software program (SPSS); p < 0.05 was considered significant.

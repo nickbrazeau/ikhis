@@ -1,0 +1,13 @@
+{
+  "endpoint": "esearch",
+  "params": {
+    "db": "pubmed",
+    "term": "((immune OR leukocyte) AND (single-cell OR RNA-seq OR transcriptomic OR Perturb-seq)) AND (\"1900/01/01\"[Date - Publication] : \"2026/09/12\"[Date - Publication])",
+    "retmode": "json",
+    "retmax": 10,
+    "sort": "relevance"
+  },
+  "max_items": 10,
+  "save_raw": true,
+  "raw_output_path": "/Users/nfb9/Documents/Github/ikhis/research/references/pubmed_C.json"
+}

@@ -1,0 +1,30 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2198963/
+Retrieved: 2026-09-13 via Chrome visible article DOM. Selected verbatim primary-source sections; navigation, account information and external link metadata excluded.
+J Exp Med. 1997 Jul 7;186(1):121–129. doi: 10.1084/jem.186.1.121
+An Interleukin 5 Mutant Distinguishes between Two Functional Responses in Human Eosinophils
+Murray McKinnon, Kevin Page, Iain J Uings, Martyn Banks, Dilniya Fattah, Amanda EI Proudfoot, Pierre Graber, Christian Arod, Richard Fish, Timothy NC Wells, Roberto Solari
+PMCID: PMC2198963 PMID: 9207003
+
+[Materials and Methods: Eosinophil Purification]
+Human peripheral blood eosinophils were isolated from healthy donors with mildly elevated eosinophil count, by a CD16-negative selection protocol as previously described (32). Eosinophil purity was always >95%.
+
+[Materials and Methods: Eosinophil Activation Assay]
+Cytokine-induced activation of purified eosinophils, as measured by adhesion to immobilized IgG, was assayed as previously described (32). In brief, 5 × 103 eosinophils were incubated with the indicated cytokines for 30 min at 37°C, in a 96-well microtiter plate precoated with human IgG. After a washing step, the adherent eosinophils were lysed and the endogenous peroxidase activity measured in a colorimetric assay using o-phenylenediamine as a substrate.
+
+[Materials and Methods: Eosinophil Survival Assay]
+Purified eosinophils were suspended at 106 cells/ml in DMEM containing 10% FCS, 50 U/ml penicillin, and 50 μg/ml streptomycin (GIBCO, Paisley, Scotland) in microtiter plates, in the presence or absence of wild-type IL-5 or IL-5 (E12K). After incubation at 37°C for 72 h, cell viability was assessed by trypan blue exclusion, counting a minimum of 200 cells. For antibody blocking experiments, human eosinophils were incubated with the indicated concentrations of cytokines in the presence or absence of 250 μg/ml anti–IL-5 neutralizing antibody, TRFK-5 (33). For polymyxin B experiments agonists were preincubated with 500 U/ml polymyxin B for 1 h at 37°C before addition of purified human eosinophils.
+
+[Results: Biological Properties of IL-5 (E12K) in an Eosinophil Survival Assay]
+Purified human peripheral blood eosinophils were incubated in the presence of increasing concentrations of wild-type IL-5 or IL-5 (E12K) and eosinophil viability measured by trypan blue exclusion, after a period of 72 h. Both IL-5 and IL-5 (E12K) were able to promote eosinophil survival in a concentration-dependent manner with ED50 values of 0.4 ± 0.1 pM and 20.6 ± 8.7 nM, respectively (n = 5) (Fig. 5 A). Although IL-5 (E12K) promoted eosinophil survival with a 50,000-fold reduction in biological potency with respect to wild-type IL-5, it was still a full agonist capable of eliciting a maximal biological response not significantly different from wild-type IL-5.
+
+[Figure5 caption]
+Both wild-type IL-5 and IL-5 (E12K) promote eosinophil survival (A). The agonist activity of E12K can be abolished by boiling, or pretreatment with a neutralizing anti–IL-5 antibody but not by polymyxin B (B). (A) Increasing concentrations of either wild-type (open circles) or IL-5 (E12K) (closed circles) were incubated with purified human eosinophils for 72 h at 37°C and eosinophil viability measured by trypan blue exclusion. Data expressed as a percentage of the maximum survival effect obtained with wild-type IL-5 in each experiment (66% ± 5.6 viable cells, compared to 2.7% ± 1.7 in the absence of cytokine). Each value represents the mean ± SEM of six independent experiments using different blood donors. (B) Human eosinophils were incubated with either 1 pM IL-5, 50 nM IL-5 (E12K), 40 pM IL-3, 20 pM GM-CSF, or 1 ng/ml LPS alone, or in the presence of 250 μg/ml anti–IL-5 neutralizing antibody, TRFK-5, or after pretreatment with 500 U/ml polymyxin B for 1 h at 37°C. For boiling experiments, IL-5 (E12K) was boiled for 15 min before incubation with eosinophils. Eosinophil viability was measured after 72 h by trypan blue exclusion. The concentrations of cytokines represent ∼ED80's in the eosinophil survival assay. Data expressed as a percentage of the maximum survival effect obtained with wild-type IL-5 in each experiment (61% ± 8.0 viable cells, compared to 17% ± 3.7 in the absence of cytokine). Each value represents the mean ± SEM of at least three independent experiments.
+
+[Results: control experiments following Figure5]
+In addition, the anti–IL-5 neutralizing antibody TRFK-5 blocked the agonist activity of IL-5 (E12K) and wild-type IL-5, but not IL-3, GM-CSF or LPS in the eosinophil survival assay (Fig. 5 B).
+
+[Results: Biological Properties of IL-5 (E12K) in an Eosinophil Activation Assay]
+In this assay, wild-type IL-5 induced a concentration-dependent increase in eosinophil adhesion to IgG (ED50 = 1.3 ± 0.1 pM, n = 3), while the mutant E12K was incapable of inducing eosinophil adhesion even up to concentrations of 1 μM, a concentration 400,000-fold higher than the ED50 for wild-type IL-5 (Fig. 4 A).
+
+[Figure4 caption, sample statement]
+In both panels each value represents the mean ± SEM of three independent experiments using different blood donors.

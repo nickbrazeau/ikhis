@@ -1,0 +1,127 @@
+{
+  "critic_run_id": "implementation-review-20260912-01",
+  "scope": "Independent scientific/data-integrity and implementation review of scripts/kb.py, tests/test_kb.py and protocol/PROTOCOL.md, with scoring annotations inspected as a dependency. The reviewer authored the genomic evidence pack but did not author or edit the reviewed compiler, tests or protocol. Review focuses on hypothesis polarity, source-derived numerical gating, molecular layers, cohort reuse, entity identity, compatible paths and freeze provenance. Parent coordinator was repairing the implementation concurrently; findings identify the reviewed snapshot and are open for coordinator disposition.",
+  "timestamp_start": "2026-09-12 19:10:48 UTC",
+  "timestamp_end": "2026-09-12 19:25:28 UTC",
+  "agent_role": "Independent Implementation and Scientific Integrity Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0",
+  "reviewed_file_hashes": {
+    "scripts/kb.py": "215f2b80385cd73ff18c399ea9241d6ea1a7fb4e9e591151607bfc3ea28cd9b5",
+    "tests/test_kb.py": "7ad1cdd45dd6b4d09f14bb1d77871afc32569e5a21f08cafcf7d18b4fdce736d",
+    "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+    "scripts/annotate_scoring.py": "dafb037ed0fc943e484b074cc037c796c1076fab4327248e4f512cfef4803eae",
+    "data/scoring_annotations.json": "cc51e18d1f831fea56f7c3a7884563ab8b095dad9508b6b41bf8d7603a1a0f8e"
+  },
+  "coverage": {
+    "methods": [
+      "Read reviewed implementation and protocol in full and inspected relevant unit tests and explicit scoring annotations.",
+      "Executed the existing standard-library unit suite; the latest run reported 16 tests passed.",
+      "Executed isolated in-memory SQLite and mocked review-loader probes. No production database was rebuilt or edited and no reviewed source code was changed."
+    ],
+    "limits": "These are bounded static and synthetic regression checks, not a reproduction of primary scientific analyses. The parent edited the reviewed code concurrently; hashes identify the implementation used for the attached probes, while the later 16-test suite included a newly added nested-cohort test. The pilot currently materializes no complete paths, so pathway findings describe an unsafe acceptance route if explicit bridges are later supplied rather than a current materialized biological claim."
+  },
+  "findings": [
+    {
+      "finding_id": "IMPL-R001",
+      "severity": "high",
+      "target_type": "code",
+      "target_id": "scripts/kb.py:407-425",
+      "challenge": "The structural validator does not enforce the molecular-layer contract for most measurement classes, so a protein measurement targeting a transcript can pass release validation and receive a protein evidence prior.",
+      "evidence": "In an in-memory database with valid source, cohort, entity, context, evidence and all 30 alias records, two reviewed protein_abundance assertions targeting layer T produced validate(db)==[]. The current checks only constrain RNA_abundance (and even allow G) and secreted_protein; protein_abundance, protein_activity, receptor_signaling, splicing and direct_transcriptional_regulation are unchecked. No such wrong-layer assertion was established in the current pilot; the failing reproduction tests the guard promised by the protocol.",
+      "recommendation": "Define and enforce permitted subject/object type and layer combinations for each supported measurement, including explicit program/phenotype exceptions. Reject unsupported or unknown measurement-layer combinations before compiling priors and freezing. Add a narrow regression for protein_abundance on T and RNA_abundance on P.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL-R002",
+      "severity": "high",
+      "target_type": "code",
+      "target_id": "scripts/kb.py:113-147,359-384; protocol/PROTOCOL.md:43-45",
+      "challenge": "The explicit tested hypothesis is neither required for numerical scoring nor used as the identity under which evidence is pooled. As a result, missing hypotheses can score and distinct hypotheses with identical raw endpoints/predicate/context can be combined.",
+      "evidence": "A reviewed P3 record with evidence_relation='supports' and tested_hypothesis='unavailable' returned Beta(2.5,1). Two distinct tested_hypothesis strings attached to otherwise identical assertions from independent cohorts were each assigned Beta(4,1), independent_groups=2, rather than being kept separate. Conversely, a previous in-memory probe gave the same tested_hypothesis to a positive and a negative descriptive predicate, but compile_priors split them into Beta(2.5,1) and Beta(1,2.5). The current pilot explicitly marks all nulls inconclusive, which avoids the original immediate null-polarity problem.",
+      "recommendation": "Require a known, reviewed canonical hypothesis identifier before numerical weighting and include that identifier, compatible context and measurement in grouping. Keep raw descriptive predicates as evidence text without silently complementing them. Validate annotation completeness and ensure an unannotated or inconclusive assertion cannot inherit an available numerical prior merely because it shares raw endpoint fields with an annotated record.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL-R003",
+      "severity": "medium",
+      "target_type": "code",
+      "target_id": "scripts/kb.py:165-189; tests/test_kb.py:test_explicit_compatible_bridge_can_pass",
+      "challenge": "The path acceptance helper treats an arbitrary pair of assertion IDs as a reviewed temporal bridge and does not reject null edges, reverse temporal ordering or incompatible treatment context.",
+      "evidence": "An in-memory path whose first assertion had direction='null', whose contexts had time_point='24 h' then '1 h', and whose treatment_status values were untreated versus immunosuppressed returned (True,[]) once {('A','B')} was supplied. The same fixture also differed in ancestry, which requires an explicit transportability assessment rather than implicit equivalence. Only nine context fields are checked. compile_paths currently supplies no bridges, so actual pilot paths remain blocked.",
+      "recommendation": "Use a structured, source-backed bridge record with review status and explicit temporal/context compatibility instead of a bare ID-pair set. Require edge evidence to support a usable transition, and verify temporal ordering and relevant treatment/developmental/population context before acceptance. Alternatively keep the helper unconditionally fail-closed until bridge validation is implemented and label it accordingly. Add null, reversed-time and incompatible-treatment tests.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL-R004",
+      "severity": "high",
+      "target_type": "code",
+      "target_id": "scripts/kb.py:237-255,305,407-435",
+      "challenge": "High unresolved biological findings only withhold evidence when the finding directly targets an assertion. Source-, cohort- or context-level findings do not propagate to dependent assertions, contrary to the protocol's affected-evidence exclusion rule.",
+      "evidence": "A mocked review containing an open high-severity source finding for S1 produced an empty contested set from load_reviews, although the in-memory database had two reviewed assertions supported by S1. The branch explicitly requires target_type=='assertion'; validate does not independently check open high findings against source/cohort/context dependencies. No unresolved high source-level finding was identified in the current biological review files; this is a reproducible missing quarantine path.",
+      "recommendation": "Resolve biological source/cohort/context findings to all dependent evidence/assertions after ingestion, then mark them contested and exclude their numerical priors and paths. Distinguish biological dependency findings from implementation findings; do not blanket-contest unrelated evidence for a code review. Add a source-level and a cohort-level quarantine regression.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "IMPL-R005",
+      "severity": "medium",
+      "target_type": "code",
+      "target_id": "scripts/kb.py:335-337; assay_coverage.direct_assertion_count",
+      "challenge": "The assay coverage field called direct_assertion_count counts any matching entity name across molecular layers and review states. This overstates direct protein-assay evidence and cannot distinguish reviewed protein measurements from related RNA or unresolved evidence.",
+      "evidence": "The query compares only s.name or o.name to the assay protein name. In the current packs, G-A004 targets TNF layer T with RNA_abundance, while C-A12 targets TNF protein but is needs_full_text; both satisfy the TNF name match. C-A11 and C-A25 also include IL10 transcript outcomes. Counting a ligand merely used as a stimulus may be useful related evidence, but it does not establish that the corresponding assay analyte was directly measured.",
+      "recommendation": "Rename the present count to related_assertion_count, or calculate direct measured coverage by normalized entity ID, measurement role/layer and eligible review status. Expose separate counts for direct protein outcome evidence, ligand/intervention evidence, transcript evidence and unresolved evidence. Preserve assay-channel and ambiguous-identity caveats.",
+      "disposition": "open"
+    }
+  ],
+  "corrections_observed_during_review": [
+    "Input collection now includes data/scoring_annotations.json, and freeze compares complete current inputs against the build artifact hashes before writing a manifest. The originally observed stale-input freeze risk is therefore not an open finding.",
+    "cohort_group now resolves parent relationships transitively and conservatively marks missing, cyclic and unresolved ancestors. Three-level ancestry and resolved-child/unresolved-parent probes each contributed only one capped evidence group.",
+    "Explicit evidence_relation and null_adequacy annotations now distinguish signed direction from support for a specified relationship. Inadequate pilot nulls are inconclusive and do not numerically refute negative predicates; unsigned heterogeneity does not create opposing existence evidence.",
+    "Latest ensure_entity normalizes common cytokine/protein and transcript labels while retaining gene/protein distinction, and the required IL12 ambiguity and CXCL8 two-channel checks are present."
+  ],
+  "supported_boundaries": [
+    "Existing tests verify reused-cohort caps, unresolved overlap caps, true independent replication, preservation of within-cohort conflicts, exclusion of contested/incomplete evidence, null adequacy, separate unsigned heterogeneity, cross-species path blocking, P0 path blocking, entity-layer distinctions and neutral missing/unverified journal metrics.",
+    "No complete paths are materialized without approved bridges in the current compiler.",
+    "Numerical magnitude, transportability and other unavailable parameter families are not fabricated.",
+    "The unit tests passed; the attached adversarial probes reveal acceptance cases not yet covered by that suite."
+  ],
+  "probe_results": {
+    "missing_hypothesis": {
+      "alpha": 2.5,
+      "beta": 1,
+      "estimate": 0.7142857142857143,
+      "direction": [
+        2.5,
+        1,
+        1
+      ],
+      "independent_groups": 1
+    },
+    "wrong_layer_validation_errors": [],
+    "distinct_hypotheses_pooled": [
+      {
+        "assertion_id": "A0",
+        "parameters": "{\"alpha\":4.0,\"beta\":1.0}",
+        "independent_groups": 2
+      },
+      {
+        "assertion_id": "A1",
+        "parameters": "{\"alpha\":4.0,\"beta\":1.0}",
+        "independent_groups": 2
+      }
+    ],
+    "name_only_coverage_count_for_transcript_Y": 2,
+    "null_reversed_time_cross_treatment_path": [
+      true,
+      []
+    ],
+    "source_high_finding_contested_assertions": [],
+    "reviewed_file_hashes": {
+      "scripts/kb.py": "215f2b80385cd73ff18c399ea9241d6ea1a7fb4e9e591151607bfc3ea28cd9b5",
+      "tests/test_kb.py": "7ad1cdd45dd6b4d09f14bb1d77871afc32569e5a21f08cafcf7d18b4fdce736d",
+      "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+      "scripts/annotate_scoring.py": "dafb037ed0fc943e484b074cc037c796c1076fab4327248e4f512cfef4803eae",
+      "data/scoring_annotations.json": "cc51e18d1f831fea56f7c3a7884563ab8b095dad9508b6b41bf8d7603a1a0f8e"
+    }
+  }
+}

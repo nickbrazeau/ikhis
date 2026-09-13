@@ -1,0 +1,16 @@
+{
+  "release": "0.2.0",
+  "repeated_build_identical": true,
+  "isolated_offline_reproduction_identical": true,
+  "filesystem_timestamps_deliberately_changed": true,
+  "matched_output_files": 44,
+  "input_files": 867,
+  "sqlite_sha256": "101ac8ee52d3a8cfbbf41aa5dc9e9ae671f3f4bbe2b812168d623f5258c7d81d",
+  "status_counts": {
+    "reviewed": 134,
+    "needs_full_text": 6
+  },
+  "tests_passed": 45,
+  "scope": "Pre-freeze comparison of all44compiler-generated output files, including SQLite, across two local builds and an isolated offline build from867saved inputs. This audit file is retained separately from compiler-generated outputs.",
+  "environment_scope": "Same local Python/platform; all copied file modification times deliberately changed to a fixed unrelated date."
+}

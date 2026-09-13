@@ -1,0 +1,12 @@
+{
+  "research/review_implementation_0.2.json": {
+    "sha256": "14e84dfb0fbd1a398a384863068fddffc429bcc87ab5b6ff0508468f9b5b9be0",
+    "kind": "synthetic_review_fixture",
+    "reason": "Immutable independent critic report contains only SYNTHETIC_SIGNATURE and SYNTHETIC_TOKEN examples for example.invalid. No actual credential is present. A changed file loses this exception."
+  },
+  "releases/0.2.0/critic_findings.csv": {
+    "sha256": "36897a368ec0559db25c603d8451b5fd62a911eb0445eb207c8dfc0b927da3b4",
+    "kind": "synthetic_review_fixture",
+    "reason": "Compiled immutable review findings repeat the documented example.invalid SYNTHETIC_SIGNATURE/SYNTHETIC_TOKEN regression examples. No real credential is present. Exact-byte exception expires on any output change; the originating review file has its own exact-hash exception."
+  }
+}

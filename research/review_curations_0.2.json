@@ -1,0 +1,88 @@
+{
+  "critic_run_id": "curation-review-CUR02-20260913-01",
+  "scope": "Independent descriptive literature-extraction review of four root-authored Release 0.2 curation overlays (C-A12, C-A18, C-A19, C-A20) merged onto research/cytokine/pack.json, including their affected source and cohort records. Scope: exact outcome, donor versus technical-replicate interpretation, measured compartment, hypothesis relation and contradictions inherited from base fields. Reviewer did not author these corrections or retrieve their stored passages. This review does not propose experimental procedures or provide human adjudication.",
+  "timestamp_start": "2026-09-13 18:00:27 UTC",
+  "timestamp_end": "2026-09-13 18:03:49 UTC",
+  "agent_role": "Independent Evidence Curation Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "reviewed_file_hashes": {
+    "data/curation_overrides_0.2.json": "1a1c2b9b17491d535199197d2306678167bf5b930d33210fb38b3429f98311e6",
+    "research/cytokine/pack.json": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+    "research/fulltext_followup/chrome_STAT3_passages.json": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+    "research/fulltext_followup/chrome_NK_DC_passages.json": "9b889a4c16c2b4f11c9c4fcf423be1951406d93e1bdf5ef9c79df9c9bb74ee97",
+    "research/fulltext_followup/source_passages.json": "6a5848fe4c578f88dea75ff9f12c3356496f4cf97346344b04eb6e4df5a5738a"
+  },
+  "coverage": {
+    "methods": [
+      "Merged each of the four assertion overrides with its original assertion and inspected inherited context, measurement, status and uncertainty fields.",
+      "Merged the two affected source records and two affected cohorts with applicable overrides.",
+      "Compared the resulting assertions with selected Chrome-captured passages and structured observations in chrome_STAT3_passages.json and chrome_NK_DC_passages.json, plus the relevant primary-article excerpts in source_passages.json.",
+      "Checked that supporting Results and figure locators were actually present in the file named by each source locator."
+    ],
+    "limits": "This review used saved selected passages and source-retrieval output, not a complete independent article archive or image-level figure review. A read-only attempt to open the two PMC articles through the web tool returned access-check pages and added no evidence. Detailed methods preserved only as structured observations therefore remain traceable to the original recorder. Figure experiment counts were not reinterpreted as independent donor counts. The coordinator may amend the reviewed overlay after these hashes; the finding remains open for coordinator disposition."
+  },
+  "findings": [
+    {
+      "finding_id": "CUR02-001",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "C-A18",
+      "target_ids": [
+        "C-A18",
+        "C-A19"
+      ],
+      "challenge": "The neutralization assertions cite Results and Figure 4 content as though it is archived in the selected Chrome snapshot, but that file does not contain the cited outcome passages. The positive conclusions are supported elsewhere in the retained source set, so this is an exact-provenance gap rather than an established unsupported biological direction.",
+      "evidence": "C-A18 names the IL12 neutralization Results and Figure4A lower/caption in chrome_NK_DC_passages.json; C-A19 similarly names the proliferation Results and Figure4D there. At the reviewed hash, that Chrome file contains an intracellular-IFNG method passage, a surface-IL15 nondetection result, a Figure5 caption fragment and structured methods, but no IL12-blockade or IL15-blockade outcome passage and no Figure4 caption. The supporting neutralization narrative, Figure4 caption and proliferation interpretation are instead in source_passages.json. C-S07 currently identifies only the Chrome file as its primary snapshot, and the assertion locators omit the additional supporting file.",
+      "recommendation": "Make the assertion locators and source snapshot bundle explicitly reference the retained supporting source_passages.json excerpts, and bind every supporting file in the exact curation approval dependencies. Preserve the difference between indexed primary-text excerpts and Chrome-transcribed passages; do not label one retrieval method as the other. No new experiment or broader claim is needed.",
+      "disposition": "open"
+    }
+  ],
+  "assertion_assessments": [
+    {
+      "assertion_id": "C-A12",
+      "assessment": "supported_as_descriptive_inconclusive_null",
+      "endpoint": "Culture-supernatant TNF after the reported LPS-stimulated STAT3-manipulation comparison.",
+      "compartment_check": "Secreted/extracellular protein matches the archived assay description and Figure2C caption.",
+      "replication_check": "Seven individual donors and triplicate assay measurements are explicitly distinguished. The cohort note scopes seven donors to this endpoint rather than the separate phosphorylation figures. Independence_status remains unresolved.",
+      "scoring_check": "Inconclusive relation and unavailable null adequacy appropriately prevent nonsignificance from becoming evidence of absence.",
+      "inherited_field_check": "The inherited perturbational tier, null direction and monocyte context are consistent with this bounded interpretation. No high-severity inherited contradiction established."
+    },
+    {
+      "assertion_id": "C-A18",
+      "assessment": "qualitative_support_with_provenance_correction_required",
+      "endpoint": "Reduced intracellular IFNG response under IL12 neutralization in the cited NK/DC coculture.",
+      "compartment_check": "The correction correctly limits interpretation to the intracellular flow endpoint and does not claim an extracellular IFNG concentration.",
+      "replication_check": "One representative experiment from a reported set is not converted into an independent donor count; magnitude and precision remain unavailable.",
+      "scoring_check": "Support is appropriate for the narrow intervention-to-measured-response hypothesis, subject to CUR02-001. It does not establish a full receptor pathway or general tissue-independent effect.",
+      "inherited_field_check": "The peripheral-blood/autologous monocyte-derived-DC context corresponds to Figure4A lower. The enriched-response cell-state label must not be read as proof that every input NK cell was a purified CD56-bright subset."
+    },
+    {
+      "assertion_id": "C-A19",
+      "assessment": "qualitative_support_with_provenance_correction_required",
+      "endpoint": "Reduced NK proliferation under IL15 blockade at the reported CFSE endpoint.",
+      "compartment_check": "A cellular proliferation measurement is retained; no protein-secretion or pathway-activity proxy is substituted.",
+      "replication_check": "Independent donor count remains unavailable. The partial resolution of assay detail does not resolve biological replication or the missing blocking-antibody concentration.",
+      "scoring_check": "Support is appropriate for the narrow IL15-blockade/proliferation hypothesis, subject to CUR02-001.",
+      "inherited_field_check": "The inherited duration and time point agree with the saved CFSE assay description. Contact-separation evidence is contextual support and is not promoted to a complete mechanistic path."
+    },
+    {
+      "assertion_id": "C-A20",
+      "assessment": "supported_as_descriptive_inconclusive_nondetection",
+      "endpoint": "Nondetection of surface IL15 on immature monocyte-derived dendritic cells against the stated assay controls.",
+      "compartment_check": "Surface staining is kept distinct from the separate total-cell immunoblot endpoint.",
+      "replication_check": "The reported experiment count is not relabeled as an independent donor count.",
+      "scoring_check": "Inconclusive relation and unavailable null adequacy avoid treating a detection-limit-dependent result as absolute absence.",
+      "inherited_field_check": "The inherited immature-cell state, protein layer, observational tier and null direction are consistent with the narrow assay-bound interpretation."
+    }
+  ],
+  "corrections_observed_during_review": [],
+  "supported_boundaries": [
+    "No unsupported upgrade from intracellular IFNG detection to extracellular secretion was found in the corrected C-A18 assertion.",
+    "No unsupported multiplication of donors by technical triplicates was found in C-A12.",
+    "Neither C-A12 nor C-A20 receives an absence-supporting relation; both remain inconclusive.",
+    "No claim of a complete receptor/signaling path or calibrated effect magnitude was introduced by these four corrections."
+  ],
+  "human_adjudication_status": "pending",
+  "conclusion": "No high-severity unsupported scientific upgrade or definite inherited-field contradiction was established within the four reviewed corrections. One medium exact-provenance finding must be addressed for C-A18 and C-A19. Human review remains pending."
+}

@@ -1,0 +1,455 @@
+{
+  "critic_run_id": "final-curation-review-FCUR02-20260913-01",
+  "review_response_id": "final-curation-review-response-20260913-01",
+  "scope": "Independent descriptive review of newly merged G-A020, source G08 and cohort GCO14; verification that the previously reviewed four cytokine and three proteomic assertion overlays and their source/cohort objects are unchanged; final exact-file and dependency-hash record for all eight curations. This reviewer authored no biological correction or source snapshot. Only the explicitly authorized review_status metadata wording was changed before final hashing. Original critic records remain immutable.",
+  "timestamp_start": "2026-09-13 18:34:32 UTC",
+  "timestamp_end": "2026-09-13 18:38:03 UTC",
+  "agent_role": "Independent Final Curation Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "result": "pass",
+  "reviewed_file_hashes": {
+    "data/curation_overrides_0.2.json": "b70312de6cb8955e85eed0f341baf14eb11fc243a370eb8b3302323977c7f41b",
+    "research/cytokine/pack.json": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+    "research/cytokine/snapshots/PMC10781646.xml": "cdeefd81ddec026ccc32292d2ff428312e9331187217f2baf95b73386227a133",
+    "research/cytokine/snapshots/PMC12776526.xml": "b5eb7fa311846f14f30de12ff62393c3bb13203e3890632dadcc2bffd19430b0",
+    "research/cytokine/snapshots/PMC1810496.xml": "f7993bdc507d40185cee9d442f80352c9cf6acf3699627962bf8f4a6d3cbb661",
+    "research/cytokine/snapshots/PMC2119001.xml": "75a1f66ee0b4bcc5761557e1dc4fe4805791b7022f585d5d67e9e7d97aa30e61",
+    "research/cytokine/snapshots/PMC2193232.xml": "1cafaa4e24ae1789756440cdece1e9670fa0bc6c27f40f7adf9616f69512cc57",
+    "research/cytokine/snapshots/PMC534504.xml": "623342701f7a90e76c163651a779d90bf9dd59131a7992b334fb89fdb11574cb",
+    "research/cytokine/snapshots/open1.json": "3b52b42ebbe3ef495120b4daa7d388bf60f5fb0fb8a27b60edfaf0016d7c9263",
+    "research/cytokine/snapshots/open2.json": "f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0",
+    "research/cytokine/snapshots/open6.json": "8d198a3c0e20035dc2ee4945dc7d7e9b581c7f54264b674b9f13620187e8706f",
+    "research/fulltext_followup/G08_Gregory2007_selected_primary.json": "ae29b2bea667a83778423f0c1847678f67402f525336a471a7e0ad53bd455d6a",
+    "research/fulltext_followup/atlas_followup_paper.json": "74d4494d3a446ab73cbb4d04acac8f5fbf8179803908fa653f2f0292bd0a4800",
+    "research/fulltext_followup/chrome_NK_DC_passages.json": "8d49f2cff939f486ed2007014c6af5498c6a1c3bc7ccf671ca8fab16f7f95f10",
+    "research/fulltext_followup/chrome_STAT3_passages.json": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+    "research/fulltext_followup/proteomic_followup_methods.json": "eb045f5d63885ab3b55909802a521902a35d174a50b0273e639b7efd91492663",
+    "research/genomic/pack.json": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+    "research/genomic/snapshots/G01_fulltext.html": "ca2b3158a5ede8d44f8def50e8c0ebe859f9744a1eb8f6fa8567d8da77f6ee47",
+    "research/genomic/snapshots/G02_fulltext.html": "d9d79f2a8201bf96a7fa80b68ef492f431a922ca879ab2973f9bf6c3a2a639f3",
+    "research/genomic/snapshots/G03_fulltext.html": "6bde78d536f1eb9d88c669269432b0d59c0e02155d5f02f54fbb7690c5ff1df8",
+    "research/genomic/snapshots/G04_fulltext.html": "b00f8fea385ccd45e5f52e4dec0e77ba2e8904404c4f9c6003fa846a98976c2e",
+    "research/genomic/snapshots/G05_fulltext.html": "188969120233572f5e81a117857db69883c9f3dc74b85b9291a627e7b2fcd135",
+    "research/genomic/snapshots/G06_open.txt": "12ff96ede606113d227851de616310821525737269843b19b5863385e17f2402",
+    "research/genomic/snapshots/G07_fulltext.html": "90dec76f49467727354b9ec9f7e3a1689c75a4879fe92702917f4458ffed15b5",
+    "research/genomic/snapshots/G08_open.txt": "2ca2ed156d83aa7e45425de54fbd1f0b5311e231ced85f63d44418a2ce9d5ebf",
+    "research/genomic/snapshots/G09_fulltext.html": "2757c6c4e56a14030dc9f42d38c01dfad94e2d0472e36d013f96f35e697781fb",
+    "research/genomic/snapshots/G10_fulltext.html": "fd9b54e4e1b84f4dc51b3cd26a3f379f611eced0f5e63d99555bd0b85b454efa",
+    "research/proteomic/pack.json": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+    "research/proteomic/snapshots/atlas_publisher_page.html": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+    "research/proteomic/snapshots/atlas_publisher_page.txt": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+    "research/proteomic/snapshots/bendall_fulltext.html": "73c3dcc246f01706db7fd878734c3f2d836391da1e7918f4315acf1bddef8c55",
+    "research/proteomic/snapshots/cite_publisher_page.html": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+    "research/proteomic/snapshots/cite_publisher_page.txt": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+    "research/proteomic/snapshots/extract2.json": "5e6d7a8cb7fdc9c6d6036c9b2d612244bf0de03bc62ebca77ea7298f883325d8",
+    "research/proteomic/snapshots/extract3.json": "6af3e7c4129c2432098ba3fef4eca06a4e83b0cd3777c9c95af48ef369c48252",
+    "research/proteomic/snapshots/open3.json": "55bf684aea6dba87a915b28e45488c912f5fc6eb2b3f021e3aba8f5436cc20b8",
+    "research/proteomic/snapshots/platelet_fulltext.html": "13728c96a93ea8a6762c20dae81bab2979cb84046a4f42b2432b735c02151359",
+    "research/proteomic/snapshots/reap_fulltext.pdf": "bba7753a2baea26cb649e574e530791a040f1d37958b1e59f244d9331058356d",
+    "research/review_curations_0.2.json": "f3cbf5907936d36c0a255bf926ecda2028e479247b45123c4d4c5d0587ceccac",
+    "research/curation_review_response_0.2.json": "526a87078944b19e511802712cad9d9ccc4c9b7c40bbe73a4669608544da9430",
+    "research/review_proteomic_curations_0.2.json": "e563b8372a4ca57c6629e0518dbac3bf18e2ffa676838bf0295afeae2234e4c5",
+    "scripts/kb.py": "2e73785a29b2001685a84a9d11986e7d389f0a6fe2236feb6cd31aec0331d7f2"
+  },
+  "release_approval_inputs": {
+    "curation_path": "data/curation_overrides_0.2.json",
+    "sha256": "b70312de6cb8955e85eed0f341baf14eb11fc243a370eb8b3302323977c7f41b",
+    "source_hashes": {
+      "research/cytokine/pack.json": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+      "research/cytokine/snapshots/PMC10781646.xml": "cdeefd81ddec026ccc32292d2ff428312e9331187217f2baf95b73386227a133",
+      "research/cytokine/snapshots/PMC12776526.xml": "b5eb7fa311846f14f30de12ff62393c3bb13203e3890632dadcc2bffd19430b0",
+      "research/cytokine/snapshots/PMC1810496.xml": "f7993bdc507d40185cee9d442f80352c9cf6acf3699627962bf8f4a6d3cbb661",
+      "research/cytokine/snapshots/PMC2119001.xml": "75a1f66ee0b4bcc5761557e1dc4fe4805791b7022f585d5d67e9e7d97aa30e61",
+      "research/cytokine/snapshots/PMC2193232.xml": "1cafaa4e24ae1789756440cdece1e9670fa0bc6c27f40f7adf9616f69512cc57",
+      "research/cytokine/snapshots/PMC534504.xml": "623342701f7a90e76c163651a779d90bf9dd59131a7992b334fb89fdb11574cb",
+      "research/cytokine/snapshots/open1.json": "3b52b42ebbe3ef495120b4daa7d388bf60f5fb0fb8a27b60edfaf0016d7c9263",
+      "research/cytokine/snapshots/open2.json": "f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0",
+      "research/cytokine/snapshots/open6.json": "8d198a3c0e20035dc2ee4945dc7d7e9b581c7f54264b674b9f13620187e8706f",
+      "research/fulltext_followup/G08_Gregory2007_selected_primary.json": "ae29b2bea667a83778423f0c1847678f67402f525336a471a7e0ad53bd455d6a",
+      "research/fulltext_followup/atlas_followup_paper.json": "74d4494d3a446ab73cbb4d04acac8f5fbf8179803908fa653f2f0292bd0a4800",
+      "research/fulltext_followup/chrome_NK_DC_passages.json": "8d49f2cff939f486ed2007014c6af5498c6a1c3bc7ccf671ca8fab16f7f95f10",
+      "research/fulltext_followup/chrome_STAT3_passages.json": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+      "research/fulltext_followup/proteomic_followup_methods.json": "eb045f5d63885ab3b55909802a521902a35d174a50b0273e639b7efd91492663",
+      "research/genomic/pack.json": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+      "research/genomic/snapshots/G01_fulltext.html": "ca2b3158a5ede8d44f8def50e8c0ebe859f9744a1eb8f6fa8567d8da77f6ee47",
+      "research/genomic/snapshots/G02_fulltext.html": "d9d79f2a8201bf96a7fa80b68ef492f431a922ca879ab2973f9bf6c3a2a639f3",
+      "research/genomic/snapshots/G03_fulltext.html": "6bde78d536f1eb9d88c669269432b0d59c0e02155d5f02f54fbb7690c5ff1df8",
+      "research/genomic/snapshots/G04_fulltext.html": "b00f8fea385ccd45e5f52e4dec0e77ba2e8904404c4f9c6003fa846a98976c2e",
+      "research/genomic/snapshots/G05_fulltext.html": "188969120233572f5e81a117857db69883c9f3dc74b85b9291a627e7b2fcd135",
+      "research/genomic/snapshots/G06_open.txt": "12ff96ede606113d227851de616310821525737269843b19b5863385e17f2402",
+      "research/genomic/snapshots/G07_fulltext.html": "90dec76f49467727354b9ec9f7e3a1689c75a4879fe92702917f4458ffed15b5",
+      "research/genomic/snapshots/G08_open.txt": "2ca2ed156d83aa7e45425de54fbd1f0b5311e231ced85f63d44418a2ce9d5ebf",
+      "research/genomic/snapshots/G09_fulltext.html": "2757c6c4e56a14030dc9f42d38c01dfad94e2d0472e36d013f96f35e697781fb",
+      "research/genomic/snapshots/G10_fulltext.html": "fd9b54e4e1b84f4dc51b3cd26a3f379f611eced0f5e63d99555bd0b85b454efa",
+      "research/proteomic/pack.json": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+      "research/proteomic/snapshots/atlas_publisher_page.html": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+      "research/proteomic/snapshots/atlas_publisher_page.txt": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+      "research/proteomic/snapshots/bendall_fulltext.html": "73c3dcc246f01706db7fd878734c3f2d836391da1e7918f4315acf1bddef8c55",
+      "research/proteomic/snapshots/cite_publisher_page.html": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+      "research/proteomic/snapshots/cite_publisher_page.txt": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+      "research/proteomic/snapshots/extract2.json": "5e6d7a8cb7fdc9c6d6036c9b2d612244bf0de03bc62ebca77ea7298f883325d8",
+      "research/proteomic/snapshots/extract3.json": "6af3e7c4129c2432098ba3fef4eca06a4e83b0cd3777c9c95af48ef369c48252",
+      "research/proteomic/snapshots/open3.json": "55bf684aea6dba87a915b28e45488c912f5fc6eb2b3f021e3aba8f5436cc20b8",
+      "research/proteomic/snapshots/platelet_fulltext.html": "13728c96a93ea8a6762c20dae81bab2979cb84046a4f42b2432b735c02151359",
+      "research/proteomic/snapshots/reap_fulltext.pdf": "bba7753a2baea26cb649e574e530791a040f1d37958b1e59f244d9331058356d"
+    },
+    "dependency_count": 37,
+    "collection_rule": "Exactly the compiler approved_curations closure: every primary/additional source file declared by the curation overlays, plus each cytokine/genomic/proteomic base pack and every primary/additional source file declared by those base packs. Duplicate paths are collapsed. The 37 dependencies include three base packs and 34 unique source snapshots. Dependency hash recording does not imply a new scientific review of unrelated base assertions."
+  },
+  "prior_reviews": {
+    "research/review_curations_0.2.json": "f3cbf5907936d36c0a255bf926ecda2028e479247b45123c4d4c5d0587ceccac",
+    "research/curation_review_response_0.2.json": "526a87078944b19e511802712cad9d9ccc4c9b7c40bbe73a4669608544da9430",
+    "research/review_proteomic_curations_0.2.json": "e563b8372a4ca57c6629e0518dbac3bf18e2ffa676838bf0295afeae2234e4c5"
+  },
+  "findings": [],
+  "findings_summary": "No new material extraction finding was identified. G-A020 passes the bounded primary-passage review. CUR02-001 remains corrected as documented in the preserved response; the seven previously reviewed curations and their source snapshots are unchanged.",
+  "genomic_assertion_assessment": {
+    "assertion_id": "G-A020",
+    "source_id": "G08",
+    "cohort_id": "GCO14",
+    "result": "pass",
+    "primary_evidence_path": "research/fulltext_followup/G08_Gregory2007_selected_primary.json",
+    "primary_evidence_sha256": "ae29b2bea667a83778423f0c1847678f67402f525336a471a7e0ad53bd455d6a",
+    "checks": [
+      {
+        "topic": "Statistic identity",
+        "result": "pass",
+        "evidence": "Results prose at printed page4 gives CC versus CT/TT OR1.29 with 95%CI1.14-1.46. Table4 associates this combined case-control recessive contrast with P0.00008, distinct from additive screening and the separate P2.9e-7 combination of family and case-control evidence. The curation keeps these statistics and sample bases separate."
+      },
+      {
+        "topic": "Participant totals",
+        "result": "pass_with_retained_source_discrepancy",
+        "evidence": "The source component counts sum to1515cases/3204controls, whereas combined Results explicitly state1512cases/3184controls. Both are retained. The review does not resolve whether missing genotype observations, a reporting error or another cause explains the discrepancy. No deduplicated overall participant total is invented."
+      },
+      {
+        "topic": "Cohort and ancestry",
+        "result": "pass_with_retained_independence_uncertainty",
+        "evidence": "The US family Methods specify760families,1055affected and non-Hispanic European ancestors. The separate US case-control age eligibility and invited comparator matching are not assigned to the full combined population. European ascertainment distinguishes UK and Flanders; named HRC,British1958BirthCohort and Belgian controls are retained. Country recruitment is not treated as genetically verified ancestry for every participant. Authors within-paper independence is attributed; cross-publication overlap remains unresolved and four independent prior increments are not inferred."
+      },
+      {
+        "topic": "Molecular layer and causality",
+        "result": "pass",
+        "evidence": "The assertion remains a G1 disease-susceptibility association. The separate minigene and healthy-control assays measure transcript splicing or isoform RNA; they are not recast as measured soluble or membrane receptor protein. Rat cell hosts are not transported into the human association. No receptor-mediated or disease-causal mechanism is claimed."
+      },
+      {
+        "topic": "Subgroup null and access",
+        "result": "pass",
+        "evidence": "The primary-progressive subgroup nonsignificance is accompanied by its reported low power and is not absence evidence. The source record accurately identifies a mirrored primary article with selected Methods/Results; missing supplementary participant identities and failed visual table inspection remain limits. The OR and CI have explicit prose support."
+      }
+    ]
+  },
+  "previous_curation_integrity": {
+    "result": "pass",
+    "assertion_ids": [
+      "C-A12",
+      "C-A18",
+      "C-A19",
+      "C-A20",
+      "P_A01",
+      "P_A07",
+      "P_A08"
+    ],
+    "exact_prior_seven_overlay_reconstruction": {
+      "method": "Remove only newly added G08,G-A020,GCO14 objects from the final curation object; restore the recorded prior review_status and scope metadata; serialize with ensure_ascii=False,indent=2 and trailing newline.",
+      "reconstructed_sha256": "510838ae97029dee4a988afe1aa19abf04db872b585c70c91d793e955ce552e0",
+      "previously_reviewed_sha256": "510838ae97029dee4a988afe1aa19abf04db872b585c70c91d793e955ce552e0",
+      "result": "pass",
+      "meaning": "All seven assertion overlays, their source and cohort overlays, original ordering and other prior file content exactly reproduce the recorded pre-genomic file. No earlier biological overlay object changed during the genomic merge or final metadata update."
+    },
+    "proteomic_canonical_object_checks": {
+      "result": "pass",
+      "checks": {
+        "assertions": {
+          "P_A01": "pass",
+          "P_A07": "pass",
+          "P_A08": "pass"
+        },
+        "sources": {
+          "P_S01": "pass",
+          "P_S03": "pass"
+        },
+        "cohorts": {
+          "P_C01_IL34": "pass",
+          "P_C03": "pass"
+        }
+      }
+    },
+    "prior_source_and_base_hash_checks": {
+      "research/cytokine/pack.json": {
+        "expected_sha256": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+        "current_sha256": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+        "result": "pass"
+      },
+      "research/fulltext_followup/chrome_STAT3_passages.json": {
+        "expected_sha256": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+        "current_sha256": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+        "result": "pass"
+      },
+      "research/fulltext_followup/chrome_NK_DC_passages.json": {
+        "expected_sha256": "8d49f2cff939f486ed2007014c6af5498c6a1c3bc7ccf671ca8fab16f7f95f10",
+        "current_sha256": "8d49f2cff939f486ed2007014c6af5498c6a1c3bc7ccf671ca8fab16f7f95f10",
+        "result": "pass"
+      },
+      "research/fulltext_followup/source_passages.json": {
+        "expected_sha256": "6a5848fe4c578f88dea75ff9f12c3356496f4cf97346344b04eb6e4df5a5738a",
+        "current_sha256": "6a5848fe4c578f88dea75ff9f12c3356496f4cf97346344b04eb6e4df5a5738a",
+        "result": "pass"
+      },
+      "research/fulltext_followup/atlas_followup_paper.json": {
+        "expected_sha256": "74d4494d3a446ab73cbb4d04acac8f5fbf8179803908fa653f2f0292bd0a4800",
+        "current_sha256": "74d4494d3a446ab73cbb4d04acac8f5fbf8179803908fa653f2f0292bd0a4800",
+        "result": "pass"
+      },
+      "research/fulltext_followup/proteomic_followup_methods.json": {
+        "expected_sha256": "eb045f5d63885ab3b55909802a521902a35d174a50b0273e639b7efd91492663",
+        "current_sha256": "eb045f5d63885ab3b55909802a521902a35d174a50b0273e639b7efd91492663",
+        "result": "pass"
+      },
+      "research/proteomic/pack.json": {
+        "expected_sha256": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+        "current_sha256": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+        "result": "pass"
+      },
+      "research/proteomic/snapshots/atlas_publisher_page.html": {
+        "expected_sha256": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+        "current_sha256": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+        "result": "pass"
+      },
+      "research/proteomic/snapshots/atlas_publisher_page.txt": {
+        "expected_sha256": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+        "current_sha256": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+        "result": "pass"
+      },
+      "research/proteomic/snapshots/cite_publisher_page.html": {
+        "expected_sha256": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+        "current_sha256": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+        "result": "pass"
+      },
+      "research/proteomic/snapshots/cite_publisher_page.txt": {
+        "expected_sha256": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+        "current_sha256": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7",
+        "result": "pass"
+      }
+    },
+    "cytokine_disposition": "Four assertion meanings remain as independently reviewed and corrected in research/curation_review_response_0.2.json; exact cytokine base and selected source hashes match that response."
+  },
+  "reviewed_object_hash_method": "SHA256 of UTF-8 json.dumps(object,sort_keys=True,ensure_ascii=False,separators=(comma,colon)),without trailing newline.",
+  "reviewed_overlay_object_hashes": {
+    "assertions": {
+      "C-A18": "a8aeef516451e28d6ff78000348a85845443d2ac5a4028b633830e21c1a6fc75",
+      "C-A19": "472cdb7e5d793a80d6616bf740d74bdce899d66312ebe82b1a01e6d11f7ee33c",
+      "C-A12": "8dc03a05c2d7446b6003e9fbd98a452f01042a092a5da4542a0268a7b8e1656a",
+      "C-A20": "4686eb25b58b514048aa9e2f2f336f407eb312f2243b3fb3f9a19640e7514318",
+      "P_A07": "c82dc18f62ceb55d96ae0b2d7c33ea5857fd9a373d9496989e36069903c3334d",
+      "P_A08": "0cbdad21f5e5c4999f44787815cf0cf47de83f9a6fc7922f50a08cdb27b3f729",
+      "P_A01": "9c2e92eacb3c39e29a823ecc0bc1b9db6fed251abda725da855be59888506ec4",
+      "G-A020": "4270e37ec1857aa9ec762012ac2dc7dfed1eded0cfa3542d543a6ad59587cd5a"
+    },
+    "sources": {
+      "C-S07": "581029a1ddd3df9d11a077cd9f06923b7a013e43294efa925f7816247e0558a4",
+      "C-S05": "e5ab40c647767629a5bb30395506f8c5dd54e6ad535dceca1159d83427dee685",
+      "P_S03": "9c1cfea2bed32368cadcb93f62dab7d249ec6cb8fbf7ee5ae8876ce86e1eceb4",
+      "P_S01": "df23a579f31ca4eda8703b3c1a959fd12537b389d9da70d86a014a4f121d232c",
+      "G08": "70eaacf481221511d89894bcac16d4e918436edd12c1094b980c89f949bc9395"
+    },
+    "cohorts": {
+      "C-CO05": "7cb23c4a43291142a5ec9d13786f0d632e37b8e3492cfb9cf04ff24b727d4669",
+      "P_C03": "b4488ed68263c4eefe962b3905cf1b886cb11d8994e1e3962256345b0b369989",
+      "P_C01_IL34": "b9730f4dd0de76474d408fa945e6cd0b5719cda0155bea3a1ba424d7935ab34a",
+      "GCO14": "ec85b84f15a16bd5045a208608698b7552b4914f80b36b89f5e4c090104d7ec8"
+    }
+  },
+  "reviewed_merged_object_hashes": {
+    "assertions": {
+      "C-A18": "7b937c47088640d92f2a5d31df68a1828afb41b3ef0d656a97c913bcac4dd7d1",
+      "C-A19": "4bbb035e711119cced5b6626824634c5495c4bf57d402b1d0739ee588aa26e58",
+      "C-A12": "6eb2a265fb40e9a5d3d18269ecfcfaf12b6f740673ca1f4bb9e073b325f01d2c",
+      "C-A20": "64852d2a776ba9de3704fd8d172be2d1a3f3560e2f3b14fa403214e49e77a786",
+      "P_A07": "4af1cdca225b66995db03fa67901d1370591e723d81709935c62610f23e0c366",
+      "P_A08": "ecc1df5d1e39060a358b209102108010a7f8720507d26dc1184eca3a9c9d8866",
+      "P_A01": "529d208060e2b7cc8f4a0af2ac92abdba40c0bc74d5b2d02be17b06516134df4",
+      "G-A020": "4270e37ec1857aa9ec762012ac2dc7dfed1eded0cfa3542d543a6ad59587cd5a"
+    },
+    "sources": {
+      "C-S07": "1ab45bfa08c90b82c5f2fdf9be8389293a736cdf1dbebc6ddff0a4679b64dd83",
+      "C-S05": "1609122ef0496599aee2602e1879a24f128ad7260dfe4f9eb75a607448b34ae1",
+      "P_S03": "5d743bbecdd63247c0824d34757f1a970be019c6407293808306119695f1138e",
+      "P_S01": "9191d46b59647846a322c15dcaa81c9ba5c0d36c33eacdae30c0ee4937bc34fd",
+      "G08": "70eaacf481221511d89894bcac16d4e918436edd12c1094b980c89f949bc9395"
+    },
+    "cohorts": {
+      "C-CO05": "cd52125e2793b9730c3e169f7990bf85db2417850bd1cc635652be18dffe4779",
+      "P_C03": "a5ac8497686186371e0038d4c28e2918045458582678cb4db52b5bd8fc7abe26",
+      "P_C01_IL34": "a4e58c4e5def572de26e12f8a6842aa13de50760508b07d7118f0c7c7faf2567",
+      "GCO14": "ec85b84f15a16bd5045a208608698b7552b4914f80b36b89f5e4c090104d7ec8",
+      "C-CO07": "0cd0e1e7bacb2601536ee5363293fafd8d9380f8f15b92b1431adac3af8953ce"
+    }
+  },
+  "genomic_reviewed_objects": {
+    "assertions": {
+      "G-A020": {
+        "assertion_id": "G-A020",
+        "subject": "rs6897932",
+        "subject_type": "variant",
+        "predicate": "is_associated_with_disease_susceptibility",
+        "object": "multiple sclerosis",
+        "object_type": "disease",
+        "subject_layer": "G",
+        "object_layer": "F",
+        "measurement": "association",
+        "evidence_tier": "G1",
+        "direction": "association",
+        "source_id": "G08",
+        "cohort_id": "GCO14",
+        "source_locator": "Gregory2007 PDF printed pp3-4: Results Replication of the rs6897932 effect and Table4; pp7-8: Methods cohort ascertainment, genotyping and statistics. G08_Gregory2007_selected_primary.json locators[0:3].",
+        "evidence_summary": "The rs6897932 C allele was associated with multiple-sclerosis susceptibility in European-ancestry family and case-control datasets; combined case-control OR for CC versus CT/TT was1.29.",
+        "species": "Homo sapiens",
+        "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+        "age": "US case-control recruitment eligibility18-65years; no pooled age estimate imported",
+        "sex": "US healthy comparators invited to match case sex, ancestry and similar age; no pooled sex estimate imported",
+        "tissue": "peripheral blood",
+        "disease": "multiple sclerosis and comparison participants",
+        "disease_severity": "unavailable",
+        "treatment_status": "unavailable",
+        "cell_type": "unavailable",
+        "cell_state": "unavailable",
+        "developmental_state": "unavailable",
+        "stimulation": "unavailable",
+        "dose": "unavailable",
+        "duration": "unavailable",
+        "assay": "Whole-blood genomic DNA;TaqMan allelic discrimination onABI7900HT;pedigree disequilibrium test and logistic regression",
+        "genomic_background": "rs6897932 CC versus CT/TT for recessive model; additive genotypes used in initial screening",
+        "time_point": "unavailable",
+        "effect_size": "1.29",
+        "effect_unit": "odds ratio;CC versus CT/TT in combined case-control analysis",
+        "uncertainty": "95%CI1.14-1.46;recessive combined case-control P=0.00008(Table4).Overall P=2.9e-7 combines family and case-control evidence and is a different statistic.",
+        "causal_directness": "Disease association; does not itself establish molecular or disease causality.",
+        "limitations": "One publication with four datasets; cross-publication donor overlap unresolved. Recruited totals438+1077 cases and479+2725 controls differ from reported combined analysis1512cases/3184controls; discrepancy retained. Association remainsG1. Molecular assays measure minigene/PBMC RNA, not soluble or membrane protein. Primary-progressive subgroup n185 had P>0.30 and stated25%power; this null does not establish absence. No independent numeric prior increments inferred.",
+        "contradiction_group": "unavailable",
+        "candidate_path": "unavailable",
+        "qc_status": "reviewed_extraction",
+        "qualitative_confidence": "moderate",
+        "quantitative_result": {
+          "value": 1.29,
+          "unit": "odds ratio",
+          "comparator": "rs6897932 CC versus CT/TT",
+          "uncertainty": "95%CI1.14-1.46;P=0.00008",
+          "donor_sample_basis": "Two case-control datasets; combined Results analysis1512MS cases/3184controls, distinct from larger recruited totals. Family datasets excluded from this OR.",
+          "locator": "Table4 and Results Replication of the rs6897932 effect, printed p4"
+        },
+        "scoring_annotation": {
+          "tested_hypothesis": "rs6897932 genotype is associated with multiple-sclerosis susceptibility in the recorded European-ancestry populations.",
+          "evidence_relation": "supports",
+          "null_adequacy": "not_applicable",
+          "rationale": "Supports susceptibility association only; no molecular causality or protein phenotype asserted. Independent review and human adjudication remain separate."
+        }
+      }
+    },
+    "sources": {
+      "G08": {
+        "source_id": "G08",
+        "title": "Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+        "authors": "Simon G Gregory et al.",
+        "year": 2007,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17660817/",
+        "doi": "10.1038/ng2103",
+        "pmid": "17660817",
+        "source_type": "primary_study",
+        "version": "Nature Genetics advance online publication29July2007;doi10.1038/ng2103;nine-page primary PDF mirror",
+        "retrieved_at": "2026-09-13T18:25:29Z",
+        "access_level": "full_primary_article_selected_methods_results",
+        "snapshot_path": "research/fulltext_followup/G08_Gregory2007_selected_primary.json",
+        "species": "Homo sapiens",
+        "notes": "Article identity and relevant Methods/Results verified in primary PDF. Disease association is human; separate minigenes use humanHeLa and ratDT3/AT3 hosts. Primary PBMC arm94healthy controls measures isoform RNA byPCR. No protein-abundance/secretion claim imported. PDF screenshot cache misses limited visual table inspection; OR agrees with explicit prose.",
+        "additional_snapshot_paths": [
+          "research/genomic/snapshots/G08_open.txt"
+        ],
+        "retrieved_url": "https://www.direct-ms.org/wp-content/uploads/2018/01/IL-7-gene-Nature-Genetics-07.pdf"
+      }
+    },
+    "cohorts": {
+      "GCO14": {
+        "cohort_id": "GCO14",
+        "dataset_id": "GDS14",
+        "accession": "unavailable",
+        "study_id": "G08",
+        "participants": "US760families including1055affected;US438cases/479controls;northern-European1338trios;northern-European1077cases/2725controls",
+        "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+        "species": "Homo sapiens",
+        "tissue": "peripheral blood",
+        "cell_type": "unavailable",
+        "disease": "multiple sclerosis and comparison participants",
+        "intervention": "genetic association",
+        "sample_count": "Four dataset components; no total unique participant count computed",
+        "donor_count": "Unavailable as deduplicated total across related publications",
+        "parent_cohort": "unavailable",
+        "related_publications": [
+          "G08"
+        ],
+        "independence_status": "Authors describe within-paper datasets as independent; cross-publication overlap unresolved",
+        "notes": "US case-control:UCSF July2004-September2005. UK controls479HRC blood donors and2047British1958BirthCohort; Belgian199hospital staff/noninflammatory neurological patients. These identities can reveal later-study overlap. Combined analyzed totals1512cases/3184controls differ from recruited1515/3204. Do not multiply prior support by four without donor-overlap adjudication.",
+        "dataset_components": [
+          {
+            "name": "US family",
+            "families": 760,
+            "multiplex_families": 197,
+            "single_case_families": 563,
+            "affected": 1055,
+            "ancestry": "non-Hispanic European descent"
+          },
+          {
+            "name": "US case-control",
+            "cases": 438,
+            "controls": 479,
+            "ascertainment": "UCSF MS Center July2004-September2005;age18-65;comparator matched bysex,ancestry,similarage"
+          },
+          {
+            "name": "Northern European family",
+            "trios": 1338,
+            "ascertainment": "UK nationally and Flanders,Belgium"
+          },
+          {
+            "name": "Northern European case-control",
+            "cases": 1077,
+            "controls": 2725,
+            "control_components": {
+              "HRC_blood_donors": 479,
+              "British_1958_Birth_Cohort": 2047,
+              "Belgian_hospital_staff_or_noninflammatory_neurological_patients": 199
+            }
+          }
+        ]
+      }
+    }
+  },
+  "authorized_metadata_edit": {
+    "path": "data/curation_overrides_0.2.json",
+    "field": "review_status",
+    "before_file_sha256": "0552dd71ebdcd9bb1c386ce53a12d04ae397e74e624be5616a4f474a1a0a02dd",
+    "after_file_sha256": "b70312de6cb8955e85eed0f341baf14eb11fc243a370eb8b3302323977c7f41b",
+    "new_value": "Independent agent review documented in linked review records; exact release eligibility is controlled by data/reviewed_curations.json. Human adjudication remains pending.",
+    "verification": "Before/after parsed objects compared equal after removing only review_status. No source, assertion, cohort or scope value changed."
+  },
+  "assertion_results": {
+    "C-A12": "pass;inconclusive extracellular TNF null",
+    "C-A18": "pass;intracellular IFNG neutralization endpoint",
+    "C-A19": "pass;CFSE proliferation endpoint",
+    "C-A20": "pass;inconclusive surface IL15 nondetection",
+    "P_A01": "pass with retained preparation ambiguity;conventional-memory hypothesis inconclusive",
+    "P_A07": "pass;within-dataset CD8A surface-tag distribution association",
+    "P_A08": "pass;CD4 surface-tag null remains inconclusive",
+    "G-A020": "pass;genotype-to-disease susceptibility association only"
+  },
+  "remaining_issues": [],
+  "retained_limitations": [
+    "Human adjudication and empirical probability calibration remain pending.",
+    "Cytokine source excerpts do not resolve every donor count or blocking-antibody dose.",
+    "IL34 CD45RA gate rendering and conventional-memory preparation identity remain unresolved.",
+    "CITE-seq unique donor number and raw matrix reanalysis remain unavailable.",
+    "Genomic combined participant counts differ from component counts; cross-publication overlap and individual identities remain unresolved.",
+    "The final approval is restricted to these exact curation and dependency bytes; later edits invalidate it."
+  ],
+  "human_adjudication_status": "pending",
+  "conclusion": "All eight finalized curation assertions pass their bounded independent reviews at the recorded complete-file hash and37compiler dependency hashes. No new open findings. The coordinating agent may record exact release eligibility in data/reviewed_curations.json under the project rules; this response does not supply human adjudication."
+}

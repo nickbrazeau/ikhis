@@ -1,0 +1,16 @@
+{
+  "integrity_policy": "The original manifest remains unchanged. Verification explicitly reports this security exception and checks sanitized bytes against the recorded replacement hash. This is not a claim that the original snapshot bytes remain unchanged.",
+  "original_manifest_sha256": "6ef2ada53d85c341987f30d3355f4cde99157cdf5fe3883d56bdda936fecf8b0",
+  "redactions": {
+    "research/cytokine/snapshots/search1.json": {
+      "configured_url_expiration_utc": "2026-03-12T14:39:19+00:00",
+      "original_sha256": "b4fc221fcc0eedcafac0d2830603a188f63450b5a028a03a04b11ad9e4ce7c3d",
+      "reason": "Remove third-party expired AWS presigned URL credential, security-token and signature parameters from a search-result snapshot. Biological source text and URL host/path are unchanged.",
+      "sanitized_sha256": "31daf70acc7364dda08c0a5191aebd61fcca9fe30b522512798eacc9776e83cb",
+      "url_host": "higherlogicdownload.s3.amazonaws.com"
+    }
+  },
+  "release": "0.1.0",
+  "timestamp_utc": "2026-09-13T17:37:55.319048+00:00",
+  "type": "credential_metadata_redaction"
+}

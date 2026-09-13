@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DICE | Database of Immune Cell eQTLs, Expression, Epigenomics</title>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script>
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-106218976-1', {'siteSpeedSampleRate': 100});
+
+      ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xly3sbztji");
+</script>
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/landing.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/academicons.min.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/d3.js"></script>
+    <script type="text/javascript" src="/static/js/typeahead.jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/bloodhound.min.js"></script>
+
+
+</head>
+<body>
+<div class="content-container">
+
+    <div class="header">
+        <div>
+            <img height=70px src="/static/logo.svg">
+        </div>
+    </div>
+    <div class="header" style="padding:0;margin:0 0 0 0;background: #484343; min-height: 0;padding:5px;">
+        <label class="toggle">
+            <span class="toggle-label">Immune cells from: </span>
+            <span class="toggle-label">Blood</span>
+          <input class="toggle-checkbox" type="checkbox" >
+          <div class="toggle-switch"></div>
+          <span class="toggle-label">Lung <i style="color: red;">(beta)</i></span>
+        </label>
+        <h4 style="color:white; margin-top:0; margin-bottom:0;">
+            GRCh37.p19
+        </h4>
+    </div>
+
+<div id="dataSetModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Select dataset</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6 modal-card">
+                        <a href="#">
+                            <img src="/static/media/WebPage_Logo-2.png" alt="">
+                            <h3>Immune cells from blood</h3>
+                            <p>Explore the DICE dataset of immune cells isolated from human blood (mapped to GRCh37).</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 modal-card">
+                        <a href="https://lung.dice-database.org/">
+                            <img src="/static/media/WebPage_Logo-1.png" alt="">
+                            <h3>Immune cells from lung tissue <b style="color: maroon;">(beta)</b></h3>
+                            <p>Explore the DICE single-cell dataset of immune cells isolated from human lung tissue (mapped to GRCh38).</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-elements">
+        <div class='listed-tools col-md-12'>
+            <div class="col-md-6 tool">
+                <div class='tool-container A'>
+                <a href="javascript:void(0);" onclick="$(gene_page_form).submit()">
+                    <div class="row">
+                       <img src="/static/gene_icon.svg">
+                        <h4>Explore gene</h4>
+                        <p>Enter gene name or abbreviation</p>
+                        <hr>
+                    </div>
+                </a>
+                <div class="row">
+                    <form name="gene_page_form" id="gene_form" action="javascript:void(0);">
+                    <div class="input-group">
+                        <span class="input-group-addon">Gene:</span>
+                        <input class="form-control typeahead gene_input" id="gene_page_input" type="text" name='gene' placeholder="Example: GAB2">
+                        <span class="input-group-btn">
+                            <button onclick="window.location.href='/genes/'+$('#gene_page_input').val()" class="btn btn-default">Bulk RNA seq</button>
+                            <button onclick="window.location.href='/genes/'+$('#gene_page_input').val() + '?single_cell=true'" class="btn btn-default">Single cell</button>
+                        </span>
+                    </div>
+
+                    
+                </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6 tool" >
+            <div class='tool-container C'>
+                <a href="javascript:void(0);" onclick="$(cell_page_form).submit();">
+                    <div class="row">
+                        <img src="/static/cell_icon.svg">
+                        <h4>Explore cell type</h4>
+                        <p>Select cell type</p>
+                        <hr>
+                    </div>
+                </a>
+                <div class="row">
+                    <form name="cell_page_form" action="javascript:void(0);" onsubmit="window.location.href='/cells/'+this.cell_type.value">
+                        <div class="input-group">
+                            <span class="input-group-addon">Cell type:</span>
+                            <select name="cell_type" id="cell-page-select" class="form-control cell_select">
+                                
+                                <option value="TH1"><p>T cell, CD4, TH1</p></option>
+                                
+                                <option value="TH2"><p>T cell, CD4, TH2</p></option>
+                                
+                                <option value="MONOCYTES"><p>Monocyte, classical</p></option>
+                                
+                                <option value="CD8_NAIVE"><p>T cell, CD8, naive</p></option>
+                                
+                                <option value="CD4_NAIVE"><p>T cell, CD4, naive</p></option>
+                                
+                                <option value="THSTAR"><p>T cell, CD4, TH1/17</p></option>
+                                
+                                <option value="M2"><p>Monocyte, non-classical</p></option>
+                                
+                                <option value="CD8_STIM"><p>T cell, CD8, naive [activated]</p></option>
+                                
+                                <option value="NK"><p>NK cell, CD56dim CD16+</p></option>
+                                
+                                <option value="TH17"><p>T cell, CD4, TH17</p></option>
+                                
+                                <option value="TREG_MEM"><p>T cell, CD4, memory TREG</p></option>
+                                
+                                <option value="TREG_NAIVE"><p>T cell, CD4, naive TREG</p></option>
+                                
+                                <option value="CD4_STIM"><p>T cell, CD4, naive [activated]</p></option>
+                                
+                                <option value="TFH"><p>T cell, CD4, TFH</p></option>
+                                
+                                <option value="B_CELL_NAIVE"><p>B cell, naive</p></option>
+                                
+                            </select>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">GO!</button>
+                            </span>
+                        </div>
+                    </form>
+
+                </div>
+                <br>
+                <div class="row">
+                    <form name="single_cell_page_form" action="javascript:void(0);" onsubmit="window.location.href='single_cell/cluster/'+this.single_cell_type.value">
+                        <div class="input-group">
+                            <span class="input-group-addon">Single cell cluster:</span>
+                            <select name="single_cell_type" id="single-cell-page-select" class="form-control cell_select">
+                                
+                                <option value="1"><p>T cell, CD4, cluster 01, naïve TREG [activated]</p></option>
+                                
+                                <option value="2"><p>T cell, CD4, cluster 02, TH1 [activated]</p></option>
+                                
+                                <option value="3"><p>T cell, CD4, cluster 03, TH17 [activated]</p></option>
+                                
+                                <option value="4"><p>T cell, CD4, cluster 04, TFH [activated]</p></option>
+                                
+                                <option value="5"><p>T cell, CD4, cluster 05, TH2 [activated]</p></option>
+                                
+                                <option value="6"><p>T cell, CD4, cluster 06, naïve [activated]</p></option>
+                                
+                                <option value="7"><p>T cell, CD4, cluster 07, memory TREG [activated]</p></option>
+                                
+                                <option value="8"><p>T cell, CD4, cluster 08 [activated]</p></option>
+                                
+                                <option value="9"><p>T cell, CD4, cluster 09 [activated]</p></option>
+                                
+                                <option value="10"><p>T cell, CD4, cluster 10 [activated]</p></option>
+                                
+                                <option value="11"><p>T cell, CD4, cluster 11 [activated]</p></option>
+                                
+                                <option value="12"><p>T cell, CD4, cluster 12 [activated]</p></option>
+                                
+                                <option value="13"><p>T cell, CD4, cluster 13, TFR [activated]</p></option>
+                                
+                                <option value="14"><p>T cell, CD4, cluster 14 [activated]</p></option>
+                                
+                                <option value="15"><p>T cell, CD4, cluster 15, CTL [activated]</p></option>
+                                
+                                <option value="16"><p>T cell, CD4, cluster 16 [activated]</p></option>
+                                
+                                <option value="17"><p>T cell, CD4, cluster 17, THIFNR [activated]</p></option>
+                                
+                                <option value="18"><p>T cell, CD4, cluster 18 [activated]</p></option>
+                                
+                                <option value="19"><p>T cell, CD4, cluster 19 [activated]</p></option>
+                                
+                            </select>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">GO!</button>
+                            </span>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-6 tool" >
+            <div class='tool-container G'>
+                <a href="#">
+                    <div class="row">
+
+                        <img src="/static/snp_icon.svg">
+                        <h4>Explore genetic polymorphisms</h4>
+                        <p>Enter associated trait or disease</p>
+                        <hr>
+                    </div>
+                </a>
+
+                <div class="row">
+
+                    <!--<form id="snps_form_1" action="diseases" method="GET">-->
+                        <!--<div class="input-group">-->
+                            <!--<span class="input-group-addon">Trait:</span>-->
+                            <!--<input id="disease_typeahead" name="disease" class="form-control" type="text" placeholder="Ex: Tuberculosis">-->
+                            <!--<span class="input-group-btn">-->
+                                <!--<button class="btn btn-default">GO!</button>-->
+                            <!--</span>-->
+                        <!--</div>-->
+                        <!---->
+                    <!--</form>-->
+                    <!--<br>-->
+                    <form action="javascript:void(0);" onsubmit="window.location.href='/eqtls/'+this.rsnumber.value">
+                        <div class="input-group">
+                            <span class="input-group-addon">SNP ID:</span>
+                            <input name="rsnumber" class="form-control" type="text" placeholder="Example: rs12936231">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">GO!</button>
+                            </span>
+                        </div>
+                        
+                    </form>
+                    <br>
+                    <form id="dice-disease-form" action="javascript:void(0);" onsubmit="window.location.href='/gwas/' + this.disease_category.value + '/' + this.disease_trait.value">
+                        <div class="input-group">
+                            <span class="input-group-addon">Disease/trait:</span>
+                            <select name="disease_category" id="dice-disease-category-select" class="form-control" style="width:50%">
+                                <option value=-2 selected="selected" style="font-weight:bold; font-size:1.2em;">All</option>
+                                <option value=0 selected="selected" style="font-weight:bold; font-size:1.2em;">DICE categories</option>
+                                
+                                    <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allergic rhinitis</option>
+                                
+                                    <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alopecia</option>
+                                
+                                    <option value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ankylosing spondylitis</option>
+                                
+                                    <option value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asthma</option>
+                                
+                                    <option value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atopic dermatitis</option>
+                                
+                                    <option value="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Behcet&#39;s disease</option>
+                                
+                                    <option value="7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cancer</option>
+                                
+                                    <option value="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Celiac disease</option>
+                                
+                                    <option value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crohn&#39;s disease</option>
+                                
+                                    <option value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dermatomyositis</option>
+                                
+                                    <option value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Granulomatosis with polyangiitis</option>
+                                
+                                    <option value="12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graves&#39; disease</option>
+                                
+                                    <option value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hashimoto disease</option>
+                                
+                                    <option value="14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hypersensitivity</option>
+                                
+                                    <option value="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inflammatory bowel disease</option>
+                                
+                                    <option value="16">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Juvenile arthritis</option>
+                                
+                                    <option value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leukemia &amp; lymphoma</option>
+                                
+                                    <option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multiple sclerosis</option>
+                                
+                                    <option value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Myasthenia gravis</option>
+                                
+                                    <option value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Myeloma</option>
+                                
+                                    <option value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primary biliary cirrhosis</option>
+                                
+                                    <option value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Psoriasis</option>
+                                
+                                    <option value="23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Psoriatic arthritis</option>
+                                
+                                    <option value="24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rheumatoid arthritis</option>
+                                
+                                    <option value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sarcoidosis</option>
+                                
+                                    <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sjogren&#39;s syndrome</option>
+                                
+                                    <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systemic lupus erythematosus</option>
+                                
+                                    <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systemic scleroderma</option>
+                                
+                                    <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type 1 diabetes</option>
+                                
+                                    <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ulcerative colitis</option>
+                                
+                                    <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vitiligo</option>
+                                
+                                <option value=-1 style="font-weight:bold; font-size:1.2em;">PheGenI categories</option>
+                                
+                                    <option value="53">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anatomy</option>
+                                
+                                    <option value="61">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bacterial infections and mycoses</option>
+                                
+                                    <option value="54">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Behavior and behavior mechanisms</option>
+                                
+                                    <option value="63">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Behavioral disciplines and activities</option>
+                                
+                                    <option value="59">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biological markers</option>
+                                
+                                    <option value="57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Body weights and measures</option>
+                                
+                                    <option value="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cardiovascular diseases</option>
+                                
+                                    <option value="52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chemicals and drugs</option>
+                                
+                                    <option value="38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Congential, hereditary, and neonatal diseases and abnormalities</option>
+                                
+                                    <option value="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diagnostic techniques and procedures</option>
+                                
+                                    <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digestive system diseases</option>
+                                
+                                    <option value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Endokrine system diseases</option>
+                                
+                                    <option value="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eye diseases</option>
+                                
+                                    <option value="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female urogenital diseases and pregnancy complications</option>
+                                
+                                    <option value="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hemic and lymphatic diseases</option>
+                                
+                                    <option value="32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Immune system diseases</option>
+                                
+                                    <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male urogenital diseases</option>
+                                
+                                    <option value="55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental disorders</option>
+                                
+                                    <option value="37">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musculoskeletal diseases</option>
+                                
+                                    <option value="42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neoplasms</option>
+                                
+                                    <option value="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nervous system diseases</option>
+                                
+                                    <option value="49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutritional and metabolic diseases</option>
+                                
+                                    <option value="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other</option>
+                                
+                                    <option value="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Otorhinolarngologic diseases</option>
+                                
+                                    <option value="62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parasitic diseases</option>
+                                
+                                    <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pathological conditions, signs and symptoms</option>
+                                
+                                    <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physical examination</option>
+                                
+                                    <option value="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Psychological phenomena and processes</option>
+                                
+                                    <option value="34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respiratory tract diseases</option>
+                                
+                                    <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skin and connective tissue diseases</option>
+                                
+                                    <option value="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stomatognathic diseases</option>
+                                
+                                    <option value="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Virus diseases</option>
+                                
+
+                            </select>
+                            <select name="disease_trait" id="dice-disease-trait-select" class="form-control" style="width:50%">
+                                <option value="">None</option>
+                            </select>
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default">GO!</button>
+                            </span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 tool">
+            <div class='tool-container T'>
+                <a href="javascript:void(0);" onclick="javascript:void(0);">
+                    <div class="row">
+                        <img src="/static/cell_v_cell_icon.svg">
+                        <h4>Compare cells (Bulk RNA Seq)</h4>
+                        <p>Select cell types to compare</p>
+                        <hr>
+                    </div>
+                </a>
+                <div class="row">
+
+                    <form name="compare_cells_form" action="compare_cells" onchange="if(cell1.value==cell2.value){$(compare_cells_btn).prop('disabled', true);} else{$(compare_cells_btn).prop('disabled', false);}" method="GET">
+                        <div class="input-group">
+                            <select id="cell1" class="form-control cell_select" style="border-bottom-left-radius:0" name="cell1">
+                                
+                                    <option value="TH1"><p>T cell, CD4, TH1</p></option>
+                                
+                                    <option value="TH2"><p>T cell, CD4, TH2</p></option>
+                                
+                                    <option value="MONOCYTES"><p>Monocyte, classical</p></option>
+                                
+                                    <option value="CD8_NAIVE"><p>T cell, CD8, naive</p></option>
+                                
+                                    <option value="CD4_NAIVE"><p>T cell, CD4, naive</p></option>
+                                
+                                    <option value="THSTAR"><p>T cell, CD4, TH1/17</p></option>
+                                
+                                    <option value="M2"><p>Monocyte, non-classical</p></option>
+                                
+                                    <option value="CD8_STIM"><p>T cell, CD8, naive [activated]</p></option>
+                                
+                                    <option value="NK"><p>NK cell, CD56dim CD16+</p></option>
+                                
+                                    <option value="TH17"><p>T cell, CD4, TH17</p></option>
+                                
+                                    <option value="TREG_MEM"><p>T cell, CD4, memory TREG</p></option>
+                                
+                                    <option value="TREG_NAIVE"><p>T cell, CD4, naive TREG</p></option>
+                                
+                                    <option value="CD4_STIM"><p>T cell, CD4, naive [activated]</p></option>
+                                
+                                    <option value="TFH"><p>T cell, CD4, TFH</p></option>
+                                
+                                    <option value="B_CELL_NAIVE"><p>B cell, naive</p></option>
+                                
+                            </select>
+                            <select id="cell2" class="form-control cell_select" style="border-bottom-left-radius:4px;" name="cell2">
+                                
+                                    <option value="TH1"><p>T cell, CD4, TH1</p></option>
+                                
+                                    <option value="TH2"><p>T cell, CD4, TH2</p></option>
+                                
+                                    <option value="MONOCYTES"><p>Monocyte, classical</p></option>
+                                
+                                    <option value="CD8_NAIVE"><p>T cell, CD8, naive</p></option>
+                                
+                                    <option value="CD4_NAIVE"><p>T cell, CD4, naive</p></option>
+                                
+                                    <option value="THSTAR"><p>T cell, CD4, TH1/17</p></option>
+                                
+                                    <option value="M2"><p>Monocyte, non-classical</p></option>
+                                
+                                    <option value="CD8_STIM"><p>T cell, CD8, naive [activated]</p></option>
+                                
+                                    <option value="NK"><p>NK cell, CD56dim CD16+</p></option>
+                                
+                                    <option value="TH17"><p>T cell, CD4, TH17</p></option>
+                                
+                                    <option value="TREG_MEM"><p>T cell, CD4, memory TREG</p></option>
+                                
+                                    <option value="TREG_NAIVE"><p>T cell, CD4, naive TREG</p></option>
+                                
+                                    <option value="CD4_STIM"><p>T cell, CD4, naive [activated]</p></option>
+                                
+                                    <option value="TFH"><p>T cell, CD4, TFH</p></option>
+                                
+                                    <option value="B_CELL_NAIVE"><p>B cell, naive</p></option>
+                                
+                            </select>
+                            <span class="input-group-btn">
+                                <button name="compare_cells_btn" class="btn btn-default" style="height:68px;">GO!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--<div class="col-md-12 tool">-->
+            <!--<a href="/tools">-->
+                <!--<div class='tool-container tools'>-->
+                    <!--<h4 style="text-align: center;">Tools</h4>-->
+                <!--</div>-->
+            <!--</a>-->
+        <!--</div>-->
+
+
+    </div>
+
+
+
+        <div class="description col-md-12">
+            <h3><strong>Welcome to DICE</strong></h3>
+            <p>The DICE (Database of Immune Cell Expression, Expression quantitative trait loci (eQTLs) and Epigenomics) project, established in 2014, aims to understand the role of common genetic variations in human disease by (i) generating reference transcriptomic and epigenomic maps in human immune cell types from healthy subjects, (ii) identifying functional single nucleotide polymorphisms (SNPs) that affect gene expression (eQTLs and chromatin QTLs) in immune cells, and (iii) identifying regulatory mechanisms and novel target genes implicated in the development of human disease. We are also investigating cell-type specific effects of common genetic variants as well as the effects of sex on immune cell gene expression. These datasets will help reveal the effects of disease risk-associated genetic polymorphisms on specific immune cell types, providing mechanistic insights into how they might influence pathogenesis.</p>
+        </div>
+    </div>
+</div>
+
+    <!--<div class="footer">-->
+        <!--<div class="footer-content">-->
+            <!--<h4>Footer content goes here.</h4>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    
+<div class="footer">
+    <div class="footer-container row">
+        <!--<div class="footer-element col-md-4">-->
+            <!--<div class="footer-element-content">-->
+                <!--<p><strong>Learn More</strong></p>-->
+                <!--<ul>-->
+                    <!--<li><a href="http://lji.org">La Jolla Institute for Allergy and Immunology</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="footer-element col-md-3">
+            <div class="footer-element-content">
+                <h3><strong>Get help</strong></h3>
+                <ul>
+                    <li><a href="/help">FAQs</a></li>
+                    <li><a href="mailto:help@dice-database.org">Submit help request</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-element col-md-3">
+            <div class="footer-element-content">
+                <h3>Dataset</h3>
+                <ul>
+                    <li><p><strong>Latest Build: </strong>Feb 25, 2022</p></li>
+                    <li><a href="/downloads">Downloads</a></li>
+                    <li><a href="https://tools.dice-database.org">DICE Tools</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-element col-md-3">
+            <div class="footer-element-content">
+                <h3><a href="/publications">Publications</a></h3>
+                <ul>
+                    <li><a href="https://doi.org/10.1016/j.cell.2018.10.022">Cell 2018</a> <a href="https://www.ncbi.nlm.nih.gov/pubmed/30449622"><i class="ai ai-pubmed ai-2x"></i></a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/33349701">Nature Genetics 2021</a> <a href="https://pubmed.ncbi.nlm.nih.gov/33349701"><i class="ai ai-pubmed ai-2x"></i></a></li>
+                    <li><a href="/publications">More</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-element col-md-3">
+            <p style="text-align:left"><a href="http://www.lji.org"><img width="100%" src="/static/liai_logo_white.png" alt=""></a></p>
+        </div>
+    </div>
+    <hr>
+    <p style="text-align:center">&copy;2026 <a href="http://www.lji.org">La Jolla Institute for Immunology</a></p>
+    <p style="text-align:center" class="footer_text">Supported by a grant from the <a href="http://www.niaid.nih.gov/" target="_blank">National Institute of Allergy and Infectious Diseases</a>, a component of the National Institutes of Health in the Department of Health and Human Services.</p>
+</div>
+    <script type="text/javascript" src="/static/js/landing.js"></script>
+</body>
+
+</html>

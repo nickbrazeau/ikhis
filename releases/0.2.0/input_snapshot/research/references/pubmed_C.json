@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "128600",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "34062119",
+      "38954480",
+      "34290408",
+      "31942075",
+      "31974159",
+      "40931012",
+      "32673538",
+      "32029736",
+      "32514174",
+      "38817208"
+    ],
+    "translationset": [
+      {
+        "from": "immune",
+        "to": "\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization's\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields]"
+      },
+      {
+        "from": "leukocyte",
+        "to": "\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields]"
+      },
+      {
+        "from": "RNA-seq",
+        "to": "\"rna-seq\"[MeSH Terms] OR \"rna-seq\"[All Fields] OR (\"rna\"[All Fields] AND \"seq\"[All Fields]) OR \"rna seq\"[All Fields]"
+      },
+      {
+        "from": "transcriptomic",
+        "to": "\"gene expression profiling\"[MeSH Terms] OR (\"gene\"[All Fields] AND \"expression\"[All Fields] AND \"profiling\"[All Fields]) OR \"gene expression profiling\"[All Fields] OR \"transcriptomics\"[All Fields] OR \"transcriptom\"[All Fields] OR \"transcriptomal\"[All Fields] OR \"transcriptome\"[MeSH Terms] OR \"transcriptome\"[All Fields] OR \"transcriptomes\"[All Fields] OR \"transcriptomic\"[All Fields] OR \"transcriptomically\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization s\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields] OR (\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields])) AND (\"single-cell\"[All Fields] OR (\"rna seq\"[MeSH Terms] OR \"rna seq\"[All Fields] OR (\"rna\"[All Fields] AND \"seq\"[All Fields]) OR \"rna seq\"[All Fields]) OR (\"gene expression profiling\"[MeSH Terms] OR (\"gene\"[All Fields] AND \"expression\"[All Fields] AND \"profiling\"[All Fields]) OR \"gene expression profiling\"[All Fields] OR \"transcriptomics\"[All Fields] OR \"transcriptom\"[All Fields] OR \"transcriptomal\"[All Fields] OR \"transcriptome\"[MeSH Terms] OR \"transcriptome\"[All Fields] OR \"transcriptomes\"[All Fields] OR \"transcriptomic\"[All Fields] OR \"transcriptomically\"[All Fields]) OR \"Perturb-seq\"[All Fields]) AND 1900/01/01:2026/09/12[Date - Publication]"
+  }
+}

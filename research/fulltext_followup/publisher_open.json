@@ -1,0 +1,4 @@
+{
+  "retrieval_date": "2026-09-13",
+  "result": "Internal Error ()\nciteturn62view0 [wordlim: 200] Source: open({\"ref_id\":\"https://doi.org/10.1111/j.1365-2249.2006.03291.x\",\"lineno\":null}); Total lines: 1\nL0: URL https://doi.org/10.1111/j.1365-2249.2006.03291.x is not safe to open (non-retryable error)\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn62view1 [wordlim: 200] Source: open({\"ref_id\":\"https://doi.org/10.1073/pnas.0407522101\",\"lineno\":null}); Total lines: 1\nL0: URL https://doi.org/10.1073/pnas.0407522101 is not safe to open (non-retryable error)\n"
+}

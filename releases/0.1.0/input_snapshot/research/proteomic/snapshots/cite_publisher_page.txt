@@ -1,0 +1,405 @@
+Simultaneous epitope and transcriptome measurement in single cells | Nature Methods
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About the journal
+Publish with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature
+nature methods
+brief communications
+article
+Brief Communication
+Published: 31 July 2017
+Simultaneous epitope and transcriptome measurement in single cells
+Marlon Stoeckius
+ORCID: orcid.org/0000-0002-5658-029X1,
+Christoph Hafemeister
+ORCID: orcid.org/0000-0001-6365-82541,
+William Stephenson
+ORCID: orcid.org/0000-0002-3779-417X1,
+Brian Houck-Loomis
+ORCID: orcid.org/0000-0002-1863-11991,
+Pratip K Chattopadhyay
+ORCID: orcid.org/0000-0002-5457-96662,
+Harold Swerdlow
+ORCID: orcid.org/0000-0002-9510-160X1,
+Rahul Satija
+ORCID: orcid.org/0000-0001-9448-88331,3 &
+…
+Peter Smibert
+ORCID: orcid.org/0000-0003-0772-16471 Show authors
+Nature Methods
+volume 14, pages 865–868 (2017) Cite this article
+Save article
+View saved research
+153k Accesses
+3309 Citations
+277 Altmetric
+Metrics details
+Abstract
+High-throughput single-cell RNA sequencing has transformed our understanding of complex cell populations, but it does not provide phenotypic information such as cell-surface protein levels. Here, we describe cellular indexing of transcriptomes and epitopes by sequencing (CITE-seq), a method in which oligonucleotide-labeled antibodies are used to integrate cellular protein and transcriptome measurements into an efficient, single-cell readout. CITE-seq is compatible with existing single-cell sequencing approaches and scales readily with throughput increases.
+This is a preview of subscription content, access via your institution
+Access options
+Access through your institution
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+$32.99 / 30 days
+cancel any time
+Learn more
+Subscribe to this journal
+Receive 12 print issues and online access
+$259.00 per year
+only $21.58 per issue
+Learn more
+Buy this article
+Purchase on SpringerLink
+Instant access to the full article PDF.
+USD 39.95
+Prices may be subject to local taxes which are calculated during checkout
+Additional access options:
+Log in
+Learn about institutional subscriptions
+Read our FAQs
+Contact customer support
+Figure 1: CITE-seq enables simultaneous detection of single cell transcriptomes and protein markers.
+Figure 2: CITE-seq is qualitatively and quantitatively similar to flow cytometry.
+Figure 3: CITE-seq allows detailed multimodal characterization of cord blood mononuclear cells.
+Similar content being viewed by others
+Titration of 124 antibodies using CITE-Seq on human PBMCs
+Article
+Open access
+02 December 2022
+A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction and imputation
+Article
+27 October 2022
+A joint analysis of single cell transcriptomics and proteomics using transformer
+Article
+Open access
+02 January 2025
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Gene expression profiling
+Proteomics
+RNA sequencing
+Transcriptomics
+Accession codes
+Primary accessions
+Gene Expression Omnibus
+GSE100866
+References
+Macosko, E.Z. et al. Cell 161, 1202–1214 (2015).
+Article
+CAS
+Google Scholar
+Klein, A.M. et al. Cell 161, 1187–1201 (2015).
+Article
+CAS
+Google Scholar
+Zheng, G.X.Y. et al. Nat. Commun. 8, 14049 (2017).
+Article
+CAS
+Google Scholar
+Pontén, F. et al. Mol. Syst. Biol. 5, 337 (2009).
+Article
+Google Scholar
+Paul, F. et al. Cell 163, 1663–1677 (2015).
+Article
+CAS
+Google Scholar
+Wilson, N.K. et al. Cell Stem Cell 16, 712–724 (2015).
+Article
+CAS
+Google Scholar
+Yuan, J. & Sims, P.A. Sci. Rep. 6, 33883 (2016).
+Article
+CAS
+Google Scholar
+Gierahn, T.M. et al. Nat. Methods 14, 395–398 (2017).
+Article
+CAS
+Google Scholar
+Cao, J. et al. Preprint at http://www.biorxiv.org/content/early/2017/02/02/104844 (2017).
+Rosenberg, A.B. et al. Preprint at http://www.biorxiv.org/content/early/2017/02/02/105163 (2017).
+Ståhlberg, A., Thomsen, C., Ruff, D. & Åman, P. Clin. Chem. 58, 1682–1691 (2012).
+Article
+Google Scholar
+Genshaft, A.S. et al. Genome Biol. 17, 188 (2016).
+Article
+Google Scholar
+Albayrak, C. et al. Mol. Cell 61, 914–924 (2016).
+Article
+CAS
+Google Scholar
+Darmanis, S. et al. Cell Rep. 14, 380–389 (2016).
+Article
+CAS
+Google Scholar
+Frei, A.P. et al. Nat. Methods 13, 269–275 (2016).
+Article
+CAS
+Google Scholar
+Murphy, K., Travers, P. & Walport, M. Janeway's Immunobiology 7th edn. (Garland Publishing, 2008).
+Robinson, J.P. & Roederer, M. Science 350, 739–740 (2015).
+Article
+CAS
+Google Scholar
+Fan, H.C., Fu, G.K. & Fodor, S.P.A. Science 347, 1258367 (2015).
+Article
+Google Scholar
+Poli, A. et al. Immunology 126, 458–465 (2009).
+Article
+CAS
+Google Scholar
+Ferlazzo, G. & Münz, C. J. Immunol. 172, 1333–1339 (2004).
+Article
+CAS
+Google Scholar
+Wendt, K. et al. J. Leukoc. Biol. 80, 1529–1541 (2006).
+Article
+CAS
+Google Scholar
+Shahi, P., Kim, S.C., Haliburton, J.R., Gartner, Z.J. & Abate, A.R. Sci. Rep. 7, 44447 (2017).
+Article
+CAS
+Google Scholar
+Stoeckius, M. & Smibert, P. Protocol Exchange http://dx.doi.org/10.1038/protex.2017.068 (2017).
+Adler, M., Wacker, R. & Niemeyer, C.M. Analyst 133, 702–718 (2008).
+Article
+CAS
+Google Scholar
+Baranauskas, A. et al. Protein Eng. Des. Sel. 25, 657–668 (2012).
+Article
+CAS
+Google Scholar
+Breton, G., Lee, J., Liu, K. & Nussenzweig, M.C. Nat. Protoc. 10, 1407–1422 (2015).
+Article
+CAS
+Google Scholar
+Blondel, V.D., Guillaume, J.-L., Lambiotte, R. & Lefebvre, E. J. Stat. Mech. 2008, P10008 (2008).
+Article
+Google Scholar
+van der Maaten, L. & Hinton, G. J. Mach. Learn. Res. 9, 2579–2605 (2008).
+Google Scholar
+van der Maaten, L. J. Mach. Learn. Res. 15, 1–21 (2014).
+Google Scholar
+Aitchison, J . J. Math. Geol. 21, 787–790 (1989).
+Article
+Google Scholar
+Download references
+Acknowledgements
+We acknowledge S. Jaini and K. Pandit of the NYGC Technology Innovation Lab for critical discussions and support; E. Papalexi for help with CBMCs isolation; M. Coppo, S. Fennessey, B. Baysa and S. Pescatore at NYGC for sequencing support; and C. Kocks for manuscript discussions. Multiparameter flow cytometer instrument time and reagents were generously provided by the Vaccine Research Center of the National Institutes of Health. C.H. was supported by a Deutsche Forschungsgemeinschaft research fellowship. R.S. was supported by an NIH New Innovator Award (DP2-HG-009623). Research reported here was partially supported by the National Human Genome Research Institute under Award Number UM1HG008901.
+Author information
+Authors and Affiliations
+New York Genome Center, New York, New York, USA
+Marlon Stoeckius, Christoph Hafemeister, William Stephenson, Brian Houck-Loomis, Harold Swerdlow, Rahul Satija & Peter Smibert
+New York University Medical Center, New York, New York, USA
+Pratip K Chattopadhyay
+New York University Center for Genomics and Systems Biology, New York, New York, USA
+Rahul Satija
+Authors
+Marlon Stoeckius
+View author publications
+Search author on:PubMed Google Scholar
+Christoph Hafemeister
+View author publications
+Search author on:PubMed Google Scholar
+William Stephenson
+View author publications
+Search author on:PubMed Google Scholar
+Brian Houck-Loomis
+View author publications
+Search author on:PubMed Google Scholar
+Pratip K Chattopadhyay
+View author publications
+Search author on:PubMed Google Scholar
+Harold Swerdlow
+View author publications
+Search author on:PubMed Google Scholar
+Rahul Satija
+View author publications
+Search author on:PubMed Google Scholar
+Peter Smibert
+View author publications
+Search author on:PubMed Google Scholar
+Contributions
+M.S. conceived and designed the study with input from B.H.-L., R.S., H.S. and P.S. M.S. performed all experiments. C.H. and R.S. designed and contributed the computational analyses. W.S. assisted with Drop-seq experiments. P.K.C provided conceptual input on how to benchmark CITE-seq to flow cytometry and performed multiparameter flow cytometry analysis. M.S., C.H., R.S. and P.S. interpreted the data. M.S. and P.S. wrote the manuscript with input from all authors.
+Corresponding author
+Correspondence to
+Marlon Stoeckius.
+Ethics declarations
+Competing interests
+M.S., B.H.-L. and P.S. have filed a patent application based on this work (US provisional patent application 62/515-180).
+Integrated supplementary information
+Supplementary Figure 1 CITE-seq library preparation.
+(a) Illustration of the DNA-barcoded antibodies used in CITE-seq. (b) Antibody-oligonucleotide complexes appear as a high-molecular-weight smear when run on an agarose gel (1). Cleavage of the oligo from the antibody by reduction of the disulfide bond collapses the smear to oligo length (2). (c) Drop-seq beads are microparticles with conjugated oligonucleotides comprising a common PCR handle, a cell barcode, followed by a unique molecular identifier (UMI) and a polyT tail. (d) Schematic illustration of CITE-seq library prep in Drop-seq (downstream of Fig. 1b). Reverse transcription and template switch is performed in bulk after emulsion breakage. After amplification, full length cDNA and antibody-oligo products can be separated by size and amplified independently (also shown in d) (e) Reverse transcription and amplification produces two product populations with distinct sizes (left panel). These can be size separated and amplified independently to obtain full length cDNAs (top panel, capillary electrophoresis trace) and ADTs (bottom panel, capillary electrophoresis trace).
+Supplementary Figure 2 Analysis of mixtures of mouse and human cells that were incubated with oligo-tagged-antibodies specific for either human or mouse cell-surface markers.
+(a) Fractions of human RNA molecules compared to human ADTs for detected cell barcodes in the Drop-seq species mixing experiment. Each point represents one cell barcode (i.e., droplet containing one or more cells). (b-e) CITE-seq of human and mouse mixing experiment repeated on a commercially available system from 10x Genomics. (b) Quantification of the number of human and mouse transcripts associating to each cell barcode. Each green point indicates a cell barcode (i.e. droplet containing one or more cells) from which we measured >90% human transcripts; each red point indicates a cell barcode with >90% mouse transcripts. Blue points indicate cell barcodes (i.e. droplets) from which we observed a mixture of human and mouse transcripts. (c) Quantification of antibody tags (ADTs) associated with each cell barcode. Points are colored based on species classifications using transcripts in panel b. (d) Quantification of human, mouse or mixed-cell barcodes based on RNA transcripts, or ADTs, detected in 10x Genomics workflows. (e) Fractions of human RNA molecules compared to human ADTs for detected cell barcodes. Each point represents one cell barcode (i.e., droplet containing one or more cells).
+Supplementary Figure 3 Comparing qualitative and quantitative readout in CITE-seq and flow cytometry.
+(a-b) Periperal blood mononuclear cells were processed by flow cytometry and CITE-seq to compare qualitative readout between both technologies. Relevant immune populations were labelled (a) and their abundances relative to the entire population compared (b, see also Fig. 2a,b). (b) Relative abundances of relevant immune cell subsets as determined by flow cytometry and CITE-seq (see Fig. 2a,b; and panel a) (c-e) Relative quantitative comparison of flow cytometry and CITE-seq. (c) Cells were first gated based on forward and side scatter and separated from dead cells. Profile of CD4 and CD8a fluorescence in CBMCs. Colored boxes are gates set to sort different levels of CD8. (d) Re-analysis of cells sorted into CD8a very-high (+++), high (++), intermediate (+) and low (+/-) by flow cytometry. Histograms of CD8a levels (fluorescence intensities) in the four different pools of cells. 2,000 cells were measured for each run. (e) CD8a levels obtained by CITE-seq of the different pools of cells sorted in panel a. Histograms of four CITE-seq runs of the separate pools. 288-522 cells were measured for each run.
+Supplementary Figure 4 Gene expression in CBMC clusters.
+(a) Gene expression heatmap of most differentially expressed marker genes defining clusters. Dimensionality reduction followed by modularity optimization was used to cluster 8,005 CBMCs (methods). Cluster color assignments are identical to Figure 3a. The mouse control cell population was excluded from the clustering. (b) Expression of individual marker genes in the context of tSNE representation of cell relationships based on single-cell gene-expression profiles. Levels of transcripts corresponding to specific marker genes are indicated by blue shading.
+Supplementary Figure 5 Multimodal bi-axial plots.
+(a) Histograms of CLR-transformed ADT counts in CBMCs (red) and mouse control cells spiked at very low frequency (blue). Solid line shows the determined cutoff for significant ADT signal (mean of mouse values + standard deviation of mouse values). (b) Histograms of CLR-transformed ADT counts for the three antibodies-oligo conjugates in our 13 antibody pool that did not pass the mouse-derived threshold. (c) Multimodal bi-axial plots. Pairwise comparison of different CLR-transformed ADT levels in CBMCs. Upper right: CBMCs plotted with colors based on RNA clusters shown in Figure 3a. Lower left: mouse control cells (black) that were spiked at very low frequency are overlaid on the CBMCs (light grey).
+Supplementary Figure 6 Joint analysis of protein and RNA to finely resolve NK cell (CD56bright vs CD56dim) populations that have only subtle transcriptomic differences.
+(a) mRNA (blue) and corresponding ADT (green) signal for CD56 and CD16 projected onto the NK cell cluster tSNE plot. Darker shading corresponds to higher levels measured. NK cell cluster was split into CD56bright and CD56dim groups based on CD56 ADT levels. (b) Histogram of CD8a levels in the CD56bright and CD56dim cells. Two-sample Kolmogorov–Smirnov test p-value < 0.001 indicates two different CD8a distributions. Histograms for CD4 and CD45RA, ADTs that show low/absent or high expression in these cells, but no difference between CD56bright and CD56dim populations are shown as controls.
+Supplementary Figure 7 Correlations between mRNA and protein marker levels in CITE-seq.
+(a) Correlation between normalized mRNA expression and CLR-transformed ADT counts at a single cell level. For each gene, cells with no detected mRNA molecules were excluded. Pearson’s correlation coefficient is shown in the boxed labels. (b) Correlation between normalized mRNA expression and CLR-transformed ADT counts at the cluster level. No cells were excluded. mRNA and ADT signals were averaged per cluster before calculating Pearson’s correlation coefficient, shown in boxed labels.
+Supplementary Figure 8 Clustering of CBMCs based on ADTs.
+(a) CITE-seq single-cell ADT profiles of ~8,005 CBMCs (and ~600 mouse control cells) were clustered using modularity optimization resulting in 17 cell populations (including the mouse control cell population) with distinct antibody compositions. (b) ADT levels for 10 markers in clusters defined by ADT levels. Levels of ADT are indicated by blue to dark blue shading. (c) Single-cell ADT level heatmap in the ADT-derived clusters. Colors of clusters in top panel represent colors in panel a. (d) Single-cell gene-expression heatmap of top marker genes of ADT-derived clusters. Colors of clusters in top panel represent colors in (a).
+Supplementary information
+Supplementary Text and Figures (download PDF )
+Supplementary Figures 1–8 and Supplementary Tables 1 and 2 (PDF 3080 kb)
+Life Sciences Reporting Summary (PDF 444 kb) (download PDF )
+Supplementary Protocol (download PDF )
+CITE-seq protocol (PDF 971 kb)
+Rights and permissions
+Reprints and permissions
+About this article
+Cite this article
+Stoeckius, M., Hafemeister, C., Stephenson, W. et al. Simultaneous epitope and transcriptome measurement in single cells.
+Nat Methods 14, 865–868 (2017). https://doi.org/10.1038/nmeth.4380
+Download citation
+Received: 02 March 2017
+Accepted: 07 July 2017
+Published: 31 July 2017
+Issue date: 01 September 2017
+DOI: https://doi.org/10.1038/nmeth.4380
+Share this article
+Anyone you share the following link with will be able to read this content:Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Access through your institution
+Buy or subscribe
+Associated content
+New skin for the old RNA-Seq ceremony: the age of single-cell multi-omics
+Maayan Baron
+Itai Yanai
+Genome Biology
+Article
+Open Access
+24 Aug 2017
+Advertisement
+Explore content
+Research articles
+Reviews & Analysis
+News & Comment
+Current issue
+Collections
+Follow us on X
+Subscribe
+Sign up for alerts
+RSS feed
+About the journal
+Aims & Scope
+Journal Information
+Journal Metrics
+Our publishing models
+About the Editors
+Research Cross-Journal Editorial Team
+Reviews Cross-Journal Editorial Team
+Editorial Values Statement
+Editorial Policies
+Content Types
+Web Feeds
+Contact
+Publish with us
+Submission Guidelines
+For Reviewers
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature Methods
+(Nat Methods)
+ISSN 1548-7105 (online)
+ISSN 1548-7091 (print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+Policy
+Use
+of cookies
+Your privacy choices/Manage cookies
+Legal
+notice
+Accessibility
+statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing: Translational Research newsletter — top stories in biotechnology, drug discovery and pharma.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Close banner
+Close
+Get what matters in translational research, free to your inbox weekly.
+Sign up for Nature Briefing: Translational Research

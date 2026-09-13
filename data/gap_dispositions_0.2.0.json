@@ -1,0 +1,27 @@
+{
+  "cytokine_1": {
+    "status": "partially_resolved",
+    "resolution": "The expansion adds reviewed human-response evidence for CSF2, IL16, IL17A, IL5, IL13, IL1A, IL2, IL6 and multiple chemokines; explicit LTA complexes, VEGFA165 and IL12p70 are separately identified. Original assay identities and comprehensive source-to-target coverage remain unresolved.",
+    "evidence": "research/cytokine_expansion/pack.json; research/chemokine_expansion/pack.json; research/receptor_expansion/pack.json; assay_coverage.csv"
+  },
+  "cytokine_2": {
+    "status": "partially_resolved",
+    "resolution": "Full primary Methods and Results for C-S05 and C-S07 were inspected; all four inherited affected assertions were corrected and independently rechecked. The unrelated C-S04 OCR precision limitation remains.",
+    "evidence": "data/curation_overrides_0.2.json; research/curation_review_response_0.2.json"
+  },
+  "cytokine_8": {
+    "status": "partially_resolved",
+    "resolution": "Receptor expansion now includes cell-free LTA-complex binding, whole-monocyte VEGFA165 binding and targeted proximal phosphorylation measurements. Comprehensive dose/time grids, ancestry stratification and citation chaining remain open.",
+    "evidence": "research/receptor_expansion/pack.json; research/receptor_review_response_0.2.json"
+  },
+  "proteomic_2": {
+    "status": "partially_resolved",
+    "resolution": "Primary atlas Methods/Results and CITE-seq Methods plus exact supplementary captions have been recovered and independently reviewed. Atlas IL34 phenotype is retained with an unresolved CD4 cell-gate discrepancy and inconclusive conventional-memory scoring. Raw proteome/ADT matrices and peptide-level reanalysis remain open.",
+    "evidence": "data/curation_overrides_0.2.json; research/review_proteomic_curations_0.2.json"
+  },
+  "cytokine_expansion_2": {
+    "status": "resolved",
+    "resolution": "All 22 assertions have full-article Methods/Results coverage and passed independent review at the exact approved extraction/source hashes. Selected supporting passages are archived; scientific limitations in the other gap rows remain.",
+    "evidence": "research/review_cytokine_0.2.json; data/reviewed_expansion_packs.json"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "run_id": "P_RUN_20260912_01",
+  "agent_role": "proteomic and paired transcriptomic evidence extractor",
+  "timestamp_start": "2026-09-12 04:15:09 UTC",
+  "timestamp_end": "2026-09-12 17:03:23 UTC",
+  "timezone": "UTC (runtime clock); user timezone America/New_York",
+  "LLM_provider": "OpenAI",
+  "LLM_model": "unavailable",
+  "model_snapshot_if_available": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "README v0.1.0",
+  "agent_prompt_version": "research/EXTRACTION_CONTRACT.md v0.1.0 plus parent proteomic-lane assignment",
+  "instruction_bundle_hash": "unavailable",
+  "instruction_file_hashes": {
+    "README.md": "830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf",
+    "research/EXTRACTION_CONTRACT.md": "35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e"
+  },
+  "skills_used": [
+    "research-router-skill",
+    "ncbi-entrez-skill (helper attempted; missing requests dependency)"
+  ],
+  "source_versions": "Source registry in pack.json; publication versions retained, changing database versions unavailable",
+  "retrieval_queries": "pack.json searches; actual batch tool responses in snapshots/search*.json",
+  "retrieval_dates": [
+    "2026-09-12"
+  ],
+  "retrieval_time_precision": "Date only per retrieval; start/end read from runtime clock",
+  "source_hashes": "unavailable",
+  "code_commit": "unavailable",
+  "environment_hash": "unavailable",
+  "output_hash": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+  "critic_run_ids": [
+    "biological-review-multiomic-20260912-01"
+  ],
+  "human_edits": "unavailable",
+  "work_scope": "External research read-only; writes confined to research/proteomic/",
+  "completion_scope": "Bounded pilot extraction delivered; source-specific gaps and unresolved independence preserved.",
+  "tool_failures": [
+    {
+      "operation": "Entrez efetch PMC3273988 using system Python",
+      "error": "missing_dependency: requests is required; No module named requests"
+    },
+    {
+      "operation": "Entrez efetch PMC3273988,PMC3497699 using bundled Python",
+      "error": "missing_dependency: requests is required; No module named requests"
+    },
+    {
+      "operation": "Europe PMC fullTextXML PMC3497699",
+      "error": "Initial sandbox DNS error; approved retry returned HTTP404"
+    }
+  ],
+  "validation": "22 unique assertions; all source and cohort references valid; source snapshots unchanged. Five reviewed records have source-supported locator or unsigned-direction corrections; no mixed directions remain. Correction replay is idempotent.",
+  "review_repairs": [
+    {
+      "repair_id": "P_REPAIR_20260912_01",
+      "timestamp_start": "2026-09-12T19:05:01Z",
+      "timestamp_end": "2026-09-12T19:08:26Z",
+      "actor": "extracting agent",
+      "human_adjudication": false,
+      "critic_run_id": "biological-review-multiomic-20260912-01",
+      "review_response": "research/proteomic/review_response.json",
+      "corrected_assertion_ids": [
+        "P_A01",
+        "P_A06",
+        "P_A07",
+        "P_A15",
+        "P_A16"
+      ],
+      "replay_script": "research/proteomic/apply_review_corrections.py",
+      "input_pack_sha256": "8967ada9749b304dcb16630d3524c889d29a8405f01910a2f7af703e52cd44bb",
+      "output_pack_sha256": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937"
+    }
+  ],
+  "generator_status": "pack.json is the authoritative manual extraction; no separate proteomic generator existed. apply_review_corrections.py replays the verified review corrections idempotently."
+}

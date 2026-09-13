@@ -1,0 +1,36 @@
+{
+  "critic_run_id": "biological-review-multiomic-20260912-01",
+  "response_role": "Genomic extractor; final release disposition belongs to integrating agent",
+  "timestamp": "2026-09-12T17:33:49.039821+00:00",
+  "changes": [
+    {
+      "finding_id": "BIO-M005",
+      "status": "corrected",
+      "targets": [
+        "G-A012"
+      ],
+      "change": "Combined sh3/sh5 direction changed from mixed to association; observed increases and discordant consistency remain in summary and limitations."
+    },
+    {
+      "finding_id": "BIO-M006",
+      "status": "corrected",
+      "targets": [
+        "GCO02",
+        "G-A006"
+      ],
+      "change": "Recovered European American/Caucasian restricted analysis from G02 Methods; original population labels retained."
+    },
+    {
+      "finding_id": "BIO-M007",
+      "status": "corrected",
+      "targets": [
+        "GCO10",
+        "G-A015"
+      ],
+      "change": "Added IL7 5 ng/mL co-stimulation and anti-CD3 10 micrograms/mL, anti-CD28 1 microgram/mL."
+    }
+  ],
+  "reviewed_pack_hash": "385be056c469e322efbf20f058a1d2c91f4d7822e447b9a3c342ecff1327b927",
+  "revised_pack_hash": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+  "human_adjudication": "unavailable"
+}

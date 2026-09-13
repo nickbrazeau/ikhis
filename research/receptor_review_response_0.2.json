@@ -1,0 +1,100 @@
+{
+  "response_run_id": "receptor-response-REC02-20260913-01",
+  "original_critic_run_id": "receptor-review-REC02-20260913-01",
+  "timestamp_start": "2026-09-13 18:28:21 UTC",
+  "timestamp_end": "2026-09-13 18:29:05 UTC",
+  "agent_role": "Independent Receptor Evidence Reviewer",
+  "scope": "Independent recheck of REC02-001 and root-authored endpoint-specific uncertainty corrections across all 20 receptor assertions. Original critic preserved. All eight referenced source files still match original review hashes.",
+  "reviewed_file_hashes": {
+    "research/receptor_expansion/notes.md": "b46bbe833a07f1d2bf327e1b8cb78ed35c6a075417ed6e70489e1ce17021b51f",
+    "research/receptor_expansion/pack.json": "17711c36e7c4ab21b6efd295dea8e65d793cd30e9ef7517a05655489cb774ca1",
+    "research/receptor_expansion/snapshots/root_full_sources.json": "4b4b4601986daba61a336ebf3a6a763f2770456dbbf749ac9c76a05254abbbf7",
+    "research/receptor_expansion/snapshots/root_il12_full.json": "5c397f66d393b6d80c36fb74eccca1480b1a68961854ee3bb49800a81120fe7c",
+    "research/receptor_expansion/snapshots/root_il1_full.json": "321f8d897377b06bad61a6ab1c5b1b314d8bb384d9ff57f119f8ce41294a5bf3",
+    "research/receptor_expansion/snapshots/root_lta_full.json": "3e3b32826dea23c9e7b718e126c3ff0938fc46a788ed675154c2c000e67176e6",
+    "research/receptor_expansion/snapshots/root_search3.json": "2efc4ce2ae19e59ae1298184570a38e6b3a29dee06dc0d0e2e4d17102f1ab9e9",
+    "research/receptor_expansion/snapshots/root_selected_methods.json": "4f78e219149fac2eb6311a833295545f06aa4afdb76428ac0ca16faf155f67d5",
+    "research/receptor_expansion/snapshots/xre_search2.json": "13d75a13349dcfadd610dc3cf228ccb8f8a43c350a678aa1b5b653635c42c21d",
+    "research/receptor_expansion/snapshots/xre_searchopen3.json": "ccd83038c6bdab4778293505999577cc43d15b65da91d68d9c2f6f33ad72b9b6",
+    "research/review_receptor_0.2.json": "3e55d031479d526283f23c5b05617d57414a995df6813673382da6d3ded6f66c"
+  },
+  "finding_responses": [
+    {
+      "finding_id": "REC02-001",
+      "result": "pass",
+      "target_id": "XRE-A14",
+      "evidence": "Binding repeat count is explicitly unavailable and Table1 migration replicates explicitly do not apply. XRE-CO04 now scopes microscopy fields and triplicate assays to migration, separately stating binding replicate count unavailable. No binding sample size was invented.",
+      "disposition_recommendation": "resolved_pending_human_adjudication"
+    }
+  ],
+  "related_checks": [
+    {
+      "assertion_ids": [
+        "XRE-A01",
+        "XRE-A02",
+        "XRE-A03",
+        "XRE-A04"
+      ],
+      "result": "pass",
+      "evidence": "Five experiments are assigned only to Figure5A; Figure5B/C counts are explicitly unavailable."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A05",
+        "XRE-A06",
+        "XRE-A07"
+      ],
+      "result": "pass",
+      "evidence": "Triplicates and pooled endothelial donors remain distinct; neutrophil donors are unavailable for adhesion."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A08",
+        "XRE-A09",
+        "XRE-A10",
+        "XRE-A11"
+      ],
+      "result": "pass",
+      "evidence": "Biochemical Figure3A/B repeat counts remain unavailable. No cellular-panel replication is assigned to cell-free assays."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A12",
+        "XRE-A13",
+        "XRE-A14"
+      ],
+      "result": "pass",
+      "evidence": "Table1, immunoadsorption and radioligand-binding replicate statements are now endpoint-specific."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A15"
+      ],
+      "result": "pass",
+      "evidence": "The recombinant IL12p70 arm n=4 is distinct from unique donor count."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A16",
+        "XRE-A17",
+        "XRE-A18",
+        "XRE-A19",
+        "XRE-A20"
+      ],
+      "result": "pass",
+      "evidence": "Figure1 duplicates/two experiments, Figure2 one of two experiments and Figure3 duplicates/three experiments are assigned to their own endpoints."
+    }
+  ],
+  "source_hash_consistency": {
+    "result": "pass",
+    "unique_snapshot_count": 8
+  },
+  "remaining_issues": [],
+  "retained_limitations": [
+    "IL6 micro-unit concentrations remain unavailable because PDF visual verification failed.",
+    "No claim of unique donors from experiments or technical duplicates.",
+    "Human adjudication and calibration remain pending."
+  ],
+  "result": "pass",
+  "conclusion": "REC02-001 is corrected at the recorded revised pack hash; all related uncertainty corrections match their primary passages. No remaining extraction findings from this bounded review. Original review remains immutable."
+}

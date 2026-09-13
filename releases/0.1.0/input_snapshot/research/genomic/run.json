@@ -1,0 +1,57 @@
+{
+  "run_id": "G-RUN-20260912-01",
+  "agent_role": "Genomic evidence extractor",
+  "timestamp_start": "2026-09-12T04:15:13Z",
+  "timestamp_end": "2026-09-12T17:34:46.535322+00:00",
+  "timezone": "UTC (runtime clock); user timezone America/New_York",
+  "LLM_provider": "OpenAI",
+  "LLM_model": "unavailable",
+  "model_snapshot_if_available": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.1.0",
+  "agent_prompt_version": "EXTRACTION_CONTRACT-0.1.0; parent genomic delegation",
+  "instruction_bundle_hash": {
+    "README.md": "830499875f22f23c10cd4bcb3c3f389797a62f339fb2eda3995b5ef44e4a3edf",
+    "research/EXTRACTION_CONTRACT.md": "35093d4783a11f83166d09298343e135a7c9d76c196401d88532e91468ef0f0e"
+  },
+  "source_versions": {
+    "G01": "2014 primary publication; exact publisher revision unavailable",
+    "G02": "2017 primary publication; exact publisher revision unavailable",
+    "G03": "2017 primary publication; exact publisher revision unavailable",
+    "G04": "2018 primary publication; exact publisher revision unavailable",
+    "G05": "2016 primary publication; exact publisher revision unavailable",
+    "G06": "2022 primary publication; exact publisher revision unavailable",
+    "G07": "2022 primary publication; exact publisher revision unavailable",
+    "G08": "2007 primary publication; exact publisher revision unavailable",
+    "G09": "2014 primary publication; exact publisher revision unavailable",
+    "G10": "2019 primary publication; exact publisher revision unavailable"
+  },
+  "retrieval_queries": "pack.json searches; 18 actual queries",
+  "retrieval_dates": "Source retrieval timestamps in pack.json are saved snapshot timestamps; all runtime dates retained without inference.",
+  "source_hashes": "unavailable; centrally computed from snapshots",
+  "code_commit": "unavailable; git rev-parse HEAD reported not a git repository",
+  "environment_hash": "8221d5f3bddd35d865dcbec48091ad40dc55cda7f9e205f7e70c5d8b72054fd1",
+  "output_hash": {
+    "pack.json": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+    "notes.md": "cd2b8db162a50583adada1fff37a68232262ef6903f8b2b75c665f62b412bf63",
+    "review_response.json": "81926babb2c47084c75b09b011a79ba76f5528ca93e0797fafb0d45678cb5ea7",
+    "build_pack.py": "c5c16d971068920ab8ed242c4c43b4ad096e2df814e06db953b0e7bba06bf686"
+  },
+  "critic_run_ids": [
+    "biological-review-multiomic-20260912-01"
+  ],
+  "human_edits": "unavailable",
+  "skills_used": [
+    "life-science-research:research-router-skill",
+    "life-science-research:ncbi-entrez-skill (instructions inspected; no Entrez calls needed)"
+  ],
+  "execution_notes": [
+    "Research sources accessed read-only.",
+    "Wrote only research/genomic/.",
+    "Network-limited public XML request was rerun with required escalation; endpoint returned 404. Public PMC HTML retrieval subsequently succeeded.",
+    "Eight original full-text HTML snapshots, two original PubMed abstract/metadata snapshots, and web search/access-limitation snapshots retained.",
+    "No calibration, human adjudication or exhaustive coverage claimed.",
+    "Three independent genomic review findings corrected; final integrating-agent disposition and any human adjudication remain separate."
+  ],
+  "environment_hash_basis": "SHA256 of Python version concatenated with platform description; not a complete environment/package lockfile."
+}

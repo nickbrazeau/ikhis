@@ -1,0 +1,27 @@
+{
+  "timestamp_start": "2026-09-13 14:48:48 UTC",
+  "timestamp_end": "2026-09-13 17:43:03 UTC",
+  "transport_attempts": [
+    {
+      "transport": "ncbi-entrez-skill helper, system Python",
+      "result": "missing_dependency: requests"
+    },
+    {
+      "transport": "ncbi-entrez-skill helper, bundled Python",
+      "result": "missing_dependency: requests"
+    },
+    {
+      "transport": "ncbi-pmc-skill helper, bundled Python",
+      "result": "missing_dependency: requests"
+    },
+    {
+      "transport": "public PMC curl in sandbox",
+      "result": "Could not resolve host; exit code 6"
+    },
+    {
+      "transport": "escalated public PMC curl",
+      "result": "Stalled approval/tool turn interrupted; no downloaded snapshot present"
+    }
+  ],
+  "snapshot_policy": "Existing real browser/search responses referenced in place; no duplicate raw snapshot created. Coordinator may sanitize irrelevant signed URL metadata and re-hash bundles before review."
+}

@@ -1,0 +1,54 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "225694",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "24663091",
+      "38532043",
+      "31185212",
+      "40186195",
+      "29556238",
+      "39228313",
+      "33603227",
+      "39159505",
+      "22224780",
+      "30817405"
+    ],
+    "translationset": [
+      {
+        "from": "cytokine",
+        "to": "\"cytokin\"[All Fields] OR \"cytokine's\"[All Fields] OR \"cytokines\"[Supplementary Concept] OR \"cytokines\"[All Fields] OR \"cytokine\"[All Fields] OR \"cytokines\"[MeSH Terms] OR \"cytokinic\"[All Fields] OR \"cytokins\"[All Fields]"
+      },
+      {
+        "from": "chemokine",
+        "to": "\"chemokine's\"[All Fields] OR \"chemokines\"[Supplementary Concept] OR \"chemokines\"[All Fields] OR \"chemokine\"[All Fields] OR \"chemokines\"[MeSH Terms] OR \"chemokins\"[All Fields]"
+      },
+      {
+        "from": "immune",
+        "to": "\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization's\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields]"
+      },
+      {
+        "from": "leukocyte",
+        "to": "\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields]"
+      },
+      {
+        "from": "perturbation",
+        "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+      },
+      {
+        "from": "receptor",
+        "to": "\"receptor\"[All Fields] OR \"receptor's\"[All Fields] OR \"receptors\"[All Fields]"
+      },
+      {
+        "from": "signaling",
+        "to": "\"signal transduction\"[MeSH Terms] OR (\"signal\"[All Fields] AND \"transduction\"[All Fields]) OR \"signal transduction\"[All Fields] OR \"signaling\"[All Fields] OR \"signal\"[All Fields] OR \"signal's\"[All Fields] OR \"signaled\"[All Fields] OR \"signaler\"[All Fields] OR \"signaler's\"[All Fields] OR \"signalers\"[All Fields] OR \"signalings\"[All Fields] OR \"signalization\"[All Fields] OR \"signalled\"[All Fields] OR \"signaller\"[All Fields] OR \"signaller's\"[All Fields] OR \"signallers\"[All Fields] OR \"signalling\"[All Fields] OR \"signallings\"[All Fields] OR \"signals\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"cytokin\"[All Fields] OR \"cytokine s\"[All Fields] OR \"cytokines\"[Supplementary Concept] OR \"cytokines\"[All Fields] OR \"cytokine\"[All Fields] OR \"cytokines\"[MeSH Terms] OR \"cytokinic\"[All Fields] OR \"cytokins\"[All Fields] OR (\"chemokine s\"[All Fields] OR \"chemokines\"[Supplementary Concept] OR \"chemokines\"[All Fields] OR \"chemokine\"[All Fields] OR \"chemokines\"[MeSH Terms] OR \"chemokins\"[All Fields])) AND (\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization s\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields] OR (\"leucocytic\"[All Fields] OR \"leukocytes\"[MeSH Terms] OR \"leukocytes\"[All Fields] OR \"leucocyte\"[All Fields] OR \"leucocytes\"[All Fields] OR \"leukocyte\"[All Fields] OR \"leukocytic\"[All Fields])) AND (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields] OR (\"receptor\"[All Fields] OR \"receptor s\"[All Fields] OR \"receptors\"[All Fields]) OR (\"signal transduction\"[MeSH Terms] OR (\"signal\"[All Fields] AND \"transduction\"[All Fields]) OR \"signal transduction\"[All Fields] OR \"signaling\"[All Fields] OR \"signal\"[All Fields] OR \"signal s\"[All Fields] OR \"signaled\"[All Fields] OR \"signaler\"[All Fields] OR \"signaler s\"[All Fields] OR \"signalers\"[All Fields] OR \"signalings\"[All Fields] OR \"signalization\"[All Fields] OR \"signalled\"[All Fields] OR \"signaller\"[All Fields] OR \"signaller s\"[All Fields] OR \"signallers\"[All Fields] OR \"signalling\"[All Fields] OR \"signallings\"[All Fields] OR \"signals\"[All Fields])) AND 1900/01/01:2026/09/12[Date - Publication]"
+  }
+}

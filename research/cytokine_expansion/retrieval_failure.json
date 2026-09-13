@@ -1,0 +1,10 @@
+{
+  "request_path": "research/cytokine_expansion/pmc_request.json",
+  "requested_at": "2026-09-13",
+  "transport": "life-science-research ncbi-entrez-skill helper",
+  "first_attempt": "Failed with network_error: eutils.ncbi.nlm.nih.gov could not be resolved inside the sandbox.",
+  "elevated_attempt": "Public full-text retrieval request waited on approval and was aborted by the user after approximately 1288 seconds. No completed XML output was observed.",
+  "resumption": "Coordinating agent authorized bounded browser primary-source retrieval and prohibited further shell network approval waits.",
+  "browser_outcomes": "Article sections for PMC4465562; CAPTCHA for PMC2198963, PMC5172478, PMC2673366, PMC4709758, PMC9576869 and PMC6581624. Actual tool outputs saved in open01.json and open02.json.",
+  "further_retrieval": "Stopped on coordinating-agent instruction. Missing methods remain explicit."
+}

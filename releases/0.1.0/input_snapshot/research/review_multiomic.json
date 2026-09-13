@@ -1,0 +1,120 @@
+{
+  "critic_run_id": "biological-review-multiomic-20260912-01",
+  "scope": "Independent adversarial biological review of research/proteomic/pack.json and research/genomic/pack.json. The reviewer did not author either pack and did not edit them. Cytokine pack excluded because this reviewer authored it. Review addresses evidence extraction, source locators, molecular layers, evidence grades, species, context, donor reuse and null/discordant results. Integrated network and code review are separate.",
+  "timestamp_start": "2026-09-12 17:21:35 UTC",
+  "timestamp_end": "2026-09-12 17:30:11 UTC",
+  "agent_role": "Adversarial Biological Reviewer",
+  "model": "unavailable",
+  "protocol_version": "README.md v0.1.0; research/EXTRACTION_CONTRACT.md v0.1.0",
+  "reviewed_pack_hashes": {
+    "research/proteomic/pack.json": "8967ada9749b304dcb16630d3524c889d29a8405f01910a2f7af703e52cd44bb",
+    "research/genomic/pack.json": "385be056c469e322efbf20f058a1d2c91f4d7822e447b9a3c342ecff1327b927"
+  },
+  "coverage": {
+    "assertion_records_inspected": 47,
+    "cohort_records_inspected": "All cohort records in both packs, with detailed attention to repeated donors, nested studies and cell-line versus primary-cell contexts.",
+    "source_passages_inspected": [
+      "P_S01 publisher supplementary captions, including Supplementary Figure 5g; research/proteomic/snapshots/atlas_publisher_page.txt",
+      "P_S02 full text, Figures 3 and 5; research/proteomic/snapshots/bendall_fulltext.txt",
+      "P_S03 publisher Supplementary Figure 6b caption; research/proteomic/snapshots/cite_publisher_page.txt",
+      "P_S04 saved PDF passages on CD27 perturbation and protein/RNA discordance; research/proteomic/snapshots/extract1.json, extract2.json and methods.json",
+      "P_S05 coding CD1C variant paragraph; research/proteomic/snapshots/open3.json",
+      "P_S06 protein-phenotype association and paired-platform/cohort passages; research/proteomic/snapshots/extract2.json",
+      "P_S07 PLA2G7 cis-pQTL and paired CKB platform passages; research/proteomic/snapshots/extract3.json",
+      "P_S08 full text, Figures 2 and 4 and Methods; research/proteomic/snapshots/platelet_fulltext.txt",
+      "G01 full text, Figures 1, 3 and 4; research/genomic/snapshots/G01_fulltext.txt",
+      "G02 full text, Figures 2 and 3, human ImmVar methods and separate B6/NOD mouse contexts; research/genomic/snapshots/G02_fulltext.txt",
+      "G03 full text, Figures 3-6 and primary CD4 T-cell/shRNA/ELISA methods; research/genomic/snapshots/G03_fulltext.txt",
+      "G04 full text, Figure 3 and surface 4-1BB expression methods; research/genomic/snapshots/G04_fulltext.txt",
+      "G05 full text, TNFRSF1A disease colocalization and cohort profiling passages; research/genomic/snapshots/G05_fulltext.txt",
+      "G07 full text, subpopulation eQTL mapping and DICE comparison; research/genomic/snapshots/G07_fulltext.txt",
+      "G09 full text, Figures 4-6, reporter context and IRF7/IFNA trans associations; research/genomic/snapshots/G09_fulltext.txt",
+      "G10 full text, Figures 2 and 3 and ELISA/molecular context; research/genomic/snapshots/G10_fulltext.txt"
+    ],
+    "limits": "This is a targeted review of the bounded pilot extraction, not a reproduction of primary statistical analyses or exhaustive supplementary-data adjudication. No individual-level data were reanalyzed. G06 and G08 source access classifications and narrow/source-only use were checked but their publication content was not independently retrieved by this reviewer. G02 correction content remains incomplete as disclosed by the extracting agent. P_S01 and P_S03 support is limited to saved publisher content and captions. Source retrieval snapshots supplied by the independent extracting agents were read directly."
+  },
+  "findings": [
+    {
+      "finding_id": "BIO-M001",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "P_A06",
+      "challenge": "The source locator points to Figure 5B, while the dasatinib/IL7-induced STAT5 result is in Figure 5C.",
+      "evidence": "research/proteomic/snapshots/bendall_fulltext.txt, Figure 5 legend and main text around line 181: the IL7-induced T-cell STAT5 response is described with Figure 5C. Figure 5B concerns PLC-gamma-2. The null claim itself is supported, and the assertion correctly avoids a formal equivalence claim.",
+      "recommendation": "Change source_locator to Figure 5C legend and the corresponding main-text paragraph. Preserve the qualitative-null uncertainty.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M002",
+      "severity": "low",
+      "target_type": "assertion",
+      "target_id": "P_A07",
+      "challenge": "direction='mixed' is unsupported by an unsigned difference between CD8A antibody-tag distributions.",
+      "evidence": "The saved CITE-seq Supplementary Figure 6b caption supports different distributions between CD56-defined NK subsets using a KS comparison. P_A07 explicitly says direction was not extracted. A distribution difference does not establish opposite signed effects.",
+      "recommendation": "Use direction='association' while retaining the distribution-difference predicate, or extract an appropriate signed summary from the underlying data before assigning a directional prior.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M003",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "P_A15",
+      "challenge": "Failure of the IL6-IBD association to replicate is encoded as mixed effect direction without extracted signed estimates.",
+      "evidence": "research/proteomic/snapshots/extract2.json, Eldjarn protein-phenotype association paragraph: IL6 is among associations that did not replicate between platform/cohort groups. P_A15 uncertainty states per-assay directions and estimates are unavailable. Differences in statistical significance do not imply opposite biological effect signs.",
+      "recommendation": "Set direction='association'; preserve platform/cohort discordance in the predicate, limitation and contradiction group. Materialize separate signed assay/cohort records only after extracting their estimates.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M004",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "P_A16",
+      "challenge": "Reagent-dependent detection of the CXCL9-IBD association is encoded as mixed direction without opposing signed estimates.",
+      "evidence": "research/proteomic/snapshots/extract2.json, Eldjarn protein-phenotype association paragraph: one Olink and one of two SomaScan measurements associate with IBD. This establishes reagent discordance, while P_A16 states reagent identifiers and signed estimates were not extracted.",
+      "recommendation": "Set direction='association' and retain the reagent-discordance predicate and uncertainty. Do not distribute directional prior mass to both signs solely from significance discordance.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M005",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "G-A012",
+      "challenge": "The sh3/sh5 heterogeneity is recorded as direction='mixed', although the extracted text reports differing consistency of increases and does not establish a decrease.",
+      "evidence": "research/genomic/snapshots/G03_fulltext.txt line 270: supernatant IL7R increases in all six donors for sh3 and in only two donors for sh5; the paper explicitly retains unexplained discordance and broad antibody isoform detection. The extraction properly preserves those limitations, but its directional field could turn inconsistent detection into an opposite-sign biological prior.",
+      "recommendation": "Prefer separate intervention-specific records, including a sh3 increase and an unsigned sh5 heterogeneous result, or use direction='association' for this combined unsigned record. Preserve the isoform caveat and do not infer a uniform secretion effect from exon skipping.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M006",
+      "severity": "medium",
+      "target_type": "cohort",
+      "target_id": "GCO02",
+      "challenge": "Ancestry is marked unavailable although the exact 178-person IL2RA eQTL analysis is explicitly ancestry-restricted in the inspected full text.",
+      "evidence": "research/genomic/snapshots/G02_fulltext.txt line 392, Methods: Analysis of gene regulatory effects of naturally occurring rs61839660 variant in human T cells. The authors restrict this analysis to 178 European American/Caucasian samples because of the variant frequency. G-A006 also currently has ancestry='unavailable'.",
+      "recommendation": "Record the author-reported European American/Caucasian analysis restriction in GCO02 and G-A006, preserving the original-label qualification and unresolved overlap with other ImmVar datasets.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "BIO-M007",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "G-A015",
+      "challenge": "The surface 4-1BB follow-up omits IL7 co-stimulation from its experimental context.",
+      "evidence": "research/genomic/snapshots/G04_fulltext.txt line 227, 4-1BB surface expression studies: naive CD4 T cells received pre-coated anti-CD3 at 10 micrograms/mL, soluble anti-CD28 at 1 microgram/mL, and IL7 at 5 ng/mL. G-A015 currently lists only anti-CD3/CD28 and dose='unavailable'; GCO10 likewise omits IL7.",
+      "recommendation": "Add the IL7 co-stimulation and available concentrations to G-A015 and GCO10. Retain unavailable exact sampled time points unless independently extracted. Keep the G1 candidate-protein association grade and avoid inferring downstream receptor signaling.",
+      "disposition": "open"
+    }
+  ],
+  "supported_boundaries": [
+    "Human IL2RA reporter activity, human ImmVar RNA association and mouse B6 surface receptor perturbation are separate assertions with appropriate grades and species. Reporter G4 is permitted by the README hierarchy and is not represented as a native human allele edit.",
+    "The DDX39B 5-prime UTR result measures reporter activity normalized to RNA; it is not mislabeled as an endogenous eQTL. IL7R minigene splicing, primary CD4 T-cell gene depletion and extracellular antibody readouts are separated.",
+    "BLUEPRINT TNFRSF1A colocalization remains statistical G3 with unavailable precise event/posterior and does not establish soluble receptor protein.",
+    "Al-Mossawi soluble IL7R explicitly reuses 161 Fairfax donor samples. The cohort graph records GCO16 parent GCO01, and the extraction does not treat the two publications as independent donor replication.",
+    "DICE repeated collections and subtypes, UK Biobank nested groups, paired CKB assays and same-donor RNA/protein comparisons are disclosed; they must remain grouped during integration.",
+    "Proteomic phospho-readouts remain signaling measurements and are not promoted to cell function. Affinity-plasma measurements do not establish producing cell, proteoform identity or protein activity.",
+    "The platelet fraction-transfer and IL1-receptor-antagonist experiments support a receptor-dependent component of a mixed fraction response. The extraction acknowledges other mediators and does not establish purified IL1B sufficiency; any later path must retain that restriction and the disclosed 8-hour/18-hour collection discrepancy.",
+    "Source-only OneK1K coverage is not expanded into fabricated molecule-level edges. Locus-level VAMP8/AIMP1 assertions retain missing lead variants and cannot support named causal-variant paths.",
+    "Null findings are retained with power, equivalence and context qualifications, including dasatinib, mature B-cell IL3 signaling, CD4 antibody-tag control, DDX39B RNA and monocyte genotype-interaction contrasts."
+  ],
+  "conclusion": "No high-severity biological overclaim was identified in this targeted review. Seven open corrections concern locators, direction semantics and recoverable context. This does not certify calibration of probabilities or validate an integrated multi-omic path. Findings must be dispositioned by the integrating agent without erasing this original review."
+}

@@ -1,0 +1,27 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9576869/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim human-cell sections.
+Front Immunol. 2022 Oct 3;13:984045. doi: 10.3389/fimmu.2022.984045
+Dermal fibroblasts are the key sensors of aseptic skin inflammation through interleukin 1 release by lesioned keratinocytes
+Sevda Cordier-Dirikoc, Nathalie Pedretti, Julien Garnier, Sandrine Clarhaut-Charreau, Bernhard Ryffel, Franck Morel, François-Xavier Bernard, Valérie Hamon de Almeida, Jean-Claude Lecron, Jean-François Jégou
+PMCID: PMC9576869 PMID: 36268013
+
+[Materials and methods: Cell cultures, cytokines and reagents]
+Primary normal human epidermal keratinocytes (NHEK), normal human dermal fibroblasts (NHDF), normal human epidermal melanocytes (NHEM) and human dermal microvascular endothelial cells (HMVEC) were isolated from human skin and cultured as described in supplementary materials and methods (17–19).
+All recombinant cytokines (IL-1α, IL-1β, IL-36γ, IL-18, IL-33) were purchased from R&D systems. Anti-IL-1R1 polyclonal antibody (PA5-46930) and goat IgG isotype control were purchased from Thermo Fischer scientific.
+
+[Materials and methods: cell stimulation]
+NHEK, NHDF, NHEM and HMVEC were all seeded at 150,000 cells/well in 24-well plates (Nunc). After 24 hours of incubation, the culture medium was renewed or replaced by assay medium, and cells were incubated for 24 hours. The next day, cells were incubated for 48 hours in presence or not of the cytokines or keratinocyte extract. On NHDF, keratinocyte extract was also tested in presence of an anti-IL1R1 neutralizing polyclonal antibody or the isotype control.
+At the end of stimulation, cell culture supernatants were harvested for ELISA quantification of IL-8 and/or IL-6 and when necessary and cell layers were used for RNA extraction and gene expression profiling.
+
+[Results: IL-1 released by keratinocytes is the most potent inducer of the fibroblast response]
+Among these IL-1 family members, IL-1α and IL-1β were the most potent cytokines to induce IL-8 release by fibroblasts, with an increasing effect at concentrations ranging from 10-5 to 10-1 ng/ml for both cytokines. The stimulating effect of IL-1α/IL-1β reached a plateau from 10-1 ng/ml with a massive induction of IL-8 release which remained constant at higher concentrations of IL-1α/IL-1β (IL-8 concentrations above 100 ng/ml).
+In comparison, a much weaker effect of IL-1α and IL-1β was observed in human primary keratinocytes on IL-8 secretion, with stimulating concentrations observed only above 10-1 ng/ml (Figure 3B). Also, the highest concentrations observed for IL-8 release by keratinocytes never exceeded 5 ng/ml.
+
+[Figure3 caption]
+Dermal fibroblasts are the best responder skin cells to IL-1α/β. Dermal fibroblasts (A) and epidermal keratinocytes (B) were stimulated for 24 h with increasing concentrations of IL-1 family members including, IL-1α, IL-1β, IL-36γ, IL-18 and IL-33. The fibroblast response to cytokines was evaluated by measuring IL-8 concentrations in culture medium by ELISA. Several cell types including fibroblasts, keratinocytes, melanocytes, endothelial cells, PBMC, CD4 T cells, monocytes and PMN were stimulated for 24 h with increasing concentrations of IL-1α before measuring IL-8 concentrations in culture medium by ELISA (C). Comparison between fibroblast and keratinocyte responses to increasing concentrations of IL-1α by IL-8 measurements in culture medium after 24 h of stimulation (D). Kinetics of IL-8 mRNA expression and IL-8 protein release by fibroblasts stimulated with 100 pg/ml of IL-1α (E). IL-8 mRNA expression was determined by RT-qPCR and data were presented as relative expression to the housekeeping gene GAPDH. IL-8 dosages in culture medium were performed by ELISA.
+
+[Results following Figure3: anatomical-site context]
+This analysis was performed on several cultures of dermal fibroblasts isolated from different anatomical sites (breast, abdomen, ear, foreskin) and from patients with different ages (from 7 months to 51 years) to demonstrate that all fibroblasts tested have the same capacity to respond to IL-1α (Supplementary Figure 2).
+
+[Extractor note, not source text]
+Figure3 explicitly specifies 24 h stimulation, while generic cell-stimulation Methods say 48 h. The Figure3-specific duration is retained for Figure3 assertions and this discrepancy is recorded. Per-figure unique donor counts are not stated in the selected article text.

@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-13T01:33:19.456261+00:00",
+  "compiler_python": "3.9.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "sqlite": "3.51.0",
+  "compiler_dependencies": "Python standard library only",
+  "retrieval_dependencies": "requirements-research.lock",
+  "retrieval_transport_fallback": "urllib.request after preserved helper TLS errors",
+  "git_commit": "unavailable; folder is not a git repository"
+}

@@ -1,0 +1,26 @@
+record_id,evidence_id,observation_type,target_entity_id,assay,donor_model,multiple_testing,composition_qc
+TX_C-A01,EV_C-A01,RNA_abundance,ENT_d44f897924c1c649,10x Genomics scRNA-seq,unavailable,unavailable,unavailable
+TX_C-A02,EV_C-A02,RNA_abundance,ENT_85a6d880a40f326f,10x Genomics scRNA-seq,unavailable,unavailable,unavailable
+TX_C-A03,EV_C-A03,RNA_abundance,ENT_01b80a2dd31fefd8,Parse GigaLab scRNA-seq; donor-level pseudobulk consensus,unavailable,unavailable,unavailable
+TX_C-A04,EV_C-A04,RNA_abundance,ENT_ad7a9dd7822061c1,Parse GigaLab scRNA-seq; donor-level pseudobulk consensus,unavailable,unavailable,unavailable
+TX_C-A05,EV_C-A05,RNA_abundance,ENT_48a526b55aa1c253,Parse GigaLab scRNA-seq; donor-level pseudobulk consensus,unavailable,unavailable,unavailable
+TX_C-A11,EV_C-A11,RNA_abundance,ENT_af9e80b37704b4e4,Northern blot; RT-PCR followed by Southern blot confirmation,unavailable,unavailable,unavailable
+TX_C-A25,EV_C-A25,RNA_abundance,ENT_af9e80b37704b4e4,Northern blot,unavailable,unavailable,unavailable
+TX_G-A001,EV_G-A001,RNA_abundance,ENT_122580d5af3d26e4,Illumina HumanHT-12 v4 expression microarray; HumanOmniExpress genotyping,unavailable,unavailable,unavailable
+TX_G-A002,EV_G-A002,RNA_abundance,ENT_f8695e78998ab710,expression microarray and genotype association,unavailable,unavailable,unavailable
+TX_G-A003,EV_G-A003,RNA_abundance,ENT_8340e2eb12afa7e7,expression microarray and genotype association,unavailable,unavailable,unavailable
+TX_G-A004,EV_G-A004,RNA_abundance,ENT_cb86356b563fe9a9,expression microarray and cis-eQTL mapping,unavailable,unavailable,unavailable
+TX_G-A006,EV_G-A006,RNA_abundance,ENT_4253513bcf8b7966,ImmVar transcript reQTL reanalysis,unavailable,unavailable,unavailable
+TX_G-A008,EV_G-A008,splicing,ENT_cbb9130d1c6b4bf6,allele-specific minigene reporter; RT-PCR,unavailable,unavailable,unavailable
+TX_G-A010,EV_G-A010,RNA_abundance,ENT_ef4c894e824dfedb,"RT-qPCR, genotype-stratified PBMC samples",unavailable,unavailable,unavailable
+TX_G-A011,EV_G-A011,splicing,ENT_cbb9130d1c6b4bf6,lentiviral shRNA; RT-PCR; DDX39B western blot,unavailable,unavailable,unavailable
+TX_G-A013,EV_G-A013,RNA_abundance,ENT_b7f2228fe3fc668e,purified-cell RNA-seq; cis-eQTL mapping,unavailable,unavailable,unavailable
+TX_G-A014,EV_G-A014,RNA_abundance,ENT_b7f2228fe3fc668e,purified-cell RNA-seq; cis-eQTL mapping,unavailable,unavailable,unavailable
+TX_G-A016,EV_G-A016,splicing,ENT_2c6be02c33c9dd31,RNA-seq sQTL mapping and disease-QTL colocalization,unavailable,unavailable,unavailable
+TX_G-A017,EV_G-A017,splicing,ENT_0a833e7f0956d6e8,RNA-seq isoform sQTL mapping,unavailable,unavailable,unavailable
+TX_G-A018,EV_G-A018,RNA_abundance,ENT_2cd3b4cc8c682086,single-cell RNA-seq aggregated per donor/cluster; tensorQTL,unavailable,unavailable,unavailable
+TX_G-A019,EV_G-A019,RNA_abundance,ENT_78d02fac5056ea39,single-cell RNA-seq aggregated per donor/cluster; tensorQTL,unavailable,unavailable,unavailable
+TX_G-A021,EV_G-A021,RNA_abundance,ENT_3f9b0b6a9cc7f93e,NanoString 415-gene panel; genotype association,unavailable,unavailable,unavailable
+TX_G-A022,EV_G-A022,RNA_abundance,ENT_97ae9323f2ac4612,NanoString expression/differential-expression QTL mapping,unavailable,unavailable,unavailable
+TX_P_A10,EV_P_A10,RNA_abundance,ENT_08968262c79cdfa7,REAP-seq,unavailable,unavailable,unavailable
+TX_P_A12,EV_P_A12,RNA_abundance,ENT_041d2cfb29a3e067,REAP-seq,unavailable,unavailable,unavailable

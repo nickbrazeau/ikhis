@@ -1,0 +1,45 @@
+{
+  "review_response_id": "curation-review-response-CUR02-20260913-01",
+  "critic_run_id": "curation-review-CUR02-20260913-recheck-01",
+  "original_review": {
+    "path": "research/review_curations_0.2.json",
+    "sha256": "f3cbf5907936d36c0a255bf926ecda2028e479247b45123c4d4c5d0587ceccac",
+    "preserved_unchanged": true
+  },
+  "timestamp_start": "2026-09-13 18:04:19 UTC",
+  "timestamp_end": "2026-09-13 18:05:03 UTC",
+  "agent_role": "Independent Evidence Curation Reviewer",
+  "scope": "Independent descriptive recheck of the coordinator correction to CUR02-001, covering C-A18 and C-A19 provenance and confirming that the previously reviewed four-assertion curation overlay is unchanged. No implementation edits, extraction edits or experimental procedures were authored by this reviewer.",
+  "reviewed_file_hashes": {
+    "data/curation_overrides_0.2.json": "1a1c2b9b17491d535199197d2306678167bf5b930d33210fb38b3429f98311e6",
+    "research/cytokine/pack.json": "e270f0cca18d05dcf0a1552d5144c79081b7532d7c76fb6f963e52e6c6d4ca8d",
+    "research/fulltext_followup/chrome_STAT3_passages.json": "26caa1f74bb007094bcbe3d026abacebf6086c8edd2d949288f7bc419ed8f3a2",
+    "research/fulltext_followup/chrome_NK_DC_passages.json": "8d49f2cff939f486ed2007014c6af5498c6a1c3bc7ccf671ca8fab16f7f95f10",
+    "research/fulltext_followup/source_passages.json": "6a5848fe4c578f88dea75ff9f12c3356496f4cf97346344b04eb6e4df5a5738a"
+  },
+  "result": "pass",
+  "finding_rechecks": [
+    {
+      "finding_id": "CUR02-001",
+      "target_ids": [
+        "C-A18",
+        "C-A19"
+      ],
+      "result": "pass",
+      "correction": "The selected Chrome snapshot now contains the direct neutralization Results passage, the proliferation Results passage and the Figure4C/D caption. It labels these as direct Chrome readings and separately explains the difference between the authors wording and the measured IFNG compartment.",
+      "evidence": "The added Results explicitly support the IL12-blockade effect in peripheral-blood NK/autologous monocyte-derived-DC coculture. The added proliferation Results and Figure4D caption support the IL15/contact-dependent proliferation interpretation at the CFSE endpoint. The Chrome snapshot itself now supports the narrow positive directions, without relying on the indexed source_passages.json file for those directions.",
+      "boundary": "The curation continues to withhold an independent donor count and quantitative effect size for these assertions. It does not infer extracellular IFNG concentration or a complete receptor/signaling pathway."
+    }
+  ],
+  "assertion_results": {
+    "C-A12": "pass: unchanged extracellular TNF null remains inconclusive; donor and technical-replicate distinction retained",
+    "C-A18": "pass: intracellular IFNG response and supporting neutralization outcome now trace to the selected Chrome snapshot",
+    "C-A19": "pass: proliferation endpoint and supporting result now trace to the selected Chrome snapshot",
+    "C-A20": "pass: unchanged surface-only nondetection remains inconclusive"
+  },
+  "remaining_issues": [],
+  "approval_boundary": "Any curation approval must bind the new chrome_NK_DC_passages.json hash shown above, the unchanged curation overlay, and all inherited base input dependencies required by the compiler. This recheck is not a reusable approval of future edits.",
+  "human_adjudication_status": "pending",
+  "limitations": "This is review of the saved selected passages and their explicit retrieval metadata, not an independent complete-article or image-level figure archive. The conclusions remain qualitative and limited to the specified source contexts.",
+  "conclusion": "CUR02-001 is addressed at the recorded source hash. No remaining material issue was identified in the four corrected assertions within this bounded review. Preserve the original finding and record coordinator disposition separately; human review remains pending."
+}

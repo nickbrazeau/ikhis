@@ -1,0 +1,47 @@
+{
+  "retrieval_id": "XCH-TAUB-GAPS-20260913-01",
+  "timestamp_start": "unavailable",
+  "timestamp_precision": "Initial query timestamp not explicitly recorded; end recorded at file creation.",
+  "scope": "Additional attempts to retrieve original XCH_S005 and XCH_S006 full methods; no assertion edits.",
+  "queries": [
+    "\"Preferential migration of activated CD4+\" \"pdf\"",
+    "\"Chemotaxis of T lymphocytes on extracellular matrix proteins\" pdf",
+    "\"10.1126/science.7682337\" \"pdf\"",
+    "\"10.1016/0022-1759(95)00087\" pdf",
+    "\"7682337\" full text",
+    "\"Chemotaxis of T lymphocytes on extracellular matrix proteins\" \"Materials\"",
+    "\"Preferential Migration of Activated\" \"355\" filetype:pdf",
+    "\"Chemotaxis of T lymphocytes\" \"Key\" \"1995\" filetype:pdf",
+    "\"Preferential Migration\" \"MIP-1\" \"1993\" pdf -effector -granzyme",
+    "\"science.7682337\" Taub fulltext",
+    "\"002217599500087Q\" pdf",
+    "\"Preferential migration\" \"MIP\" \"Fig. 1\" Taub",
+    "\"science.7682337\" \"CD3\" \"hours\"",
+    "\"Chemotaxis of T lymphocytes on extracellular matrix proteins\" \"nylon\"",
+    "\"Chemotaxis of T lymphocytes on extracellular matrix proteins\" \"Fig.\""
+  ],
+  "outcomes": [
+    {
+      "target_id": "XCH_S005",
+      "title": "Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta",
+      "doi": "10.1126/science.7682337",
+      "decision": "await_full_text",
+      "reason": "No primary full-article mirror found in these indexed searches. Citations, review articles and bibliographic abstracts do not resolve methods. A Scispace bibliographic page advertised PDF but direct open failed; no primary PDF retrieved from it."
+    },
+    {
+      "target_id": "XCH_S006",
+      "title": "Chemotaxis of T lymphocytes on extracellular matrix proteins. Analysis of the in vitro method to quantitate chemotaxis of human T cells.",
+      "doi": "10.1016/0022-1759(95)00087-Q",
+      "pmid": "7544817",
+      "decision": "await_full_text",
+      "reason": "Publisher/PubMed abstract and bibliographic identity verified; primary full methods not retrieved. Later book chapter by same author is a distinct protocol and was not used to fill original-paper details.",
+      "primary_snapshot": "Chemotaxis of T lymphocytes on extracellular matrix proteins Analysis of the in vitro method to quantitate chemotaxis of human T cells - ScienceDirect (https://www.sciencedirect.com/science/article/pii/002217599500087Q)\n\ue200cite\ue202turn132search0\ue201 [wordlim: 200] Published: 31.1 years ago; Crawled: 3 weeks ago; Chemotaxis of T lymphocytes on extracellular matrix proteins Analysis of the in vitro method to quantitate chemotaxis of human T cells\u2606 ... Access through\u00a0your organization Purchase PDF ... The present report compares a variety of T cell purification protocols and chemotaxis procedures in assessing chemokine-induced T cell migration using a microchemotaxis assay. ... However, T cell purification schemes involving prolonged 37\u00b0 C incubations generally produce non-motile T lymphocytes that require stimulation with \u03b1CD3 antibody for 6\u201312 h in culture to recover chemotactic mobility.\n\n## Journal of Immunological Methods\n\nDate: 18 August 1995\n\nPages: 187-198\n\nVolume: Volume 184, Issue 2\n\n## Published by: Elsevier\n\nGet rights and content\n\n# \n\nResearch report\n\nChemotaxis of T lymphocytes on extracellular matrix proteins Analysis of the in vitro method to quantitate chemotaxis of human T cells\u2606\n\nAuthor links open overlay panel Dennis D. Taub, Michael L. Key, Danielle Clark, Susan M. Turcovski-Corrales\n\nShow more\n\nCite\n\n10.1016/0022-1759(95)00087-Q\n\nAccess through\u00a0your organizationPurchase PDF\n\nMore actions\n\n  * Article preview\n  * Recommended articles\n  * Cited by (43)\n\n## Abstract\n\nThe present report compares a variety of T cell purification protocols and chemotaxis procedures in assessing chemokine-induced T cell migration using a microchemotaxis assay. Rapidly purified T cells are capable of directly responding to the \u03b2 chemokines macrophage inflammatory protein-1\u03b1 (MIP-1\u03b1), MIP-1\u03b2, and RANTES in the absence of \u03b1CD3 stimulation as previously described (Taub, D.D. and Oppenheim, J.J. (1993) Cytokine 5, 175). However, T cell purification schemes involving prolonged 37\u00b0 C incubations generally produce non-motile T lymphocytes that require stimulation with \u03b1CD3 antibody for 6\u201312 h in culture to recover chemotactic mobility. This loss of chemotactic potential appears to be due to prolonged 37\u00b0 C incubations as rapidly purified T cells lose migratory activity upon incubation at 37\u00b0 C. Radiolabeled binding analysis revealed that \u03b2 chemokine binding sites are downregulated as short as 2 h after incubation at 37\u00b0 C. T cells require the presence of extracellular matrix molecules to facilitate T cell migration. While many of these proteins permit chemotactic activity, human plasma and foreskin fibronectin were found to be the most effective matrix molecule for T cell migration. Kinetic analysis of T cell activation revealed that 6\u201312 h of anti-CD3 stimulation was optimal to restore the ability of purified T cells to migrate in response to the chemokines MIP-1\u03b1, MIP-1\u03b2, RANTES, and IL-8. However, rapidly dividing T cells ( \u2265 48 h post \u03b1CD3 mAb stimulation) fail to migrate in response to any chemotactic stimulus. Together, these results suggest that the measurement of T cell migration, using microchemotaxis chambers, is a multifactorial process with strict environmental and activation requirements.\n\n## Keywords\n\nChemokine\n\n;\n\nChemotaxis\n\n;\n\nT cell\n\n;\n\nExtracellular matrix\n\n## Organizational access\n\nGet full-text access by signing in with your organisationAccess through\u00a0your organization\n\n### Other access options\n\nThis project was supported in part with federal funds from the Department of Health and Human Services, under contract N01-CO-74102 with program resources, Inc./DynCorp. The contents of this publication do not necessarily reflect the views or policies of the Department of Health and Human Services, nor does mention of trade names, commercial products, or organizations imply endorsement by the US Government. All animals were cared for in accordance with the Public Health Service Policy on Humane Care and Use of Laboratory Animals, Public Health Law 99\u2013158.\n\nView full text"
+    }
+  ],
+  "actual_open_attempt": {
+    "url": "https://scispace.com/papers/preferential-migration-of-activated-cd4-and-cd8-t-cells-in-2anumj1rqd",
+    "outcome": "web internal error"
+  },
+  "limits": "Additional targeted retrieval, not exhaustive systematic review. No new shell network requests or credentials used. Existing provisional assertions remain unchanged; access absence is not biological null evidence.",
+  "timestamp_end": "2026-09-13T18:37:42.415287+00:00"
+}

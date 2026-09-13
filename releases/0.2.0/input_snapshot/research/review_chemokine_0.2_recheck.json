@@ -1,0 +1,201 @@
+{
+  "critic_run_id": "XCH-RECHECK-20260913-01",
+  "scope": "Independent biological recheck of chemokine expansion repairs, full Provost methods and final source bundle; original review immutable. Preparatory passage inspection preceded final timestamped hash-validation phase.",
+  "timestamp_start": "2026-09-13T18:30:41.492820+00:00",
+  "timestamp_end": "2026-09-13T18:30:41.503811+00:00",
+  "agent_role": "Adversarial Biological Reviewer, independent of chemokine extractor",
+  "model": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.2.0",
+  "responds_to": "XCH-REVIEW-20260913-01",
+  "original_review_path": "research/review_chemokine_0.2.json",
+  "original_review_sha256": "575764c960c7fc67b0991f86a473fe187dbc3a7e6fadda272f8e188a010f4226",
+  "reviewed_pack_hashes": {
+    "research/chemokine_expansion/pack.json": "4e486687b3b161f0411ee5c3f926ee10a833a7e24e6ca1a980d55a0e64340182"
+  },
+  "reviewed_source_hashes": {
+    "research/chemokine_expansion/snapshots/Agostini2001_chrome.txt": "a67f2adc3ad98ca5492909a6ce51ce7acf754730eb58e1fcd262a04e0077416b",
+    "research/chemokine_expansion/snapshots/Godiska1997_chrome.txt": "e78920682e3c4dbae1c53fd441be4347b1b681c57c27e4d9735588fe5df6e5db",
+    "research/chemokine_expansion/snapshots/Provost2013_chrome.txt": "db3e82e3879360f1ab9bc229f9b2f0c4338afe6d2226502fcea0d7dde57bce51",
+    "research/chemokine_expansion/snapshots/Viney2014_chrome.txt": "98a580bc653e9a6d9acac0b081287f7389b81732f331e7118620965fc550a101",
+    "research/chemokine_expansion/snapshots/followup_fullmethods1.json": "2878795f19b69d040debb0a455dc5a71971059d6cd403ace304a1f3c73b4655a",
+    "research/chemokine_expansion/snapshots/followup_search6.json": "ad0ba6a5543af65e538fae0d05ddb7ead69c1bbc3423a53bd135184371e20dad",
+    "research/chemokine_expansion/snapshots/followup_search7.json": "e8f330e3389e4413aa5389657eb1aadfb9e8f5e3b6e38b07dffc1f0244dc8453",
+    "research/chemokine_expansion/snapshots/followup_search8.json": "d90445a624cf5562ee6c9ac4f985c3c43cff3ca916dceac7a8dabadf04465b9b",
+    "research/chemokine_expansion/snapshots/open1.json": "7d698aacc66a6779732ed19f39161b236edfd167dd490c6271f5a1732b10d2d6",
+    "research/chemokine_expansion/snapshots/open3.json": "41d43672588a41471e8f6feb0e57e4b386a6ae66457f3e374d9313ae5ecb8a28",
+    "research/chemokine_expansion/snapshots/search1.json": "c9f95422a19306c646f0da293128cedb1cc58ea8d2859a9fbd75ddba4beed402",
+    "research/chemokine_expansion/snapshots/search2.json": "fe2c137425a915383bffe21e4a06b262a6cc6b80f266996cd8b15c9c375c676b",
+    "research/chemokine_expansion/snapshots/search3.json": "ef3ff143edd890b90064bc16d8067a10fe3aaaaa36c47cca1b0a45c6f6898e4c"
+  },
+  "findings": [],
+  "finding_dispositions": [
+    {
+      "finding_id": "XCH-REV001",
+      "target_type": "assertion",
+      "target_id": "XCH_A021",
+      "disposition": "resolved",
+      "evidence": "Named Agostini2001_chrome.txt now archives Methods sec6/AX156 with permeabilization and cytoplasmic flow plus Figure5/AX252 macrophage-CXCL10 caption. Sec5/Figure4 independently support immunohistochemistry. P1 intracellular/localized protein remains distinct from extracellular secretion."
+    },
+    {
+      "finding_id": "XCH-REV002",
+      "target_type": "assertion",
+      "target_id": "XCH_A010",
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011"
+      ],
+      "disposition": "resolved",
+      "evidence": "Structured stimulation now specifies soluble recombinant human CCL17 and CCL22 concentration series respectively, matching Viney S3/S14/Figure1A. Human Hut78 lymphoma-line identity and untranscribed dose-range limit retained."
+    }
+  ],
+  "coverage": {
+    "assertions_inspected": 22,
+    "cohorts_inspected": 12,
+    "source_records_inspected": 9,
+    "reviewed_extraction_assertions": [
+      "XCH_A001",
+      "XCH_A002",
+      "XCH_A003",
+      "XCH_A004",
+      "XCH_A005",
+      "XCH_A006",
+      "XCH_A007",
+      "XCH_A008",
+      "XCH_A009",
+      "XCH_A010",
+      "XCH_A011",
+      "XCH_A018",
+      "XCH_A019",
+      "XCH_A020",
+      "XCH_A021",
+      "XCH_A022"
+    ],
+    "full_text_gated_assertions": [
+      "XCH_A012",
+      "XCH_A013",
+      "XCH_A014",
+      "XCH_A015",
+      "XCH_A016",
+      "XCH_A017"
+    ],
+    "newly_reviewed_primary_assertions": [
+      "XCH_A005",
+      "XCH_A006",
+      "XCH_A007"
+    ],
+    "limits": "Six CCL3/4 records remain abstract/excerpt based and provisional. No re-download of all previously reviewed unchanged publications, figure digitization, donor-level deduplication or empirical prior calibration. XCH_S008 remains source-only, with engineered host unresolved and no approved functional assertion."
+  },
+  "assertion_assessments": [
+    {
+      "target_ids": [
+        "XCH_A001",
+        "XCH_A002",
+        "XCH_A003",
+        "XCH_A004"
+      ],
+      "assessment": "P3 supported for fresh primary human eosinophil CCR3-antibody-sensitive migration/calcium responses. Ligand-specific calcium doses,1.5h migration and fresh-cell context match Figures3\u20134. Antibody numeric dose is appropriately withheld because extracted PDF symbols corrupt micrograms; C5a-control text inconsistency is disclosed. Murine L1.2 and IL5-primed experiments are not substituted."
+    },
+    {
+      "target_ids": [
+        "XCH_A008",
+        "XCH_A022"
+      ],
+      "assessment": "Godiska primary DC migration and macrophage extracellular CCL22 Western-blot endpoints are distinguished. Biological migration uses chemically synthesized mature human ligand, not CHO-host recipients. Day6/day9 source-cell cultures are not presumed identical to DC recipient donors. n=7 is not relabeled as seven people."
+    },
+    {
+      "target_ids": [
+        "XCH_A009"
+      ],
+      "assessment": "P1 intracellular CCL22 localization in CD1a/CD83-defined dermal DCs is supported by double staining/electron microscopy. The extraction does not promote rough-ER localization or proximity to CCR4 cells to measured extracellular release or causal recruitment. Four-versus-five case discrepancy is disclosed."
+    },
+    {
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011",
+        "XCH_A018",
+        "XCH_A019"
+      ],
+      "assessment": "Hut78 migration is human cell-line evidence; calcium responses are cultured primary human Th2 evidence. Transfected murine L1.2 receptor blockade/mutation/binding assays are excluded from these human-primary claims. Figure3E EC50 values1.6nM CCL17 and2.5nM CCL22 are assay potency,not affinity or truth probability. Ligand stimulation fields are repaired and verified."
+    },
+    {
+      "target_ids": [
+        "XCH_A012",
+        "XCH_A013",
+        "XCH_A014",
+        "XCH_A015",
+        "XCH_A016",
+        "XCH_A017"
+      ],
+      "assessment": "CCL3/CD8 and CCL4/CD4 activated-cell tendency matches Taub abstract without claiming subset exclusivity. Later rapid-purification responsiveness provides a preparation-context contrast. All six remain needs_full_text; resting-cell nulls are inconclusive. Donor overlap across publications is unresolved and not certified independent."
+    },
+    {
+      "target_ids": [
+        "XCH_A020",
+        "XCH_A021"
+      ],
+      "assessment": "Primary rejection-associated BAL T-cell chemotaxis with CXCR3 antibody supports P3 in the recorded disease/treatment context. 300-19 recipient-line supernatant assays are excluded. Failure to obtain no-rejection T cells is missingness,not a response null. Macrophage CXCL10 localization remains observational P1,with the exact source-bundle correction verified in this recheck."
+    },
+    {
+      "target_ids": [
+        "XCH_A005",
+        "XCH_A006",
+        "XCH_A007"
+      ],
+      "assessment": "Provost full Methods sec0005-0007 and Figures2C/5C support human blood eosinophil results. Healthy/asthma recruitment8/30 is separate from Figure2C seven and Figure5 four independent experiments per group, all technical duplicates. Continuous IL5 10ng/mL,CCL26 100nM,8micrometer Matrigel pores and vehicle-subtracted migration retained. Figure5 antiCCR3 clone61828/7B11 10micrograms/mL both chambers10min before ligand differs from generic15min IL5 protocol and is disclosed. Healthy blockade only measured18h. Baseline late kinetics12-18h and blockade late interval9-18h remain distinct. P3 healthy blocker-sensitive response and P2 asthma ligand response are supported; antibody-insensitive late component stays an inconclusive null and does not establish CCR3 independence."
+    },
+    {
+      "target_ids": [
+        "XCH_A010",
+        "XCH_A011",
+        "XCH_A021"
+      ],
+      "assessment": "Both recorded repair dispositions verified against the revised named snapshots; grades and human host boundaries unchanged."
+    }
+  ],
+  "supported_boundaries": [
+    "No full source-to-target path is asserted.",
+    "RNA is not substituted for secreted protein.",
+    "Source species and engineered recipient host are not conflated.",
+    "Repeated assay panels and technical wells are not added to independent donor counts.",
+    "All ordinary null observations retain inconclusive evidence relations.",
+    "Primary full-text gaps remain explicitly gated despite narrow excerpt support."
+  ],
+  "remaining_source_gaps": [
+    {
+      "target_type": "source",
+      "target_id": "XCH_S005",
+      "target_ids": [
+        "XCH_A012",
+        "XCH_A013",
+        "XCH_A015",
+        "XCH_A016"
+      ],
+      "status": "needs_full_text",
+      "reason": "Science1993 full methods remain unavailable after access attempts; exact doses, cell preparation, time and donor independence are not verified."
+    },
+    {
+      "target_type": "source",
+      "target_id": "XCH_S006",
+      "target_ids": [
+        "XCH_A014",
+        "XCH_A017"
+      ],
+      "status": "needs_full_text",
+      "reason": "1995JImmunolMethods metadata now verified, but primary excerpt does not supply complete experimental methods."
+    },
+    {
+      "target_type": "source",
+      "target_id": "XCH_S008",
+      "status": "source_only_await_full_text",
+      "reason": "Cloned human receptor abstract does not resolve host identity of each functional assay; no biological assertion extracted."
+    }
+  ],
+  "conclusion": "Both original findings are resolved. No new biological finding at the exact revised hash. Sixteen assertions pass source review; six CCL3/4 assertions retain full-text gates and all three ordinary nulls remain inconclusive. This is independent agent review, not human adjudication or calibrated probability approval. Any later pack or supporting-source change requires a further recheck.",
+  "validation": {
+    "all_primary_additional_and_supporting_paths_bound": true,
+    "source_bundle_sanitizer_findings": 0,
+    "ordinary_nulls_inconclusive": true,
+    "original_review_unchanged": true
+  }
+}

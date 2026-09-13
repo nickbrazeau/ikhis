@@ -1,0 +1,82 @@
+{
+  "critic_run_id": "implementation-retrieval-time-review-IMPL02-20260913-01",
+  "timestamp_start": "2026-09-13 18:52:46 UTC",
+  "timestamp_end": "2026-09-13 18:54:23 UTC",
+  "agent_role": "Independent Implementation Reviewer",
+  "scope": "Independent bounded review of recorded_retrieval_time, its build_reference_entities call site, provenance/source_retrieval_times.json and the focused lifecycle regression test. Checked all29 provenance records against the immutable Release0.1.0 source registry and source snapshots. No implementation, test, ledger or scientific-input edits authored by this reviewer. Earlier reviews preserved.",
+  "reviewed_file_hashes": {
+    "provenance/source_retrieval_times.json": "700a762936eca861397c10034c02695d0223f76e4dd6fc3ba27ab86beabf0f76",
+    "releases/0.1.0/immune_prior.sqlite": "500b7040c2d1badc9497c8bbee788e2b6a05308428beffd0c072ad9d5b70836b",
+    "releases/0.1.0/manifest.json": "6ef2ada53d85c341987f30d3355f4cde99157cdf5fe3883d56bdda936fecf8b0",
+    "research/implementation_review_display_0.2.json": "73bf2821b413579736e81e6706477994a0dfaf4e0f0d2c4ddd9f2259c8b046de",
+    "research/references/uniprot_CCL11.json": "e6a6bc43ad1949904efb185cb3ba96d5ed3e6a413be735617d837fe3ca79e901",
+    "research/references/uniprot_CCL13.json": "fcbf90dfe2f8a72bf34e0f461e00bec4e0570578ffddf5a809db23241157b63e",
+    "research/references/uniprot_CCL17.json": "91be4ae1029f2f7fda075cd3d71ec7d8c3ccd7e6e9ae67a8008458b91571305e",
+    "research/references/uniprot_CCL2.json": "af5e39a492bb231b9c574b15072f1571637445068dae3843d2268a4653f02730",
+    "research/references/uniprot_CCL22.json": "cbd6c304448f3d236ddefa0726c93c66b5a45392ba11605cdfb380f10cd8a514",
+    "research/references/uniprot_CCL26.json": "77d1b55e180906f46407c713bf0919f1790fc6898249b6548e5aa8ef182fc5ba",
+    "research/references/uniprot_CCL3.json": "f60c8beadec02ecd90cc38521bf90bc45cb631c3d5926386a9f29d05b4b53576",
+    "research/references/uniprot_CCL4.json": "bb90d278544edf2ecbd3b263495635f193f9c0b8592d2361835506e8720686de",
+    "research/references/uniprot_CSF2.json": "59983f09e79dca0479258b562b5c0481124dc92c9bbb71c69497ce09c8430a81",
+    "research/references/uniprot_CXCL10.json": "981ca215a3471f7b987ef9ed2e5368f93434400d791a379a9c23c82fd06d3aec",
+    "research/references/uniprot_CXCL8.json": "19da5514a81bf17c3680e117d4e49f86d192fc54826fb022de4d7304b9d81d5d",
+    "research/references/uniprot_IFNG.json": "9d276b5007880b6ba39d35194c87745c3f60f2bc2793468062e88328f3e5b205",
+    "research/references/uniprot_IL10.json": "fd6bde5be61aa73ba6aac09bcff9fc92036b580367c09f9969b725174b649b1e",
+    "research/references/uniprot_IL12A.json": "ce089ec46e6ee82b91bdf4a3f8e1263c83baaeb28081dd8eaed5ffd1b959a022",
+    "research/references/uniprot_IL12B.json": "aefe8f13ba48952f0d1548e466bd3143647a8f9eadf1f722e070a8be5c9b5b18",
+    "research/references/uniprot_IL13.json": "3664589414d41a843764556324da2a279cdd2ed1a7097b007e92d282366c1306",
+    "research/references/uniprot_IL15.json": "a682b20afa52bfb33d35f98a5f30fa3cbaa2dac4da49acdd9bc67d2f31600c75",
+    "research/references/uniprot_IL16.json": "787cb9ed6c0d5736719e08f5ad3cd7823cf1f13060e4bccb0b2c36a564d44fe0",
+    "research/references/uniprot_IL17A.json": "b475356a182537e3717192dd12b849b0ef559d1e61fe2cd60322ae54c7348e23",
+    "research/references/uniprot_IL1A.json": "9fc3a121a644741a9d7ffd41844dab9e556c2821ded130273979b51e6855140b",
+    "research/references/uniprot_IL1B.json": "80677a941288d75bfa9451844eff7a9ed29b1dc718bf7658ab8d7470ac3a89a4",
+    "research/references/uniprot_IL2.json": "11b4c9dfb95dcf90ba6f3abafdab2ef3290293eca78158c748d50152ea456f14",
+    "research/references/uniprot_IL4.json": "d356080c4ed94add51e600bb3a563628a9dc099bedf5c3d95372da7b290ab2cf",
+    "research/references/uniprot_IL5.json": "60d57a8bcd962eb40fb7343e4cde9ee004ebd1da4e5976b9b031f087305dc5b1",
+    "research/references/uniprot_IL6.json": "6fb15320a443a455a08fe049b9a077f539a106072baac06b1f448de35b381a39",
+    "research/references/uniprot_IL7.json": "26f432747e41c5c725665d514634018aab2fd66b119cefc5262e607fe27404d9",
+    "research/references/uniprot_LTA.json": "37c513b236b9a61bcc7835f974add2d051f2191f4d3a1b1ebb10f7181b98a69f",
+    "research/references/uniprot_TNF.json": "e0ff0ba226d6d35a9fff2f24366edb2f7bf6bba1c8e6ae18c907f8463b2623f7",
+    "research/references/uniprot_VEGFA.json": "64143d4a8be940508a41a64616aa5f24d96b12c5538fb514424d9606a2adc6c3",
+    "scripts/kb.py": "4e60ac7ef9da7e2491387f9625b3efc3c8c0cfd31a5cbab02161dd702ae57bb7",
+    "tests/test_release_lifecycle.py": "cef4a9ecac01e374653aecc7fb1e11bc7a2f20779e992dfe9a596e22499ac731"
+  },
+  "result": "pass",
+  "findings": [],
+  "findings_summary": "No material issue found in the narrow retrieval-time reproducibility correction.",
+  "checks": [
+    {
+      "topic": "Exact diff isolation",
+      "result": "pass",
+      "evidence": "Removing only the new helper, restoring the former mtime-based retrieved_at expression and restoring import datetime exactly reconstructs the previously reviewed kb.py SHA2562e73785a29b2001685a84a9d11986e7d389f0a6fe2236feb6cd31aec0331d7f2. No unrelated code change is present relative to that review."
+    },
+    {
+      "topic": "Frozen provenance consistency",
+      "result": "pass",
+      "evidence": "The ledger and frozen database have exactly the same29UniProt snapshot paths. Every ledger retrieved_at and sha256 equals the corresponding frozen source_registry value. Each current snapshot and corresponding Release0.1.0 archived snapshot matches that recorded hash. The frozen database SHA256500b7040c2d1badc9497c8bbee788e2b6a05308428beffd0c072ad9d5b70836b matches its manifest entry."
+    },
+    {
+      "topic": "Changed metadata and changed bytes",
+      "result": "pass",
+      "evidence": "The helper consults the recorded date only when the current source hash matches. It no longer reads filesystem timestamps. The focused test explicitly changes mtime and preserves the expected recorded date, then changes bytes and receives unavailable. No datetime import, stat call or fromtimestamp call remains in kb.py."
+    },
+    {
+      "topic": "Meaning of the date",
+      "result": "pass_with_retained_historical_basis",
+      "evidence": "The ledger explicitly identifies these dates as snapshot-write timestamps already recorded in the frozen release. The fix preserves that historical value; it does not assert a newly measured network retrieval time."
+    }
+  ],
+  "validation": {
+    "command": "PYTHONPATH=tests python3 -m unittest test_release_lifecycle.ReleaseLifecycleTests.test_retrieval_date_survives_copy_metadata_changes_but_not_changed_bytes -v",
+    "result": "pass",
+    "tests_run": 1,
+    "ledger_record_count": 29,
+    "database_record_count": 29,
+    "current_and_archived_hash_mismatches": 0,
+    "date_mismatches": 0,
+    "full_offline_reproduction": "Coordinator performing separately with deliberately changed mtimes; not claimed complete by this supplement."
+  },
+  "remaining_issues": [],
+  "human_adjudication_status": "pending",
+  "conclusion": "The isolated change removes the identified filesystem-metadata dependency while preserving the29frozen recorded dates for identical bytes and withholding them for changed bytes. Focused regression and full ledger/database consistency checks pass. Whole-release offline reproduction remains the coordinator separate validation."
+}

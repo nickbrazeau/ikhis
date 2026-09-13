@@ -1,0 +1,122 @@
+[
+  {
+    "assay_label": "GM-CSF",
+    "canonical_symbol": "CSF2"
+  },
+  {
+    "assay_label": "IL-12",
+    "canonical_symbol": "unavailable"
+  },
+  {
+    "assay_label": "IL-15",
+    "canonical_symbol": "IL15"
+  },
+  {
+    "assay_label": "IL-16",
+    "canonical_symbol": "IL16"
+  },
+  {
+    "assay_label": "IL-17A",
+    "canonical_symbol": "IL17A"
+  },
+  {
+    "assay_label": "IL-1α",
+    "canonical_symbol": "IL1A"
+  },
+  {
+    "assay_label": "IL-5",
+    "canonical_symbol": "IL5"
+  },
+  {
+    "assay_label": "IL-7",
+    "canonical_symbol": "IL7"
+  },
+  {
+    "assay_label": "TNF-β",
+    "canonical_symbol": "LTA"
+  },
+  {
+    "assay_label": "VEGF",
+    "canonical_symbol": "unavailable"
+  },
+  {
+    "assay_label": "IFN-γ",
+    "canonical_symbol": "IFNG"
+  },
+  {
+    "assay_label": "IL-10",
+    "canonical_symbol": "IL10"
+  },
+  {
+    "assay_label": "IL-12p70",
+    "canonical_symbol": "IL12A:IL12B"
+  },
+  {
+    "assay_label": "IL-13",
+    "canonical_symbol": "IL13"
+  },
+  {
+    "assay_label": "IL-1β",
+    "canonical_symbol": "IL1B"
+  },
+  {
+    "assay_label": "IL-2",
+    "canonical_symbol": "IL2"
+  },
+  {
+    "assay_label": "IL-4",
+    "canonical_symbol": "IL4"
+  },
+  {
+    "assay_label": "IL-6",
+    "canonical_symbol": "IL6"
+  },
+  {
+    "assay_label": "IL-8",
+    "canonical_symbol": "CXCL8"
+  },
+  {
+    "assay_label": "TNF-α",
+    "canonical_symbol": "TNF"
+  },
+  {
+    "assay_label": "Eotaxin",
+    "canonical_symbol": "CCL11"
+  },
+  {
+    "assay_label": "Eotaxin-3",
+    "canonical_symbol": "CCL26"
+  },
+  {
+    "assay_label": "IL-8 high range",
+    "canonical_symbol": "CXCL8"
+  },
+  {
+    "assay_label": "IP-10",
+    "canonical_symbol": "CXCL10"
+  },
+  {
+    "assay_label": "MCP-1",
+    "canonical_symbol": "CCL2"
+  },
+  {
+    "assay_label": "MCP-4",
+    "canonical_symbol": "CCL13"
+  },
+  {
+    "assay_label": "MDC",
+    "canonical_symbol": "CCL22"
+  },
+  {
+    "assay_label": "MIP-1α",
+    "canonical_symbol": "CCL3"
+  },
+  {
+    "assay_label": "MIP-1β",
+    "canonical_symbol": "CCL4"
+  },
+  {
+    "assay_label": "TARC",
+    "canonical_symbol": "CCL17"
+  }
+]

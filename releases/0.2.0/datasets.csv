@@ -1,0 +1,53 @@
+dataset_id,cohort_id,accession,study_id,version,notes
+Bendall bone-marrow mass-cytometry experiment,P_C02,unavailable,P_S02,unavailable,Dataset registry does not independently establish cohort independence.
+C-D01,C-CO01,GSE202186,C-S01,unavailable,Dataset registry does not independently establish cohort independence.
+C-D02,C-CO02,unavailable,C-S02,unavailable,Dataset registry does not independently establish cohort independence.
+C-D03,C-CO03,unavailable,C-S03,unavailable,Dataset registry does not independently establish cohort independence.
+C-D04,C-CO04,unavailable,C-S04,unavailable,Dataset registry does not independently establish cohort independence.
+C-D05,C-CO05,unavailable,C-S05,unavailable,Dataset registry does not independently establish cohort independence.
+C-D06,C-CO06,unavailable,C-S06,unavailable,Dataset registry does not independently establish cohort independence.
+C-D07,C-CO07,unavailable,C-S07,unavailable,Dataset registry does not independently establish cohort independence.
+C-D08,C-CO08,unavailable,C-S08,unavailable,Dataset registry does not independently establish cohort independence.
+C-D09,C-CO09,unavailable,C-S08,unavailable,Dataset registry does not independently establish cohort independence.
+C-D10,C-CO10,unavailable,C-S06,unavailable,Dataset registry does not independently establish cohort independence.
+CITE-seq cord blood mononuclear cells,P_C03,GSE100866,P_S03,unavailable,Dataset registry does not independently establish cohort independence.
+China Kadoorie Biobank IHD case-subcohort,P_C07,unavailable,P_S07,unavailable,Dataset registry does not independently establish cohort independence.
+GDS01,GCO01,EGAS00000000109 (genotypes); expression ArrayExpress accession unavailable in inspected main text,G01,unavailable,Dataset registry does not independently establish cohort independence.
+GDS02,GCO02,unavailable,G02,unavailable,Dataset registry does not independently establish cohort independence.
+GDS03,GCO03,unavailable,G02,unavailable,Dataset registry does not independently establish cohort independence.
+GDS04,GCO04,unavailable,G02,unavailable,Dataset registry does not independently establish cohort independence.
+GDS05,GCO05,unavailable,G03,unavailable,Dataset registry does not independently establish cohort independence.
+GDS06,GCO06,unavailable,G03,unavailable,Dataset registry does not independently establish cohort independence.
+GDS07,GCO07,unavailable,G03,unavailable,Dataset registry does not independently establish cohort independence.
+GDS08,GCO08,unavailable,G03,unavailable,Dataset registry does not independently establish cohort independence.
+GDS09,GCO09,phs001703.v1.p1,G04,unavailable,Dataset registry does not independently establish cohort independence.
+GDS10,GCO10,unavailable,G04,unavailable,Dataset registry does not independently establish cohort independence.
+GDS11,GCO11,EGAS00001001456,G05,unavailable,Dataset registry does not independently establish cohort independence.
+GDS12,GCO12,unavailable,G06,unavailable,Dataset registry does not independently establish cohort independence.
+GDS13,GCO13,"[""EGAD00001008197"",""EGAD00010002291""]",G07,unavailable,Dataset registry does not independently establish cohort independence.
+GDS14,GCO14,unavailable,G08,unavailable,Dataset registry does not independently establish cohort independence.
+GDS15,GCO15,GSE57542,G09,unavailable,Dataset registry does not independently establish cohort independence.
+GDS16,GCO16,unavailable,G10,unavailable,Dataset registry does not independently establish cohort independence.
+GDS17,GCO17,unavailable,G10,unavailable,Dataset registry does not independently establish cohort independence.
+Lindemann platelet/fibrin and endothelial experiments,P_C08,unavailable,P_S08,unavailable,Dataset registry does not independently establish cohort independence.
+REAP-seq CD27 perturbation,P_C04,GSE100501,P_S04,unavailable,Dataset registry does not independently establish cohort independence.
+REAP-seq PBMC benchmark AllCells PB003F LotA5051,P_C04_PBMC,GSE100501,P_S04,unavailable,Dataset registry does not independently establish cohort independence.
+Rieckmann IL34 validation cultures,P_C01_IL34,unavailable,P_S01,unavailable,Dataset registry does not independently establish cohort independence.
+UKB-BI and Iceland comparison,P_C06,unavailable,P_S06,unavailable,Dataset registry does not independently establish cohort independence.
+UKB-PPP,P_C05,unavailable,P_S05,unavailable,Dataset registry does not independently establish cohort independence.
+UKB-PPP Central/South Asian ancestry pQTL subset,P_C05_CSA,unavailable,P_S05,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D01,XCI-CO01,unavailable,XCI-S01,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D02,XCI-CO02,unavailable,XCI-S02,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D03,XCI-CO03,unavailable,XCI-S03,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D04,XCI-CO04,unavailable,XCI-S04,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D05,XCI-CO05,GSE74668 (transcript arm only),XCI-S05,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D06,XCI-CO06,unavailable,XCI-S06,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D07,XCI-CO07,unavailable,XCI-S07,unavailable,Dataset registry does not independently establish cohort independence.
+XCI-D08,XCI-CO08,unavailable,XCI-S08,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D01,XRE-CO01,unavailable,XRE-S01,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D02,XRE-CO02,unavailable,XRE-S02,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D03,XRE-CO03,unavailable,XRE-S03,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D04,XRE-CO04,unavailable,XRE-S04,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D05,XRE-CO05,unavailable,XRE-S05,unavailable,Dataset registry does not independently establish cohort independence.
+XRE-D06,XRE-CO06,unavailable,XRE-S06,unavailable,Dataset registry does not independently establish cohort independence.
+immprot human immune-cell atlas,P_C01,unavailable,P_S01,unavailable,Dataset registry does not independently establish cohort independence.

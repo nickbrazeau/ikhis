@@ -1,0 +1,29 @@
+{
+  "run_id": "RUN_COORDINATOR_0.2.0",
+  "timestamp_start": "2026-09-13 14:49:11 UTC",
+  "timestamp_end": "2026-09-13 18:53:40 UTC",
+  "timezone": "America/New_York",
+  "user_request": "Continue the README project and find primary sources to close gaps; the user explicitly instructed that source-access delays must not end the work. Investigate the intervening GitHub secret-scanning alert.",
+  "scope": "Primary cytokine/chemokine/receptor evidence expansion; full-text recovery and review of eight inherited assertions; independent adversarial review; immutable release lineage; targeted secret-alert investigation and local redaction.",
+  "model_snapshot": "unavailable",
+  "reasoning_mode": "unavailable",
+  "previous_release_manifest_sha256": "6ef2ada53d85c341987f30d3355f4cde99157cdf5fe3883d56bdda936fecf8b0",
+  "retrieval_limitations": "Shell DNS failures, several publisher challenges and a Chrome extension-panel block occurred. Retrieval continued through actual Chrome primary Methods/Results, publisher-indexed article text, journal PDFs and primary-paper mirrors. Failed attempts do not count as recovered sources; selected passages rather than complete downloaded articles are archived where applicable.",
+  "review_eligibility": "New pack and correction approvals require exact extraction bytes and every referenced source snapshot hash. Human adjudication remains pending.",
+  "base_git_commit": "a3e5475e7f44c8075acda9c700254dd6f85994e8",
+  "working_tree_changes": "Release 0.2.0 work is local and uncommitted. No push, history rewrite, remote alert dismissal or credential rotation was performed.",
+  "security_exception": "One expired third-party S3 signed download link was sanitized in the working source and archived 0.1.0 snapshot, with original/replacement hashes and unchanged original manifest recorded explicitly. Synthetic scanner regression examples have exact-hash documented exceptions.",
+  "timestamp_end_scope": "Evidence extraction and coordinating curation finalized; subsequent independent implementation check, deterministic build, isolated reproduction and hash verification are release-validation steps.",
+  "outcome": {
+    "assertions": 140,
+    "reviewed_assertions": 134,
+    "new_assertions": 68,
+    "inherited_fulltext_corrections": 8,
+    "candidate_screening_appearances": 408,
+    "reviewed_priority_labels": 28,
+    "remaining_provisional_historical_assertions": 6,
+    "human_adjudication": "pending",
+    "probability_calibration": "pending"
+  },
+  "reproduction_note": "Identity snapshot retrieval dates are explicitly preserved from the frozen predecessor source registry with exact source hashes; new builds do not read filesystem modification times."
+}

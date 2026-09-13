@@ -1,0 +1,24 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6581624/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim sections.
+J Immunol. Author manuscript; available in PMC: 2020 Jul 1.
+Published in final edited form as: J Immunol. 2019 May 13;203(1):93–104. doi: 10.4049/jimmunol.1801570
+CD25 and protein phosphatase 2A cooperate to enhance IL-2R signaling in human regulatory T cells
+Ying Ding, Aixin Yu, George C Tsokos, Thomas R Malek
+PMCID: PMC6581624 PMID: 31085588
+
+[Materials and Methods: PBMCs Isolation and Treg and Teff Cell Expansion; donor description]
+Peripheral blood and buffy coat samples from healthy adult donors (20–45 years old) were purchased from the Continental Blood Bank, Miami, FL. PBMCs were isolated as previously described on the day of collection (12).
+
+[Materials and Methods: Antibodies and Flow Cytometry; selected assay details]
+Cells were surface stained with antibodies in FACS buffer (HBSS, 0.2% BSA, 0.1% sodium azide) for 15 min at 4° C.
+For PP2Ac and pSTAT5 staining, cells were permeabilized using ice-cold 100% methanol (see below). FACS analysis was performed using BD LSRFortessa or BD LSR II flow cytometers, where typically 100,000 events (for PBMCs and mouse splenic cells) or 10,000 events (for YT and cultured Treg and Teff cells) were collected.
+
+[Materials and Methods: pSTAT5 Analysis]
+Human PBMCs, expanded human Treg and Teff cells, and mouse splenocytes were cultured in 1 mL RPMI complete medium (Treg and Teff cells in SFM) for 1, 4, and 0.5 h, respectively. After this “rest culture”, IL-2 (hIL-2: Aldesleukin Proleukin, Novartis, East Hanover, NJ; mIL-2: eBiosciences) was added for 15 min at 37° C. pSTAT5 staining was performed as previously described (12).
+
+[Results: IL-2-induced pSTAT5 activation is dependent on CD25 levels in human CD4+ T cells and YT cell line]
+To assess the extent that the level of CD25 contributes to the activation of IL-2R signaling, we measured tyrosine phosphorylation of STAT5 (pSTAT5) in human CD4+ T cells 15 min after stimulation with IL-2. Higher IL-2 activation of pSTAT5 was associated with CD4+ T cells that expressed greater amounts of CD25 (Fig. 1A).
+Non-linear regression analysis of the pSTAT5 data based on this scheme (Fig. 1D) revealed that the EC50 of the CD25med (0.5pM)) and CD25lo (4.3 pM) Tregs was approximately 70- and 8-fold more responsive to IL-2, respectively, than CD25hi CD4+ T conventional cells (EC50, 35.5 pM).
+
+[Figure1 caption]
+IL-2-induced pSTAT5 activation is dependent on CD25 levels in human CD4+ T cells. Unfractionated PBMCs from different healthy adult donors (n=5) were stimulated with the indicated amount of human IL-2 for 15 min at 37°C. (A) pSTAT5 activation of CD4+ T cells gated on CD25 expression. (B) Foxp3 expression of CD4+ T cells based on the gates shown in Fig. 1A. The color code distinguishes the gating scheme. The three gates with the highest CD25 level are Foxp3+ and labeled as Treg. The remaining three gates are Foxp3− and labeled as CD4+ T conventional cells (Tcon). The numbers represent the percentage of Foxp3+ cells. (C) pSTAT5 dose-response curves of the indicated cell populations. (D) Nonlinear regression analysis of the binding data in Fig.1C (E) EC50 for pSTAT5 activation determined by Fig 1D vs. MFI of CD25. The EC50s from the representative cell populations are shown in the graph. Data (C-E) are shown as means ± SEM and were analyzed by an unpaired two-tailed t test. ***P < 0.001; ****P < 0.0001.

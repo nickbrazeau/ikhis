@@ -1,0 +1,196 @@
+<html>
+    <head>
+       <meta charset="UTF-8">
+
+        <!-- Materialize icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- dataTables for displaying cpd search results -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+
+        <!-- Local css -->
+        <link rel="stylesheet" href="css/cpdb.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!--Compiled and minifed jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!--Compiled and minifed jQuery UI -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!--Compiled and minifed jQuery Datatablse -->
+        <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" ></script>
+
+         <!-- Local javascript -->
+        <script type="text/javascript" src="js/cpdb.js"></script>
+
+        <title>CellphoneDB - Home</title>
+
+    </head>
+    <body>
+      
+      <nav>
+          <div class="nav-wrapper grey lighten-3">
+          <a href="./index.html" class="brand-logo" style="padding-left: 10px; padding-top: 15px;"><img style="vertical-align:top" class="responsive-img" src="./images/cellphonedb_logo_text_wide.png"/></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="./index.html" class="teal-text" onclick="location.reload()">Home</a></li>
+              <li><a href="./database.html" class="teal-text">Database</a></li>
+              <li><a href="./tool.html" class="teal-text">Tool</a></li>
+              <li><a href="/viz/" class="teal-text">Visualizations</a></li>
+              <li><a href="./documentation.html" class="teal-text">Documentation</a></li>
+              <li><a href="mailto:contact@cellphonedb.org?subject=A query about CellphoneDB&body=Dear CellphoneDB folks," class="teal-text tooltipped" data-tooltip="Contact us via email"><i class="tiny material-icons teal-text">email</i></a></li>
+              <li><a href="https://github.com/ventolab/CellphoneDB/issues/new" class="teal-text tooltipped" target="_blank" data-tooltip="Submit an issue via GitHub"><i class="tiny material-icons teal-text">bug_report</i></a></li>
+
+        </ul>
+          </div>
+      </nav>
+
+      <div class="container" style="padding-top: 10px;" class="container">
+        <div class="col s12">
+          <div class="row">
+
+            <div id="search_results" hidden>
+              <div class="card">
+                <div class="card-content black-text col s12">
+                  <div id="search_results_table"  class="col s12">
+                    <span id="search_results_title" class="card-title"></span>
+                    <div hidden id="search_results_csv"></div>
+                    <div class="divider"></div>
+                      <span style="color: blue"><i>Click on an interaction partner name for more information.</i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div id="landing_page">
+              <div class="col s12 m6 l6">
+                <div class="card" >
+                  <div class="card-content black-text col s12">
+
+                    <span class="card-title" >
+                      <img class="responsive-img" src="./images/cpdb-fast-query-explanation_2.png" />
+                      <div class = "file-field input-field">
+                        Search CellphoneDB
+                        <span style="padding-left: 20px;">
+                          <btn style="text-transform: none;" class="btn-medium btn-floating waves-effect waves-light tooltipped" data-position="right" data-tooltip="Upload a file of ligands and receptors to query">
+                            <i class="material-icons white-text  inline-icon" >file_upload</i>
+                            <input type = "file" />
+                          </btn>                            
+                          <div class="file-path-wrapper">
+                            <input hidden class="file-path validate" type="text">
+                        </span>
+                        </div>
+                      </div>
+                    </span>
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="row">
+                          <div class="input-field" style="padding-top: 50px;">
+                            <input type="text" id="autocomplete-input" class="autocomplete" placeholder="Ensembl, Gene name, Uniprot, Protein or Complex name">
+                            <label  for="autocomplete-input" class="black-text text-lighten-10">Please enter one or more ligands or receptors</label>
+                          </div>
+                        </div>
+                        <div class="search_tokens"></div>
+                        <div class="section">
+                          <button id="find_interactions_btn" style="text-transform: none;" class="btn waves-effect waves-light" onclick="findInteractions()">Search CellphoneDB</button>
+                        </div>
+                          <div class="preloader-wrapper small active">
+                            <div id="spinner" class="spinner-layer spinner-green-only" hidden>
+                              <div class="circle-clipper left">
+                                <div class="circle"></div>
+                              </div><div class="gap-patch">
+                                <div class="circle"></div>
+                              </div><div class="circle-clipper right">
+                                <div class="circle"></div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l6 push-s1">
+                <h5>About CellphoneDB</h5>
+                   <p>CellphoneDB is a suite to study cell-cell communication from single-cell transcriptomics data.
+                        Identifying ligand–receptor interactions from scRNA-seq requires both the annotation of complex ligand–receptor
+                       relationships from the literature (i.e. database) and a statistical method that integrates the resource with
+                       scRNA-seq data and selects relevant interactions from the dataset (ie.e tool). CellphoneDB is composed of two units,
+                       a database and a tool.</p>
+
+                   <p>CellphoneDB database is a publicly available repository of curated receptors, ligands and their interactions.
+                       Subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately.
+                       This is crucial, as cell-cell communication relies on multi-subunit protein complexes that go beyond the binary
+                       representation used in most databases and studies. It integrates new manually reviewed interactions with evidenced
+                       roles in cell-cell communication together with existing datasets that pertain to cellular communication
+                       (such as <nobr><a class="teal-text" href="https://www.nature.com/articles/s41586-022-05028-x">Shilts <i>et al.</i> 2022</a></nobr> and
+                       <a class="teal-text" href="https://www.biorxiv.org/content/10.1101/2023.01.30.526202v2">Kanemaru <i>et al.</i> 2023</a>).
+                       Recently, the database expanded to include non-protein molecules acting as ligands.</p>
+
+                    <p>The database can be used to search for a particular ligand/receptor or in combination with the tool to interrogate your own
+                        single-cell transcriptomics data.</p>
+                  <h5>CellphoneDB Data Releases</h5>
+                  <div id="cellphonedb_releases_table">
+                    <div class="divider"></div>
+                  </div>
+              </div>
+
+            </div> <!-- <div id="landing_page"> -->
+          </div> <!-- <div class="row"> -->
+        </div>
+      </div>
+      
+      <footer class="page-footer grey lighten-3">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <h5>Citing CellphoneDB</h5>
+                <p><b>CellPhoneDB v1 original</b>: Single-cell reconstruction of the early maternal-fetal interface in humans. Vento-Tormo R, Efremova M <i>et al.</i> Nature 2018 <a href="http://dx.doi.org/10.1038/s41586-018-0698-6"><i class="tiny material-icons teal-text">link</i></a></p>
+                <p><b>CellPhoneDB v2</b>: Inferring cell-cell communication from combined expression of multi-subunit receptor-ligand complexes. Efremova M, Vento-Tormo M, Teichmann S, Vento-Tormo R. Nat Protoc. 2020 <a href="https://www.nature.com/articles/s41596-020-0292-x"><i class="tiny material-icons teal-text">link</i></a></p>
+                <p><b>CellphoneDB v3</b>: Mapping the temporal and spatial dynamics of the human endometrium in vivo and in vitro. L Garcia-Alonso, L-François Handfield, K Roberts, K Nikolakopoulou <i>et al.</i> Nature Genetics 2021 <a href="https://www.nature.com/articles/s41588-021-00972-2"><i class="tiny material-icons teal-text">link</i></a></p>
+                <p><b>CellphoneDB v4</b>: Single-cell roadmap of human gonadal development. L Garcia-Alonso, V Lorenzi <i>et al.</i> Nature 2022 <a href="https://www.nature.com/articles/s41586-022-04918-4"><i class="tiny material-icons teal-text">link</i></a></p>
+                <p><b>CellphoneDB v5</b>: CellPhoneDB v5: inferring cell-cell communication from single-cell multiomics data. K Troulé, R Petryszak, M Prete, J Cranley, A Harasty, ZK Tuong, S Teichmann, L Garcia-Alonso, R Vento-Tormo Under review <a href="https://arxiv.org/abs/2311.04567"><i class="tiny material-icons teal-text">link</i></a></p>           </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <div class="row">
+                <div class="col s12 m6 l3">
+                  <a href="#!"><img class="responsive-img" src="./images/cellphonedb_logo_text_100.png"></img></a>
+                </div>
+                <div class="col s12 m6 l3">
+                  <a href="https://ventolab.org/"><img class="responsive-img" width="180" src="./images/ventolab-logo.png"></img></a>
+                </div>
+                <div class="col s12 m6 l3">
+                  <a href="https://www.teichlab.org/"><img class="responsive-img" width="180" src="./images/teichlab-logo.png"></img></a>
+                </div>
+                <div class="col s12 m6 l3">                  
+                  <a href="https://www.sanger.ac.uk/"><img class="responsive-img" width="180" src="./images/sanger-logo.png"></img></a>
+                </div>            
+            </div>
+          </div>
+        </div>
+      </footer>
+        <div  id="bottom_section" class="container">
+          <div class="col s12 m12 l12">
+            <div class="row">
+              <div class="col s12 m5 l5">
+                <a class="left teal-text" onclick="location.reload()" href="https://www.sanger.ac.uk/
+            ">This site is hosted by Wellcome Sanger Institute</a>
+              </div>
+              <div class="col s12 m7 l7">
+                <a class="right teal-text" onclick="location.reload()" href="./cookies_policy.html">Cookies policy</a>
+                <span class="right">&nbsp;|&nbsp;</span>
+                <a class="right teal-text" onclick="location.reload()" href="./legal.html">Terms and Conditions</a>
+                 <span class="right">&nbsp
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

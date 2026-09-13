@@ -1,0 +1,19 @@
+{
+  "run_id": "RUN_RECEPTOR_EXPANSION_ROOT_0.2",
+  "timestamp_start": "unavailable; source retrieval occurred 2026-09-13 within coordinator session",
+  "timestamp_end": "2026-09-13 18:28:25 UTC",
+  "model_snapshot": "unavailable",
+  "reasoning_mode": "unavailable",
+  "role": "root primary-source extraction after incomplete worker handoff",
+  "source_access": "Relevant full article Methods/Results via Chrome, publisher-indexed text and JCI PDF text. Failed browser and shell attempts retained in source notes; no missing content fabricated.",
+  "human_adjudication": "pending",
+  "assertion_count": 20,
+  "source_count": 6,
+  "candidate_count": 104,
+  "independent_review": {
+    "path": "research/review_receptor_0.2.json",
+    "response_path": "research/receptor_review_response_0.2.json",
+    "approved_pack_sha256": "17711c36e7c4ab21b6efd295dea8e65d793cd30e9ef7517a05655489cb774ca1",
+    "status": "passed after endpoint-specific uncertainty correction"
+  }
+}

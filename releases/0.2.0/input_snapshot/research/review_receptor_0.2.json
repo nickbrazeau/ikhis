@@ -1,0 +1,164 @@
+{
+  "critic_run_id": "receptor-review-REC02-20260913-01",
+  "scope": "Independent descriptive primary-literature extraction review of all 20 root-authored assertions in research/receptor_expansion/pack.json at SHA256 e588cdfd282e3311e4c98ab5372913aa205b1aadcb816a86a179fc3e46b454d3. Read all six primary and three additional source declarations, representing eight unique snapshot files, and compared assertions, cohorts, scoring annotations and notes. Focus: human versus nonhuman arms, measured molecular layers and compartments, ligand/receptor form identity, source-specific dose/time, donor versus technical repeats, quantitative outputs, contradictory source values, source locators and inconclusive nulls. Reviewer did not author or edit this pack. No experimental design or added procedures are proposed.",
+  "timestamp_start": "2026-09-13 18:21:08 UTC",
+  "timestamp_end": "2026-09-13 18:26:59 UTC",
+  "agent_role": "Independent Receptor Evidence Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "reviewed_file_hashes": {
+    "research/receptor_expansion/notes.md": "b46bbe833a07f1d2bf327e1b8cb78ed35c6a075417ed6e70489e1ce17021b51f",
+    "research/receptor_expansion/pack.json": "e588cdfd282e3311e4c98ab5372913aa205b1aadcb816a86a179fc3e46b454d3",
+    "research/receptor_expansion/snapshots/root_full_sources.json": "4b4b4601986daba61a336ebf3a6a763f2770456dbbf749ac9c76a05254abbbf7",
+    "research/receptor_expansion/snapshots/root_il12_full.json": "5c397f66d393b6d80c36fb74eccca1480b1a68961854ee3bb49800a81120fe7c",
+    "research/receptor_expansion/snapshots/root_il1_full.json": "321f8d897377b06bad61a6ab1c5b1b314d8bb384d9ff57f119f8ce41294a5bf3",
+    "research/receptor_expansion/snapshots/root_lta_full.json": "3e3b32826dea23c9e7b718e126c3ff0938fc46a788ed675154c2c000e67176e6",
+    "research/receptor_expansion/snapshots/root_search3.json": "2efc4ce2ae19e59ae1298184570a38e6b3a29dee06dc0d0e2e4d17102f1ab9e9",
+    "research/receptor_expansion/snapshots/root_selected_methods.json": "4f78e219149fac2eb6311a833295545f06aa4afdb76428ac0ca16faf155f67d5",
+    "research/receptor_expansion/snapshots/xre_search2.json": "13d75a13349dcfadd610dc3cf228ccb8f8a43c350a678aa1b5b653635c42c21d",
+    "research/receptor_expansion/snapshots/xre_searchopen3.json": "ccd83038c6bdab4778293505999577cc43d15b65da91d68d9c2f6f33ad72b9b6"
+  },
+  "coverage": {
+    "assertion_count": 20,
+    "source_count": 6,
+    "cohort_count": 6,
+    "primary_snapshot_count": 6,
+    "additional_snapshot_declaration_count": 3,
+    "unique_referenced_snapshot_count": 8,
+    "methods": [
+      "Read the source-specific selected primary Methods, Results and figure-caption passages in every referenced primary and additional snapshot. Unrelated search hits and nonhuman experimental arms were not used as supporting evidence.",
+      "Compared all assertion IDs, endpoints, layers, compartments, ligand forms, contexts, quantitative values, sample bases, locators and scoring relations with the relevant source passages.",
+      "Verified unique assertion IDs, source/cohort resolution, existence of all declared source files and exact pack hash.",
+      "Attempted visual inspection of the public JCI PDF using the documented PDF screenshot tool. PDF text loaded, but image requests failed with cache/content-type errors. No visual unit correction is claimed."
+    ],
+    "limits": "Bounded review of archived selected primary passages, not reproduction of original analyses, complete supplements or figure-image digitization. Missing unique donors and ambiguous PDF units are retained as unavailable. The blocked Chrome session was not operated or bypassed. Human adjudication and empirical calibration remain pending."
+  },
+  "findings": [
+    {
+      "finding_id": "REC02-001",
+      "severity": "low",
+      "target_type": "assertion",
+      "target_id": "XRE-A14",
+      "challenge": "The radioligand-binding assertion inherits the sample-basis text from the separate chemotaxis assay. Its uncertainty field lists Table 1 triplicate experiments and five microscopic oil fields, although XRE-A14 is a whole-cell gamma-counting assay. This attaches an unrelated endpoint denominator to the binding evidence.",
+      "evidence": "In research/receptor_expansion/pack.json, XRE-A14 uses the same Table 1 uncertainty text as the migration assertions. In root_search3.json, Table 1 is explicitly Chemotactic Activity of VEGF165 on Human Monocytes and PMN and describes migrated cells counted in five oil fields. The separate VEGF receptor binding assay section measures radiolabel in lysates using a gamma counter; the selected binding passages and primary abstract do not supply that microscopy denominator or an explicit binding repeat count. XRE-CO04 also carries the migration-specific sample text across the shared cohort.",
+      "recommendation": "Make XRE-A14 uncertainty specific to the binding arm: repeat count and unique donor count unavailable unless directly recovered from a binding-specific source passage. Keep the Table 1 triplicates and fields scoped to migration in the shared cohort. Retain the supported binding observation and avoid inventing a binding sample size.",
+      "disposition": "open"
+    }
+  ],
+  "findings_summary": "One low-severity sample-basis metadata finding is open for XRE-A14. No high- or medium-severity biological extraction finding was identified. The core binding observation remains supported; its inherited uncertainty field requires correction.",
+  "assertion_assessments": [
+    {
+      "assertion_ids": [
+        "XRE-A01",
+        "XRE-A02",
+        "XRE-A03",
+        "XRE-A04"
+      ],
+      "source_id": "XRE-S01",
+      "result": "pass",
+      "evidence": "Figure 5 explicitly identifies freshly elutriated human monocytes. Phospho-STAT6 Y641 flow and nuclear STAT6 DNA-binding EMSA are separate endpoints with distinct timing. The low-dose phosphorylation and gamma-chain blockade observations are retained as inconclusive nulls. Mouse, fibroblast and epithelial-cell results are not transported. Five experiments are explicitly associated with Figure 5A, while the different donor counts for Figures 5E/F are not assigned to these assertions. Figure 5B/C repeat counts remain unspecified."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A05",
+        "XRE-A06",
+        "XRE-A07"
+      ],
+      "source_id": "XRE-S02",
+      "result": "pass",
+      "evidence": "Primary Methods and Figures 1/3 support the static and simultaneous shear-cytokine contrasts. The nonpermeabilized assay is explicitly surface-specific despite the broader controlled measurement term protein_abundance. The reported surface-density values and adhesion fold range are preserved with their distinct endpoints. Pooled endothelial donors, triplicate experiments, imaging samples and unknown neutrophil donors are not conflated. The preliminary lower-dose note does not replace the stated main-arm dose or figure caption. No receptor-specific adhesion mechanism is inferred."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A08",
+        "XRE-A09",
+        "XRE-A10",
+        "XRE-A11"
+      ],
+      "source_id": "XRE-S03",
+      "result": "pass",
+      "evidence": "The human recombinant cell-free ligand/receptor-fusion ELISA arm supports the two positive binding pairs and their reported EC50 values, and the two crossed pairs are recorded as inconclusive nulls. Homotrimeric LTA and heterotrimeric LTA:LTB:LTB forms remain distinct in the assertions. Receptor-fusion ELISA values are not substituted for antibody affinity constants or equilibrium receptor Kd. Cell-based and xenogeneic disease arms and their replicate counts are not assigned to these binding observations."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A12",
+        "XRE-A13"
+      ],
+      "source_id": "XRE-S04",
+      "result": "pass",
+      "evidence": "Primary chemotaxis Methods, Table 1 and Figure 1 support the VEGFA165 migration and ligand-immunoadsorption contrasts. The extracted numerical result and comparator match the monocyte columns rather than the PMN columns. The assay uses monocytes within PBMCs and is not transendothelial migration. Ligand depletion is not upgraded to direct FLT1-specific perturbation or a completed receptor-dependent pathway."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A14"
+      ],
+      "source_id": "XRE-S04",
+      "result": "supported_endpoint_with_metadata_finding",
+      "evidence": "The primary binding Methods and abstract support specific saturable whole-monocyte VEGFA165 binding and the reported half-maximal binding range. This does not identify an isolated receptor or establish an equilibrium Kd. REC02-001 addresses unrelated migration sample information inherited into this assertion."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A15"
+      ],
+      "source_id": "XRE-S05",
+      "result": "pass",
+      "evidence": "The STAT4 Methods and Figure 5A support the recombinant IL12p70 vehicle-control arm, its IL2 preconditioning, and intracellular STAT4 Y693 phosphorylation. The PBMC context with an NK gate is retained. The explicit p70 complex is distinct from an unspecified IL-12 assay label. The n=4 arm is not promoted to four unique donors, and phosphorylation is not converted to IFNG secretion or patient outcome."
+    },
+    {
+      "assertion_ids": [
+        "XRE-A16",
+        "XRE-A17",
+        "XRE-A18",
+        "XRE-A19",
+        "XRE-A20"
+      ],
+      "source_id": "XRE-S06",
+      "result": "pass_with_retained_unit_uncertainty",
+      "evidence": "Primary journal Methods, Results and Figures 1-3 support the soluble-receptor-dependent adhesion contrast, IL6-alone nondetection, whole-lysate E-selectin accumulation, ligand/gp130 blockade contrast and extracellular IL6 ELISA result. Endogenous IL6 context is retained for soluble-receptor-only exposures; no exogenous ligand dose is assigned to those arms. Lysate E-selectin is not relabeled as surface expression, and supernatant IL6 is not RNA or intracellular abundance. The antibody result does not establish a direct ligand-binding affinity. Figure-specific experiment counts are labeled and are not unique donor counts. Ambiguous micro-unit concentrations remain explicitly unavailable."
+    }
+  ],
+  "null_scoring_check": {
+    "result": "pass",
+    "assertion_ids": [
+      "XRE-A02",
+      "XRE-A04",
+      "XRE-A10",
+      "XRE-A11",
+      "XRE-A17"
+    ],
+    "all_relations": "inconclusive",
+    "adequate_absence_claims": 0
+  },
+  "pdf_unit_verification": {
+    "status": "not_visually_verified",
+    "source_id": "XRE-S06",
+    "assertion_ids": [
+      "XRE-A16",
+      "XRE-A18",
+      "XRE-A19",
+      "XRE-A20"
+    ],
+    "public_pdf_url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/119000/119821/cache/119821.1-20201218131541-covered-e0fd13ba177f913fd3156f593ead4cfd.pdf",
+    "attempted_pdf_pages_zero_based": [
+      2,
+      3
+    ],
+    "tool_outcome": "Text open succeeded; screenshot requests returned cache/content-type failures. No page image was available to inspect.",
+    "disposition": "Retain affected doses as unavailable. No guessed conversion and no source byte changes were made."
+  },
+  "corrections_observed_during_review": [
+    {
+      "description": "Coordinator reported changing two IL1B surface_protein measurement vocabulary values to protein_abundance while retaining surface compartment in predicate, assay and summary. Review uses the stated final e588cdfd hash and verified those surface-specific fields.",
+      "assertion_ids": [
+        "XRE-A05",
+        "XRE-A06"
+      ]
+    }
+  ],
+  "release_approval_dependency": {
+    "status": "required_for_eligibility",
+    "requirement": "Exact approval must bind the finalized pack plus all eight unique primary/additional snapshot files recorded here; primary-path-only approval is insufficient. Any correction to the pack or source files requires a separate response with exact updated hashes. This immutable review is not human adjudication."
+  },
+  "human_adjudication_status": "pending",
+  "conclusion": "The primary passages support the 20 core descriptive endpoints and the five inconclusive null relations at the recorded hash. Correct REC02-001 before treating XRE-A14 sample metadata as finalized. Retain the IL6 unit limitation. Human adjudication remains pending."
+}

@@ -1,0 +1,336 @@
+Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease - PubMed (https://pubmed.ncbi.nlm.nih.gov/35389779/)
+citeturn18view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://pubmed.ncbi.nlm.nih.gov/35389779/","lineno":null}); Total lines: 416
+L0: cite0†Skip to main page content L1: 
+L2: cite1†Log in†account.ncbi.nlm.nih.gov Show account info
+L3: 
+L4: [Input]
+L5: 
+L6: Search: [Input: ]Search
+L7: 
+L8: cite2†Advanced L9: 
+L10: [Button: Save ][Button: Email ]
+L11: 
+L12: [Button: Send to]
+L13: 
+L14:   * cite3†Clipboard L15:   * cite4†My Bibliography†account.ncbi.nlm.nih.gov L16:   * cite5†Collections†account.ncbi.nlm.nih.gov L17:   * cite3†Citation manager L18: 
+L19: Display options
+L20: 
+L21: Display options
+L22: 
+L23: Format [Select]
+L24: 
+L25: [Input]
+L26: 
+L27: ## Save citation to file
+L28: 
+L29: [Input]
+L30: 
+L31: Format: [Select]
+L32: 
+L33: [Button: Create file ] [Button: Cancel ]
+L34: ## Email citation
+L35: 
+L36: Email address has not been verified. Go to cite6†My NCBI account settings†account.ncbi.nlm.nih.gov to confirm your email and then refresh this page.
+L37: 
+L38: [Input]
+L39: 
+L40: To:
+L41: 
+L42: Subject: [Input]
+L43: 
+L44: Body:
+L45: 
+L46: Format: [Select]
+L47: 
+L48: [Input] MeSH and other data
+L49: 
+L50: [Button: Send email ] [Button: Cancel ]
+L51: 
+L52: [Input] [Input]
+L53: ### Add to Collections
+L54: 
+L55: [Input]
+L56: 
+L57:   * [Input] Create a new collection
+L58:   * [Input] Add to an existing collection
+L59: 
+L60: Name your collection: [Input]
+L61: 
+L62: Name must be less than 100 characters
+L63: 
+L64: Choose a collection: [Select]
+L65: 
+L66: Unable to load your collection due to an error
+L67: cite3†Please try again L68: 
+L69: [Button: Add ] [Button: Cancel ]
+L70: 
+L71: ### Add to My Bibliography
+L72: 
+L73: [Input]
+L74: 
+L75:   * [Input] My Bibliography
+L76: 
+L77: Unable to load your delegates due to an error
+L78: cite3†Please try again L79: 
+L80: [Button: Add ] [Button: Cancel ]
+L81: ## Your saved search
+L82: 
+L83: [Input]
+L84: 
+L85: Name of saved search: [Input]
+L86: 
+L87: Search terms:
+L88: 
+L89: cite3†Test search terms L90: 
+L91: Would you like email updates of new search results? Saved Search Alert Radio Buttons
+L92: 
+L93:   * [Input] Yes
+L94:   * [Input] No
+L95: 
+L96: Email: (cite7†change†www.ncbi.nlm.nih.gov )
+L97: 
+L98: Frequency: [Select]
+L99: 
+L100: Which day? [Select]
+L101: 
+L102: Which day? [Select]
+L103: 
+L104: Report format: [Select]
+L105: 
+L106: Send at most: [Select]
+L107: 
+L108: [Input] Send even when there aren't any new results
+L109: 
+L110: Optional text in email:
+L111: 
+L112: [Button: Save ] [Button: Cancel ]
+L113: ## Create a file for external citation management software
+L114: 
+L115: [Input] [Input]
+L116: 
+L117: [Button: Create file ] [Button: Cancel ]
+L118: 
+L119: ## Your RSS Feed
+L120: 
+L121: [Input]
+L122: 
+L123: Name of RSS Feed: [Input: Name]
+L124: 
+L125: Number of items displayed: [Select]
+L126: 
+L127: [Button: Create RSS ] [Button: Cancel ]
+L128: 
+L129: RSS Link [Input: Your RSS Feed Link] [Button: Copy ]
+L130: 
+L131: ### Full text links
+L132: 
+L133: cite8†Atypon†www.science.org L134: 
+L135: cite3†Full text links L136: ### Actions
+L137: 
+L138: Cite
+L139: 
+L140: Collections
+L141: 
+L142: Add to Collections
+L143: 
+L144: [Input]
+L145: 
+L146:   * [Input]Create a new collection
+L147:   * [Input]Add to an existing collection
+L148: 
+L149: Name your collection: [Input]
+L150: 
+L151: Name must be less than 100 characters
+L152: 
+L153: Choose a collection: [Select]
+L154: 
+L155: Unable to load your collection due to an error
+L156: cite3†Please try again L157: 
+L158: [Button: Add ][Button: Cancel ]
+L159: 
+L160: Display options
+L161: 
+L162: Display options
+L163: 
+L164: Format [Select]
+L165: 
+L166: [Button: Science ]
+L167: 
+L168: Actions
+L169:   * cite9†Search in PubMed L170:   * cite10†Search in NLM Catalog†www.ncbi.nlm.nih.gov L171:   * cite3†Add to Search L172: 
+L173: . 2022 Apr 8;376(6589):eabf3041.
+L174: 
+L175: doi: 10.1126/science.abf3041. Epub 2022 Apr 8.
+L176: # Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease
+L177: cite11†Seyhan Yazar ^{ cite12†# }^{  cite13†1 }, cite14†Jose Alquicira-Hernandez ^{ cite12†# }^{  cite13†1 cite15†2 }, cite16†Kristof Wing ^{ cite12†# }^{  cite17†3 cite18†4 }, cite19†Anne Senabouth ^{  cite13†1 }, cite20†M Grace Gordon ^{  cite21†5 cite22†6 cite23†7 }, cite24†Stacey Andersen ^{  cite15†2 }, cite25†Qinyi Lu ^{  cite17†3 }, cite26†Antonia Rowson ^{  cite17†3 cite27†8 }, cite28†Thomas R P Taylor ^{  cite17†3 }, cite29†Linda Clarke ^{  cite30†9 }, cite31†Katia Maccora ^{  cite17†3 cite27†8 }, cite32†Christine Chen ^{  cite27†8 }, cite33†Anthony L Cook ^{  cite34†10 }, cite35†Chun Jimmie Ye ^{  cite21†5 cite22†6 cite23†7 cite36†11 cite37†12 cite38†13 }, cite39†Kirsten A Fairfax ^{  cite17†3 }, cite40†Alex W Hewitt ^{ cite12†# }^{  cite17†3 cite18†4 cite30†9 }, cite41†Joseph E Powell ^{ cite12†# }^{  cite13†1 cite42†14 }
+L178: Affiliations Expand
+L179: ### Affiliations
+L180:   * ^{1} Garvan-Weizmann Centre for Cellular Genomics, Garvan Institute of Medical Research, Sydney, NSW, Australia.
+L181:   * ^{2} Institute for Molecular Bioscience, University of Queensland, Brisbane, QLD, Australia.
+L182:   * ^{3} Menzies Institute for Medical Research, University of Tasmania, Hobart, TAS, Australia.
+L183:   * ^{4} Department of Ophthalmology, Royal Hobart Hospital, Hobart, TAS, Australia.
+L184:   * ^{5} Division of Rheumatology, Department of Medicine, University of California, San Francisco, San Francisco, CA, USA.
+L185:   * ^{6} Department of Epidemiology and Biostatistics, University of California, San Francisco, San Francisco, CA, USA.
+L186:   * ^{7} Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA.
+L187:   * ^{8} Department of Surgery, School of Clinical Science at Monash Health, Monash University, VIC, Australia.
+L188:   * ^{9} Centre for Eye Research Australia, University of Melbourne, East Melbourne, VIC, Australia.
+L189:   * ^{10} Wicking Dementia Research and Education Centre, University of Tasmania, Hobart, TAS, Australia.
+L190:   * ^{11} Institute of Computational Health Sciences, University of California, San Francisco, San Francisco, CA, USA.
+L191:   * ^{12} Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.
+L192:   * ^{13} Chan Zuckerberg Biohub, San Francisco, CA, USA.
+L193:   * ^{14} UNSW Cellular Genomics Futures Institute, University of New South Wales, Sydney, NSW, Australia.
+L194: ^{#} Contributed equally.
+L195: 
+L196:   * PMID: 35389779
+L197:   * DOI: cite43†10.1126/science.abf3041†doi.org L198: 
+L199: Item in Clipboard
+L200: # Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease
+L201: 
+L202: Seyhan Yazar et al. Science. 2022.
+L203: 
+L204: Show details
+L205: 
+L206: Display options
+L207: 
+L208: Display options
+L209: 
+L210: Format [Select]
+L211: 
+L212: [Button: Science ]
+L213: 
+L214: Actions
+L215: 
+L216:   * cite9†Search in PubMed L217:   * cite10†Search in NLM Catalog†www.ncbi.nlm.nih.gov L218:   * cite3†Add to Search L219: 
+L220: . 2022 Apr 8;376(6589):eabf3041.
+L221: 
+L222: doi: 10.1126/science.abf3041. Epub 2022 Apr 8.
+L223: ### Authors
+L224: cite11†Seyhan Yazar ^{ cite44†# }^{  cite45†1 }, cite14†Jose Alquicira-Hernandez ^{ cite44†# }^{  cite45†1 cite46†2 }, cite16†Kristof Wing ^{ cite44†# }^{  cite47†3 cite48†4 }, cite19†Anne Senabouth ^{  cite45†1 }, cite20†M Grace Gordon ^{  cite49†5 cite50†6 cite51†7 }, cite24†Stacey Andersen ^{  cite46†2 }, cite25†Qinyi Lu ^{  cite47†3 }, cite26†Antonia Rowson ^{  cite47†3 cite52†8 }, cite28†Thomas R P Taylor ^{  cite47†3 }, cite29†Linda Clarke ^{  cite53†9 }, cite31†Katia Maccora ^{  cite47†3 cite52†8 }, cite32†Christine Chen ^{  cite52†8 }, cite33†Anthony L Cook ^{  cite54†10 }, cite35†Chun Jimmie Ye ^{  cite49†5 cite50†6 cite51†7 cite55†11 cite56†12 cite57†13 }, cite39†Kirsten A Fairfax ^{  cite47†3 }, cite40†Alex W Hewitt ^{ cite44†# }^{  cite47†3 cite48†4 cite53†9 }, cite41†Joseph E Powell ^{ cite44†# }^{  cite45†1 cite58†14 }
+L225: ### Affiliations
+L226:   * ^{1} Garvan-Weizmann Centre for Cellular Genomics, Garvan Institute of Medical Research, Sydney, NSW, Australia.
+L227:   * ^{2} Institute for Molecular Bioscience, University of Queensland, Brisbane, QLD, Australia.
+L228:   * ^{3} Menzies Institute for Medical Research, University of Tasmania, Hobart, TAS, Australia.
+L229:   * ^{4} Department of Ophthalmology, Royal Hobart Hospital, Hobart, TAS, Australia.
+L230:   * ^{5} Division of Rheumatology, Department of Medicine, University of California, San Francisco, San Francisco, CA, USA.
+L231:   * ^{6} Department of Epidemiology and Biostatistics, University of California, San Francisco, San Francisco, CA, USA.
+L232:   * ^{7} Institute for Human Genetics, University of California, San Francisco, San Francisco, CA, USA.
+L233:   * ^{8} Department of Surgery, School of Clinical Science at Monash Health, Monash University, VIC, Australia.
+L234:   * ^{9} Centre for Eye Research Australia, University of Melbourne, East Melbourne, VIC, Australia.
+L235:   * ^{10} Wicking Dementia Research and Education Centre, University of Tasmania, Hobart, TAS, Australia.
+L236:   * ^{11} Institute of Computational Health Sciences, University of California, San Francisco, San Francisco, CA, USA.
+L237:   * ^{12} Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.
+L238:   * ^{13} Chan Zuckerberg Biohub, San Francisco, CA, USA.
+L239:   * ^{14} UNSW Cellular Genomics Futures Institute, University of New South Wales, Sydney, NSW, Australia.
+L240: ^{#} Contributed equally.
+L241: 
+L242:   * PMID: 35389779
+L243:   * DOI: cite43†10.1126/science.abf3041†doi.org L244: 
+L245: Item in Clipboard
+L246: 
+L247: [Button: Full text links ]Cite
+L248: 
+L249: Display options
+L250: 
+L251: Display options
+L252: 
+L253: Format [Select]
+L254: ## Abstract
+L255: The human immune system displays substantial variation between individuals, leading to differences in susceptibility to autoimmune disease. We present single-cell RNA sequencing (scRNA-seq) data from 1,267,758 peripheral blood mononuclear cells from 982 healthy human subjects. For 14 cell types, we identified 26,597 independent cis-expression quantitative trait loci (eQTLs) and 990 trans-eQTLs, with most showing cell type-specific effects on gene expression.
+L256: We subsequently show how eQTLs have dynamic allelic effects in B cells that are transitioning from naïve to memory states and demonstrate how commonly segregating alleles lead to interindividual variation in immune function. Finally, using a Mendelian randomization approach, we identify the causal route by which 305 risk loci contribute to autoimmune disease at the cellular level.
+L257: This work brings together genetic epidemiology with scRNA-seq to uncover drivers of interindividual variation in the immune system.
+L258: cite59†PubMed Disclaimer L259: ## Comment in
+L260: 
+L261:   * cite60†Population genetics meets single-cell sequencing. L262: 
+L263: Sumida TS, Hafler DA. Sumida TS, et al. Science. 2022 Apr 8;376(6589):134-135. doi: 10.1126/science.abq0426. Epub 2022 Apr 7. Science. 2022. PMID: 35389792
+L264: 
+L265:   * cite61†Single-cell RNA sequencing sheds light on cell-type specific gene expression in immune cells. L266: 
+L267: Onuora S. Onuora S. Nat Rev Rheumatol. 2022 Jul;18(7):363. doi: 10.1038/s41584-022-00802-7. Nat Rev Rheumatol. 2022. PMID: 35689032 No abstract available.
+L268: ## MeSH terms
+L269: 
+L270:   * [Button: Alleles ]
+L271: 
+L272: Actions
+L273: 
+L274:     * cite62†Search in PubMed L275:     * cite63†Search in MeSH†www.ncbi.nlm.nih.gov L276:     * cite3†Add to Search L277: 
+L278:   * [Button: Autoimmune Diseases* / genetics ]
+L279: 
+L280: Actions
+L281: 
+L282:     * cite64†Search in PubMed L283:     * cite65†Search in MeSH†www.ncbi.nlm.nih.gov L284:     * cite3†Add to Search L285: 
+L286:   * [Button: Gene Expression Regulation ]
+L287: 
+L288: Actions
+L289: 
+L290:     * cite66†Search in PubMed L291:     * cite67†Search in MeSH†www.ncbi.nlm.nih.gov L292:     * cite3†Add to Search L293: 
+L294:   * [Button: Genetic Predisposition to Disease ]
+L295: Actions
+L296: 
+L297:     * cite68†Search in PubMed L298:     * cite69†Search in MeSH†www.ncbi.nlm.nih.gov L299:     * cite3†Add to Search L300: 
+L301:   * [Button: Genome-Wide Association Study ]
+L302: 
+L303: Actions
+L304: 
+L305:     * cite70†Search in PubMed L306:     * cite71†Search in MeSH†www.ncbi.nlm.nih.gov L307:     * cite3†Add to Search L308: 
+L309:   * [Button: Humans ]
+L310: 
+L311: Actions
+L312: 
+L313:     * cite72†Search in PubMed L314:     * cite73†Search in MeSH†www.ncbi.nlm.nih.gov L315:     * cite3†Add to Search L316: 
+L317:   * [Button: Leukocytes, Mononuclear* ]
+L318: 
+L319: Actions
+L320:     * cite74†Search in PubMed L321:     * cite75†Search in MeSH†www.ncbi.nlm.nih.gov L322:     * cite3†Add to Search L323: 
+L324:   * [Button: Polymorphism, Single Nucleotide ]
+L325: 
+L326: Actions
+L327: 
+L328:     * cite76†Search in PubMed L329:     * cite77†Search in MeSH†www.ncbi.nlm.nih.gov L330:     * cite3†Add to Search L331: 
+L332:   * [Button: Precursor Cells, B-Lymphoid ]
+L333: 
+L334: Actions
+L335: 
+L336:     * cite78†Search in PubMed L337:     * cite79†Search in MeSH†www.ncbi.nlm.nih.gov L338:     * cite3†Add to Search L339: 
+L340:   * [Button: Quantitative Trait Loci ]
+L341: 
+L342: Actions
+L343:     * cite80†Search in PubMed L344:     * cite81†Search in MeSH†www.ncbi.nlm.nih.gov L345:     * cite3†Add to Search L346: 
+L347:   * [Button: Sequence Analysis, RNA ]
+L348: 
+L349: Actions
+L350: 
+L351:     * cite82†Search in PubMed L352:     * cite83†Search in MeSH†www.ncbi.nlm.nih.gov L353:     * cite3†Add to Search L354: ## Grants and funding
+L355: 
+L356:   * cite84†MC_PC_17228/MRC_/Medical Research Council/United Kingdom L357:   * cite85†MC_QA137853/MRC_/Medical Research Council/United Kingdom L358: ## LinkOut - more resources
+L359: 
+L360:   * ### Full Text Sources
+L361: 
+L362:     * cite8†Atypon†www.science.org L363:     * cite86†Ovid Technologies, Inc.†www.ovid.com L364:   * ### Other Literature Sources
+L365: 
+L366:     * cite87†Bio-protocol Exchange†bio-protocol.org L367:     * cite88†The Lens - Patent Citations Database†www.lens.org L368:   * ### Medical
+L369: 
+L370:     * cite89†MedlinePlus Health Information†medlineplus.gov L371:   * ### Molecular Biology Databases
+L372: 
+L373:     * cite90†NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases†data.niaid.nih.gov L374: Full text links [Button: [x]]
+L375: 
+L376: cite8†Atypon†www.science.org L377: 
+L378: [Button: [x]]
+L379: 
+L380: Cite
+L381: 
+L382: [Button: Copy ]
+L383: 
+L384: [Input] Download .nbib .nbib
+L385: 
+L386: Format: [Select]
+L387: 
+L388: Send To
+L389: 
+L390:   * cite3†Clipboard L391:   * cite91†Email†account.ncbi.nlm.nih.gov L392:   * cite3†Save L393:   * cite4†My Bibliography†account.ncbi.nlm.nih.gov L394:   * cite5†Collections†account.ncbi.nlm.nih.gov L395:   * cite3†Citation Manager L396: [Button: [x]]
+L397: 
+L398: Follow NCBI
+L399: 
+L400: cite92†Connect with NLM†www.nlm.nih.gov L401: 
+L402: National Library of Medicine
+L403: cite93†8600 Rockville Pike Bethesda, MD 20894†www.google.com L404: cite94†Web Policies†www.nlm.nih.gov L405: cite95†FOIA†www.nih.gov L406: cite96†HHS Vulnerability Disclosure†www.hhs.gov L407: 
+L408: cite97†Help†support.nlm.nih.gov L409: cite98†Accessibility†www.nlm.nih.gov L410: cite99†Careers†www.nlm.nih.gov L411: 
+L412:   * cite100†NLM†www.nlm.nih.gov L413:   * cite101†NIH†www.nih.gov L414:   * cite102†HHS†www.hhs.gov L415:   * cite103†USA.gov†www.usa.gov 

@@ -1,0 +1,353 @@
+{
+  "response_id": "implementation-review-repair-check-20260913-01",
+  "critic_run_id": "implementation-review-20260912-01",
+  "timestamp_start": "2026-09-13 01:22:20 UTC",
+  "timestamp_end": "2026-09-13 01:29:30 UTC",
+  "agent_role": "Independent Implementation and Scientific Integrity Reviewer",
+  "scope": "Independent verification of coordinator repairs to the five findings in research/review_implementation.json. Original review, compiler, tests, protocol and release database were not edited. This response records technical verification, not human adjudication or a modification of the original findings.",
+  "overall_result": "all_five_findings_verified_resolved_for_bounded_pilot_with_documented_limits",
+  "reviewed_file_hashes": {
+    "scripts/kb.py": "0f7a2b4c4dca2edd61968e6f6f8869023f5f844349d9920f80c0f492cb186160",
+    "tests/test_kb.py": "71d741e6f4a3854e8c3ed2de7bb04d54fe82920bcaeac63674e67ea87fb87656",
+    "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+    "scripts/annotate_scoring.py": "685f050bfb4b6b74808ea9f736f8f379c766823ad3c0c808680995703e6e5279",
+    "data/scoring_annotations.json": "423812a5894107dae8a27f55a8c121a56b32611a961298a4b04fd04d427fa7bb",
+    "research/review_implementation.json": "eff01477aa7ce0d386481c336b9f53dfc43e172c66e96654a77b2098380589d8",
+    "provenance/adjudications.json": "2252d7d9be35550c3b6c419035a4a12e351052e6abbdc5cd5f2808ff8aa72351"
+  },
+  "validation": {
+    "unit_suite": "python3 -B -m unittest discover -s tests -v",
+    "unit_suite_result": "23 tests passed after the final repairs",
+    "methods": "Read changed implementation and tests; reran original and additional narrow synthetic cases in isolated in-memory SQLite databases; inspected the existing release with mode=ro; mocked review-file reads to verify source/parent quarantine. No actual build, freeze or adjudication was performed by this reviewer.",
+    "release_snapshot": {
+      "assertion_status_counts": [
+        {
+          "status": "contested",
+          "count": 72
+        }
+      ],
+      "available_numeric_priors": 0,
+      "materialized_paths": 0,
+      "high_open_findings": [
+        {
+          "finding_id": "CR-CYT-001",
+          "target_type": "assertion"
+        },
+        {
+          "finding_id": "CR-CYT-002",
+          "target_type": "protocol"
+        },
+        {
+          "finding_id": "IMPL-R001",
+          "target_type": "code"
+        },
+        {
+          "finding_id": "IMPL-R002",
+          "target_type": "code"
+        },
+        {
+          "finding_id": "IMPL-R004",
+          "target_type": "code"
+        }
+      ],
+      "molecular_measurements": [
+        "RNA_abundance",
+        "association",
+        "cellular_phenotype",
+        "protein_abundance",
+        "protein_activity",
+        "secreted_protein",
+        "splicing"
+      ],
+      "coverage_columns": [
+        "original_label",
+        "entity_id",
+        "mapping_status",
+        "related_assertion_count",
+        "reviewed_protein_assertion_count",
+        "coverage_status"
+      ]
+    },
+    "release_snapshot_note": "Observed read-only before final coordinator adjudication/rebuild during this verification session; not a certification of a later rebuilt or frozen release."
+  },
+  "results": [
+    {
+      "finding_id": "IMPL-R001",
+      "result": "resolved",
+      "verified_repairs": "Protein abundance on layer T and RNA abundance on layer P are now rejected with Measurement/object-layer mismatch. Valid protein abundance on layer P passes. The map also constrains splicing, direct transcriptional regulation, secreted protein, protein activity, receptor signaling and cellular phenotype. The final revision also rejects unrecognized measurement labels with Unknown measurement vocabulary and explicitly retains association/inferred_communication as recognized classes.",
+      "remaining_issue": "No unresolved reproduction of the measurement/object-layer and vocabulary defect after the final repair.",
+      "recommendation": "Retain the explicit measurement enumeration and layer checks, and add documented exceptions when new measurement classes are introduced.",
+      "caveats": "The validator checks object layers, not a complete ontology of subject/object biological entity types. Gene/protein normalization and explicit program/phenotype exceptions still require source-aware extraction review. Current pilot measurement names are all known.",
+      "suggested_disposition": "resolve"
+    },
+    {
+      "finding_id": "IMPL-R002",
+      "result": "resolved",
+      "verified_repairs": "A missing tested_hypothesis now gives independent_groups=0 and an unavailable existence prior. Distinct tested_hypothesis strings attached to identical endpoint/predicate/context fields remain separate, each receiving Beta(2.5,1) from one P3 source group. The final grouping key is tested_hypothesis, context_id and measurement. Independently tested positive and negative descriptive predicates for the same explicit hypothesis now combine to Beta(2.5,2.5). An inconclusive assertion sharing that hypothesis receives an unavailable numerical prior. The final null gate consistently excludes inadequate null records from both group weighting and per-assertion numerical availability, whether relation is supports or opposes; a supportive-null fixture no longer increases another record's weight.",
+      "remaining_issue": "No unresolved reproduction of the hypothesis identity, inconclusive inheritance or inadequate-null contribution defects after the final repair.",
+      "recommendation": "Retain explicit reviewed hypothesis identity and use the same eligibility rule for group weighting and per-assertion numerical availability. Treat the hypothesis string as a curated canonical identifier with explicit biological endpoints and context, not arbitrary reusable text.",
+      "caveats": "Pooling still depends on accurate manually reviewed canonical hypothesis annotations, cohort identity and context. These heuristic Beta/Dirichlet summaries are uncalibrated. No numerical probability of biological truth or complete mechanistic pathway is established.",
+      "suggested_disposition": "resolve"
+    },
+    {
+      "finding_id": "IMPL-R003",
+      "result": "resolved_for_bounded_pilot_with_documented_limits",
+      "verified_repairs": "Bare tuple bridge sets are rejected. Null or unsupported transitions are rejected. Unknown or different treatment/time-point context is blocked. The original reversed-time fixture is rejected with incompatible_time_point. A fully specified, reviewed bridge metadata object can pass compatible equal-context edges.",
+      "remaining_issue": "No current pilot path is materialized. Bridge status and temporal/context/measurement verification fields are caller-supplied attestations; the helper does not load an evidence row or prove that evidence_id exists. Different ancestry still passes if a caller attests context_compatibility='verified'.",
+      "recommendation": "Retain the current empty bridge input and zero materialization until a source-backed bridge loader and adjudication workflow exist. Document that bridge metadata must be independently curated. Future paths spanning distinct sampling times need an actual ordered temporal representation; present exact time_point equality is conservative blocking, not a temporal-order proof.",
+      "caveats": "This resolution applies to the pilot's fail-closed path compiler and the original acceptance defects. It does not certify a complete production bridge ingestion/transportability engine.",
+      "suggested_disposition": "resolve_with_documented_pilot_bridge_limitation"
+    },
+    {
+      "finding_id": "IMPL-R004",
+      "result": "resolved",
+      "verified_repairs": "load_reviews now retains blockers by target type. Full mocked loader-to-is_contested probes quarantine high open source and parent-cohort findings. Additional probes confirmed grandparent-cohort, context, code and protocol propagation, while an unrelated source finding does not contest the assertion. The existing release has all 72 assertions contested and zero available numerical priors while open implementation/protocol findings await coordinator disposition.",
+      "remaining_issue": "No unresolved reproduction of the original source/cohort/context propagation defect in the inspected pilot.",
+      "recommendation": "Retain target provenance and explicit coordinator dispositions. Keep human adjudication status pending unless a human actually adjudicates. For future cross-lane cohorts, ensure all ancestor records are loaded before statuses are finalized.",
+      "caveats": "Code/protocol findings conservatively quarantine the whole pilot, which is broader than a biological source-specific quarantine but safe. Ancestor resolution is limited to the cohort registry supplied to is_contested.",
+      "suggested_disposition": "resolve"
+    },
+    {
+      "finding_id": "IMPL-R005",
+      "result": "resolved_by_renaming_and_separating_counts",
+      "verified_repairs": "The misleading direct_assertion_count was replaced by related_assertion_count and reviewed_protein_assertion_count. An isolated fixture with a transcript assertion, a protein assertion needing full text and a reviewed protein assertion yielded related=3 and reviewed_protein=1.",
+      "remaining_issue": "The reviewed-protein count still counts a protein on either endpoint by matching name. It therefore measures reviewed protein involvement, including stimuli/ligands, rather than direct analyte measurement, assay validation or species-specific coverage.",
+      "recommendation": "Describe reviewed_protein_assertion_count as involvement in a reviewed protein-layer assertion. Use a separate outcome/measurement/entity-ID/species-aware statistic if direct assay coverage is later required.",
+      "caveats": "Neither count establishes that an assay channel measured the protein, and ambiguous assay identities and species/context caveats remain relevant.",
+      "suggested_disposition": "resolve_with_coverage_semantics_documented"
+    }
+  ],
+  "original_review_unchanged": true,
+  "human_adjudication_status": "pending",
+  "verification_history": [
+    {
+      "stage": "initial_repair_check_superseded_for_R001_R002",
+      "probe_results": {
+        "protein_on_transcript": [
+          "Measurement/object-layer mismatch: A0"
+        ],
+        "RNA_on_protein": [
+          "Measurement/object-layer mismatch: A0"
+        ],
+        "valid_protein": [],
+        "unknown_measurement": [],
+        "missing_hypothesis": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{}",
+            "independent_groups": 0,
+            "availability": "unavailable"
+          }
+        ],
+        "distinct_hypotheses": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          }
+        ],
+        "same_hypothesis_different_predicates": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{\"alpha\":1.0,\"beta\":2.5}",
+            "independent_groups": 1,
+            "availability": "available"
+          }
+        ],
+        "inconclusive_inheritance": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          }
+        ],
+        "bare_tuple_bridge": [
+          false,
+          [
+            "missing_reviewed_transition_and_temporal_bridge"
+          ]
+        ],
+        "structured_bridge": [
+          true,
+          []
+        ],
+        "null_path": [
+          false,
+          [
+            "A:no_supporting_transition"
+          ]
+        ],
+        "different_treatment_path": [
+          false,
+          [
+            "incompatible_treatment_status"
+          ]
+        ],
+        "reverse_time_path": [
+          false,
+          [
+            "incompatible_time_point"
+          ]
+        ],
+        "cross_ancestry_with_context_attestation": [
+          true,
+          []
+        ],
+        "propagated_high_findings": {
+          "source": true,
+          "cohort": true,
+          "context": true,
+          "protocol": true,
+          "code": true
+        },
+        "unrelated_high_source": false,
+        "coverage_query_probe": {
+          "related": 3,
+          "reviewed_protein": 1
+        },
+        "file_hashes": {
+          "scripts/kb.py": "89f9a21e03205d7a8264457def66a8e46fa16730f477f84cb8d6f0cce256ba62",
+          "tests/test_kb.py": "6850e6f11bbe5e8fcc84a80eb56c8ffb0dce0a14272cce65df8cac0ecc02573c",
+          "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+          "scripts/annotate_scoring.py": "685f050bfb4b6b74808ea9f736f8f379c766823ad3c0c808680995703e6e5279",
+          "data/scoring_annotations.json": "423812a5894107dae8a27f55a8c121a56b32611a961298a4b04fd04d427fa7bb",
+          "research/review_implementation.json": "eff01477aa7ce0d386481c336b9f53dfc43e172c66e96654a77b2098380589d8"
+        }
+      }
+    },
+    {
+      "stage": "followup_repair_check_before_final_null_gate_superseded_for_null_gate",
+      "probe_results": {
+        "unknown_measurement": [
+          "Unknown measurement vocabulary: A0"
+        ],
+        "same_hypothesis_different_predicates": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":2.5,\"beta\":2.5}",
+            "independent_groups": 2,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{\"alpha\":2.5,\"beta\":2.5}",
+            "independent_groups": 2,
+            "availability": "available"
+          }
+        ],
+        "inconclusive_inheritance": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":2.5,\"beta\":1.0}",
+            "independent_groups": 1,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{}",
+            "independent_groups": 0,
+            "availability": "unavailable"
+          }
+        ],
+        "supporting_null_without_adequacy_leaks_into_group": [
+          {
+            "assertion_id": "A0",
+            "parameters": "{\"alpha\":4.0,\"beta\":1.0}",
+            "independent_groups": 2,
+            "availability": "available"
+          },
+          {
+            "assertion_id": "A1",
+            "parameters": "{}",
+            "independent_groups": 0,
+            "availability": "unavailable"
+          }
+        ],
+        "file_hashes": {
+          "scripts/kb.py": "9c29e741478fed3074ebcc187b8d4d816e2cf9c331217b72be73b85afe94f232",
+          "tests/test_kb.py": "963b71d8c819d6c3f96574211a1b135cd9f1819af69de1362016390f34abe2fa",
+          "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+          "scripts/annotate_scoring.py": "685f050bfb4b6b74808ea9f736f8f379c766823ad3c0c808680995703e6e5279",
+          "data/scoring_annotations.json": "423812a5894107dae8a27f55a8c121a56b32611a961298a4b04fd04d427fa7bb",
+          "research/review_implementation.json": "eff01477aa7ce0d386481c336b9f53dfc43e172c66e96654a77b2098380589d8"
+        }
+      }
+    }
+  ],
+  "final_acceptance_probes": {
+    "single_support": {
+      "alpha": 2.5,
+      "beta": 1,
+      "estimate": 0.7142857142857143,
+      "direction": [
+        2.5,
+        1,
+        1
+      ],
+      "independent_groups": 1
+    },
+    "inadequate_supporting_null": {
+      "alpha": 2.5,
+      "beta": 1,
+      "estimate": 0.7142857142857143,
+      "direction": [
+        2.5,
+        1,
+        1
+      ],
+      "independent_groups": 1
+    },
+    "inadequate_opposing_null": {
+      "alpha": 2.5,
+      "beta": 1,
+      "estimate": 0.7142857142857143,
+      "direction": [
+        2.5,
+        1,
+        1
+      ],
+      "independent_groups": 1
+    },
+    "adequate_opposing_null": {
+      "alpha": 2.5,
+      "beta": 2.5,
+      "estimate": 0.5,
+      "direction": [
+        2.5,
+        1,
+        2.5
+      ],
+      "independent_groups": 2
+    },
+    "file_hashes": {
+      "scripts/kb.py": "0f7a2b4c4dca2edd61968e6f6f8869023f5f844349d9920f80c0f492cb186160",
+      "tests/test_kb.py": "71d741e6f4a3854e8c3ed2de7bb04d54fe82920bcaeac63674e67ea87fb87656",
+      "protocol/PROTOCOL.md": "66c4bf5aaf9364a02d27aeb62b1792be85646255dcbbc9ead946d1e83971d31a",
+      "scripts/annotate_scoring.py": "685f050bfb4b6b74808ea9f736f8f379c766823ad3c0c808680995703e6e5279",
+      "data/scoring_annotations.json": "423812a5894107dae8a27f55a8c121a56b32611a961298a4b04fd04d427fa7bb",
+      "research/review_implementation.json": "eff01477aa7ce0d386481c336b9f53dfc43e172c66e96654a77b2098380589d8",
+      "provenance/adjudications.json": "2252d7d9be35550c3b6c419035a4a12e351052e6abbdc5cd5f2808ff8aa72351"
+    }
+  },
+  "final_state_note": "Original findings remain unchanged. The coordinator owns provenance/adjudications.json dispositions; this response independently verifies the code repairs and documents bounded-pilot limitations. A fresh build/freeze must include this response and the final code hashes."
+}

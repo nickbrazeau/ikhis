@@ -1,0 +1,644 @@
+[
+  {
+    "category": "A. Governance",
+    "task": "Greenfield review",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Multi-layer mechanistic framework",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Adversarial reviewer",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Prior-only versioning",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Journal modifier",
+    "status": "partial coverage / implementation",
+    "detail": "Bounded proposal implemented and tested; authoritative JCR data unavailable; neutral multiplier."
+  },
+  {
+    "category": "A. Governance",
+    "task": "LLM/instruction provenance",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Expand scope to genomics",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Expand scope to transcriptomics",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Expand scope to proteomics",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Final protocol",
+    "status": "implemented for initial release",
+    "detail": "Operational v0.1.0 written; no claim of external preregistration or human approval."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Hash/register protocol",
+    "status": "implemented for initial release",
+    "detail": "SHA-256 registered locally in instruction and release manifests; no external registry."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Final adjudication rules",
+    "status": "implemented for initial release",
+    "detail": "Agent correction, contested evidence, propagation and human-pending states explicit."
+  },
+  {
+    "category": "A. Governance",
+    "task": "Release policy",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "Cytokines/chemokines",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "Genes",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "proteins/isoforms",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "genetic variants",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "regulatory elements",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "immune cells",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "cell states",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "receptor complexes",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "pathways",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "transcription factors",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "cellular processes",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "tissues",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "diseases",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "B. Ontologies/entities",
+    "task": "assay vocabularies",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "Cytokine databases",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "signaling databases",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "GWAS sources",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "QTL sources",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "transcriptomic atlases",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "single-cell atlases",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "proteomic repositories",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "functional-genomic resources",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "C. Source registry",
+    "task": "versions/retrieval dates/hashes",
+    "status": "partial coverage / implementation",
+    "detail": "Actual snapshots hashed and dates retained; unspecified external resource versions remain unavailable."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "Cytokine search",
+    "status": "partial coverage / implementation",
+    "detail": "Actual discovery queries saved; bounded retrieval and pilot extraction only."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "genomic search",
+    "status": "partial coverage / implementation",
+    "detail": "Actual discovery queries saved; bounded retrieval and pilot extraction only."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "transcriptomic search",
+    "status": "partial coverage / implementation",
+    "detail": "Actual discovery queries saved; bounded retrieval and pilot extraction only."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "proteomic search",
+    "status": "partial coverage / implementation",
+    "detail": "Actual discovery queries saved; bounded retrieval and pilot extraction only."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "family/entity-specific searches",
+    "status": "partial coverage / implementation",
+    "detail": "29 protein-symbol PubMed queries plus four lanes; ten relevance-ranked IDs each; original aliases retained in mapping."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "citation chaining",
+    "status": "partial coverage / implementation",
+    "detail": "Anchor-driven follow-up sources collected; no exhaustive backward/forward citation graph."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "deduplication",
+    "status": "partial coverage / implementation",
+    "detail": "Known publication-family and duplicate-preprint relations retained; full search corpus unscreened."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "cohort deduplication",
+    "status": "partial coverage / implementation",
+    "detail": "Known parent/subset relations and conservative unresolved grouping implemented; sample-level overlap incomplete."
+  },
+  {
+    "category": "D. Corpus construction",
+    "task": "frozen initial corpus",
+    "status": "implemented for initial release",
+    "detail": "27 included source records / 26 publication families; 72 assertions; explicitly bounded."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "genomic associations",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "molecular QTLs",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "regulatory genomic evidence",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "transcript abundance",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "splicing",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "transcriptional programs",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "protein abundance",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "secretion",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "PTMs/phosphorylation",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "source cell → cytokine",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "cytokine → target",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "receptor",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "signaling",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "cellular process",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "context",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "temporal information",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "null/contradictory evidence",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "E. Extraction",
+    "task": "exact provenance",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "variant → gene",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "variant → transcript",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "variant → protein",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "transcript → protein",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "protein → signaling",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "signaling → transcript",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "transcript/protein → function",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "genetic modification of cytokine response",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "cell-state-specific integration",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "tissue-specific integration",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "F. Cross-omic integration",
+    "task": "temporal compatibility checks",
+    "status": "partial coverage / implementation",
+    "detail": "Represented in the schema, registry or bounded evidence corpus; broader extraction/verification remains."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "genomic critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "causal-gene critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "transcriptomic critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "proteomic critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "cytokine critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "cross-omic compatibility critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "duplicate-cohort critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "network topology critique",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "G. Adversarial review",
+    "task": "human adjudication",
+    "status": "pending scientific completion",
+    "detail": "Pending. No agent action has been labeled human review."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "existence priors",
+    "status": "partial coverage / implementation",
+    "detail": "Explicit-hypothesis Beta summaries available for eligible records; heuristic and uncalibrated."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "direction priors",
+    "status": "partial coverage / implementation",
+    "detail": "Separate Dirichlet summaries; null adequacy and individual eligibility enforced; uncalibrated."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "effect-class priors",
+    "status": "partial coverage / implementation",
+    "detail": "Observed categorical directions exported; no magnitude inference."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "magnitude priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "temporal priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "genetic-modifier priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "expression priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "protein-availability priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "human-transportability priors",
+    "status": "pending scientific completion",
+    "detail": "Schema/interface present; required quantitative evidence or calibration is unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "context-specific priors",
+    "status": "partial coverage / implementation",
+    "detail": "Context annotations retained; quantitative transport calibration unavailable."
+  },
+  {
+    "category": "H. Prior construction",
+    "task": "journal-modifier sensitivity analysis",
+    "status": "partial coverage / implementation",
+    "detail": "No-journal results exported; equal to default because authoritative metrics unavailable and weighting disabled."
+  },
+  {
+    "category": "I. Release",
+    "task": "entity tables",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "genomic evidence tables",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "transcriptomic evidence tables",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "proteomic evidence tables",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "cytokine interaction tables",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "integrated multi-omic paths",
+    "status": "pending scientific completion",
+    "detail": "Empty by design: eight candidate joins fail context/bridge checks; complete source-backed path extraction remains."
+  },
+  {
+    "category": "I. Release",
+    "task": "critic findings",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "prior tables",
+    "status": "partial coverage / implementation",
+    "detail": "All ten parameter families exported; unsupported numeric families explicitly unavailable."
+  },
+  {
+    "category": "I. Release",
+    "task": "source manifest",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "provenance manifest",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "protocol/instruction manifest",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "QC report",
+    "status": "implemented for initial release",
+    "detail": "Implemented and represented in the frozen initial artifacts; does not imply exhaustive biological coverage."
+  },
+  {
+    "category": "I. Release",
+    "task": "freeze/hash Release 0.1",
+    "status": "implemented for initial release",
+    "detail": "Local initial release hash manifest; verify after rebuilding. Whole-review completion not claimed."
+  }
+]

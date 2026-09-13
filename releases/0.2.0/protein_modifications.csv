@@ -1,0 +1,8 @@
+record_id,evidence_id,protein_entity_id,modification,site,measurement_method
+PTM_P_A02,EV_P_A02,ENT_7bfd7fdddd57392b,phosphorylation,unavailable,CyTOF phospho-antibody readout
+PTM_P_A03,EV_P_A03,ENT_916d7f0b5f44ae3c,phosphorylation,unavailable,CyTOF phospho-antibody readout
+PTM_P_A04,EV_P_A04,ENT_916d7f0b5f44ae3c,phosphorylation,unavailable,CyTOF phospho-antibody readout
+PTM_P_A05,EV_P_A05,ENT_4a43549f9f661137,phosphorylation,unavailable,CyTOF phospho-antibody readout
+PTM_P_A06,EV_P_A06,ENT_649e4f9ac17b6ad6,phosphorylation,unavailable,CyTOF phospho-antibody readout
+PTM_XCI-A07,EV_XCI-A07,ENT_9ca2e79b2b55e060,phosphorylation,unavailable,pSTAT5 phospho-flow cytometry with surface CD25 and intracellular Foxp3 gating; BD LSRFortessa or LSR II
+PTM_XCI-A08,EV_XCI-A08,ENT_9ca2e79b2b55e060,phosphorylation,unavailable,pSTAT5 phospho-flow cytometry with surface CD25 and intracellular Foxp3 gating; BD LSRFortessa or LSR II

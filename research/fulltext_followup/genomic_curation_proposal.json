@@ -1,0 +1,163 @@
+{
+  "proposal_id": "G08-CURATION-20260913-01",
+  "status": "proposed_pending_independent_review",
+  "created_at": "2026-09-13T18:28:25.160341+00:00",
+  "original_pack_path": "research/genomic/pack.json",
+  "original_pack_sha256": "8a1002c03070bb3ba89561f3092056cef2b16eacbc77590c12a5689c396238b6",
+  "target_ids": [
+    "G-A020",
+    "G08",
+    "GCO14"
+  ],
+  "assertion_updates": [
+    {
+      "assertion_id": "G-A020",
+      "subject": "rs6897932",
+      "subject_type": "variant",
+      "predicate": "is_associated_with_disease_susceptibility",
+      "object": "multiple sclerosis",
+      "object_type": "disease",
+      "subject_layer": "G",
+      "object_layer": "F",
+      "measurement": "association",
+      "evidence_tier": "G1",
+      "direction": "association",
+      "source_id": "G08",
+      "cohort_id": "GCO14",
+      "source_locator": "Gregory2007 PDF printed pp3-4: Results Replication of the rs6897932 effect and Table4; pp7-8: Methods cohort ascertainment, genotyping and statistics. G08_Gregory2007_selected_primary.json locators[0:3].",
+      "evidence_summary": "The rs6897932 C allele was associated with multiple-sclerosis susceptibility in European-ancestry family and case-control datasets; combined case-control OR for CC versus CT/TT was1.29.",
+      "species": "Homo sapiens",
+      "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+      "age": "US case-control recruitment eligibility18-65years; no pooled age estimate imported",
+      "sex": "US healthy comparators invited to match case sex, ancestry and similar age; no pooled sex estimate imported",
+      "tissue": "peripheral blood",
+      "disease": "multiple sclerosis and comparison participants",
+      "disease_severity": "unavailable",
+      "treatment_status": "unavailable",
+      "cell_type": "unavailable",
+      "cell_state": "unavailable",
+      "developmental_state": "unavailable",
+      "stimulation": "unavailable",
+      "dose": "unavailable",
+      "duration": "unavailable",
+      "assay": "Whole-blood genomic DNA;TaqMan allelic discrimination onABI7900HT;pedigree disequilibrium test and logistic regression",
+      "genomic_background": "rs6897932 CC versus CT/TT for recessive model; additive genotypes used in initial screening",
+      "time_point": "unavailable",
+      "effect_size": "1.29",
+      "effect_unit": "odds ratio;CC versus CT/TT in combined case-control analysis",
+      "uncertainty": "95%CI1.14-1.46;recessive combined case-control P=0.00008(Table4).Overall P=2.9e-7 combines family and case-control evidence and is a different statistic.",
+      "causal_directness": "Disease association; does not itself establish molecular or disease causality.",
+      "limitations": "One publication with four datasets; cross-publication donor overlap unresolved. Recruited totals438+1077 cases and479+2725 controls differ from reported combined analysis1512cases/3184controls; discrepancy retained. Association remainsG1. Molecular assays measure minigene/PBMC RNA, not soluble or membrane protein. Primary-progressive subgroup n185 had P>0.30 and stated25%power; this null does not establish absence. No independent numeric prior increments inferred.",
+      "contradiction_group": "unavailable",
+      "candidate_path": "unavailable",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "quantitative_result": {
+        "value": 1.29,
+        "unit": "odds ratio",
+        "comparator": "rs6897932 CC versus CT/TT",
+        "uncertainty": "95%CI1.14-1.46;P=0.00008",
+        "donor_sample_basis": "Two case-control datasets; combined Results analysis1512MS cases/3184controls, distinct from larger recruited totals. Family datasets excluded from this OR.",
+        "locator": "Table4 and Results Replication of the rs6897932 effect, printed p4"
+      },
+      "scoring_annotation": {
+        "tested_hypothesis": "rs6897932 genotype is associated with multiple-sclerosis susceptibility in the recorded European-ancestry populations.",
+        "evidence_relation": "supports",
+        "null_adequacy": "not_applicable",
+        "rationale": "Supports susceptibility association only; no molecular causality or protein phenotype asserted. Independent review and human adjudication remain separate."
+      }
+    }
+  ],
+  "source_updates": [
+    {
+      "source_id": "G08",
+      "title": "Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+      "authors": "Simon G Gregory et al.",
+      "year": 2007,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17660817/",
+      "doi": "10.1038/ng2103",
+      "pmid": "17660817",
+      "source_type": "primary_study",
+      "version": "Nature Genetics advance online publication29July2007;doi10.1038/ng2103;nine-page primary PDF mirror",
+      "retrieved_at": "2026-09-13T18:25:29Z",
+      "access_level": "full_primary_article_selected_methods_results",
+      "snapshot_path": "research/fulltext_followup/G08_Gregory2007_selected_primary.json",
+      "species": "Homo sapiens",
+      "notes": "Article identity and relevant Methods/Results verified in primary PDF. Disease association is human; separate minigenes use humanHeLa and ratDT3/AT3 hosts. Primary PBMC arm94healthy controls measures isoform RNA byPCR. No protein-abundance/secretion claim imported. PDF screenshot cache misses limited visual table inspection; OR agrees with explicit prose.",
+      "additional_snapshot_paths": [
+        "research/genomic/snapshots/G08_open.txt"
+      ],
+      "retrieved_url": "https://www.direct-ms.org/wp-content/uploads/2018/01/IL-7-gene-Nature-Genetics-07.pdf"
+    }
+  ],
+  "cohort_updates": [
+    {
+      "cohort_id": "GCO14",
+      "dataset_id": "GDS14",
+      "accession": "unavailable",
+      "study_id": "G08",
+      "participants": "US760families including1055affected;US438cases/479controls;northern-European1338trios;northern-European1077cases/2725controls",
+      "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+      "species": "Homo sapiens",
+      "tissue": "peripheral blood",
+      "cell_type": "unavailable",
+      "disease": "multiple sclerosis and comparison participants",
+      "intervention": "genetic association",
+      "sample_count": "Four dataset components; no total unique participant count computed",
+      "donor_count": "Unavailable as deduplicated total across related publications",
+      "parent_cohort": "unavailable",
+      "related_publications": [
+        "G08"
+      ],
+      "independence_status": "Authors describe within-paper datasets as independent; cross-publication overlap unresolved",
+      "notes": "US case-control:UCSF July2004-September2005. UK controls479HRC blood donors and2047British1958BirthCohort; Belgian199hospital staff/noninflammatory neurological patients. These identities can reveal later-study overlap. Combined analyzed totals1512cases/3184controls differ from recruited1515/3204. Do not multiply prior support by four without donor-overlap adjudication.",
+      "dataset_components": [
+        {
+          "name": "US family",
+          "families": 760,
+          "multiplex_families": 197,
+          "single_case_families": 563,
+          "affected": 1055,
+          "ancestry": "non-Hispanic European descent"
+        },
+        {
+          "name": "US case-control",
+          "cases": 438,
+          "controls": 479,
+          "ascertainment": "UCSF MS Center July2004-September2005;age18-65;comparator matched bysex,ancestry,similarage"
+        },
+        {
+          "name": "Northern European family",
+          "trios": 1338,
+          "ascertainment": "UK nationally and Flanders,Belgium"
+        },
+        {
+          "name": "Northern European case-control",
+          "cases": 1077,
+          "controls": 2725,
+          "control_components": {
+            "HRC_blood_donors": 479,
+            "British_1958_Birth_Cohort": 2047,
+            "Belgian_hospital_staff_or_noninflammatory_neurological_patients": 199
+          }
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "path": "research/fulltext_followup/G08_Gregory2007_selected_primary.json",
+      "sha256": "ae29b2bea667a83778423f0c1847678f67402f525336a471a7e0ad53bd455d6a"
+    },
+    {
+      "path": "research/genomic/snapshots/G08_open.txt",
+      "sha256": "2ca2ed156d83aa7e45425de54fbd1f0b5311e231ced85f63d44418a2ce9d5ebf"
+    }
+  ],
+  "scope": "Proposed overlay only; original inputs untouched. No extra assertion or numeric prior.",
+  "remaining_issues": [
+    "Cross-publication overlap and recruited-versus-analyzed discrepancy unresolved.",
+    "Supplementary files and individual participant IDs not inspected.",
+    "PDF screenshots failed; no graph estimates inferred."
+  ]
+}

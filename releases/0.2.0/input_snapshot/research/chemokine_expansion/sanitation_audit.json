@@ -1,0 +1,17 @@
+{
+  "scope": "research/chemokine_expansion",
+  "tool": "scripts/sanitize_snapshots.py functions; restricted to own output directory",
+  "files_sanitized": [],
+  "additional_signed_delivery_sanitation": [
+    {
+      "path": "research/chemokine_expansion/snapshots/followup_search6.json",
+      "original_sha256": "8e1b8e4463bd6e8a458c32439a879c7475d2064df493ae8eae882e5134628f88",
+      "sanitized_sha256": "ad0ba6a5543af65e538fae0d05ddb7ead69c1bbc3423a53bd135184371e20dad"
+    },
+    {
+      "path": "research/chemokine_expansion/snapshots/followup_search9.json",
+      "original_sha256": "cc97a01128bc914b03a135d21de5aec97191ece3e9a6bf53eca7f7837f0b8ff2",
+      "sanitized_sha256": "e2637123c75f8a42f7f6b76bbc9fcd56bf1285b7bb22204dc55930bc4df4217d"
+    }
+  ]
+}

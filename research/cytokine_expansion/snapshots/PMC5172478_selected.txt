@@ -1,0 +1,37 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5172478/
+Retrieved: 2026-09-13 via Chrome article DOM. Selected verbatim sections.
+PLoS One. 2016 Dec 9;11(12):e0167215. doi: 10.1371/journal.pone.0167215
+Time-Dependent Regulation of IL-2R α-Chain (CD25) Expression by TCR Signal Strength and IL-2-Induced STAT5 Signaling in Activated Human Blood T Lymphocytes
+Alla N Shatrova, Elena V Mityushova, Irina O Vassilieva, Nikolay D Aksenov, Valery V Zenin, Nikolay N Nikolsky, Irina I Marakhova
+PMCID: PMC5172478 PMID: 27936140
+
+[Materials and Methods: Lymphocyte isolation and stimulation]
+Human peripheral blood lymphocytes (PBL) were isolated from fresh venous blood of healthy adult donors (collected with written consent with approval from The Institute of Cytology RAS and The State Institution “Mariinsky Hospital”, Saint-Petersburg, permission number 2025/14). PBL were obtained by density gradient centrifugation over Histopaque (Histopaque-1077, Sigma), followed by monocyte/macrophage depletion via plastic adherence [18].
+Prior to experiments, purified cells were suspended at a concentration of 2x106 cells/ml, and allowed to rest overnight in RPMI medium supplemented with 5% heat-inactivated human serum (AB IV Rh+). At the next day the cell suspension (>85% CD3+ cells) were distributed into plates (10-20x106 cells/plate) and stimulated either with the polyclonal mitogen for T lymphocytes phytohemagglutinin (PHA-M, Sigma, USA) or with human recombined IL-2 (Biotex, Russia) in the absence or presence of pharmacological inhibitors WHI-P131, 4-(4´-Hydroxyphenyl)amino-6,7-dimethoxyquinozoline or PP2, 4-Amino-5-(4-chlorohyenyl)-7-(t-butyl)pyrazolo[3,4-d]pirimidine (Calbiochem, USA), or left unstimulated.
+
+[Flow cytometry: cell cycle]
+To assess the proliferative response of stimulated PBL, at definite time after mitogenic stimulation, PBL (106 cells/ml) were suspended in PBS containing 200 μg/ml of saponin (Sigma) for 30 min, then washed and treated with 250 μg/ml ribonuclease (Serva, Germany) and 50 μg/ml propidium iodide (Sigma, USA) in PBS for 30 min at 37°C. Cell cycle distribution was analyzed by Coulter Epics XL Flow Cytometer (Beckman Coulter, Brea, CA, USA). Cells were classified as G0/G1/ S and G2/M. List mode files were analyzed with ModFit LT software (Verity Software House, Topsham, ME, USA).
+
+[Table1 relevant rows transcribed as visible DOM; columns incubation / proliferation S+G2+M,%]
+Resting PBL / 1.1 ± 0.02
+PHA10 / 43.7 ± 2.5
+IL-2, 100 / 2.3 ± 0.1
+PHA 0.7 / 6.9 ± 0.1
+PHA 0.7+IL-2, 100 / 30.6 ± 5.4
+[Table1 caption, selected passages]
+Isolated PBL were cultured 48 h with 10 μg/ml PHA in the absence or presence of 50 or 80 μM WHI-P131 or 1.0 μM PP2, or isolated PBL were incubated with submitogenic PHA (0.7 μg/ml) for 20 h and then IL-2 (200 U/ml) was added for the next 24 h.
+Data represent mean ± SD of five independent experiments with PBL from different donors.
+
+[Results: IL-2 up-regulates the CD25 expression in competent but not in quiescent PBL]
+To make clear the role of early PP2-inhibitable CD25 induction we investigated whether exogenous IL-2 can induce the expression of IL-2Rα in quiescent T cells and found that in freshly isolated PBL, IL-2 failed to induce a full proliferative response (4.3% cells in S+G2+M-phases as compared to 43,7% in PHA-stimulated PBL cultures after 48 h) (Table 1).
+
+[Figure3 caption, relevant context]
+(A) The representative histograms of one experiment on PBL from one donor are shown. PBL were not stimulated (CTR) or stimulated with 0.7 μg/ml (0.7PHA), or 10 μg/ml (10PHA) PHA, or 200 U/ml IL-2 (IL-2) for 48 h.
+In the same experiment, PBL were preincubated in culture medium with 0.7 μg/ml PHA and 80 μM WHI-P131 (WHI) or 1.0 μM PP2 for 24 h prior to IL-2 stimulation, or drugs were added simultaneously with 0.7 μg/ml PHA for 24 h and thereafter IL-2 was added for the next 24 h.
+(C) Proliferation of resting PBL in response to 0.7 μg/ml PHA (2) and 10 μg/ml PHA (6, 7), or competent PBL in response to IL-2 in the absence (3) or presence of PP2 (4) or WHI-P131 (5). Bars represent the number of cells in (S+G2+M) phases of cell cycle at 48h after PBL stimulation. Summary data of independent experiments on PBL from different donors is shown as mean + SEM (n = 4, p˂0.05).
+
+[Results following Figure3]
+In addition, competent cells enter into the cell cycle and proliferate well in the presence of IL-2 (Fig 3C, column 3; Table 1).
+
+[Extractor note, not source text]
+The result prose gives 4.3% for IL2 alone, while Table1 gives 2.3 ± 0.1. Table1 row labels IL2 100 but caption specifies 200 U/mL for the preconditioned arm. Do not silently reconcile these discrepancies or interpret the qualitative conclusion as zero cell-cycle entry.

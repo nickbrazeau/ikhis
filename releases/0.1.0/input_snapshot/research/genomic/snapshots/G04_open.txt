@@ -1,0 +1,228 @@
+Impact of genetic polymorphisms on human immune cell gene expression - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC6289654/)
+citeturn17view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6289654/","lineno":null}); Total lines: 740
+L0: cite0†Skip to main content L1: 
+L2: cite1†Image†cdn.ncbi.nlm.nih.gov Search
+L3: 
+L4: cite2†Image†cdn.ncbi.nlm.nih.gov Log in cite3†Image†cdn.ncbi.nlm.nih.gov cite4†Image†cdn.ncbi.nlm.nih.gov L5: 
+L6:   * cite5†Dashboard†www.ncbi.nlm.nih.gov L7:   * cite6†Publications†www.ncbi.nlm.nih.gov L8:   * cite7†Account settings†www.ncbi.nlm.nih.gov L9:   * [Button: Log out ]
+L10: 
+L11: Search… [Input: Search NCBI] Search NCBI
+L12: 
+L13: Primary site navigation
+L14: 
+L15: cite8†Image: Close†cdn.ncbi.nlm.nih.gov L16: 
+L17: Search [Input: Search NCBI]
+L18: 
+L19: Logged in as:
+L20:   * cite5†Dashboard†www.ncbi.nlm.nih.gov L21:   * cite6†Publications†www.ncbi.nlm.nih.gov L22:   * cite7†Account settings†www.ncbi.nlm.nih.gov L23: 
+L24: [Button: Log in ]
+L25: 
+L26: cite1†Image: PMC search open icon†cdn.ncbi.nlm.nih.gov cite8†Image: PMC search close ison†cdn.ncbi.nlm.nih.gov L27: 
+L28: Search PMC Full-Text Archive [Input: Search PMC Full-Text Archive] Search in PMC cite9†Image: Search†cdn.ncbi.nlm.nih.gov L29: 
+L30:   * cite10†Journal List L31:   * cite11†User Guide L32: 
+L33: [Button: Cell]
+L34: 
+L35: . Author manuscript; available in PMC: 2019 Nov 29.
+L36: Published in final edited form as: Cell. 2018 Nov 15;175(6):1701–1715.e16. doi: cite12†10.1016/j.cell.2018.10.022†doi.org L37: # Impact of genetic polymorphisms on human immune cell gene expression
+L38: 
+L39: cite13†Benjamin J Schmiedel†pubmed.ncbi.nlm.nih.gov L40: 
+L41: ### Benjamin J Schmiedel
+L42: 
+L43: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L44: 
+L45: Find articles by cite13†Benjamin J Schmiedel†pubmed.ncbi.nlm.nih.gov L46: 
+L47: ^{1}, cite14†Divya Singh†pubmed.ncbi.nlm.nih.gov L48: ### Divya Singh
+L49: 
+L50: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L51: 
+L52: Find articles by cite14†Divya Singh†pubmed.ncbi.nlm.nih.gov L53: 
+L54: ^{1}, cite15†Ariel Madrigal†pubmed.ncbi.nlm.nih.gov L55: 
+L56: ### Ariel Madrigal
+L57: 
+L58: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L59: 
+L60: Find articles by cite15†Ariel Madrigal†pubmed.ncbi.nlm.nih.gov L61: 
+L62: ^{1}, cite16†Alan G Valdovino-Gonzalez†pubmed.ncbi.nlm.nih.gov L63: ### Alan G Valdovino-Gonzalez
+L64: 
+L65: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L66: 
+L67: Find articles by cite16†Alan G Valdovino-Gonzalez†pubmed.ncbi.nlm.nih.gov L68: 
+L69: ^{1}, cite17†Brandie M White†pubmed.ncbi.nlm.nih.gov L70: 
+L71: ### Brandie M White
+L72: 
+L73: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L74: 
+L75: Find articles by cite17†Brandie M White†pubmed.ncbi.nlm.nih.gov L76: 
+L77: ^{1}, cite18†Jose Zapardiel-Gonzalo†pubmed.ncbi.nlm.nih.gov L78: ### Jose Zapardiel-Gonzalo
+L79: 
+L80: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L81: 
+L82: Find articles by cite18†Jose Zapardiel-Gonzalo†pubmed.ncbi.nlm.nih.gov L83: 
+L84: ^{1}, cite19†Brendan Ha†pubmed.ncbi.nlm.nih.gov L85: 
+L86: ### Brendan Ha
+L87: 
+L88: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L89: 
+L90: Find articles by cite19†Brendan Ha†pubmed.ncbi.nlm.nih.gov L91: 
+L92: ^{1}, cite20†Gokmen Altay†pubmed.ncbi.nlm.nih.gov L93: ### Gokmen Altay
+L94: 
+L95: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L96: 
+L97: Find articles by cite20†Gokmen Altay†pubmed.ncbi.nlm.nih.gov L98: 
+L99: ^{1}, cite21†Jason A Greenbaum†pubmed.ncbi.nlm.nih.gov L100: 
+L101: ### Jason A Greenbaum
+L102: 
+L103: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L104: 
+L105: Find articles by cite21†Jason A Greenbaum†pubmed.ncbi.nlm.nih.gov L106: 
+L107: ^{1}, cite22†Graham McVicker†pubmed.ncbi.nlm.nih.gov L108: ### Graham McVicker
+L109: 
+L110: ^{2}Salk Institute for Biological Studies, La Jolla, CA 92037, USA.
+L111: 
+L112: Find articles by cite22†Graham McVicker†pubmed.ncbi.nlm.nih.gov L113: 
+L114: ^{2}, cite23†Grégory Seumois†pubmed.ncbi.nlm.nih.gov L115: 
+L116: ### Grégory Seumois
+L117: 
+L118: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L119: 
+L120: Find articles by cite23†Grégory Seumois†pubmed.ncbi.nlm.nih.gov L121: 
+L122: ^{1}, cite24†Anjana Rao†pubmed.ncbi.nlm.nih.gov L123: ### Anjana Rao
+L124: 
+L125: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L126: 
+L127: ^{3}Sanford Consortium for Regenerative Medicine, La Jolla, CA 92037, USA.
+L128: 
+L129: ^{4}Department of Pharmacology and Moores Cancer Centre, University of California San Diego (UCSD), La Jolla, CA 92037, USA.
+L130: 
+L131: Find articles by cite24†Anjana Rao†pubmed.ncbi.nlm.nih.gov L132: 
+L133: ^{1,}^{3,}^{4}, cite25†Mitchell Kronenberg†pubmed.ncbi.nlm.nih.gov L134: ### Mitchell Kronenberg
+L135: 
+L136: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L137: 
+L138: ^{5}Division of Biological Sciences, University of California San Diego, La Jolla, CA 92037, USA.
+L139: 
+L140: Find articles by cite25†Mitchell Kronenberg†pubmed.ncbi.nlm.nih.gov L141: 
+L142: ^{1,}^{5}, cite26†Bjoern Peters†pubmed.ncbi.nlm.nih.gov L143: ### Bjoern Peters
+L144: 
+L145: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L146: 
+L147: ^{6}Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA.
+L148: 
+L149: Find articles by cite26†Bjoern Peters†pubmed.ncbi.nlm.nih.gov L150: 
+L151: ^{1,}^{6}, cite27†Pandurangan Vijayanand†pubmed.ncbi.nlm.nih.gov L152: ### Pandurangan Vijayanand
+L153: 
+L154: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L155: 
+L156: ^{6}Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA.
+L157: 
+L158: ^{7}University of Southampton, Faculty of Medicine, Southampton SO16 6YD, UK.
+L159: 
+L160: ^{8}Lead contact.
+L161: 
+L162: Find articles by cite27†Pandurangan Vijayanand†pubmed.ncbi.nlm.nih.gov L163: 
+L164: ^{1,}^{6,}^{7,}^{8}
+L165: 
+L166:   * [Button: Author information]
+L167:   * [Button: Article notes]
+L168:   * [Button: Copyright and License information]
+L169: ^{1}La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA.
+L170: 
+L171: ^{2}Salk Institute for Biological Studies, La Jolla, CA 92037, USA.
+L172: 
+L173: ^{3}Sanford Consortium for Regenerative Medicine, La Jolla, CA 92037, USA.
+L174: 
+L175: ^{4}Department of Pharmacology and Moores Cancer Centre, University of California San Diego (UCSD), La Jolla, CA 92037, USA.
+L176: 
+L177: ^{5}Division of Biological Sciences, University of California San Diego, La Jolla, CA 92037, USA.
+L178: ^{6}Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA.
+L179: 
+L180: ^{7}University of Southampton, Faculty of Medicine, Southampton SO16 6YD, UK.
+L181: 
+L182: ^{8}Lead contact.
+L183: 
+L184: AUTHOR CONTRIBUTIONS
+L185: B.J.S., A.R., M.K., B.P., and P.V. conceived the work, designed and analyzed the experiments, B.J.S. and P.V. wrote the paper; B.J.S., D.S., A.G.V.-G. and B.M.W. performed the preparation of PBMC, FACS sorting and/or RNA isolation under the supervision of B.J.S. and P.V.; B.J.S. performed the functional experiments; D.S. performed RNA-Seq under the supervision of B.J.S., G.S. and P.V.; A.M., J.Z.-G., B.H. and G.A.
+L186: performed processing and analysis of sequencing data under the supervision of B.J.S., J.A.G., G.M., B.P. and P.V.
+L187: ^{✉}
+L188: 
+L189: Correspondence to: Pandurangan Vijayanand (vijay@lji.org).
+L190: 
+L191: Issue date 2018 Nov 29.
+L192: 
+L193: cite28†PMC Copyright notice L194: 
+L195: PMCID: PMC6289654  NIHMSID: NIHMS1509364  PMID: cite29†30449622†pubmed.ncbi.nlm.nih.gov L196: ## SUMMARY
+L197: While many genetic variants have been associated with risk for human diseases, how these variants affect gene expression in various cell types remains largely unknown. To address this gap, the DICE (Database of Immune Cell Expression, Expression quantitative trait loci (eQTLs) and Epigenomics) project was established.
+L198: Considering all human immune cell types and conditions studied, we identified cis-eQTLs for a total of 12,254 unique genes, which represent 61% of all protein-coding genes expressed in these cell types. Strikingly, a large fraction (41%) of these genes showed a strong cis-association with genotype only in a single cell type. We also found that biological sex is associated with major differences in immune cell gene expression in a highly cell-specific manner.
+L199: These datasets will help reveal the effects of disease risk-associated genetic polymorphisms on specific immune cell types, providing mechanistic insights into how they might influence pathogenesis (cite30†http://dice-database.org†dice-database.org ).
+L200: ## Graphical Abstract
+L201: 
+L202: In Brief:
+L203: 
+L204: Surveying gene expression and SNP genotypes across immune cell types from healthy humans reveals cis-eQTLs affecting over half of all expressed genes and demonstrates that variant effects often manifest in cell types other than those with highest gene expression.
+L205: 
+L206: cite31†Image: graphic file with name nihms-1509364-f0001.jpg†cdn.ncbi.nlm.nih.gov L207: ## INTRODUCTION
+L208: Genomic surveys of individuals from multiple populations have revealed significant genetic heterogeneity, with over 80 million autosomal single nucleotide polymorphisms (SNPs), including ~8 million common variants (cite32†1000 Genomes Project Consortium, 2015 ).
+L209: Disease risk associations for several thousand of these SNPs have been identified by genome-wide association studies (GWAS) (cite33†Visscher et al., 2012 ), however, the overwhelming majority of GWAS hits lie in non-coding regions of the genome, and thus very little is known about exactly which genes they effect, in which cell types they act and what their functional relevance is to disease.
+L210: In parallel, large-scale epigenomic initiatives analyzing multiple human cell types have attributed cis-regulatory function to nearly 20% of the non-coding DNA sequences, and showed that disease risk variants are enriched in cell-specific cis-regulatory DNA sequences (cite34†Roadmap Epigenomics et al., 2015 ). This indicates that disease risk variants are likely to affect gene expression in a context-dependent manner, in a specific subset of cell types in the human body.
+L211: Defining the cell types in which disease risk variants modulate gene expression will aid mechanistic and functional studies that investigate the genetic basis of specific diseases.
+L212: The Genotype-Tissue Expression (GTEx) consortium assessed the association of genetic variants with gene expression levels (expression quantitative trait loci or eQTLs) across 44 human tissues (cite35†GTEx Consortium, 2015 , cite36†2017 ). Its results provide a valuable resource for narrowing down tissue-specific cis-regulatory effects of disease risk variants, but do not provide information on eQTLs in immune cell types.
+L213: Previous large-scale eQTL studies of cells in the human immune system were performed in heterogeneous cell types and cell lines (cite37†Grundberg et al., 2012 ; cite38†Wright et al., 2014 ; cite39†Zhernakova et al., 2017 ) or in a relatively small number of homogeneous cell types from the same study subjects, thus limiting cell-specific eQTL analyses (cite40†Chen et al., 2016 ; cite41†Fairfax et al., 2014 ; cite42†Lee et al., 2014 ; cite43†Quach et al., 2016 ; cite44†Raj et al., 2014 ).
+L214: The DICE (Database of Immune Cell Expression, Expression quantitative trait loci (eQTLs) and Epigenomics) project was established to define the transcriptional and epigenomic landscape of many human immune cell types in relation to genetic variation, thereby identifying both the cell-type restriction and potential function of human disease-associated SNPs.
+L215: In this first report from the DICE project, we identified common genetic variants that are associated with the expression of several thousand protein-coding and non-coding RNAs in 13 types of immune cells and 2 activation conditions, providing a map as to how human genetic variations affect gene expression in immune cell types.
+L216: We have built a central resource (cite30†http://dice-database.org†dice-database.org ) to integrate and disseminate our datasets and to allow scientists to predict the effects of disease-associated genetic variants in immune cell types, thus connecting the genetic risk of disease to cell types and molecular pathways.
+L217: ## RESULTS
+L218: ### Transcriptome of common human immune cell types
+L219: In the first phase of the DICE project, we present transcriptomic data generated from 13 immune cell types isolated from 106 leukapheresis samples provided by 91 healthy subjects, including 15 who provided longitudinal samples.
+L220: The cell types presented here comprise over 60% of all circulating mononuclear cells and include three innate immune cell types (CD14^{high} CD16^{—} classical monocytes, CD14^{—} CD16^{+} non-classical monocytes, CD56^{dim} CD16^{+} NK cells), four adaptive immune cell types that have not encountered cognate antigen in the periphery (naïve B cells, naïve CD4^{+} T cells, naïve CD8^{+} T cells and naïve regulatory T cells (T_{REG})), six CD4^{+} memory or more differentiated T cell subsets (T_{H}1, T_{H}1/17, T_{H}17, T_{H}2, follicular helper T cell (T_{FH}) and memory T_{REG}) and two activated cell types (naïve CD4^{+} and CD8^{+} T cells that were stimulated ex vivo) (cite45†Fig.
+L221: 1A,B , cite46†Fig. S1A–F and cite47†Table S1 ).
+L222: #### Figure 1.
+L223: 
+L224: cite48†Open in a new tab L225: Transcriptome of common human immune cell types. (A) Study overview. (B) The pie chart shows relative proportions of the 13 primary cell types (details provided in cite46†Fig. S1 and cite47†Table S1A ). (C) RNA-Seq analysis of 1,544 samples (details provided in cite47†Table S1B ) showing the total number of detected transcripts categorized based on their mean expression levels (TPM, transcript per million) in the indicated cell types and activation conditions.
+L226: (D) The fraction of expressed transcripts belonging to each biotype as defined in the Ensembl database. For comparison, the GRCh37.p13 bar shows the corresponding fractions for all 57,820 annotated transcripts in the reference genome. (E) Unsupervised hierarchical clustering of the transcriptomes of the indicated cell types based on the 1,000 most variable transcripts expressed; each line represents an independent sample.
+L227: RNA-Seq analysis showed that similar numbers of transcripts (ranging from 14,500 to 17,000, ~39% of all annotated transcripts) were detected (>1.0 transcripts per million, TPM) across all cell types and activation conditions (cite45†Fig. 1C ). About 18% of these transcripts were long-noncoding RNAs (lncRNAs) (cite45†Fig. 1D ), which as a class were expressed at lower levels compared to protein-coding transcripts (cite46†Fig. S1G ). Though a majority of transcripts were detected in multiple cell types (cite46†Fig.
+L228: S1H,I ), their relative abundance varied substantially, resulting in distinct clustering patterns of different cell types (cite45†Fig. 1E ).
+L229: ### Cell-specific transcriptional signatures
+L230: We classified the differentially expressed transcripts into groups that had significantly higher expression in one cell type than in the others (cite49†Fig. 2 and cite50†Table S2 ). 4,602 transcripts showed highly cell-specific expression patterns (cite49†Fig.
+L231: 2A ), and were classified as cell-specific protein-coding transcripts, including several whose function is well-known (CD163, SIGLEC10, GZMB, FCRL2, CD40LG, CRTAM) and others where it is still poorly defined in the respective cell type (PADI4, CLEC4F, C1orf21, TSPAN13, FHIT) (cite49†Fig. 2A,B ). Interestingly, several lncRNAs showed high abundance in specific immune cell types.
+L232: Though very little is known about their function, the cell specificity of their expression raises the speculation that these lncRNAs may have an important role in the development and/or function of the respective immune cell type.
+L233: #### Figure 2.
+L234: 
+L235: cite51†Open in a new tab L236: Cell-specific transcriptional signatures. (A and C) RNA-Seq analysis showing differentially expressed genes (cite52†STAR Methods ), presented as row-wise z-scores of normalized TPM counts in the indicated cell types. (B and D) t-SNE plots of transcriptomes (symbol) for each of the indicated cell types for all subjects, and the expression of indicated cell-specific transcripts in each subject is shown in corresponding plots.
+L237: Each symbol represents an independent sample; color scale represents the z-scores of normalized TPM counts in the indicated cell types.
+L238: Differential gene expression analysis among the CD4^{+} T cell subsets revealed over 700 genes that were enriched for expression in one specific CD4^{+} T cell subset (cite49†Fig. 2C ).
+L239: Besides known CD4^{+} T cell subset-specific genes (e.g., FOXP3 in T_{REG} cells, IL17A in T_{H}17 cells, CXCR5 in T_{FH} cells), several novel protein-coding transcripts and lncRNAs (e.g., RP11–265P11.2 in naïve T_{REG} cells, cite53†AP001189.4†www.ncbi.nlm.nih.gov in memory T_{REG} cells, GPR56 in T_{H}1 cells, TNFRSF11A in T_{H}2 cells), whose function has not been fully characterized, with cell-specific expression patterns in CD4^{+} T cell subsets were identified (cite49†Fig. 2C,D ).
+L240: Overall, these findings emphasize the value of this resource in defining a reference for cell-specific transcripts, several of which may have important functional roles in the respective cell types.
+L241: ### Expression QTLs are highly cell-specific
+L242: We identified common single-nucleotide polymorphisms (SNPs) associated with variation in transcript abundance of a nearby gene, which we refer to as cis-eQTLs for convenience.
+L243: Considering all immune cell types and including differences related to activation of naïve CD4^{+} and CD8^{+} T cells, we identified cis-eQTLs for a total of 12,254 unique genes, representing 61% of all expressed protein-coding genes and 49% of all lncRNAs, respectively, and majority of these were replicated in other eQTL studies (cite54†Fig. 3A and cite55†Table S3 ). For simplicity, genes with at least one significant cis-eQTL in any cell type are hereafter referred to as eGenes.
+L244: The cis-eQTLs were enriched within intronic regions of the genome (cite54†Fig. 3B ) and 12% of all cis-eQTLs were located within ±10 kb of the TSS (cite54†Fig. 3C ). However, 37% of all cis-eQTLs were located >100 kb from the TSS of the target gene (cite54†Fig. 3C ), suggesting that genetic variants may correlate with expression of more distant target genes.
+L245: #### Figure 3.
+L246: 
+L247: cite56†Open in a new tab L248: Expression QTLs are highly cell-specific. (A) The fraction of eGenes belonging to each biotype as defined in the Ensembl database. (B) Genomic location of all analyzed SNPs and the cis-eQTLs identified in this study. (C) Distance of cis-eQTLs from the transcription start site (TSS) of the associated transcript (eGene); left panel shows the adj. association P value for all peak cis-eQTLs (cite52†STAR Methods ) and the dotted line indicates adj.
+L249: P < 0.05; right panel shows the fraction of cis-eQTLs identified across all cell types and activation conditions (n = 15) in the indicated regions up and downstream of the TSS, each dot represents a specific cell type. Error bars are mean ± SEM; ***P < 0.001 by Student’s paired two-tailed t-test. (D) The total number of eGenes identified across the indicated cell types and activation conditions. (E) Overlap of eGenes identified in the indicated cell types (n = 6).
+L250: The pie chart shows the fraction of eGenes identified in varying numbers of cell types. (F) Cell-specific eGene analysis, showing row-wise z-scores of the adj. association P values (left panel) and average expression levels (right panel) for cell-specific eGenes (one per row) in the indicated cell types.
+L251: (G) Mean expression levels (TPM) of selected eGenes in the indicated cell types from subjects categorized based on the genotype at the indicated peak cis-eQTL; each symbol represents an individual subject; * adj. association P value < 0.05.
+L252: (H) Top panel, University of California Santa Cruz (UCSC) tracks showing chromosomal location and genes present in the 12p13.2 locus (containing a large haplotype block of cis-eQTLs (black lines); red line indicates location of peak cis-eQTL of KLRK1 (rs2927561)); UCSC tracks of DNase hypersensitivity sites (provided by NIH Roadmap Epigenomics Mapping Consortium). Regions with active DHS in NK cells and CD8^{+} T cells, but not in the other cell types, are highlighted in blue.
+L253: Bottom panel shows row-wise z-scores of TPM counts for the indicated eGenes in NK cells, where each column represents an individual subject. (I) Overlap of eGenes identified in resting and activated naïve CD4^{+} and CD8^{+} T cells. (J) Mean expression levels (TPM) of eGenes in resting and activated naïve CD4^{+} and CD8^{+} T cells from subjects categorized based on the genotype; each symbol represents an individual subject; * adj. association P value < 0.05.
+L254: (K) FACS analysis of surface expression of 4–1BB and CD25 in naïve CD4^{+} T cells following stimulation at the indicated time points. The subjects (n = 13) were categorized based on the genotype of the cis-eQTL associated with TNFRSF9 (4–1BB) expression (C/C or T/T genotype at rs9657975); results of two-way ANOVA testing for significant differences between both groups are indicated for each surface marker.
+L255: We identified >2,000 eGenes (ranging from 2,421 to 3,590 eGenes/cell type) for each of the indicated six common cell types (cite54†Fig. 3D ), and the majority (51%) of these genes showed a significant cis-association with genotype only in one specific cell type (cite54†Fig. 3E–G ).
+L256: The cell specificity of SNPs’ association was not entirely due to cell-specific expression of eGenes, as these associations were observed even for genes that were expressed at similar levels across multiple cell types, with some cell types highly susceptible to the effect of the SNP and others not (cite54†Fig. 3F,G and cite57†Fig. S2A ). For example, IRAK3 showed a peak cis-eQTL (rs1732886, adj.
+L257: association P = 6.82 × 10^{−17}) only in naïve B cells even though it was expressed at even higher levels in classical and non-classical monocytes (cite54†Fig. 3G ). IRAK3 is a member of the interleukin-1 receptor-associated kinase family and known to function as a negative regulator of Toll-like receptor (TLR) signaling regulating immune homeostasis and tolerance (cite58†Hubbard and Moore, 2010 ).
+L258: Additional examples of cell-specific eGenes that we identified include two genes in the CD96 locus that showed strong cis-eQTLs exclusively in naïve B cells (rs149612031, adj. P = 3.01 × 10^{−16} for CD96 and 1.81 × 10^{−16} for ZBED2, respectively; cite54†Fig. 3G and cite57†Fig. S2A ).
+L259: Homozygosity of the GA allele of rs149612031 (64% of our subjects) was associated with lack of expression of the CD96 and ZBED2 transcripts in B cells but not in other cell types such as NK cells and T cells, suggesting that these genetic variants, if causally linked to gene expression, profoundly affect only susceptible cell types.
+L260: CD96 belongs to the immunoglobulin family of receptors that bind to nectin-like proteins and is expressed by NK cells and T cells where it functions as an important negative regulator of cellular activation and cytokine responses (cite59†Chan et al., 2014 ); ZBED2 is a transcription factor.
+L261: An interesting eQTL (rs2511162) associated with GAB2 showed inverse effects on gene expression in B cells versus T cells; rs2511162^{A/A} was associated with lower GAB2 expression in B cells, whereas in T cells it was associated with increased expression of GAB2.
+L262: Knocking down GAB2 expression in naïve CD4^{+} T cells resulted in a significant reduction in the expression of activation markers (CD69, CD25 and HLA-DR) and cytokine transcripts (IFNG and IL2) following anti-CD3 and anti-CD28 stimulation (cite57†Fig. S2B–D ).
+L263: GAB2 has previously been shown to be an important adaptor protein involved in B and T cell signaling pathways (cite60†Osinalde et al., 2016 ); thus, if this genetic variant modulates GAB2 protein expression, there could be divergent functional consequences in T cells and in B cells.
+L264: A ~240 kb dense haploblock of NK cell- and CD8^{+} T cell-specific cis-eQTLs at the 12p13.2 locus was associated with the expression of three lncRNAs and six C-type lectin-like receptors, including 5 activating NK receptors (KLRK1, KLRC4-KLRK1, KLRC4, KLRC3, KLRC2) and an inhibitory receptor (KLRC1) (cite54†Fig. 3H , top panel).
+L265: Non-coding SNPs in general have previously been shown to perturb the function of cell-specific enhancers and thus affect gene expression in specific cell types (cite61†Schmiedel et al., 2016 ). As expected, several of the cis-eQTLs in the 12p13.2 locus directly overlapped many cell-specific DNase sites present in NK cells and naïve CD8^{+} T cells (cite54†Fig. 3H , middle panel).
+L266: The G allele at rs2927561 was associated with increased expression of all five activating NK receptors and two lncRNAs in the locus, which suggested that this allele, if causally linked to gene expression, is likely to confer NK cells with an enhanced activation potential (cite54†Fig. 3G and cite54†3H , bottom panel).
+L267: Given the importance of NK cells in anti-viral and tumor immunity, it would be interesting to test whether the 12p13.2 genetic variants that correlate with expression of an important group of NK receptors could have donor-specific consequences.
+L268: Previous studies have reported that several genetic variants are associated with gene expression only following perturbation of resting immune cells by relevant environmental (extrinsic) stimuli (cite41†Fairfax et al., 2014 ; cite42†Lee et al., 2014 ). To uncover such environment-responsive cis-eQTLs, we activated naïve CD4^{+} and CD8^{+} T cells ex vivo and analyzed the association of SNPs with gene expression in an activation-induced manner.
+L269: We identified additional cis-eQTLs for >1,300 genes exclusively in activated naïve CD4^{+} and/or CD8^{+} T cells (cite54†Fig. 3I and cite55†Table S3A ).
+L270: These activation-induced eQTLs were associated with several genes encoding products known to influence T cell function, such as, the immune checkpoint molecule PDCD1 (PD-1) (cite62†Keir et al., 2008 ), the co-stimulatory molecule TNFRSF9 (4–1BB) (cite63†Watts, 2005 ), the co-inhibitory molecule CD59 (cite64†Sivasankar et al., 2009 ) and SGK1 (cite65†Wu et al., 2013 ), a kinase that regulates differentiation of T_{H}17 and T_{H}2 cells (cite54†Fig. 3J and cite57†Fig. S2E ).
+L271: In a time course experiment, we confirmed that following activation, a greater proportion of CD4^{+} T cells expressed cell surface 4–1BB protein in subjects with the TNFRSF9 (4–1BB) expression-increasing allele (T/T genotype at rs9657975) compared to those with C/C genotype (cite54†Fig. 3K ). This effect was not observed for other markers of activation such as CD69, CD25 or HLA-DR (cite54†Fig. 3K and cite57†Fig.
+L272: S2F ), which suggested that despite similar levels of activation, 4–1BB protein expression differed based on genotype. Since 4–1BB is currently tested as a co-stimulatory cancer immunotherapy target (cite66†Chester et al., 2018 ), our description of genotype-dependent effects on expression of 4–1BB in T cells may aid in the development of genetic biomarkers that stratify potential responders to 4–1BB targeted therapies.
+L273: ### CD4^{+} T cell subset-specific eQTLs
+L274: Naïve CD4^{+} T cells when activated in vivo following pathogen exposure, differentiate into several lineage-specific memory subsets such as T_{H}1, T_{H}1/17, T_{H}17, T_{H}2, and T_{FH} subsets (cite67†Zhou et al., 2009 ), which have distinct gene expression programs and functional roles in host defense (cite49†Fig. 2C ).
+

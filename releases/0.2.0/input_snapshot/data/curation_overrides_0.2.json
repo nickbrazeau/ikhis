@@ -1,0 +1,312 @@
+{
+  "sources": {
+    "C-S07": {
+      "snapshot_path": "research/fulltext_followup/chrome_NK_DC_passages.json",
+      "access_level": "full_text_viewed_selected_passages_archived",
+      "retrieved_at": "2026-09-13",
+      "notes": "Chrome full article Methods, Results and Figure5 inspected. Selected passages archived; earlier indexed passages and failed retrieval attempts retained separately."
+    },
+    "C-S05": {
+      "snapshot_path": "research/fulltext_followup/chrome_STAT3_passages.json",
+      "access_level": "full_text_viewed_selected_passages_archived",
+      "retrieved_at": "2026-09-13",
+      "notes": "Chrome provided full primary Methods and Results despite earlier automated access failure. Selected outcome/method passages archived; no complete PDF archive claimed."
+    },
+    "P_S03": {
+      "snapshot_path": "research/fulltext_followup/proteomic_followup_methods.json",
+      "additional_snapshot_paths": [
+        "research/proteomic/snapshots/cite_publisher_page.txt",
+        "research/proteomic/snapshots/cite_publisher_page.html"
+      ],
+      "access_level": "full_text_relevant_methods_and_results_via_primary_repository_index",
+      "retrieved_at": "2026-09-13",
+      "pmid": "28759029",
+      "notes": "PMC5669064 author manuscript title is Large-scale simultaneous measurement of epitopes and transcriptomes in single cells; DOI and PMID match the final Nature title. Full relevant Methods and NK Results recovered; publisher Supplementary Figure6 caption remains included. No raw matrix reanalysis claimed."
+    },
+    "P_S01": {
+      "snapshot_path": "research/fulltext_followup/atlas_followup_paper.json",
+      "additional_snapshot_paths": [
+        "research/proteomic/snapshots/atlas_publisher_page.txt",
+        "research/proteomic/snapshots/atlas_publisher_page.html"
+      ],
+      "access_level": "full_text_selected_methods_and_results_via_primary_paper_copy",
+      "retrieved_at": "2026-09-13",
+      "notes": "Primary paper text recovered from author paper hosted on ResearchGate and matched to Nature DOI/title/authors; publisher Supplementary Fig5g independently retained. Molecular raw matrix not reanalyzed. Retrieved methods render memory CD4 gating as CD4+CD45RA+, an unresolved source/encoding ambiguity; no assumption that this identifies conventional memory phenotype."
+    },
+    "G08": {
+      "source_id": "G08",
+      "title": "Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+      "authors": "Simon G Gregory et al.",
+      "year": 2007,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17660817/",
+      "doi": "10.1038/ng2103",
+      "pmid": "17660817",
+      "source_type": "primary_study",
+      "version": "Nature Genetics advance online publication29July2007;doi10.1038/ng2103;nine-page primary PDF mirror",
+      "retrieved_at": "2026-09-13T18:25:29Z",
+      "access_level": "full_primary_article_selected_methods_results",
+      "snapshot_path": "research/fulltext_followup/G08_Gregory2007_selected_primary.json",
+      "species": "Homo sapiens",
+      "notes": "Article identity and relevant Methods/Results verified in primary PDF. Disease association is human; separate minigenes use humanHeLa and ratDT3/AT3 hosts. Primary PBMC arm94healthy controls measures isoform RNA byPCR. No protein-abundance/secretion claim imported. PDF screenshot cache misses limited visual table inspection; OR agrees with explicit prose.",
+      "additional_snapshot_paths": [
+        "research/genomic/snapshots/G08_open.txt"
+      ],
+      "retrieved_url": "https://www.direct-ms.org/wp-content/uploads/2018/01/IL-7-gene-Nature-Genetics-07.pdf"
+    }
+  },
+  "assertions": {
+    "C-A18": {
+      "predicate": "decreases_intracellular_protein",
+      "source_locator": "Materials and Methods: IFN-gamma Production Assay; Results: DCs Induce NK Cells; Figure4A lower and caption, in chrome_NK_DC_passages.json",
+      "evidence_summary": "IL12 neutralization reduced intracellular IFNG accumulation during six-hour human NK/DC coculture.",
+      "dose": "blocking antibody concentration unavailable; monensin 2 micromolar",
+      "duration": "6 hours",
+      "time_point": "6 hours",
+      "assay": "intracellular anti-IFNG flow cytometry after fixation/permeabilization; 2 micromolar monensin; NK:DC ratio 10:1",
+      "causal_directness": "Cytokine neutralization in coculture; intracellular protein endpoint. Source-cell-specific genetic manipulation not demonstrated.",
+      "limitations": "Full article inspected in Chrome; selected passages archived. Authors describe secretion, but the extracted endpoint is intracellular flow with monensin; no extracellular IFNG concentration inferred. Figure4A reports one of three experiments; independent donor count and blocking antibody dose unavailable.",
+      "uncertainty": "Qualitative inhibition; magnitude and precision unavailable; three experiments are not assumed to mean three independent donors.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "IL12 neutralization reduces intracellular IFNG in the specified six-hour human NK/DC coculture",
+        "evidence_relation": "supports",
+        "null_adequacy": "unavailable",
+        "rationale": "Supports only the directly measured endpoint in the specified source context."
+      }
+    },
+    "C-A19": {
+      "source_locator": "Materials and Methods: Proliferation Assay by CFSE Dilution; Figure4D and Results, in chrome_NK_DC_passages.json",
+      "assay": "CFSE dilution on CD3-negative CD56-positive cells; NK:DC ratio 10:1; blocking antibody at culture start and day3",
+      "dose": "anti-IL15 concentration unavailable; CFSE label 5 micromolar for 10 minutes",
+      "limitations": "Full article inspected in Chrome; selected passages archived. Six-day CFSE readout; antibody concentration and independent donor count unavailable. No complete receptor/signaling path inferred.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "IL15 neutralization reduces proliferation in the specified six-day human NK/DC coculture",
+        "evidence_relation": "supports",
+        "null_adequacy": "unavailable",
+        "rationale": "Supports only the directly measured endpoint in the specified source context."
+      }
+    },
+    "C-A12": {
+      "predicate": "no_detectable_change_in_secreted_TNF",
+      "measurement": "secreted_protein",
+      "source_locator": "Methods: Assay of TNF-alpha; Results and Figure2C; Chrome archived passages",
+      "evidence_summary": "Manipulating STAT3 expression did not yield a significant difference in LPS-induced supernatant TNF at 2 or 24 hours across seven donors.",
+      "cell_state": "primary monocytes after overnight M-CSF conditioning",
+      "dose": "LPS 500 ng/mL; vector intervention documented in primary methods",
+      "duration": "2 and 24 hours after LPS",
+      "time_point": "2 and 24 hours after LPS",
+      "assay": "culture-supernatant TNF ELISA (BD OptEIA) with DELFIA readout; triplicate measurements",
+      "localization": "extracellular culture supernatant",
+      "limit_of_detection": ">10 pg/mL assay sensitivity as stated by authors",
+      "uncertainty": "Seven independent donors, technical triplicates; no reported equivalence margin or evidence establishing absence.",
+      "causal_directness": "STAT3 expression manipulation with vector and uninfected controls; measured extracellular TNF; null is inconclusive for absence.",
+      "limitations": "Approximately85% monocyte purity; incomplete transduction; M-CSF preconditioning and LPS context. Ordinary nonsignificance does not demonstrate universal STAT3 independence.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "STAT3 manipulation changes extracellular TNF in the specified LPS-stimulated primary human monocyte experiment",
+        "evidence_relation": "inconclusive",
+        "null_adequacy": "unavailable",
+        "rationale": "Nonsignificance is not evidence of absence."
+      }
+    },
+    "C-A20": {
+      "source_locator": "Results: Mature, but Not Immature, DCs Present IL15; Figure5A; Chrome primary article",
+      "evidence_summary": "Surface IL15 staining was not detectable on immature monocyte-derived dendritic cells relative to the assay controls.",
+      "assay": "surface IL15 flow cytometry with isotype controls; Figure5A",
+      "localization": "cell surface",
+      "limitations": "Selected passages archived after full article inspection. Three experiments are not assumed to be independent donors. Nondetection is limited by assay sensitivity; total-cell IL15 is a distinct Western-blot endpoint.",
+      "uncertainty": "Detection threshold and independent donor count unavailable; no adequate evidence for absolute absence.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "Immature human monocyte-derived dendritic cells display detectable surface IL15 in the specified experiment",
+        "evidence_relation": "inconclusive",
+        "null_adequacy": "unavailable",
+        "rationale": "Surface-protein nondetection is retained descriptively; it does not prove absence."
+      }
+    },
+    "P_A07": {
+      "source_locator": "proteomic_followup_methods.json: CBMC Results, cell staining, blood mononuclear cells, ADT filtering and Figure3; cite_publisher_page.txt: Supplementary Figure6b lines256-257",
+      "assay": "CITE-seq surface antibody-derived tags; RNA-defined NK cluster split by CD56 ADT; CLR-transformed ADT distributions",
+      "dose": "1 µg antibody per staining test; not a cytokine dose",
+      "duration": "30 min antibody staining at 4°C; no cytokine perturbation",
+      "time_point": "cross-sectional CBMC profiling",
+      "limitations": "Full relevant Methods and Results recovered. NK groups are defined by CD56 protein tags; donor number and donor-level precision remain unavailable. No direct cytotoxicity inference. Unsigned distribution difference retained; KS P<0.001 is not a magnitude or calibrated truth probability.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "CD8A surface antibody-tag distributions differ between CD56-defined NK subsets in this cord-blood CITE-seq dataset.",
+        "evidence_relation": "supports",
+        "null_adequacy": "not_applicable",
+        "rationale": "Methods establish surface-tag compartment and shared-cell subset definition; conclusions confined to this dataset."
+      }
+    },
+    "P_A08": {
+      "source_locator": "proteomic_followup_methods.json: CBMC Results, cell staining, blood mononuclear cells, ADT filtering and Figure3; cite_publisher_page.txt: Supplementary Figure6b lines256-257",
+      "assay": "CITE-seq surface antibody-derived tags; RNA-defined NK cluster split by CD56 ADT; CLR-transformed ADT distributions",
+      "dose": "1 µg antibody per staining test; not a cytokine dose",
+      "duration": "30 min antibody staining at 4°C; no cytokine perturbation",
+      "time_point": "cross-sectional CBMC profiling",
+      "limitations": "Full relevant Methods and Results recovered. NK groups are defined by CD56 protein tags; donor number and donor-level precision remain unavailable. No direct cytotoxicity inference. Low/absent CD4 control signals and ordinary no-difference observation do not establish protein absence or equivalence.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "scoring_annotation": {
+        "tested_hypothesis": "CD4 surface antibody-tag distributions differ between CD56-defined NK subsets in this cord-blood CITE-seq dataset.",
+        "evidence_relation": "inconclusive",
+        "null_adequacy": "No equivalence margin or adequate absence bound.",
+        "rationale": "Methods establish surface-tag compartment and shared-cell subset definition; conclusions confined to this dataset."
+      }
+    },
+    "P_A01": {
+      "object": "total proteome of the source-described CD4 memory-cell preparation",
+      "cell_type": "CD4 T-cell preparation described as memory by authors; precise CD45RA gate unresolved",
+      "source_locator": "atlas_followup_paper.json: ONLINE METHODS, Blood samples and cell sorting, CD4 T cell activation with IL34; atlas_publisher_page.txt: Supplementary Figure5g line498",
+      "evidence_summary": "IL34 was associated with total-proteome changes in the source-described preactivated CD4 memory-cell preparation.",
+      "assay": "total-cell LC-MS/MS proteomics; aggregate profile comparison",
+      "dose": "IL34 100 versus 0 ng/mL; IL2 500 U/mL per general T-cell expansion Methods",
+      "duration": "Figure5g: 2 d IL34 after 2 d CD3/CD28 preactivation; main Methods state harvest at 96 h overall",
+      "time_point": "96 h overall; Figure5g-specific IL34 timing",
+      "uncertainty": "Figure5g: four culture replicates from two independent donors; FDR<5%, S0=1. No signed individual-protein effect sizes extracted.",
+      "limitations": "Relevant main Methods recovered, with source/encoding ambiguity: CD4 memory gate rendered CD4+CD45RA+ in retrieved text. Preparation retained with author attribution; not generalized to conventional memory CD4 cells. Main Methods timing is less explicit than Figure5g. Raw protein matrix not reanalyzed; no CSF1R activation, individual protein direction, receptor dependence or cellular function inferred.",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "low",
+      "scoring_annotation": {
+        "tested_hypothesis": "IL34 changes total proteome in conventional human memory CD4 T cells under the specified culture conditions.",
+        "evidence_relation": "inconclusive",
+        "null_adequacy": "not_applicable; target-cell identity unresolved",
+        "rationale": "Descriptive aggregate profile change retained, but unresolved memory-cell gate prevents a numerical update for the conventional memory-CD4 hypothesis."
+      }
+    },
+    "G-A020": {
+      "assertion_id": "G-A020",
+      "subject": "rs6897932",
+      "subject_type": "variant",
+      "predicate": "is_associated_with_disease_susceptibility",
+      "object": "multiple sclerosis",
+      "object_type": "disease",
+      "subject_layer": "G",
+      "object_layer": "F",
+      "measurement": "association",
+      "evidence_tier": "G1",
+      "direction": "association",
+      "source_id": "G08",
+      "cohort_id": "GCO14",
+      "source_locator": "Gregory2007 PDF printed pp3-4: Results Replication of the rs6897932 effect and Table4; pp7-8: Methods cohort ascertainment, genotyping and statistics. G08_Gregory2007_selected_primary.json locators[0:3].",
+      "evidence_summary": "The rs6897932 C allele was associated with multiple-sclerosis susceptibility in European-ancestry family and case-control datasets; combined case-control OR for CC versus CT/TT was1.29.",
+      "species": "Homo sapiens",
+      "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+      "age": "US case-control recruitment eligibility18-65years; no pooled age estimate imported",
+      "sex": "US healthy comparators invited to match case sex, ancestry and similar age; no pooled sex estimate imported",
+      "tissue": "peripheral blood",
+      "disease": "multiple sclerosis and comparison participants",
+      "disease_severity": "unavailable",
+      "treatment_status": "unavailable",
+      "cell_type": "unavailable",
+      "cell_state": "unavailable",
+      "developmental_state": "unavailable",
+      "stimulation": "unavailable",
+      "dose": "unavailable",
+      "duration": "unavailable",
+      "assay": "Whole-blood genomic DNA;TaqMan allelic discrimination onABI7900HT;pedigree disequilibrium test and logistic regression",
+      "genomic_background": "rs6897932 CC versus CT/TT for recessive model; additive genotypes used in initial screening",
+      "time_point": "unavailable",
+      "effect_size": "1.29",
+      "effect_unit": "odds ratio;CC versus CT/TT in combined case-control analysis",
+      "uncertainty": "95%CI1.14-1.46;recessive combined case-control P=0.00008(Table4).Overall P=2.9e-7 combines family and case-control evidence and is a different statistic.",
+      "causal_directness": "Disease association; does not itself establish molecular or disease causality.",
+      "limitations": "One publication with four datasets; cross-publication donor overlap unresolved. Recruited totals438+1077 cases and479+2725 controls differ from reported combined analysis1512cases/3184controls; discrepancy retained. Association remainsG1. Molecular assays measure minigene/PBMC RNA, not soluble or membrane protein. Primary-progressive subgroup n185 had P>0.30 and stated25%power; this null does not establish absence. No independent numeric prior increments inferred.",
+      "contradiction_group": "unavailable",
+      "candidate_path": "unavailable",
+      "qc_status": "reviewed_extraction",
+      "qualitative_confidence": "moderate",
+      "quantitative_result": {
+        "value": 1.29,
+        "unit": "odds ratio",
+        "comparator": "rs6897932 CC versus CT/TT",
+        "uncertainty": "95%CI1.14-1.46;P=0.00008",
+        "donor_sample_basis": "Two case-control datasets; combined Results analysis1512MS cases/3184controls, distinct from larger recruited totals. Family datasets excluded from this OR.",
+        "locator": "Table4 and Results Replication of the rs6897932 effect, printed p4"
+      },
+      "scoring_annotation": {
+        "tested_hypothesis": "rs6897932 genotype is associated with multiple-sclerosis susceptibility in the recorded European-ancestry populations.",
+        "evidence_relation": "supports",
+        "null_adequacy": "not_applicable",
+        "rationale": "Supports susceptibility association only; no molecular causality or protein phenotype asserted. Independent review and human adjudication remain separate."
+      }
+    }
+  },
+  "cohorts": {
+    "C-CO05": {
+      "donor_count": "7 for TNF endpoint in Figure2C",
+      "sample_count": "7 biological donors; technical triplicates are not additional donors",
+      "notes": "The TNF endpoint uses seven individual donors; separate phosphorylation figures have two donors and must not be assigned this count."
+    },
+    "P_C03": {
+      "participants": "cord blood obtained from New York Blood Center; unique donor number unavailable",
+      "intervention": "observational CITE-seq antibody staining; no cytokine perturbation",
+      "notes": "8005 human cells are not 8005 donors. RNA/ADT counts share cells; low-frequency mouse fibroblast controls used for antibody background and excluded from human assertions. Separate flow-benchmark PBMC arm not used to infer cord-blood donor counts."
+    },
+    "P_C01_IL34": {
+      "cell_type": "CD4 T-cell preparation described as memory; precise CD45RA gate unresolved",
+      "notes": "Two independent donors and four culture replicates explicitly reported in Fig5g. Main Methods render the gate CD4+CD45RA+; source/encoding discrepancy unresolved. Donor overlap with main atlas remains unresolved."
+    },
+    "GCO14": {
+      "cohort_id": "GCO14",
+      "dataset_id": "GDS14",
+      "accession": "unavailable",
+      "study_id": "G08",
+      "participants": "US760families including1055affected;US438cases/479controls;northern-European1338trios;northern-European1077cases/2725controls",
+      "ancestry": "European ancestry; US families explicitly non-Hispanic European descent; UK and Belgian populations",
+      "species": "Homo sapiens",
+      "tissue": "peripheral blood",
+      "cell_type": "unavailable",
+      "disease": "multiple sclerosis and comparison participants",
+      "intervention": "genetic association",
+      "sample_count": "Four dataset components; no total unique participant count computed",
+      "donor_count": "Unavailable as deduplicated total across related publications",
+      "parent_cohort": "unavailable",
+      "related_publications": [
+        "G08"
+      ],
+      "independence_status": "Authors describe within-paper datasets as independent; cross-publication overlap unresolved",
+      "notes": "US case-control:UCSF July2004-September2005. UK controls479HRC blood donors and2047British1958BirthCohort; Belgian199hospital staff/noninflammatory neurological patients. These identities can reveal later-study overlap. Combined analyzed totals1512cases/3184controls differ from recruited1515/3204. Do not multiply prior support by four without donor-overlap adjudication.",
+      "dataset_components": [
+        {
+          "name": "US family",
+          "families": 760,
+          "multiplex_families": 197,
+          "single_case_families": 563,
+          "affected": 1055,
+          "ancestry": "non-Hispanic European descent"
+        },
+        {
+          "name": "US case-control",
+          "cases": 438,
+          "controls": 479,
+          "ascertainment": "UCSF MS Center July2004-September2005;age18-65;comparator matched bysex,ancestry,similarage"
+        },
+        {
+          "name": "Northern European family",
+          "trios": 1338,
+          "ascertainment": "UK nationally and Flanders,Belgium"
+        },
+        {
+          "name": "Northern European case-control",
+          "cases": 1077,
+          "controls": 2725,
+          "control_components": {
+            "HRC_blood_donors": 479,
+            "British_1958_Birth_Cohort": 2047,
+            "Belgian_hospital_staff_or_noninflammatory_neurological_patients": 199
+          }
+        }
+      ]
+    }
+  },
+  "review_status": "Independent agent review documented in linked review records; exact release eligibility is controlled by data/reviewed_curations.json. Human adjudication remains pending.",
+  "scope": "Eight inherited assertions receive source-backed corrections: four cytokine, three proteomic and one genomic. Original Release 0.1.0 packs remain unchanged; the separately documented security redaction applies only to a signed source-download URL."
+}

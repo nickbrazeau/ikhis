@@ -1,0 +1,56 @@
+{
+  "review_response_id": "implementation-additional-source-response-IMPL02-20260913-01",
+  "timestamp_start": "2026-09-13 18:11:49 UTC",
+  "timestamp_end": "2026-09-13 18:14:36 UTC",
+  "agent_role": "Additional Source Dependency Fix Implementer and Validator",
+  "independence": "This agent identified the dependency omission during independent cytokine review, then implemented and tested the explicitly requested fix. This supplement is implementer validation, not an independent adversarial re-review of this agent's own code. Earlier independent reports remain unchanged.",
+  "scope": "Narrow follow-up to the additional source dependency identified for XCI-A03/XCI-S01. Include primary snapshot_path and every additional_snapshot_paths in approval dependency collection for expansion builds, scoring annotation generation, legacy carry-forward validation and both inherited and overlay curation inputs. No evidence pack or unrelated implementation was changed by this fix.",
+  "reviewed_file_hashes": {
+    "scripts/kb.py": "8bcdd17305c5f1341b63ab104301acbd4fc2c5887cd417fcbcb501a3b96971af",
+    "scripts/annotate_scoring.py": "4dfe9ddb31703e42590f13e2e7c5794f67d448c66a8bdd6ccf5e53921a4a17c7",
+    "scripts/scoring_rules.py": "580a76d6d381fc14cd035e8b8775972d8b4410a4c1abd849cdc4756f0908372e",
+    "scripts/sanitize_snapshots.py": "2bdb501bfa0d6321c2799ab144f480ea24660091aef7335e9636cd4422e64e3b",
+    "tests/test_kb.py": "bbfafee7fc594291a49a0cff12b9d63ee69038a7937e59923639c9da5bfd2907",
+    "tests/test_release_lifecycle.py": "67d2937e1ea238f86792ed824187f413013125d78a597aa32e86652cc0f7efb3",
+    "tests/test_snapshot_security.py": "5bf17cb7fd8544e48ae00756d217519937f6b3ee616c3ba92383ac30b53f6db2",
+    "tests/test_review_integrity.py": "7ddb55820560ced697f3956fbe4245f1a50a102b3148917e428063b8a57fe1e8"
+  },
+  "preserved_prior_artifact_hashes": {
+    "research/review_implementation_0.2.json": "14e84dfb0fbd1a398a384863068fddffc429bcc87ab5b6ff0508468f9b5b9be0",
+    "research/implementation_review_response_0.2.json": "710b49fd192ed800488318c628da9df4e7494cc0e8ea24975d1408a18cc53639",
+    "research/review_cytokine_0.2.json": "d092e1e7166dda5a7cbd91c6a2f38e5fb0acf9f7734368bea0a6f89969782071"
+  },
+  "result": "pass",
+  "changes": [
+    {
+      "path": "scripts/kb.py",
+      "description": "Added shared source_snapshot_paths collection, preserving optional primary fields in partial curation overlays and deduplicating all declared primary/additional paths. Expansion approval, legacy manifest comparisons, curation overlay references and inherited curation pack references now use the complete collection."
+    },
+    {
+      "path": "scripts/annotate_scoring.py",
+      "description": "Expansion annotation generation uses the same complete source dependency collection, so stale additional-source bytes cannot produce an approved scoring annotation."
+    },
+    {
+      "path": "tests/test_review_integrity.py",
+      "description": "Added synthetic mutation regressions for expansion build approval, legacy eligibility, scoring annotation generation, and curation dependencies from both base packs and overlays. The legacy test fixture archives additional source files in its predecessor manifest."
+    }
+  ],
+  "validation": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests_run": 44,
+    "failures": 0,
+    "errors": 0,
+    "result": "pass",
+    "new_tests": [
+      "test_additional_expansion_source_mutation_invalidates_review",
+      "test_additional_legacy_source_mutation_invalidates_review",
+      "test_annotation_generator_rechecks_additional_source",
+      "test_curation_rechecks_base_and_overlay_additional_sources"
+    ],
+    "assertions": "Each relevant fixture succeeds with exact approved bytes; changing only an additional source removes numerical eligibility or generated approval. Curation mutation tests separately cover inherited additional files and files introduced by a partial source overlay."
+  },
+  "approval_migration_note": "Approval manifests must supply a source_hashes entry for every path returned by source_snapshot_paths. Existing approvals that omitted additional files now fail closed until their exact reviewed supplemental-source hashes are recorded. The independent cytokine report already records all nine supporting snapshot hashes.",
+  "remaining_issues": [],
+  "limitations": "Validation used temporary synthetic sources and fixtures. No production release build or freeze was performed in this follow-up; release integration remains with the coordinator.",
+  "conclusion": "The missing additional-source approval dependency is repaired across all identified collection paths, and all 44 tests pass at the recorded code and test hashes."
+}

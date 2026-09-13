@@ -1,0 +1,80 @@
+{
+  "critic_run_id": "CR-CYT-20260912-01",
+  "scope": "Independent adversarial biological review of research/cytokine/pack.json and protocol/PROTOCOL.md v0.1.0; all 24 cytokine assertions and their saved primary-source evidence were inspected. This reviewer did not author the cytokine pack. This is agent review, not human adjudication.",
+  "timestamp_start": "2026-09-12T17:21:26Z",
+  "timestamp_end": "2026-09-12T17:26:57Z",
+  "findings": [
+    {
+      "finding_id": "CR-CYT-001",
+      "severity": "high",
+      "target_type": "assertion",
+      "target_id": "C-A11",
+      "challenge": "The extracted timing and figure locator reverse the study's time-dependent autoregulation result. C-A11 records reduced IL10 RNA at seven hours and cites Fig6; the source reports no or minimal inhibition at seven hours, with strong inhibition at 24 hours in Fig7.",
+      "evidence": "research/cytokine/snapshots/PMC2119001.txt lines 594-608: the Results describe seven-hour Northern blots in Fig6 and no/minimal inhibition of IL10 RNA at that time; the following 24-hour experiment shows strong reduction in Fig7. Fig7 caption at lines 556-568 identifies the 24-hour Northern and RT-PCR/Southern measurements. The existing pack has duration=time_point=7 hours and source_locator=Fig6 and Results: autoregulatory effects.",
+      "recommendation": "Correct the decrease assertion to 24 hours and Fig7. Preserve the seven-hour no/minimal inhibitory result separately with its actual qualitative limitations, rather than merging the two times. Recompute affected context-specific priors and block the erroneous seven-hour decrease from paths until repaired.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "CR-CYT-002",
+      "severity": "high",
+      "target_type": "protocol",
+      "target_id": "protocol/PROTOCOL.md#prior-construction",
+      "challenge": "The null-result weighting rule lacks a distinct tested-hypothesis and evidence-polarity field. Current negative predicates such as does_not_increase_surface_protein (C-A14) and does_not_increase_secreted_protein (C-A22) are themselves assertions. Sending every null direction to beta can weaken the negative assertion that the observation was intended to support, or silently switch to an unstated positive hypothesis. In addition, an observed nonsignificant or below-threshold response is not automatically evidence of a biologically absent relationship.",
+      "evidence": "The protocol states that a null contributes half-weight to beta when it tests the assertion. C-A14 combines a negative predicate and direction=null; research/cytokine/snapshots/open2.json Fig1A, source lines 159-164, reports no significant surface increase and only three independent donors. C-A22 also has a negative predicate and direction=null; research/cytokine/snapshots/PMC2193232.txt line 55 defines response using a greater-than-50-percent increase criterion. C-A22 correctly retains that threshold in its limitation, but the protocol has no operational requirement to carry it into prior eligibility. No code behavior is asserted by this finding; it concerns the specification and its compatibility with the extracted records.",
+      "recommendation": "Define the hypothesis being scored independently from the observed direction. Add evidence polarity (supports, refutes, uninformative) and null-evidence adequacy, including tested response threshold, precision/detection limit or equivalence assessment where available. Treat underpowered, nonsignificant and threshold-defined observations as uninformative for relationship absence unless a justified rule applies. Keep the observations searchable even when excluded from existence weighting. Document these summaries as heuristic, as the protocol already does.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "CR-CYT-003",
+      "severity": "medium",
+      "target_type": "assertion",
+      "target_id": "C-A18",
+      "challenge": "The source authors call the IFNG result secretion, but the available Figure4A excerpt describes analyses on gated cells and does not establish an extracellular sampling assay. Encoding a definite secreted_protein measurement while assay and time remain unavailable is more specific than the accessible methodological evidence permits.",
+      "evidence": "research/cytokine/snapshots/PMC534504.xml provides the abstract terminology. In research/cytokine/snapshots/search3.json, the primary-source Figure4A excerpt says lymph-node mononuclear cells were cultured for six hours and analyses were performed on CD3-negative cells; its lower panel concerns purified blood NK cells with autologous monocyte-derived DC. Neither the excerpt nor the accessible abstract specifies a supernatant assay for the extracted blood-NK result. C-A18 currently sets predicate=decreases_secreted_protein, object_type=secreted_protein and measurement=secreted_protein, although assay=unavailable and qc_status=needs_full_text.",
+      "recommendation": "Keep the already appropriate needs_full_text status and withhold this record from mechanistic paths. Until methods are verified, encode IFNG protein production with compartment unavailable and retain the authors' secretion wording in the evidence summary. Upgrade to extracellular secretion only if the actual assay supports that compartment; do not infer that the result must be intracellular from the excerpt alone.",
+      "disposition": "open"
+    },
+    {
+      "finding_id": "CR-CYT-004",
+      "severity": "low",
+      "target_type": "cohort",
+      "target_id": "C-CO08; C-CO09",
+      "challenge": "Known participant overlap is recorded only in prose while both parent_cohort fields and independence statuses remain unresolved. The overlap between P1/P3 clone experiments and the expanded P1/P3/P4/P17 blast experiments is known even though complete sample-level identity and historical-publication reuse are not resolved.",
+      "evidence": "research/cytokine/snapshots/PMC2193232.txt lines 27-29 names P1, P3, P4 and P17 and identifies P1/P3 as the clone donors; the STAT4 experiments involve the expanded patient set. C-CO08 and C-CO09 notes explicitly acknowledge this overlap. The protocol's conservative pooling of unresolved independence prevents a claim of demonstrated current double-counting, but does not make the known relationship machine-readable.",
+      "recommendation": "Add a structured shared-participant or parent-cohort link for the known P1/P3 overlap while keeping dataset, assay, expanded-cell context and unresolved additional reuse distinct. Preserve the two-donor basis for the ten clones and never count clones as independent people.",
+      "disposition": "open"
+    }
+  ],
+  "verified_checks": [
+    {
+      "target_id": "C-A13; C-A14; C-A15; C-A16; C-A17",
+      "result": "The engineered-DC source distinguishes soluble IL15, surface IL15, intracellular IFNG and tumor-cell killing. The P4 tier for C-A16 is supported within the engineered in-vitro context: the source is manipulated, the extra killing benefit is contact dependent, and IL15 neutralization reduces killing. P4 does not imply a complete proximal signaling chain or natural-source equivalence.",
+      "evidence": "research/cytokine/snapshots/open2.json, source lines 157-168, 187-197; Fig1 and Fig4. Transwell and IL15-neutralization controls are specifically described at source lines 191 and 197. Saved methods in metadata.json distinguish intracellular IFNG from supernatant assays."
+    },
+    {
+      "target_id": "C-A23; C-A24",
+      "result": "STAT4 is represented as an EMSA DNA-binding-complex result, with genotype and activated-blast context retained; the pack does not relabel it as direct phospho-STAT4 measurement or contradict the distinct expanded-clone cytokine response.",
+      "evidence": "research/cytokine/snapshots/PMC2193232.txt, Methods describing 20-minute stimulation, EMSA and STAT4 supershift, and Results describing patient/control responses and the IFNA control."
+    },
+    {
+      "target_id": "C-S02; C-S09; C-CO02",
+      "result": "The two Human Cytokine Dictionary preprint records are explicitly treated as versions of the same biological study and the same 12-donor cohort, not independent replication.",
+      "evidence": "Source/cohort registries in research/cytokine/pack.json; research/cytokine/snapshots/PMC12776526.txt and open1.json."
+    },
+    {
+      "target_id": "C-A01; C-A02; C-A03; C-A04; C-A05; C-A06; C-A07; C-A08; C-A09; C-A10; C-A12; C-A19; C-A20; C-A21; C-A22",
+      "result": "No additional material extraction error identified in this review. Mouse and human contexts, RNA and protein endpoints, A549 supernatant assay timing, abstract-only limitations, and the clone response threshold are generally retained appropriately. This is a bounded review of saved evidence, not exhaustive independent replication or human adjudication.",
+      "evidence": "Saved PMC10781646.xml, PMC12776526.txt, open6.json, PMC2119001.txt, PMC1810496.xml, PMC534504.xml, search3.json and PMC2193232.txt."
+    },
+    {
+      "target_id": "protocol/PROTOCOL.md",
+      "result": "The protocol correctly labels its priors heuristic and uncalibrated, disables journal weighting by default, withholds unreviewed assertions, avoids multiplying edge probabilities into path probabilities, and excludes unresolved high-severity challenges from default priors and paths. The null-polarity issue above remains a separate operational ambiguity.",
+      "evidence": "Prior construction and Integration, adversarial review and adjudication sections."
+    }
+  ],
+  "review_limitations": [
+    "This review used the saved primary-source XML, extracted text and web snapshots available in the cytokine evidence folder; it did not retrieve missing full methods for abstract/excerpt-only records.",
+    "The prior implementation code was outside the assigned scope; protocol risks are distinguished from demonstrated software behavior.",
+    "Findings have disposition open for coordinating-agent repair/adjudication; no human decision is implied."
+  ]
+}

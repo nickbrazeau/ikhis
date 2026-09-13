@@ -1,0 +1,669 @@
+Social network architecture of human immune cells unveiled by quantitative proteomics | Nature Immunology
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About the journal
+Publish with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature
+nature immunology
+resources
+article
+Resource
+Published: 06 March 2017
+Social network architecture of human immune cells unveiled by quantitative proteomics
+Jan C Rieckmann1,
+Roger Geiger2,3,
+Daniel Hornburg1,
+Tobias Wolf2,3,
+Ksenya Kveler4,
+David Jarrossay2,
+Federica Sallusto2,
+Shai S Shen-Orr4,
+Antonio Lanzavecchia2,3,
+Matthias Mann5 &
+…
+Felix Meissner
+ORCID: orcid.org/0000-0003-1000-79891 Show authors
+Nature Immunology
+volume 18, pages 583–593 (2017) Cite this article
+Save article
+View saved research
+40k Accesses
+397 Citations
+156 Altmetric
+Metrics details
+Abstract
+The immune system is unique in its dynamic interplay between numerous cell types. However, a system-wide view of how immune cells communicate to protect against disease has not yet been established. We applied high-resolution mass-spectrometry-based proteomics to characterize 28 primary human hematopoietic cell populations in steady and activated states at a depth of >10,000 proteins in total. Protein copy numbers revealed a specialization of immune cells for ligand and receptor expression, thereby connecting distinct immune functions. By integrating total and secreted proteomes, we discovered fundamental intercellular communication structures and previously unknown connections between cell types. Our publicly accessible (http://www.immprot.org/) proteomic resource provides a framework for the orchestration of cellular interplay and a reference for altered communication associated with pathology.
+This is a preview of subscription content, access via your institution
+Access options
+Access through your institution
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+$32.99 / 30 days
+cancel any time
+Learn more
+Subscribe to this journal
+Receive 12 print issues and online access
+$259.00 per year
+only $21.58 per issue
+Learn more
+Buy this article
+Purchase on SpringerLink
+Instant access to the full article PDF.
+USD 39.95
+Prices may be subject to local taxes which are calculated during checkout
+Additional access options:
+Log in
+Learn about institutional subscriptions
+Read our FAQs
+Contact customer support
+Figure 1: Comprehensive proteome atlas of 28 hematopoietic cell types by single shot LC-MS/MS analysis.
+Figure 2: Immune cell relationships are defined by lineage-specific signature proteins.
+Figure 3: Functional modules of the immune system.
+Figure 4: Communication network of immune cells.
+Figure 5: Intercellular connections between immune cells and tissues.
+Figure 6: Dynamics of senders and receivers of biological information.
+Figure 7: Cell-type- and context-dependent communication.
+Similar content being viewed by others
+A physical wiring diagram for the human immune system
+Article
+Open access
+03 August 2022
+Decoding the human prenatal immune system with single-cell multi-omics
+Article
+31 October 2024
+Comprehensive immune cell spectral library for large-scale human primary T, B, and NK cell proteomics
+Article
+Open access
+10 August 2024
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Immunology
+Proteins
+References
+Subramanian, N., Torabi-Parizi, P., Gottschalk, R.A., Germain, R.N. & Dutta, B. Network representations of immune system complexity. Wiley Interdiscip. Rev. Syst. Biol. Med. 7, 13–38 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Rivera, A., Siracusa, M.C., Yap, G.S. & Gause, W.C. Innate cell communication kick-starts pathogen-specific immunity. Nat. Immunol. 17, 356–363 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hotson, A.N. et al. Coordinate actions of innate immune responses oppose those of the adaptive immune system during Salmonella infection of mice. Sci. Signal. 9, ra4 (2016).
+Article
+CAS
+PubMed
+Google Scholar
+Dobrin, R. et al. Multi-tissue coexpression networks reveal unexpected subnetworks associated with disease. Genome Biol. 10, R55 (2009).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Frankenstein, Z., Alon, U. & Cohen, I.R. The immune-body cytokine network defines a social architecture of cell interactions. Biol. Direct 1, 32 (2006).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Shen-Orr, S.S. et al. Towards a cytokine-cell interaction knowledgebase of the adaptive immune system. Pac. Symp. Biocomput. 2009, 439–450 (2009).
+Google Scholar
+Heng, T.S., Painter, M.W. & Immunological Genome Project, C. The Immunological Genome Project: networks of gene expression in immune cells. Nat. Immunol. 9, 1091–1094 (2008).
+Article
+CAS
+PubMed
+Google Scholar
+Novershtern, N. et al. Densely interconnected transcriptional circuits control cell states in human hematopoiesis. Cell 144, 296–309 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Bendall, S.C. et al. Single-cell mass cytometry of differential immune and drug responses across a human hematopoietic continuum. Science 332, 687–696 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Parnas, O. et al. A genome-wide CRISPR screen in primary immune cells to dissect regulatory networks. Cell 162, 675–686 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Paul, F. et al. Transcriptional heterogeneity and lineage commitment in myeloid progenitors. Cell 163, 1663–1677 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Schwanhausser, B. et al. Global quantification of mammalian gene expression control. Nature 473, 337–342 (2011).
+Article
+CAS
+PubMed
+Google Scholar
+Jovanovic, M. et al. Immunogenetics. Dynamic profiling of the protein life cycle in response to pathogens. Science 347, 1259038 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Meissner, F., Scheltema, R.A., Mollenkopf, H.J. & Mann, M. Direct proteomic quantification of the secretome of activated immune cells. Science 340, 475–478 (2013).
+Article
+CAS
+PubMed
+Google Scholar
+Altelaar, A.F., Munoz, J. & Heck, A.J. Next-generation proteomics: towards an integrative view of proteome dynamics. Nat. Rev. Genet. 14, 35–48 (2013).
+Article
+CAS
+PubMed
+Google Scholar
+Aebersold, R. & Mann, M. Mass-spectrometric exploration of proteome structure and function. Nature 537, 347–355 (2016).
+Article
+CAS
+PubMed
+Google Scholar
+Meissner, F. & Mann, M. Quantitative shotgun proteomics: considerations for a high-quality workflow in immunology. Nat. Immunol. 15, 112–117 (2014).
+Article
+CAS
+PubMed
+Google Scholar
+Nagaraj, N. et al. System-wide perturbation analysis with nearly complete coverage of the yeast proteome by single-shot ultra HPLC runs on a bench top Orbitrap. Mol. Cell Proteomics 11, M111 013722 (2012).
+Article
+CAS
+PubMed
+Google Scholar
+Schaab, C., Geiger, T., Stoehr, G., Cox, J. & Mann, M. Analysis of high accuracy, quantitative proteomics data in the MaxQB database. Mol. Cell Proteomics 11, M111 014068 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Scheltema, R.A. et al. The Q Exactive HF, a Benchtop mass spectrometer with a pre-filter, high-performance quadrupole and an ultra-high-field Orbitrap analyzer. Mol. Cell. Proteomics 13, 3698–3708 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Cox, J. & Mann, M. MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. Nat. Biotechnol. 26, 1367–1372 (2008).
+Article
+CAS
+PubMed
+Google Scholar
+Cox, J. et al. Accurate proteome-wide label-free quantification by delayed normalization and maximal peptide ratio extraction, termed MaxLFQ. Mol. Cell. Proteomics 13, 2513–2526 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kim, M.S. et al. A draft map of the human proteome. Nature 509, 575–581 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Jojic, V. et al. Identification of transcriptional regulators in the mouse immune system. Nat. Immunol. 14, 633–643 (2013).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Cox, J. & Mann, M. 1D and 2D annotation enrichment: a statistical method integrating quantitative proteomics with complementary high-throughput data. BMC Bioinformatics 13 (Suppl. 16), S12 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Vivier, E., Tomasello, E., Baratin, M., Walzer, T. & Ugolini, S. Functions of natural killer cells. Nat. Immunol. 9, 503–510 (2008).
+Article
+CAS
+PubMed
+Google Scholar
+Zhang, N. & Bevan, M.J. CD8(+) T cells: foot soldiers of the immune system. Immunity 35, 161–168 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Wisniewski, J.R., Hein, M.Y., Cox, J. & Mann, M. A 'proteomic ruler' for protein copy number and concentration estimation without spike-in standards. Mol. Cell. Proteomics 13, 3497–3506 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Friedman, J., Hastie, T. & Tibshirani, R. Regularization paths for generalized linear models via coordinate descent. J. Stat. Softw. 33, 1–22 (2010).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Bottcher, J.P. et al. Functional classification of memory CD8+ T cells by CX3CR1 expression. Nat. Commun. 6, 8306 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Langfelder, P. & Horvath, S. WGCNA: an R package for weighted correlation network analysis. BMC Bioinformatics 9, 559 (2008).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Bieber, K. & Autenrieth, S.E. Insights how monocytes and dendritic cells contribute and regulate immune defense against microbial pathogens. Immunobiology 220, 215–226 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Appay, V. The physiological role of cytotoxic CD4+ T cells: the holy grail? Clin. Exp. Immunol. 138, 10–13 (2004).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Gordon, S.M. et al. The transcription factors T-bet and Eomes control key checkpoints of natural killer cell maturation. Immunity 36, 55–67 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Townsend, M.J. et al. T-bet regulates the terminal maturation and homeostasis of NK and Valpha14i NKT cells. Immunity 20, 477–494 (2004).
+Article
+CAS
+PubMed
+Google Scholar
+Bezman, N.A. et al. Molecular definition of the identity and activation of natural killer cells. Nat. Immunol. 13, 1000–1009 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Albrecht, I. et al. Persistence of effector memory Th1 cells is regulated by Hopx. Eur. J. Immunol. 40, 2993–3006 (2010).
+Article
+CAS
+PubMed
+Google Scholar
+Sharma, K. et al. Cell-type- and brain-region-resolved mouse brain proteome. Nat. Neurosci. 18, 1819–1831 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Azimifar, S.B., Nagaraj, N., Cox, J. & Mann, M. Cell-type-resolved quantitative proteomics of murine liver. Cell Metab. 20, 1076–1087 (2014).
+Article
+CAS
+PubMed
+Google Scholar
+Szklarczyk, D. et al. STRING v10: protein-protein interaction networks, integrated over the tree of life. Nucleic Acids Res. 43, D447–D452 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Dembic, Z. The Cytokines of the Immune System: The Role of Cytokines in Disease Related to Immune Response (Elsevier Science, 2015).
+Uhlen, M. et al. Proteomics. Tissue-based map of the human proteome. Science 347, 1260419 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Gerstein, M.B. et al. Architecture of the human regulatory network derived from ENCODE data. Nature 489, 91–100 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Forster, R., Davalos-Misslitz, A.C. & Rot, A. CCR7 and its ligands: balancing immunity and tolerance. Nat. Rev. Immunol. 8, 362–371 (2008).
+Article
+CAS
+PubMed
+Google Scholar
+Ponath, P.D. et al. Molecular cloning and characterization of a human eotaxin receptor expressed selectively on eosinophils. J. Exp. Med. 183, 2437–2448 (1996).
+Article
+CAS
+PubMed
+Google Scholar
+Kim, C.C. & Lanier, L.L. Beyond the transcriptome: completion of act one of the Immunological Genome Project. Curr. Opin. Immunol. 25, 593–597 (2013).
+Article
+CAS
+PubMed
+Google Scholar
+Brosseron, F. et al. Stepwise isolation of human peripheral erythrocytes, T lymphocytes, and monocytes for blood cell proteomics. Proteomics Clin. Appl. 6, 497–501 (2012).
+Article
+CAS
+PubMed
+Google Scholar
+Trichler, S.A., Bulla, S.C., Thomason, J., Lunsford, K.V. & Bulla, C. Ultra-pure platelet isolation from canine whole blood. BMC Vet. Res. 9, 144 (2013).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Scheltema, R.A. & Mann, M. SprayQc: a real-time LC-MS/MS quality monitoring system to maximize uptime using off the shelf components. J. Proteome Res. 11, 3458–3466 (2012).
+Article
+CAS
+PubMed
+Google Scholar
+Cox, J. et al. Andromeda: a peptide search engine integrated into the MaxQuant environment. J. Proteome Res. 10, 1794–1805 (2011).
+CAS
+PubMed
+Google Scholar
+Tyanova, S., Temu, T. & Cox, J. The MaxQuant computational platform for mass spectrometry-based shotgun proteomics. Nat. Protoc. 11, 2301–2319 (2016).
+Article
+CAS
+PubMed
+Google Scholar
+Tyanova, S. et al. The Perseus computational platform for comprehensive analysis of (prote)omics data. Nat. Methods 13, 731–740 (2016).
+Article
+CAS
+PubMed
+Google Scholar
+RStudio, I. Shiny: Easy web applications in R (2014).
+Team, R.D.C. R: a Language and Environment for Statistical Computing (2008).
+Gentleman, R.C. et al. Bioconductor: open software development for computational biology and bioinformatics. Genome Biol. 5, R80 (2004).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Tusher, V.G., Tibshirani, R. & Chu, G. Significance analysis of microarrays applied to the ionizing radiation response. Proc. Natl. Acad. Sci. USA 98, 5116–5121 (2001).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Ashburner, M. et al. Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat. Genet. 25, 25–29 (2000).
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kanehisa, M., Goto, S., Sato, Y., Furumichi, M. & Tanabe, M. KEGG for integration and interpretation of large-scale molecular data sets. Nucleic Acids Res. 40, D109–D114 (2012).
+Article
+CAS
+PubMed
+Google Scholar
+Magrane, M. & UniProt, C. UniProt Knowledgebase: a hub of integrated protein data. Database (Oxford) 2011, bar009 (2011).
+Article
+CAS
+Google Scholar
+Kikugawa, S. et al. PCDq: human protein complex database with quality index which summarizes different levels of evidences of protein complexes predicted from h-invitational protein-protein interactions integrative dataset. BMC Syst. Biol. 6 (Suppl, 2), S7 (2012).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Gu, Z., Gu, L., Eils, R., Schlesner, M. & Brors, B. circlize Implements and enhances circular visualization in R. Bioinformatics 30, 2811–2812 (2014).
+Article
+CAS
+PubMed
+Google Scholar
+Vizcaino, J.A. et al. The PRoteomics IDEntifications (PRIDE) database and associated tools: status in 2013. Nucleic Acids Res. 41, D1063–D1069 (2013).
+Article
+CAS
+PubMed
+Google Scholar
+Download references
+Acknowledgements
+We thank R. Scheltema for MS assistance, K. Mayr, I. Paron, S. Gabriele, S. Dewitz and M. Dodel for technical assistance, M. Wierer and P. Sinitcyn for support with RNAseq analysis, M. Oroshi and C. Schaab for computer and database support, A. Zychlinsky for critical review of the manuscript, and J. Geddes, A. Frauenstein, M. Phulphagar and L. Kühn for helpful discussions. The work was funded by the Max Planck Society for the Advancement of Science. R.G. was supported by a grant from the Swiss SystemsX.ch initiative, evaluated by the Swiss National Science Foundation. A.L. is supported by the Helmut Horten Foundation.
+Author information
+Authors and Affiliations
+Experimental Systems Immunology, Max Planck Institute of Biochemistry, Bayern, Germany
+Jan C Rieckmann, Daniel Hornburg & Felix Meissner
+Institute for Research in Biomedicine, Università della Svizzera italiana, Bellinzona, Switzerland
+Roger Geiger, Tobias Wolf, David Jarrossay, Federica Sallusto & Antonio Lanzavecchia
+Institute of Microbiology, ETH Zürich, Zürich, Switzerland
+Roger Geiger, Tobias Wolf & Antonio Lanzavecchia
+Department of Immunology, Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel
+Ksenya Kveler & Shai S Shen-Orr
+Department of Proteomics and Signal Transduction, Max Planck Institute of Biochemistry, Bayern, Germany
+Matthias Mann
+Authors
+Jan C Rieckmann
+View author publications
+Search author on:PubMed Google Scholar
+Roger Geiger
+View author publications
+Search author on:PubMed Google Scholar
+Daniel Hornburg
+View author publications
+Search author on:PubMed Google Scholar
+Tobias Wolf
+View author publications
+Search author on:PubMed Google Scholar
+Ksenya Kveler
+View author publications
+Search author on:PubMed Google Scholar
+David Jarrossay
+View author publications
+Search author on:PubMed Google Scholar
+Federica Sallusto
+View author publications
+Search author on:PubMed Google Scholar
+Shai S Shen-Orr
+View author publications
+Search author on:PubMed Google Scholar
+Antonio Lanzavecchia
+View author publications
+Search author on:PubMed Google Scholar
+Matthias Mann
+View author publications
+Search author on:PubMed Google Scholar
+Felix Meissner
+View author publications
+Search author on:PubMed Google Scholar
+Contributions
+J.C.R., R.G., D.J. and T.W. performed flow and cell culture experiments. J.C.R. developed and implemented the bioinformatics methods. J.C.R. and F.M. conceived the data analysis and interpreted the data. D.H. assisted in data analysis and implemented the website. S.S.S. and K.K. assisted in data analysis and provided the Textbook and ImmuneXpresso data sets. F.M. and M.M. conceived the study. F.M., A.L. and F.S. supervised the experiments. F.M., J.C.R. and M.M. wrote the manuscript.
+Corresponding authors
+Correspondence to
+Matthias Mann or Felix Meissner.
+Ethics declarations
+Competing interests
+The authors declare no competing financial interests.
+Integrated supplementary information
+Supplementary Figure 1 Representative flow cytometry scatter plots of the sorting panels for each immune cell population measured by LC-MS/MS.
+Total CD4 T cells, Tregs, TH1, TH2 and TH17 were enriched with anti-CD4 coated magnetic beads; CD8 T cells with anti-CD8 coated beads, dendritic cells with anti-CD1c and anti-CD304 coated beads, B cells with anti-CD19 coated beads and NK cells with anti-CD56 coated beads.
+Supplementary Figure 2 Quality measures of proteome data set.
+(a) Left: Number of identified protein groups for each cell type. Total identification is displayed in black, solely MS/MS based identification is displayed in grey (NOT: steady state, ACT: activated). Right: Percent transferred identifications from other MS/MS measurements.
+(b) Sequence coverage, unique peptides and protein score for all identified protein group.
+(c) Pearson correlation coefficients between cell types replicates.
+(d) Comparison of protein identifications for individual cell lineages and relative coverage of relevant immune processes. Reference datasets are indicated.
+(e) Pearson correlation coefficients of all total proteome measurements. Samples are arranged according to their lineage relationship.
+(f) Heat map of protein markers used for cell sorting. Gene names are indicated in parentheses.
+Supplementary Figure 3 Proteome differences and marker proteins.
+(a) Proteome comparison of naive CD4 with naive CD8 T cells (Welch’s t-test, FDR<5%, S0=1). Significant proteins are marked in blue containing the lineage markers CD4 and CD8A.
+(b) Proteome comparison of naive CD4 with classical monocytes, respectively (Welch’s t-test, FDR<5%, S0=1). Significant proteins are marked in blue and the top 50 differentially abundant proteins are named.
+(c) Number of significantly (Welch’s t-test, FDR<5%, S0=1) different proteins by pairwise proteome comparison (NOT: steady state, ACT: activated).
+(d) Expression comparison (z-scored MaxLFQ values) of marker proteins for B cell plasma blasts (top) and for CD8 TEMRA cells (bottom). Potential unique marker proteins are indicated below the grey horizontal line. For clarity z-score values of other cell lineages were removed except for cell lineage markers (CD19, CD8B) and potential exclusive cell type markers. The isoforms of CD45 could not be resolved from the proteome analysis, therefore CD45RO and CD45RA are not included in the plot.
+(e) Median fluorescence intensity (MFI) of PLVAP (intracellular staining) in B cells determined by flow cytometry and normalized by isotype control MFI (n=2, two independent donors, left). Representative histograms of fluorescence intensities of isotype control and PLVAP (right).
+Supplementary Figure 4 Module relationship, annotation enrichment maps and CD4 TEMRA cytotoxicity.
+(a) PCA of proteins in module 29 and its representative cell types. Projections and loadings are displayed. Cell types are color-coded as in Fig. 1. Cytolytic proteins shared between CD4 TEMRA, NK and CD8 T cells are labelled in red. Expression profile of GZMB is displayed as an example.
+(b) Heat map of module correlation coefficients.
+(c) Enrichment map of module 17. Nodes are annotation terms, edges represent gene overlap between terms. Node size represent annotation enrichment, fill color indicates adjusted p value.
+(d) Enrichment map of module 19. Labels as in panel B.
+Supplementary Figure 5 Communication network assembly and validation of novel connections.
+(a) Relative coverage of immune annotated transcription factors (T), adaptor molecules (A), receptors (R), and ligands (L).
+(b) Histogram of intercellular interaction scores. Intercellular interaction scores of our study were reduced to cell types and cytokines identified in the textbook (light grey). Intercellular interaction scores covered by the textbook are displayed in (dark grey).
+(c) Intercellular interaction score cutoff (Online Methods).
+(d) Percentage of ingoing connections for cytokines in our study compared to ‘Textbook’ and ‘ImmuneXpresso’.
+(e) Understudied cell types and cytokines from ingoing connections. Significantly enriched cell types and cytokines in our study compared to ‘Textbook’ and ‘ImmuneXpresso’ were identified by Fisher’s exact test with BH FDR of 5%.
+(f) Resistin (RETN) secretion of B cells. B cells were stimulated with a cocktail (Goat F(ab’)2 anti-human Lambda/Kappa, F(ab’)2 Goat anti-mouse IgG Fc, CpG, anti-CD40) or LPS and anti-CD40 for 4 days and the resistin concentration in the supernatant was determined by ELISA (n=4, cell culture replicates from 2 independent donors).
+(g) T4 memory cells respond to IL-34 by total proteome changes. T4 memory cells were activated with aCD3/aCD28 for 2 days and then cultured for another 2 days with IL-2 in the presence of different amounts of IL-34 (0, 1, 10, or 100 ng/ml). The volcano plot (top) shows the protein differences between T4 memory cells treated with 0 ng/ml and 100 ng/ml IL-34 (significantly changed proteins are shown in blue, S0=1, FDR < 5%, n=4, cell culture replicates from 2 independent donors). Examples for significantly shifted Keyword annotations (determined by 1D annotation enrichment, BH FDR < 1%) are highlighted in violet (calcium transport) or green (immunglobulinVregion). Density distribution (bottom) show the shift of the Keyword annotations in dependency of IL-34 concentration.
+Supplementary Figure 6 Transcriptome to proteome comparison.
+(a) Pearson correlation coefficients of comparable cell types from RNAseq (columns) and proteome (rows) measurements. Correlation coefficients were computed from RPKM and iBAQ values (s.s.: steady state, act: activated).
+(b) Pearson correlation coefficients (RNAseq vs Proteome) of only matched cell type pairs.
+(c) Pearson correlation coefficients (Microarray vs Proteome) of protein-gene expression profiles.
+(d) Comparison of WGCNA modules from microarray and proteome data. Modules were matched by Pearson correlation of their module eigengenes and the best two correlating microarray (R) modules for each proteome (P) module are displayed and plotted against their gene overlap. The gene overlap represents the percentage of genes in the proteome module covered by the corresponding microarray module.
+(e) Comparison of intercellular receptor-ligand connections in proteome (blue) and microarray (green) data. For this comparison the intercellular signaling networks were constructed by only shared cell types.
+Supplementary Figure 7 Differential protein secretion patterns and intracellular signaling networks.
+(a, b) Volcano plots of secreted proteins from mDCs (a) and pDCs (b). Significantly secreted proteins are colored in blue (FDR 0.05, S0=1, n=4 from independent donors). Known cytokines are labelled in green.
+(c) Intracellular signaling adaptors and transcription factors (columns) for each cell type (rows) that propagate intercellular signals upon receptor ligation by proteins secreted by mDCs and pDCs.
+(d, e) Volcano plots of secreted proteins from classical monocytes activated with lipopolysaccharide (LPS) (d) or zymosan (ZYM) (e). Significantly secreted proteins are colored in blue (FDR 0.01, S0=1, n=5 from independent donors). Known cytokines are labelled in green.
+(f) Intracellular signaling adaptors and transcription factors (columns) for each cell type (rows) that propagate intercellular signals upon receptor ligation by proteins secreted by cMO.
+Supplementary information
+Supplementary Text and Figures (download PDF )
+Supplementary Figures 1–7, Supplementary Table 1, 2 and 12, and Supplementary Note 1 (PDF 2591 kb)
+Supplementary Table 3 (download XLSX )
+Quantitative proteomics data of total proteomes (XLSX 60899 kb)
+Supplementary Table 4 (download XLSX )
+Annotation enrichment analysis of principal components (XLSX 126 kb)
+Supplementary Table 5 (download XLSX )
+Annotation enrichment analysis of lineage signature genes (XLSX 54 kb)
+Supplementary Table 6 (download XLSX )
+Protein copy numbers of immune cell types (XLSX 10930 kb)
+Supplementary Table 7 (download XLSX )
+Annotation enrichment analysis of WGCNA modules (XLSX 226 kb)
+Supplementary Table 8 (download XLSX )
+RNAseq data of immune cell types (XLSX 2557 kb)
+Supplementary Table 9 (download XLSX )
+Annotation enrichment analysis of WGCNA modules microarray vs proteome (XLSX 166 kb)
+Supplementary Table 10 (download XLSX )
+Quantitative proteomics data of dendritic cell secreteomes (XLSX 2699 kb)
+Supplementary Table 11 (download XLSX )
+Quantitative proteomics data of classical monocyte secreteomes (XLSX 2239 kb)
+Rights and permissions
+Reprints and permissions
+About this article
+Cite this article
+Rieckmann, J., Geiger, R., Hornburg, D. et al. Social network architecture of human immune cells unveiled by quantitative proteomics.
+Nat Immunol 18, 583–593 (2017). https://doi.org/10.1038/ni.3693
+Download citation
+Received: 31 August 2016
+Accepted: 26 January 2017
+Published: 06 March 2017
+Issue date: May 2017
+DOI: https://doi.org/10.1038/ni.3693
+Share this article
+Anyone you share the following link with will be able to read this content:Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Access through your institution
+Buy or subscribe
+Associated content
+The immune system as a social network
+Andreas Bergthaler
+Jörg Menche
+Nature Immunology
+News & Views
+18 Apr 2017
+Advertisement
+Explore content
+Research articles
+Reviews & Analysis
+News & Comment
+Videos
+Current issue
+Collections
+Follow us on X
+Subscribe
+Sign up for alerts
+RSS feed
+About the journal
+Aims & Scope
+Journal Information
+Journal Metrics
+About the Editors
+Research Cross-Journal Editorial Team
+Reviews Cross-Journal Editorial Team
+Our publishing models
+Editorial Values Statement
+Editorial Policies
+Content Types
+Web Feeds
+Posters
+Contact
+Publish with us
+Submission Guidelines
+For Reviewers
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature Immunology
+(Nat Immunol)
+ISSN 1529-2916 (online)
+ISSN 1529-2908 (print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+Policy
+Use
+of cookies
+Your privacy choices/Manage cookies
+Legal
+notice
+Accessibility
+statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

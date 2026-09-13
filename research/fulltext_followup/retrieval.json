@@ -1,0 +1,16 @@
+[
+  {
+    "pmcid": "PMC1810496",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1810496/fullTextXML",
+    "retrieved_at": "2026-09-13T14:52:55.163511+00:00",
+    "access_level": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pmcid": "PMC534504",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC534504/fullTextXML",
+    "retrieved_at": "2026-09-13T14:52:56.504977+00:00",
+    "access_level": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

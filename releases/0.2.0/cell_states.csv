@@ -1,0 +1,73 @@
+state_id,cell_id,name,ontology_id
+STATE_018d7176de2f35ca,CELL_f456251cf1fdf317,Freshly isolated donor-buffy-coat PBL,unavailable
+STATE_0481b07f85a0cf6e,CELL_0bc507a54dd50a58,quiescent,unavailable
+STATE_04954d7902f21e1f,CELL_428c8613a157f484,IL2 preconditioned for 2 d; serum-starved for 1 h,unavailable
+STATE_04cdfa944b807fa7,CELL_5153e6f94e2eb08b,CD56brightCD16-negative enriched response,unavailable
+STATE_05e1b935bceafdb2,CELL_e2a35baf501a1a42,baseline purified cells,unavailable
+STATE_06f34585ca7d8463,CELL_19046ca6a238ffa1,confluent; passage at most 2; no shear preconditioning,unavailable
+STATE_0d81cb988ee33877,CELL_b65286fb46640d60,unavailable,unavailable
+STATE_1e2848ac679fd467,CELL_60c5022e92416d77,unavailable,unavailable
+STATE_208947cb7d0bcff7,CELL_9f5066c227a1b34f,rested for 2 h in RPMI with 2% FBS,unavailable
+STATE_26d814839d44dbe8,CELL_36ba74e2b0b05a6f,Chronically activated primary human Th2 cells,unavailable
+STATE_2aa2d5e605792ae1,CELL_a7015f4ea7f0e402,"Mixed PBMC cultured48 h with LPS, IFNG and IL2",unavailable
+STATE_2afe4cbc2ae409c6,CELL_4c8abe85a0b3944e,unavailable,unavailable
+STATE_36eedd529e68752f,CELL_10cd91d4ac4e7453,day3 after PHA stimulation,unavailable
+STATE_390ce549151def6f,CELL_8ee0e35ba872e8f5,ex vivo,unavailable
+STATE_3f12e48552c5aed8,CELL_f3aa6bef0bc607b3,unavailable,unavailable
+STATE_43915fc21829ea98,CELL_15b02ded888be66c,freshly isolated; no additional activation assigned to migration/binding arms,unavailable
+STATE_43befdd31c142fc6,CELL_713fd1fe83bfdd96,resting NK cells before coculture,unavailable
+STATE_456654e9434917dd,CELL_725f6368387d99e9,"primary cultures, tightly confluent for 24 h",unavailable
+STATE_4e40aaa32e26c8ce,CELL_83fe8f1a63e0d493,unavailable,unavailable
+STATE_507f05a8515a07c6,CELL_94d26da2bc86c62b,unavailable,unavailable
+STATE_51e6439772860c54,CELL_4225ef4835590a73,fibrin-associated,unavailable
+STATE_522bb74a4e4c0ccb,CELL_9f413d36c3312776,resting before coculture,unavailable
+STATE_54495c940ceef6bb,CELL_8ee0e35ba872e8f5,unavailable,unavailable
+STATE_582280930ab4dcfc,CELL_263efe2e97c4ac93,unavailable,unavailable
+STATE_5b2ee224239adee2,CELL_e3d7b3058e421223,primary monocytes after overnight M-CSF conditioning,unavailable
+STATE_615709d549050043,CELL_f0c156263e3b0e31,"Freshly isolated peripheral-blood eosinophils; CD16 microbead isolation, 99% purity",unavailable
+STATE_66a4f2174cc42e9e,CELL_0baaaec564a9ce37,Graft-infiltrating alveolar macrophages,unavailable
+STATE_6bb9d4825ebff433,CELL_d8aa1f7a23340391,K4D8 and K3F12 clones under tested activation modes,unavailable
+STATE_6c1782ff002d842a,CELL_df7b8961f35db466,Endogenous CCR4-positive human lymphoma line,unavailable
+STATE_6d17e09f658e686a,CELL_2763701275533c6c,initially naive; co-stimulated,unavailable
+STATE_737dac80c90a0748,CELL_ec833b19d159ba68,unavailable,unavailable
+STATE_777bda20460670a3,CELL_cc227c24c88c955a,IL3RA-positive,unavailable
+STATE_814b1326e233585f,CELL_e7c39386ca756ebc,unavailable,unavailable
+STATE_8a25b800390f2a40,CELL_743e6abc86920f55,in situ dendritic cells in infected inflamed skin-flap dermis,unavailable
+STATE_8ac20320e90bc0ad,CELL_825c73fa5a2b3538,unavailable,unavailable
+STATE_8c60776f7d19cd4a,CELL_c2113746e231a40c,unavailable,unavailable
+STATE_908792567c8c0cd7,CELL_bd5a5b981941ec25,baseline purified cells,unavailable
+STATE_90c97553de714420,CELL_f456251cf1fdf317,Donor-buffy-coat PBL cultured10 d with400 U/mL IL2,unavailable
+STATE_9218b10e48b9be20,CELL_d62dd162e7b57bd7,unavailable,unavailable
+STATE_94d898fe723cb573,CELL_e19891ac68e8c8ae,unavailable,unavailable
+STATE_9c8bb5960dc8a039,CELL_81bfc5410af723d0,"Ex vivo BAL T cells, >99%CD3-positive after purification",unavailable
+STATE_a1520d5486cc770f,CELL_cf29bb78a8d073fa,unavailable,unavailable
+STATE_a1ed72463a39c0aa,CELL_5fcc318b6fd68242,unavailable,unavailable
+STATE_ab713701df4c2ae2,CELL_881e0fe1b618ceea,NK-c,unavailable
+STATE_abaebd07c3180739,CELL_ea43f9ffaa67683f,unavailable,unavailable
+STATE_af21da160640149a,CELL_eeb5fd2461b8fb59,passages6–8;confluent after24h2%FBS,unavailable
+STATE_af96fbb00183c74b,CELL_263efe2e97c4ac93,"Monocyte-derived dendritic cells, culture days6–8; 50 ng/mL GM-CSF plus 20 ng/mL IL13",unavailable
+STATE_afc8514e50b692f2,CELL_04b97d7dad482b2a,ex vivo,unavailable
+STATE_b111f56977fed49f,CELL_f70d3f019e093ea7,preconditioned with weakPHA,unavailable
+STATE_b4c7af1f7b89dd87,CELL_f44fb86bdb4f0471,rapidly purified; no anti-CD3 stimulation,unavailable
+STATE_b65928aa5fe26249,CELL_9d811d513346d227,unavailable,unavailable
+STATE_b88798fc18100aaf,CELL_43f04de8a65490d6,anti-CD3/anti-CD28 preactivated,unavailable
+STATE_bb6e5e846a1e3e22,CELL_881e0fe1b618ceea,CD56-bright versus CD56-dim,unavailable
+STATE_c304c63d52d2d84b,CELL_1a9f9446462ddc1d,unavailable,unavailable
+STATE_c5e6575aae2ba4cb,CELL_e3d7b3058e421223,unavailable,unavailable
+STATE_c975a058bd52b1eb,CELL_e2dc5ef3f3f85765,unavailable,unavailable
+STATE_cb016bc6abdfd8dc,CELL_ea7840f5f64fd135,7-day differentiated DC; mRNA electroporated,unavailable
+STATE_cb208714d5c42209,CELL_d8aa1f7a23340391,mitogen activated,unavailable
+STATE_cc84fd2a2557cd93,CELL_c808c967a4586a17,unavailable,unavailable
+STATE_cc8d8738ee697164,CELL_f44fb86bdb4f0471,unstimulated comparator; isolation/culture history unavailable,unavailable
+STATE_d099edb540bec157,CELL_1825c36445989253,immature,unavailable
+STATE_d7fcedba016a98e2,CELL_f44fb86bdb4f0471,unavailable,unavailable
+STATE_d8d265207be5792e,CELL_bf39fd85713e205e,unavailable,unavailable
+STATE_de880d8b373df09c,CELL_f44fb86bdb4f0471,anti-CD3-activated,unavailable
+STATE_dee7ed9f2c82b77c,CELL_d855fecfe0ab0513,LPS activated,unavailable
+STATE_df3988e61d796058,CELL_d52b0b331563dd1f,Human monocytes differentiated on plastic into macrophages,unavailable
+STATE_e19aa27af25d3e53,CELL_94d26da2bc86c62b,"confluent pooled primary culture, >=24h defined-medium adaptation",unavailable
+STATE_e58b8fa030e06508,CELL_f0c156263e3b0e31,"Blood eosinophils purified by CD16 negative selection, >98.5%purity; IL5-primed and IL5 maintained throughout migration",unavailable
+STATE_f1886fbaf734afed,CELL_aeef42406a64bd60,1-h rest in RPMI complete medium before stimulation,unavailable
+STATE_f74e562dc3edb3cb,CELL_eeb5fd2461b8fb59,"primary outgrowth synovial fibroblasts, passages6–8;confluent cultures after24h in2%FBS",unavailable
+STATE_facca68313948ac1,CELL_1f3102368655b44f,plate-immobilized ligand,unavailable
+STATE_fcc5cce2d6c8d390,CELL_4225ef4835590a73,unavailable,unavailable

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title> Project &lt;  eQTL Catalogue &lt; EMBL-EBI</title>
+  <meta name="description" content="EMBL-EBI"><!-- Describe what this page is about -->
+  <meta name="keywords" content="bioinformatics, europe, institute"><!-- A few keywords that relate to the content of THIS PAGE (not the whol project) -->
+  <meta name="author" content="EMBL-EBI"><!-- Your [project-name] here -->
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#70BDBD"> <!-- Android Chrome mobile browser tab color -->
+
+  <!-- Add information on the life cycle of this page -->
+  <meta name="ebi:owner" content="John Doe"> <!-- Who should be contacted about changes -->
+  <meta name="ebi:review-cycle" content="30"> <!-- In days, how often should the content be reviewed -->
+  <meta name="ebi:last-review" content="2015-12-20"> <!-- The last time the content was reviewed -->
+  <meta name="ebi:expiry" content="2016-01-20"> <!-- When this content is no longer relevant -->
+
+  <!-- If you link to any other sites frequently, consider optimising performance with a DNS prefetch -->
+  <link rel="dns-prefetch" href="//ebi.ac.uk" />
+
+  <!-- If you have custom icon, replace these as appropriate.
+       You can generate them at realfavicongenerator.net -->
+  <link rel="icon" type="image/x-icon" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192×192" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" /> <!-- Android (192px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png"> <!-- For iPhone 4 Retina display (114px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png"> <!-- For iPad (72px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png"> <!-- For iPad retinat (144px) -->
+  <link rel="apple-touch-icon-precomposed" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png"> <!-- For iPhone (57px) -->
+  <link rel="mask-icon" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg" color="#ffffff"> <!-- Safari icon for pinned tab -->
+  <meta name="msapplication-TileColor" content="#2b5797"> <!-- MS Icons -->
+  <meta name="msapplication-TileImage" content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/mstile-144x144.png">
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all">
+
+  <!-- Use this CSS file for any custom styling -->
+  <!--
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
+  -->
+  
+  
+
+  <!-- If you have a custom header image or colour -->
+  <!--
+  -->
+  <meta name="ebi:masthead-color" content="#5584a9">
+  <!-- <meta name="ebi:masthead-image" content="/eqtl/static/background.jpg"> --!>
+
+    <!-- you can replace this with theme-[projectname].css. See http://www.ebi.ac.uk/web/style/colour for details of how to do this -->
+  <!-- also inform ES so we can host your colour palette file -->
+  <link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/theme-embl-petrol.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/eqtl/static/theme-embl-petrol.css" type="text/css" media="all">
+
+  <!-- for production the above can be replaced with -->
+  <!--
+  <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/css/compliance/mini/ebi-fluid-embl.css">
+  -->
+  <!-- end CSS-->
+</head>
+
+  <body class="level2"><!-- add any of your classes or IDs -->
+      <div id="skip-to">
+    <ul>
+      <li><a href="#content">Skip to main content</a></li>
+      <li><a href="#local-nav">Skip to local navigation</a></li>
+      <li><a href="#global-nav">Skip to EBI global navigation menu</a></li>
+      <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
+    </ul>
+  </div>
+
+  <header id="masthead-black-bar" class="clearfix masthead-black-bar">
+  </header>
+  
+
+    <div id="content" role="main">
+      <div data-sticky-container>
+        <div id="masthead" class="masthead" data-sticky data-sticky-on="large" data-top-anchor="main-content-area:top" data-btm-anchor="main-content-area:bottom">
+          <div class="masthead-inner row">
+            <!-- local-title -->
+            <div class="columns medium-7" id="local-title">
+		    <h1><a href="https://www.ebi.ac.uk/eqtl" title="Back to eQTL Catalogue homepage"><img src="/eqtl/static/eQTL_Logo_darkBackgrounds.png" style="height:80px"></a></h1>
+              <h4>Expression and splicing QTLs recomputed from public datasets</h4>
+            </div>
+            <!-- /local-title -->
+            <!-- local-nav -->
+            <nav>
+              <ul id="local-nav" class="dropdown menu float-left" data-description="navigational" data-dropdown-menu>
+                
+                
+                
+                         
+
+<li class="active">
+  <a href="/eqtl/" class="active">Project</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Methods/">Methods</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Data_access/">Data access</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Studies/">Studies</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/License/">License</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Team/">Team</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Release_notes/">Release notes</a>
+</li>
+   
+
+<li>
+  <a href="/eqtl/Federated_analysis/">Federated analysis</a>
+</li>
+    
+
+              </ul>
+              <!-- <ul class="menu dropdown float-right" data-dropdown-menu data-description="functional">
+                <li class="functional"><a href="#"><i class="icon icon-generic" data-icon="d"></i> Share this</a>
+                  <ul class="menu js">
+                    <li><a href="#">Item 1A Loooong</a></li>
+                    <li>
+                      <a href='#'> Item 1 sub</a>
+                      <ul class='menu'>
+                        <li><a href='#'>Item 1 subA</a></li>
+                        <li><a href='#'>Item 1 subB</a></li>
+                        <li>
+                          <a href='#'> Item 1 sub</a>
+                          <ul class='menu'>
+                            <li><a href='#'>Item 1 subA</a></li>
+                            <li><a href='#'>Item 1 subB</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href='#'> Item 1 sub</a>
+                          <ul class='menu'>
+                            <li><a href='#'>Item 1 subA</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Item 1B</a></li>
+                  </ul>
+
+              </ul> -->
+            </nav>
+            <!-- /local-nav -->
+          </div>
+        </div>
+      </div>
+
+      <section class="row" id="main-content-area">
+        <!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
+        <!--
+        <nav aria-label="You are here:" role="navigation">
+          <ul class="breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Parent</a></li>
+            <li class="disabled">Disabled</li>
+            <li>
+              <span class="show-for-sr">Current: </span> This page
+            </li>
+          </ul>
+        </nav>
+        -->
+        <div class="medium-9 columns">
+        <h2 id="what-do-we-do">What do we do?</h2>
+
+<p>The eQTL Catalogue aims to provide uniformly processed gene expression and splicing QTLs from all available public studies on human.</p>
+
+<p>Quantitative trait loci (QTL) are genomic variants that are significantly associated to a measurable phenotype. This resource focuses on expression cis-QTLs (cis-eQTL) where variants are associated to expression levels of nearby genes, and on splicing QTLs (sQTL) where variants are associated to specific splicing events on nearby splice junctions.</p>
+
+<p><img src="static/Human_BRCA2.png" alt="eQTLS in Ensembl" /></p>
+
+<p>They have proven particularly useful to (statistical) geneticists exploring GWAS results, who wish to associate non-coding GWAS SNP associations to a molecular mechanism, such as perturbed gene expression or splicing.</p>
+
+<p>To compute them we process public studies with our <a href="https://www.ebi.ac.uk/eqtl/Methods/">uniform pipeline</a>. We currently provide access to <a href="https://www.ebi.ac.uk/eqtl/Studies/">32 published studies</a>, with an aim to cover all accessible studies on human.</p>
+
+<p>A complete explanation can be found in our <a href="https://doi.org/10.1038/s41588-021-00924-w">flagship paper</a> and a presentation on our <a href="https://www.ebi.ac.uk/training/online/course/eqtl-catalogue-compendium-uniformly-processed-human-expression-and-splicing-qtls">webinar</a>.</p>
+
+<h2 id="access-our-results">Access our results</h2>
+
+<p>You can <a href="https://www.ebi.ac.uk/eqtl/Data_access/">access our results</a> via FTP in CSV and HDF5 formats, or query part of our data via our RESTful API. Our results are also displayed on the <a href="https://platform.opentargets.org/">Open Targets Platform</a>. More information on our re-use policy is on <a href="https://www.ebi.ac.uk/eqtl/License">the License tab</a>.</p>
+
+<h2 id="let-us-know-what-you-think">Let us know what you think!</h2>
+
+<p>Feel free to send us your feedback at <a href="mailto:eqtlcatalogue@ebi.ac.uk">eqtlcatalogue@ebi.ac.uk</a></p>
+
+<h2 id="follow-us">Follow us</h2>
+
+<p>Keep up to date on the eQTL Catalogue through announcements on our Twitter account <a href="https://twitter.com/eQTLCatalogue">@eQTLCatalogue</a>.</p>
+
+        </div>
+	<!--
+        <div class="medium-3 columns sidebar" data-sticky-container>
+          <div class="sticky" data-sticky data-anchor="main-content-area"  data-options="marginTop:4;">
+            <h4>See also</h4>
+            <p>These resources will help you engage and understand the EBI Framework.</p>
+            <div class="">
+              <ul class="menu vertical">
+                <li class=""><a href="//github.com/ebiwd/EBI-Framework">Core framework repository <i class="icon icon-generic" data-icon="x"></i></a></li>
+                <li class=""><a href="//ebiwd.github.io/EBI-Framework">Core framework documentations <i class="icon icon-generic" data-icon="x"></i></a></li>
+                <li class=""><a href="//ebiwd.github.io/EBI-Framework/sample-site/">Sample pages <i class="icon icon-generic" data-icon="x"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+	-->
+      </section>
+      <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+      <!--
+        <div id="local-footer" class="local-footer">
+          <div class="row">
+            <span class="reference">How to reference this page: ...</span>
+          </div>
+        </div>
+      -->
+      <!-- End optional local footer -->
+    </div><!-- /.container -->
+    <footer>
+  <div id="global-footer" class="global-footer">
+    <nav id="global-nav-expanded" class="global-nav-expanded row">
+      <!-- Footer will be automatically inserted by footer.js -->
+    </nav>
+    <section id="ebi-footer-meta" class="ebi-footer-meta row">
+      <!-- Footer meta will be automatically inserted by footer.js -->
+    </section>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<!--
+<script>window.jQuery || document.write('<script src="../js/libs/jquery-1.10.2.min.js"><\/script>')</script>
+-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Your custom JavaScript file scan go here... change names accordingly -->
+<script defer="defer" src="//ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/js/script.js"></script>
+
+<!-- The Foundation theme JavaScript -->
+<script src="//ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/libraries/foundation-6/js/foundation.js"></script>
+<script src="//ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script>
+<script type="text/JavaScript">$(document).foundation();</script>
+<script type="text/JavaScript">$(document).foundationExtendEBI();</script>
+
+
+
+
+
+
+
+<!-- Google Analytics details... -->
+<!-- Change UA-XXXXX-X to be your site's ID -->
+<!--
+<script>
+  window._gaq = [['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
+  Modernizr.load({
+    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+  });
+</script>
+-->
+
+  </body>
+</html>

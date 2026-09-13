@@ -1,0 +1,4197 @@
+{
+  "results": [
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P10147",
+      "uniProtkbId": "CCL3_HUMAN",
+      "entryAudit": {
+        "firstPublicDate": "1989-07-01",
+        "lastAnnotationUpdateDate": "2026-09-02",
+        "lastSequenceUpdateDate": "1989-07-01",
+        "entryVersion": 232,
+        "sequenceVersion": 1
+      },
+      "annotationScore": 5.0,
+      "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ]
+      },
+      "proteinExistence": "1: Evidence at protein level",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "C-C motif chemokine 3"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "G0/G1 switch regulatory protein 19-1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Macrophage inflammatory protein 1-alpha"
+            },
+            "shortNames": [
+              {
+                "value": "MIP-1-alpha"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "PAT 464.1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "SIS-beta"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Small-inducible cytokine A3"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Tonsillar lymphocyte LD78 alpha protein"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "MIP-1-alpha(4-69)"
+              }
+            },
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "LD78-alpha(4-69)"
+                }
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CCL3"
+          },
+          "synonyms": [
+            {
+              "value": "G0S19-1"
+            },
+            {
+              "value": "MIP1A"
+            },
+            {
+              "value": "SCYA3"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15905581"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8525373"
+                }
+              ],
+              "value": "Monokine with inflammatory and chemokinetic properties. Binds to CCR1, CCR4 and CCR5. One of the major HIV-suppressive factors produced by CD8+ T-cells. Recombinant MIP-1-alpha induces a dose-dependent inhibition of different strains of HIV-1, HIV-2, and simian immunodeficiency virus (SIV)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12070155"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15905581"
+                }
+              ],
+              "value": "Self-associates. Also heterodimer of MIP-1-alpha(4-69) and MIP-1-beta(3-69) (PubMed:12070155). Interacts with CCR1 (PubMed:15905581)"
+            }
+          ],
+          "commentType": "SUBUNIT"
+        },
+        {
+          "commentType": "INTERACTION",
+          "interactions": [
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P10147",
+                "intActId": "EBI-8459634"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "P10147",
+                "geneName": "CCL3",
+                "intActId": "EBI-8459634"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P10147",
+                "intActId": "EBI-8459634"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "P14735",
+                "geneName": "IDE",
+                "intActId": "EBI-2556886"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P10147",
+                "intActId": "EBI-8459634"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q9UMX0",
+                "geneName": "UBQLN1",
+                "intActId": "EBI-741480"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P10147",
+                "intActId": "EBI-8459634"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q9UHD9",
+                "geneName": "UBQLN2",
+                "intActId": "EBI-947187"
+              },
+              "numberOfExperiments": 3,
+              "organismDiffer": false
+            },
+            {
+              "interactantOne": {
+                "uniProtKBAccession": "P10147",
+                "intActId": "EBI-8459634"
+              },
+              "interactantTwo": {
+                "uniProtKBAccession": "Q2F862",
+                "intActId": "EBI-16161937"
+              },
+              "numberOfExperiments": 2,
+              "organismDiffer": true
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "value": "Secreted",
+                "id": "SL-0243"
+              }
+            }
+          ]
+        },
+        {
+          "texts": [
+            {
+              "value": "By TPA or PHA (TPA = 12-O-tetradecanoyl phorbol-13 acetate (tumor promoter); PHA = phytohemagglutinin (T-cell mitogen))"
+            }
+          ],
+          "commentType": "INDUCTION"
+        },
+        {
+          "texts": [
+            {
+              "value": "N-terminal processed form LD78-alpha(4-69) is produced by proteolytic cleavage after secretion from HTLV1-transformed T-cells"
+            }
+          ],
+          "commentType": "PTM"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Belongs to the intercrine beta (chemokine CC) family"
+            }
+          ],
+          "commentType": "SIMILARITY"
+        },
+        {
+          "commentType": "WEB RESOURCE",
+          "resourceName": "Wikipedia",
+          "resourceUrl": "https://en.wikipedia.org/wiki/Macrophage_Inflammatory_Protein",
+          "ftp": false,
+          "note": "Macrophage inflammatory protein entry"
+        }
+      ],
+      "features": [
+        {
+          "type": "Signal",
+          "location": {
+            "start": {
+              "value": 1,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 23,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8541527"
+            }
+          ]
+        },
+        {
+          "type": "Chain",
+          "location": {
+            "start": {
+              "value": 24,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 92,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "C-C motif chemokine 3",
+          "featureId": "PRO_0000005156"
+        },
+        {
+          "type": "Chain",
+          "location": {
+            "start": {
+              "value": 27,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 92,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "MIP-1-alpha(4-69)",
+          "featureId": "PRO_0000005157"
+        },
+        {
+          "type": "Site",
+          "location": {
+            "start": {
+              "value": 40,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 40,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Involved in GAG binding"
+        },
+        {
+          "type": "Site",
+          "location": {
+            "start": {
+              "value": 68,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 68,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Involved in GAG binding"
+        },
+        {
+          "type": "Site",
+          "location": {
+            "start": {
+              "value": 70,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 70,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Involved in GAG binding"
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 33,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 57,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20041127"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 34,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 73,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20041127"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Natural variant",
+          "location": {
+            "start": {
+              "value": 78,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 78,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "in dbSNP:rs34171309",
+          "featureCrossReferences": [
+            {
+              "database": "dbSNP",
+              "id": "rs34171309"
+            }
+          ],
+          "featureId": "VAR_048701",
+          "alternativeSequence": {
+            "originalSequence": "E",
+            "alternativeSequences": [
+              "D"
+            ]
+          }
+        },
+        {
+          "type": "Mutagenesis",
+          "location": {
+            "start": {
+              "value": 40,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 40,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Slightly reduces heparin binding.",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9092555"
+            }
+          ],
+          "alternativeSequence": {
+            "originalSequence": "R",
+            "alternativeSequences": [
+              "A"
+            ]
+          }
+        },
+        {
+          "type": "Mutagenesis",
+          "location": {
+            "start": {
+              "value": 49,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 49,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Reduces self-association; in BB-10010: Improved pharmaceutical properties.",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10347159"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8541527"
+            }
+          ],
+          "alternativeSequence": {
+            "originalSequence": "D",
+            "alternativeSequences": [
+              "A"
+            ]
+          }
+        },
+        {
+          "type": "Mutagenesis",
+          "location": {
+            "start": {
+              "value": 68,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 68,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Strongly reduces heparin binding.",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9092555"
+            }
+          ],
+          "alternativeSequence": {
+            "originalSequence": "R",
+            "alternativeSequences": [
+              "A"
+            ]
+          }
+        },
+        {
+          "type": "Mutagenesis",
+          "location": {
+            "start": {
+              "value": 70,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 70,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Reduces heparin binding.",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9092555"
+            }
+          ],
+          "alternativeSequence": {
+            "originalSequence": "R",
+            "alternativeSequences": [
+              "A"
+            ]
+          }
+        },
+        {
+          "type": "Mutagenesis",
+          "location": {
+            "start": {
+              "value": 89,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 89,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Reduces self-association.",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10347159"
+            }
+          ],
+          "alternativeSequence": {
+            "originalSequence": "E",
+            "alternativeSequences": [
+              "A"
+            ]
+          }
+        },
+        {
+          "type": "Helix",
+          "location": {
+            "start": {
+              "value": 26,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 28,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 31,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 33,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "2X6G"
+            }
+          ]
+        },
+        {
+          "type": "Helix",
+          "location": {
+            "start": {
+              "value": 41,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 43,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Helix",
+          "location": {
+            "start": {
+              "value": 44,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 46,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 47,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 52,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 57,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 59,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 62,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 66,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 67,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 69,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "7F1Q"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 71,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 74,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        },
+        {
+          "type": "Beta strand",
+          "location": {
+            "start": {
+              "value": 76,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 78,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "4ZKB"
+            }
+          ]
+        },
+        {
+          "type": "Helix",
+          "location": {
+            "start": {
+              "value": 79,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 87,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "id": "KW-0002",
+          "category": "Technical term",
+          "name": "3D-structure"
+        },
+        {
+          "id": "KW-0145",
+          "category": "Biological process",
+          "name": "Chemotaxis"
+        },
+        {
+          "id": "KW-0202",
+          "category": "Molecular function",
+          "name": "Cytokine"
+        },
+        {
+          "id": "KW-0903",
+          "category": "Technical term",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "id": "KW-1015",
+          "category": "PTM",
+          "name": "Disulfide bond"
+        },
+        {
+          "id": "KW-0395",
+          "category": "Biological process",
+          "name": "Inflammatory response"
+        },
+        {
+          "id": "KW-1267",
+          "category": "Technical term",
+          "name": "Proteomics identification"
+        },
+        {
+          "id": "KW-1185",
+          "category": "Technical term",
+          "name": "Reference proteome"
+        },
+        {
+          "id": "KW-0964",
+          "category": "Cellular component",
+          "name": "Secreted"
+        },
+        {
+          "id": "KW-0732",
+          "category": "Domain",
+          "name": "Signal"
+        }
+      ],
+      "references": [
+        {
+          "referenceNumber": 1,
+          "citation": {
+            "id": "3086300",
+            "citationType": "journal article",
+            "authors": [
+              "Obaru K.",
+              "Fukuda M.",
+              "Maeda S.",
+              "Shimada K."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "3086300"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1093/oxfordjournals.jbchem.a135549"
+              }
+            ],
+            "title": "A cDNA clone used to study mRNA inducible in human tonsillar lymphocytes by a tumor promoter.",
+            "publicationDate": "1986",
+            "journal": "J. Biochem.",
+            "firstPage": "885",
+            "lastPage": "894",
+            "volume": "99"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+          ],
+          "referenceComments": [
+            {
+              "value": "Lymphocyte",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 2,
+          "citation": {
+            "id": "2521882",
+            "citationType": "journal article",
+            "authors": [
+              "Zipfel P.F.",
+              "Balke J.",
+              "Irving S.G.",
+              "Kelly K.",
+              "Siebenlist U."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "2521882"
+              },
+              {
+                "database": "DOI",
+                "id": "10.4049/jimmunol.142.5.1582"
+              }
+            ],
+            "title": "Mitogenic activation of human T cells induces two closely related genes which share structural similarities with a new family of secreted factors.",
+            "publicationDate": "1989",
+            "journal": "J. Immunol.",
+            "firstPage": "1582",
+            "lastPage": "1590",
+            "volume": "142"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [MRNA]"
+          ],
+          "referenceComments": [
+            {
+              "value": "T-cell",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 3,
+          "citation": {
+            "id": "2271120",
+            "citationType": "journal article",
+            "authors": [
+              "Blum S.",
+              "Forsdyke R.E.",
+              "Forsdyke D.R."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "2271120"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1089/dna.1990.9.589"
+              }
+            ],
+            "title": "Three human homologs of a murine gene encoding an inhibitor of stem cell proliferation.",
+            "publicationDate": "1990",
+            "journal": "DNA Cell Biol.",
+            "firstPage": "589",
+            "lastPage": "602",
+            "volume": "9"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+          ],
+          "referenceComments": [
+            {
+              "value": "Lymphocyte",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 4,
+          "citation": {
+            "id": "1694014",
+            "citationType": "journal article",
+            "authors": [
+              "Nakao M.",
+              "Nomiyama H.",
+              "Shimada K."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "1694014"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1128/mcb.10.7.3646-3658.1990"
+              }
+            ],
+            "title": "Structures of human genes coding for cytokine LD78 and their expression.",
+            "publicationDate": "1990",
+            "journal": "Mol. Cell. Biol.",
+            "firstPage": "3646",
+            "lastPage": "3658",
+            "volume": "10"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+          ],
+          "referenceComments": [
+            {
+              "value": "Lymphocyte",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 5,
+          "citation": {
+            "id": "15489334",
+            "citationType": "journal article",
+            "authoringGroup": [
+              "The MGC Project Team"
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15489334"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1101/gr.2596504"
+              }
+            ],
+            "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+            "publicationDate": "2004",
+            "journal": "Genome Res.",
+            "firstPage": "2121",
+            "lastPage": "2127",
+            "volume": "14"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+          ],
+          "referenceComments": [
+            {
+              "value": "Natural killer cell",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 6,
+          "citation": {
+            "id": "CI-AJPBNPU5F8GVS",
+            "citationType": "submission",
+            "authors": [
+              "Jang J.S.",
+              "Kim B.E."
+            ],
+            "publicationDate": "JAN-1998",
+            "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+          },
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [MRNA] OF 23-92"
+          ],
+          "referenceComments": [
+            {
+              "value": "Leukocyte",
+              "type": "TISSUE"
+            }
+          ]
+        },
+        {
+          "referenceNumber": 7,
+          "citation": {
+            "id": "8541527",
+            "citationType": "journal article",
+            "authors": [
+              "Hunter M.G.",
+              "Bawden L.",
+              "Brotherton D.",
+              "Craig S.",
+              "Cribbes S.",
+              "Czaplewski L.G.",
+              "Dexter T.M.",
+              "Drummond A.H.",
+              "Gearing A.H.",
+              "Heyworth C.M.",
+              "Lord B.I.",
+              "Mccourt M.",
+              "Varley P.G.",
+              "Wood L.M.",
+              "Edwards R.M.",
+              "Lewis P.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "8541527"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1182/blood.v86.12.4400.bloodjournal86124400"
+              }
+            ],
+            "title": "BB-10010: an active variant of human macrophage inflammatory protein-1 alpha with improved pharmaceutical properties.",
+            "publicationDate": "1995",
+            "journal": "Blood",
+            "firstPage": "4400",
+            "lastPage": "4408",
+            "volume": "86"
+          },
+          "referencePositions": [
+            "PROTEIN SEQUENCE OF 24-92",
+            "MUTAGENESIS OF ASP-49"
+          ]
+        },
+        {
+          "referenceNumber": 8,
+          "citation": {
+            "id": "8525373",
+            "citationType": "journal article",
+            "authors": [
+              "Cocchi F.",
+              "DeVico A.L.",
+              "Garzino-Demo A.",
+              "Arya S.K.",
+              "Gallo R.C.",
+              "Lusso P."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "8525373"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1126/science.270.5243.1811"
+              }
+            ],
+            "title": "Identification of RANTES, MIP-1 alpha, and MIP-1 beta as the major HIV-suppressive factors produced by CD8+ T cells.",
+            "publicationDate": "1995",
+            "journal": "Science",
+            "firstPage": "1811",
+            "lastPage": "1815",
+            "volume": "270"
+          },
+          "referencePositions": [
+            "PROTEIN SEQUENCE OF 27-40 AND 71-83",
+            "FUNCTION"
+          ]
+        },
+        {
+          "referenceNumber": 9,
+          "citation": {
+            "id": "7537510",
+            "citationType": "journal article",
+            "authors": [
+              "Bertini R.",
+              "Luini W.",
+              "Sozzani S.",
+              "Bottazzi B.",
+              "Ruggiero P.",
+              "Boraschi D.",
+              "Saggioro D.",
+              "Chieco-Bianchi L.",
+              "Proost P.",
+              "van Damme J.",
+              "Mantovani A."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "7537510"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1089/aid.1995.11.155"
+              }
+            ],
+            "title": "Identification of MIP-1 alpha/LD78 as a monocyte chemoattractant released by the HTLV-I-transformed cell line MT4.",
+            "publicationDate": "1995",
+            "journal": "AIDS Res. Hum. Retroviruses",
+            "firstPage": "155",
+            "lastPage": "160",
+            "volume": "11"
+          },
+          "referencePositions": [
+            "PROTEIN SEQUENCE OF 27-51",
+            "IDENTIFICATION OF LD78-ALPHA(4-69)"
+          ]
+        },
+        {
+          "referenceNumber": 10,
+          "citation": {
+            "id": "9092555",
+            "citationType": "journal article",
+            "authors": [
+              "Koopmann W.",
+              "Krangel M.S."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "9092555"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1074/jbc.272.15.10103"
+              }
+            ],
+            "title": "Identification of a glycosaminoglycan-binding site in chemokine macrophage inflammatory protein-1alpha.",
+            "publicationDate": "1997",
+            "journal": "J. Biol. Chem.",
+            "firstPage": "10103",
+            "lastPage": "10109",
+            "volume": "272"
+          },
+          "referencePositions": [
+            "GAG BINDING SITES ARG-40; ARG-68 AND ARG-70",
+            "MUTAGENESIS OF ARG-40; ARG-68 AND ARG-70"
+          ]
+        },
+        {
+          "referenceNumber": 11,
+          "citation": {
+            "id": "12070155",
+            "citationType": "journal article",
+            "authors": [
+              "Guan E.",
+              "Wang J.",
+              "Roderiquez G.",
+              "Norcross M.A."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "12070155"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1074/jbc.m203077200"
+              }
+            ],
+            "title": "Natural truncation of the chemokine MIP-1beta/CCL4 affects receptor specificity but not anti-HIV-1 activity.",
+            "publicationDate": "2002",
+            "journal": "J. Biol. Chem.",
+            "firstPage": "32348",
+            "lastPage": "32352",
+            "volume": "277"
+          },
+          "referencePositions": [
+            "SUBUNIT",
+            "INTERACTION WITH MIP-1-BETA(3-69)"
+          ]
+        },
+        {
+          "referenceNumber": 12,
+          "citation": {
+            "id": "12401480",
+            "citationType": "journal article",
+            "authors": [
+              "Menten P.",
+              "Wuyts A.",
+              "Van Damme J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "12401480"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1016/s1359-6101(02)00045-x"
+              }
+            ],
+            "title": "Macrophage inflammatory protein-1.",
+            "publicationDate": "2002",
+            "journal": "Cytokine Growth Factor Rev.",
+            "firstPage": "455",
+            "lastPage": "481",
+            "volume": "13"
+          },
+          "referencePositions": [
+            "REVIEW"
+          ]
+        },
+        {
+          "referenceNumber": 13,
+          "citation": {
+            "id": "15905581",
+            "citationType": "journal article",
+            "authors": [
+              "Berahovich R.D.",
+              "Miao Z.",
+              "Wang Y.",
+              "Premack B.",
+              "Howard M.C.",
+              "Schall T.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15905581"
+              },
+              {
+                "database": "DOI",
+                "id": "10.4049/jimmunol.174.11.7341"
+              }
+            ],
+            "title": "Proteolytic activation of alternative CCR1 ligands in inflammation.",
+            "publicationDate": "2005",
+            "journal": "J. Immunol.",
+            "firstPage": "7341",
+            "lastPage": "7351",
+            "volume": "174"
+          },
+          "referencePositions": [
+            "FUNCTION",
+            "INTERACTION WITH CCR1"
+          ]
+        },
+        {
+          "referenceNumber": 14,
+          "citation": {
+            "id": "10347159",
+            "citationType": "journal article",
+            "authors": [
+              "Czaplewski L.G.",
+              "McKeating J.",
+              "Craven C.J.",
+              "Higgins L.D.",
+              "Appay V.",
+              "Brown A.",
+              "Dudgeon T.",
+              "Howard L.A.",
+              "Meyers T.",
+              "Owen J.",
+              "Palan S.R.",
+              "Tan P.",
+              "Wilson G.",
+              "Woods N.R.",
+              "Heyworth C.M.",
+              "Lord B.I.",
+              "Brotherton D.",
+              "Christison R.",
+              "Craig S.",
+              "Cribbes S.",
+              "Edwards R.M.",
+              "Evans S.J.",
+              "Gilbert R.",
+              "Morgan P.",
+              "Eliot Randle E.",
+              "Schofield N.",
+              "Varley P.G.",
+              "Fisher J.",
+              "Jonathan P.",
+              "Waltho J.P.",
+              "Hunter M.G."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "10347159"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1074/jbc.274.23.16077"
+              }
+            ],
+            "title": "Identification of amino acid residues critical for aggregation of human CC chemokines macrophage inflammatory protein (MIP)-1alpha, MIP-1beta, and RANTES. Characterization of active disaggregated chemokine variants.",
+            "publicationDate": "1999",
+            "journal": "J. Biol. Chem.",
+            "firstPage": "16077",
+            "lastPage": "16084",
+            "volume": "274"
+          },
+          "referencePositions": [
+            "STRUCTURE BY NMR OF 24-92",
+            "MUTAGENESIS OF ASP-49 AND GLU-89"
+          ]
+        },
+        {
+          "referenceNumber": 15,
+          "citation": {
+            "id": "20041127",
+            "citationType": "journal article",
+            "authors": [
+              "Dias J.M.",
+              "Losberger C.",
+              "Deruaz M.",
+              "Power C.A.",
+              "Proudfoot A.E.",
+              "Shaw J.P."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "20041127"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1371/journal.pone.0008514"
+              }
+            ],
+            "title": "Structural basis of chemokine sequestration by a tick chemokine binding protein: the crystal structure of the complex between Evasin-1 and CCL3.",
+            "publicationDate": "2009",
+            "journal": "PLoS ONE",
+            "firstPage": "e8514",
+            "lastPage": "e8514",
+            "volume": "4"
+          },
+          "referencePositions": [
+            "X-RAY CRYSTALLOGRAPHY (1.76 ANGSTROMS) OF 24-92 IN COMPLEX WITH TICK EVASIN-1",
+            "DISULFIDE BONDS"
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "3FPU"
+            }
+          ]
+        }
+      ],
+      "uniProtKBCrossReferences": [
+        {
+          "database": "EMBL",
+          "id": "D00044",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "BAA00029.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "X03754",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "CAA27388.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "X04018",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "CAA27643.1"
+            },
+            {
+              "key": "Status",
+              "value": "ALT_SEQ"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "M25315",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "AAA57255.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "M23452",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "AAA36316.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "M23178",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "AAA35858.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "D90144",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "BAA14172.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "BC071834",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "AAH71834.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "AF043339",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "AAC03539.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "CCDS",
+          "id": "CCDS11307.1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PIR",
+          "id": "A35673",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "A30574"
+            }
+          ]
+        },
+        {
+          "database": "RefSeq",
+          "id": "NP_002974.1",
+          "properties": [
+            {
+              "key": "NucleotideSequenceId",
+              "value": "NM_002983.3"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "1B50",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "NMR"
+            },
+            {
+              "key": "Resolution",
+              "value": "-"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "1B53",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "NMR"
+            },
+            {
+              "key": "Resolution",
+              "value": "-"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "2X69",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.65 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "2X6G",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.18 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "3FPU",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "1.76 A"
+            },
+            {
+              "key": "Chains",
+              "value": "B=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "3H44",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "3.00 A"
+            },
+            {
+              "key": "Chains",
+              "value": "C/D=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "3KBX",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.65 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "4RA8",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.60 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E=23-91"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "4ZKB",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.90 A"
+            },
+            {
+              "key": "Chains",
+              "value": "B=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "5COR",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.55 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E/F/G/H/I/J=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "5D65",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "3.10 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A/B/C/D/E=23-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "7F1Q",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "EM"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.90 A"
+            },
+            {
+              "key": "Chains",
+              "value": "R=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDB",
+          "id": "7F1T",
+          "properties": [
+            {
+              "key": "Method",
+              "value": "X-ray"
+            },
+            {
+              "key": "Resolution",
+              "value": "2.60 A"
+            },
+            {
+              "key": "Chains",
+              "value": "A=24-92"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "1B50",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "1B53",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "2X69",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "2X6G",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "3FPU",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "3H44",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "3KBX",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "4RA8",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "4ZKB",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "5COR",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "5D65",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "7F1Q",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PDBsum",
+          "id": "7F1T",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "AlphaFoldDB",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MDRepo",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "SMR",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "BioGRID",
+          "id": "112252",
+          "properties": [
+            {
+              "key": "Interactions",
+              "value": "208"
+            }
+          ]
+        },
+        {
+          "database": "DIP",
+          "id": "DIP-5837N",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "FunCoup",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Number of interactors",
+              "value": "690"
+            }
+          ]
+        },
+        {
+          "database": "IntAct",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Interactions",
+              "value": "165"
+            }
+          ]
+        },
+        {
+          "database": "MINT",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "NDEx",
+          "id": "IQUERY-CP-CCL3",
+          "properties": [
+            {
+              "key": "Evidences",
+              "value": "17 NDEx IQuery Curated Pathways"
+            }
+          ]
+        },
+        {
+          "database": "STRING",
+          "id": "9606.ENSP00000477908",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "BindingDB",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "DrugBank",
+          "id": "DB05364",
+          "properties": [
+            {
+              "key": "GenericName",
+              "value": "ROX-888"
+            }
+          ]
+        },
+        {
+          "database": "BioMuta",
+          "id": "CCL3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "DMDM",
+          "id": "127078",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MassIVE",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PaxDb",
+          "id": "9606-ENSP00000477908",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PeptideAtlas",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ProteomicsDB",
+          "id": "52572",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Pumba",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ABCD",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "antibodies",
+              "value": "17 sequenced antibodies"
+            }
+          ]
+        },
+        {
+          "database": "Antibodypedia",
+          "id": "72661",
+          "properties": [
+            {
+              "key": "antibodies",
+              "value": "1005 antibodies from 44 providers"
+            }
+          ]
+        },
+        {
+          "database": "DNASU",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000613396.2",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000480753.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000278567.2"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000613922.2",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000477908.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000277632.2"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000616221.2",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000483712.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000274221.2"
+            }
+          ]
+        },
+        {
+          "database": "GeneID",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "KEGG",
+          "id": "hsa:6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MANE-Select",
+          "id": "ENST00000613922.2",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000477908.1"
+            },
+            {
+              "key": "RefSeqNucleotideId",
+              "value": "NM_002983.3"
+            },
+            {
+              "key": "RefSeqProteinId",
+              "value": "NP_002974.1"
+            }
+          ]
+        },
+        {
+          "database": "UCSC",
+          "id": "uc002hkv.5",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "AGR",
+          "id": "HGNC:10627",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ClinPGx",
+          "id": "PA35559",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "CTD",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "DisGeNET",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneCards",
+          "id": "CCL3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:10627",
+          "properties": [
+            {
+              "key": "GeneName",
+              "value": "CCL3"
+            }
+          ]
+        },
+        {
+          "database": "HPA",
+          "id": "ENSG00000277632",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Tissue enhanced (bone marrow, lung, lymphoid tissue)"
+            }
+          ]
+        },
+        {
+          "database": "MalaCards",
+          "id": "CCL3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MIM",
+          "id": "182283",
+          "properties": [
+            {
+              "key": "Type",
+              "value": "gene"
+            }
+          ]
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000277632",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000277632",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "eggNOG",
+          "id": "ENOG502SAF0",
+          "properties": [
+            {
+              "key": "ToxonomicScope",
+              "value": "Eukaryota"
+            }
+          ]
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT01100000263482",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_141716_4_0_1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "InParanoid",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OMA",
+          "id": "NTPADCC",
+          "properties": [
+            {
+              "key": "Fingerprint",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OrthoDB",
+          "id": "8934837at2759",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PAN-GO",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Number of GO annotations",
+              "value": "8 GO annotations based on evolutionary models"
+            }
+          ]
+        },
+        {
+          "database": "PhylomeDB",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "PathwayCommons",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-380108",
+          "properties": [
+            {
+              "key": "PathwayName",
+              "value": "Chemokine receptors bind chemokines"
+            }
+          ]
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-6783783",
+          "properties": [
+            {
+              "key": "PathwayName",
+              "value": "Interleukin-10 signaling"
+            }
+          ]
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9942503",
+          "properties": [
+            {
+              "key": "PathwayName",
+              "value": "Differentiation of naive CD4+ T cells to T helper 1 cells (Th1 cells)"
+            }
+          ]
+        },
+        {
+          "database": "SignaLink",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "SIGNOR",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Agora",
+          "id": "ENSG00000277632",
+          "properties": [
+            {
+              "key": "NominatedTarget",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "BioGRID-ORCS",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "hits",
+              "value": "8 hits in 1061 CRISPR screens"
+            }
+          ]
+        },
+        {
+          "database": "ChiTaRS",
+          "id": "CCL3",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "EvolutionaryTrace",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneWiki",
+          "id": "CCL3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GenomeRNAi",
+          "id": "6348",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Pharos",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "DevelopmentLevel",
+              "value": "Tbio"
+            }
+          ]
+        },
+        {
+          "database": "PRO",
+          "id": "PR:P10147",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Proteomes",
+          "id": "UP000005640",
+          "properties": [
+            {
+              "key": "Component",
+              "value": "Chromosome 17"
+            }
+          ]
+        },
+        {
+          "database": "RNAct",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "moleculeType",
+              "value": "protein"
+            }
+          ]
+        },
+        {
+          "database": "Bgee",
+          "id": "ENSG00000277632",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Expressed in bone marrow and 105 other cell types or tissues"
+            }
+          ]
+        },
+        {
+          "database": "ExpressionAtlas",
+          "id": "P10147",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "baseline and differential"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005737",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:cytoplasm"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21784977"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005829",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:cytosol"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "19523456"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005576",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:extracellular region"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "20167378"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0048020",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:CCR chemokine receptor binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IBA:GO_Central"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0031726",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:CCR1 chemokine receptor binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IPI:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "10660125"
+            },
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "15764707"
+            },
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "7545673"
+            },
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "8699119"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0031730",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:CCR5 chemokine receptor binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IPI:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "10679098"
+            },
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "8699119"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0042056",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:chemoattractant activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10660125"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "15001559"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0008009",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:chemokine activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10660125"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0042802",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:identical protein binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IPI:IntAct"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000353",
+              "source": "PubMed",
+              "id": "20959807"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0016301",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:kinase activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0016004",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:phospholipase activator activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10734056"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0004672",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:protein kinase activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10734056"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0061844",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:antimicrobial humoral immune response mediated by antimicrobial peptide"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IBA:GO_Central"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0043615",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:astrocyte cell migration"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006816",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:calcium ion transport"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10734056"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0019722",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:calcium-mediated signaling"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "19523456"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0001775",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cell activation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0060326",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cell chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IBA:GO_Central"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0007267",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cell-cell signaling"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10679098"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0071347",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cellular response to interleukin-1"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "9407497"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0071356",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cellular response to tumor necrosis factor"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "9407497"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0071346",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cellular response to type II interferon"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "9407497"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0070098",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:chemokine-mediated signaling pathway"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IBA:GO_Central"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006935",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10679098"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0007010",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:cytoskeleton organization"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0048245",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:eosinophil chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0043308",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:eosinophil degranulation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006887",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:exocytosis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10734056"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0071621",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:granulocyte chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0043922",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:host-mediated suppression of viral transcription"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10841574"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006954",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:inflammatory response"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10679098"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006874",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:intracellular calcium ion homeostasis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10734056"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0048247",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:lymphocyte chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0048246",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:macrophage chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0000165",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:MAPK cascade"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "12032188"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0002548",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:monocyte chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0030502",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:negative regulation of bone mineralization"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0010629",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:negative regulation of gene expression"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0045671",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:negative regulation of osteoclast differentiation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0030593",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:neutrophil chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0001649",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:osteoblast differentiation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0090280",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of calcium ion import"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "TAS:BHF-UCL"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000304",
+              "source": "PubMed",
+              "id": "10925302"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0051928",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of calcium ion transport"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "15764707"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "8699119"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0050850",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of calcium-mediated signaling"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IMP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000315",
+              "source": "PubMed",
+              "id": "10679098"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0030335",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of cell migration"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            },
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "7545673"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0070374",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of ERK1 and ERK2 cascade"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0010628",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of gene expression"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0050729",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of inflammatory response"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0032731",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of interleukin-1 beta production"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:1903980",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of microglial cell activation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "TAS:ARUK-UCL"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000304",
+              "source": "PubMed",
+              "id": "29518356"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:1904141",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of microglial cell migration"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "TAS:ARUK-UCL"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000304",
+              "source": "PubMed",
+              "id": "29518356"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:2000503",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of natural killer cell chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "7545673"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0043525",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of neuron apoptotic process"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0051897",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "21403648"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0032760",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of tumor necrosis factor production"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "ISS:UniProtKB"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0050795",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:regulation of behavior"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "20167378"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0008360",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:regulation of cell shape"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10072545"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0051930",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:regulation of sensory perception of pain"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "15764707"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0014808",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:release of sequestered calcium ion into cytosol by sarcoplasmic reticulum"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "19523456"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0070723",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:response to cholesterol"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "19523456"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0009636",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:response to toxic substance"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10841574"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0023052",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:signaling"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEP:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000270",
+              "source": "PubMed",
+              "id": "12032188"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0010818",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:T cell chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:UniProtKB"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "source": "PubMed",
+              "id": "10706735"
+            }
+          ]
+        },
+        {
+          "database": "CDD",
+          "id": "cd00272",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_CC"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "FunFam",
+          "id": "2.40.50.40:FF:000002",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "C-C motif chemokine"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "2.40.50.40",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "-"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR039809",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_b/g/d"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR000827",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_CC_CS"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR001811",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_IL8-like_dom"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR036048",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Interleukin_8-like_sf"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR12015:SF183",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "C-C MOTIF CHEMOKINE 3"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR12015",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "SMALL INDUCIBLE CYTOKINE A"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF00048",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "IL8"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "SMART",
+          "id": "SM00199",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "SCY"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "SUPFAM",
+          "id": "SSF54117",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Interleukin 8-like chemokines"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PROSITE",
+          "id": "PS00472",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "SMALL_CYTOKINES_CC"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MQVSTAALAVLLCTMALCNQFSASLAADTPTACCFSYTSRQIPQNFIADYFETSSQCSKPGVIFLTKRSRQVCADPSEEWVQKYVSDLELSA",
+        "length": 92,
+        "molWeight": 10085,
+        "crc64": "517865D5D6776CA8",
+        "md5": "5386B8265BA7B86ABCCDAD558362A98D"
+      },
+      "extraAttributes": {
+        "countByCommentType": {
+          "FUNCTION": 1,
+          "SUBUNIT": 1,
+          "INTERACTION": 5,
+          "SUBCELLULAR LOCATION": 1,
+          "INDUCTION": 1,
+          "PTM": 1,
+          "SIMILARITY": 1,
+          "WEB RESOURCE": 1
+        },
+        "countByFeatureType": {
+          "Signal": 1,
+          "Chain": 2,
+          "Site": 3,
+          "Disulfide bond": 2,
+          "Natural variant": 1,
+          "Mutagenesis": 5,
+          "Helix": 4,
+          "Beta strand": 7
+        },
+        "uniParcId": "UPI00001362C9"
+      }
+    }
+  ]
+}

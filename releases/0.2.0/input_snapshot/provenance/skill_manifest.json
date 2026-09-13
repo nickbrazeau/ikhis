@@ -1,0 +1,22 @@
+[
+  {
+    "origin": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/research-router-skill/SKILL.md",
+    "local_path": "provenance/skill_snapshots/research-router-skill.md",
+    "sha256": "e9e39c6c411da80f9fd62a62e70cbedac2404bdcfb51ddb8fda1dc3332c7e357"
+  },
+  {
+    "origin": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/deep-research-work/0.1.15/skills/deep-research/SKILL.md",
+    "local_path": "provenance/skill_snapshots/deep-research.md",
+    "sha256": "fe92f226b47314a3963738a7b98d5afc5d51973c7b589c72277e3cc9e59d44eb"
+  },
+  {
+    "origin": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/SKILL.md",
+    "local_path": "provenance/skill_snapshots/uniprot-skill.md",
+    "sha256": "456b5f2cb25b12403b5f000fa808bbc1f1278709bedbffdc4919a7677d31fe2c"
+  },
+  {
+    "origin": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/ncbi-entrez-skill/SKILL.md",
+    "local_path": "provenance/skill_snapshots/ncbi-entrez-skill.md",
+    "sha256": "a0df39c740f481ad8cf613cb3f61603dc321829f8fb7dd11737481118ab9695c"
+  }
+]

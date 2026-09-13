@@ -1,0 +1,46 @@
+{
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC534504/",
+  "retrieval_date": "2026-09-13",
+  "retrieval_method": "Chrome rendered full primary article; selected exact passages and structured observations captured from returned DOM text",
+  "access_status": "Full Methods, Results and Figure5 readable; selected passages archived, not a complete article export",
+  "passages": [
+    {
+      "locator": "Methods: IFN-gamma Production Assay",
+      "text": "After 6 h of coculture, cells were harvested and stained with PE-conjugated anti-CD56 and FITC-conjugated anti-CD3 (Becton Dickinson). Cells were then fixed in 1% paraformaldehyde, permeabilized, and stained with allophycocyanin-conjugated anti-IFN-\u03b3 (Becton Dickinson)."
+    },
+    {
+      "locator": "Results: Mature, but Not Immature, DCs Present IL-15 on Their Surface",
+      "text": "Membrane-bound IL-15 was never detectable on the surface of immature DCs. Monocyte/macrophages activated by the same stimuli used for DC maturation failed to express IL-15 on their surfaces."
+    },
+    {
+      "locator": "Figure5A/B caption",
+      "text": "Dotted lines represent isotype controls. One of three experiments is shown."
+    },
+    {
+      "locator": "Results: DCs Induce NK Cells, directly read in Chrome",
+      "text": "And for the stimulation of purified peripheral blood or splenic NK cells, we used autologous monocyte-derived DCs (Fig. 4A Lower and data not shown). IFN-\u03b3 secretion of NK cells was blocked completely by antibodies against IL-12 but not by antibodies against IL-2 and IL-15 (Fig. 4A)."
+    },
+    {
+      "locator": "Results, paragraph following Figure4, directly read in Chrome",
+      "text": "In contrast, IL-15 and cell-to-cell contact mediated DC-induced CD56+ NK cell proliferation (Fig. 4 C and D)."
+    },
+    {
+      "locator": "Figure4C/D caption, directly read in Chrome",
+      "text": "NK cells purified from human lymph nodes (C) or from peripheral blood (D) were labeled with CFSE and cultured for 6 days in the presence of autologous DCs alone (Medium) and, where indicated, with blocking antibodies (IgG1, isotype control; \u03b1IL-2, anti-IL-2; \u03b1IL-12, anti-IL-12; \u03b1IL-15, anti-IL-15) or separated by transwell (Trans). Numbers inside dot plots indicate the percentage of cycling NK cells. One of two experiments is shown for C, and one of three experiments is shown for D."
+    }
+  ],
+  "structured_methods_observed": {
+    "IFNG_endpoint": "intracellular flow with monensin; six-hour NK/DC coculture",
+    "IFNG_monensin": "2 micromolar",
+    "NK_DC_ratio": "10:1",
+    "proliferation_endpoint": "CFSE dilution on CD3-negative CD56-positive cells after six days",
+    "CFSE_labeling": "5 micromolar for ten minutes",
+    "blocking_antibody_schedule": "at the beginning and on day3 for proliferation; two hours before NK addition for IFNG",
+    "surface_IL15_endpoint": "flow surface staining of monocyte-derived immature and mature dendritic cells, Figure5A",
+    "surface_comparator": "isotype control; maturation condition retained per figure",
+    "Figure5_experiment_count": "one of three experiments shown; independent donor count unavailable",
+    "intracellular_IL15_endpoint": "separate total-cell Western blot in Figure5D, not the surface-staining endpoint",
+    "inference_limit": "Undetectable surface staining does not establish absence of all cellular IL15 or absence under other conditions"
+  },
+  "source_terminology_note": "Authors call the IFNG readout secretion; the Methods identify intracellular staining with monensin. The curated measurement follows the assay rather than this terminology."
+}

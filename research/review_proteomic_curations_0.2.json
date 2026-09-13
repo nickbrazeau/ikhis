@@ -1,0 +1,359 @@
+{
+  "critic_run_id": "proteomic-curation-review-PCUR02-20260913-01",
+  "scope": "Independent descriptive extraction review of three root-authored proteomic assertion overlays P_A01, P_A07 and P_A08, their P_S01/P_S03 source overlays and P_C01_IL34/P_C03 cohort overlays in data/curation_overrides_0.2.json, merged with research/proteomic/pack.json. Read both primary follow-up snapshots and all four additional publisher text/HTML snapshots. This review concerns these seven objects only; cytokine and genomic overlays are outside this review. No pack, curation or source content edited; no experimental design or new procedures proposed.",
+  "timestamp_start": "2026-09-13 18:28:21 UTC",
+  "timestamp_end": "2026-09-13 18:31:06 UTC",
+  "agent_role": "Independent Proteomic Curation Reviewer",
+  "model": "unavailable",
+  "protocol_version": "protocol/PROTOCOL.md v0.1.0 with protocol/AMENDMENT_0.2.md",
+  "reviewed_file_hashes": {
+    "data/curation_overrides_0.2.json": "510838ae97029dee4a988afe1aa19abf04db872b585c70c91d793e955ce552e0",
+    "research/fulltext_followup/atlas_followup_paper.json": "74d4494d3a446ab73cbb4d04acac8f5fbf8179803908fa653f2f0292bd0a4800",
+    "research/fulltext_followup/proteomic_followup_methods.json": "eb045f5d63885ab3b55909802a521902a35d174a50b0273e639b7efd91492663",
+    "research/proteomic/pack.json": "965f21a12afbf5f4467148bd3c5c43faf483e29fc21d745af449e4b2bcac7937",
+    "research/proteomic/snapshots/atlas_publisher_page.html": "e1f46d13ea56494ca9b897e1b739bf8eb2ab3399d4e5e1eaa61d2e1de5a31304",
+    "research/proteomic/snapshots/atlas_publisher_page.txt": "42ea8670d63883ce00e4d6667812e236207f56d331a8400bb479becd698266f8",
+    "research/proteomic/snapshots/cite_publisher_page.html": "b5e3ba5a6a270e6fd8181c031641877920d5ce2b2a0724608ccd4b666800dda5",
+    "research/proteomic/snapshots/cite_publisher_page.txt": "5782bcf27eec883afc174787bc013f73fe2b448a98c49319c2de48f7fe77bdd7"
+  },
+  "requested_curation_file_sha256": "510838ae97029dee4a988afe1aa19abf04db872b585c70c91d793e955ce552e0",
+  "reviewed_object_hash_method": "SHA256 of UTF-8 json.dumps(object, sort_keys=True, ensure_ascii=False, separators=(comma, colon)), without trailing newline.",
+  "reviewed_overlay_object_hashes": {
+    "assertions": {
+      "P_A01": "9c2e92eacb3c39e29a823ecc0bc1b9db6fed251abda725da855be59888506ec4",
+      "P_A07": "c82dc18f62ceb55d96ae0b2d7c33ea5857fd9a373d9496989e36069903c3334d",
+      "P_A08": "0cbdad21f5e5c4999f44787815cf0cf47de83f9a6fc7922f50a08cdb27b3f729"
+    },
+    "sources": {
+      "P_S01": "df23a579f31ca4eda8703b3c1a959fd12537b389d9da70d86a014a4f121d232c",
+      "P_S03": "9c1cfea2bed32368cadcb93f62dab7d249ec6cb8fbf7ee5ae8876ce86e1eceb4"
+    },
+    "cohorts": {
+      "P_C01_IL34": "b9730f4dd0de76474d408fa945e6cd0b5719cda0155bea3a1ba424d7935ab34a",
+      "P_C03": "b4488ed68263c4eefe962b3905cf1b886cb11d8994e1e3962256345b0b369989"
+    }
+  },
+  "reviewed_merged_object_hashes": {
+    "assertions": {
+      "P_A01": "529d208060e2b7cc8f4a0af2ac92abdba40c0bc74d5b2d02be17b06516134df4",
+      "P_A07": "4af1cdca225b66995db03fa67901d1370591e723d81709935c62610f23e0c366",
+      "P_A08": "ecc1df5d1e39060a358b209102108010a7f8720507d26dc1184eca3a9c9d8866"
+    },
+    "sources": {
+      "P_S01": "9191d46b59647846a322c15dcaa81c9ba5c0d36c33eacdae30c0ee4937bc34fd",
+      "P_S03": "5d743bbecdd63247c0824d34757f1a970be019c6407293808306119695f1138e"
+    },
+    "cohorts": {
+      "P_C01_IL34": "a4e58c4e5def572de26e12f8a6842aa13de50760508b07d7118f0c7c7faf2567",
+      "P_C03": "a5ac8497686186371e0038d4c28e2918045458582678cb4db52b5bd8fc7abe26"
+    }
+  },
+  "reviewed_objects": {
+    "assertions": {
+      "P_A01": {
+        "assertion_id": "P_A01",
+        "subject": "IL34",
+        "subject_type": "cytokine",
+        "predicate": "changes",
+        "object": "total proteome of the source-described CD4 memory-cell preparation",
+        "object_type": "protein_set",
+        "subject_layer": "P",
+        "object_layer": "P",
+        "measurement": "protein_abundance",
+        "evidence_tier": "P2",
+        "direction": "association",
+        "source_id": "P_S01",
+        "cohort_id": "P_C01_IL34",
+        "source_locator": "atlas_followup_paper.json: ONLINE METHODS, Blood samples and cell sorting, CD4 T cell activation with IL34; atlas_publisher_page.txt: Supplementary Figure5g line498",
+        "evidence_summary": "IL34 was associated with total-proteome changes in the source-described preactivated CD4 memory-cell preparation.",
+        "species": "Homo sapiens",
+        "ancestry": "unavailable",
+        "age": "unavailable",
+        "sex": "unavailable",
+        "tissue": "blood-derived culture",
+        "disease": "unavailable",
+        "disease_severity": "unavailable",
+        "treatment_status": "unavailable",
+        "cell_type": "CD4 T-cell preparation described as memory by authors; precise CD45RA gate unresolved",
+        "cell_state": "anti-CD3/anti-CD28 preactivated",
+        "developmental_state": "unavailable",
+        "stimulation": "IL2 plus IL34",
+        "dose": "IL34 100 versus 0 ng/mL; IL2 500 U/mL per general T-cell expansion Methods",
+        "duration": "Figure5g: 2 d IL34 after 2 d CD3/CD28 preactivation; main Methods state harvest at 96 h overall",
+        "assay": "total-cell LC-MS/MS proteomics; aggregate profile comparison",
+        "genomic_background": "unavailable",
+        "time_point": "96 h overall; Figure5g-specific IL34 timing",
+        "effect_size": "unavailable",
+        "effect_unit": "unavailable",
+        "uncertainty": "Figure5g: four culture replicates from two independent donors; FDR<5%, S0=1. No signed individual-protein effect sizes extracted.",
+        "causal_directness": "direct target perturbation",
+        "limitations": "Relevant main Methods recovered, with source/encoding ambiguity: CD4 memory gate rendered CD4+CD45RA+ in retrieved text. Preparation retained with author attribution; not generalized to conventional memory CD4 cells. Main Methods timing is less explicit than Figure5g. Raw protein matrix not reanalyzed; no CSF1R activation, individual protein direction, receptor dependence or cellular function inferred.",
+        "contradiction_group": "unavailable",
+        "candidate_path": "unavailable",
+        "qc_status": "reviewed_extraction",
+        "qualitative_confidence": "low",
+        "scoring_annotation": {
+          "tested_hypothesis": "IL34 changes total proteome in conventional human memory CD4 T cells under the specified culture conditions.",
+          "evidence_relation": "inconclusive",
+          "null_adequacy": "not_applicable; target-cell identity unresolved",
+          "rationale": "Descriptive aggregate profile change retained, but unresolved memory-cell gate prevents a numerical update for the conventional memory-CD4 hypothesis."
+        }
+      },
+      "P_A07": {
+        "assertion_id": "P_A07",
+        "subject": "NK-cell CD56-bright versus CD56-dim state",
+        "subject_type": "cell_state_comparison",
+        "predicate": "is_associated_with_different_distribution",
+        "object": "CD8A surface abundance",
+        "object_type": "protein",
+        "subject_layer": "C",
+        "object_layer": "P",
+        "measurement": "protein_abundance",
+        "evidence_tier": "observational",
+        "direction": "association",
+        "source_id": "P_S03",
+        "cohort_id": "P_C03",
+        "source_locator": "proteomic_followup_methods.json: CBMC Results, cell staining, blood mononuclear cells, ADT filtering and Figure3; cite_publisher_page.txt: Supplementary Figure6b lines256-257",
+        "evidence_summary": "CD56-defined NK subsets differed in their CD8A antibody-tag distributions.",
+        "species": "Homo sapiens",
+        "ancestry": "unavailable",
+        "age": "unavailable",
+        "sex": "unavailable",
+        "tissue": "cord blood",
+        "disease": "unavailable",
+        "disease_severity": "unavailable",
+        "treatment_status": "unavailable",
+        "cell_type": "NK cell",
+        "cell_state": "CD56-bright versus CD56-dim",
+        "developmental_state": "neonatal",
+        "stimulation": "unavailable",
+        "dose": "1 µg antibody per staining test; not a cytokine dose",
+        "duration": "30 min antibody staining at 4°C; no cytokine perturbation",
+        "assay": "CITE-seq surface antibody-derived tags; RNA-defined NK cluster split by CD56 ADT; CLR-transformed ADT distributions",
+        "genomic_background": "unavailable",
+        "time_point": "cross-sectional CBMC profiling",
+        "effect_size": "unavailable",
+        "effect_unit": "unavailable",
+        "uncertainty": "Two-sample KS P<0.001; effect magnitude unavailable.",
+        "causal_directness": "observational same-cell protein profiling",
+        "limitations": "Full relevant Methods and Results recovered. NK groups are defined by CD56 protein tags; donor number and donor-level precision remain unavailable. No direct cytotoxicity inference. Unsigned distribution difference retained; KS P<0.001 is not a magnitude or calibrated truth probability.",
+        "contradiction_group": "unavailable",
+        "candidate_path": "unavailable",
+        "qc_status": "reviewed_extraction",
+        "qualitative_confidence": "moderate",
+        "scoring_annotation": {
+          "tested_hypothesis": "CD8A surface antibody-tag distributions differ between CD56-defined NK subsets in this cord-blood CITE-seq dataset.",
+          "evidence_relation": "supports",
+          "null_adequacy": "not_applicable",
+          "rationale": "Methods establish surface-tag compartment and shared-cell subset definition; conclusions confined to this dataset."
+        }
+      },
+      "P_A08": {
+        "assertion_id": "P_A08",
+        "subject": "NK-cell CD56-bright versus CD56-dim state",
+        "subject_type": "cell_state_comparison",
+        "predicate": "shows_no_reported_difference",
+        "object": "CD4 surface abundance",
+        "object_type": "protein",
+        "subject_layer": "C",
+        "object_layer": "P",
+        "measurement": "protein_abundance",
+        "evidence_tier": "observational",
+        "direction": "null",
+        "source_id": "P_S03",
+        "cohort_id": "P_C03",
+        "source_locator": "proteomic_followup_methods.json: CBMC Results, cell staining, blood mononuclear cells, ADT filtering and Figure3; cite_publisher_page.txt: Supplementary Figure6b lines256-257",
+        "evidence_summary": "CD4 antibody-tag controls showed no reported difference between CD56-defined NK subsets.",
+        "species": "Homo sapiens",
+        "ancestry": "unavailable",
+        "age": "unavailable",
+        "sex": "unavailable",
+        "tissue": "cord blood",
+        "disease": "unavailable",
+        "disease_severity": "unavailable",
+        "treatment_status": "unavailable",
+        "cell_type": "NK cell",
+        "cell_state": "CD56-bright versus CD56-dim",
+        "developmental_state": "neonatal",
+        "stimulation": "unavailable",
+        "dose": "1 µg antibody per staining test; not a cytokine dose",
+        "duration": "30 min antibody staining at 4°C; no cytokine perturbation",
+        "assay": "CITE-seq surface antibody-derived tags; RNA-defined NK cluster split by CD56 ADT; CLR-transformed ADT distributions",
+        "genomic_background": "unavailable",
+        "time_point": "cross-sectional CBMC profiling",
+        "effect_size": "unavailable",
+        "effect_unit": "unavailable",
+        "uncertainty": "No equivalence bound; low or absent signal.",
+        "causal_directness": "observational control",
+        "limitations": "Full relevant Methods and Results recovered. NK groups are defined by CD56 protein tags; donor number and donor-level precision remain unavailable. No direct cytotoxicity inference. Low/absent CD4 control signals and ordinary no-difference observation do not establish protein absence or equivalence.",
+        "contradiction_group": "unavailable",
+        "candidate_path": "unavailable",
+        "qc_status": "reviewed_extraction",
+        "qualitative_confidence": "moderate",
+        "scoring_annotation": {
+          "tested_hypothesis": "CD4 surface antibody-tag distributions differ between CD56-defined NK subsets in this cord-blood CITE-seq dataset.",
+          "evidence_relation": "inconclusive",
+          "null_adequacy": "No equivalence margin or adequate absence bound.",
+          "rationale": "Methods establish surface-tag compartment and shared-cell subset definition; conclusions confined to this dataset."
+        }
+      }
+    },
+    "sources": {
+      "P_S01": {
+        "source_id": "P_S01",
+        "title": "Social network architecture of human immune cells unveiled by quantitative proteomics",
+        "authors": "Jan C Rieckmann et al.",
+        "year": 2017,
+        "url": "https://www.nature.com/articles/ni.3693",
+        "doi": "10.1038/ni.3693",
+        "pmid": "28263321",
+        "source_type": "primary_study",
+        "version": "version of record 2017; database release unavailable",
+        "retrieved_at": "2026-09-13",
+        "access_level": "full_text_selected_methods_and_results_via_primary_paper_copy",
+        "snapshot_path": "research/fulltext_followup/atlas_followup_paper.json",
+        "species": "Homo sapiens",
+        "notes": "Primary paper text recovered from author paper hosted on ResearchGate and matched to Nature DOI/title/authors; publisher Supplementary Fig5g independently retained. Molecular raw matrix not reanalyzed. Retrieved methods render memory CD4 gating as CD4+CD45RA+, an unresolved source/encoding ambiguity; no assumption that this identifies conventional memory phenotype.",
+        "additional_snapshot_paths": [
+          "research/proteomic/snapshots/atlas_publisher_page.txt",
+          "research/proteomic/snapshots/atlas_publisher_page.html"
+        ]
+      },
+      "P_S03": {
+        "source_id": "P_S03",
+        "title": "Simultaneous epitope and transcriptome measurement in single cells",
+        "authors": "Marlon Stoeckius et al.",
+        "year": 2017,
+        "url": "https://www.nature.com/articles/nmeth.4380",
+        "doi": "10.1038/nmeth.4380",
+        "pmid": "28759029",
+        "source_type": "primary_study",
+        "version": "version of record 2017; database release unavailable",
+        "retrieved_at": "2026-09-13",
+        "access_level": "full_text_relevant_methods_and_results_via_primary_repository_index",
+        "snapshot_path": "research/fulltext_followup/proteomic_followup_methods.json",
+        "species": "Homo sapiens",
+        "notes": "PMC5669064 author manuscript title is Large-scale simultaneous measurement of epitopes and transcriptomes in single cells; DOI and PMID match the final Nature title. Full relevant Methods and NK Results recovered; publisher Supplementary Figure6 caption remains included. No raw matrix reanalysis claimed.",
+        "additional_snapshot_paths": [
+          "research/proteomic/snapshots/cite_publisher_page.txt",
+          "research/proteomic/snapshots/cite_publisher_page.html"
+        ]
+      }
+    },
+    "cohorts": {
+      "P_C01_IL34": {
+        "cohort_id": "P_C01_IL34",
+        "dataset_id": "Rieckmann IL34 validation cultures",
+        "accession": "unavailable",
+        "study_id": "P_S01",
+        "participants": "2 human donors",
+        "ancestry": "unavailable",
+        "species": "Homo sapiens",
+        "tissue": "blood-derived culture",
+        "cell_type": "CD4 T-cell preparation described as memory; precise CD45RA gate unresolved",
+        "disease": "unavailable",
+        "intervention": "anti-CD3/anti-CD28 followed by IL2 with IL34",
+        "sample_count": "4 culture replicates per described comparison",
+        "donor_count": 2,
+        "parent_cohort": "P_C01",
+        "related_publications": [
+          "P_S01"
+        ],
+        "independence_status": "unresolved",
+        "notes": "Two independent donors and four culture replicates explicitly reported in Fig5g. Main Methods render the gate CD4+CD45RA+; source/encoding discrepancy unresolved. Donor overlap with main atlas remains unresolved."
+      },
+      "P_C03": {
+        "cohort_id": "P_C03",
+        "dataset_id": "CITE-seq cord blood mononuclear cells",
+        "accession": "GSE100866",
+        "study_id": "P_S03",
+        "participants": "cord blood obtained from New York Blood Center; unique donor number unavailable",
+        "ancestry": "unavailable",
+        "species": "Homo sapiens",
+        "tissue": "cord blood",
+        "cell_type": "cord blood mononuclear cells; NK subsets",
+        "disease": "unavailable",
+        "intervention": "observational CITE-seq antibody staining; no cytokine perturbation",
+        "sample_count": "8005 human cells",
+        "donor_count": "unavailable",
+        "parent_cohort": "unavailable",
+        "related_publications": [
+          "P_S03"
+        ],
+        "independence_status": "unresolved",
+        "notes": "8005 human cells are not 8005 donors. RNA/ADT counts share cells; low-frequency mouse fibroblast controls used for antibody background and excluded from human assertions. Separate flow-benchmark PBMC arm not used to infer cord-blood donor counts."
+      }
+    }
+  },
+  "coverage": {
+    "assertion_count": 3,
+    "source_count": 2,
+    "cohort_count": 2,
+    "unique_referenced_snapshot_count": 6,
+    "methods": [
+      "Merged the exact selected overlay objects with their inherited assertion, source and cohort fields before review.",
+      "Compared assay context, access wording, molecular compartment, treatment context, donor/replicate counts, quantitative claims, scoring relation and inherited fields to primary Methods, Results and exact publisher supplementary captions.",
+      "Compared publisher text captions with the corresponding HTML source content.",
+      "Checked that source access labels distinguish indexed primary-repository text, a hosted primary-paper copy and publisher supplementary captions from raw-data reanalysis or a complete local PDF."
+    ],
+    "limits": "Bounded selected-passage review. No raw protein matrix, single-cell matrix or original image-level reanalysis; no resolution of the CD45RA gate rendering; no unique cord-blood donor number inferred. Human adjudication remains pending."
+  },
+  "findings": [],
+  "findings_summary": "No material extraction or inherited-field contradiction was identified in the three reviewed overlays at the recorded object and source hashes. The unresolved IL34 preparation identity is explicitly disclosed and prevents affirmative conventional-memory scoring.",
+  "assertion_assessments": [
+    {
+      "assertion_ids": [
+        "P_A01"
+      ],
+      "source_id": "P_S01",
+      "result": "pass_with_retained_identity_uncertainty",
+      "evidence": "The primary-paper copy contains the named CD4 T-cell activation Methods and a total-proteome endpoint. Publisher Supplementary Figure5g independently supports the aggregate profile comparison, its figure-specific timing, two donor basis and four culture replicates. The general T-cell expansion context is explicitly linked by the IL34 Methods rather than inferred from another cell type. The recovered gate is rendered CD4+CD45RA+ while the prose calls the cells memory; the curation retains source attribution and an unresolved gate instead of silently changing the sign or generalizing to conventional memory cells. Its low confidence and inconclusive scoring match that uncertainty. The inherited direct-target-perturbation phrase is bounded by cytokine addition; the curation explicitly denies receptor activation/dependence, individual protein directions and functional outcomes."
+    },
+    {
+      "assertion_ids": [
+        "P_A07"
+      ],
+      "source_id": "P_S03",
+      "result": "pass",
+      "evidence": "The primary CITE-seq repository text identifies the CBMC experiment, surface-marker antibodies, RNA-based initial NK cluster and CD56-ADT subset split. Publisher Supplementary Figure6b supports the CD8A distribution difference and reported KS threshold. The assertion remains an unsigned within-dataset distribution association, not an independent cell-state causal effect, an absolute protein concentration or a cytotoxicity result. Antibody staining context is not mislabeled as a cytokine exposure. Human-cell count is supported by the species assignments and is not used as donor count."
+    },
+    {
+      "assertion_ids": [
+        "P_A08"
+      ],
+      "source_id": "P_S03",
+      "result": "pass",
+      "evidence": "The same primary methods establish the surface ADT compartment. Publisher Supplementary Figure6b explicitly identifies CD4 as a low/absent-signal control with no reported difference between CD56-defined groups. The retained null does not establish absence or equivalence: its scoring remains inconclusive and the lack of an adequate absence bound is explicit. RNA/ADT measurements share cells rather than independent participants."
+    }
+  ],
+  "source_and_cohort_assessments": [
+    {
+      "target_ids": [
+        "P_S01",
+        "P_C01_IL34"
+      ],
+      "result": "pass_with_retained_identity_uncertainty",
+      "evidence": "Source title, authors and DOI match the hosted primary-paper text and publisher caption. Access wording accurately identifies a primary-paper copy with selected Methods/Results, without claiming raw reanalysis or a complete local PDF. Figure5g supplies two independent donors and four culture replicates; overlap with the broader atlas is unavailable. The unresolved CD45RA rendering is carried into both source and cohort records."
+    },
+    {
+      "target_ids": [
+        "P_S03",
+        "P_C03"
+      ],
+      "result": "pass",
+      "evidence": "Repository DOI/PMID match the publisher record despite the author-manuscript title variant. Cord-blood provenance, surface-tag methods and filtered human-cell count are directly supported. Mouse background controls remain outside the human assertions. Separate flow-benchmark arms do not supply donor counts to the CBMC analysis; unique cord-blood donor count stays unavailable."
+    }
+  ],
+  "scoring_check": {
+    "result": "pass",
+    "P_A01": "inconclusive for conventional-memory CD4 hypothesis because target-cell identity unresolved",
+    "P_A07": "supports only the stated CD8A tag distribution difference within the source dataset",
+    "P_A08": "inconclusive for CD4 distribution difference; no absence or equivalence established"
+  },
+  "release_approval_dependency": {
+    "status": "required_for_eligibility",
+    "requirement": "Final release approval must bind the full final curation file, inherited base pack and all declared primary/additional source files. The canonical selected-object hashes preserve this review scope if unrelated genomic/cytokine objects are subsequently merged; they do not independently waive the full-file approval gate. Any change to a reviewed object or supporting source requires a separate response."
+  },
+  "human_adjudication_status": "pending",
+  "conclusion": "The three proteomic overlays pass this bounded descriptive extraction review at the recorded merged-object and source hashes, with the IL34 identity ambiguity and unavailable donor/matrix information retained. No open findings from this review; human adjudication remains pending."
+}
