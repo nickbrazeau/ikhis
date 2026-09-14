@@ -1,0 +1,1647 @@
+[
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "a06475222d88fa97b219980f7e54ed3f2de47791bc6c22f6b38459445f97e713",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/paper_v2.html",
+    "source_group": "HR documentation audit",
+    "source_id": "paper_v2",
+    "url": "https://arxiv.org/html/2505.14725v2"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "d50b2f0bec09ee531c3474c7262873776c9ec49d4b5aa2d6805cf8fc4b6513d1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/github_readme.md",
+    "source_group": "HR documentation audit",
+    "source_id": "github_readme",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/README.md"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "ec16930681a332e7e0512042ff59ff15fe4a6b40b6cad92f6a613dbf2e99c827",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf_readme.md",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_card",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/README.md"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "0f97323e1a2e817c593d3e2829c6f55ea4a44f0efe6c52b073a3dc0528aa4e55",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__Meta_variable_description.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_variables",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/Meta_variable_description.csv"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "48977830c893ed1babf334c16a24b52e9f701cc239b1b3b3be747fdf1371e1f1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__study_meta.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_studies",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/study_meta.csv"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "b660876c34c8b59253ba2f960ad8dc8c6cee3ba7b922e9b5c288d0fe9fd089a1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/study_meta.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "gh_studies",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/study_meta.csv"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "778a24884e106d3b3b52256a0360ef469d5df63cb3d65d1fbbb8ce711471c51f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__study_citations.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_citations",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/study_citations.csv"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "88030ed454fd6fc65b4adb41f7faa4a305e37866494abe6d8481417a0ff1b347",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__example_dataset__GSE194378_meta_sample.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_example_meta",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_meta_sample.csv"
+  },
+  {
+    "evidence_status": "inspected_small_table",
+    "retrieved_on": "2026-09-14",
+    "sha256": "15d7d4d8b9a896298091dfd83e3dd6adac68eb91e7ddcec8fe2822ea3abe82c6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__example_dataset__GSE194378_antibody_sample.csv",
+    "source_group": "HR documentation audit",
+    "source_id": "hf_example_antibody",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_antibody_sample.csv"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "ebd972a29660ff07b267e71a3425bb1aefe682a0f0d332f901857b24a664f99f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Affymetrix_microarray_process.qmd",
+    "source_group": "HR documentation audit",
+    "source_id": "Affymetrix_microarray_process",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Affymetrix_microarray_process.qmd"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "2b08aad03a70737f0ed16d2e14cfde19954a85d8924a0607864779b7905b219f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Illumina_microarray_process.qmd",
+    "source_group": "HR documentation audit",
+    "source_id": "Illumina_microarray_process",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Illumina_microarray_process.qmd"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "5e5f9165567424f16813fa1ffc913e29b3012b322febb80b8d84d26e922fc2b8",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__RNAseq_Process.qmd",
+    "source_group": "HR documentation audit",
+    "source_id": "RNAseq_Process",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/RNAseq_Process.qmd"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "3d8cae52d5229ba92e7457e7b8a5d2c2220efe9a590862fce90c6aa1867b4f17",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Single_cell_merge_data_demo.qmd",
+    "source_group": "HR documentation audit",
+    "source_id": "Single_cell_merge_data_demo",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Single_cell_merge_data_demo.qmd"
+  },
+  {
+    "evidence_status": "inspected_document",
+    "retrieved_on": "2026-09-14",
+    "sha256": "603786dcb05778c4067d379aad9645ad95ad9162b523879760e7db8823a0bf2a",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Meta_preprocess_demo.qmd",
+    "source_group": "HR documentation audit",
+    "source_id": "Meta_preprocess_demo",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Meta_preprocess_demo.qmd"
+  },
+  {
+    "evidence_status": "inspected_code_not_executed",
+    "retrieved_on": "2026-09-14",
+    "sha256": "9224b6c7d3dc89faae24fa8312a8ddab1cf6b107fbe80581fd68979588169ddc",
+    "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/code__Merge_Plot_Demo.py",
+    "source_group": "HR documentation audit",
+    "source_id": "merge_code",
+    "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/code/Merge_Plot_Demo.py"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:18.909076+00:00",
+    "sha256": "494155a235e88a793b276831df0fda38537c77c543d7a595b442d91fbe109a36",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE100501.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_bfce2f000a5c058a92",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100501&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:18.909352+00:00",
+    "sha256": "d180173026e14d231d53df621e15c378b7ec95519f83b284ed97cd139cde89b0",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE100866.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_a860404c4a2e302844",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:18.909451+00:00",
+    "sha256": "836a8995a4511d0ae3dcb955f985287d7de8d859fd4c3194d020e0a7534426fb",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE116698.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_7eb7f5769fdc85e967",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116698&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:19.958518+00:00",
+    "sha256": "c7ee64a15236aebce7b0a2246b28c9a88180a8fd24c5b94258e83b7ad619cc6e",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE202186.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_6d32f1788aca6e0c2f",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202186&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:20.835167+00:00",
+    "sha256": "c46fb9a2a4cec6d9b9ae5a0c28edc636714b380237dd8e980efb665e95d1a6cd",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE57542.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_197801b6ab57731906",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57542&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:05:20.849837+00:00",
+    "sha256": "47f9ebe6f3b275f4a1c3c0aa17e74986fe9f1e28f22f7933eab55de37e90c317",
+    "snapshot_path": "data_dictionary/sources/atlas/GSE74668.soft.txt",
+    "source_group": "atlas",
+    "source_id": "SOURCE_0e6fa324d6d28d33d0",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74668&targ=self&form=text&view=full"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T17:59:20.522779+00:00",
+    "sha256": "9caf691a19141f2e796a2bd05c57b8ede10e39642ab3ff61ac0d16113801f388",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/hf_info.json",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_ac84a03787e708764f",
+    "url": "https://huggingface.co/api/datasets/xuejun72/HR-VILAGE-3K3M"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T17:59:20.523122+00:00",
+    "sha256": "0d56a488de4ef79fbbd46aecd10ab9c9a5ab9fa987d6df4cef80454bfc74bd21",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/github_commit.json",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_279c85c8f0eee3b3d6",
+    "url": "https://api.github.com/repos/XuejunSun98/HR-VILAGE-3K3M/commits/main"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T17:59:20.523312+00:00",
+    "sha256": "a06475222d88fa97b219980f7e54ed3f2de47791bc6c22f6b38459445f97e713",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/paper_v2.html",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_413075d89015773a4f",
+    "url": "https://arxiv.org/html/2505.14725v2"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:29.834895+00:00",
+    "sha256": "ec16930681a332e7e0512042ff59ff15fe4a6b40b6cad92f6a613dbf2e99c827",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/README.md",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_4f93944412cc845b15",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/README.md"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:29.834600+00:00",
+    "sha256": "48977830c893ed1babf334c16a24b52e9f701cc239b1b3b3be747fdf1371e1f1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/study_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_f9925a9585c49d3048",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:29.835071+00:00",
+    "sha256": "778a24884e106d3b3b52256a0360ef469d5df63cb3d65d1fbbb8ce711471c51f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/study_citations.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_9daa6e36f7db536843",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_citations.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:30.433203+00:00",
+    "sha256": "aa561def597fee0e3ec0c04cd7ab71f470ec83babfcadf145f0a63c3b0c98b17",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/Meta_variable_description.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_51629a5a1c847f1eeb",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/Meta_variable_description.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:30.454804+00:00",
+    "sha256": "3a3d9000bf17604635aad9c3151fa3e3532f84ee4c19eddfd84bbb4c931759c2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/gene_expr_colnames.txt",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_6ca5a23e6ca1bccd55",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/gene_expr_colnames.txt"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:30.460264+00:00",
+    "sha256": "2e5428c43a1b2904e24bf7a21d096c10d6342d2d0a90567d4069be57927bf308",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/croissant.json",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_160c57ffd1d883f6d8",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/croissant.json"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:30.956981+00:00",
+    "sha256": "4934d9cdf0a54fddbd1000ceaf1902ec4e18a97848f82e88d3058b15c4b25479",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/hf_file_tree.json",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_283286402d8546a3b6",
+    "url": "https://huggingface.co/api/datasets/xuejun72/HR-VILAGE-3K3M/tree/c68349578b97af04d1102eac5ad9f30f85362c53?recursive=true&limit=1000"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:30.960263+00:00",
+    "sha256": "9adb8dd53e94c58b88817cc3f056f3f5236330b58006fd17a550bf3810fb0dc3",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/github_tree.json",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fed51f8d7d3560be01",
+    "url": "https://api.github.com/repos/XuejunSun98/HR-VILAGE-3K3M/git/trees/716c27dccba847875f85be63103e2245acaa3320?recursive=1"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:00:31.144185+00:00",
+    "sha256": "b660876c34c8b59253ba2f960ad8dc8c6cee3ba7b922e9b5c288d0fe9fd089a1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/github_study_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_421cd60e6753a176cf",
+    "url": "https://raw.githubusercontent.com/XuejunSun98/HR-VILAGE-3K3M/716c27dccba847875f85be63103e2245acaa3320/study_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:00.437757+00:00",
+    "sha256": "2072e630a3711e9dc3d9e145b9a86b96500cf307b80e1eb8a4a2e45814318dc2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE101709_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_7235c3811e2b890872",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE101709_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:00.438230+00:00",
+    "sha256": "6a90dd31b8e3d56d4e80dc3f6d64d1280ee4bffcdd27315e1be489939dfd9033",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE101710_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_43584b306a996d1cbd",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE101710_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:00.438348+00:00",
+    "sha256": "cdb0ddb3ae0786c989070990fc8762fbe0cfb69374fe87923fa87f68156b0cf6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE169159_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_2a49aea9c49bb1c213",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE169159_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.111104+00:00",
+    "sha256": "31aec26fe17b2cb5944343658be1054181603bcf9033ceab790a11017878585c",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE190001_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_69b04897f3e2fd121c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE190001_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.111621+00:00",
+    "sha256": "9703bf76884ea08c6feef6daef0a28127ecd7925c5f661230e7d00165b3d06db",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE190747_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fc9d05a4050231e352",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE190747_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.130597+00:00",
+    "sha256": "15d7d4d8b9a896298091dfd83e3dd6adac68eb91e7ddcec8fe2822ea3abe82c6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE194378_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_2c0f70bf57a401db12",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE194378_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.724423+00:00",
+    "sha256": "626bf39c3cf02456aebaf8b83cb3e1907686397d040b03be27b6e4dbd51170c6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE199750_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_95a23e499110909c8a",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE199750_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.729391+00:00",
+    "sha256": "03545e472e355e6042c5bf246a98070028c9e5b89b02d8a2a0a8b34503af9165",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE201533_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_90e744d37195cd3a27",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE201533_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:01.730191+00:00",
+    "sha256": "290f2ec6cd927a5fb7a14a5b8041215b30cc65eee66d6a38801f136c9719b521",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE201642_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_57dee780cb230e8b9f",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE201642_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:02.396811+00:00",
+    "sha256": "5af7f411356231de3c198099586c499ab0ee6a9f823d542bd38dfe59014206ab",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE207750_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_cf61423ea359773063",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE207750_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:02.397553+00:00",
+    "sha256": "226f66371c507e7f42c060b14a6511b406c1575de1a44f488baaf1543b0d7ed2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE230494_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_c4e8e94f8bdc1d7692",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE230494_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:02.400807+00:00",
+    "sha256": "875a42ce9496e0e79eb6ff027179fb6bb4b0f96b6d6c0ffb860c9e885047e547",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE246525_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_ce0d795e4af15089f4",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE246525_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.026515+00:00",
+    "sha256": "e6e30b4949d8204553d57047e1aa3fd1dcc3c992b2c709ad04d3f5a253ac03d6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE246937_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_e44f2d16c22f02eb4c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE246937_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.039808+00:00",
+    "sha256": "1160279a0c3aa791d1711ca5710a86dd0f084d518e957c246ec3d8c314dce40c",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE250023_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_afa755476ca841c3c2",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE250023_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.093674+00:00",
+    "sha256": "3421e129084ba528716cfd2493df47c0d78d6d90399ab9e3ec24c12c97109ed5",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE29614_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fedf82853bbb64ec8f",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29614_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.628550+00:00",
+    "sha256": "8de590fc6ac85090023ad3b62c0537be42b61de5e35a3e888cd5472a6ec3b786",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE29615_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_69bc7bddd1f25d7259",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29615_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.628061+00:00",
+    "sha256": "d169c37674786e19c0f35bd4f8460c76761f775f9bdee4523857c02933bd2c58",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE29617_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_07c8e5dc02c6972014",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29617_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:03.650578+00:00",
+    "sha256": "8786f27d6d5be1fb773dface596a2a9907650d2bef540fe6f26aa14949c6efc4",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE41080_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_af90ba98327c31bdb5",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE41080_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.246869+00:00",
+    "sha256": "6066e1ad3a5c9884b3d5579a10be2615a4c6f4d0bf5aae9755e368e20efa1edb",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE45735_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_eb84611727ac038cc6",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE45735_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.247639+00:00",
+    "sha256": "042579326faffb5d01290d7ba0ce61ea18a0b9418657d0a50110736376f270dd",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE47353_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_9b775f8a009a679cc2",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE47353_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.250284+00:00",
+    "sha256": "639362dfa2ded928411d43ced7b584176d81535c8e2992b8ae7bccfab6003b10",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE48018_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_02d8f3006d654a6370",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48018_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.896030+00:00",
+    "sha256": "e475edc8c53a6cec39328382dec9fa9ad09e238a18d90a55c17cfafb326d7c11",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE48023_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_0eae2e2456689fe7ab",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48023_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.894665+00:00",
+    "sha256": "120bffb4d342b1239767f2a2668480800a57c5dcf3eea3b348c429599854a3cc",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE48762_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_80016febd8d9e940b1",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48762_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:04.896674+00:00",
+    "sha256": "62a5ca00967e79a786e6985f4b980b67f4a174fc35dd2c196d91a0c36bdc9415",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE59635_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_50097e6ceecfc3d14c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59635_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:05.437420+00:00",
+    "sha256": "76b63892649911b466b1e5fae2d0e0a77038e1c115e71d76d405e3225fbd810b",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE59654_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_80fbcbeacc424a07b9",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59654_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:05.439052+00:00",
+    "sha256": "15bebbf192279d7737032859582eeda360cc086a29cdc1aa9531e3964ad860cd",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE59743_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_b7812840366c003361",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59743_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:05.462644+00:00",
+    "sha256": "4c156bfad95a708bff9330fec5d2ef1747df76de09af1ebd660b46b4df810794",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE68310_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_3a4392c45ee2c0b806",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE68310_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:05.972106+00:00",
+    "sha256": "6bff02566307a7a6da42e1a44aae156f76521ab97ab85c221cc4fed3ed2a81c6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE74811_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_8b8d31195fbbd16843",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74811_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:06.024846+00:00",
+    "sha256": "8f2d9e8a16d60cb617c13875d7c47f5a1bae426cd0e963eed10f2b37b8e50271",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE74813_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_b7bd829fb31358a372",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74813_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:06.034792+00:00",
+    "sha256": "5756751989fc078483c77056895a8ed88ae3fbd2ac07f03b232d9a4a00474cc7",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE74815_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_522aa5a7a590abd1f1",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74815_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:06.519121+00:00",
+    "sha256": "a1cac08add870ee5adc0b822ca963e0c4b1a08f3b02b66b030680279f860f624",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/GSE74816_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_880807e65aaaf8f29c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74816_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:06.597651+00:00",
+    "sha256": "27a2c56e9fad3426fd4022c5453c3d4706eb47f4bc58f5a38264d3eb3886c6e6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/SDY112_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_bef93e34e8effb4fc6",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY112_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:06.598643+00:00",
+    "sha256": "2c7690b20f78e00bb79abb477bec3016b74e815f6cb9b6f9c542697e732ed9d5",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/SDY311_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_4b6d151876860e4b28",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY311_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.218792+00:00",
+    "sha256": "45081e97178f567fafecc56dc20a400b7f949eeff2828af7efe051002118a1d6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/SDY312_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_34a254b3098c2f9459",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY312_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.305941+00:00",
+    "sha256": "0e368cab6d9dc1c4f1e9d0fd6ce270809bee6f948ba56208523ff0929b04cc1e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/SDY314_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_4fce3c78b09607b2ed",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY314_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.311689+00:00",
+    "sha256": "90a9bc1370478fa74ef5945e39b7806c636192ee2bd02eaf7a23317d5668c635",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/SDY315_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_d035f5c621f823eafc",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY315_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.743692+00:00",
+    "sha256": "22ad28cf4f49ae4690a8d78ebb68366659789b79f8ecf2c6bc2e1556b3197615",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/antibody/challenge_covid19_antibody.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fad6a11c2f37e14ac7",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/challenge_covid19_antibody.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.835048+00:00",
+    "sha256": "430f9f873e32949e38e7dd4b1ca5bc8e8f00bc725973e0f710312eaa310ce062",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_blood_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_1e4590d6afd36c46d0",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/E_MTAB_12993_blood_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:07.953065+00:00",
+    "sha256": "a93eef1c0ba1802b86e90a8ef3ffab4c7cee99d43bcdd12c2d033a7a65bea0eb",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_nose_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_8ebe8257ffb1de6fbd",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/E_MTAB_12993_nose_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.224439+00:00",
+    "sha256": "ec4b9971de6b83849a4c1d4560bdb5e76d282fedb7d85e1f5c7339e9c50c7493",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE101709_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fa86c17bd329a403c2",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE101709_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.346885+00:00",
+    "sha256": "f273f282b7f0dfb316514b11b82f5daa13c9c14546d8c75f4462809dfb8bb05e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE101710_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_dccc93c8a248c14c15",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE101710_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.461054+00:00",
+    "sha256": "a5f250fea3ff918b452625d38851c8b5a17e106889c33e5e9eaff4fb6f52668e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE102012_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_b6c6a7874a4ba7cb8e",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE102012_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.762914+00:00",
+    "sha256": "79245359ec97525c19cd30714a7f2e4cff73fa5bfae8682a542da9c95a5def0d",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE107990_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_30c8e669262e1109fb",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE107990_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.847534+00:00",
+    "sha256": "ffc86c098c93efa015b213846aefd883ec5c4720bbe64d89e2a913469b2f434b",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE11348_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_9d8721f2ae9ae20b61",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE11348_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:08.975051+00:00",
+    "sha256": "3472f92333c4c32828d9f40e6150f5994dc4493a786477d3cedf45655da2350e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE117580_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_550894fd23d9c67091",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE117580_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:09.285360+00:00",
+    "sha256": "536bc7894ed63be8cc3997b902cfcc64380c3b95da6c9198a5d4bc9dcf3a2bf2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE155237_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_89d0490a31b14b1ff2",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE155237_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:09.344262+00:00",
+    "sha256": "34a95dd819e24b138ff8bb422c574f9257b3c48166d05e1f8508ba995b902519",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE169159_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_70b5af4e7dcc893642",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE169159_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:09.592450+00:00",
+    "sha256": "04fb7428b41eee2a928b0b5617b8b393e4178c999c4f8cf71f4602ded57e361b",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE190001_BOOST_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_8f65ffea7df53288c6",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190001_BOOST_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:09.774681+00:00",
+    "sha256": "1abb26b844d6e849f8bc7e049dadfc69fb3662bbb79387441b5c7c95540313be",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE190001_PRIME_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_99ccb4065520fd7686",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190001_PRIME_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:09.877931+00:00",
+    "sha256": "e8660d9cf2ef9db5e1c25ff9e0237f1a019f985368f932cbbc02dfa7af09341d",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE190747_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_323b38f0f5faade702",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190747_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.130734+00:00",
+    "sha256": "c74cb30d0b0affc1939ebc9cf32bdf8c6d2250677f8af206150c8f1354b96562",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE194378_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_ab677b43503ff7cb0b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE194378_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.406878+00:00",
+    "sha256": "e22d6cf0b21ca5bc20f570d6b2b996bf8b3dd204967fbee6b8582238ec7cc960",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE199750_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_1b4758fd3cea8e9d9d",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE199750_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.409383+00:00",
+    "sha256": "9e0477f016f460dec56ac4379b064a678795e0ba345663c797c7149d7ae60467",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE201533_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_7aafe08f24c72e55dd",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE201533_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.682225+00:00",
+    "sha256": "d25dc631cfc13f375c1882deb867ed4dbfc5b65aa9a649df01caeb94ddbb5751",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE201642_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_e5f7bdfd543c1c770a",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE201642_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.921626+00:00",
+    "sha256": "d33202bdf493de7650294c63eb15e5aa4097943b17e12f8c5b04508cfb32db5c",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE207750_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_066dbb77d8dc0ea7dd",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE207750_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:10.940224+00:00",
+    "sha256": "52a2620f2694f8e3f9bc352465dac7a4b7db60cfc342ff76cc7290f8f51094c1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE209985_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_354f4f1caa6d813637",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE209985_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.286101+00:00",
+    "sha256": "bfcd9848d74ec45a1a03de84db619b845eb119ed0d15636e664eb50a7fc65074",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE217770_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_7131cc942176d64a5f",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE217770_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.440180+00:00",
+    "sha256": "80892c7b3d00b7f56f3c8fa8a99b12a3292115b39113d65f47d52abfc4dba989",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE220682_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_189e9f2a8d742ac68f",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE220682_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.457853+00:00",
+    "sha256": "4f5082f911ff542c06ea21df78b704122265bd1e51f7398c9896575085e595f8",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE228839_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_c295e5c2124d1cd9de",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE228839_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.837408+00:00",
+    "sha256": "3192d91b440aff85d7fa3c8c8ae95902619203b031bc7c903b7a20b5dc7f1cc7",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE230494_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_6620be8ccefa2305c8",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE230494_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.977516+00:00",
+    "sha256": "fbfda2b11749729a509b142174501eea19b8343744e991a071ce114ac6083486",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE246525_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_c7d96fc0e0ef8af012",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE246525_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:11.983024+00:00",
+    "sha256": "c4c215b3581fa957347b0880e419b5daa95915989322508ecc7a92aecfc1671c",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE247401_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_cd457b4996abc48989",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE247401_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:12.438473+00:00",
+    "sha256": "f7b9e7d18d13e6212f56dc8ee73cc812287284fe099e96bd15fcfe31cfcb08c2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE250023_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_f507d39208a6c4c6a9",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE250023_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:13.052018+00:00",
+    "sha256": "26ba6842f7b2078b11181cb88e8f9f3e9386a3272a2dd2ba4a56d9a3c5722d1f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE265975_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_6a68bc16e0538df98c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE265975_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:13.060912+00:00",
+    "sha256": "2e5cf8c9d880750380097ddb4da68103fd60ebaf89ede8e05e20b9da4340fdf0",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE276544_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_4ec343e333002060ae",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE276544_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:13.575260+00:00",
+    "sha256": "3900da6b99605da119d31da40ef011c849c68db11a8c3f8a3afd4762c8555f7f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE281864_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_79975e3400eb9aece4",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE281864_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:14.520412+00:00",
+    "sha256": "7240d8471bd7992273acf21b5a5cfdbc03f817c0be92e4653550af495f381f89",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE29614_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_60e6c65fb9fd3f563c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29614_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:14.523758+00:00",
+    "sha256": "b061ec8f3f7c4aa692583a413534582422da98be310f238f38ffff8eabff4c83",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE29615_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_fe6aaa6c5e2ce8e1fa",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29615_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:15.049539+00:00",
+    "sha256": "2be094f496d64111a3b332dbe04f79b55cd403cc816cb5112fab945b967071a0",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE29617_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_8ad1a570e14cb2ef5e",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29617_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:15.681991+00:00",
+    "sha256": "892ac08ca8a2eb7dde3bb4413f82b4bd01b451d9de88d073a5e3efe3a0c3d8e9",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE41080_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_597835caabfc0f639f",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE41080_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:15.698908+00:00",
+    "sha256": "fe3574a3de8a74adb131d996adc41c9b811abecd4f99c66b9f53cf070ab742ca",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE45735_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_598b123af747d3474c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE45735_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:16.188488+00:00",
+    "sha256": "8adbee886bc7cf9fabb284eaf97f750004bac6dbb87c624b5a22312e489954bd",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE47353_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_c49a9564f67eabf035",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE47353_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:17.144601+00:00",
+    "sha256": "a6ec46654fd132bba76f250b05fab3970800fb002d8482ccd7b7caed1782c8d1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE48018_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_566d78e668fc18fa63",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48018_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:17.144667+00:00",
+    "sha256": "3d57061fad0596378712d63fe03a8ad707ceb85d85474c2abbf928e232db1cab",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE48023_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_97782eb318c119f07c",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48023_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:17.471747+00:00",
+    "sha256": "5b32336659eb680bcdce6bff835f3955081477c1990c9face8172fc4eb5d0f4e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE48762_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_a303da4961d3eeda0b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48762_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:17.826500+00:00",
+    "sha256": "36cb32593c4cf865245d439fc123be21ccf9cb4e609e7251888416af8d6e2947",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE52005_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_f24c362f6988c87210",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE52005_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:17.827081+00:00",
+    "sha256": "fcf6b617995a703f7a07929821a0d364514d63dbb5b387046cada533eca7d71f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE59635_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_e40086c9476e35003a",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59635_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:18.105394+00:00",
+    "sha256": "fbd5ab4e62b252d4e76670f77da9ddc2fb33a9051e91be6c033a00e0761e28b4",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE59654_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_11723ef2245d2eed16",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59654_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:18.519950+00:00",
+    "sha256": "f427937f080f98795fdd04d877c379d4624073755f4c3362f360790df124f4f6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE59743_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_063c3bb48722b541d7",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59743_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:18.520673+00:00",
+    "sha256": "18e7185866d904220d963f7e569a660ed9074493ef3beac6947ff2d2e8779991",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE61754_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_59dba498e409ebd5cd",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE61754_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:18.716861+00:00",
+    "sha256": "30e834f64e01e08a898a03f1b345f856941b36e15463aa7de535d789e21c26f4",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE68310_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_3f7abdbbd5fa2e8b8a",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE68310_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.069432+00:00",
+    "sha256": "db47529e3ff2f895964322bebf6f8d14cfb009032102399ab54de5f6ac3ec4ea",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE3_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_b8cdf5ce96480d6b30",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H1N1_DEE3_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.148459+00:00",
+    "sha256": "56e4dea1a5fa22734e6dce58d2f3ef10b7a61bcc3e951ba29bdeb094f2f94b44",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE4_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_d0ee3ca1807ebfc464",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H1N1_DEE4_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.261201+00:00",
+    "sha256": "2c9150bb9d7c05851b8990ed8883605e3d7b7099e4953f8380c493888675ef9a",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE2_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_317328050c3ed4d5a2",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H3N2_DEE2_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.680014+00:00",
+    "sha256": "479253263706aac45790e8214b8a6cf2a8f8bff58dcdfa7b2dfd7713459d7ff4",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE5_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_08ee382d4b8f5a322b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H3N2_DEE5_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.766241+00:00",
+    "sha256": "6dfa873c8b0375604faf9c2ec6c84e9c3047718bd41fce4816769343f317366d",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_DUKE_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_d47bf6fde23168a117",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_HRV_DUKE_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:19.907347+00:00",
+    "sha256": "22de955990148bed48874c3255d9f632ea034148ded51edca5676990892c0f34",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_UVA_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_a274a5d48c8654982b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_HRV_UVA_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:20.295800+00:00",
+    "sha256": "41eb2dc4228d066dbbf651a4642bb01fc7332bdb0827d30009a49a825a81bc4e",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_RSV_DEE1_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_40a5f79a4e100df72e",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_RSV_DEE1_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:20.296175+00:00",
+    "sha256": "1ef82657bc3b89ed80ea82077f5462797ec70a19272df6cd3fc65007a0aac5f0",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE74811_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_da2037fd5c5cd925db",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74811_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:20.493453+00:00",
+    "sha256": "195e3830cd6cb88c8b89b066e7b4ab227f5cefa4b5992db30abd6f96a896d30d",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE74813_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_b3d7eeaeaf48979197",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74813_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:20.822732+00:00",
+    "sha256": "e6d18b941fe773ecc2ca8f3cd24e0c87058b8b70332ef73737a524a37bca468a",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE74815_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_672f5e6fc150577e2b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74815_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:20.825091+00:00",
+    "sha256": "d2c5af6b7382847a04db113394c2f626be0a75a85e9851cdca8e3dad631a4d68",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE74816_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_e482f7f701ef6b3e19",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74816_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:21.141118+00:00",
+    "sha256": "932abc70fd238655a926ee1b1041d9e6cfcb47129b5922f4bace4612f3e5f5f1",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/GSE90732_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_3c27c34a968bb2d318",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE90732_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:21.447903+00:00",
+    "sha256": "c6c7ad6fd50d8cc87a26e30e81484be71f6fbcf4563b220b3257a1dbf90a33f2",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/SDY112_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_75c9ff1a5c7537e641",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY112_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:21.465084+00:00",
+    "sha256": "698e27df15143eeb45186f9b26ac9b8d373fb90b3451c779cbdfd6ec52c3bfc6",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/SDY311_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_ad90e6e7a2f5f795ad",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY311_meta.csv"
+  },
+  {
+    "evidence_status": "public_metadata_snapshot",
+    "retrieved_on": "2026-09-14T18:02:21.864977+00:00",
+    "sha256": "ced6b18e96d892b82a4752946b2732a9b2703faa98412f41a484fbf4373af73f",
+    "snapshot_path": "data_dictionary/sources/hr_vilage/meta/SDY315_meta.csv",
+    "source_group": "hr_vilage",
+    "source_id": "SOURCE_c72b679874eff7222b",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY315_meta.csv"
+  },
+  {
+    "catalog_record_id": "FLU:GSE17156",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "49d4b42999e54dc4f1390cb6310b697a6f7fa238d540b240be747d549b401593",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE17156.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_bb73b4a535b3d13753",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17156",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE30550",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "64a2fc66d165aec5ff95b8bf2b8d5b9de6a7062ef3ddbd2906bde344713c75b3",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE30550.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_a0f57d2b57fe1dcd34",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30550",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE52428",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "21ab50213d9f429fd48b2629e26af77600a265f26b5fa574b3704f3fe04cc4af",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE52428.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_96290e0f4d06e2e667",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52428",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE61754",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "fd4a7fb55baa713d620b48424f5167c4ba6f64069a83207ce9db1a5d9abb39f1",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE61754.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_917b4d49bf58126cb2",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61754",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE73072",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "3d5bf0ec45b8b1551d9e14128ea54bf5fbcc661d3d7171cd93dc078e3f764c02",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE73072.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_671014cdead8592650",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE90732",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "66c09e9ba3fcd0511faaa466f656ed73e3e91eccba16c18b3edd02119ea6c2f5",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE90732.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_932338226c5f75f924",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90732",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE118223",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "75f99150fc44683ee1e0a52a9e56cb1980351c8aa7ee5955d926b346f0e7e399",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE118223.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_640b9025da9a2c5f15",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118223",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE175551",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "c1582c4f6b50be5611f45fb1f1b948bfb2106300381ae95235f1008fdafd7faf",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE175551.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_3564a580740afbe804",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175551",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE175551",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "3b5da66ffdc7a8aa7a7cddb20c7cb6e43cffb6393b6ec1e633f06f9ee1b926cd",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSM5341480.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_8397514de39141944a",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175551",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE299820",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "88d632d8a76448eef45370bc6740ab46a3f9f8fd33d6ecd235aaffbe6ae323e6",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE299820.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_6fdb057e8e41739ff3",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299820",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE299820",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "db42ee0b8ea70f1d2aa0e836f7111d386eaa13bba525de3ae8ac0541cbc45795",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSM9046530.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_05397c564608067c06",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299820",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE111368",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "5f8eb2c3f1cd766930a9306974fca1a5a5d5c453101ea9fcd67b64bfa217875a",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE111368.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_97543bb95066d95bf4",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111368",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE68310",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "a13cdc07bb27c197d0a45ed1ed9946e8715c87a59c86f389152fb1d076dfbd3e",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE68310.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_61513facc715ae2b8a",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68310",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE194378",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "865542aa9f411db4f216337c7ecb0b43210059063796b5b1bd20e686e7132159",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE194378.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_189f4a6596f82b379b",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194378",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE117580",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "dc320992158e2806c7f86a8d7b8bf2e50c144cb3f95e59250f41a70241be2b8a",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE117580.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_276a1b7b080b253385",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117580",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13038",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "3f2b3093ffdf6d59a0742bcb93841b127bb3be95040d3c814ac5a9b6982c291c",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/E-MTAB-13038.json",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_501aeb469121c591b0",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13038",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13038",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "e60f31e49350f3b555ed09b2c88d7479097fd45666abd8cd0ad11b46c34c6e22",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC11608262.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_fa068e919085d6bfd6",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13038",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13038",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "937676aee9168d8a0f0cf3349a1fe5649ce71204f0e9f01047aed3a6755dab98",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC13375583.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_2a87733de70d5190b7",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13038",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13041",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "37dfa0c02b79432699ba008f0b419f423e0b605f7b681117f9522bce1d037a81",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/E-MTAB-13041.json",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_93d403b71a4bc167f7",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13041",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13041",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "e60f31e49350f3b555ed09b2c88d7479097fd45666abd8cd0ad11b46c34c6e22",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC11608262.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_9dc2a038fac2212aa2",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13041",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-13041",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "937676aee9168d8a0f0cf3349a1fe5649ce71204f0e9f01047aed3a6755dab98",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC13375583.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_633ba529787b41e331",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13041",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:EGAD50000000956",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "28b90424bd8b1c0d6d1ea8271eac505267f0ee034071e7b7ece685c712f8d46d",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/EGAD50000000956.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_bac40b98582b507d1d",
+    "url": "https://ega-archive.org/datasets/EGAD50000000956",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:EGAD50000000956",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "e60f31e49350f3b555ed09b2c88d7479097fd45666abd8cd0ad11b46c34c6e22",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC11608262.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_47310921364772eaea",
+    "url": "https://ega-archive.org/datasets/EGAD50000000956",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:FR-FCM-Z2NZ",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "41017f6e94ed0f778b0e494260090a3808fea175c6b70524e1860e1004c5d1bf",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/JCI137265.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_c9742f1aa6305cf718",
+    "url": "https://flowrepository.org/id/FR-FCM-Z2NZ",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:MCILWAIN2021_CHALLENGE",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "2b984856aa0d7684f45b0cb26198fda99fa7fc60b3ad09c5a279ccfe611b0045",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC8665113.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_53515af7bf022fb05d",
+    "url": "https://doi.org/10.1016/j.chom.2021.10.009",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:BURKE2017_NPL",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "33af29aa4612bcc4f9a24ee2870bc53b7d880a0e2c2a74ae1fee3d12a7d093ef",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC5360578.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_03c4013c491275443a",
+    "url": "https://doi.org/10.1016/j.ebiom.2017.02.015",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:FLU_DAY_PREDICTION2026",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "f88f72e7a872ee39ad4501591aa07a07920824f08abd86e942d420a90504bc1d",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC13044454.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_061b8688ff0ec056b6",
+    "url": "https://doi.org/10.3389/fimmu.2026.1787198",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:IMPERIAL_H3N2_MULTIMODAL2026",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "937676aee9168d8a0f0cf3349a1fe5649ce71204f0e9f01047aed3a6755dab98",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC13375583.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_c665749a3c814b993f",
+    "url": "https://doi.org/10.1038/s41591-026-04483-7",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE253685",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "af3e6f8f0a213f563260d82082694b0bf09f57dd9875c04bef3f01a5e6713aab",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE253685.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_0bbf3f37cf41c6b0d4",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253685",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE253685",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "28948ef095a4547aeb65706fd901b66fad7a905a1e20f68b77cc25c8db97e8e6",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC12375958.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_ff4c4d1c78c2e3ce30",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253685",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE253686",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "167e67ff442c5ede590a4b313edb71839bca5cd7efb3e25467e0f8c7470c31ef",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/GSE253686.soft.txt",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_bca2d068db083cd0d7",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253686",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:GSE253686",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "28948ef095a4547aeb65706fd901b66fad7a905a1e20f68b77cc25c8db97e8e6",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC12375958.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_895a867d67151a0972",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253686",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:KAW2025STM",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "28948ef095a4547aeb65706fd901b66fad7a905a1e20f68b77cc25c8db97e8e6",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC12375958.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_e539d756e520ddcd99",
+    "url": "https://doi.org/10.21417/KAW2025STM",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:KAW2025STM",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "f646a73673768c592485e65a1955c11be84df213d6f5b419378f591c8358c2cd",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/KAW2025STM.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_0d8792f000bbab5191",
+    "url": "https://doi.org/10.21417/KAW2025STM",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:WALTERS2025_IMMUNE",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "28948ef095a4547aeb65706fd901b66fad7a905a1e20f68b77cc25c8db97e8e6",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC12375958.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_ec17dd6648b60c4971",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12375958/",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:SRP091397",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "958f1a1040292570eebb8fff7c9ac4bb2f900fa6c8085cd439c0517121511f27",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC5126380.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_ca20e1d638904ce1e5",
+    "url": "https://www.ncbi.nlm.nih.gov/sra?term=SRP091397",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:SRP091397",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "207c715e471e861d328810bbf39ad7a9e1b8b4ced5312442d8c89aab2df89514",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/sra_viral_summaries_all.json",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_798c3c3c3037d3de4b",
+    "url": "https://www.ncbi.nlm.nih.gov/sra?term=SRP091397",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:PRJNA528931",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "29368fcf3534713270b637816de2e22c124a46907c629fb73091615b94a3e17c",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC6652224.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_cf8e674942985364f2",
+    "url": "https://www.ncbi.nlm.nih.gov/sra?term=PRJNA528931",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:PRJNA528931",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "207c715e471e861d328810bbf39ad7a9e1b8b4ced5312442d8c89aab2df89514",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/sra_viral_summaries_all.json",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_82f4adfd6892a9c05c",
+    "url": "https://www.ncbi.nlm.nih.gov/sra?term=PRJNA528931",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-15137",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "af6a702e863cc71c698cec662f29f8fb1c51fd3cb5034a5792a062c2398c7258",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/E-MTAB-15137.json",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_50559cfb17ea56721d",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15137",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:E-MTAB-15137",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "a88a2f28e4054ab7f64391cffc21f1ff05beb47a80f9f4c50e318224c00be642",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/INFLUENZA_BCG2026.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_783ac37f6150bf45c5",
+    "url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15137",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:EGAD50000002407",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "b3ad35464eab9db11e3851d227e8cf1c2704a591ed6560c1ad14d9639185b35e",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/EGAS50000001677.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_02c333699b9562bcdd",
+    "url": "https://ega-archive.org/datasets/EGAD50000002407",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:EGAD50000002407",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "a88a2f28e4054ab7f64391cffc21f1ff05beb47a80f9f4c50e318224c00be642",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/INFLUENZA_BCG2026.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_4fc8b461ebd5bb4a3b",
+    "url": "https://ega-archive.org/datasets/EGAD50000002407",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  },
+  {
+    "catalog_record_id": "FLU:MCCLAIN2016_CYTOKINES",
+    "evidence_status": "source_checked_catalogue_pending_review",
+    "retrieved_on": "2026-09-14",
+    "sha256": "453c1eac0d25e18d9460aaa3acbd3837c509399fd6078e7a50c157b7e3b538e0",
+    "snapshot_path": "data_dictionary/sources/influenza/snapshots/PMC4750592.html",
+    "source_group": "Influenza primary sources",
+    "source_id": "SOURCE_70c8a2460253447892",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750592/",
+    "url_role": "record landing page; individual evidence URLs remain in source record citations"
+  }
+]

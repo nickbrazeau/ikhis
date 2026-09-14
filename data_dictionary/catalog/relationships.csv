@@ -1,0 +1,152 @@
+basis,evidence_record,from_id,interpretation,relationship,source_path,source_statement,to_id
+HR study_citations transcriptomic_data_link,,HR:GSE68310,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE68310
+HR study_citations transcriptomic_data_link,,HR:GSE194378,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE194378
+HR study_citations transcriptomic_data_link,,HR:GSE74811,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE74811
+HR study_citations transcriptomic_data_link,,HR:GSE74813,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE74813
+HR study_citations transcriptomic_data_link,,HR:GSE74815,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE74815
+HR study_citations transcriptomic_data_link,,HR:GSE74816,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE74816
+HR study_citations transcriptomic_data_link,,HR:GSE48023,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE48023
+HR study_citations transcriptomic_data_link,,HR:GSE48018,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE48018
+HR study_citations transcriptomic_data_link,,HR:GSE41080,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE41080
+HR study_citations transcriptomic_data_link,,HR:GSE59743,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE59743
+HR study_citations transcriptomic_data_link,,HR:GSE59654,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE59654
+HR study_citations transcriptomic_data_link,,HR:GSE101709,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE101709
+HR study_citations transcriptomic_data_link,,HR:GSE59635,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE59635
+HR study_citations transcriptomic_data_link,,HR:GSE101710,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE101710
+HR study_citations transcriptomic_data_link,,HR:GSE47353,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE47353
+HR study_citations transcriptomic_data_link,,HR:GSE190001_PRIME,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE190001
+HR study_citations transcriptomic_data_link,,HR:GSE190001_BOOST,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE190001
+HR study_citations transcriptomic_data_link,,HR:SDY311,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,SDY311
+HR study_citations transcriptomic_data_link,,HR:SDY112,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,SDY112
+HR study_citations transcriptomic_data_link,,HR:SDY315,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,SDY315
+HR study_citations transcriptomic_data_link,,HR:GSE207750,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE207750
+HR study_citations transcriptomic_data_link,,HR:GSE246525,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE246525
+HR study_citations transcriptomic_data_link,,HR:GSE201533,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE201533
+HR study_citations transcriptomic_data_link,,HR:GSE190747,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE190747
+HR study_citations transcriptomic_data_link,,HR:GSE199750,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE199750
+HR study_citations transcriptomic_data_link,,HR:GSE169159,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE169159
+HR study_citations transcriptomic_data_link,,HR:GSE29614,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE29614
+HR study_citations transcriptomic_data_link,,HR:GSE29615,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE29615
+HR study_citations transcriptomic_data_link,,HR:GSE29617,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE29617
+HR study_citations transcriptomic_data_link,,HR:GSE48762,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE48762
+HR study_citations transcriptomic_data_link,,HR:GSE45735,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE45735
+HR study_citations transcriptomic_data_link,,HR:GSE201642,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE201642
+HR study_citations transcriptomic_data_link,,HR:GSE250023,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE250023
+HR study_citations transcriptomic_data_link,,HR:GSE246937,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE246937
+HR study_citations transcriptomic_data_link,,HR:E_MTAB_12993_nose,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,E-MTAB-12993
+HR study_citations transcriptomic_data_link,,HR:E_MTAB_12993_blood,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,E-MTAB-12993
+HR study_citations transcriptomic_data_link,,HR:GSE11348,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE11348
+HR study_citations transcriptomic_data_link,,HR:GSE61754,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE61754
+HR study_citations transcriptomic_data_link,,HR:GSE90732,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE90732
+HR study_citations transcriptomic_data_link,,HR:GSE155237,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE155237
+HR study_citations transcriptomic_data_link,,HR:GSE73072_H1N1_DEE4,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_H1N1_DEE3,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_H3N2_DEE2,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_H3N2_DEE5,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_HRV_DUKE,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_HRV_UVA,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE73072_RSV_DEE1,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE73072
+HR study_citations transcriptomic_data_link,,HR:GSE117580,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE117580
+HR study_citations transcriptomic_data_link,,HR:GSE220682,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE220682
+HR study_citations transcriptomic_data_link,,HR:GSE228839,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE228839
+HR study_citations transcriptomic_data_link,,HR:GSE276544,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE276544
+HR study_citations transcriptomic_data_link,,HR:GSE209985,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE209985
+HR study_citations transcriptomic_data_link,,HR:GSE247401,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE247401
+HR study_citations transcriptomic_data_link,,HR:GSE265975,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE265975
+HR study_citations transcriptomic_data_link,,HR:GSE102012,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE102012
+HR study_citations transcriptomic_data_link,,HR:GSE217770,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE217770
+HR study_citations transcriptomic_data_link,,HR:GSE230494,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE230494
+HR study_citations transcriptomic_data_link,,HR:GSE52005,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE52005
+HR study_citations transcriptomic_data_link,,HR:GSE107990,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE107990
+HR study_citations transcriptomic_data_link,,HR:GSE281864,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE281864
+HR study_citations transcriptomic_data_link,,HR:EMTAB10026,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,E-MTAB-10026
+HR study_citations transcriptomic_data_link,,HR:GSE201534,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE201534
+HR study_citations transcriptomic_data_link,,HR:GSE247917,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE247917
+HR study_citations transcriptomic_data_link,,HR:GSE195673,,derived_study_subset_of_source_record,data_dictionary/sources/hr_vilage/study_citations.csv,,GSE195673
+,GSE17156,FLU:GSE17156,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA119759,
+,GSE17156,FLU:GSE17156,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke/DARPA challenge series may reuse participants or arrays across these accessions. Do not sum independent cohorts without matching original subject/sample identifiers.,
+,GSE30550,FLU:GSE30550,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA144467,
+,GSE30550,FLU:GSE30550,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke/DARPA challenge series may reuse participants or arrays across these accessions. Do not sum independent cohorts without matching original subject/sample identifiers.,
+,GSE52428,FLU:GSE52428,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA228916,
+,GSE52428,FLU:GSE52428,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke/DARPA challenge series may reuse participants or arrays across these accessions. Do not sum independent cohorts without matching original subject/sample identifiers.,
+,GSE61754,FLU:GSE61754,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA262041,
+,GSE73072,FLU:GSE73072,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA296033,
+,GSE73072,FLU:GSE73072,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke/DARPA challenge series may reuse participants or arrays across these accessions. Do not sum independent cohorts without matching original subject/sample identifiers.,
+,GSE90732,FLU:GSE90732,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA355641,
+,GSE118223,FLU:GSE118223,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA484974,
+,GSE175551,FLU:GSE175551,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA732702,
+,GSE299820,FLU:GSE299820,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1276569,
+,GSE299820,FLU:GSE299820,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT03883113,
+,GSE111368,FLU:GSE111368,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA436726,
+,GSE68310,FLU:GSE68310,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA282415,
+,GSE194378,FLU:GSE194378,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,SubSeries of: GSE222128,
+,GSE194378,FLU:GSE194378,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA800394,
+,GSE194378,FLU:GSE194378,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP356674,
+,GSE117580,FLU:GSE117580,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA482564,
+,GSE117580,FLU:GSE117580,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP154984,
+,E-MTAB-13038,FLU:E-MTAB-13038,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAD50000000956,
+,E-MTAB-13038,FLU:E-MTAB-13038,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT02755948,
+,E-MTAB-13038,FLU:E-MTAB-13038,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT04204993,
+,E-MTAB-13038,FLU:E-MTAB-13038,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"Nasal/blood records overlap Imperial H3N2 challenge cohorts and 2024/2026 publications; they are modalities of related cohorts, not independent studies.",
+,E-MTAB-13041,FLU:E-MTAB-13041,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAD50000000956,
+,E-MTAB-13041,FLU:E-MTAB-13041,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT02755948,
+,E-MTAB-13041,FLU:E-MTAB-13041,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT04204993,
+,E-MTAB-13041,FLU:E-MTAB-13041,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"Nasal/blood records overlap Imperial H3N2 challenge cohorts and 2024/2026 publications; they are modalities of related cohorts, not independent studies.",
+,EGAD50000000956,FLU:EGAD50000000956,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAS50000000679,
+,EGAD50000000956,FLU:EGAD50000000956,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,E-MTAB-13041,
+,EGAD50000000956,FLU:EGAD50000000956,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,E-MTAB-13038,
+,EGAD50000000956,FLU:EGAD50000000956,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Raw blood modality of the Imperial H3N2 challenge; not an extra independent cohort.,
+,FR-FCM-Z2NZ,FLU:FR-FCM-Z2NZ,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT04106817,
+,FR-FCM-Z2NZ,FLU:FR-FCM-Z2NZ,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Reanalyzed as Study A in 2026 Flu-Day-Prediction paper.,
+,MCILWAIN2021_CHALLENGE,FLU:MCILWAIN2021_CHALLENGE,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT02918006,
+,MCILWAIN2021_CHALLENGE,FLU:MCILWAIN2021_CHALLENGE,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Parent vaccine-challenge trial from Liebowitz et al.; related cohort reused by 2026 Flu-Day-Prediction.,
+,BURKE2017_NPL,FLU:BURKE2017_NPL,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke challenge participants overlap the GSE73072 research programme; do not count as independent transcriptomic validation without sample crosswalk.,
+,FLU_DAY_PREDICTION2026,FLU:FLU_DAY_PREDICTION2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,FR-FCM-Z2NZ,
+,FLU_DAY_PREDICTION2026,FLU:FLU_DAY_PREDICTION2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,MCILWAIN2021_CHALLENGE,
+,FLU_DAY_PREDICTION2026,FLU:FLU_DAY_PREDICTION2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT04106817,
+,FLU_DAY_PREDICTION2026,FLU:FLU_DAY_PREDICTION2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT02918006,
+,FLU_DAY_PREDICTION2026,FLU:FLU_DAY_PREDICTION2026,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Reuses NCT04106817 (Rahil2020) and NCT02918006 (Liebowitz2020) cohorts; no new independent challenge cohort.,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT02755948,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT04204993,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAD50000000956,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,E-MTAB-13038,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,E-MTAB-13041,
+,IMPERIAL_H3N2_MULTIMODAL2026,FLU:IMPERIAL_H3N2_MULTIMODAL2026,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Same Imperial challenge programme as 2024 Rosenheim biomarker analysis; preserve cohort and specimen crosswalk.,
+,GSE253685,FLU:GSE253685,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT01971255,
+,GSE253685,FLU:GSE253685,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,KAW2025STM,
+,GSE253685,FLU:GSE253685,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,WALTERS2025_IMMUNE,
+,GSE253685,FLU:GSE253685,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"PBMC and nasal arrays, repertoire and protein/antibody profiles are paired modalities from the same challenge study; do not count as separate participant cohorts.",
+,GSE253686,FLU:GSE253686,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT01971255,
+,GSE253686,FLU:GSE253686,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,KAW2025STM,
+,GSE253686,FLU:GSE253686,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,WALTERS2025_IMMUNE,
+,GSE253686,FLU:GSE253686,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"PBMC and nasal arrays, repertoire and protein/antibody profiles are paired modalities from the same challenge study; do not count as separate participant cohorts.",
+,KAW2025STM,FLU:KAW2025STM,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT01971255,
+,KAW2025STM,FLU:KAW2025STM,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE253685,
+,KAW2025STM,FLU:KAW2025STM,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE253686,
+,KAW2025STM,FLU:KAW2025STM,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,WALTERS2025_IMMUNE,
+,KAW2025STM,FLU:KAW2025STM,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Same NIH cohort as the two GEO transcriptomic accessions.,
+,WALTERS2025_IMMUNE,FLU:WALTERS2025_IMMUNE,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,NCT01971255,
+,WALTERS2025_IMMUNE,FLU:WALTERS2025_IMMUNE,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE253685,
+,WALTERS2025_IMMUNE,FLU:WALTERS2025_IMMUNE,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE253686,
+,WALTERS2025_IMMUNE,FLU:WALTERS2025_IMMUNE,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,KAW2025STM,
+,WALTERS2025_IMMUNE,FLU:WALTERS2025_IMMUNE,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Same NIH human challenge cohort across both GEO arrays and immuneACCESS repertoire data.,
+,SRP091397,FLU:SRP091397,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,SRP091397,
+,SRP091397,FLU:SRP091397,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,PRJNA347853,
+,SRP091397,FLU:SRP091397,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Duke/DARPA H3N2 challenge series may overlap GSE30550/GSE73072; subject mapping pending.,
+,PRJNA528931,FLU:PRJNA528931,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,SRP189350,
+,PRJNA528931,FLU:PRJNA528931,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,PRJNA528931,
+,PRJNA528931,FLU:PRJNA528931,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,NIH challenge sequencing mixed with natural infection samples; mapping to other NIH cohorts requires explicit identifiers.,
+,E-MTAB-15137,FLU:E-MTAB-15137,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAS50000001677,
+,E-MTAB-15137,FLU:E-MTAB-15137,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAD50000002407,
+,E-MTAB-15137,FLU:E-MTAB-15137,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"Imperial influenza challenge cohort; longitudinal blood split into ex vivo BCG/control incubations, which are repeated conditions not independent participants.",
+,EGAD50000002407,FLU:EGAD50000002407,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,EGAS50000001677,
+,EGAD50000002407,FLU:EGAD50000002407,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,E-MTAB-15137,
+,EGAD50000002407,FLU:EGAD50000002407,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,Raw counterpart of E-MTAB-15137; same cohort and ex vivo conditions.,
+,MCCLAIN2016_CYTOKINES,FLU:MCCLAIN2016_CYTOKINES,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE30550,
+,MCCLAIN2016_CYTOKINES,FLU:MCCLAIN2016_CYTOKINES,Retained source relationship; does not establish a participant-level equivalence map.,relationships,,GSE73072,
+,MCCLAIN2016_CYTOKINES,FLU:MCCLAIN2016_CYTOKINES,Retained source relationship; does not establish a participant-level equivalence map.,cohort_reuse,,"17-subject H3N2 Duke challenge linked to previous transcriptomic work; likely overlaps GSE30550/H3N2 DEE2, require explicit crosswalk.",
+,HR audit github_readme,,Author-reported relationship; exact participant equivalence still requires a crosswalk.,author-reported overlapping duplicate cohorts,,"{""excluded_related"":""GSE52428"",""relationship"":""author-reported overlapping duplicate cohorts"",""retained"":[""GSE73072_H3N2_DEE2"",""GSE73072_H1N1_DEE4""]}",
+,HR audit github_readme,,Author-reported relationship; exact participant equivalence still requires a crosswalk.,author-reported overlapping duplicate cohort,,"{""excluded_related"":""GSE30550"",""relationship"":""author-reported overlapping duplicate cohort"",""retained"":[""GSE73072_H3N2_DEE2""]}",
+,HR audit github_readme,,Author-reported relationship; exact participant equivalence still requires a crosswalk.,author-reported overlapping duplicate cohorts,,"{""excluded_related"":""GSE17156"",""relationship"":""author-reported overlapping duplicate cohorts"",""retained"":[""GSE73072_HRV_UVA"",""GSE73072_RSV_DEE1"",""GSE73072_H3N2_DEE2""]}",
+,HR audit github_readme,,Author-reported relationship; exact participant equivalence still requires a crosswalk.,author-reported paired bulk/single-cell subjects,,"{""relationship"":""author-reported paired bulk/single-cell subjects"",""studies"":[""GSE201533"",""GSE201534""]}",
+,HR audit github_readme,,Author-reported relationship; exact participant equivalence still requires a crosswalk.,author-reported paired bulk/single-cell subjects,,"{""relationship"":""author-reported paired bulk/single-cell subjects"",""studies"":[""GSE246525"",""GSE246937""]}",

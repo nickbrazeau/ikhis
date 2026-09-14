@@ -1,0 +1,1833 @@
+{
+  "accno": "E-MTAB-13038",
+  "attributes": [
+    {
+      "name": "ReviewType",
+      "value": "DoubleBlind"
+    },
+    {
+      "name": "Title",
+      "value": "RNA-Seq of healthy adult volunteers following experimental infection with Influenza A/Belgium/4217/2015 (H3N2)"
+    },
+    {
+      "name": "DOI",
+      "value": "10.6019/E-MTAB-13038"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2026-07-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-13038"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-13038",
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "RNA-Seq of healthy adult volunteers following experimental infection with Influenza A/Belgium/4217/2015 (H3N2)"
+      },
+      {
+        "name": "Study type",
+        "value": "RNA-seq of coding RNA",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0003738"
+          }
+        ]
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "The uploaded data has been generated from the analysis of nasal scrape samples from two clinical studies registered on ClinicalTrials.gov with identifier ID NCT02755948 and NCT04204993. Primary objectives were to establish the human infection challenge model using a novel H3N2 influenza A virus (IAV, influenza A/Belgium/4217/15) at Imperial College London and to test the hypothesis that influenza lead to quantitative and functional differences in innate and T-cell responses between infected, uninfected, symptomatic and asymptomatic participants. The data is to remain private until the publishing of the relative results."
+      }
+    ],
+    "links": [
+      [
+        {
+          "url": "ERP148001",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "ENA"
+            }
+          ]
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-133622",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133622"
+            },
+            {
+              "name": "Type",
+              "value": "sample collection protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Nasal curettage samples were collected at baseline, Days 1, 2, 3, 7, 10 and 14 post-inoculation and preserved in TRIzol. These were stored at -80\u00b0C until processing."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133623",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133623"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted from nasal curettage samples using Qiagen RNeasy Mini kit (Qiagen, Hilden, Germany)."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133624",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133624"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid library construction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004184"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Strand-specific RNA sequencing library was prepared by using NEBNext Ultra II Directional RNA Library Prep Kit for Illumina (NEB, Ipswich, MA, USA). The enriched RNAs were fragmented for 8 minutes at 94 \u00b0C. The first strand and second strand cDNA were subsequently synthesized. The second strand of cDNA was marked by incorporating dUTP during the synthesis. cDNA fragments were adenylated at 3\u2019ends, and indexed adapter was ligated to cDNA fragments. Limited cycle PCR was used for library enrichment."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133625",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133625"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "The sequencing libraries were clustered on flowcells, targeting 30 million paired-end reads persample. After clustering, the flowcells were loaded on the Illumina HiSeq4000. The samples were sequenced using a 2x150bp Paired End configuration. . Image analysis and base calling were conducted by theControl software. Raw sequence data (.bcl files) generated the sequencer were converted into fastq files and de-multiplexed using Illumina's bcl2fastq 2.17 software. One mismatch was allowed for index sequence identification."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina HiSeq 4000"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133626",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133626"
+            },
+            {
+              "name": "Type",
+              "value": "high throughput sequence alignment protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004917"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Sequencing reads were mapped to the reference transcriptome (Ensembl Human GRCh38.p13) using STAR (version 2.7.10a)."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133627",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133627"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Data was normalised in DESEq2 (version 1.36) using the estimateSizeFactors and counts function."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        }
+      ],
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pete Dayananda"
+          },
+          {
+            "name": "Email",
+            "value": "p.dayananda@imperial.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Loukas Papargyris"
+          },
+          {
+            "name": "Email",
+            "value": "l.papargyris@imperial.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "value": "o2",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Imperial College London"
+          },
+          {
+            "name": "Address",
+            "value": "Imperial College London, Hammersmith Campus Du Cane Rd, London W12 0NN"
+          }
+        ]
+      },
+      {
+        "accno": "o2",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Imperial College London"
+          },
+          {
+            "name": "Address",
+            "value": "Imperial College London, Hammersmith Campus Du Cane Rd, London W12 0NN"
+          }
+        ]
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-13038",
+        "type": "Samples",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "119"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "time series design",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "EFO"
+              },
+              {
+                "name": "TermId",
+                "value": "EFO:0001779"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease state design",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "EFO"
+              },
+              {
+                "name": "TermId",
+                "value": "EFO:0001756"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "time",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "infect",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "infect"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-13038",
+            "type": "Experimental Factors",
+            "attributes": [
+              {
+                "name": "Infect",
+                "value": "none"
+              },
+              {
+                "name": "Infect",
+                "value": "H3N2 influenza A virus"
+              },
+              {
+                "name": "Time",
+                "value": "0 day"
+              },
+              {
+                "name": "Time",
+                "value": "2 day"
+              },
+              {
+                "name": "Time",
+                "value": "3 day"
+              },
+              {
+                "name": "Time",
+                "value": "14 day"
+              },
+              {
+                "name": "Time",
+                "value": "7 day"
+              },
+              {
+                "name": "Time",
+                "value": "10 day"
+              },
+              {
+                "name": "Time",
+                "value": "1 day"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "13",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572800,ERS15572813,ERS15572820,ERS15572833,ERS15572840,ERS15572847,ERS15572857,ERS15572864,ERS15572870,ERS15572891,ERS15572898,ERS15572905,ERS15572912"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_1",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "13",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572801,ERS15572814,ERS15572821,ERS15572834,ERS15572841,ERS15572848,ERS15572858,ERS15572865,ERS15572871,ERS15572892,ERS15572899,ERS15572906,ERS15572913"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_2",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "12",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572802,ERS15572815,ERS15572822,ERS15572835,ERS15572842,ERS15572849,ERS15572859,ERS15572872,ERS15572893,ERS15572900,ERS15572907,ERS15572914"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_3",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "12",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572803,ERS15572816,ERS15572836,ERS15572843,ERS15572850,ERS15572860,ERS15572866,ERS15572873,ERS15572894,ERS15572901,ERS15572908,ERS15572915"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_4",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "13",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572804,ERS15572817,ERS15572823,ERS15572837,ERS15572844,ERS15572851,ERS15572861,ERS15572867,ERS15572874,ERS15572895,ERS15572902,ERS15572909,ERS15572916"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_5",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "13",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572805,ERS15572818,ERS15572824,ERS15572838,ERS15572845,ERS15572852,ERS15572862,ERS15572868,ERS15572875,ERS15572896,ERS15572903,ERS15572910,ERS15572917"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_6",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572806,ERS15572826,ERS15572877,ERS15572884"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_7",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572807,ERS15572827,ERS15572878,ERS15572885"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_8",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572808,ERS15572828,ERS15572854,ERS15572879,ERS15572886"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_9",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572809,ERS15572829,ERS15572855,ERS15572880,ERS15572887"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_10",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572810,ERS15572830,ERS15572856,ERS15572881,ERS15572888"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_11",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572811,ERS15572831,ERS15572882,ERS15572889"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_12",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "time",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572812,ERS15572832,ERS15572883,ERS15572890"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_13",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "time",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "12",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572819,ERS15572825,ERS15572839,ERS15572846,ERS15572853,ERS15572863,ERS15572869,ERS15572876,ERS15572897,ERS15572904,ERS15572911,ERS15572918"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "source_chars-E-MTAB-13038",
+            "type": "Source Characteristics",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Organism part",
+                "value": "nasal tissue"
+              },
+              {
+                "name": "Collection date",
+                "value": "not provided"
+              },
+              {
+                "name": "Geographic location country and/or sea",
+                "value": "not provided"
+              },
+              {
+                "name": "Individual",
+                "value": "HN060"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC003"
+              },
+              {
+                "name": "Individual",
+                "value": "HN013"
+              },
+              {
+                "name": "Individual",
+                "value": "HN004"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC019"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC020"
+              },
+              {
+                "name": "Individual",
+                "value": "HN019"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC018"
+              },
+              {
+                "name": "Individual",
+                "value": "HN031"
+              },
+              {
+                "name": "Individual",
+                "value": "HN006"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC013"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC005"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC002"
+              },
+              {
+                "name": "Individual",
+                "value": "SPFC011"
+              },
+              {
+                "name": "Individual",
+                "value": "HN037"
+              },
+              {
+                "name": "Individual",
+                "value": "... 3 other values"
+              },
+              {
+                "name": "Age",
+                "value": "53 year"
+              },
+              {
+                "name": "Age",
+                "value": "49 year"
+              },
+              {
+                "name": "Age",
+                "value": "51 year"
+              },
+              {
+                "name": "Age",
+                "value": "22 year"
+              },
+              {
+                "name": "Age",
+                "value": "43 year"
+              },
+              {
+                "name": "Age",
+                "value": "25 year"
+              },
+              {
+                "name": "Age",
+                "value": "52 year"
+              },
+              {
+                "name": "Age",
+                "value": "39 year"
+              },
+              {
+                "name": "Age",
+                "value": "32 year"
+              },
+              {
+                "name": "Age",
+                "value": "31 year"
+              },
+              {
+                "name": "Age",
+                "value": "45 year"
+              },
+              {
+                "name": "Age",
+                "value": "50 year"
+              },
+              {
+                "name": "Age",
+                "value": "47 year"
+              },
+              {
+                "name": "Age",
+                "value": "46 year"
+              },
+              {
+                "name": "Age",
+                "value": "26 year"
+              },
+              {
+                "name": "Age",
+                "value": "... 2 other values"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Infect",
+                "value": "none"
+              },
+              {
+                "name": "Infect",
+                "value": "H3N2 influenza A virus"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN004"
+                    },
+                    {
+                      "name": "age",
+                      "value": "39 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "6",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572800-ERS15572805"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_1",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN006"
+                    },
+                    {
+                      "name": "age",
+                      "value": "43 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572806-ERS15572812"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_2",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN013"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572813-ERS15572819"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_3",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN019"
+                    },
+                    {
+                      "name": "age",
+                      "value": "32 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "6",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572820-ERS15572825"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_4",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN031"
+                    },
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572826-ERS15572832"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_5",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN037"
+                    },
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572833-ERS15572839"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_6",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN059"
+                    },
+                    {
+                      "name": "age",
+                      "value": "31 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572840-ERS15572846"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_7",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "HN060"
+                    },
+                    {
+                      "name": "age",
+                      "value": "32 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572847-ERS15572853"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_8",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC002"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572854-ERS15572856"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_9",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC003"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572857-ERS15572863"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_10",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC005"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "6",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572864-ERS15572869"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_11",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC007"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572870-ERS15572876"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_12",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572877"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_13",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572878"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_14",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572879"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_15",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "48 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572880"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_16",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572881"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_17",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572882"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_18",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC011"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572883"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_19",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC013"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572884-ERS15572890"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_20",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC015"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572891-ERS15572897"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_21",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC018"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572898-ERS15572904"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_22",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC019"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572905-ERS15572911"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_23",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "SPFC020"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "infect",
+                      "value": "H3N2 influenza A virus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "7",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15572912-ERS15572918"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-13038",
+        "type": "Assays and Data",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "119"
+          },
+          {
+            "name": "Technology",
+            "value": "Sequencing assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "type": "Processed Data",
+            "files": [
+              [
+                {
+                  "path": "normalised_counts.txt",
+                  "size": 77865262,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "mt-E-MTAB-13038",
+            "type": "MAGE-TAB Files",
+            "files": [
+              [
+                {
+                  "path": "E-MTAB-13038.idf.txt",
+                  "size": 4453,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "E-MTAB-13038.sdrf.txt",
+                  "size": 140805,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "score-E-MTAB-13038",
+        "type": "MINSEQE Score",
+        "attributes": [
+          {
+            "name": "Exp. Design",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

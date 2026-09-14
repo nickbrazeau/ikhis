@@ -1,0 +1,417 @@
+[
+  {
+    "accession": "E-MTAB-13324",
+    "atlas_cohort_ids": [
+      "MGCO07",
+      "MGCO08",
+      "MGCO09",
+      "MGCO11"
+    ],
+    "atlas_source_ids": [
+      "MG04"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:E-MTAB-13324",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "E-MTAB-13324",
+      "E-MTAB-13324",
+      "E-MTAB-13324",
+      "E-MTAB-13324"
+    ],
+    "record_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13324",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "EGAD00001008197",
+    "atlas_cohort_ids": [
+      "GCO13"
+    ],
+    "atlas_source_ids": [
+      "G07"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:EGAD00001008197",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "[\"EGAD00001008197\",\"EGAD00010002291\"]"
+    ],
+    "record_url": "https://ega-archive.org/datasets/EGAD00001008197",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "EGAD00001011338",
+    "atlas_cohort_ids": [
+      "MGCO12",
+      "MGCO13",
+      "MGCO14",
+      "MGCO15"
+    ],
+    "atlas_source_ids": [
+      "MG05"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:EGAD00001011338",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+      "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+      "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+      "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338"
+    ],
+    "record_url": "https://ega-archive.org/datasets/EGAD00001011338",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "EGAD00010002291",
+    "atlas_cohort_ids": [
+      "GCO13"
+    ],
+    "atlas_source_ids": [
+      "G07"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:EGAD00010002291",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "[\"EGAD00001008197\",\"EGAD00010002291\"]"
+    ],
+    "record_url": "https://ega-archive.org/datasets/EGAD00010002291",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "EGAS00000000109",
+    "atlas_cohort_ids": [
+      "GCO01"
+    ],
+    "atlas_source_ids": [
+      "G01"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:EGAS00000000109",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "EGAS00000000109 (genotypes); expression ArrayExpress accession unavailable in inspected main text"
+    ],
+    "record_url": "https://ega-archive.org/studies/EGAS00000000109",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "EGAS00001001456",
+    "atlas_cohort_ids": [
+      "GCO11"
+    ],
+    "atlas_source_ids": [
+      "G05"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:EGAS00001001456",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "EGAS00001001456"
+    ],
+    "record_url": "https://ega-archive.org/studies/EGAS00001001456",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "GSE100501",
+    "atlas_cohort_ids": [
+      "P_C04",
+      "P_C04_PBMC"
+    ],
+    "atlas_source_ids": [
+      "P_S04"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE100501",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE100501.soft.txt",
+    "metadata_snapshot_sha256": "494155a235e88a793b276831df0fda38537c77c543d7a595b442d91fbe109a36",
+    "original_accession_contexts": [
+      "GSE100501",
+      "GSE100501"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100501",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA391958",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP110537"
+    ],
+    "repository_sample_records": 31,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100501/suppl/GSE100501_RAW.tar"
+    ],
+    "title": "The dynamics of cellular response to therapeutic perturbation using multiplexed quantification of the proteome and transcriptome at single-cell resolution"
+  },
+  {
+    "accession": "GSE100866",
+    "atlas_cohort_ids": [
+      "P_C03"
+    ],
+    "atlas_source_ids": [
+      "P_S03"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE100866",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE100866.soft.txt",
+    "metadata_snapshot_sha256": "d180173026e14d231d53df621e15c378b7ec95519f83b284ed97cd139cde89b0",
+    "original_accession_contexts": [
+      "GSE100866"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA393315",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP111194"
+    ],
+    "repository_sample_records": 12,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CBMC_8K_13AB_10X-ADT_clr-transformed.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CBMC_8K_13AB_10X-ADT_umi.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CBMC_8K_13AB_10X-RNA_umi.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CD8_merged-ADT_clr-transformed.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CD8_merged-ADT_umi.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_CD8_merged-RNA_umi.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_PBMC_vs_flow_10X-ADT_clr-transformed.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_PBMC_vs_flow_10X-ADT_umi.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE100nnn/GSE100866/suppl/GSE100866_PBMC_vs_flow_10X-RNA_umi.csv.gz"
+    ],
+    "title": "CITE-seq: Large scale simultaneous measuremnt of epitopes and transcriptomes in single cells"
+  },
+  {
+    "accession": "GSE116698",
+    "atlas_cohort_ids": [
+      "MA-CO01"
+    ],
+    "atlas_source_ids": [
+      "MA-S01"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE116698",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE116698.soft.txt",
+    "metadata_snapshot_sha256": "836a8995a4511d0ae3dcb955f985287d7de8d859fd4c3194d020e0a7534426fb",
+    "original_accession_contexts": [
+      "GSE116698"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116698",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "SuperSeries of: GSE116695",
+      "SuperSeries of: GSE116696",
+      "SuperSeries of: GSE116697",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA479881"
+    ],
+    "repository_sample_records": 76,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116698/suppl/GSE116698_RAW.tar"
+    ],
+    "title": "Co-Stimulation–Induced AP-1 Activity is Required for Chromatin Opening During T Cell Activation."
+  },
+  {
+    "accession": "GSE202186",
+    "atlas_cohort_ids": [
+      "C-CO01"
+    ],
+    "atlas_source_ids": [
+      "C-S01"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE202186",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE202186.soft.txt",
+    "metadata_snapshot_sha256": "c7ee64a15236aebce7b0a2246b28c9a88180a8fd24c5b94258e83b7ad619cc6e",
+    "original_accession_contexts": [
+      "GSE202186"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202186",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA834959",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP373566"
+    ],
+    "repository_sample_records": 88,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202186/suppl/GSE202186_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202186/suppl/GSE202186_map-scRNAseq-cytokines-dictionary.xlsx"
+    ],
+    "title": "Single-cell RNA-seq dictionary of in vivo immune responses to cytokines"
+  },
+  {
+    "accession": "GSE57542",
+    "atlas_cohort_ids": [
+      "GCO15"
+    ],
+    "atlas_source_ids": [
+      "G09"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE57542",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE57542.soft.txt",
+    "metadata_snapshot_sha256": "c46fb9a2a4cec6d9b9ae5a0c28edc636714b380237dd8e980efb665e95d1a6cd",
+    "original_accession_contexts": [
+      "GSE57542"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57542",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "SuperSeries of: GSE53165",
+      "SuperSeries of: GSE53166",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA246678"
+    ],
+    "repository_sample_records": 2554,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE57nnn/GSE57542/suppl/GSE57542_RAW.tar"
+    ],
+    "title": "Expression data measured by Nanostring and microarray of monocyte-derived dendritic cells from healthy individuals stimulated with LPS, influenza, or IFN-beta, or left unstimulated"
+  },
+  {
+    "accession": "GSE74668",
+    "atlas_cohort_ids": [
+      "XCI-CO05"
+    ],
+    "atlas_source_ids": [
+      "XCI-S05"
+    ],
+    "availability": "public_record_with_advertised_files",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:GSE74668",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": "data_dictionary/sources/atlas/GSE74668.soft.txt",
+    "metadata_snapshot_sha256": "47f9ebe6f3b275f4a1c3c0aa17e74986fe9f1e28f22f7933eab55de37e90c317",
+    "original_accession_contexts": [
+      "GSE74668 (transcript arm only)"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74668",
+    "repository_metadata_verified": true,
+    "repository_relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA301133"
+    ],
+    "repository_sample_records": 2,
+    "supplementary_file_links": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74668/suppl/GSE74668_RAW.tar"
+    ],
+    "title": "Gene Expression Profiling of IL-17A-treated Synovial Fibroblasts from the Human Temporomandibular Joint"
+  },
+  {
+    "accession": "PRJDB16517",
+    "atlas_cohort_ids": [
+      "MA-CO09"
+    ],
+    "atlas_source_ids": [
+      "MA-S06"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:PRJDB16517",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "PRJDB16517"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJDB16517",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "SAMN03471796",
+    "atlas_cohort_ids": [
+      "MP_C009"
+    ],
+    "atlas_source_ids": [
+      "MP_S005"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:SAMN03471796",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "SAMN03471796 (article links WM278/WM793 cell-line context)"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN03471796",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  },
+  {
+    "accession": "phs001703.v1.p1",
+    "atlas_cohort_ids": [
+      "GCO09"
+    ],
+    "atlas_source_ids": [
+      "G04"
+    ],
+    "availability": "access_route_recorded; availability_not_independently_verified",
+    "biological_data_downloaded": false,
+    "dataset_id": "ATLAS_DATA:phs001703.v1.p1",
+    "linkage_status": "recorded in cohort field; related-data and cell-line caveats apply",
+    "metadata_snapshot": null,
+    "metadata_snapshot_sha256": null,
+    "original_accession_contexts": [
+      "phs001703.v1.p1"
+    ],
+    "record_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001703.v1.p1",
+    "repository_metadata_verified": false,
+    "repository_relations": [],
+    "repository_sample_records": 0,
+    "supplementary_file_links": [],
+    "title": "Title not independently retrieved"
+  }
+]

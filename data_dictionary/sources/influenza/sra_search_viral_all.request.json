@@ -1,0 +1,12 @@
+{
+  "endpoint": "esearch",
+  "params": {
+    "db": "sra",
+    "term": "SRP091397 OR PRJNA528931",
+    "retmode": "json",
+    "retmax": 265
+  },
+  "max_items": 265,
+  "save_raw": true,
+  "raw_output_path": "data_dictionary/sources/influenza/snapshots/sra_search_viral_all.json"
+}

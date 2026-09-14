@@ -1,0 +1,910 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "7520973",
+      "7520972",
+      "7520971",
+      "7520970",
+      "7520969",
+      "7520968",
+      "7520967",
+      "7520966",
+      "7520965",
+      "7520964",
+      "7520963",
+      "7520962",
+      "7520961",
+      "7520960",
+      "7520959",
+      "7520958",
+      "7520957",
+      "7520956",
+      "7520955",
+      "7520954",
+      "3501679",
+      "3501678",
+      "3501677",
+      "3501676",
+      "3501675",
+      "3501674",
+      "3501673",
+      "3501672",
+      "3501671",
+      "3501670",
+      "3501669",
+      "3501668",
+      "3501667",
+      "3501666",
+      "3501665",
+      "3501664",
+      "3501663",
+      "3501662",
+      "3501661",
+      "3501660",
+      "3501659",
+      "3501658",
+      "3501657",
+      "3501656",
+      "3501655",
+      "3501654",
+      "3501653",
+      "3501652",
+      "3501651",
+      "3501650",
+      "3501649",
+      "3501648",
+      "3501647",
+      "3501646",
+      "3501645",
+      "3501644",
+      "3501643",
+      "3501642",
+      "3501641",
+      "3501640",
+      "3501639",
+      "3501638",
+      "3501637",
+      "3501636",
+      "3501635",
+      "3501634",
+      "3501633",
+      "3501632",
+      "3501631",
+      "3501630",
+      "3501629",
+      "3501628",
+      "3501627",
+      "3501626",
+      "3501625",
+      "3501624",
+      "3501623",
+      "3501622",
+      "3501621",
+      "3501620",
+      "3501619",
+      "3501618",
+      "3501617",
+      "3501616",
+      "3501615",
+      "3501614",
+      "3501613",
+      "3501612",
+      "3501611",
+      "3501610",
+      "3501609",
+      "3501608",
+      "3501607",
+      "3501606",
+      "3501605",
+      "3501604",
+      "3501603",
+      "3501602",
+      "3501601",
+      "3501600"
+    ],
+    "7520973": {
+      "uid": "7520973",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"73483942\" total_bases=\"3674197100\" total_size=\"2105976594\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572338\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535253\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD43_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250016</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782329\" total_spots=\"73483942\" total_bases=\"3674197100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520972": {
+      "uid": "7520972",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"131838050\" total_bases=\"6591902500\" total_size=\"4343632521\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572337\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535252\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD25_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250015</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782330\" total_spots=\"131838050\" total_bases=\"6591902500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520971": {
+      "uid": "7520971",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"47390956\" total_bases=\"2369547800\" total_size=\"1272474459\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572336\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535251\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD16_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250014</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782331\" total_spots=\"47390956\" total_bases=\"2369547800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520970": {
+      "uid": "7520970",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"119146330\" total_bases=\"5957316500\" total_size=\"3339558688\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572335\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535250\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD11_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250013</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782332\" total_spots=\"119146330\" total_bases=\"5957316500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520969": {
+      "uid": "7520969",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"15115952\" total_bases=\"483710464\" total_size=\"255462874\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572334\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535249\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI2_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250020</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782333\" total_spots=\"15115952\" total_bases=\"483710464\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520968": {
+      "uid": "7520968",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"132711768\" total_bases=\"6635588400\" total_size=\"4411622444\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572333\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535248\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD47_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250019</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782334\" total_spots=\"132711768\" total_bases=\"6635588400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520967": {
+      "uid": "7520967",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"55536632\" total_bases=\"2776831600\" total_size=\"1539235643\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572332\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535247\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD46_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250018</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782335\" total_spots=\"55536632\" total_bases=\"2776831600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520966": {
+      "uid": "7520966",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"9648296\" total_bases=\"482414800\" total_size=\"202160198\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572331\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535246\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>PD45_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250017</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782336\" total_spots=\"9648296\" total_bases=\"482414800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520965": {
+      "uid": "7520965",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"53119533\" total_bases=\"2124781320\" total_size=\"1324108160\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572330\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535245\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI17_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250022</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782337\" total_spots=\"53119533\" total_bases=\"2124781320\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520964": {
+      "uid": "7520964",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"55075192\" total_bases=\"2203007680\" total_size=\"1477044455\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572329\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535244\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI16_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250021</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782338\" total_spots=\"55075192\" total_bases=\"2203007680\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520963": {
+      "uid": "7520963",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"46325054\" total_bases=\"1482401728\" total_size=\"851233529\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572328\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535243\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI44_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250024</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782339\" total_spots=\"46325054\" total_bases=\"1482401728\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520962": {
+      "uid": "7520962",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"42539222\" total_bases=\"1701568880\" total_size=\"1008153916\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572327\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535242\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI27_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250023</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782340\" total_spots=\"42539222\" total_bases=\"1701568880\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520961": {
+      "uid": "7520961",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"43481455\" total_bases=\"1739258200\" total_size=\"987758848\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572326\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535241\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI60_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250026</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782341\" total_spots=\"43481455\" total_bases=\"1739258200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520960": {
+      "uid": "7520960",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"49928966\" total_bases=\"1997158640\" total_size=\"1190236820\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572325\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535240\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI57_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250025</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782342\" total_spots=\"49928966\" total_bases=\"1997158640\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520959": {
+      "uid": "7520959",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"61027893\" total_bases=\"1952892576\" total_size=\"1254526175\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572324\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535239\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>201_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250028</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782343\" total_spots=\"61027893\" total_bases=\"1952892576\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520958": {
+      "uid": "7520958",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"27912005\" total_bases=\"1116480200\" total_size=\"761728701\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572323\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535238\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>HAI65_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250027</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782344\" total_spots=\"27912005\" total_bases=\"1116480200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520957": {
+      "uid": "7520957",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"46411191\" total_bases=\"1485158112\" total_size=\"847750694\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572322\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535237\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>206_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250030</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782345\" total_spots=\"46411191\" total_bases=\"1485158112\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520956": {
+      "uid": "7520956",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"56620335\" total_bases=\"1811850720\" total_size=\"1118886878\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572321\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535236\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>204_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250029</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782346\" total_spots=\"56620335\" total_bases=\"1811850720\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520955": {
+      "uid": "7520955",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"46621254\" total_bases=\"1491880128\" total_size=\"872822343\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572320\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535235\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>212_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250032</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782347\" total_spots=\"46621254\" total_bases=\"1491880128\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "7520954": {
+      "uid": "7520954",
+      "expxml": "  <Summary><Title>RNA-Seq of human clinical sample: nasal wash</Title><Platform instrument_model=\"Illumina Genome Analyzer IIx\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"53534835\" total_bases=\"1713114720\" total_size=\"1027217318\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA865525\" center_name=\"NIAID\" contact_name=\"YONGLI XIAO\" lab_name=\"Laboratory of Infectious Diseases\"/><Experiment acc=\"SRX5572319\" ver=\"1\" status=\"public\" name=\"RNA-Seq of human clinical sample: nasal wash\"/><Study acc=\"SRP189350\" name=\"Sequencing of influenza A/H1N1 virus from human challenge study and natural infections\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS4535234\" name=\"\"/><Instrument ILLUMINA=\"Illumina Genome Analyzer IIx\"/><Library_descriptor><LIBRARY_NAME>208_lib</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>OTHER</LIBRARY_SOURCE><LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA528931</Bioproject><Biosample>SAMN11250031</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR8782348\" total_spots=\"53534835\" total_bases=\"1713114720\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2019/06/28",
+      "updatedate": "2019/03/25"
+    },
+    "3501679": {
+      "uid": "3501679",
+      "expxml": "  <Summary><Title>CW_116_5019_2_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"39188\" total_bases=\"3440175\" total_size=\"2835634\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409646\" ver=\"1\" status=\"public\" name=\"CW_116_5019_2_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847860\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_116_5019_2_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124738</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092813\" total_spots=\"39188\" total_bases=\"3440175\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501678": {
+      "uid": "3501678",
+      "expxml": "  <Summary><Title>CW_116_5019_2_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"105868\" total_bases=\"8717419\" total_size=\"7028149\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409645\" ver=\"1\" status=\"public\" name=\"CW_116_5019_2_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847859\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_116_5019_2_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124828</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092812\" total_spots=\"105868\" total_bases=\"8717419\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501677": {
+      "uid": "3501677",
+      "expxml": "  <Summary><Title>CW_130_5002_3_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"11999\" total_bases=\"943781\" total_size=\"838419\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409644\" ver=\"1\" status=\"public\" name=\"CW_130_5002_3_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847858\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_130_5002_3_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124663</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092811\" total_spots=\"11999\" total_bases=\"943781\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501676": {
+      "uid": "3501676",
+      "expxml": "  <Summary><Title>CW_120_5004_5_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"96846\" total_bases=\"8775373\" total_size=\"7274287\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409643\" ver=\"1\" status=\"public\" name=\"CW_120_5004_5_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847857\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_120_5004_5_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124817</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092810\" total_spots=\"96846\" total_bases=\"8775373\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501675": {
+      "uid": "3501675",
+      "expxml": "  <Summary><Title>CW_117_5020_2_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"21151\" total_bases=\"1509205\" total_size=\"1251916\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409642\" ver=\"1\" status=\"public\" name=\"CW_117_5020_2_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847856\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_117_5020_2_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124681</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092809\" total_spots=\"21151\" total_bases=\"1509205\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501674": {
+      "uid": "3501674",
+      "expxml": "  <Summary><Title>CW_122_5021_5_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"163634\" total_bases=\"14890050\" total_size=\"12148154\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409641\" ver=\"1\" status=\"public\" name=\"CW_122_5021_5_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847855\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_122_5021_5_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124837</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092808\" total_spots=\"163634\" total_bases=\"14890050\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501673": {
+      "uid": "3501673",
+      "expxml": "  <Summary><Title>CW_130_5002_3_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"160335\" total_bases=\"11902064\" total_size=\"9546921\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409640\" ver=\"1\" status=\"public\" name=\"CW_130_5002_3_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847854\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_130_5002_3_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124753</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092807\" total_spots=\"160335\" total_bases=\"11902064\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501672": {
+      "uid": "3501672",
+      "expxml": "  <Summary><Title>CW_110_5021_1_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"31012\" total_bases=\"2778101\" total_size=\"2233086\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409639\" ver=\"1\" status=\"public\" name=\"CW_110_5021_1_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847853\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_110_5021_1_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124864</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092806\" total_spots=\"31012\" total_bases=\"2778101\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501671": {
+      "uid": "3501671",
+      "expxml": "  <Summary><Title>CW_104_5006_1_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"100148\" total_bases=\"9136259\" total_size=\"7121570\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409638\" ver=\"1\" status=\"public\" name=\"CW_104_5006_1_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847852\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_104_5006_1_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124698</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092805\" total_spots=\"100148\" total_bases=\"9136259\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501670": {
+      "uid": "3501670",
+      "expxml": "  <Summary><Title>CW_129_5004_3_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"52830\" total_bases=\"4413679\" total_size=\"3562270\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409637\" ver=\"1\" status=\"public\" name=\"CW_129_5004_3_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847851\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_129_5004_3_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124695</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092804\" total_spots=\"52830\" total_bases=\"4413679\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501669": {
+      "uid": "3501669",
+      "expxml": "  <Summary><Title>CW_109_5020_1_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"98796\" total_bases=\"7424873\" total_size=\"6002494\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409636\" ver=\"1\" status=\"public\" name=\"CW_109_5020_1_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847850\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_109_5020_1_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124830</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092803\" total_spots=\"98796\" total_bases=\"7424873\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501668": {
+      "uid": "3501668",
+      "expxml": "  <Summary><Title>CW_125_5007_3_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"144504\" total_bases=\"12489174\" total_size=\"9765119\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409635\" ver=\"1\" status=\"public\" name=\"CW_125_5007_3_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847849\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_125_5007_3_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124823</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092802\" total_spots=\"144504\" total_bases=\"12489174\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501667": {
+      "uid": "3501667",
+      "expxml": "  <Summary><Title>CW_120_5004_5_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"87618\" total_bases=\"6511163\" total_size=\"5218467\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409634\" ver=\"1\" status=\"public\" name=\"CW_120_5004_5_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847848\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_120_5004_5_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124637</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092801\" total_spots=\"87618\" total_bases=\"6511163\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501666": {
+      "uid": "3501666",
+      "expxml": "  <Summary><Title>CW_126_5020_3_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"100886\" total_bases=\"10086592\" total_size=\"7969272\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409633\" ver=\"1\" status=\"public\" name=\"CW_126_5020_3_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847846\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_126_5020_3_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124772</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092800\" total_spots=\"100886\" total_bases=\"10086592\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501665": {
+      "uid": "3501665",
+      "expxml": "  <Summary><Title>CW_115_5018_2_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"40498\" total_bases=\"3884094\" total_size=\"3127313\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409632\" ver=\"1\" status=\"public\" name=\"CW_115_5018_2_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847847\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_115_5018_2_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124676</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092799\" total_spots=\"40498\" total_bases=\"3884094\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501664": {
+      "uid": "3501664",
+      "expxml": "  <Summary><Title>CW_102_5007_1_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"4267\" total_bases=\"306906\" total_size=\"329439\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409631\" ver=\"1\" status=\"public\" name=\"CW_102_5007_1_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847845\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_102_5007_1_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124851</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092798\" total_spots=\"4267\" total_bases=\"306906\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501663": {
+      "uid": "3501663",
+      "expxml": "  <Summary><Title>CW_125_5007_3_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"69240\" total_bases=\"7168882\" total_size=\"5552784\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409630\" ver=\"1\" status=\"public\" name=\"CW_125_5007_3_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847843\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_125_5007_3_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124643</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092797\" total_spots=\"69240\" total_bases=\"7168882\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501662": {
+      "uid": "3501662",
+      "expxml": "  <Summary><Title>CW_109_5020_1_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"77833\" total_bases=\"5891113\" total_size=\"4742908\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409629\" ver=\"1\" status=\"public\" name=\"CW_109_5020_1_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847844\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_109_5020_1_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124800</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092796\" total_spots=\"77833\" total_bases=\"5891113\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501661": {
+      "uid": "3501661",
+      "expxml": "  <Summary><Title>CW_128_5021_3_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"29635\" total_bases=\"3078087\" total_size=\"2591601\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409628\" ver=\"1\" status=\"public\" name=\"CW_128_5021_3_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847842\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_128_5021_3_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124865</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092795\" total_spots=\"29635\" total_bases=\"3078087\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501660": {
+      "uid": "3501660",
+      "expxml": "  <Summary><Title>CW_116_5019_2_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"107535\" total_bases=\"8923985\" total_size=\"7028703\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409627\" ver=\"1\" status=\"public\" name=\"CW_116_5019_2_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847841\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_116_5019_2_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124648</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092794\" total_spots=\"107535\" total_bases=\"8923985\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501659": {
+      "uid": "3501659",
+      "expxml": "  <Summary><Title>CW_107_5004_2_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"61750\" total_bases=\"5558586\" total_size=\"4298495\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409626\" ver=\"1\" status=\"public\" name=\"CW_107_5004_2_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847840\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_107_5004_2_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124664</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092793\" total_spots=\"61750\" total_bases=\"5558586\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501658": {
+      "uid": "3501658",
+      "expxml": "  <Summary><Title>CW_110_5021_1_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"62617\" total_bases=\"5501789\" total_size=\"4368300\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409625\" ver=\"1\" status=\"public\" name=\"CW_110_5021_1_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847839\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_110_5021_1_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124744</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092792\" total_spots=\"62617\" total_bases=\"5501789\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501657": {
+      "uid": "3501657",
+      "expxml": "  <Summary><Title>CW_114_5017_2_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"106637\" total_bases=\"9078937\" total_size=\"7051844\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409624\" ver=\"1\" status=\"public\" name=\"CW_114_5017_2_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847838\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_114_5017_2_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124764</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092791\" total_spots=\"106637\" total_bases=\"9078937\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501656": {
+      "uid": "3501656",
+      "expxml": "  <Summary><Title>CW_131_5001_3_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"47774\" total_bases=\"4206064\" total_size=\"3363033\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409623\" ver=\"1\" status=\"public\" name=\"CW_131_5001_3_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847837\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_131_5001_3_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124780</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092790\" total_spots=\"47774\" total_bases=\"4206064\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501655": {
+      "uid": "3501655",
+      "expxml": "  <Summary><Title>CW_125_5007_3_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"40927\" total_bases=\"3910598\" total_size=\"3139723\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409622\" ver=\"1\" status=\"public\" name=\"CW_125_5007_3_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847836\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_125_5007_3_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124703</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092789\" total_spots=\"40927\" total_bases=\"3910598\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501654": {
+      "uid": "3501654",
+      "expxml": "  <Summary><Title>CW_124_5019_3_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"189062\" total_bases=\"22045793\" total_size=\"17889613\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409621\" ver=\"1\" status=\"public\" name=\"CW_124_5019_3_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847835\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_124_5019_3_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124859</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092788\" total_spots=\"189062\" total_bases=\"22045793\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501653": {
+      "uid": "3501653",
+      "expxml": "  <Summary><Title>CW_110_5021_1_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"73727\" total_bases=\"6217090\" total_size=\"4966979\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409620\" ver=\"1\" status=\"public\" name=\"CW_110_5021_1_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847834\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_110_5021_1_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124804</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092787\" total_spots=\"73727\" total_bases=\"6217090\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501652": {
+      "uid": "3501652",
+      "expxml": "  <Summary><Title>CW_127_5006_3_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"36347\" total_bases=\"3476680\" total_size=\"2904422\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409619\" ver=\"1\" status=\"public\" name=\"CW_127_5006_3_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847833\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_127_5006_3_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124790</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092786\" total_spots=\"36347\" total_bases=\"3476680\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501651": {
+      "uid": "3501651",
+      "expxml": "  <Summary><Title>CW_114_5017_2_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"78206\" total_bases=\"7668810\" total_size=\"5700652\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409618\" ver=\"1\" status=\"public\" name=\"CW_114_5017_2_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847832\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_114_5017_2_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124674</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092785\" total_spots=\"78206\" total_bases=\"7668810\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501650": {
+      "uid": "3501650",
+      "expxml": "  <Summary><Title>CW_112_5006_2_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"153969\" total_bases=\"13946369\" total_size=\"10922186\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409617\" ver=\"1\" status=\"public\" name=\"CW_112_5006_2_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847831\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_112_5006_2_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124759</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092784\" total_spots=\"153969\" total_bases=\"13946369\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501649": {
+      "uid": "3501649",
+      "expxml": "  <Summary><Title>CW_126_5020_3_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"34744\" total_bases=\"3326484\" total_size=\"2651640\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409616\" ver=\"1\" status=\"public\" name=\"CW_126_5020_3_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847830\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_126_5020_3_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124682</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092783\" total_spots=\"34744\" total_bases=\"3326484\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501648": {
+      "uid": "3501648",
+      "expxml": "  <Summary><Title>CW_125_5007_3_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"95281\" total_bases=\"9207724\" total_size=\"7141824\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409615\" ver=\"1\" status=\"public\" name=\"CW_125_5007_3_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847829\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_125_5007_3_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124763</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092782\" total_spots=\"95281\" total_bases=\"9207724\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501647": {
+      "uid": "3501647",
+      "expxml": "  <Summary><Title>CW_121_5020_4_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"53711\" total_bases=\"5100433\" total_size=\"4214089\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409614\" ver=\"1\" status=\"public\" name=\"CW_121_5020_4_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847828\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_121_5020_4_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124803</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092781\" total_spots=\"53711\" total_bases=\"5100433\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501646": {
+      "uid": "3501646",
+      "expxml": "  <Summary><Title>CW_121_5020_4_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"32059\" total_bases=\"2593921\" total_size=\"2126590\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409613\" ver=\"1\" status=\"public\" name=\"CW_121_5020_4_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847827\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_121_5020_4_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124713</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092780\" total_spots=\"32059\" total_bases=\"2593921\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501645": {
+      "uid": "3501645",
+      "expxml": "  <Summary><Title>CW_103_5001_2_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"58956\" total_bases=\"4547982\" total_size=\"3733309\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409612\" ver=\"1\" status=\"public\" name=\"CW_103_5001_2_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847826\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_103_5001_2_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124749</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092779\" total_spots=\"58956\" total_bases=\"4547982\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501644": {
+      "uid": "3501644",
+      "expxml": "  <Summary><Title>CW_107_5004_2_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"25702\" total_bases=\"2156640\" total_size=\"1760818\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409611\" ver=\"1\" status=\"public\" name=\"CW_107_5004_2_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847825\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_107_5004_2_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124724</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092778\" total_spots=\"25702\" total_bases=\"2156640\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501643": {
+      "uid": "3501643",
+      "expxml": "  <Summary><Title>CW_128_5021_3_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"115841\" total_bases=\"10210530\" total_size=\"8262703\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409610\" ver=\"1\" status=\"public\" name=\"CW_128_5021_3_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847824\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_128_5021_3_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124775</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092777\" total_spots=\"115841\" total_bases=\"10210530\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501642": {
+      "uid": "3501642",
+      "expxml": "  <Summary><Title>CW_111_5002_2_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"37741\" total_bases=\"3301853\" total_size=\"2748359\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409609\" ver=\"1\" status=\"public\" name=\"CW_111_5002_2_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847823\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_111_5002_2_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124812</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092776\" total_spots=\"37741\" total_bases=\"3301853\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501641": {
+      "uid": "3501641",
+      "expxml": "  <Summary><Title>CW_119_5001_5_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"76606\" total_bases=\"6575568\" total_size=\"5103322\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409608\" ver=\"1\" status=\"public\" name=\"CW_119_5001_5_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847822\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_119_5001_5_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124631</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092775\" total_spots=\"76606\" total_bases=\"6575568\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501640": {
+      "uid": "3501640",
+      "expxml": "  <Summary><Title>CW_105_5004_4_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"68529\" total_bases=\"5375258\" total_size=\"4294811\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409607\" ver=\"1\" status=\"public\" name=\"CW_105_5004_4_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847821\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_105_5004_4_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124756</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092774\" total_spots=\"68529\" total_bases=\"5375258\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501639": {
+      "uid": "3501639",
+      "expxml": "  <Summary><Title>CW_107_5004_2_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"17537\" total_bases=\"1365471\" total_size=\"1152612\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409606\" ver=\"1\" status=\"public\" name=\"CW_107_5004_2_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847820\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_107_5004_2_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124844</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092773\" total_spots=\"17537\" total_bases=\"1365471\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501638": {
+      "uid": "3501638",
+      "expxml": "  <Summary><Title>CW_111_5002_2_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"71063\" total_bases=\"5679844\" total_size=\"4588595\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409605\" ver=\"1\" status=\"public\" name=\"CW_111_5002_2_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847819\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_111_5002_2_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124782</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092772\" total_spots=\"71063\" total_bases=\"5679844\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501637": {
+      "uid": "3501637",
+      "expxml": "  <Summary><Title>CW_123_5021_4_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"58441\" total_bases=\"6149270\" total_size=\"4826374\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409604\" ver=\"1\" status=\"public\" name=\"CW_123_5021_4_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847818\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_123_5021_4_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124686</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092771\" total_spots=\"58441\" total_bases=\"6149270\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501636": {
+      "uid": "3501636",
+      "expxml": "  <Summary><Title>CW_122_5021_5_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"53817\" total_bases=\"4133622\" total_size=\"3307562\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409603\" ver=\"1\" status=\"public\" name=\"CW_122_5021_5_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847817\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_122_5021_5_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124717</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092770\" total_spots=\"53817\" total_bases=\"4133622\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501635": {
+      "uid": "3501635",
+      "expxml": "  <Summary><Title>CW_113_5007_2_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"132693\" total_bases=\"12358063\" total_size=\"9818558\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409602\" ver=\"1\" status=\"public\" name=\"CW_113_5007_2_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847816\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_113_5007_2_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124792</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092769\" total_spots=\"132693\" total_bases=\"12358063\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501634": {
+      "uid": "3501634",
+      "expxml": "  <Summary><Title>CW_102_5007_1_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"34345\" total_bases=\"2449272\" total_size=\"2043756\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409601\" ver=\"1\" status=\"public\" name=\"CW_102_5007_1_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847815\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_102_5007_1_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124821</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092768\" total_spots=\"34345\" total_bases=\"2449272\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501633": {
+      "uid": "3501633",
+      "expxml": "  <Summary><Title>CW_123_5021_4_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"176674\" total_bases=\"18502098\" total_size=\"14478326\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409600\" ver=\"1\" status=\"public\" name=\"CW_123_5021_4_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847814\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_123_5021_4_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124656</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092767\" total_spots=\"176674\" total_bases=\"18502098\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501632": {
+      "uid": "3501632",
+      "expxml": "  <Summary><Title>CW_111_5002_2_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"50846\" total_bases=\"4680741\" total_size=\"3726162\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409599\" ver=\"1\" status=\"public\" name=\"CW_111_5002_2_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847813\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_111_5002_2_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124722</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092766\" total_spots=\"50846\" total_bases=\"4680741\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501631": {
+      "uid": "3501631",
+      "expxml": "  <Summary><Title>CW_104_5006_1_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"168459\" total_bases=\"15204127\" total_size=\"11983174\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409598\" ver=\"1\" status=\"public\" name=\"CW_104_5006_1_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847812\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_104_5006_1_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124818</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092765\" total_spots=\"168459\" total_bases=\"15204127\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501630": {
+      "uid": "3501630",
+      "expxml": "  <Summary><Title>CW_131_5001_3_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"43296\" total_bases=\"4040263\" total_size=\"3206158\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409597\" ver=\"1\" status=\"public\" name=\"CW_131_5001_3_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847811\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_131_5001_3_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124660</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092764\" total_spots=\"43296\" total_bases=\"4040263\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501629": {
+      "uid": "3501629",
+      "expxml": "  <Summary><Title>CW_104_5006_1_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"334214\" total_bases=\"30966607\" total_size=\"23645616\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409596\" ver=\"1\" status=\"public\" name=\"CW_104_5006_1_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847810\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_104_5006_1_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124758</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092763\" total_spots=\"334214\" total_bases=\"30966607\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501628": {
+      "uid": "3501628",
+      "expxml": "  <Summary><Title>CW_128_5021_3_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"105086\" total_bases=\"9068293\" total_size=\"7402997\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409595\" ver=\"1\" status=\"public\" name=\"CW_128_5021_3_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847809\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_128_5021_3_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124805</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092762\" total_spots=\"105086\" total_bases=\"9068293\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501627": {
+      "uid": "3501627",
+      "expxml": "  <Summary><Title>CW_128_5021_3_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"85967\" total_bases=\"8272452\" total_size=\"6720202\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409594\" ver=\"1\" status=\"public\" name=\"CW_128_5021_3_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847808\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_128_5021_3_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124835</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092761\" total_spots=\"85967\" total_bases=\"8272452\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501626": {
+      "uid": "3501626",
+      "expxml": "  <Summary><Title>CW_105_5004_4_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"72219\" total_bases=\"5360051\" total_size=\"4328909\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409593\" ver=\"1\" status=\"public\" name=\"CW_105_5004_4_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847807\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_105_5004_4_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124816</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092760\" total_spots=\"72219\" total_bases=\"5360051\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501625": {
+      "uid": "3501625",
+      "expxml": "  <Summary><Title>CW_121_5020_4_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"49208\" total_bases=\"4662770\" total_size=\"3834676\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409592\" ver=\"1\" status=\"public\" name=\"CW_121_5020_4_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847806\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_121_5020_4_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124743</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092759\" total_spots=\"49208\" total_bases=\"4662770\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501624": {
+      "uid": "3501624",
+      "expxml": "  <Summary><Title>CW_105_5004_4_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"19038\" total_bases=\"1504619\" total_size=\"1265475\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409591\" ver=\"1\" status=\"public\" name=\"CW_105_5004_4_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847805\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_105_5004_4_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124786</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092758\" total_spots=\"19038\" total_bases=\"1504619\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501623": {
+      "uid": "3501623",
+      "expxml": "  <Summary><Title>CW_120_5004_5_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"47551\" total_bases=\"3517111\" total_size=\"2859942\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409590\" ver=\"1\" status=\"public\" name=\"CW_120_5004_5_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847804\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_120_5004_5_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124697</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092757\" total_spots=\"47551\" total_bases=\"3517111\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501622": {
+      "uid": "3501622",
+      "expxml": "  <Summary><Title>CW_103_5001_2_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"46576\" total_bases=\"3529389\" total_size=\"2885918\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409589\" ver=\"1\" status=\"public\" name=\"CW_103_5001_2_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847803\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_103_5001_2_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124689</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092756\" total_spots=\"46576\" total_bases=\"3529389\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501621": {
+      "uid": "3501621",
+      "expxml": "  <Summary><Title>CW_102_5007_1_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"25931\" total_bases=\"1923991\" total_size=\"1598331\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409588\" ver=\"1\" status=\"public\" name=\"CW_102_5007_1_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847801\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_102_5007_1_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124701</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092755\" total_spots=\"25931\" total_bases=\"1923991\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501620": {
+      "uid": "3501620",
+      "expxml": "  <Summary><Title>CW_121_5020_4_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"54378\" total_bases=\"4594448\" total_size=\"3648931\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409587\" ver=\"1\" status=\"public\" name=\"CW_121_5020_4_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847802\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_121_5020_4_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124653</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092754\" total_spots=\"54378\" total_bases=\"4594448\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501619": {
+      "uid": "3501619",
+      "expxml": "  <Summary><Title>CW_123_5021_4_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"94039\" total_bases=\"10629292\" total_size=\"8536575\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409586\" ver=\"1\" status=\"public\" name=\"CW_123_5021_4_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847800\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_123_5021_4_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124806</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092753\" total_spots=\"94039\" total_bases=\"10629292\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501618": {
+      "uid": "3501618",
+      "expxml": "  <Summary><Title>CW_109_5020_1_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"20623\" total_bases=\"1518607\" total_size=\"1273389\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409585\" ver=\"1\" status=\"public\" name=\"CW_109_5020_1_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847799\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_109_5020_1_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124680</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092752\" total_spots=\"20623\" total_bases=\"1518607\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501617": {
+      "uid": "3501617",
+      "expxml": "  <Summary><Title>CW_129_5004_3_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"77595\" total_bases=\"7476848\" total_size=\"6022980\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409584\" ver=\"1\" status=\"public\" name=\"CW_129_5004_3_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847798\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_129_5004_3_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124845</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092751\" total_spots=\"77595\" total_bases=\"7476848\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501616": {
+      "uid": "3501616",
+      "expxml": "  <Summary><Title>CW_125_5007_3_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"64125\" total_bases=\"6067106\" total_size=\"4759088\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409583\" ver=\"1\" status=\"public\" name=\"CW_125_5007_3_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847797\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_125_5007_3_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124793</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092750\" total_spots=\"64125\" total_bases=\"6067106\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501615": {
+      "uid": "3501615",
+      "expxml": "  <Summary><Title>CW_104_5006_1_NA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"102555\" total_bases=\"9468146\" total_size=\"7472578\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409582\" ver=\"1\" status=\"public\" name=\"CW_104_5006_1_NA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847796\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_104_5006_1_NA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124788</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092749\" total_spots=\"102555\" total_bases=\"9468146\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501614": {
+      "uid": "3501614",
+      "expxml": "  <Summary><Title>CW_102_5007_1_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"35113\" total_bases=\"2679518\" total_size=\"2213561\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409581\" ver=\"1\" status=\"public\" name=\"CW_102_5007_1_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847795\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_102_5007_1_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124731</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092748\" total_spots=\"35113\" total_bases=\"2679518\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501613": {
+      "uid": "3501613",
+      "expxml": "  <Summary><Title>CW_120_5004_5_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"126209\" total_bases=\"10328909\" total_size=\"8408771\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409580\" ver=\"1\" status=\"public\" name=\"CW_120_5004_5_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847794\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_120_5004_5_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124757</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092747\" total_spots=\"126209\" total_bases=\"10328909\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501612": {
+      "uid": "3501612",
+      "expxml": "  <Summary><Title>CW_120_5004_5_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"36552\" total_bases=\"2725624\" total_size=\"2231580\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409579\" ver=\"1\" status=\"public\" name=\"CW_120_5004_5_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847793\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_120_5004_5_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124667</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092746\" total_spots=\"36552\" total_bases=\"2725624\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501611": {
+      "uid": "3501611",
+      "expxml": "  <Summary><Title>CW_114_5017_2_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"66678\" total_bases=\"6102914\" total_size=\"4662929\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409578\" ver=\"1\" status=\"public\" name=\"CW_114_5017_2_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847792\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_114_5017_2_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124644</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092745\" total_spots=\"66678\" total_bases=\"6102914\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501610": {
+      "uid": "3501610",
+      "expxml": "  <Summary><Title>CW_112_5006_2_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"96954\" total_bases=\"8855456\" total_size=\"6942936\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409577\" ver=\"1\" status=\"public\" name=\"CW_112_5006_2_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847791\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_112_5006_2_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124639</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092744\" total_spots=\"96954\" total_bases=\"8855456\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501609": {
+      "uid": "3501609",
+      "expxml": "  <Summary><Title>CW_109_5020_1_PA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"47634\" total_bases=\"3484137\" total_size=\"2824336\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409576\" ver=\"1\" status=\"public\" name=\"CW_109_5020_1_PA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847790\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_109_5020_1_PA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124710</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092743\" total_spots=\"47634\" total_bases=\"3484137\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501608": {
+      "uid": "3501608",
+      "expxml": "  <Summary><Title>CW_113_5007_2_MP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"240082\" total_bases=\"21253754\" total_size=\"16662822\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409575\" ver=\"1\" status=\"public\" name=\"CW_113_5007_2_MP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847789\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_113_5007_2_MP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124822</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092742\" total_spots=\"240082\" total_bases=\"21253754\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501607": {
+      "uid": "3501607",
+      "expxml": "  <Summary><Title>CW_131_5001_3_PB2</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"56734\" total_bases=\"5076404\" total_size=\"3998547\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409574\" ver=\"1\" status=\"public\" name=\"CW_131_5001_3_PB2\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847788\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_131_5001_3_PB2</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124630</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092741\" total_spots=\"56734\" total_bases=\"5076404\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501606": {
+      "uid": "3501606",
+      "expxml": "  <Summary><Title>CW_113_5007_2_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"91951\" total_bases=\"8485963\" total_size=\"6701989\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409573\" ver=\"1\" status=\"public\" name=\"CW_113_5007_2_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847787\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_113_5007_2_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124732</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092740\" total_spots=\"91951\" total_bases=\"8485963\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501605": {
+      "uid": "3501605",
+      "expxml": "  <Summary><Title>CW_101_5018_1_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"23033\" total_bases=\"2187903\" total_size=\"1776408\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409572\" ver=\"1\" status=\"public\" name=\"CW_101_5018_1_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847786\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_101_5018_1_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124675</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092739\" total_spots=\"23033\" total_bases=\"2187903\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501604": {
+      "uid": "3501604",
+      "expxml": "  <Summary><Title>CW_122_5021_5_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"103457\" total_bases=\"9664284\" total_size=\"7837017\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409571\" ver=\"1\" status=\"public\" name=\"CW_122_5021_5_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847785\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_122_5021_5_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124777</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092738\" total_spots=\"103457\" total_bases=\"9664284\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501603": {
+      "uid": "3501603",
+      "expxml": "  <Summary><Title>CW_116_5019_2_PB1</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"24175\" total_bases=\"2064303\" total_size=\"1681656\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409570\" ver=\"1\" status=\"public\" name=\"CW_116_5019_2_PB1\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847784\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_116_5019_2_PB1</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124678</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092737\" total_spots=\"24175\" total_bases=\"2064303\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501602": {
+      "uid": "3501602",
+      "expxml": "  <Summary><Title>CW_119_5001_5_HA</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"58596\" total_bases=\"5926198\" total_size=\"4808193\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409569\" ver=\"1\" status=\"public\" name=\"CW_119_5001_5_HA\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847783\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_119_5001_5_HA</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124721</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092736\" total_spots=\"58596\" total_bases=\"5926198\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501601": {
+      "uid": "3501601",
+      "expxml": "  <Summary><Title>CW_122_5021_5_NS</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"54934\" total_bases=\"5940443\" total_size=\"4868595\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409568\" ver=\"1\" status=\"public\" name=\"CW_122_5021_5_NS\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847782\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_122_5021_5_NS</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124867</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092735\" total_spots=\"54934\" total_bases=\"5940443\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    },
+    "3501600": {
+      "uid": "3501600",
+      "expxml": "  <Summary><Title>CW_117_5020_2_NP</Title><Platform instrument_model=\"Illumina HiSeq 2000\">ILLUMINA</Platform><Statistics total_runs=\"1\" total_spots=\"78366\" total_bases=\"6821506\" total_size=\"5552601\" load_done=\"true\" cluster_name=\"public\"/></Summary><Submitter acc=\"SRA501951\" center_name=\"Duke University\" contact_name=\"Ashley Sobel Leonard\" lab_name=\"Biology\"/><Experiment acc=\"SRX2409567\" ver=\"1\" status=\"public\" name=\"CW_117_5020_2_NP\"/><Study acc=\"SRP091397\" name=\"Influenza A Challenge Study\"/><Organism taxid=\"11320\" ScientificName=\"Influenza A virus\"/><Sample acc=\"SRS1847781\" name=\"\"/><Instrument ILLUMINA=\"Illumina HiSeq 2000\"/><Library_descriptor><LIBRARY_NAME>CW_117_5020_2_NP</LIBRARY_NAME><LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY><LIBRARY_SOURCE>VIRAL RNA</LIBRARY_SOURCE><LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION><LIBRARY_LAYOUT><SINGLE/></LIBRARY_LAYOUT></Library_descriptor><Bioproject>PRJNA347853</Bioproject><Biosample>SAMN06124771</Biosample>  ",
+      "runs": "                                <Run acc=\"SRR5092734\" total_spots=\"78366\" total_bases=\"6821506\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                                ",
+      "extlinks": "",
+      "createdate": "2016/12/14",
+      "updatedate": "2016/12/09"
+    }
+  }
+}

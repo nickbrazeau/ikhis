@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-09-14",
+  "scope": "catalogue consistency only; no atlas review",
+  "record_count": 30,
+  "source_hashes_match": true,
+  "offline_regeneration_identical": true,
+  "reproduced_files_sha256": {
+    "studies.json": "86f0f9d12e192efbd565a2dd728fb73ec9b50702c0a7f2aee96bad96d9689451",
+    "viral_sequence_runs.json": "e14b7defdf30f53d87553ce06f6868e18e6015388c2f40e8dfbfe12672e5e3c6",
+    "geo_screening.json": "e6042aa68c7ae4550c29d0672dd8e3cc28ddbf09e330bfc7e21bc26195a5f8c2",
+    "searches.json": "f1808486c66e2309b979adf2ab65ecb36783bd7ec2755813329e98cba89b2cc7"
+  },
+  "checks": [
+    "Phenotypes are metadata, not expression",
+    "Unnormalized array intensity exports separated from raw submitter archives",
+    "Count matrices not classified as raw reads",
+    "Representative GEO/SRA link is not complete raw-file inventory",
+    "Run manifest distinguished from raw-file payload inventory",
+    "Future IPD request window explicitly not currently open",
+    "Original source snapshots unchanged",
+    "30 unique search IDs preserved across regeneration"
+  ]
+}

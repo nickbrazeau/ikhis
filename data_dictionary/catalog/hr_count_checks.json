@@ -1,0 +1,946 @@
+[
+  {
+    "author_count": 880,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 880,
+    "status": "match",
+    "study_ID": "GSE68310"
+  },
+  {
+    "author_count": 133,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 133,
+    "status": "match",
+    "study_ID": "GSE68310"
+  },
+  {
+    "author_count": 412,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 412,
+    "status": "match",
+    "study_ID": "GSE194378"
+  },
+  {
+    "author_count": 75,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 75,
+    "status": "match",
+    "study_ID": "GSE194378"
+  },
+  {
+    "author_count": 83,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 83,
+    "status": "match",
+    "study_ID": "GSE74811"
+  },
+  {
+    "author_count": 28,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 28,
+    "status": "match",
+    "study_ID": "GSE74811"
+  },
+  {
+    "author_count": 286,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 286,
+    "status": "match",
+    "study_ID": "GSE74813"
+  },
+  {
+    "author_count": 63,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 63,
+    "status": "match",
+    "study_ID": "GSE74813"
+  },
+  {
+    "author_count": 75,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 75,
+    "status": "match",
+    "study_ID": "GSE74815"
+  },
+  {
+    "author_count": 26,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 26,
+    "status": "match",
+    "study_ID": "GSE74815"
+  },
+  {
+    "author_count": 177,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 177,
+    "status": "match",
+    "study_ID": "GSE74816"
+  },
+  {
+    "author_count": 72,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 72,
+    "status": "match",
+    "study_ID": "GSE74816"
+  },
+  {
+    "author_count": 417,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 417,
+    "status": "match",
+    "study_ID": "GSE48023"
+  },
+  {
+    "author_count": 110,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 110,
+    "status": "match",
+    "study_ID": "GSE48023"
+  },
+  {
+    "author_count": 431,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 431,
+    "status": "match",
+    "study_ID": "GSE48018"
+  },
+  {
+    "author_count": 116,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 116,
+    "status": "match",
+    "study_ID": "GSE48018"
+  },
+  {
+    "author_count": 91,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 91,
+    "status": "match",
+    "study_ID": "GSE41080"
+  },
+  {
+    "author_count": 91,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 91,
+    "status": "match",
+    "study_ID": "GSE41080"
+  },
+  {
+    "author_count": 120,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 120,
+    "status": "match",
+    "study_ID": "GSE59743"
+  },
+  {
+    "author_count": 30,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 30,
+    "status": "match",
+    "study_ID": "GSE59743"
+  },
+  {
+    "author_count": 156,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 156,
+    "status": "match",
+    "study_ID": "GSE59654"
+  },
+  {
+    "author_count": 39,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 39,
+    "status": "match",
+    "study_ID": "GSE59654"
+  },
+  {
+    "author_count": 98,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 98,
+    "status": "match",
+    "study_ID": "GSE101709"
+  },
+  {
+    "author_count": 26,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 26,
+    "status": "match",
+    "study_ID": "GSE101709"
+  },
+  {
+    "author_count": 72,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 72,
+    "status": "match",
+    "study_ID": "GSE59635"
+  },
+  {
+    "author_count": 19,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 19,
+    "status": "match",
+    "study_ID": "GSE59635"
+  },
+  {
+    "author_count": 79,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 79,
+    "status": "match",
+    "study_ID": "GSE101710"
+  },
+  {
+    "author_count": 20,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 20,
+    "status": "match",
+    "study_ID": "GSE101710"
+  },
+  {
+    "author_count": 292,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 292,
+    "status": "match",
+    "study_ID": "GSE47353"
+  },
+  {
+    "author_count": 63,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 63,
+    "status": "match",
+    "study_ID": "GSE47353"
+  },
+  {
+    "author_count": 213,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 213,
+    "status": "match",
+    "study_ID": "GSE190001_PRIME"
+  },
+  {
+    "author_count": 23,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 23,
+    "status": "match",
+    "study_ID": "GSE190001_PRIME"
+  },
+  {
+    "author_count": 226,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 226,
+    "status": "match",
+    "study_ID": "GSE190001_BOOST"
+  },
+  {
+    "author_count": 23,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 23,
+    "status": "match",
+    "study_ID": "GSE190001_BOOST"
+  },
+  {
+    "author_count": 73,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 73,
+    "status": "match",
+    "study_ID": "SDY311"
+  },
+  {
+    "author_count": 63,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 63,
+    "status": "match",
+    "study_ID": "SDY311"
+  },
+  {
+    "author_count": 89,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 89,
+    "status": "match",
+    "study_ID": "SDY112"
+  },
+  {
+    "author_count": 89,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 89,
+    "status": "match",
+    "study_ID": "SDY112"
+  },
+  {
+    "author_count": 71,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 71,
+    "status": "match",
+    "study_ID": "SDY315"
+  },
+  {
+    "author_count": 71,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 71,
+    "status": "match",
+    "study_ID": "SDY315"
+  },
+  {
+    "author_count": 271,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 271,
+    "status": "match",
+    "study_ID": "GSE207750"
+  },
+  {
+    "author_count": 271,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 271,
+    "status": "match",
+    "study_ID": "GSE207750"
+  },
+  {
+    "author_count": 38,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 38,
+    "status": "match",
+    "study_ID": "GSE246525"
+  },
+  {
+    "author_count": 10,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 10,
+    "status": "match",
+    "study_ID": "GSE246525"
+  },
+  {
+    "author_count": 161,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 161,
+    "status": "match",
+    "study_ID": "GSE201533"
+  },
+  {
+    "author_count": 43,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 43,
+    "status": "match",
+    "study_ID": "GSE201533"
+  },
+  {
+    "author_count": 115,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 115,
+    "status": "match",
+    "study_ID": "GSE190747"
+  },
+  {
+    "author_count": 30,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 30,
+    "status": "match",
+    "study_ID": "GSE190747"
+  },
+  {
+    "author_count": 260,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 260,
+    "status": "match",
+    "study_ID": "GSE199750"
+  },
+  {
+    "author_count": 86,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 86,
+    "status": "match",
+    "study_ID": "GSE199750"
+  },
+  {
+    "author_count": 185,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 185,
+    "status": "match",
+    "study_ID": "GSE169159"
+  },
+  {
+    "author_count": 32,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 32,
+    "status": "match",
+    "study_ID": "GSE169159"
+  },
+  {
+    "author_count": 27,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 27,
+    "status": "match",
+    "study_ID": "GSE29614"
+  },
+  {
+    "author_count": 9,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 9,
+    "status": "match",
+    "study_ID": "GSE29614"
+  },
+  {
+    "author_count": 83,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 83,
+    "status": "match",
+    "study_ID": "GSE29615"
+  },
+  {
+    "author_count": 28,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 28,
+    "status": "match",
+    "study_ID": "GSE29615"
+  },
+  {
+    "author_count": 80,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 80,
+    "status": "match",
+    "study_ID": "GSE29617"
+  },
+  {
+    "author_count": 28,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 28,
+    "status": "match",
+    "study_ID": "GSE29617"
+  },
+  {
+    "author_count": 621,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 621,
+    "status": "match",
+    "study_ID": "GSE48762"
+  },
+  {
+    "author_count": 34,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 46,
+    "status": "difference_requires_interpretation",
+    "study_ID": "GSE48762"
+  },
+  {
+    "author_count": 54,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 54,
+    "status": "match",
+    "study_ID": "GSE45735"
+  },
+  {
+    "author_count": 5,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 5,
+    "status": "match",
+    "study_ID": "GSE45735"
+  },
+  {
+    "author_count": 48,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 48,
+    "status": "match",
+    "study_ID": "GSE201642"
+  },
+  {
+    "author_count": 15,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 15,
+    "status": "match",
+    "study_ID": "GSE201642"
+  },
+  {
+    "author_count": 75,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 75,
+    "status": "match",
+    "study_ID": "GSE250023"
+  },
+  {
+    "author_count": 18,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 18,
+    "status": "match",
+    "study_ID": "GSE250023"
+  },
+  {
+    "author_count": 96,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 96,
+    "status": "match",
+    "study_ID": "E_MTAB_12993_nose"
+  },
+  {
+    "author_count": 19,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 19,
+    "status": "match",
+    "study_ID": "E_MTAB_12993_nose"
+  },
+  {
+    "author_count": 374,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 374,
+    "status": "match",
+    "study_ID": "E_MTAB_12993_blood"
+  },
+  {
+    "author_count": 35,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 35,
+    "status": "match",
+    "study_ID": "E_MTAB_12993_blood"
+  },
+  {
+    "author_count": 93,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 93,
+    "status": "match",
+    "study_ID": "GSE11348"
+  },
+  {
+    "author_count": 31,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 31,
+    "status": "match",
+    "study_ID": "GSE11348"
+  },
+  {
+    "author_count": 88,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 88,
+    "status": "match",
+    "study_ID": "GSE61754"
+  },
+  {
+    "author_count": 22,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 22,
+    "status": "match",
+    "study_ID": "GSE61754"
+  },
+  {
+    "author_count": 108,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 108,
+    "status": "match",
+    "study_ID": "GSE90732"
+  },
+  {
+    "author_count": 21,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 21,
+    "status": "match",
+    "study_ID": "GSE90732"
+  },
+  {
+    "author_count": 78,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 78,
+    "status": "match",
+    "study_ID": "GSE155237"
+  },
+  {
+    "author_count": 40,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 40,
+    "status": "match",
+    "study_ID": "GSE155237"
+  },
+  {
+    "author_count": 386,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 386,
+    "status": "match",
+    "study_ID": "GSE73072_H1N1_DEE4"
+  },
+  {
+    "author_count": 19,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 19,
+    "status": "match",
+    "study_ID": "GSE73072_H1N1_DEE4"
+  },
+  {
+    "author_count": 477,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 477,
+    "status": "match",
+    "study_ID": "GSE73072_H1N1_DEE3"
+  },
+  {
+    "author_count": 24,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 24,
+    "status": "match",
+    "study_ID": "GSE73072_H1N1_DEE3"
+  },
+  {
+    "author_count": 355,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 355,
+    "status": "match",
+    "study_ID": "GSE73072_H3N2_DEE2"
+  },
+  {
+    "author_count": 17,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 17,
+    "status": "match",
+    "study_ID": "GSE73072_H3N2_DEE2"
+  },
+  {
+    "author_count": 482,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 482,
+    "status": "match",
+    "study_ID": "GSE73072_H3N2_DEE5"
+  },
+  {
+    "author_count": 21,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 21,
+    "status": "match",
+    "study_ID": "GSE73072_H3N2_DEE5"
+  },
+  {
+    "author_count": 471,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 471,
+    "status": "match",
+    "study_ID": "GSE73072_HRV_DUKE"
+  },
+  {
+    "author_count": 27,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 27,
+    "status": "match",
+    "study_ID": "GSE73072_HRV_DUKE"
+  },
+  {
+    "author_count": 295,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 295,
+    "status": "match",
+    "study_ID": "GSE73072_HRV_UVA"
+  },
+  {
+    "author_count": 20,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 20,
+    "status": "match",
+    "study_ID": "GSE73072_HRV_UVA"
+  },
+  {
+    "author_count": 420,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 420,
+    "status": "match",
+    "study_ID": "GSE73072_RSV_DEE1"
+  },
+  {
+    "author_count": 20,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 20,
+    "status": "match",
+    "study_ID": "GSE73072_RSV_DEE1"
+  },
+  {
+    "author_count": 96,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 96,
+    "status": "match",
+    "study_ID": "GSE117580"
+  },
+  {
+    "author_count": 35,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 35,
+    "status": "match",
+    "study_ID": "GSE117580"
+  },
+  {
+    "author_count": 705,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 705,
+    "status": "match",
+    "study_ID": "GSE220682"
+  },
+  {
+    "author_count": 203,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": null,
+    "status": "not_assessable_from_available_IDs",
+    "study_ID": "GSE220682"
+  },
+  {
+    "author_count": 170,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 170,
+    "status": "match",
+    "study_ID": "GSE228839"
+  },
+  {
+    "author_count": 100,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 97,
+    "status": "difference_requires_interpretation",
+    "study_ID": "GSE228839"
+  },
+  {
+    "author_count": 305,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 305,
+    "status": "match",
+    "study_ID": "GSE276544"
+  },
+  {
+    "author_count": 43,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 43,
+    "status": "match",
+    "study_ID": "GSE276544"
+  },
+  {
+    "author_count": 188,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 188,
+    "status": "match",
+    "study_ID": "GSE209985"
+  },
+  {
+    "author_count": 32,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 32,
+    "status": "match",
+    "study_ID": "GSE209985"
+  },
+  {
+    "author_count": 50,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 50,
+    "status": "match",
+    "study_ID": "GSE247401"
+  },
+  {
+    "author_count": 17,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 17,
+    "status": "match",
+    "study_ID": "GSE247401"
+  },
+  {
+    "author_count": 100,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 100,
+    "status": "match",
+    "study_ID": "GSE265975"
+  },
+  {
+    "author_count": 29,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 29,
+    "status": "match",
+    "study_ID": "GSE265975"
+  },
+  {
+    "author_count": 384,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 384,
+    "status": "match",
+    "study_ID": "GSE102012"
+  },
+  {
+    "author_count": 50,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 50,
+    "status": "match",
+    "study_ID": "GSE102012"
+  },
+  {
+    "author_count": 371,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 371,
+    "status": "match",
+    "study_ID": "GSE217770"
+  },
+  {
+    "author_count": 53,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 53,
+    "status": "match",
+    "study_ID": "GSE217770"
+  },
+  {
+    "author_count": 60,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 60,
+    "status": "match",
+    "study_ID": "GSE230494"
+  },
+  {
+    "author_count": 39,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 39,
+    "status": "match",
+    "study_ID": "GSE230494"
+  },
+  {
+    "author_count": 140,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 140,
+    "status": "match",
+    "study_ID": "GSE52005"
+  },
+  {
+    "author_count": 38,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 38,
+    "status": "match",
+    "study_ID": "GSE52005"
+  },
+  {
+    "author_count": 671,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 671,
+    "status": "match",
+    "study_ID": "GSE107990"
+  },
+  {
+    "author_count": 172,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": 172,
+    "status": "match",
+    "study_ID": "GSE107990"
+  },
+  {
+    "author_count": 193,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_observations",
+    "observed_count": 193,
+    "status": "match",
+    "study_ID": "GSE281864"
+  },
+  {
+    "author_count": 17,
+    "caution": "Observed IDs/rows describe this table, not deduplicated people across cohorts.",
+    "measure": "num_subjects",
+    "observed_count": null,
+    "status": "not_assessable_from_available_IDs",
+    "study_ID": "GSE281864"
+  }
+]

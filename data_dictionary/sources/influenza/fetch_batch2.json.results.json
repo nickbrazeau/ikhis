@@ -1,0 +1,37 @@
+[
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/JCI137265.html",
+    "url": "https://www.jci.org/articles/view/137265",
+    "status": 200,
+    "bytes": 264767
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/EGAD50000000956.html",
+    "url": "https://ega-archive.org/datasets/EGAD50000000956",
+    "status": 200,
+    "bytes": 169156
+  },
+  {
+    "path": "FR-FCM-Z2NZ.html",
+    "url": "https://flowrepository.org/id/FR-FCM-Z2NZ",
+    "error": "HTTPSConnectionPool(host='flowrepository.org', port=443): Max retries exceeded with url: /id/FR-FCM-Z2NZ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)')))"
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE68310.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68310&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 31901
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE194378.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194378&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 19388
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE117580.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117580&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 5985
+  }
+]

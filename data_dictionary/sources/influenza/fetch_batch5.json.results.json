@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC12375958.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12375958/",
+    "status": 200,
+    "bytes": 247976
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC4750592.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750592/",
+    "status": 200,
+    "bytes": 175031
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC5126380.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126380/",
+    "status": 200,
+    "bytes": 238021
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC6652224.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6652224/",
+    "status": 200,
+    "bytes": 287355
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/INFLUENZA_BCG2026.html",
+    "url": "https://www.nature.com/articles/s41467-026-72363-2",
+    "status": 200,
+    "bytes": 598064
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "search_id": "FLU_GEO_001",
+    "searched_on": "2026-09-14",
+    "database": "NCBI GEO DataSets via Entrez skill",
+    "query": "GSE[ETYP] AND Homo sapiens[Organism] AND influenza AND (challenge OR inoculation OR experimentally)",
+    "translated_query": "GSE[ETYP] AND \"Homo sapiens\"[Organism] AND (\"influenza, human\"[MeSH Terms] OR influenza[All Fields]) AND (challenge[All Fields] OR (\"vaccination\"[MeSH Terms] OR inoculation[All Fields]) OR experimentally[All Fields])",
+    "total_hits": 200,
+    "returned_ids": 200,
+    "retrieval_cap": 200,
+    "initial_page_size": 10,
+    "screened_title_count": 200,
+    "additional_known_accessions": [
+      "GSE73072",
+      "GSE111368"
+    ],
+    "screening_path": "data_dictionary/sources/influenza/geo_screening.json",
+    "raw_path": "data_dictionary/sources/influenza/snapshots/gds_search_all.json",
+    "limitations": [
+      "Query expansion maps inoculation to vaccination, increasing irrelevant vaccine hits.",
+      "All returned titles screened, but not every unselected title underwent full summary/paper review.",
+      "GSE73072 was not recovered by broad query and was added as an explicit known lead; query sensitivity is imperfect."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_001",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "site.ncbi.nlm.nih.gov/geo influenza human challenge \"GSE\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_002",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "influenza human challenge study raw data proteomics metabolomics ImmPort dataset",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_003",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"human challenge\" \"GSE\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_004",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"GSE73072\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_005",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"GSE61754\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_006",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"GSE111368\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_007",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"single-cell\" \"data availability\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_008",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"metabolomics\" \"data availability\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_009",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"ImmPort\" \"SDY\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_010",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"E-MTAB\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_011",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Rahil\" \"influenza\" \"data\" \"FlowRepository\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_012",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Nasopharyngeal Protein Biomarkers\" \"MassIVE\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_013",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"human influenza challenge\" \"metabolomic\" dataset",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_014",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"GSE299820\" \"epigenomic\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_015",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Innate immune molecular landscape\" \"data\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_016",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Human influenza virus challenge identifies cellular correlates\" \"data\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_017",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Nasopharyngeal Protein Biomarkers of Acute Respiratory Virus Infection\" \"data\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_018",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"Innate immune molecular landscape following controlled human influenza virus infection\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_019",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"data\" \"ImmPort\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_020",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"metabolomics\" \"MetaboLights\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_021",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"ProteomeXchange\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_WEB_022",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza\" \"challenge\" \"viral sequencing\" \"PRJNA\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked results; no numerical cap exposed",
+    "screening": "Primary repository and original paper hits followed. Secondary aggregators used only as discovery leads.",
+    "limitations": [
+      "Not an exhaustive database census; no search-total denominator available."
+    ]
+  },
+  {
+    "search_id": "FLU_BIOSTUDIES_LOOKUP",
+    "searched_on": "2026-09-14",
+    "database": "BioStudies API via BioStudies skill",
+    "query": "studies/E-MTAB-13038 and studies/E-MTAB-13041",
+    "retrieval_cap": 2,
+    "returned_records": 2,
+    "screening": "Both verify human H3N2 challenge and processed count files; raw blood linked separately to managed EGA."
+  },
+  {
+    "search_id": "FLU_WEB_023",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"human influenza challenge\" \"SRA\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked; no numerical cap exposed",
+    "screening": "Primary-paper hits followed, recovering NIH multiomics and viral sequencing datasets."
+  },
+  {
+    "search_id": "FLU_WEB_024",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza challenge\" \"GenBank\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked; no numerical cap exposed",
+    "screening": "Primary-paper hits followed, recovering NIH multiomics and viral sequencing datasets."
+  },
+  {
+    "search_id": "FLU_WEB_025",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza challenge\" \"cytokines\" \"data availability\"",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked; no numerical cap exposed",
+    "screening": "Primary-paper hits followed, recovering NIH multiomics and viral sequencing datasets."
+  },
+  {
+    "search_id": "FLU_WEB_026",
+    "searched_on": "2026-09-14",
+    "database": "web search",
+    "query": "\"influenza challenge\" \"metabolomics\" human data deposit",
+    "total_hits": null,
+    "retrieval_cap": "tool-ranked; no numerical cap exposed",
+    "screening": "Primary-paper hits followed, recovering NIH multiomics and viral sequencing datasets."
+  },
+  {
+    "search_id": "FLU_SRA_002",
+    "searched_on": "2026-09-14",
+    "database": "NCBI SRA via Entrez skill",
+    "query": "SRP091397 OR PRJNA528931",
+    "total_hits": 265,
+    "initial_cap": 100,
+    "final_retrieval_cap": 265,
+    "returned_ids": 265,
+    "metadata_summarized": 265,
+    "raw_path": "data_dictionary/sources/influenza/snapshots/sra_search_viral_all.json",
+    "screening": "Accession membership verified from all experiment summaries; not all individual runs assigned human challenge versus controls/natural infection."
+  },
+  {
+    "search_id": "FLU_CITATION_FOLLOWUP",
+    "searched_on": "2026-09-14",
+    "database": "Primary article data availability / repository lookups",
+    "query": "GSE253685; GSE253686; KAW2025STM; E-MTAB-15137; EGAS50000001677",
+    "screening": "Followed actual data availability statements; GEO human challenge and EGA managed access verified."
+  }
+]

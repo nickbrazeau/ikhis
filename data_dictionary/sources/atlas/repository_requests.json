@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GSE100501",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100501&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE100501.soft.txt",
+    "max_bytes": 3000000
+  },
+  {
+    "id": "GSE100866",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE100866.soft.txt",
+    "max_bytes": 3000000
+  },
+  {
+    "id": "GSE116698",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116698&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE116698.soft.txt",
+    "max_bytes": 3000000
+  },
+  {
+    "id": "GSE202186",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202186&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE202186.soft.txt",
+    "max_bytes": 3000000
+  },
+  {
+    "id": "GSE57542",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57542&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE57542.soft.txt",
+    "max_bytes": 3000000
+  },
+  {
+    "id": "GSE74668",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74668&targ=self&form=text&view=full",
+    "output": "sources/atlas/GSE74668.soft.txt",
+    "max_bytes": 3000000
+  }
+]

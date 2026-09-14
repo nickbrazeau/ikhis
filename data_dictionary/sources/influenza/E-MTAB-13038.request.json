@@ -1,0 +1,7 @@
+{
+  "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+  "path": "studies/E-MTAB-13038",
+  "save_raw": true,
+  "raw_output_path": "data_dictionary/sources/influenza/snapshots/E-MTAB-13038.json",
+  "max_depth": 6
+}

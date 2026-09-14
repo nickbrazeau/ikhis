@@ -1,0 +1,42 @@
+{
+  "antibody_join_checks": {
+    "all_antibody_subjects_match_metadata": 24,
+    "metadata_table_not_inspected": 5,
+    "requires_join_review": 8
+  },
+  "atlas_distinct_content_assets": 721,
+  "atlas_files": 2057,
+  "atlas_recorded_data_accessions": 15,
+  "atlas_registered_sources": 123,
+  "atlas_sources_without_recorded_raw_route": 55,
+  "catalog_version": "0.1.0",
+  "coverage_claim": "Complete local atlas file inventory and pinned HR file listing; expandable influenza discovery catalog, not an exhaustive census.",
+  "hr_common_gene_labels": 41667,
+  "hr_field_entries": 3668,
+  "hr_influenza_challenge_subsets": 6,
+  "hr_inspected_tables": 99,
+  "hr_listed_files": 175,
+  "hr_study_rows": 66,
+  "huggingface_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+  "independent_cohort_count": null,
+  "influenza_adjacent_exclusions": 4,
+  "influenza_catalog_records": 30,
+  "influenza_eligible_records": 26,
+  "influenza_file_or_access_entries": 338,
+  "influenza_raw_access_status": {
+    "controlled": 4,
+    "public": 13,
+    "request_only": 1,
+    "request_window_not_yet_open": 1,
+    "unverified": 7
+  },
+  "observed_on": "2026-09-14",
+  "open_gaps": 109,
+  "scientific_review": "Atlas review remains pending; this inventory does not approve candidate claims.",
+  "study_count_checks": {
+    "difference_requires_interpretation": 2,
+    "match": 114,
+    "not_assessable_from_available_IDs": 2
+  },
+  "viral_sequence_runs": 278
+}

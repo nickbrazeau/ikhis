@@ -1,0 +1,152 @@
+[
+  {
+    "author_pipeline_summary": "CEL processing, probe mapping and gene selection, followed by distribution normalization.",
+    "id": "TR_AFFY",
+    "inspected_demo": "GSE74816: ReadAffy; rma(normalize=FALSE); HGNChelper mapping; retain maximum median probe per symbol; omit missing rows; normalize.quantiles.",
+    "instrument_raw_examples": [
+      "CEL files"
+    ],
+    "modality": "Affymetrix microarray",
+    "output_rawness": "Processed gene-level intensities. RMA is already a transformed summary; do not re-log merely from generic paper wording. Demo code is illustrative, not an execution ledger for all matrices.",
+    "source_ids": [
+      "paper_v2",
+      "Affymetrix_microarray_process"
+    ],
+    "source_locators": [
+      {
+        "description": "RMA call; gene mapping starts below; quantile normalization at line 143",
+        "is_derived_text": true,
+        "line": 102,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Affymetrix_microarray_process.qmd.text"
+      }
+    ]
+  },
+  {
+    "author_pipeline_summary": "Often starts with study-provided intensity tables because IDAT is unavailable.",
+    "id": "TR_ILLUMINA",
+    "inspected_demo": "GSE101710 CSV; map ILMN probes through HGNChelper; select highest median probe; quantile normalize. log2(Value+1) appears in plotting, while the illustrated saved processed object precedes that plot transform.",
+    "instrument_raw_examples": [
+      "IDAT files"
+    ],
+    "modality": "Illumina microarray",
+    "output_rawness": "Harmonized gene intensities; neither a study-provided intensity table nor the processed CSV is equivalent to an IDAT.",
+    "source_ids": [
+      "paper_v2",
+      "Illumina_microarray_process"
+    ],
+    "source_locators": [
+      {
+        "description": "QN call; later plot-only log transformation",
+        "is_derived_text": true,
+        "line": 129,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Illumina_microarray_process.qmd.text"
+      }
+    ]
+  },
+  {
+    "author_pipeline_summary": "Gene mapping and count generation or reuse of source counts.",
+    "id": "TR_BULKRNA",
+    "inspected_demo": "GSE190001 starts from a CSV, maps Ensembl genes with biomaRt, sums rows by HGNC symbol, then uses edgeR cpm. log2(Value+1) is used for plotting.",
+    "instrument_raw_examples": [
+      "FASTQ/read files in source archive"
+    ],
+    "modality": "Bulk RNA sequencing",
+    "output_rawness": "Counts are quantified measurements; CPM is additionally normalized. Current card calls bulk files processed/normalized. Do not apply an integer-count model or assume FASTQ-equivalence without per-file checks. Alignment reference, quantifier version and exact per-study path not established here.",
+    "source_ids": [
+      "paper_v2",
+      "RNAseq_Process"
+    ],
+    "source_locators": [
+      {
+        "description": "CPM call after gene-level sum; later plot-only log transformation",
+        "is_derived_text": true,
+        "line": 133,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__RNAseq_Process.qmd.text"
+      }
+    ]
+  },
+  {
+    "author_pipeline_summary": "Inputs include AnnData, 10x matrices and R objects; metadata alignment, gene filtering, normalization and log transformation are described.",
+    "id": "TR_SCRNA",
+    "inspected_demo": "Merger uses existing X; only if missing tries counts, raw_counts, log_norm, then raw.X. Takes intersection of genes, suffixes observation names, coerces metadata to strings and concatenates. The exploration object has log1p metadata, embeddings and neighbor graphs.",
+    "instrument_raw_examples": [
+      "Sequencing read files"
+    ],
+    "modality": "Single-cell RNA sequencing",
+    "output_rawness": "Gene-by-cell counts already follow alignment, barcode/UMI processing and cell calling. X, layers and raw must be assessed independently; a fallback can be normalized. Merged visualization object is derived. H5AD contents themselves remain uninspected.",
+    "source_ids": [
+      "paper_v2",
+      "merge_code",
+      "Single_cell_merge_data_demo"
+    ],
+    "source_locators": [
+      {
+        "description": "ensure_sparse_X fallback",
+        "is_derived_text": false,
+        "line": 43,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/code__Merge_Plot_Demo.py"
+      },
+      {
+        "description": "common gene intersection",
+        "is_derived_text": false,
+        "line": 74,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/code__Merge_Plot_Demo.py"
+      },
+      {
+        "description": "Displayed AnnData object and derived slots",
+        "is_derived_text": true,
+        "line": 101,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Single_cell_merge_data_demo.qmd.text"
+      }
+    ]
+  },
+  {
+    "id": "TR_META",
+    "inspected_demo": "GSE195673 metadata example maps d28+d35 to the mean day 31.5, maps BioSample to sample_id, and retains donor IDs. Merging can turn missing values into literal strings and discard duplicate column names.",
+    "instrument_raw_examples": [],
+    "modality": "Metadata/time",
+    "output_rawness": "Curated/derived metadata. Preserve original pooled time, lower/upper day bounds and representative-time rule; day 31.5 is not evidence of a draw at 31.5 days. Blank, NA, nan and <NA> require explicit missingness mapping.",
+    "source_ids": [
+      "Meta_preprocess_demo",
+      "merge_code",
+      "hf_variables"
+    ],
+    "source_locators": [
+      {
+        "description": "parse_gse195673_time averaged pooled day labels",
+        "is_derived_text": true,
+        "line": 276,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Meta_preprocess_demo.qmd.text"
+      },
+      {
+        "description": "NA addition; metadata string coercion at 114",
+        "is_derived_text": false,
+        "line": 103,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/code__Merge_Plot_Demo.py"
+      }
+    ]
+  },
+  {
+    "id": "TR_ANTIBODY",
+    "inspected_demo": "GSE194378 example mixes antigen/time endpoint columns with computed MFC and responder. Binding-type decimal endpoints and dilution-like titers must not be assumed to share an assay or unit.",
+    "instrument_raw_examples": [
+      "Assay instrument readout files, when supplied by originating study"
+    ],
+    "modality": "Antibody measurements/outcomes",
+    "output_rawness": "Author raw-antibody label denotes supplied measured endpoint tables, not guaranteed plate-reader/flow/instrument output. Assay units, censoring, baseline denominator and strain-specific rules must be resolved in source supplements.",
+    "source_ids": [
+      "hf_card",
+      "hf_example_antibody",
+      "hf_variables",
+      "paper_v2"
+    ],
+    "source_locators": [
+      {
+        "description": "Endpoint headers and derived MFC/responder",
+        "is_derived_text": false,
+        "line": 1,
+        "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__example_dataset__GSE194378_antibody_sample.csv"
+      }
+    ]
+  }
+]

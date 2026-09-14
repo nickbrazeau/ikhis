@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE299820.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299820&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 26681
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE175551.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175551&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 6053
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE118223.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118223&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 14727
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE90732.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90732&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 6117
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE17156.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17156&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 5744
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE52428.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52428&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 23081
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE30550.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30550&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 12344
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE73072.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 97782
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE61754.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61754&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 6181
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE111368.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111368&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 16127
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC11608262.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11608262/",
+    "status": 200,
+    "bytes": 263692
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC13044454.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13044454/",
+    "status": 200,
+    "bytes": 208399
+  }
+]

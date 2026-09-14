@@ -1,0 +1,5494 @@
+{
+  "accno": "E-MTAB-13041",
+  "attributes": [
+    {
+      "name": "ReviewType",
+      "value": "DoubleBlind"
+    },
+    {
+      "name": "Title",
+      "value": "Whole blood RNA-Sequencing from an Influenza H3N2 human challenge model"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2025-05-26"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-13041"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-13041",
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Whole blood RNA-Sequencing from an Influenza H3N2 human challenge model"
+      },
+      {
+        "name": "Study type",
+        "value": "RNA-seq of coding RNA",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0003738"
+          }
+        ]
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "The Influenza H3N2 human challenge model has been described in detail previously5. Briefly, 20 healthy volunteers were inoculated intranasally with a standardized dose of Influenza A virus (A/Belgium/4217/2015(H3N2)) under quarantine conditions. From 24 hours after inoculation, virus was quantified by PCR in nasal lavage samples obtained at 12 hourly intervals. Participants were ascertained to have replicative viral infection if found to have consecutive positive PCR tests at least 24 hours after challenge. Blood samples for RNA sequencing were collected into PAXgene tubes before virus challenge and days 1, 2, 3, 7, 10, 14, and 28 after challenge. These were stored at -80\u00b0C until processing"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-133351",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133351"
+            },
+            {
+              "name": "Type",
+              "value": "sample collection protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "The samples were collected in a PAX gene tube and stored in -80"
+            },
+            {
+              "name": "Hardware",
+              "value": "R"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133352",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133352"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "The samples were extracted using the Qiagen automatic extraction process"
+            },
+            {
+              "name": "Hardware",
+              "value": "R"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133353",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133353"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid library construction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004184"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "NEBNext\u00ae Ultra II Directional RNA Library Prep Kit for Illumina (New England BioLabs)"
+            },
+            {
+              "name": "Hardware",
+              "value": "R"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133354",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133354"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "sequenced on the Illumina NovaSeq 6000 platform using the NovaSeq 6000 S2 200 cycles Flowcell (Illumina), with a target of 40 million paired-end reads per sample."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina NovaSeq 6000"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-133355",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-133355"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "The data was normalised and transformed using DESeq2 in R software"
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        }
+      ],
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Myrsini Kaforou"
+          },
+          {
+            "name": "Email",
+            "value": "m.kaforou@imperial.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Claire Broderick"
+          },
+          {
+            "name": "Email",
+            "value": "c.broderick@imperial.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "value": "o2",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Christopher Chiu"
+          },
+          {
+            "name": "Email",
+            "value": "c.chiu@imperial.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "value": "o3",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Department of Infectious Disease Imperial College London"
+          },
+          {
+            "name": "Address",
+            "value": "Norfolk Place W21PG"
+          }
+        ]
+      },
+      {
+        "accno": "o2",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Department of Infectious Disease Imperial College London"
+          },
+          {
+            "name": "Address",
+            "value": "Norfolk Place W21PG"
+          }
+        ]
+      },
+      {
+        "accno": "o3",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Department of Infectious Disease Imperial College London"
+          },
+          {
+            "name": "Address",
+            "value": "8N.15 Commonwealth Building Hammersmith Campus"
+          }
+        ]
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-13041",
+        "type": "Samples",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "146"
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "time",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "clinical information",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical information"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "sampling time point",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sampling time point"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-13041",
+            "type": "Experimental Factors",
+            "attributes": [
+              {
+                "name": "Time",
+                "value": "TP2"
+              },
+              {
+                "name": "Time",
+                "value": "TP3"
+              },
+              {
+                "name": "Time",
+                "value": "TP8"
+              },
+              {
+                "name": "Time",
+                "value": "TP1"
+              },
+              {
+                "name": "Time",
+                "value": "TP5"
+              },
+              {
+                "name": "Time",
+                "value": "TP6"
+              },
+              {
+                "name": "Time",
+                "value": "TP7"
+              },
+              {
+                "name": "Time",
+                "value": "TP4"
+              },
+              {
+                "name": "Clinical information",
+                "value": "negative PCR for influenza A infection"
+              },
+              {
+                "name": "Clinical information",
+                "value": "positive PCR for influenza A infection"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "7 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "28 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "2 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "10 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "3 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "0 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "14 day"
+              },
+              {
+                "name": "Sampling time point",
+                "value": "1 day"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP1"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_1",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP2"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_2",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP3"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_3",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP4"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_4",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP5"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_5",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP6"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_6",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP7"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_7",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP8"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_8",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP1"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_9",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP2"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_10",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP3"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_11",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP4"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_12",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP5"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_13",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP6"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_14",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP7"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_15",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "time",
+                      "value": "TP8"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "sampling time point",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "source_chars-E-MTAB-13041",
+            "type": "Source Characteristics",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Organism part",
+                "value": "blood"
+              },
+              {
+                "name": "Infect",
+                "value": "Influenza A virus (A/Belgium/4217/2015(H3N2))"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 17"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 5"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 2"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 10"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 11"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 13"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 7"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 1"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 4"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 14"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 3"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 6"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 9"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 15"
+              },
+              {
+                "name": "Individual",
+                "value": "individual 18"
+              },
+              {
+                "name": "Individual",
+                "value": "... 4 other values"
+              },
+              {
+                "name": "Age",
+                "value": "47 year"
+              },
+              {
+                "name": "Age",
+                "value": "35 year"
+              },
+              {
+                "name": "Age",
+                "value": "51 year"
+              },
+              {
+                "name": "Age",
+                "value": "53 year"
+              },
+              {
+                "name": "Age",
+                "value": "25 year"
+              },
+              {
+                "name": "Age",
+                "value": "50 year"
+              },
+              {
+                "name": "Age",
+                "value": "44 year"
+              },
+              {
+                "name": "Age",
+                "value": "26 year"
+              },
+              {
+                "name": "Age",
+                "value": "55 year"
+              },
+              {
+                "name": "Age",
+                "value": "29 year"
+              },
+              {
+                "name": "Age",
+                "value": "22 year"
+              },
+              {
+                "name": "Age",
+                "value": "45 year"
+              },
+              {
+                "name": "Age",
+                "value": "49 year"
+              },
+              {
+                "name": "Age",
+                "value": "41 year"
+              },
+              {
+                "name": "Age",
+                "value": "46 year"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Clinical information",
+                "value": "negative PCR for influenza A infection"
+              },
+              {
+                "name": "Clinical information",
+                "value": "positive PCR for influenza A infection"
+              },
+              {
+                "name": "Day",
+                "value": "7 day"
+              },
+              {
+                "name": "Day",
+                "value": "28 day"
+              },
+              {
+                "name": "Day",
+                "value": "2 day"
+              },
+              {
+                "name": "Day",
+                "value": "10 day"
+              },
+              {
+                "name": "Day",
+                "value": "3 day"
+              },
+              {
+                "name": "Day",
+                "value": "0 day"
+              },
+              {
+                "name": "Day",
+                "value": "14 day"
+              },
+              {
+                "name": "Day",
+                "value": "1 day"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_1",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_2",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_3",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_4",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_5",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_6",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 1"
+                    },
+                    {
+                      "name": "age",
+                      "value": "22 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_7",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_8",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_9",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_10",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_11",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_12",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_13",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_14",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 2"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_15",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_16",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_17",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_18",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_19",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_20",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_21",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 3"
+                    },
+                    {
+                      "name": "age",
+                      "value": "25 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_22",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_23",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_24",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_25",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_26",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_27",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_28",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_29",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 4"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_30",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_31",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_32",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_33",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_34",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_35",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_36",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 5"
+                    },
+                    {
+                      "name": "age",
+                      "value": "29 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_37",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_38",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_39",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_40",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_41",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_42",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_43",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_44",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_45",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_46",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_47",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_48",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_49",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_50",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_51",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_52",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "35 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_53",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_54",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_55",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_56",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_57",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_58",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_59",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_60",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_61",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_62",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_63",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_64",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_65",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_66",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_67",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_68",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 9"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_69",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_70",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_71",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_72",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_73",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_74",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_75",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_76",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 10"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_77",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_78",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_79",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_80",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_81",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_82",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_83",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_84",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 11"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_85",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_86",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_87",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_88",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_89",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_90",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_91",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_92",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 12"
+                    },
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_93",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_94",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_95",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_96",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_97",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_98",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_99",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 13"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_100",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_101",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_102",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_103",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_104",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_105",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_106",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_107",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 14"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_108",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_109",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_110",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_111",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_112",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_113",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_114",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_115",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 15"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_116",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_117",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_118",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_119",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_120",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_121",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_122",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_123",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 16"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_124",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_125",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_126",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_127",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_128",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_129",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_130",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_131",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 17"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "negative PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "28 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_132",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_133",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_134",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_135",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_136",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_137",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_138",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 18"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_139",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "0 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_140",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "1 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_141",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "2 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_142",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "3 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_143",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "7 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_144",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "10 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_145",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "individual 19"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "positive PCR for influenza A infection"
+                    },
+                    {
+                      "name": "day",
+                      "value": "14 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-13041",
+        "type": "Assays and Data",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "146"
+          },
+          {
+            "name": "Technology",
+            "value": "Sequencing assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "type": "Processed Data",
+            "files": [
+              [
+                {
+                  "path": "FluCounts_forUpload_unlogged.csv",
+                  "size": 27031108,
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "mt-E-MTAB-13041",
+            "type": "MAGE-TAB Files",
+            "files": [
+              [
+                {
+                  "path": "E-MTAB-13041.idf.txt",
+                  "size": 3042,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "E-MTAB-13041.sdrf.txt",
+                  "size": 74742,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "score-E-MTAB-13041",
+        "type": "MINSEQE Score",
+        "attributes": [
+          {
+            "name": "Exp. Design",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

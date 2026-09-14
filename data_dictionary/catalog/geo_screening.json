@@ -1,0 +1,1416 @@
+[
+  {
+    "accession": "GSE342810",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200342810",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Isoform-level analysis reveals conserved early changes in transcript usage during human vaccine responses"
+  },
+  {
+    "accession": "GSE307315",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200307315",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Clade 2.3.4.4b H5N1 Influenza A Virus Exhibits High Infectivity in Human Respiratory Tract Models"
+  },
+  {
+    "accession": "GSE319537",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200319537",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Terminally Differentiated Influenza-Specific Effector Memory B Cells Circulate after Live Attenuated Influenza Vaccination"
+  },
+  {
+    "accession": "GSE319534",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200319534",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Terminally Differentiated Influenza-Specific Effector Memory B Cells Circulate after Live Attenuated Influenza Vaccination [BCR-Seq]"
+  },
+  {
+    "accession": "GSE319406",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200319406",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Terminally Differentiated Influenza-Specific Effector Memory B Cells Circulate after Live Attenuated Influenza Vaccination [scRNA-Seq]"
+  },
+  {
+    "accession": "GSE314199",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200314199",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptional profile of Influenza H3-specific memory B cells following LAIV vaccination [LAIV.bulkRNAseq]"
+  },
+  {
+    "accession": "GSE286042",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200286042",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptomic and Proteomic Signatures Following AS03-adjuvanted Influenza A/H7N9 Vaccine"
+  },
+  {
+    "accession": "GSE309595",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200309595",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Longitudinal Analysis of Multiple Myeloma: Therapeutic Response and Immune Microenvironment Dynamics in the Context of Tumor Heterogeneity [scRNA-seq]"
+  },
+  {
+    "accession": "GSE309593",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200309593",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Longitudinal Analysis of Multiple Myeloma: Therapeutic Response and Immune Microenvironment Dynamics in the Context of Tumor Heterogeneity [CITE-Seq]"
+  },
+  {
+    "accession": "GSE325987",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200325987",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Potent type-specific de novo antibodies complement broadly reactive imprinted antibodies in immune responses to SARS-CoV-2 variants"
+  },
+  {
+    "accession": "GSE335087",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200335087",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Causal splicing variants revealed by deep-learning integration of single-cell sQTL mapping under influenza infection"
+  },
+  {
+    "accession": "GSE305372",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200305372",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Human lungs maintain tissue-resident memory T cells against a broad spectrum of pathogens."
+  },
+  {
+    "accession": "GSE303324",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200303324",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "SARS-CoV-2 Variant Boosters and Breakthrough Infections Drive Functional Differences in the Memory B Cell Repertoire"
+  },
+  {
+    "accession": "GSE306043",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200306043",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Cattle and human organoids recapitulate the trans-species transmission of H5N1 2.3.4.4b virus and reveal cross-reactive neutralizing antibodies in humans"
+  },
+  {
+    "accession": "GSE328165",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200328165",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "mRNA-based influenza vaccine expands the breadth of the B cell response in humans"
+  },
+  {
+    "accession": "GSE327614",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200327614",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Early cell autonomous and niche-mediated alveolar epithelial response to influenza infection in primary lung organoids"
+  },
+  {
+    "accession": "GSE306406",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200306406",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Ex vivo modelling of lung tissue resident antimicrobial responses"
+  },
+  {
+    "accession": "GSE309140",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200309140",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Enhanced interferon-stimulated gene signatures in B cells following influenza B virus infection compared to influenza vaccination"
+  },
+  {
+    "accession": "GSE299820",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200299820",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Innate immune epigenomic landscape following controlled human influenza virus infection"
+  },
+  {
+    "accession": "GSE301348",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200301348",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Contemporary highly pathogenic avian influenza (H5N1) viruses retain neurotropism in human cerebral organoids"
+  },
+  {
+    "accession": "GSE310641",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200310641",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "FluPRINT Study: Characterisation of the Immune and Transcriptional Response to LAIV"
+  },
+  {
+    "accession": "GSE282172",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200282172",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "SLAMF7 Defines Subsets of Human Effector CD8 T Cells."
+  },
+  {
+    "accession": "GSE306525",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200306525",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Dissecting the epigenome dynamics in human immune cells upon viral and chemical exposure by multimodal single-cell profiling"
+  },
+  {
+    "accession": "GSE271896",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200271896",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Deep longitudinal immune profiling reveals reprogramming of memory T cells that links to B cell dysregulation with age"
+  },
+  {
+    "accession": "GSE230785",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200230785",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Transcriptomic Profiling of SARS-CoV-2 Spike Protein S1 Subunit Mediated Changes in Human Vascular -Pericytes, -Endothelial cells (ECs), -Smooth Muscle Cells and Lymphatic ECs: Evidence for Differential Gene Regulation"
+  },
+  {
+    "accession": "GSE271520",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200271520",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Obese individuals exhibit distinct temporal gene expression dynamics in response to influenza vaccination"
+  },
+  {
+    "accession": "GSE294364",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200294364",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Antibiotics driven gut microbiome perturbation alters the immune response to the rabies vaccine"
+  },
+  {
+    "accession": "GSE286979",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200286979",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "The Inflammaging Microenvironment Induces Dysfunctional Rewiring of Tfh Cell Differentiation"
+  },
+  {
+    "accession": "GSE288251",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200288251",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Human long noncoding RNA, VILMIR, is induced by major respiratory viral infections and modulates the host interferon response"
+  },
+  {
+    "accession": "GSE260941",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200260941",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Long-lasting B cell convergence to distinct broadly reactive epitopes following vaccination with chimeric influenza virus hemagglutinins II"
+  },
+  {
+    "accession": "GSE260836",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200260836",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Long-lasting B cell convergence to distinct broadly reactive epitopes following vaccination with chimeric influenza virus hemagglutinins"
+  },
+  {
+    "accession": "GSE226633",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200226633",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "B cell convergence to distinct broadly reactive epitopes following vaccination with chimeric influenza virus hemagglutinins"
+  },
+  {
+    "accession": "GSE283403",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200283403",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza virus exposure shapes the B cell response to influenza vaccination fifty years later"
+  },
+  {
+    "accession": "GSE266907",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200266907",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Optimization of a Micro-scale Air-Liquid-Interface Model of Human Proximal Airway Epithelium for Moderate Throughput Drug Screening for SARS-CoV-2 "
+  },
+  {
+    "accession": "GSE261278",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200261278",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Maintenance and functional regulation of immune memory to COVID-19 vaccines in tissues"
+  },
+  {
+    "accession": "GSE112293",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200112293",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Characterization of innate immune responses to AS03 adjuvanted H5N1 vaccine compared to non-adjuvanted H5N1 vaccine."
+  },
+  {
+    "accession": "GSE274606",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200274606",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Differential Induction of Interferon-Stimulated Genes by Cell-Based Versus Egg-Based Quadrivalent Influenza Vaccines in Children During the 2018-2019 Season"
+  },
+  {
+    "accession": "GSE261277",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200261277",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Inflammation of the Nasal Mucosa is Associated with Susceptibility to Experimental Pneumococcal Challenge in Older Adults"
+  },
+  {
+    "accession": "GSE211869",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200211869",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Affinity maturation broadens influenza vaccine-induced antibody responses in humans [bcr]"
+  },
+  {
+    "accession": "GSE211865",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200211865",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Affinity maturation broadens influenza vaccine-induced antibody responses in humans [gex]"
+  },
+  {
+    "accession": "GSE263782",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200263782",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The response to influenza vaccination is associated with DNA methylation-driven regulation of T cell innate antiviral pathways"
+  },
+  {
+    "accession": "GSE261920",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200261920",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Human long noncoding RNA, VILMIR, is induced by major respiratory viral infections and modulates the host interferon response"
+  },
+  {
+    "accession": "GSE235604",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200235604",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Single-cell transcriptome and TCR analysis of human Cytomegalovirus (hCMV)-specific T cell memory reveals effector and pre-effectors of CD8+ and CD4+ cytotoxic T cells"
+  },
+  {
+    "accession": "GSE233315",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200233315",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Immune landscape of PBMC based on single-cell rna sequancing in End Stage Renal Disease"
+  },
+  {
+    "accession": "GSE230494",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200230494",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Mucosal immune responses to live attenuated influenza vaccine in young adults"
+  },
+  {
+    "accession": "GSE175524",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200175524",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "High-throughput Single-cell Profiling of B cell Responses Following Inactivated Influenza Vaccination in Young and Older Adults"
+  },
+  {
+    "accession": "GSE175523",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200175523",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "High-throughput Single-cell Profiling of B cell Responses Following Inactivated Influenza Vaccination in Young and Older Adults (single-cell BCR)"
+  },
+  {
+    "accession": "GSE175522",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200175522",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "High-throughput Single-cell Profiling of B cell Responses Following Inactivated Influenza Vaccination in Young and Older Adults (single-cell Gene Expression)"
+  },
+  {
+    "accession": "GSE215157",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200215157",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Longitudinal Analysis of Influenza Vaccines on DNA methylation Identifies the RIG-I Signaling Pathway"
+  },
+  {
+    "accession": "GSE178158",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200178158",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Bulk RNA-seq of Human Platelets Before and After Flu Vaccination"
+  },
+  {
+    "accession": "GSE223316",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200223316",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptional profiling of immunity to the MF-59 – adjuvanted influenza vaccine in children"
+  },
+  {
+    "accession": "GSE206677",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200206677",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Senescent endothelial cells are predisposed to SARS-CoV-2 infection and subsequent endothelial dysfunction"
+  },
+  {
+    "accession": "GSE202262",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200202262",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Antigen-specific CD8 T cells against SARS-CoV-2"
+  },
+  {
+    "accession": "GSE222888",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200222888",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza-specific effector memory B cells predict long-lived antibody responses to vaccination in humans [scRNA-Seq]"
+  },
+  {
+    "accession": "GSE222476",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200222476",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza-specific effector memory B cells predict long-lived antibody responses to vaccination in humans"
+  },
+  {
+    "accession": "GSE222474",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200222474",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza-specific effector memory B cells predict long-lived antibody responses to vaccination in humans [Rep-Seq]"
+  },
+  {
+    "accession": "GSE203112",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200203112",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Accessible chromatin differences in FCRL5 positive and negative influenza-specific memory B cells"
+  },
+  {
+    "accession": "GSE163989",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200163989",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Transcriptome differences in FCRL5 positive and negative Influenza-specific memory B cells"
+  },
+  {
+    "accession": "GSE167309",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200167309",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "T follicular helper 17 (Tfh17) cells are superior for immunological memory maintenance"
+  },
+  {
+    "accession": "GSE222128",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200222128",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza vaccination reveals sex dimorphic imprints of prior mild COVID-19"
+  },
+  {
+    "accession": "GSE206265",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200206265",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza vaccination reveals sex dimorphic imprints of prior mild COVID-19 [single-cell CITEseq]"
+  },
+  {
+    "accession": "GSE217770",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200217770",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptome signatures preceding the induction of anti-stalk antibodies elicited by a chimeric hemagglutinin-based universal influenza virus vaccine"
+  },
+  {
+    "accession": "GSE217918",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200217918",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "A TLR7-nanoparticle adjuvant promotes broad immune  responses against heterologous strains of Influenza and SARS-CoV-2"
+  },
+  {
+    "accession": "GSE211560",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200211560",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Distinct immunological and molecular signatures predict influenza vaccine responsiveness in the elderly (scRNA Seq)"
+  },
+  {
+    "accession": "GSE211368",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200211368",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Distinct immunological and molecular signatures predict influenza vaccine responsiveness in the elderly"
+  },
+  {
+    "accession": "GSE191238",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200191238",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "LncRNA CHROME regulates the interferon response to viral challenge  [COVID]"
+  },
+  {
+    "accession": "GSE190074",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200190074",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "LncRNA CHROME regulates the interferon response to viral challenge [RNA-Seq]"
+  },
+  {
+    "accession": "GSE205796",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200205796",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Single-cell genome-wide association reveals a nonsynonymous variant in ERAP1 confers increased susceptibility to influenza virus"
+  },
+  {
+    "accession": "GSE207750",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200207750",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Predicting seasonal influenza vaccine response using systemic gene expression profiling"
+  },
+  {
+    "accession": "GSE202392",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202392",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination"
+  },
+  {
+    "accession": "GSE202390",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202390",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_4_igg)"
+  },
+  {
+    "accession": "GSE202389",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202389",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_4_iga)"
+  },
+  {
+    "accession": "GSE202388",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202388",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_3_igg)"
+  },
+  {
+    "accession": "GSE202387",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202387",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_3_iga)"
+  },
+  {
+    "accession": "GSE202385",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202385",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_2_igg)"
+  },
+  {
+    "accession": "GSE202383",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202383",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_2_iga)"
+  },
+  {
+    "accession": "GSE202382",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202382",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_1_igg)"
+  },
+  {
+    "accession": "GSE202380",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200202380",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The antibody landscapes against Group 1 and 2 influenza virus hemagglutinin following AS03 and MF59 adjuvanted H5N1 vaccination (probing_1_iga)"
+  },
+  {
+    "accession": "GSE195793",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200195793",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptional profiles in human milk and whole blood after live attenuated and inactivated influenza vaccination"
+  },
+  {
+    "accession": "GSE205964",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200205964",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Small molecule RIG-I agonist serves to adjuvant broad, multifaceted influenza virus vaccine immunity"
+  },
+  {
+    "accession": "GSE179487",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200179487",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "PD-1 directed immunotherapy alters Tfh and humoral immune responses to seasonal flu vaccine"
+  },
+  {
+    "accession": "GSE199668",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200199668",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Persistence of SARS-CoV-2 Antibodies in Vaccinated Health Care Workers Analyzed by Coronavirus Antigen Microarray"
+  },
+  {
+    "accession": "GSE189120",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200189120",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Proteomic and single-cell transcriptomic dissection of human plasmacytoid dendritic cell response to influenza virus"
+  },
+  {
+    "accession": "GSE194378",
+    "decision": "adjacent_excluded",
+    "locator": "snapshots/gds_summaries.json result.200194378",
+    "reason": "Influenza vaccination following prior COVID-19, not influenza inoculation.",
+    "title": "Influenza vaccination reveals sex dimorphic imprints of prior mild COVID-19 [RNA-Seq]"
+  },
+  {
+    "accession": "GSE196793",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200196793",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The impact of physical frailty on the response to inactivated influenza vaccine in older adults"
+  },
+  {
+    "accession": "GSE178670",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200178670",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Molecular signatures of aging and flu vaccine response in Healthy and HIV infected individuals"
+  },
+  {
+    "accession": "GSE186888",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200186888",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Remote immune processes revealed by immune-derived circulating cell-free DNA"
+  },
+  {
+    "accession": "GSE186006",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200186006",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Differential gene expression in peripheral blood mononuclear cells from children immunized with inactivated influenza vaccine"
+  },
+  {
+    "accession": "GSE152563",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200152563",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Exploration of human lung resident immunity and response to respiratory viral infection in a humanized mouse model"
+  },
+  {
+    "accession": "GSE176447",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200176447",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "RNA-sequencing of Influenza A.Cali09 specific CD4+ T cells from healthy UK adults"
+  },
+  {
+    "accession": "GSE175551",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200175551",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "BioVacSafe (Biomarkers for enhanced vaccine immunosafety) Influenza challenge"
+  },
+  {
+    "accession": "GSE102012",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200102012",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Systems Biology of Influenza A (H5N1) Virus Monovalent Vaccine with and without AS03 adjuvant"
+  },
+  {
+    "accession": "GSE166180",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200166180",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans [ATAC-seq]"
+  },
+  {
+    "accession": "GSE166063",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200166063",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans"
+  },
+  {
+    "accession": "GSE165907",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200165907",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans"
+  },
+  {
+    "accession": "GSE165906",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200165906",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans (TIV_scATAC-seq)"
+  },
+  {
+    "accession": "GSE165905",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200165905",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans (TIV_scRNA-seq)"
+  },
+  {
+    "accession": "GSE165904",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200165904",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans (H5N1_scATAC-seq)"
+  },
+  {
+    "accession": "GSE165903",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200165903",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Single-cell analysis of the epigenomic and transcriptional landscape of innate immunity to seasonal and adjuvanted pandemic influenza vaccination in humans (H5N1_scRNA-seq)"
+  },
+  {
+    "accession": "GSE167893",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200167893",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptional and Immunologic Correlates of Response to Pandemic Influenza Vaccine in Aviremic, HIV-Infected Children"
+  },
+  {
+    "accession": "GSE164649",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200164649",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Pneumococcal colonization impairs nasal and lung mucosal immune responses to Live Attenuated Influenza Vaccination in adults"
+  },
+  {
+    "accession": "GSE167823",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200167823",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The memory B cell response to influenza vaccination is impaired in older persons"
+  },
+  {
+    "accession": "GSE166545",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200166545",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Blood gene expression profiles following influenza vaccination in pregnant women"
+  },
+  {
+    "accession": "GSE151558",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200151558",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Sex-Specific Differences of Humoral Immunity and Transcriptome Diversification in Older Adults Vaccinated with Inactivated Quadrivalent Influenza Vaccines"
+  },
+  {
+    "accession": "GSE155730",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200155730",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "IVIGET (In Vitro Gene Expression Testing)"
+  },
+  {
+    "accession": "GSE159884",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200159884",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "RNAseq from nasopharyngeal swab RNA prior to intranasal live attenuated influenza vaccine in children"
+  },
+  {
+    "accession": "GSE148633",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200148633",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Human B cell response to influenza vaccination"
+  },
+  {
+    "accession": "GSE153559",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200153559",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "scRNAseq of activated cells of the B cell lineage in the tumor microenvironment"
+  },
+  {
+    "accession": "GSE142709",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200142709",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "IFN-kappa Suppresses the Replication of Influenza A Virus through IFNAR-MAPK-Fos-CHD6 Axis"
+  },
+  {
+    "accession": "GSE142708",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200142708",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Transcriptional response to IFN-κ and IFN-κDual in A549 cell line"
+  },
+  {
+    "accession": "GSE144540",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200144540",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptional profiles in pregnant women in response to vaccination"
+  },
+  {
+    "accession": "GSE101709",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200101709",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 4"
+  },
+  {
+    "accession": "GSE95584",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200095584",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 3 - B and T cells"
+  },
+  {
+    "accession": "GSE65442",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200065442",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 2 - B and T cells"
+  },
+  {
+    "accession": "GSE65440",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200065440",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 1 - B and T cells"
+  },
+  {
+    "accession": "GSE134416",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200134416",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Vaccine-induced ICOS+CD38+ cTfh are sensitive biosensors of age-related changes in inflammatory pathways"
+  },
+  {
+    "accession": "GSE120718",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200120718",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans [phase II]"
+  },
+  {
+    "accession": "GSE120717",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200120717",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Perturbation of the metabolic phenotypes of vaccination by the gut microbiome in humans [phase I]"
+  },
+  {
+    "accession": "GSE133478",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200133478",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza Vaccination Primes Human Myeloid Cell Cytokine Secretion and Natural Killer Cell Function"
+  },
+  {
+    "accession": "GSE134227",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200134227",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "The effect of H1N1 vaccination on serum miRNA expression in children: a tale of caution for microRNA microarray studies"
+  },
+  {
+    "accession": "GSE132923",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200132923",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Activation Dynamics and Immunoglobulin Evolution of Pre-existing and Newly Generated Human Memory B-cell Responses to Influenza Hemagglutinin"
+  },
+  {
+    "accession": "GSE101710",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200101710",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 5"
+  },
+  {
+    "accession": "GSE118223",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200118223",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Role of antibodies in peripheral blood leukocyte gene expression during influenza human challenge"
+  },
+  {
+    "accession": "GSE128224",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200128224",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Whole blood RNAseq following live attenuated influenza vaccine in Gambian children"
+  },
+  {
+    "accession": "GSE127792",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200127792",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Inflammatory Mediator Expression Associated With Antibody Response Induced by Live Attenuated vs Inactivated Influenza Virus Vaccine in Children."
+  },
+  {
+    "accession": "GSE109837",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200109837",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Expression data from different levels of anti-CD4 in HIV+ people"
+  },
+  {
+    "accession": "GSE99006",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200099006",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Whole transcriptome profile of citrulline-specific B cells from patients with rheumatoid arthritis"
+  },
+  {
+    "accession": "GSE107990",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200107990",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression profiles associated with humoral response to influenza vaccine, Vaxigrip, in young and elderly subjects of Chinese ethnicity in Singapore"
+  },
+  {
+    "accession": "GSE119767",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200119767",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "HiSeq analysis of human gene expression profile following infection with highly pathogenic avian influenza A virus (H5N1; A/Chicken/Vietnam/0008/04)"
+  },
+  {
+    "accession": "GSE101589",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200101589",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Expression data from different levels of ANA in HIV+ people"
+  },
+  {
+    "accession": "GSE117580",
+    "decision": "adjacent_excluded",
+    "locator": "snapshots/gds_summaries.json result.200117580",
+    "reason": "Pneumococcal challenge after LAIV or inactivated influenza vaccination; not wild-type influenza challenge.",
+    "title": "Inflammation induced by influenza virus impairs innate control of human pneumococcal carriage"
+  },
+  {
+    "accession": "GSE116500",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200116500",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Spec-seq unveils transcriptional subpopulations of antibody-secreting cells following influenza vaccination"
+  },
+  {
+    "accession": "GSE106279",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200106279",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Influenza virus facilitates its infectivity by activating p53 to inhibit the expression of interferon-induced transmembrane proteins (IFITMs)"
+  },
+  {
+    "accession": "GSE61517",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200061517",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Strand-specific Dual RNA-seq of Bronchial Epithelial cells Infected with Influenza A/H3N2 Viruses Reveals Splicing of Gene Segment 6 and Novel Host-Virus Interactions"
+  },
+  {
+    "accession": "GSE114636",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200114636",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Comprehensive profiling of translation initiation in influenza-virus infected cells"
+  },
+  {
+    "accession": "GSE90732",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200090732",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Correlates of self-reported symptom scores in a human H1N1 influenza challenge trial"
+  },
+  {
+    "accession": "GSE59743",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200059743",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 3 - PBMC"
+  },
+  {
+    "accession": "GSE64361",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200064361",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Plasmablast response to influenza vaccines - 2012"
+  },
+  {
+    "accession": "GSE81692",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200081692",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza Vaccines Differentially Regulate the Interferon Response in Human Dendritic Cell Subsets"
+  },
+  {
+    "accession": "GSE81691",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200081691",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza Vaccines Differentially Regulate the Interferon Response in Human Dendritic Cell Subsets [HumanHT-12 V4.0 Beadchip Experiments]"
+  },
+  {
+    "accession": "GSE81690",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200081690",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza Vaccines Differentially Regulate the Interferon Response in Human Dendritic Cell Subsets [HumanWG-6 v3.0 Beadchip Experiments]"
+  },
+  {
+    "accession": "GSE64343",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200064343",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2011"
+  },
+  {
+    "accession": "GSE64346",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200064346",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Immune Responses to Influenza-Like Illness"
+  },
+  {
+    "accession": "GSE62110",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200062110",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Plasmablast response to influenza vaccines"
+  },
+  {
+    "accession": "GSE74975",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074975",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Systems biology of immunity to MF59-adjuvanted versus non-adjuvanted trivalent seasonal influenza vaccines in early childhood"
+  },
+  {
+    "accession": "GSE74816",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074816",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Adults Vaccinated with Influenza TIV Vaccine during 2011/12 Flu Season"
+  },
+  {
+    "accession": "GSE68245",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200068245",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Transcriptomic analysis of human B cell responses to vaccination"
+  },
+  {
+    "accession": "GSE71766",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200071766",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "A Systems Approach to Understanding Human Rhinovirus and Influenza Virus Infection"
+  },
+  {
+    "accession": "GSE74817",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074817",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Adults Vaccinated with Influenza TIV Vaccine 2009-2012"
+  },
+  {
+    "accession": "GSE74815",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074815",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Adults Vaccinated with Influenza TIV Vaccine during 2010/11 Flu Season (FluCenter cohort)"
+  },
+  {
+    "accession": "GSE74813",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074813",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Adults Vaccinated with Influenza TIV Vaccine during 2010/11 Flu Season (HIPC cohort)"
+  },
+  {
+    "accession": "GSE74811",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200074811",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Adults Vaccinated with Influenza TIV Vaccine during 2009/10 Flu Season"
+  },
+  {
+    "accession": "GSE58741",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200058741",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "3-anhydro-6-hydroxy-ophiobolin A inhibits the replication of influenza A virus in vitro and in vivo"
+  },
+  {
+    "accession": "GSE59226",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200059226",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Expression data from Human Umbilical Vein Endothelial Cell after influenza virus infection"
+  },
+  {
+    "accession": "GSE57915",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200057915",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "The combinatorial code governing cellular responses to complex stimuli"
+  },
+  {
+    "accession": "GSE59654",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200059654",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 2 - PBMC"
+  },
+  {
+    "accession": "GSE59635",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200059635",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Gene expression analysis of Influenza vaccine response in Young and Old - Year 1 - PBMC"
+  },
+  {
+    "accession": "GSE64655",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200064655",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "A Cell-based Systems Biology Assessment of Human Blood to Monitor Immune Responses After Influenza Vaccination"
+  },
+  {
+    "accession": "GSE64514",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200064514",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2012"
+  },
+  {
+    "accession": "GSE61754",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200061754",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Transcriptomic profiling facilitates classification of response to influenza challenge"
+  },
+  {
+    "accession": "GSE56744",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200056744",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "BDCA1+ mDCs and BDCA3+ mDCs stimulated with vaccines for 6 hr"
+  },
+  {
+    "accession": "GSE44721",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200044721",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "IL4 DCs and monocytes stimulated by 13 human vaccines and LPS for 6hr"
+  },
+  {
+    "accession": "GSE44720",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200044720",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "IFNa DCs and IL4 DCs exposed to H1N1, heat killed S. aureus, or heat killed S. enterica (HKSE) for 1h, 2h, 6h, 12h, or 24h"
+  },
+  {
+    "accession": "GSE44719",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200044719",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "IFNa and IL4 DCs stimulated with microbial components for 6hr"
+  },
+  {
+    "accession": "GSE60573",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200060573",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Systems Analysis of a RIG-I Agonist Inducing Broad Spectrum Inhibition of Virus Infectivity [Kinetic]"
+  },
+  {
+    "accession": "GSE60572",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200060572",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Systems Analysis of a RIG-I Agonist Inducing Broad Spectrum Inhibition of Virus Infectivity [comparison]"
+  },
+  {
+    "accession": "GSE58970",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200058970",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination"
+  },
+  {
+    "accession": "GSE58943",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200058943",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2009"
+  },
+  {
+    "accession": "GSE58898",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200058898",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "T cell responses to H1N1v and a longitudinal study of seasonal influenza vaccination - 2010"
+  },
+  {
+    "accession": "GSE47353",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200047353",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Global Analyses of Human Immune Variation Reveal Baseline Predictors of Postvaccination Responses"
+  },
+  {
+    "accession": "GSE52005",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200052005",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Trivalent Inactivated Influenza Vaccine (TIV) and Live Attenuated Influenza Vaccine (LAIV) Induce Different B cell and Transcriptional Responses in Children"
+  },
+  {
+    "accession": "GSE49840",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200049840",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Transcriptomic characterization of the novel avian-origin influenza A (H7N9) virus: specific and intermediate host-response between avian (H5N1 and H7N7) and human (H3N2) viruses."
+  },
+  {
+    "accession": "GSE52428",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200052428",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Host gene expression signatures of influenza A H1N1 and H3N2 virus infection in adults"
+  },
+  {
+    "accession": "GSE45764",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200045764",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Effect of influenza vaccination on PBMC and B cell gene expression profiles in healthy humans"
+  },
+  {
+    "accession": "GSE45735",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200045735",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Changes in PBMC gene expression profiles after influenza vaccination in healthy human subjects"
+  },
+  {
+    "accession": "GSE45734",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200045734",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Changes in gene expression profiles of circulating B cells after influenza vaccination in healthy human subjects"
+  },
+  {
+    "accession": "GSE48762",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200048762",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Genome-wide profiling of whole blood from healthy adult volunteers before and after receiving non-live vaccines including seasonal influenza or pneumococcal vaccine or placebo (saline) injections II"
+  },
+  {
+    "accession": "GSE30059",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200030059",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Genome-wide profiling of whole blood from healthy adult volunteers before and after receiving non-live vaccines including seasonal influenza or pneumococcal vaccine or placebo (saline) injections I"
+  },
+  {
+    "accession": "GSE48024",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200048024",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time series of global gene expression after trivalent influenza vaccination in humans"
+  },
+  {
+    "accession": "GSE48023",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200048023",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time series of global gene expression after trivalent influenza vaccination in humans (female cohort)"
+  },
+  {
+    "accession": "GSE48018",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200048018",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time series of global gene expression after trivalent influenza vaccination in humans (male cohort)"
+  },
+  {
+    "accession": "GSE43446",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200043446",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Influenza peptide reactivity within a cohort of age-stratified individuals pre and post vaccination with the 2008/2009 trivalent influenza vaccine"
+  },
+  {
+    "accession": "GSE41080",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200041080",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Baseline expressions in human whole blood"
+  },
+  {
+    "accession": "GSE44455",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200044455",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "MiRNA profiling in lung epithelial cells during infection with influenza A virus"
+  },
+  {
+    "accession": "GSE44453",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200044453",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "MiRNA profiling in lung epithelial cells during infection with influenza A virus of H5N1 strain"
+  },
+  {
+    "accession": "GSE44452",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200044452",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "MiRNA profiling in lung epithelial cells during infection with influenza A virus of H1N1 strain"
+  },
+  {
+    "accession": "GSE43203",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200043203",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "ICL0011 - Host response in human Calu-3 cells to infection with A/Vietnam/1203-CIP048_RG3/2004 (H5N1) (PB1-F2 deletion), A/Vietnam/1203-CIP048_RG3/2004 (H5N1) (PB2-627E mutant) or WT: A/Vietnam/1203/2004 (H5N1)"
+  },
+  {
+    "accession": "GSE40844",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200040844",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "ICL010 - Infection of Calu-3 cells with H1N1 influenza virus A/Netherlands/602/2009"
+  },
+  {
+    "accession": "GSE37571",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200037571",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "Host Regulatory Network Response in Calu-3 cell Infection with A/CA/04/2009 Influenza virus"
+  },
+  {
+    "accession": "GSE33142",
+    "decision": "adjacent_cell_or_ex_vivo_title",
+    "locator": "snapshots/gds_summaries.json result.200033142",
+    "reason": "Cell, tissue, organoid, or in vitro experiment title; not deliberate human participant inoculation.",
+    "title": "ICL002: Time course of Calu-3 cells infected with Influenza A/VN/1203/04"
+  },
+  {
+    "accession": "GSE28166",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200028166",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Host Regulatory Network Response to Infection with Highly Pathogenic H5N1 Avian Influenza Virus"
+  },
+  {
+    "accession": "GSE30550",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200030550",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Temporal expression data from 17 health human subjects before and after they were challenged with live influenza (H3N2/Wisconsin) viruses"
+  },
+  {
+    "accession": "GSE29619",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200029619",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Systems biology of vaccination for seasonal influenza in humans"
+  },
+  {
+    "accession": "GSE29618",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200029618",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "FACS-sorted cells from Young Adults Vaccinated with Influenza TIV or LAIV Vaccines during 2008/09 Flu Season"
+  },
+  {
+    "accession": "GSE29617",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200029617",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Young Adults Vaccinated with Influenza TIV Vaccine during 2008/09 Flu Season"
+  },
+  {
+    "accession": "GSE29615",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200029615",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Young Adults Vaccinated with Influenza LAIV Vaccine during 2008/09 Flu Season"
+  },
+  {
+    "accession": "GSE29614",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200029614",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Time Course of Young Adults Vaccinated with Influenza TIV Vaccine during 2007/08 Flu Season"
+  },
+  {
+    "accession": "GSE20346",
+    "decision": "adjacent_vaccination_title",
+    "locator": "snapshots/gds_summaries.json result.200020346",
+    "reason": "Vaccination-focused title; not evidence of wild-type human influenza challenge.",
+    "title": "Expression profiling of critically ill influenza and bacterial pneumonia patients, also influenza vaccination recipients"
+  },
+  {
+    "accession": "GSE21802",
+    "decision": "title_screened_not_selected",
+    "locator": "snapshots/gds_summaries.json result.200021802",
+    "reason": "No explicit human influenza inoculation cohort in title; further abstract screening may recover additional eligible datasets.",
+    "title": "Hosts responses in critical disease caused by pandemic H1N1"
+  },
+  {
+    "accession": "GSE17156",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200017156",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Gene expression signatures of symptomatic respiratory viral infection in adults"
+  },
+  {
+    "accession": "GSE73072",
+    "decision": "include_for_source_verification",
+    "locator": "snapshots/gds_summaries.json result.200073072",
+    "reason": "Explicit human influenza challenge lead; series metadata inspected.",
+    "title": "Host gene expression signatures of H1N1, H3N2, HRV, RSV virus infection in adults"
+  },
+  {
+    "accession": "GSE111368",
+    "decision": "adjacent_excluded",
+    "locator": "snapshots/gds_summaries.json result.200111368",
+    "reason": "Natural clinical influenza (MOSAIC), not controlled inoculation.",
+    "title": "Progression of whole blood transcriptional signatures from interferon-induced to neutrophil-associated patterns in patients with severe influenza"
+  }
+]

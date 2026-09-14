@@ -1,0 +1,170 @@
+{
+  "retrieved_on": "2026-09-14",
+  "sources": [
+    {
+      "source_id": "paper_v2",
+      "url": "https://arxiv.org/html/2505.14725v2",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/paper_v2.html",
+      "sha256": "a06475222d88fa97b219980f7e54ed3f2de47791bc6c22f6b38459445f97e713",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "github_readme",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/README.md",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/github_readme.md",
+      "sha256": "d50b2f0bec09ee531c3474c7262873776c9ec49d4b5aa2d6805cf8fc4b6513d1",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "hf_card",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/README.md",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf_readme.md",
+      "sha256": "ec16930681a332e7e0512042ff59ff15fe4a6b40b6cad92f6a613dbf2e99c827",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "hf_variables",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/Meta_variable_description.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__Meta_variable_description.csv",
+      "sha256": "0f97323e1a2e817c593d3e2829c6f55ea4a44f0efe6c52b073a3dc0528aa4e55",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "hf_studies",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/study_meta.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__study_meta.csv",
+      "sha256": "48977830c893ed1babf334c16a24b52e9f701cc239b1b3b3be747fdf1371e1f1",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "gh_studies",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/study_meta.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/study_meta.csv",
+      "sha256": "b660876c34c8b59253ba2f960ad8dc8c6cee3ba7b922e9b5c288d0fe9fd089a1",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "hf_citations",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/study_citations.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__study_citations.csv",
+      "sha256": "778a24884e106d3b3b52256a0360ef469d5df63cb3d65d1fbbb8ce711471c51f",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "hf_example_meta",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_meta_sample.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__example_dataset__GSE194378_meta_sample.csv",
+      "sha256": "88030ed454fd6fc65b4adb41f7faa4a305e37866494abe6d8481417a0ff1b347",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "hf_example_antibody",
+      "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/blob/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_antibody_sample.csv",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/hf__example_dataset__GSE194378_antibody_sample.csv",
+      "sha256": "15d7d4d8b9a896298091dfd83e3dd6adac68eb91e7ddcec8fe2822ea3abe82c6",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_small_table"
+    },
+    {
+      "source_id": "Affymetrix_microarray_process",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Affymetrix_microarray_process.qmd",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Affymetrix_microarray_process.qmd",
+      "sha256": "ebd972a29660ff07b267e71a3425bb1aefe682a0f0d332f901857b24a664f99f",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "Illumina_microarray_process",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Illumina_microarray_process.qmd",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Illumina_microarray_process.qmd",
+      "sha256": "2b08aad03a70737f0ed16d2e14cfde19954a85d8924a0607864779b7905b219f",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "RNAseq_Process",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/RNAseq_Process.qmd",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__RNAseq_Process.qmd",
+      "sha256": "5e5f9165567424f16813fa1ffc913e29b3012b322febb80b8d84d26e922fc2b8",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "Single_cell_merge_data_demo",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Single_cell_merge_data_demo.qmd",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Single_cell_merge_data_demo.qmd",
+      "sha256": "3d8cae52d5229ba92e7457e7b8a5d2c2220efe9a590862fce90c6aa1867b4f17",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "Meta_preprocess_demo",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/docs/Meta_preprocess_demo.qmd",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Meta_preprocess_demo.qmd",
+      "sha256": "603786dcb05778c4067d379aad9645ad95ad9162b523879760e7db8823a0bf2a",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_document"
+    },
+    {
+      "source_id": "merge_code",
+      "url": "https://github.com/XuejunSun98/HR-VILAGE-3K3M/blob/716c27dccba847875f85be63103e2245acaa3320/code/Merge_Plot_Demo.py",
+      "snapshot_path": "data_dictionary/sources/hr_vilage_audit/snapshots/code__Merge_Plot_Demo.py",
+      "sha256": "9224b6c7d3dc89faae24fa8312a8ddab1cf6b107fbe80581fd68979588169ddc",
+      "retrieved_on": "2026-09-14",
+      "evidence_status": "inspected_code_not_executed"
+    }
+  ],
+  "snapshot_policy": "Public primary-source documentation and small tables only; no instrument-raw files or full expression matrices downloaded. HTML-to-text files are local reading derivatives, not additional independent sources.",
+  "reading_derivatives": [
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Single_cell_merge_data_demo.qmd.text",
+      "sha256": "7d85317763de927172a67742bac587d00b49d0e42460bb84cac0986da26139ea",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Single_cell_merge_data_demo.qmd",
+      "original_sha256": "3d8cae52d5229ba92e7457e7b8a5d2c2220efe9a590862fce90c6aa1867b4f17",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    },
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__RNAseq_Process.qmd.text",
+      "sha256": "7f680e0c9c300b809431b36c1128f0bf219e02d204f3e52f8a409430e4604ed5",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__RNAseq_Process.qmd",
+      "original_sha256": "5e5f9165567424f16813fa1ffc913e29b3012b322febb80b8d84d26e922fc2b8",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    },
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Affymetrix_microarray_process.qmd.text",
+      "sha256": "17434d8e0e0aa68b2f5db123d48fa7b1eab545c787c99d97eabc7e79a7e00f31",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Affymetrix_microarray_process.qmd",
+      "original_sha256": "ebd972a29660ff07b267e71a3425bb1aefe682a0f0d332f901857b24a664f99f",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    },
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Meta_preprocess_demo.qmd.text",
+      "sha256": "52c049815c7cc602c0f624b58f0c395a8fb3026e108ee88dd1a2046006608ccf",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Meta_preprocess_demo.qmd",
+      "original_sha256": "603786dcb05778c4067d379aad9645ad95ad9162b523879760e7db8823a0bf2a",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    },
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/paper_v2.html.text",
+      "sha256": "c1c12cd02f2f5240f533778ad22fa6bdba266cff24615e9295a110370ae04474",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/paper_v2.html",
+      "original_sha256": "a06475222d88fa97b219980f7e54ed3f2de47791bc6c22f6b38459445f97e713",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    },
+    {
+      "path": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Illumina_microarray_process.qmd.text",
+      "sha256": "6260a43de55199b79d0519c94f872b1444fe5b8572384854dc1db73a1f65f449",
+      "derived_from": "data_dictionary/sources/hr_vilage_audit/snapshots/docs__Illumina_microarray_process.qmd",
+      "original_sha256": "2b08aad03a70737f0ed16d2e14cfde19954a85d8924a0607864779b7905b219f",
+      "transform": "Python HTMLParser removed script/style contents and inserted tag-boundary newlines; no source meaning added."
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "observed_on": "2026-09-14",
+  "paper_version": "arXiv 2505.14725v2, 31 May 2026",
+  "github_revision": "716c27dccba847875f85be63103e2245acaa3320",
+  "huggingface_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+  "current_dataset_version_author": "V3, 28 August 2026",
+  "dataset_doi": "10.57967/hf/9892",
+  "current_license_author": "CC-BY-4.0; underlying studies retain original source terms",
+  "changes": [
+    {
+      "date": "2025-09-09",
+      "author_statement": "Corrected GSE194378, GSE199750 and GSE276544 expression files."
+    },
+    {
+      "date": "2025-10-13",
+      "author_statement": "V2 updates GSE169159; adds GSE230494 antibodies and metadata; adds gene/time summaries and variable definitions."
+    },
+    {
+      "date": "2026-08-28",
+      "author_statement": "V3 removes bulk_gene_expr_raw; adds study_citations and dataset DOI/CC-BY-4.0."
+    }
+  ],
+  "version_cautions": [
+    {
+      "issue": "Paper versus current release",
+      "finding": "May 2026 paper describes raw files redistributed; August 2026 V3 says raw source expression files were removed. Use current file inventory and source-record links."
+    },
+    {
+      "issue": "Two study_meta copies",
+      "finding": "Current HF study_meta has 16 columns including gene/time summaries; current GitHub study_meta has 13 columns. Both have 66 rows. They are not interchangeable snapshots."
+    },
+    {
+      "issue": "Example counts",
+      "finding": "Current downloaded HF example metadata has 387 rows and 73 distinct subjects; antibody has 73 rows. Card says 386/72. These are examples, not full study totals."
+    },
+    {
+      "issue": "Raw count claims",
+      "finding": "README X count claim and paper/demo transformations do not establish every current H5AD layer. Per-artifact inspection required."
+    },
+    {
+      "issue": "Legacy raw_data flag",
+      "finding": "Retained in current study_meta despite removal of raw-expression folder; do not treat as a resolved availability status."
+    },
+    {
+      "issue": "Loader version",
+      "finding": "README offers revision=script, whereas inventory is main revision. Pin exact revisions; no remote loader code executed in this audit."
+    }
+  ],
+  "source_ids": [
+    "paper_v2",
+    "github_readme",
+    "hf_card",
+    "hf_studies",
+    "gh_studies",
+    "hf_example_meta",
+    "hf_example_antibody"
+  ],
+  "relationships": [
+    {
+      "retained": [
+        "GSE73072_H3N2_DEE2",
+        "GSE73072_H1N1_DEE4"
+      ],
+      "excluded_related": "GSE52428",
+      "relationship": "author-reported overlapping duplicate cohorts"
+    },
+    {
+      "retained": [
+        "GSE73072_H3N2_DEE2"
+      ],
+      "excluded_related": "GSE30550",
+      "relationship": "author-reported overlapping duplicate cohort"
+    },
+    {
+      "retained": [
+        "GSE73072_HRV_UVA",
+        "GSE73072_RSV_DEE1",
+        "GSE73072_H3N2_DEE2"
+      ],
+      "excluded_related": "GSE17156",
+      "relationship": "author-reported overlapping duplicate cohorts"
+    },
+    {
+      "studies": [
+        "GSE201533",
+        "GSE201534"
+      ],
+      "relationship": "author-reported paired bulk/single-cell subjects"
+    },
+    {
+      "studies": [
+        "GSE246525",
+        "GSE246937"
+      ],
+      "relationship": "author-reported paired bulk/single-cell subjects"
+    }
+  ],
+  "relationship_source_id": "github_readme",
+  "influenza_leads": [
+    {
+      "study_ID": "GSE68310",
+      "source_study_type": "mixed exposure",
+      "pathogen": "influenza_A_virus; influenza_B_virus; enterovirus; human_coronavirus; human_rhinovirus; respiratory_syncytial_virus",
+      "num_subjects_author": 133,
+      "num_observations_author": 880,
+      "source_links": {
+        "study_ID": "GSE68310",
+        "source_paper_citation": "Zhai Y, Franco LM, Atmar RL, Quarles JM, et al. Host Transcriptional Response to Influenza and Other Acute Respiratory Viral Infections--A Prospective Cohort Study. PLoS Pathog. 2015 Jun;11(6):e1004869. PMID: 26070066.",
+        "data_citation": "Zhai, Y., Franco, L.M., Belmont, J.W., et al. GEO. https://identifiers.org/geo/GSE68310 (2015)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68310",
+        "metadata_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68310",
+        "antibody_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68310"
+      },
+      "screening_status": "Mixed-exposure context; not confirmed influenza challenge from HR-VILAGE label",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE194378",
+      "source_study_type": "mixed exposure",
+      "pathogen": "influenza",
+      "num_subjects_author": 75,
+      "num_observations_author": 412,
+      "source_links": {
+        "study_ID": "GSE194378",
+        "source_paper_citation": "Sparks R, Lau WW, Liu C, Han KL, et al. Influenza vaccination reveals sex dimorphic imprints of prior mild COVID-19. Nature. 2023 Feb;614(7949):752-761. PMID: 36599369.",
+        "data_citation": "Sparks, R., Lau, W.W., Liu, C., et al. GEO. https://identifiers.org/geo/GSE194378 (2022)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194378",
+        "metadata_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194378",
+        "antibody_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10481789/ (Supplementary Table 8)"
+      },
+      "screening_status": "Mixed-exposure context; not confirmed influenza challenge from HR-VILAGE label",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE61754",
+      "source_study_type": "inoculation",
+      "pathogen": "H3N2",
+      "num_subjects_author": 22,
+      "num_observations_author": 88,
+      "source_links": {
+        "study_ID": "GSE61754",
+        "source_paper_citation": "Davenport EE, Antrobus RD, Lillie PJ, Gilbert S, et al. Transcriptomic profiling facilitates classification of response to influenza challenge. J Mol Med (Berl). 2015 Jan;93(1):105-14. PMID: 25345603.",
+        "data_citation": "Davenport, E.E., Antrobus, R.D., Lillie, P.J., et al. GEO. https://identifiers.org/geo/GSE61754 (2014)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61754",
+        "metadata_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61754",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE90732",
+      "source_study_type": "inoculation",
+      "pathogen": "H1N1",
+      "num_subjects_author": 21,
+      "num_observations_author": 108,
+      "source_links": {
+        "study_ID": "GSE90732",
+        "source_paper_citation": "Muller J, Parizotto E, Antrobus R, Francis J, et al. Development of an objective gene expression panel as an alternative to self-reported symptom scores in human influenza challenge trials. J Transl Med. 2017 Jun 8;15(1):134. PMID: 28595644.",
+        "data_citation": "Muller, J., Parizotto, E., Antrobus, R., et al. GEO. https://identifiers.org/geo/GSE90732 (2017)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90732",
+        "metadata_link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465537/ (Table S1)",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE73072_H1N1_DEE4",
+      "source_study_type": "inoculation",
+      "pathogen": "H1N1",
+      "num_subjects_author": 19,
+      "num_observations_author": 386,
+      "source_links": {
+        "study_ID": "GSE73072_H1N1_DEE4",
+        "source_paper_citation": "Liu TY, Burke T, Park LP, Woods CW, et al. An individualized predictor of health and disease using paired reference and target samples. BMC Bioinformatics. 2016 Jan 22;17:47. PMID: 26801061.",
+        "data_citation": "Ginsburg, G.S., Hero, A.O. GEO. https://identifiers.org/geo/GSE73072 (2016)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072",
+        "metadata_link": "https://docs.google.com/spreadsheets/d/0B2vLBS4X1c1ENzZpT216eGY1RjQ/edit?usp=sharing",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE73072_H1N1_DEE3",
+      "source_study_type": "inoculation",
+      "pathogen": "H1N1",
+      "num_subjects_author": 24,
+      "num_observations_author": 477,
+      "source_links": {
+        "study_ID": "GSE73072_H1N1_DEE3",
+        "source_paper_citation": "Liu TY, Burke T, Park LP, Woods CW, et al. An individualized predictor of health and disease using paired reference and target samples. BMC Bioinformatics. 2016 Jan 22;17:47. PMID: 26801061.",
+        "data_citation": "Ginsburg, G.S., Hero, A.O. GEO. https://identifiers.org/geo/GSE73072 (2016)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072",
+        "metadata_link": "https://docs.google.com/spreadsheets/d/0B2vLBS4X1c1ENzZpT216eGY1RjQ/edit?usp=sharing",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE73072_H3N2_DEE2",
+      "source_study_type": "inoculation",
+      "pathogen": "H3N2",
+      "num_subjects_author": 17,
+      "num_observations_author": 355,
+      "source_links": {
+        "study_ID": "GSE73072_H3N2_DEE2",
+        "source_paper_citation": "Liu TY, Burke T, Park LP, Woods CW, et al. An individualized predictor of health and disease using paired reference and target samples. BMC Bioinformatics. 2016 Jan 22;17:47. PMID: 26801061.",
+        "data_citation": "Ginsburg, G.S., Hero, A.O. GEO. https://identifiers.org/geo/GSE73072 (2016)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072",
+        "metadata_link": "https://docs.google.com/spreadsheets/d/0B2vLBS4X1c1ENzZpT216eGY1RjQ/edit?usp=sharing",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE73072_H3N2_DEE5",
+      "source_study_type": "inoculation",
+      "pathogen": "H3N2",
+      "num_subjects_author": 21,
+      "num_observations_author": 482,
+      "source_links": {
+        "study_ID": "GSE73072_H3N2_DEE5",
+        "source_paper_citation": "Liu TY, Burke T, Park LP, Woods CW, et al. An individualized predictor of health and disease using paired reference and target samples. BMC Bioinformatics. 2016 Jan 22;17:47. PMID: 26801061.",
+        "data_citation": "Ginsburg, G.S., Hero, A.O. GEO. https://identifiers.org/geo/GSE73072 (2016)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73072",
+        "metadata_link": "https://docs.google.com/spreadsheets/d/0B2vLBS4X1c1ENzZpT216eGY1RjQ/edit?usp=sharing",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "HR-VILAGE influenza inoculation lead; confirm source trial/strain/arm",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    },
+    {
+      "study_ID": "GSE117580",
+      "source_study_type": "mixed exposure",
+      "pathogen": "influenza",
+      "num_subjects_author": 35,
+      "num_observations_author": 96,
+      "source_links": {
+        "study_ID": "GSE117580",
+        "source_paper_citation": "Jochems SP, Marcon F, Carniel BF, Holloway M, et al. Inflammation induced by influenza virus impairs human innate immune control of pneumococcus. Nat Immunol. 2018 Dec;19(12):1299-1308. PMID: 30374129.",
+        "data_citation": "Jochems, S., Marcon, F. GEO. https://identifiers.org/geo/GSE117580 (2018)",
+        "transcriptomic_data_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117580",
+        "metadata_link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117580",
+        "antibody_link": "Not applicable"
+      },
+      "screening_status": "Mixed-exposure context; not confirmed influenza challenge from HR-VILAGE label",
+      "source_ids": [
+        "hf_studies",
+        "hf_citations"
+      ]
+    }
+  ],
+  "limits": [
+    "This lane audits HR-VILAGE documentation, code and small tables. It is not a census of all influenza challenge studies.",
+    "Author count 3178 does not prove 3178 distinct independent persons after paired modalities, repeated challenges or cross-source duplication.",
+    "Same research group and similar pipelines do not prove negligible batch effects.",
+    "Study citations locate records, not a verified complete list of retrievable raw assets."
+  ],
+  "source_locators": [
+    "HF README.md lines44–55: release history; lines60–91: data descriptions and example count claims",
+    "GitHub README.md lines151–166: duplicate/pair relations",
+    "study_meta.csv: keyed source rows specified in influenza_leads; cited fields are author-study summaries",
+    "study_citations.csv: keyed rows specified in influenza_leads"
+  ]
+}

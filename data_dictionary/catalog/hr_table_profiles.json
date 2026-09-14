@@ -1,0 +1,2822 @@
+[
+  {
+    "column_count": 51,
+    "data_rows": 374,
+    "distinct_subject_ids_within_table": 35,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 35,
+        "duplicate_nonmissing_rows": 339,
+        "nonmissing": 374
+      },
+      "X": {
+        "distinct": 374,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 374
+      },
+      "geo_accession": {
+        "distinct": 374,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 374
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 373,
+        "nonmissing": 374
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_blood_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "430f9f873e32949e38e7dd4b1ca5bc8e8f00bc725973e0f710312eaa310ce062",
+    "study_ID": "E_MTAB_12993_blood",
+    "table_id": "HF:meta/E_MTAB_12993_blood_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 96,
+    "distinct_subject_ids_within_table": 19,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 19,
+        "duplicate_nonmissing_rows": 77,
+        "nonmissing": 96
+      },
+      "X": {
+        "distinct": 96,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 96
+      },
+      "geo_accession": {
+        "distinct": 96,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 96
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 95,
+        "nonmissing": 96
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_nose_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "a93eef1c0ba1802b86e90a8ef3ffab4c7cee99d43bcdd12c2d033a7a65bea0eb",
+    "study_ID": "E_MTAB_12993_nose",
+    "table_id": "HF:meta/E_MTAB_12993_nose_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 98,
+    "distinct_subject_ids_within_table": 26,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 26,
+        "duplicate_nonmissing_rows": 72,
+        "nonmissing": 98
+      },
+      "X": {
+        "distinct": 98,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 98
+      },
+      "geo_accession": {
+        "distinct": 98,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 98
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 97,
+        "nonmissing": 98
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE101709_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "ec4b9971de6b83849a4c1d4560bdb5e76d282fedb7d85e1f5c7339e9c50c7493",
+    "study_ID": "GSE101709",
+    "table_id": "HF:meta/GSE101709_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 79,
+    "distinct_subject_ids_within_table": 20,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 20,
+        "duplicate_nonmissing_rows": 59,
+        "nonmissing": 79
+      },
+      "X": {
+        "distinct": 79,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 79
+      },
+      "geo_accession": {
+        "distinct": 79,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 79
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 78,
+        "nonmissing": 79
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE101710_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "f273f282b7f0dfb316514b11b82f5daa13c9c14546d8c75f4462809dfb8bb05e",
+    "study_ID": "GSE101710",
+    "table_id": "HF:meta/GSE101710_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 384,
+    "distinct_subject_ids_within_table": 50,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 50,
+        "duplicate_nonmissing_rows": 334,
+        "nonmissing": 384
+      },
+      "X": {
+        "distinct": 384,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 384
+      },
+      "geo_accession": {
+        "distinct": 384,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 384
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 383,
+        "nonmissing": 384
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE102012_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "a5f250fea3ff918b452625d38851c8b5a17e106889c33e5e9eaff4fb6f52668e",
+    "study_ID": "GSE102012",
+    "table_id": "HF:meta/GSE102012_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 671,
+    "distinct_subject_ids_within_table": 172,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 172,
+        "duplicate_nonmissing_rows": 499,
+        "nonmissing": 671
+      },
+      "X": {
+        "distinct": 671,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 671
+      },
+      "geo_accession": {
+        "distinct": 671,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 671
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 670,
+        "nonmissing": 671
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE107990_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "79245359ec97525c19cd30714a7f2e4cff73fa5bfae8682a542da9c95a5def0d",
+    "study_ID": "GSE107990",
+    "table_id": "HF:meta/GSE107990_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 93,
+    "distinct_subject_ids_within_table": 31,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 31,
+        "duplicate_nonmissing_rows": 62,
+        "nonmissing": 93
+      },
+      "X": {
+        "distinct": 93,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 93
+      },
+      "geo_accession": {
+        "distinct": 93,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 93
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 92,
+        "nonmissing": 93
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE11348_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "ffc86c098c93efa015b213846aefd883ec5c4720bbe64d89e2a913469b2f434b",
+    "study_ID": "GSE11348",
+    "table_id": "HF:meta/GSE11348_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 96,
+    "distinct_subject_ids_within_table": 35,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 35,
+        "duplicate_nonmissing_rows": 61,
+        "nonmissing": 96
+      },
+      "X": {
+        "distinct": 96,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 96
+      },
+      "geo_accession": {
+        "distinct": 96,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 96
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 95,
+        "nonmissing": 96
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE117580_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "3472f92333c4c32828d9f40e6150f5994dc4493a786477d3cedf45655da2350e",
+    "study_ID": "GSE117580",
+    "table_id": "HF:meta/GSE117580_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 78,
+    "distinct_subject_ids_within_table": 40,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 40,
+        "duplicate_nonmissing_rows": 38,
+        "nonmissing": 78
+      },
+      "X": {
+        "distinct": 78,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 78
+      },
+      "geo_accession": {
+        "distinct": 78,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 78
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 77,
+        "nonmissing": 78
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE155237_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "536bc7894ed63be8cc3997b902cfcc64380c3b95da6c9198a5d4bc9dcf3a2bf2",
+    "study_ID": "GSE155237",
+    "table_id": "HF:meta/GSE155237_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 185,
+    "distinct_subject_ids_within_table": 32,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 32,
+        "duplicate_nonmissing_rows": 153,
+        "nonmissing": 185
+      },
+      "X": {
+        "distinct": 185,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 185
+      },
+      "geo_accession": {
+        "distinct": 185,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 185
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 184,
+        "nonmissing": 185
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE169159_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "34a95dd819e24b138ff8bb422c574f9257b3c48166d05e1f8508ba995b902519",
+    "study_ID": "GSE169159",
+    "table_id": "HF:meta/GSE169159_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 226,
+    "distinct_subject_ids_within_table": 23,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 23,
+        "duplicate_nonmissing_rows": 203,
+        "nonmissing": 226
+      },
+      "X": {
+        "distinct": 226,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 226
+      },
+      "geo_accession": {
+        "distinct": 226,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 226
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 225,
+        "nonmissing": 226
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE190001_BOOST_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "04fb7428b41eee2a928b0b5617b8b393e4178c999c4f8cf71f4602ded57e361b",
+    "study_ID": "GSE190001_BOOST",
+    "table_id": "HF:meta/GSE190001_BOOST_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 213,
+    "distinct_subject_ids_within_table": 23,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 23,
+        "duplicate_nonmissing_rows": 190,
+        "nonmissing": 213
+      },
+      "X": {
+        "distinct": 213,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 213
+      },
+      "geo_accession": {
+        "distinct": 213,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 213
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 212,
+        "nonmissing": 213
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE190001_PRIME_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "1abb26b844d6e849f8bc7e049dadfc69fb3662bbb79387441b5c7c95540313be",
+    "study_ID": "GSE190001_PRIME",
+    "table_id": "HF:meta/GSE190001_PRIME_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 115,
+    "distinct_subject_ids_within_table": 30,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 30,
+        "duplicate_nonmissing_rows": 85,
+        "nonmissing": 115
+      },
+      "X": {
+        "distinct": 115,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 115
+      },
+      "geo_accession": {
+        "distinct": 115,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 115
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 114,
+        "nonmissing": 115
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE190747_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "e8660d9cf2ef9db5e1c25ff9e0237f1a019f985368f932cbbc02dfa7af09341d",
+    "study_ID": "GSE190747",
+    "table_id": "HF:meta/GSE190747_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 412,
+    "distinct_subject_ids_within_table": 75,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 75,
+        "duplicate_nonmissing_rows": 337,
+        "nonmissing": 412
+      },
+      "X": {
+        "distinct": 412,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 412
+      },
+      "geo_accession": {
+        "distinct": 412,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 412
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 411,
+        "nonmissing": 412
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE194378_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "c74cb30d0b0affc1939ebc9cf32bdf8c6d2250677f8af206150c8f1354b96562",
+    "study_ID": "GSE194378",
+    "table_id": "HF:meta/GSE194378_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 260,
+    "distinct_subject_ids_within_table": 86,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 86,
+        "duplicate_nonmissing_rows": 174,
+        "nonmissing": 260
+      },
+      "X": {
+        "distinct": 260,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 260
+      },
+      "geo_accession": {
+        "distinct": 260,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 260
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 259,
+        "nonmissing": 260
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE199750_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "e22d6cf0b21ca5bc20f570d6b2b996bf8b3dd204967fbee6b8582238ec7cc960",
+    "study_ID": "GSE199750",
+    "table_id": "HF:meta/GSE199750_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 161,
+    "distinct_subject_ids_within_table": 43,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 43,
+        "duplicate_nonmissing_rows": 118,
+        "nonmissing": 161
+      },
+      "X": {
+        "distinct": 161,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 161
+      },
+      "geo_accession": {
+        "distinct": 161,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 161
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 160,
+        "nonmissing": 161
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE201533_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "9e0477f016f460dec56ac4379b064a678795e0ba345663c797c7149d7ae60467",
+    "study_ID": "GSE201533",
+    "table_id": "HF:meta/GSE201533_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 48,
+    "distinct_subject_ids_within_table": 15,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 15,
+        "duplicate_nonmissing_rows": 33,
+        "nonmissing": 48
+      },
+      "X": {
+        "distinct": 48,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 48
+      },
+      "geo_accession": {
+        "distinct": 48,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 48
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 47,
+        "nonmissing": 48
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE201642_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "d25dc631cfc13f375c1882deb867ed4dbfc5b65aa9a649df01caeb94ddbb5751",
+    "study_ID": "GSE201642",
+    "table_id": "HF:meta/GSE201642_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 271,
+    "distinct_subject_ids_within_table": 271,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 271,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 271
+      },
+      "X": {
+        "distinct": 271,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 271
+      },
+      "geo_accession": {
+        "distinct": 271,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 271
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 270,
+        "nonmissing": 271
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE207750_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "d33202bdf493de7650294c63eb15e5aa4097943b17e12f8c5b04508cfb32db5c",
+    "study_ID": "GSE207750",
+    "table_id": "HF:meta/GSE207750_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 188,
+    "distinct_subject_ids_within_table": 32,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 32,
+        "duplicate_nonmissing_rows": 156,
+        "nonmissing": 188
+      },
+      "X": {
+        "distinct": 188,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 188
+      },
+      "geo_accession": {
+        "distinct": 188,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 188
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 187,
+        "nonmissing": 188
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE209985_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "52a2620f2694f8e3f9bc352465dac7a4b7db60cfc342ff76cc7290f8f51094c1",
+    "study_ID": "GSE209985",
+    "table_id": "HF:meta/GSE209985_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 371,
+    "distinct_subject_ids_within_table": 53,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 53,
+        "duplicate_nonmissing_rows": 318,
+        "nonmissing": 371
+      },
+      "X": {
+        "distinct": 371,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 371
+      },
+      "geo_accession": {
+        "distinct": 371,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 371
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 370,
+        "nonmissing": 371
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE217770_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "bfcd9848d74ec45a1a03de84db619b845eb119ed0d15636e664eb50a7fc65074",
+    "study_ID": "GSE217770",
+    "table_id": "HF:meta/GSE217770_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 705,
+    "distinct_subject_ids_within_table": 0,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 0,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 0
+      },
+      "X": {
+        "distinct": 705,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 705
+      },
+      "geo_accession": {
+        "distinct": 705,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 705
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 704,
+        "nonmissing": 705
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE220682_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "80892c7b3d00b7f56f3c8fa8a99b12a3292115b39113d65f47d52abfc4dba989",
+    "study_ID": "GSE220682",
+    "table_id": "HF:meta/GSE220682_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 170,
+    "distinct_subject_ids_within_table": 97,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 97,
+        "duplicate_nonmissing_rows": 73,
+        "nonmissing": 170
+      },
+      "X": {
+        "distinct": 170,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 170
+      },
+      "geo_accession": {
+        "distinct": 170,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 170
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 169,
+        "nonmissing": 170
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE228839_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "4f5082f911ff542c06ea21df78b704122265bd1e51f7398c9896575085e595f8",
+    "study_ID": "GSE228839",
+    "table_id": "HF:meta/GSE228839_meta.csv"
+  },
+  {
+    "column_count": 50,
+    "data_rows": 60,
+    "distinct_subject_ids_within_table": 39,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 39,
+        "duplicate_nonmissing_rows": 21,
+        "nonmissing": 60
+      },
+      "[unnamed_index]": {
+        "distinct": 60,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 60
+      },
+      "geo_accession": {
+        "distinct": 60,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 60
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 59,
+        "nonmissing": 60
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE230494_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "3192d91b440aff85d7fa3c8c8ae95902619203b031bc7c903b7a20b5dc7f1cc7",
+    "study_ID": "GSE230494",
+    "table_id": "HF:meta/GSE230494_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 38,
+    "distinct_subject_ids_within_table": 10,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 10,
+        "duplicate_nonmissing_rows": 28,
+        "nonmissing": 38
+      },
+      "X": {
+        "distinct": 38,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 38
+      },
+      "geo_accession": {
+        "distinct": 38,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 38
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 37,
+        "nonmissing": 38
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE246525_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "fbfda2b11749729a509b142174501eea19b8343744e991a071ce114ac6083486",
+    "study_ID": "GSE246525",
+    "table_id": "HF:meta/GSE246525_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 50,
+    "distinct_subject_ids_within_table": 17,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 17,
+        "duplicate_nonmissing_rows": 33,
+        "nonmissing": 50
+      },
+      "X": {
+        "distinct": 50,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 50
+      },
+      "geo_accession": {
+        "distinct": 50,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 50
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 49,
+        "nonmissing": 50
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE247401_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "c4c215b3581fa957347b0880e419b5daa95915989322508ecc7a92aecfc1671c",
+    "study_ID": "GSE247401",
+    "table_id": "HF:meta/GSE247401_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 75,
+    "distinct_subject_ids_within_table": 18,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 18,
+        "duplicate_nonmissing_rows": 57,
+        "nonmissing": 75
+      },
+      "X": {
+        "distinct": 75,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 75
+      },
+      "geo_accession": {
+        "distinct": 75,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 75
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 74,
+        "nonmissing": 75
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE250023_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "f7b9e7d18d13e6212f56dc8ee73cc812287284fe099e96bd15fcfe31cfcb08c2",
+    "study_ID": "GSE250023",
+    "table_id": "HF:meta/GSE250023_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 100,
+    "distinct_subject_ids_within_table": 29,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 29,
+        "duplicate_nonmissing_rows": 71,
+        "nonmissing": 100
+      },
+      "X": {
+        "distinct": 100,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 100
+      },
+      "geo_accession": {
+        "distinct": 100,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 100
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 99,
+        "nonmissing": 100
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE265975_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "26ba6842f7b2078b11181cb88e8f9f3e9386a3272a2dd2ba4a56d9a3c5722d1f",
+    "study_ID": "GSE265975",
+    "table_id": "HF:meta/GSE265975_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 305,
+    "distinct_subject_ids_within_table": 43,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 43,
+        "duplicate_nonmissing_rows": 262,
+        "nonmissing": 305
+      },
+      "X": {
+        "distinct": 305,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 305
+      },
+      "geo_accession": {
+        "distinct": 305,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 305
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 304,
+        "nonmissing": 305
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE276544_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "2e5cf8c9d880750380097ddb4da68103fd60ebaf89ede8e05e20b9da4340fdf0",
+    "study_ID": "GSE276544",
+    "table_id": "HF:meta/GSE276544_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 193,
+    "distinct_subject_ids_within_table": 0,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 0,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 0
+      },
+      "X": {
+        "distinct": 193,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 193
+      },
+      "geo_accession": {
+        "distinct": 193,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 193
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 192,
+        "nonmissing": 193
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE281864_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "3900da6b99605da119d31da40ef011c849c68db11a8c3f8a3afd4762c8555f7f",
+    "study_ID": "GSE281864",
+    "table_id": "HF:meta/GSE281864_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 27,
+    "distinct_subject_ids_within_table": 9,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 9,
+        "duplicate_nonmissing_rows": 18,
+        "nonmissing": 27
+      },
+      "X": {
+        "distinct": 27,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 27
+      },
+      "geo_accession": {
+        "distinct": 27,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 27
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 26,
+        "nonmissing": 27
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE29614_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "7240d8471bd7992273acf21b5a5cfdbc03f817c0be92e4653550af495f381f89",
+    "study_ID": "GSE29614",
+    "table_id": "HF:meta/GSE29614_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 83,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 55,
+        "nonmissing": 83
+      },
+      "X": {
+        "distinct": 83,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 83
+      },
+      "geo_accession": {
+        "distinct": 83,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 83
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 82,
+        "nonmissing": 83
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE29615_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "b061ec8f3f7c4aa692583a413534582422da98be310f238f38ffff8eabff4c83",
+    "study_ID": "GSE29615",
+    "table_id": "HF:meta/GSE29615_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 80,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 52,
+        "nonmissing": 80
+      },
+      "X": {
+        "distinct": 80,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 80
+      },
+      "geo_accession": {
+        "distinct": 80,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 80
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 79,
+        "nonmissing": 80
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE29617_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "2be094f496d64111a3b332dbe04f79b55cd403cc816cb5112fab945b967071a0",
+    "study_ID": "GSE29617",
+    "table_id": "HF:meta/GSE29617_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 91,
+    "distinct_subject_ids_within_table": 91,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 91,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 91
+      },
+      "X": {
+        "distinct": 91,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 91
+      },
+      "geo_accession": {
+        "distinct": 91,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 91
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 90,
+        "nonmissing": 91
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE41080_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "892ac08ca8a2eb7dde3bb4413f82b4bd01b451d9de88d073a5e3efe3a0c3d8e9",
+    "study_ID": "GSE41080",
+    "table_id": "HF:meta/GSE41080_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 54,
+    "distinct_subject_ids_within_table": 5,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 5,
+        "duplicate_nonmissing_rows": 49,
+        "nonmissing": 54
+      },
+      "X": {
+        "distinct": 54,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 54
+      },
+      "geo_accession": {
+        "distinct": 54,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 54
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 53,
+        "nonmissing": 54
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE45735_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "fe3574a3de8a74adb131d996adc41c9b811abecd4f99c66b9f53cf070ab742ca",
+    "study_ID": "GSE45735",
+    "table_id": "HF:meta/GSE45735_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 292,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 229,
+        "nonmissing": 292
+      },
+      "X": {
+        "distinct": 292,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 292
+      },
+      "geo_accession": {
+        "distinct": 292,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 292
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 291,
+        "nonmissing": 292
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE47353_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "8adbee886bc7cf9fabb284eaf97f750004bac6dbb87c624b5a22312e489954bd",
+    "study_ID": "GSE47353",
+    "table_id": "HF:meta/GSE47353_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 431,
+    "distinct_subject_ids_within_table": 116,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 116,
+        "duplicate_nonmissing_rows": 315,
+        "nonmissing": 431
+      },
+      "X": {
+        "distinct": 431,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 431
+      },
+      "geo_accession": {
+        "distinct": 431,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 431
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 430,
+        "nonmissing": 431
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE48018_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "a6ec46654fd132bba76f250b05fab3970800fb002d8482ccd7b7caed1782c8d1",
+    "study_ID": "GSE48018",
+    "table_id": "HF:meta/GSE48018_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 417,
+    "distinct_subject_ids_within_table": 110,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 110,
+        "duplicate_nonmissing_rows": 307,
+        "nonmissing": 417
+      },
+      "X": {
+        "distinct": 417,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 417
+      },
+      "geo_accession": {
+        "distinct": 417,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 417
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 416,
+        "nonmissing": 417
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE48023_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "3d57061fad0596378712d63fe03a8ad707ceb85d85474c2abbf928e232db1cab",
+    "study_ID": "GSE48023",
+    "table_id": "HF:meta/GSE48023_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 621,
+    "distinct_subject_ids_within_table": 46,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 46,
+        "duplicate_nonmissing_rows": 575,
+        "nonmissing": 621
+      },
+      "X": {
+        "distinct": 621,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 621
+      },
+      "geo_accession": {
+        "distinct": 621,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 621
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 620,
+        "nonmissing": 621
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE48762_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "5b32336659eb680bcdce6bff835f3955081477c1990c9face8172fc4eb5d0f4e",
+    "study_ID": "GSE48762",
+    "table_id": "HF:meta/GSE48762_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 140,
+    "distinct_subject_ids_within_table": 38,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 38,
+        "duplicate_nonmissing_rows": 102,
+        "nonmissing": 140
+      },
+      "X": {
+        "distinct": 140,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 140
+      },
+      "geo_accession": {
+        "distinct": 140,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 140
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 139,
+        "nonmissing": 140
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE52005_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "36cb32593c4cf865245d439fc123be21ccf9cb4e609e7251888416af8d6e2947",
+    "study_ID": "GSE52005",
+    "table_id": "HF:meta/GSE52005_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 72,
+    "distinct_subject_ids_within_table": 19,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 19,
+        "duplicate_nonmissing_rows": 53,
+        "nonmissing": 72
+      },
+      "X": {
+        "distinct": 72,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 72
+      },
+      "geo_accession": {
+        "distinct": 72,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 72
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 71,
+        "nonmissing": 72
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE59635_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "fcf6b617995a703f7a07929821a0d364514d63dbb5b387046cada533eca7d71f",
+    "study_ID": "GSE59635",
+    "table_id": "HF:meta/GSE59635_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 156,
+    "distinct_subject_ids_within_table": 39,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 39,
+        "duplicate_nonmissing_rows": 117,
+        "nonmissing": 156
+      },
+      "X": {
+        "distinct": 156,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 156
+      },
+      "geo_accession": {
+        "distinct": 156,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 156
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 155,
+        "nonmissing": 156
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE59654_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "fbd5ab4e62b252d4e76670f77da9ddc2fb33a9051e91be6c033a00e0761e28b4",
+    "study_ID": "GSE59654",
+    "table_id": "HF:meta/GSE59654_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 120,
+    "distinct_subject_ids_within_table": 30,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 30,
+        "duplicate_nonmissing_rows": 90,
+        "nonmissing": 120
+      },
+      "X": {
+        "distinct": 120,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 120
+      },
+      "geo_accession": {
+        "distinct": 120,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 120
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 119,
+        "nonmissing": 120
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE59743_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "f427937f080f98795fdd04d877c379d4624073755f4c3362f360790df124f4f6",
+    "study_ID": "GSE59743",
+    "table_id": "HF:meta/GSE59743_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 88,
+    "distinct_subject_ids_within_table": 22,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 22,
+        "duplicate_nonmissing_rows": 66,
+        "nonmissing": 88
+      },
+      "X": {
+        "distinct": 88,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 88
+      },
+      "geo_accession": {
+        "distinct": 88,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 88
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 87,
+        "nonmissing": 88
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE61754_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "18e7185866d904220d963f7e569a660ed9074493ef3beac6947ff2d2e8779991",
+    "study_ID": "GSE61754",
+    "table_id": "HF:meta/GSE61754_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 880,
+    "distinct_subject_ids_within_table": 133,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 133,
+        "duplicate_nonmissing_rows": 747,
+        "nonmissing": 880
+      },
+      "X": {
+        "distinct": 880,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 880
+      },
+      "geo_accession": {
+        "distinct": 880,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 880
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 879,
+        "nonmissing": 880
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE68310_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "30e834f64e01e08a898a03f1b345f856941b36e15463aa7de535d789e21c26f4",
+    "study_ID": "GSE68310",
+    "table_id": "HF:meta/GSE68310_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 477,
+    "distinct_subject_ids_within_table": 24,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 24,
+        "duplicate_nonmissing_rows": 453,
+        "nonmissing": 477
+      },
+      "X": {
+        "distinct": 477,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 477
+      },
+      "geo_accession": {
+        "distinct": 477,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 477
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 476,
+        "nonmissing": 477
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE3_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "db47529e3ff2f895964322bebf6f8d14cfb009032102399ab54de5f6ac3ec4ea",
+    "study_ID": "GSE73072_H1N1_DEE3",
+    "table_id": "HF:meta/GSE73072_H1N1_DEE3_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 386,
+    "distinct_subject_ids_within_table": 19,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 19,
+        "duplicate_nonmissing_rows": 367,
+        "nonmissing": 386
+      },
+      "X": {
+        "distinct": 386,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 386
+      },
+      "geo_accession": {
+        "distinct": 386,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 386
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 385,
+        "nonmissing": 386
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE4_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "56e4dea1a5fa22734e6dce58d2f3ef10b7a61bcc3e951ba29bdeb094f2f94b44",
+    "study_ID": "GSE73072_H1N1_DEE4",
+    "table_id": "HF:meta/GSE73072_H1N1_DEE4_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 355,
+    "distinct_subject_ids_within_table": 17,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 17,
+        "duplicate_nonmissing_rows": 338,
+        "nonmissing": 355
+      },
+      "X": {
+        "distinct": 355,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 355
+      },
+      "geo_accession": {
+        "distinct": 355,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 355
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 354,
+        "nonmissing": 355
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE2_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "2c9150bb9d7c05851b8990ed8883605e3d7b7099e4953f8380c493888675ef9a",
+    "study_ID": "GSE73072_H3N2_DEE2",
+    "table_id": "HF:meta/GSE73072_H3N2_DEE2_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 482,
+    "distinct_subject_ids_within_table": 21,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 21,
+        "duplicate_nonmissing_rows": 461,
+        "nonmissing": 482
+      },
+      "X": {
+        "distinct": 482,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 482
+      },
+      "geo_accession": {
+        "distinct": 482,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 482
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 481,
+        "nonmissing": 482
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE5_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "479253263706aac45790e8214b8a6cf2a8f8bff58dcdfa7b2dfd7713459d7ff4",
+    "study_ID": "GSE73072_H3N2_DEE5",
+    "table_id": "HF:meta/GSE73072_H3N2_DEE5_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 471,
+    "distinct_subject_ids_within_table": 27,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 27,
+        "duplicate_nonmissing_rows": 444,
+        "nonmissing": 471
+      },
+      "X": {
+        "distinct": 471,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 471
+      },
+      "geo_accession": {
+        "distinct": 471,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 471
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 470,
+        "nonmissing": 471
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_DUKE_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "6dfa873c8b0375604faf9c2ec6c84e9c3047718bd41fce4816769343f317366d",
+    "study_ID": "GSE73072_HRV_DUKE",
+    "table_id": "HF:meta/GSE73072_HRV_DUKE_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 295,
+    "distinct_subject_ids_within_table": 20,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 20,
+        "duplicate_nonmissing_rows": 275,
+        "nonmissing": 295
+      },
+      "X": {
+        "distinct": 295,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 295
+      },
+      "geo_accession": {
+        "distinct": 295,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 295
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 294,
+        "nonmissing": 295
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_UVA_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "22de955990148bed48874c3255d9f632ea034148ded51edca5676990892c0f34",
+    "study_ID": "GSE73072_HRV_UVA",
+    "table_id": "HF:meta/GSE73072_HRV_UVA_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 420,
+    "distinct_subject_ids_within_table": 20,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 20,
+        "duplicate_nonmissing_rows": 400,
+        "nonmissing": 420
+      },
+      "X": {
+        "distinct": 420,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 420
+      },
+      "geo_accession": {
+        "distinct": 420,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 420
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 419,
+        "nonmissing": 420
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE73072_RSV_DEE1_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "41eb2dc4228d066dbbf651a4642bb01fc7332bdb0827d30009a49a825a81bc4e",
+    "study_ID": "GSE73072_RSV_DEE1",
+    "table_id": "HF:meta/GSE73072_RSV_DEE1_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 83,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 55,
+        "nonmissing": 83
+      },
+      "X": {
+        "distinct": 83,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 83
+      },
+      "geo_accession": {
+        "distinct": 83,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 83
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 82,
+        "nonmissing": 83
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE74811_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "1ef82657bc3b89ed80ea82077f5462797ec70a19272df6cd3fc65007a0aac5f0",
+    "study_ID": "GSE74811",
+    "table_id": "HF:meta/GSE74811_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 286,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 223,
+        "nonmissing": 286
+      },
+      "X": {
+        "distinct": 286,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 286
+      },
+      "geo_accession": {
+        "distinct": 286,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 286
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 285,
+        "nonmissing": 286
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE74813_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "195e3830cd6cb88c8b89b066e7b4ab227f5cefa4b5992db30abd6f96a896d30d",
+    "study_ID": "GSE74813",
+    "table_id": "HF:meta/GSE74813_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 75,
+    "distinct_subject_ids_within_table": 26,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 26,
+        "duplicate_nonmissing_rows": 49,
+        "nonmissing": 75
+      },
+      "X": {
+        "distinct": 75,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 75
+      },
+      "geo_accession": {
+        "distinct": 75,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 75
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 74,
+        "nonmissing": 75
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE74815_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "e6d18b941fe773ecc2ca8f3cd24e0c87058b8b70332ef73737a524a37bca468a",
+    "study_ID": "GSE74815",
+    "table_id": "HF:meta/GSE74815_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 177,
+    "distinct_subject_ids_within_table": 72,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 72,
+        "duplicate_nonmissing_rows": 105,
+        "nonmissing": 177
+      },
+      "X": {
+        "distinct": 177,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 177
+      },
+      "geo_accession": {
+        "distinct": 177,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 177
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 176,
+        "nonmissing": 177
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE74816_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "d2c5af6b7382847a04db113394c2f626be0a75a85e9851cdca8e3dad631a4d68",
+    "study_ID": "GSE74816",
+    "table_id": "HF:meta/GSE74816_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 108,
+    "distinct_subject_ids_within_table": 21,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 21,
+        "duplicate_nonmissing_rows": 87,
+        "nonmissing": 108
+      },
+      "X": {
+        "distinct": 108,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 108
+      },
+      "geo_accession": {
+        "distinct": 108,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 108
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 107,
+        "nonmissing": 108
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/GSE90732_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "932abc70fd238655a926ee1b1041d9e6cfcb47129b5922f4bace4612f3e5f5f1",
+    "study_ID": "GSE90732",
+    "table_id": "HF:meta/GSE90732_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 89,
+    "distinct_subject_ids_within_table": 89,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 89,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 89
+      },
+      "X": {
+        "distinct": 89,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 89
+      },
+      "geo_accession": {
+        "distinct": 89,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 89
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 88,
+        "nonmissing": 89
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/SDY112_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "c6c7ad6fd50d8cc87a26e30e81484be71f6fbcf4563b220b3257a1dbf90a33f2",
+    "study_ID": "SDY112",
+    "table_id": "HF:meta/SDY112_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 73,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 10,
+        "nonmissing": 73
+      },
+      "X": {
+        "distinct": 73,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 73
+      },
+      "geo_accession": {
+        "distinct": 73,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 73
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 72,
+        "nonmissing": 73
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/SDY311_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "698e27df15143eeb45186f9b26ac9b8d373fb90b3451c779cbdfd6ec52c3bfc6",
+    "study_ID": "SDY311",
+    "table_id": "HF:meta/SDY311_meta.csv"
+  },
+  {
+    "column_count": 51,
+    "data_rows": 71,
+    "distinct_subject_ids_within_table": 71,
+    "grain": "sample/observation",
+    "keys_observed": {
+      "ID": {
+        "distinct": 71,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 71
+      },
+      "X": {
+        "distinct": 71,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 71
+      },
+      "geo_accession": {
+        "distinct": 71,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 71
+      },
+      "study_ID": {
+        "distinct": 1,
+        "duplicate_nonmissing_rows": 70,
+        "nonmissing": 71
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/meta/SDY315_meta.csv",
+    "matrix_join_status": "metadata keys inspected; full expression matrix rows not independently compared",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "ced6b18e96d892b82a4752946b2732a9b2703faa98412f41a484fbf4373af73f",
+    "study_ID": "SDY315",
+    "table_id": "HF:meta/SDY315_meta.csv"
+  },
+  {
+    "column_count": 23,
+    "data_rows": 26,
+    "distinct_subject_ids_within_table": 26,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 26,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 26
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE101709_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "2072e630a3711e9dc3d9e145b9a86b96500cf307b80e1eb8a4a2e45814318dc2",
+    "study_ID": "GSE101709",
+    "table_id": "HF:antibody/GSE101709_antibody.csv"
+  },
+  {
+    "column_count": 27,
+    "data_rows": 20,
+    "distinct_subject_ids_within_table": 20,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 20,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 20
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE101710_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "6a90dd31b8e3d56d4e80dc3f6d64d1280ee4bffcdd27315e1be489939dfd9033",
+    "study_ID": "GSE101710",
+    "table_id": "HF:antibody/GSE101710_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 32,
+    "distinct_subject_ids_within_table": 32,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 32,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 32
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE169159_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "cdb0ddb3ae0786c989070990fc8762fbe0cfb69374fe87923fa87f68156b0cf6",
+    "study_ID": "GSE169159",
+    "table_id": "HF:antibody/GSE169159_antibody.csv"
+  },
+  {
+    "column_count": 45,
+    "data_rows": 125,
+    "distinct_subject_ids_within_table": 23,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 23,
+        "duplicate_nonmissing_rows": 102,
+        "nonmissing": 125
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE190001_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "31aec26fe17b2cb5944343658be1054181603bcf9033ceab790a11017878585c",
+    "study_ID": "GSE190001",
+    "table_id": "HF:antibody/GSE190001_antibody.csv"
+  },
+  {
+    "column_count": 15,
+    "data_rows": 30,
+    "distinct_subject_ids_within_table": 30,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 30,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 30
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE190747_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "9703bf76884ea08c6feef6daef0a28127ecd7925c5f661230e7d00165b3d06db",
+    "study_ID": "GSE190747",
+    "table_id": "HF:antibody/GSE190747_antibody.csv"
+  },
+  {
+    "column_count": 17,
+    "data_rows": 73,
+    "distinct_subject_ids_within_table": 73,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 73,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 73
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE194378_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "15d7d4d8b9a896298091dfd83e3dd6adac68eb91e7ddcec8fe2822ea3abe82c6",
+    "study_ID": "GSE194378",
+    "table_id": "HF:antibody/GSE194378_antibody.csv"
+  },
+  {
+    "column_count": 15,
+    "data_rows": 99,
+    "distinct_subject_ids_within_table": 99,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 99,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 99
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE199750_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "626bf39c3cf02456aebaf8b83cb3e1907686397d040b03be27b6e4dbd51170c6",
+    "study_ID": "GSE199750",
+    "table_id": "HF:antibody/GSE199750_antibody.csv"
+  },
+  {
+    "column_count": 36,
+    "data_rows": 43,
+    "distinct_subject_ids_within_table": 43,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 43,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 43
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE201533_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "03545e472e355e6042c5bf246a98070028c9e5b89b02d8a2a0a8b34503af9165",
+    "study_ID": "GSE201533",
+    "table_id": "HF:antibody/GSE201533_antibody.csv"
+  },
+  {
+    "column_count": 17,
+    "data_rows": 15,
+    "distinct_subject_ids_within_table": 15,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 15,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 15
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE201642_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "290f2ec6cd927a5fb7a14a5b8041215b30cc65eee66d6a38801f136c9719b521",
+    "study_ID": "GSE201642",
+    "table_id": "HF:antibody/GSE201642_antibody.csv"
+  },
+  {
+    "column_count": 18,
+    "data_rows": 275,
+    "distinct_subject_ids_within_table": 275,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 275,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 275
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE207750_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "5af7f411356231de3c198099586c499ab0ee6a9f823d542bd38dfe59014206ab",
+    "study_ID": "GSE207750",
+    "table_id": "HF:antibody/GSE207750_antibody.csv"
+  },
+  {
+    "column_count": 11,
+    "data_rows": 40,
+    "distinct_subject_ids_within_table": 40,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 40,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 40
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE230494_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "226f66371c507e7f42c060b14a6511b406c1575de1a44f488baaf1543b0d7ed2",
+    "study_ID": "GSE230494",
+    "table_id": "HF:antibody/GSE230494_antibody.csv"
+  },
+  {
+    "column_count": 5,
+    "data_rows": 10,
+    "distinct_subject_ids_within_table": 10,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 10,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 10
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE246525_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "875a42ce9496e0e79eb6ff027179fb6bb4b0f96b6d6c0ffb860c9e885047e547",
+    "study_ID": "GSE246525",
+    "table_id": "HF:antibody/GSE246525_antibody.csv"
+  },
+  {
+    "column_count": 6,
+    "data_rows": 10,
+    "distinct_subject_ids_within_table": 10,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 10,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 10
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE246937_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "e6e30b4949d8204553d57047e1aa3fd1dcc3c992b2c709ad04d3f5a253ac03d6",
+    "study_ID": "GSE246937",
+    "table_id": "HF:antibody/GSE246937_antibody.csv"
+  },
+  {
+    "column_count": 7,
+    "data_rows": 17,
+    "distinct_subject_ids_within_table": 17,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 17,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 17
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE250023_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "1160279a0c3aa791d1711ca5710a86dd0f084d518e957c246ec3d8c314dce40c",
+    "study_ID": "GSE250023",
+    "table_id": "HF:antibody/GSE250023_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 9,
+    "distinct_subject_ids_within_table": 9,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 9,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 9
+      },
+      "[unnamed_index]": {
+        "distinct": 9,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 9
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE29614_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "3421e129084ba528716cfd2493df47c0d78d6d90399ab9e3ec24c12c97109ed5",
+    "study_ID": "GSE29614",
+    "table_id": "HF:antibody/GSE29614_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 28,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 28
+      },
+      "[unnamed_index]": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 28
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE29615_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "8de590fc6ac85090023ad3b62c0537be42b61de5e35a3e888cd5472a6ec3b786",
+    "study_ID": "GSE29615",
+    "table_id": "HF:antibody/GSE29615_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 28,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 28
+      },
+      "[unnamed_index]": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 28
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE29617_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "d169c37674786e19c0f35bd4f8460c76761f775f9bdee4523857c02933bd2c58",
+    "study_ID": "GSE29617",
+    "table_id": "HF:antibody/GSE29617_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 89,
+    "distinct_subject_ids_within_table": 89,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 89,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 89
+      },
+      "[unnamed_index]": {
+        "distinct": 89,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 89
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE41080_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "8786f27d6d5be1fb773dface596a2a9907650d2bef540fe6f26aa14949c6efc4",
+    "study_ID": "GSE41080",
+    "table_id": "HF:antibody/GSE41080_antibody.csv"
+  },
+  {
+    "column_count": 80,
+    "data_rows": 5,
+    "distinct_subject_ids_within_table": 5,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 5,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 5
+      },
+      "[unnamed_index]": {
+        "distinct": 5,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 5
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE45735_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "6066e1ad3a5c9884b3d5579a10be2615a4c6f4d0bf5aae9755e368e20efa1edb",
+    "study_ID": "GSE45735",
+    "table_id": "HF:antibody/GSE45735_antibody.csv"
+  },
+  {
+    "column_count": 30,
+    "data_rows": 63,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 63
+      },
+      "[unnamed_index]": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 63
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE47353_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "042579326faffb5d01290d7ba0ce61ea18a0b9418657d0a50110736376f270dd",
+    "study_ID": "GSE47353",
+    "table_id": "HF:antibody/GSE47353_antibody.csv"
+  },
+  {
+    "column_count": 23,
+    "data_rows": 116,
+    "distinct_subject_ids_within_table": 116,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 116,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 116
+      },
+      "[unnamed_index]": {
+        "distinct": 116,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 116
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE48018_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "639362dfa2ded928411d43ced7b584176d81535c8e2992b8ae7bccfab6003b10",
+    "study_ID": "GSE48018",
+    "table_id": "HF:antibody/GSE48018_antibody.csv"
+  },
+  {
+    "column_count": 23,
+    "data_rows": 110,
+    "distinct_subject_ids_within_table": 110,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 110,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 110
+      },
+      "[unnamed_index]": {
+        "distinct": 110,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 110
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE48023_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "e475edc8c53a6cec39328382dec9fa9ad09e238a18d90a55c17cfafb326d7c11",
+    "study_ID": "GSE48023",
+    "table_id": "HF:antibody/GSE48023_antibody.csv"
+  },
+  {
+    "column_count": 19,
+    "data_rows": 15,
+    "distinct_subject_ids_within_table": 13,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 13,
+        "duplicate_nonmissing_rows": 2,
+        "nonmissing": 15
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE48762_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "120bffb4d342b1239767f2a2668480800a57c5dcf3eea3b348c429599854a3cc",
+    "study_ID": "GSE48762",
+    "table_id": "HF:antibody/GSE48762_antibody.csv"
+  },
+  {
+    "column_count": 23,
+    "data_rows": 19,
+    "distinct_subject_ids_within_table": 19,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 19,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 19
+      },
+      "[unnamed_index]": {
+        "distinct": 19,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 19
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE59635_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "62a5ca00967e79a786e6985f4b980b67f4a174fc35dd2c196d91a0c36bdc9415",
+    "study_ID": "GSE59635",
+    "table_id": "HF:antibody/GSE59635_antibody.csv"
+  },
+  {
+    "column_count": 10,
+    "data_rows": 69,
+    "distinct_subject_ids_within_table": 69,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 69,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 69
+      },
+      "[unnamed_index]": {
+        "distinct": 69,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 69
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE59654_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "76b63892649911b466b1e5fae2d0e0a77038e1c115e71d76d405e3225fbd810b",
+    "study_ID": "GSE59654",
+    "table_id": "HF:antibody/GSE59654_antibody.csv"
+  },
+  {
+    "column_count": 25,
+    "data_rows": 30,
+    "distinct_subject_ids_within_table": 30,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 30,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 30
+      },
+      "[unnamed_index]": {
+        "distinct": 30,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 30
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE59743_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "15bebbf192279d7737032859582eeda360cc086a29cdc1aa9531e3964ad860cd",
+    "study_ID": "GSE59743",
+    "table_id": "HF:antibody/GSE59743_antibody.csv"
+  },
+  {
+    "column_count": 8,
+    "data_rows": 133,
+    "distinct_subject_ids_within_table": 133,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 133,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 133
+      },
+      "[unnamed_index]": {
+        "distinct": 133,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 133
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE68310_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "4c156bfad95a708bff9330fec5d2ef1747df76de09af1ebd660b46b4df810794",
+    "study_ID": "GSE68310",
+    "table_id": "HF:antibody/GSE68310_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 28,
+    "distinct_subject_ids_within_table": 28,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 28,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 28
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE74811_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "6bff02566307a7a6da42e1a44aae156f76521ab97ab85c221cc4fed3ed2a81c6",
+    "study_ID": "GSE74811",
+    "table_id": "HF:antibody/GSE74811_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 63,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 63
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE74813_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "8f2d9e8a16d60cb617c13875d7c47f5a1bae426cd0e963eed10f2b37b8e50271",
+    "study_ID": "GSE74813",
+    "table_id": "HF:antibody/GSE74813_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 26,
+    "distinct_subject_ids_within_table": 26,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 26,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 26
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE74815_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "5756751989fc078483c77056895a8ed88ae3fbd2ac07f03b232d9a4a00474cc7",
+    "study_ID": "GSE74815",
+    "table_id": "HF:antibody/GSE74815_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 72,
+    "distinct_subject_ids_within_table": 72,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 72,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 72
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/GSE74816_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "a1cac08add870ee5adc0b822ca963e0c4b1a08f3b02b66b030680279f860f624",
+    "study_ID": "GSE74816",
+    "table_id": "HF:antibody/GSE74816_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 91,
+    "distinct_subject_ids_within_table": 91,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 91,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 91
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/SDY112_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "27a2c56e9fad3426fd4022c5453c3d4706eb47f4bc58f5a38264d3eb3886c6e6",
+    "study_ID": "SDY112",
+    "table_id": "HF:antibody/SDY112_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 63,
+    "distinct_subject_ids_within_table": 63,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 63,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 63
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/SDY311_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "2c7690b20f78e00bb79abb477bec3016b74e815f6cb9b6f9c542697e732ed9d5",
+    "study_ID": "SDY311",
+    "table_id": "HF:antibody/SDY311_antibody.csv"
+  },
+  {
+    "column_count": 17,
+    "data_rows": 73,
+    "distinct_subject_ids_within_table": 73,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 73,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 73
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/SDY312_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "45081e97178f567fafecc56dc20a400b7f949eeff2828af7efe051002118a1d6",
+    "study_ID": "SDY312",
+    "table_id": "HF:antibody/SDY312_antibody.csv"
+  },
+  {
+    "column_count": 15,
+    "data_rows": 90,
+    "distinct_subject_ids_within_table": 90,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 90,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 90
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/SDY314_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "0e368cab6d9dc1c4f1e9d0fd6ce270809bee6f948ba56208523ff0929b04cc1e",
+    "study_ID": "SDY314",
+    "table_id": "HF:antibody/SDY314_antibody.csv"
+  },
+  {
+    "column_count": 9,
+    "data_rows": 69,
+    "distinct_subject_ids_within_table": 69,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 69,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 69
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/SDY315_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "90a9bc1370478fa74ef5945e39b7806c636192ee2bd02eaf7a23317d5668c635",
+    "study_ID": "SDY315",
+    "table_id": "HF:antibody/SDY315_antibody.csv"
+  },
+  {
+    "column_count": 8,
+    "data_rows": 16,
+    "distinct_subject_ids_within_table": 16,
+    "grain": "subject with repeated measurements in columns",
+    "keys_observed": {
+      "ID": {
+        "distinct": 16,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 16
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/antibody/challenge_covid19_antibody.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "22ad28cf4f49ae4690a8d78ebb68366659789b79f8ecf2c6bc2e1556b3197615",
+    "study_ID": "challenge_covid19",
+    "table_id": "HF:antibody/challenge_covid19_antibody.csv"
+  },
+  {
+    "column_count": 16,
+    "data_rows": 66,
+    "distinct_subject_ids_within_table": null,
+    "grain": "resource metadata row",
+    "keys_observed": {
+      "study_ID": {
+        "distinct": 66,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 66
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/study_meta.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "48977830c893ed1babf334c16a24b52e9f701cc239b1b3b3be747fdf1371e1f1",
+    "study_ID": null,
+    "table_id": "HF:study_meta.csv"
+  },
+  {
+    "column_count": 6,
+    "data_rows": 66,
+    "distinct_subject_ids_within_table": null,
+    "grain": "resource metadata row",
+    "keys_observed": {
+      "study_ID": {
+        "distinct": 66,
+        "duplicate_nonmissing_rows": 0,
+        "nonmissing": 66
+      }
+    },
+    "local_path": "data_dictionary/sources/hr_vilage/study_citations.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "778a24884e106d3b3b52256a0360ef469d5df63cb3d65d1fbbb8ce711471c51f",
+    "study_ID": null,
+    "table_id": "HF:study_citations.csv"
+  },
+  {
+    "column_count": 2,
+    "data_rows": 49,
+    "distinct_subject_ids_within_table": null,
+    "grain": "resource metadata row",
+    "keys_observed": {},
+    "local_path": "data_dictionary/sources/hr_vilage/Meta_variable_description.csv",
+    "matrix_join_status": "not_applicable",
+    "namespace_rule": "Use study_ID plus local ID; ID is not a global participant identifier.",
+    "sha256": "aa561def597fee0e3ec0c04cd7ab71f470ec83babfcadf145f0a63c3b0c98b17",
+    "study_ID": null,
+    "table_id": "HF:Meta_variable_description.csv"
+  }
+]

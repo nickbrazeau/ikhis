@@ -1,0 +1,915 @@
+[
+  {
+    "fields": [
+      {
+        "definition": "Harmonized study or cohort label; may split one source accession into pathogen or tissue cohorts.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "study_ID",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column study_ID"
+      },
+      {
+        "definition": "Broad transcriptomic assay class.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "platform",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column platform"
+      },
+      {
+        "definition": "Source platform accession, instrument or array description.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "platform_detail",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column platform_detail"
+      },
+      {
+        "definition": "Author exposure category; inoculation, vaccine and mixed exposure do not by themselves prove a wild-type influenza challenge.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "study_type",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column study_type"
+      },
+      {
+        "definition": "Author labels, sometimes semicolon-delimited multiple pathogens.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "pathogen",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column pathogen"
+      },
+      {
+        "definition": "Vaccine label; missing is not proof of no vaccination.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "vaccine",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column vaccine"
+      },
+      {
+        "definition": "Study-level specimen summary; resolve finer sample and cell-level distinctions.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "tissue",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column tissue"
+      },
+      {
+        "definition": "Legacy author yes/no flag. It is not a current downloadable-file inventory, instrument-raw guarantee or verified source availability.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "raw_data",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column raw_data"
+      },
+      {
+        "definition": "Author flag for antibody availability; source tables and current links require separate verification.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "antibody",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column antibody"
+      },
+      {
+        "definition": "Author study-level participant count; do not sum as unique persons across related cohorts.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "num_subjects",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column num_subjects"
+      },
+      {
+        "definition": "Author number of expression profiles/observations, not independent participants.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "num_observations",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column num_observations"
+      },
+      {
+        "definition": "Author single-cell count; not specimens or persons.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "num_cells",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column num_cells"
+      },
+      {
+        "definition": "Author number of observed genes per study; differs from padded shared gene-column count.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "num_observed_genes",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column num_observed_genes"
+      },
+      {
+        "definition": "Formatted within-study summary; do not infer a universal common sampling schedule.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "number_of_timepoints median(min, max)",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column number_of_timepoints median(min, max)"
+      },
+      {
+        "definition": "Text list of observed time labels; day zero, baseline and exact units must be interpreted per study.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "observed_timepoints",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column observed_timepoints"
+      },
+      {
+        "definition": "Semicolon-delimited list of metadata variables available for the study; h5ad rows may instead point to obs.",
+        "evidence_status": "inspected_header;definition_inferred_from_author_documentation",
+        "name": "meta_variable_list",
+        "source_id": "hf_studies",
+        "source_locator": "study_meta.csv, header column meta_variable_list"
+      }
+    ],
+    "grain": "One harmonized study/cohort per row",
+    "key": [
+      "study_ID"
+    ],
+    "table": "study_meta.csv"
+  },
+  {
+    "fields": [
+      {
+        "definition": "Join to study_meta.study_ID",
+        "name": "study_ID",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column study_ID"
+      },
+      {
+        "definition": "Citation of originating scientific publication",
+        "name": "source_paper_citation",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column source_paper_citation"
+      },
+      {
+        "definition": "Citation of repository deposition",
+        "name": "data_citation",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column data_citation"
+      },
+      {
+        "definition": "Original transcriptomic record URL; may contain raw and processed assets",
+        "name": "transcriptomic_data_link",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column transcriptomic_data_link"
+      },
+      {
+        "definition": "Original record or supplementary location for metadata",
+        "name": "metadata_link",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column metadata_link"
+      },
+      {
+        "definition": "Source antibody location, unavailable marker or not-applicable marker",
+        "name": "antibody_link",
+        "source_id": "hf_citations",
+        "source_locator": "study_citations.csv, header column antibody_link"
+      }
+    ],
+    "grain": "One provenance row per harmonized study/cohort",
+    "key": [
+      "study_ID"
+    ],
+    "table": "study_citations.csv"
+  },
+  {
+    "fields": [
+      {
+        "definition": "Unnamed leading CSV index; preserve exactly for expression joins",
+        "name": "source_row_name",
+        "source_header": "",
+        "source_id": "hf_example_meta",
+        "source_locator": "example_dataset/GSE194378_meta_sample.csv, leading unnamed header and sample index"
+      },
+      {
+        "author_definition": "GEO sample accession number (GSM).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Often GSM, but repository-specific or synthetic row identifiers must be preserved; do not force every study identifier into a GEO accession.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "geo_accession",
+        "source_locator": "Meta_variable_description.csv, row 2 (header is row 1), Variable Name=geo_accession",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Subject identifier within one study (unique per participant); useful when aligning with antibody raw data.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Unique only within a study according to the author dictionary; repeat across longitudinal sample rows is expected. Qualify with study_ID before joining.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "ID",
+        "source_locator": "Meta_variable_description.csv, row 3 (header is row 1), Variable Name=ID",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Study or cohort identifier",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "study_ID",
+        "source_locator": "Meta_variable_description.csv, row 4 (header is row 1), Variable Name=study_ID",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Sample source (e.g., whole blood, PBMC, nasal swab).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "tissue",
+        "source_locator": "Meta_variable_description.csv, row 5 (header is row 1), Variable Name=tissue",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Gene expression platform used (e.g., RNA-seq, microarray, scRNA-seq).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "platform",
+        "source_locator": "Meta_variable_description.csv, row 6 (header is row 1), Variable Name=platform",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Infectious agent studied (e.g., SARS-CoV-2, influenza).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "pathogen",
+        "source_locator": "Meta_variable_description.csv, row 7 (header is row 1), Variable Name=pathogen",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Technical or experimental batch ID within one study",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "batch",
+        "source_locator": "Meta_variable_description.csv, row 8 (header is row 1), Variable Name=batch",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Sample title from GEO metadata.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "title",
+        "source_locator": "Meta_variable_description.csv, row 9 (header is row 1), Variable Name=title",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Exact time or day post-vaccination/infection.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Author dictionary says exact time/day after vaccination or infection, without a universal unit or event anchor. Retain original text and resolve units and day zero per source study before merging.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "timepoint",
+        "source_locator": "Meta_variable_description.csv, row 10 (header is row 1), Variable Name=timepoint",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Categorical grouping of timepoints",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Derived category; never substitute for exact source collection time.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "timepoint_group",
+        "source_locator": "Meta_variable_description.csv, row 11 (header is row 1), Variable Name=timepoint_group",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Infection status grouping (e.g., infected vs. uninfected); represents the outcome in inoculation studies.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "infection_group",
+        "source_locator": "Meta_variable_description.csv, row 12 (header is row 1), Variable Name=infection_group",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Symptom severity group (e.g., symptomatic vs. asymptomatic); represents the outcome in inoculation studies.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "symptom_group",
+        "source_locator": "Meta_variable_description.csv, row 13 (header is row 1), Variable Name=symptom_group",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Original symptom classification from source study.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "symptom_group_original",
+        "source_locator": "Meta_variable_description.csv, row 14 (header is row 1), Variable Name=symptom_group_original",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Disease Severity Score (quantitative summary of symptoms).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Composite symptom score; instrument, scale, aggregation window, weighting and missing-item rules remain study-specific.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Total_DSS",
+        "source_locator": "Meta_variable_description.csv, row 15 (header is row 1), Variable Name=Total_DSS",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Maximum fold change (MFC)",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Derived outcome; do not mix antibody assays, antigens, visit denominators, or censoring rules. Study-level provenance required.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "MFC",
+        "source_locator": "Meta_variable_description.csv, row 16 (header is row 1), Variable Name=MFC",
+        "units": "dimensionless ratio",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Indicator of vaccine response (e.g., responder, moderate responder, or non-responder), defined based on Maximum Fold Change (MFC).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Derived response category, not directly measured antibody level; preserve responder_original separately.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "responder",
+        "source_locator": "Meta_variable_description.csv, row 17 (header is row 1), Variable Name=responder",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Original response classification before harmonization.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "responder_original",
+        "source_locator": "Meta_variable_description.csv, row 18 (header is row 1), Variable Name=responder_original",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Group assignment within a study (e.g., vaccine arm, control).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "study_group",
+        "source_locator": "Meta_variable_description.csv, row 19 (header is row 1), Variable Name=study_group",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Year when participant enrolled in the study.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Enrollment_year",
+        "source_locator": "Meta_variable_description.csv, row 20 (header is row 1), Variable Name=Enrollment_year",
+        "units": "calendar year",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Vaccine type (e.g., mRNA-1273, BNT162b2).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "vaccine",
+        "source_locator": "Meta_variable_description.csv, row 21 (header is row 1), Variable Name=vaccine",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Vaccine dose number (e.g., 1st, 2nd, 3rd).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Author dictionary describes ordinal dose number; this is not a mass or volume dose.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "vaccine_dose",
+        "source_locator": "Meta_variable_description.csv, row 22 (header is row 1), Variable Name=vaccine_dose",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Biological sex (Male/Female).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "sex",
+        "source_locator": "Meta_variable_description.csv, row 23 (header is row 1), Variable Name=sex",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Participant age in years.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "age",
+        "source_locator": "Meta_variable_description.csv, row 24 (header is row 1), Variable Name=age",
+        "units": "years",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Age category (e.g., 18–30, 31–50, >50).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "age_group",
+        "source_locator": "Meta_variable_description.csv, row 25 (header is row 1), Variable Name=age_group",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "ImmPort experiment sample accession.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "immport_expsamp_acc",
+        "source_locator": "Meta_variable_description.csv, row 26 (header is row 1), Variable Name=immport_expsamp_acc",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Alternate experimental sample accession in ImmPort",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Expsample.Accession",
+        "source_locator": "Meta_variable_description.csv, row 27 (header is row 1), Variable Name=Expsample.Accession",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Participant ethnicity (e.g., Hispanic, non-Hispanic).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "ethnicity",
+        "source_locator": "Meta_variable_description.csv, row 28 (header is row 1), Variable Name=ethnicity",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Race as recorded in metadata (e.g., White, Asian, Black).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "race",
+        "source_locator": "Meta_variable_description.csv, row 29 (header is row 1), Variable Name=race",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Combined race and ethnicity classification.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "race_ethnicity",
+        "source_locator": "Meta_variable_description.csv, row 30 (header is row 1), Variable Name=race_ethnicity",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Indicator for sham or placebo treatment.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "sham",
+        "source_locator": "Meta_variable_description.csv, row 31 (header is row 1), Variable Name=sham",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Body Mass Index (kg/m²).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "BMI",
+        "source_locator": "Meta_variable_description.csv, row 32 (header is row 1), Variable Name=BMI",
+        "units": "kg/m²",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Prior SARS-CoV-2 infection (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "PreviousCOVID19",
+        "source_locator": "Meta_variable_description.csv, row 33 (header is row 1), Variable Name=PreviousCOVID19",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Symptom group classification for previously infected individuals.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Historical COVID outcome; not current influenza challenge symptoms.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "symptom_group_previous_covid",
+        "source_locator": "Meta_variable_description.csv, row 34 (header is row 1), Variable Name=symptom_group_previous_covid",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Presence of underlying or chronic medical conditions.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "UnderlyingDisease",
+        "source_locator": "Meta_variable_description.csv, row 35 (header is row 1), Variable Name=UnderlyingDisease",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Indicator of whether the RNA sample was treated with TurboDNase (Thermo Fisher Scientific) to remove contaminating genomic DNA during RNA extraction. Marked as “Turbo Treated” if DNase treatment was applied.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Preserve published misspelling as source field; a normalized alias may be added separately.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "turbo_reatment",
+        "source_locator": "Meta_variable_description.csv, row 36 (header is row 1), Variable Name=turbo_reatment",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Medications taken by participant during study.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Medications",
+        "source_locator": "Meta_variable_description.csv, row 37 (header is row 1), Variable Name=Medications",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Reported vaccine side effects.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "side_effect",
+        "source_locator": "Meta_variable_description.csv, row 38 (header is row 1), Variable Name=side_effect",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Duration (in days) of reported symptoms.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Duration_of_symptoms",
+        "source_locator": "Meta_variable_description.csv, row 39 (header is row 1), Variable Name=Duration_of_symptoms",
+        "units": "days",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Days since COVID-19 diagnosis at time of sampling.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "days.since.covid.19.diagnosis",
+        "source_locator": "Meta_variable_description.csv, row 40 (header is row 1), Variable Name=days.since.covid.19.diagnosis",
+        "units": "days",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Whether vaccinated in the prior three influenza seasons (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Vaccinated.in.prior.3.seasons",
+        "source_locator": "Meta_variable_description.csv, row 41 (header is row 1), Variable Name=Vaccinated.in.prior.3.seasons",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Number of influenza vaccinations received in the previous 10 years.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "influenza.vaccination.count..previous.10.years.",
+        "source_locator": "Meta_variable_description.csv, row 42 (header is row 1), Variable Name=influenza.vaccination.count..previous.10.years.",
+        "units": "count",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Height in centimeters.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Height_cm",
+        "source_locator": "Meta_variable_description.csv, row 43 (header is row 1), Variable Name=Height_cm",
+        "units": "cm",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Weight in kilograms.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Weight_kg",
+        "source_locator": "Meta_variable_description.csv, row 44 (header is row 1), Variable Name=Weight_kg",
+        "units": "kg",
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Current smoking status (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Current.smoker",
+        "source_locator": "Meta_variable_description.csv, row 45 (header is row 1), Variable Name=Current.smoker",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Former smoking status (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Prior.smoker",
+        "source_locator": "Meta_variable_description.csv, row 46 (header is row 1), Variable Name=Prior.smoker",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Presence of sleep apnea (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "Sleep.apnea",
+        "source_locator": "Meta_variable_description.csv, row 47 (header is row 1), Variable Name=Sleep.apnea",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Presence of diabetes (Yes/No).",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": null,
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "diabetes",
+        "source_locator": "Meta_variable_description.csv, row 48 (header is row 1), Variable Name=diabetes",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Binary or quantitative measure of antibody seroconversion.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "May encode category or quantitative definition; source assay and threshold required.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "seroconversion",
+        "source_locator": "Meta_variable_description.csv, row 49 (header is row 1), Variable Name=seroconversion",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      },
+      {
+        "author_definition": "Presence or level of viral shedding post-infection or vaccination.",
+        "definition_source_id": "hf_variables",
+        "dictionary_caution": "Presence or quantitative result depending on study. Assay, specimen, threshold and units remain study-specific.",
+        "missing_semantics": "NA or empty means unavailable/not populated, never negative or zero; reason not uniformly encoded",
+        "name": "viral_shedding",
+        "source_locator": "Meta_variable_description.csv, row 50 (header is row 1), Variable Name=viral_shedding",
+        "units": null,
+        "value_type": "source_preserving_string; parse only after study-specific validation"
+      }
+    ],
+    "grain": "One expression observation/sample row, with participant-level fields repeated over visits",
+    "join_rule": "Join expression source row names to metadata row names within the same study and revision. Require unique keys and report unmatched rows; never align by current row order.",
+    "key": [
+      "study_ID",
+      "source_row_name"
+    ],
+    "table": "meta/<study_ID>_meta.csv"
+  },
+  {
+    "column_key": "HGNC-oriented gene label, including harmonized padding columns",
+    "grain": "Sample × gene matrix",
+    "missing_semantics": "Missing padded/unobserved genes must not become expression zeros; 41,667 shared columns and 9,004 universally nonmissing genes are author claims, not independently counted here.",
+    "row_key": [
+      "study_ID",
+      "source_row_name"
+    ],
+    "source_ids": [
+      "hf_card",
+      "paper_v2",
+      "RNAseq_Process",
+      "Illumina_microarray_process"
+    ],
+    "source_locators": [
+      "HF README.md, Data Structure, bulk_gene_expr bullet",
+      "Paper v2, Methods, Data processing; platform-specific demos as transformation records"
+    ],
+    "status": "Author documented sample-by-gene; complete matrices not read in this lane",
+    "table": "bulk_gene_expr/<study_ID>_gene_expr.csv",
+    "value_units": "Study- and processing-specific; unresolved until per-file provenance checked"
+  },
+  {
+    "fields": [
+      {
+        "definition": "Within-study participant identifier",
+        "name": "ID",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column ID",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "A.CNIC.1909: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column A.CNIC.1909: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "A.CNIC.1909: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column A.CNIC.1909: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "A.HongKong.2671.2019: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column A.HongKong.2671.2019: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "A.HongKong.2671.2019: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column A.HongKong.2671.2019: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "B.Puket.3073.2013: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column B.Puket.3073.2013: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "B.Puket.3073.2013: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column B.Puket.3073.2013: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "B.Washington.02.2019: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column B.Washington.02.2019: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "B.Washington.02.2019: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column B.Washington.02.2019: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1.HA2.stem: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1.HA2.stem: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1.HA2.stem: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1.HA2.stem: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1.HA2.stem: Day 7",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1.HA2.stem: Day 7",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1N1.HA1..A.Hawaii.70.2019.: Day 0",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1N1.HA1..A.Hawaii.70.2019.: Day 0",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1N1.HA1..A.Hawaii.70.2019.: Day 28",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1N1.HA1..A.Hawaii.70.2019.: Day 28",
+        "units": null
+      },
+      {
+        "definition": "Study-specific antibody endpoint; preserve exact label; explicit assay and unit unresolved here",
+        "name": "H1N1.HA1..A.Hawaii.70.2019.: Day 7",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column H1N1.HA1..A.Hawaii.70.2019.: Day 7",
+        "units": null
+      },
+      {
+        "definition": "Derived maximum fold change",
+        "name": "MFC",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column MFC",
+        "units": "dimensionless ratio"
+      },
+      {
+        "definition": "Derived response category",
+        "name": "responder",
+        "source_locator": "example_dataset/GSE194378_antibody_sample.csv, header column responder",
+        "units": null
+      }
+    ],
+    "grain": "Study-specific table; inspected example has one participant row and antigen/assay/time columns plus derived outcomes",
+    "join_rule": "Within-study subject-level join is one-to-many to longitudinal metadata. For a long measurement table also key by assay, antigen, visit and replicate. Do not join independently only on a day number.",
+    "key": [
+      "study_ID",
+      "ID"
+    ],
+    "missing_semantics": "NA is not zero, below-detection, no immunity, or uninfected. Preserve censored strings and unit conventions.",
+    "source_ids": [
+      "hf_card",
+      "hf_example_antibody"
+    ],
+    "table": "antibody/<study_ID>_antibody.csv"
+  },
+  {
+    "fields": [
+      {
+        "definition": "Primary expression matrix; rawness must be inspected per artifact/layer",
+        "name": "X",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Sample identifier, sometimes a BioSample accession",
+        "name": "obs.sample_id",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Participant ID within source cohort",
+        "name": "obs.donor_id",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Source dataset label; may require explicit map to study_ID",
+        "name": "obs.dataset",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Harmonized nominal day; can be derived from pooled labels",
+        "name": "obs.time_point_day",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Author cell annotation; method/version context required",
+        "name": "obs.cell_type",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Source participant sex label; published demo contains mixed forms and missing strings",
+        "name": "obs.sex",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Participant age; may be numeric-looking string",
+        "name": "obs.age",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Cell/sample specimen; demo includes PBMC, LN, Nasal and blood",
+        "name": "obs.tissue",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Exposure group descriptor",
+        "name": "obs.study_type",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "COVID-specific status, not influenza status",
+        "name": "obs.covid_status",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Gene identifiers; versions and uniqueness transformations should be retained",
+        "name": "var_names",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Alternative count/normalized/scaled matrices, presence and exact semantics artifact-specific",
+        "name": "layers",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "AnnData raw slot; name does not guarantee instrument-raw or unnormalized values",
+        "name": "raw",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Derived dimension reductions",
+        "name": "obsm.X_pca / obsm.X_umap",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      },
+      {
+        "definition": "Derived neighbor graphs",
+        "name": "obsp.connectivities / obsp.distances",
+        "source_locator": "HF README.md, Single cell gene expression data; docs/Single_cell_merge_data_demo.qmd, output Out[2]; code/Merge_Plot_Demo.py, ensure_sparse_X and common_fields"
+      }
+    ],
+    "grain": "Cell × gene matrix with linked per-cell obs and per-gene var; directory spelling is literal",
+    "key": [
+      "dataset",
+      "source_obs_name"
+    ],
+    "path_basis": "Current pinned HF tree uses single_cell_gene_expr; source documentation spelling retained separately.",
+    "source_documentation_table_label": "singel_cell_gene_expr/<study_ID>.h5ad",
+    "source_ids": [
+      "hf_card",
+      "merge_code",
+      "Meta_preprocess_demo",
+      "Single_cell_merge_data_demo"
+    ],
+    "status": "Documented objects/code inspected; H5AD bytes not downloaded",
+    "table": "single_cell_gene_expr/<study_ID>.h5ad"
+  }
+]

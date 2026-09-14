@@ -1,0 +1,2319 @@
+[
+  {
+    "column": "accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "canonical_record_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "line",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "source_file",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "source_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_accession_mentions"
+  },
+  {
+    "column": "all_paths",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "asset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "bytes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "copy_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "format",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "preferred_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_assets"
+  },
+  {
+    "column": "accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "atlas_cohort_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "atlas_source_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "availability",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "biological_data_downloaded",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "dataset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "linkage_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "metadata_snapshot",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "metadata_snapshot_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "original_accession_contexts",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "record_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "repository_metadata_verified",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "repository_relations",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "repository_sample_records",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "supplementary_file_links",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_datasets"
+  },
+  {
+    "column": "definition",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "definition_source",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "field",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "foreign_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "missingness",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "primary_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "storage_type",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "table_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "units",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_fields"
+  },
+  {
+    "column": "asset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "atlas_relative_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "bytes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "classification_basis",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "file_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "format",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "logical_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "storage_role",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_files"
+  },
+  {
+    "column": "data_inventory_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "explicit_cohort_accessions",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "interpretation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "local_snapshot_available",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "source_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "source_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "source_type",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "source_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "unverified_snapshot_accession_mentions",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_source_coverage"
+  },
+  {
+    "column": "access_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "declared_snapshot_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "doi",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "hash_matched_local_snapshot",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "matching_local_paths",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "raw_biological_data_claim",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "scope",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "snapshot_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "source_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "source_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "source_type",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_sources"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "database_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "name",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "review_scope",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "rows",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "sql_schema",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "table_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "atlas_tables"
+  },
+  {
+    "column": "accession_or_record_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "dataset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "eligibility",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "full_record_table",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "independent_cohort_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "modality",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "participant_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "processed_access_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "raw_access_evidence",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "raw_access_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "repository",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "repository_sample_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "review_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "scope",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "specimen",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "subset_rule",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "datasets"
+  },
+  {
+    "column": "accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "geo_screening"
+  },
+  {
+    "column": "decision",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "geo_screening"
+  },
+  {
+    "column": "locator",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "geo_screening"
+  },
+  {
+    "column": "reason",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "geo_screening"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "geo_screening"
+  },
+  {
+    "column": "author_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "caution",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "measure",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "observed_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_count_checks"
+  },
+  {
+    "column": "definition",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "definition_source",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "distinct_nonmissing_values",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "field",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "interpretation_caution",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "literal_header",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "missing_rows",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "nonmissing_rows",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "observed_storage_type",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "source_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "source_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "table_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "units",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_fields"
+  },
+  {
+    "column": "bytes_listed",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "candidate_study_IDs",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "canonical_download_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "content_inspection",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "file_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "file_listing_verified",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "filename_study_label",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "git_oid",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "instrument_raw_claim",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "lfs_metadata",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "local_snapshot",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "local_snapshot_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "path_in_resource",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "resource_revision",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "study_linkage_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_files"
+  },
+  {
+    "column": "column_position_1based",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "definition",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "gene_label",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "schema_role",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "source_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "units",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_gene_features"
+  },
+  {
+    "column": "antibody_distinct_subjects",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "antibody_ids_absent_from_metadata",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "caution",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "metadata_distinct_subjects",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "shared_subject_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_join_checks"
+  },
+  {
+    "column": "column_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "fields",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "grain",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "join_rule",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "missing_semantics",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "path_basis",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "row_key",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "source_documentation_table_label",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "source_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "source_locators",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "table",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "value_units",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_schema"
+  },
+  {
+    "column": "antibody",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "antibody_link",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "canonical_source_accessions",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "data_citation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "dataset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "eligibility_reason",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "influenza_challenge_eligibility",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "meta_variable_list",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "metadata_link",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "num_cells",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "num_observations",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "num_observed_genes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "num_subjects",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "number_of_timepoints median(min, max)",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "observed_timepoints",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "participant_count_interpretation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "pathogen",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "platform",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "platform_detail",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "raw_data",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "raw_data_flag_interpretation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "resource_revision",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "source_paper_citation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "source_snapshot",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "source_snapshot_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "study_type",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "tissue",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "transcriptomic_data_link",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "vaccine",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_studies"
+  },
+  {
+    "column": "column_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "data_rows",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "distinct_subject_ids_within_table",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "grain",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "keys_observed",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "local_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "matrix_join_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "namespace_rule",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "study_ID",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "table_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_table_profiles"
+  },
+  {
+    "column": "author_pipeline_summary",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "inspected_demo",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "instrument_raw_examples",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "modality",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "output_rawness",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "source_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "source_locators",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "hr_transformations"
+  },
+  {
+    "column": "access_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "access_url_kind",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "availability",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "bioproject",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "dataset_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "eligibility",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "experiment_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "file_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "format",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "local_biological_payload",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "name",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "note",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "repository_file_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "run_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "schema_inspection",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "size_bytes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "source_hashes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "source_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "source_paths",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "source_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "sra_uid",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "study_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "verification",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_files"
+  },
+  {
+    "column": "accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "challenge_arms",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "challenge_participant_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "citations",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "cohort_reuse",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "curation_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "eligibility",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "eligibility_evidence",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "eligibility_reason",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "file_formats",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "files",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "influenza_arm_arrays",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "influenza_arm_participants",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "metadata_access_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "missing_info",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "mixed_study_rule",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "modality",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "natural_infection_participant_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "organism",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "participant_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "pathogen",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "preparation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "processed_data",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "raw_data",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "relationships",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "repository",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "retrieved_on",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "sample_count_repository",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "source_hashes",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "source_paths",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "source_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "strain",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "study_design",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "influenza_studies"
+  },
+  {
+    "column": "category",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "description",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "gap_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "next_action",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "record_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "open_gaps"
+  },
+  {
+    "column": "basis",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "evidence_record",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "from_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "interpretation",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "relationship",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "source_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "source_statement",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "to_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "relationships"
+  },
+  {
+    "column": "additional_known_accessions",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "database",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "final_retrieval_cap",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "initial_cap",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "initial_page_size",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "limitations",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "metadata_summarized",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "query",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "raw_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "retrieval_cap",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "returned_ids",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "returned_records",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "screened_title_count",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "screening",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "screening_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "search_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "searched_on",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "total_hits",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "INTEGER",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "translated_query",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "search_log"
+  },
+  {
+    "column": "catalog_record_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "evidence_status",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "retrieved_on",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "snapshot_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "source_group",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "source_id",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "url_role",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "source_provenance"
+  },
+  {
+    "column": "availability",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "bioproject",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "data_level",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "experiment_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "run_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "sample_scope",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "source_path",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "source_sha256",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "source_url",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "sra_uid",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "study_accession",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  },
+  {
+    "column": "title",
+    "definition": "Literal catalog/source field; see README, schema conventions and source provenance.",
+    "sql_type": "TEXT",
+    "structured_values": "JSON encoded in TEXT where a source field contains a list/object",
+    "table": "viral_sequence_runs"
+  }
+]

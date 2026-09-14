@@ -1,0 +1,3900 @@
+[
+  {
+    "bytes_listed": 19885,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/.gitattributes",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:.gitattributes",
+    "file_listing_verified": true,
+    "filename_study_label": ".gitattributes",
+    "git_oid": "5fb8556e82db5352a3ee02d7f7619e5b74e15af1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": ".gitattributes",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 10411845,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/Flowchart.png",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:Flowchart.png",
+    "file_listing_verified": true,
+    "filename_study_label": "Flowchart.png",
+    "git_oid": "0446a0061755ffa323c6eb7ba3b2d9337c59008a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "e336ba9dbc94c48e55a03d60a2ceb6f62f6579c119485e799d93ee1480722782",
+      "pointerSize": 133,
+      "size": 10411845
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "Flowchart.png",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 3387,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/Meta_variable_description.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:Meta_variable_description.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "Meta_variable_description.csv",
+    "git_oid": "4dd6fd6eb07cdfffe853bcf87088f60459f7aa37",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/Meta_variable_description.csv",
+    "local_snapshot_sha256": "aa561def597fee0e3ec0c04cd7ab71f470ec83babfcadf145f0a63c3b0c98b17",
+    "path_in_resource": "Meta_variable_description.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 14103,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/README.md",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:README.md",
+    "file_listing_verified": true,
+    "filename_study_label": "README.md",
+    "git_oid": "2e2682c70efbeee60709a682364a6b5dead1c788",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/README.md",
+    "local_snapshot_sha256": "ec16930681a332e7e0512042ff59ff15fe4a6b40b6cad92f6a613dbf2e99c827",
+    "path_in_resource": "README.md",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 2751,
+    "candidate_study_IDs": [
+      "GSE101709"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE101709_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE101709_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101709",
+    "git_oid": "0aacbf73c70a09f80e3b97fde1b9fa5cb759f2f1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE101709_antibody.csv",
+    "local_snapshot_sha256": "2072e630a3711e9dc3d9e145b9a86b96500cf307b80e1eb8a4a2e45814318dc2",
+    "path_in_resource": "antibody/GSE101709_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101709",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 2664,
+    "candidate_study_IDs": [
+      "GSE101710"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE101710_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE101710_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101710",
+    "git_oid": "020fd4863d86757a0f0d214fe70c453edd734b02",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE101710_antibody.csv",
+    "local_snapshot_sha256": "6a90dd31b8e3d56d4e80dc3f6d64d1280ee4bffcdd27315e1be489939dfd9033",
+    "path_in_resource": "antibody/GSE101710_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101710",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 2082,
+    "candidate_study_IDs": [
+      "GSE169159"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE169159_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE169159_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE169159",
+    "git_oid": "814da3c4db95923195d6c7df98b9315b615ac121",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE169159_antibody.csv",
+    "local_snapshot_sha256": "cdb0ddb3ae0786c989070990fc8762fbe0cfb69374fe87923fa87f68156b0cf6",
+    "path_in_resource": "antibody/GSE169159_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE169159",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 28251,
+    "candidate_study_IDs": [
+      "GSE190001_BOOST",
+      "GSE190001_PRIME"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE190001_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE190001_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190001",
+    "git_oid": "e563a782dce5fb83f284b936fa7b20172c925c57",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE190001_antibody.csv",
+    "local_snapshot_sha256": "31aec26fe17b2cb5944343658be1054181603bcf9033ceab790a11017878585c",
+    "path_in_resource": "antibody/GSE190001_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "split_cohort_label_requires_mapping"
+  },
+  {
+    "bytes_listed": 2821,
+    "candidate_study_IDs": [
+      "GSE190747"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE190747_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE190747_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190747",
+    "git_oid": "0ff090a4fd05a6217fa7635abda09aecab3603df",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE190747_antibody.csv",
+    "local_snapshot_sha256": "9703bf76884ea08c6feef6daef0a28127ecd7925c5f661230e7d00165b3d06db",
+    "path_in_resource": "antibody/GSE190747_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190747",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 7659,
+    "candidate_study_IDs": [
+      "GSE194378"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE194378_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE194378_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378",
+    "git_oid": "5e67d7d9d0af6d4200d327fc80a47c8d9a575b2c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE194378_antibody.csv",
+    "local_snapshot_sha256": "15d7d4d8b9a896298091dfd83e3dd6adac68eb91e7ddcec8fe2822ea3abe82c6",
+    "path_in_resource": "antibody/GSE194378_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE194378",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 9174,
+    "candidate_study_IDs": [
+      "GSE199750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE199750_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE199750_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE199750",
+    "git_oid": "2e8de04778ffad5a4aad35b19c1bde64eeb0f371",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE199750_antibody.csv",
+    "local_snapshot_sha256": "626bf39c3cf02456aebaf8b83cb3e1907686397d040b03be27b6e4dbd51170c6",
+    "path_in_resource": "antibody/GSE199750_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE199750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 11184,
+    "candidate_study_IDs": [
+      "GSE201533"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE201533_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE201533_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201533",
+    "git_oid": "feda2ee93eaf4679c96eb4667c37bedd9dedcecf",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE201533_antibody.csv",
+    "local_snapshot_sha256": "03545e472e355e6042c5bf246a98070028c9e5b89b02d8a2a0a8b34503af9165",
+    "path_in_resource": "antibody/GSE201533_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201533",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1909,
+    "candidate_study_IDs": [
+      "GSE201642"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE201642_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE201642_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201642",
+    "git_oid": "7b92b79e926cb3aeae15520021e9e0aff2a28417",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE201642_antibody.csv",
+    "local_snapshot_sha256": "290f2ec6cd927a5fb7a14a5b8041215b30cc65eee66d6a38801f136c9719b521",
+    "path_in_resource": "antibody/GSE201642_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201642",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 19892,
+    "candidate_study_IDs": [
+      "GSE207750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE207750_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE207750_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE207750",
+    "git_oid": "8d406e92acaca781d392fd5eb297d1380b52adc9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE207750_antibody.csv",
+    "local_snapshot_sha256": "5af7f411356231de3c198099586c499ab0ee6a9f823d542bd38dfe59014206ab",
+    "path_in_resource": "antibody/GSE207750_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE207750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 2351,
+    "candidate_study_IDs": [
+      "GSE230494"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE230494_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE230494_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE230494",
+    "git_oid": "650d407fa2673ae39060e84808d39aa854d3f8fc",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE230494_antibody.csv",
+    "local_snapshot_sha256": "226f66371c507e7f42c060b14a6511b406c1575de1a44f488baaf1543b0d7ed2",
+    "path_in_resource": "antibody/GSE230494_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE230494",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 352,
+    "candidate_study_IDs": [
+      "GSE246525"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE246525_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE246525_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE246525",
+    "git_oid": "e7814cca2c0f71179a6e5c6ce58d49f307824003",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE246525_antibody.csv",
+    "local_snapshot_sha256": "875a42ce9496e0e79eb6ff027179fb6bb4b0f96b6d6c0ffb860c9e885047e547",
+    "path_in_resource": "antibody/GSE246525_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE246525",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 645,
+    "candidate_study_IDs": [
+      "GSE246937"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE246937_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE246937_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE246937",
+    "git_oid": "36c5591c18ab4cfe62c77fe9b1fb0e997e7d964a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE246937_antibody.csv",
+    "local_snapshot_sha256": "e6e30b4949d8204553d57047e1aa3fd1dcc3c992b2c709ad04d3f5a253ac03d6",
+    "path_in_resource": "antibody/GSE246937_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE246937",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1077,
+    "candidate_study_IDs": [
+      "GSE250023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE250023_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE250023_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE250023",
+    "git_oid": "c4fbf9331381e3ffb90df7a527352fb7a9a3d20e",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE250023_antibody.csv",
+    "local_snapshot_sha256": "1160279a0c3aa791d1711ca5710a86dd0f084d518e957c246ec3d8c314dce40c",
+    "path_in_resource": "antibody/GSE250023_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE250023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 630,
+    "candidate_study_IDs": [
+      "GSE29614"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29614_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE29614_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29614",
+    "git_oid": "3ed814a016dae6c266ba6f66472ac30931cfeac7",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE29614_antibody.csv",
+    "local_snapshot_sha256": "3421e129084ba528716cfd2493df47c0d78d6d90399ab9e3ec24c12c97109ed5",
+    "path_in_resource": "antibody/GSE29614_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29614",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1370,
+    "candidate_study_IDs": [
+      "GSE29615"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29615_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE29615_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29615",
+    "git_oid": "15153ac08bc3a9bb134da311b2634f0315f64b2c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE29615_antibody.csv",
+    "local_snapshot_sha256": "8de590fc6ac85090023ad3b62c0537be42b61de5e35a3e888cd5472a6ec3b786",
+    "path_in_resource": "antibody/GSE29615_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29615",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1461,
+    "candidate_study_IDs": [
+      "GSE29617"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE29617_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE29617_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29617",
+    "git_oid": "77c64371a6dd5750e70a502500f6500cefcad2f3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE29617_antibody.csv",
+    "local_snapshot_sha256": "d169c37674786e19c0f35bd4f8460c76761f775f9bdee4523857c02933bd2c58",
+    "path_in_resource": "antibody/GSE29617_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29617",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 4654,
+    "candidate_study_IDs": [
+      "GSE41080"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE41080_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE41080_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE41080",
+    "git_oid": "b3a617b6afc233d9421c715a91007c67b61b59d2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE41080_antibody.csv",
+    "local_snapshot_sha256": "8786f27d6d5be1fb773dface596a2a9907650d2bef540fe6f26aa14949c6efc4",
+    "path_in_resource": "antibody/GSE41080_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE41080",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 4472,
+    "candidate_study_IDs": [
+      "GSE45735"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE45735_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE45735_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE45735",
+    "git_oid": "a10d1c1da1da4374960c81940ca8c92ab6e6bf51",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE45735_antibody.csv",
+    "local_snapshot_sha256": "6066e1ad3a5c9884b3d5579a10be2615a4c6f4d0bf5aae9755e368e20efa1edb",
+    "path_in_resource": "antibody/GSE45735_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE45735",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 8652,
+    "candidate_study_IDs": [
+      "GSE47353"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE47353_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE47353_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE47353",
+    "git_oid": "bab64dd262fa75376058d0bbe09ed73a23b75806",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE47353_antibody.csv",
+    "local_snapshot_sha256": "042579326faffb5d01290d7ba0ce61ea18a0b9418657d0a50110736376f270dd",
+    "path_in_resource": "antibody/GSE47353_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE47353",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 29426,
+    "candidate_study_IDs": [
+      "GSE48018"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48018_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE48018_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48018",
+    "git_oid": "3fcc4a5dd1aff8ce95e5221b99e10872e4eb56e8",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE48018_antibody.csv",
+    "local_snapshot_sha256": "639362dfa2ded928411d43ced7b584176d81535c8e2992b8ae7bccfab6003b10",
+    "path_in_resource": "antibody/GSE48018_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48018",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 27326,
+    "candidate_study_IDs": [
+      "GSE48023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48023_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE48023_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48023",
+    "git_oid": "765f535e8aa3ec74e33e576d0a75e759799e9af1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE48023_antibody.csv",
+    "local_snapshot_sha256": "e475edc8c53a6cec39328382dec9fa9ad09e238a18d90a55c17cfafb326d7c11",
+    "path_in_resource": "antibody/GSE48023_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1457,
+    "candidate_study_IDs": [
+      "GSE48762"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE48762_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE48762_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48762",
+    "git_oid": "9ade1741258d81cdfe7f2e912bd98a272b1cad86",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE48762_antibody.csv",
+    "local_snapshot_sha256": "120bffb4d342b1239767f2a2668480800a57c5dcf3eea3b348c429599854a3cc",
+    "path_in_resource": "antibody/GSE48762_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48762",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 2138,
+    "candidate_study_IDs": [
+      "GSE59635"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59635_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE59635_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59635",
+    "git_oid": "3884441511c241059fbbc5f135e4eb22729ea15f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE59635_antibody.csv",
+    "local_snapshot_sha256": "62a5ca00967e79a786e6985f4b980b67f4a174fc35dd2c196d91a0c36bdc9415",
+    "path_in_resource": "antibody/GSE59635_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59635",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 3521,
+    "candidate_study_IDs": [
+      "GSE59654"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59654_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE59654_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59654",
+    "git_oid": "39d5cae4c6b9acaf393f90a0e589ae060c66ffa3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE59654_antibody.csv",
+    "local_snapshot_sha256": "76b63892649911b466b1e5fae2d0e0a77038e1c115e71d76d405e3225fbd810b",
+    "path_in_resource": "antibody/GSE59654_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59654",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 3725,
+    "candidate_study_IDs": [
+      "GSE59743"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE59743_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE59743_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59743",
+    "git_oid": "167c64e7208a84b001eca52ab5a0c89aeb02d629",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE59743_antibody.csv",
+    "local_snapshot_sha256": "15bebbf192279d7737032859582eeda360cc086a29cdc1aa9531e3964ad860cd",
+    "path_in_resource": "antibody/GSE59743_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59743",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 12594,
+    "candidate_study_IDs": [
+      "GSE68310"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE68310_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE68310_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE68310",
+    "git_oid": "9f91c92597cc36df31a04e052fbca195f4b51f6f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE68310_antibody.csv",
+    "local_snapshot_sha256": "4c156bfad95a708bff9330fec5d2ef1747df76de09af1ebd660b46b4df810794",
+    "path_in_resource": "antibody/GSE68310_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE68310",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1743,
+    "candidate_study_IDs": [
+      "GSE74811"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74811_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE74811_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74811",
+    "git_oid": "f1dbf27e470d759419c7108fbc04d977f4404b1d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE74811_antibody.csv",
+    "local_snapshot_sha256": "6bff02566307a7a6da42e1a44aae156f76521ab97ab85c221cc4fed3ed2a81c6",
+    "path_in_resource": "antibody/GSE74811_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74811",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 4010,
+    "candidate_study_IDs": [
+      "GSE74813"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74813_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE74813_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74813",
+    "git_oid": "13ee5dfcfe4e11d8746e8ae158755beb4dac2df2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE74813_antibody.csv",
+    "local_snapshot_sha256": "8f2d9e8a16d60cb617c13875d7c47f5a1bae426cd0e963eed10f2b37b8e50271",
+    "path_in_resource": "antibody/GSE74813_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74813",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1637,
+    "candidate_study_IDs": [
+      "GSE74815"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74815_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE74815_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74815",
+    "git_oid": "6394c1e3ba9285eb2c3507e89d9565bb3eefc0e9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE74815_antibody.csv",
+    "local_snapshot_sha256": "5756751989fc078483c77056895a8ed88ae3fbd2ac07f03b232d9a4a00474cc7",
+    "path_in_resource": "antibody/GSE74815_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74815",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 4341,
+    "candidate_study_IDs": [
+      "GSE74816"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/GSE74816_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/GSE74816_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74816",
+    "git_oid": "4d7db06f0ff346532c79bc3bf962eee9224a9176",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/GSE74816_antibody.csv",
+    "local_snapshot_sha256": "a1cac08add870ee5adc0b822ca963e0c4b1a08f3b02b66b030680279f860f624",
+    "path_in_resource": "antibody/GSE74816_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74816",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 4558,
+    "candidate_study_IDs": [
+      "SDY112"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY112_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/SDY112_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY112",
+    "git_oid": "0636156c8e7fcc08765e970d1882f20c690288b2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/SDY112_antibody.csv",
+    "local_snapshot_sha256": "27a2c56e9fad3426fd4022c5453c3d4706eb47f4bc58f5a38264d3eb3886c6e6",
+    "path_in_resource": "antibody/SDY112_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY112",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 3226,
+    "candidate_study_IDs": [
+      "SDY311"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY311_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/SDY311_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY311",
+    "git_oid": "4a36d4ad4dea10ab39e15e368136bd137bfbd769",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/SDY311_antibody.csv",
+    "local_snapshot_sha256": "2c7690b20f78e00bb79abb477bec3016b74e815f6cb9b6f9c542697e732ed9d5",
+    "path_in_resource": "antibody/SDY311_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY311",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 5567,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY312_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/SDY312_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY312",
+    "git_oid": "b63f1f29b5523714e7222b61f27b40f3ec820d8b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/SDY312_antibody.csv",
+    "local_snapshot_sha256": "45081e97178f567fafecc56dc20a400b7f949eeff2828af7efe051002118a1d6",
+    "path_in_resource": "antibody/SDY312_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 6372,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY314_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/SDY314_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY314",
+    "git_oid": "cb4dd90f5fc46883ec7272c1787c7420b8543e70",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/SDY314_antibody.csv",
+    "local_snapshot_sha256": "0e368cab6d9dc1c4f1e9d0fd6ce270809bee6f948ba56208523ff0929b04cc1e",
+    "path_in_resource": "antibody/SDY314_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 3627,
+    "candidate_study_IDs": [
+      "SDY315"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/SDY315_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/SDY315_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY315",
+    "git_oid": "12d4a7fb586e226720941c8ae0e5c7012cd79de7",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/SDY315_antibody.csv",
+    "local_snapshot_sha256": "90a9bc1370478fa74ef5945e39b7806c636192ee2bd02eaf7a23317d5668c635",
+    "path_in_resource": "antibody/SDY315_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY315",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 1579,
+    "candidate_study_IDs": [
+      "challenge_covid19"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/antibody/challenge_covid19_antibody.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "reported_antibody_measurements_with_derived_summary_columns",
+    "file_id": "HF:antibody/challenge_covid19_antibody.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "challenge_covid19",
+    "git_oid": "a76cce85467f26e8237ef420b985d81361179be7",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/antibody/challenge_covid19_antibody.csv",
+    "local_snapshot_sha256": "22ad28cf4f49ae4690a8d78ebb68366659789b79f8ecf2c6bc2e1556b3197615",
+    "path_in_resource": "antibody/challenge_covid19_antibody.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "challenge_covid19",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 210421121,
+    "candidate_study_IDs": [
+      "E_MTAB_12993_blood"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/E_MTAB_12993_blood_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/E_MTAB_12993_blood_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "E_MTAB_12993_blood",
+    "git_oid": "d1a0e0a1a1129d42c0c0856bfd35be81650f2044",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "3d97d41fb033a523be76ab5404963e8299ba4e46f3a7387850ed405f39e9d3a8",
+      "pointerSize": 134,
+      "size": 210421121
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/E_MTAB_12993_blood_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "E_MTAB_12993_blood",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 55300487,
+    "candidate_study_IDs": [
+      "E_MTAB_12993_nose"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/E_MTAB_12993_nose_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/E_MTAB_12993_nose_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "E_MTAB_12993_nose",
+    "git_oid": "dda45aaf64b33f9e8e1f982c2c62f8e4c81c79f5",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "9b297dd86f74fb4eba98d1e8414bdb4a12a1e25560e76843e1bf41f60c4f3271",
+      "pointerSize": 133,
+      "size": 55300487
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/E_MTAB_12993_nose_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "E_MTAB_12993_nose",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 40431433,
+    "candidate_study_IDs": [
+      "GSE101709"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE101709_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE101709_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101709",
+    "git_oid": "4549d5298c0508e5c847efafc8d46dd8f970bd6d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "019f85ad6934149ed3f871ed7e59d5b44c24a4a941dc210a31c2d4a796231a7e",
+      "pointerSize": 133,
+      "size": 40431433
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE101709_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101709",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 32664338,
+    "candidate_study_IDs": [
+      "GSE101710"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE101710_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE101710_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101710",
+    "git_oid": "7457616c06a41aff8818b00a9760c6e7b3e96dbb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "b524122ea8b5e3ef93bf2ebe027b9c889f179d159e9fe51847aa7458c1cd6c07",
+      "pointerSize": 133,
+      "size": 32664338
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE101710_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101710",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 146072232,
+    "candidate_study_IDs": [
+      "GSE102012"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE102012_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE102012_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE102012",
+    "git_oid": "28d23e84df8d7247472860b1d5e109e0b632cabb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "997a5ecbfb3bc77da8b6762c24259d4b73930809c4f9a6ff0278b2ad1dec66c2",
+      "pointerSize": 134,
+      "size": 146072232
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE102012_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE102012",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 275296633,
+    "candidate_study_IDs": [
+      "GSE107990"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE107990_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE107990_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE107990",
+    "git_oid": "bb238b265be7ae60b8bc4586202e011f36c3b2bc",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "7e28972197cbdeeec5fdb1bcfafc62d45eda81e01ab6dabf7a77e0942c66fd82",
+      "pointerSize": 134,
+      "size": 275296633
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE107990_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE107990",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 36236149,
+    "candidate_study_IDs": [
+      "GSE11348"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE11348_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE11348_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE11348",
+    "git_oid": "9143d7fad79818ca20bed168c1a91cf43f87a437",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "461add9b5271233f5c051cdeadcc638fbe811e1554fdc9120b89d8976b5e1d10",
+      "pointerSize": 133,
+      "size": 36236149
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE11348_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE11348",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 13343014,
+    "candidate_study_IDs": [
+      "GSE117580"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE117580_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE117580_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE117580",
+    "git_oid": "24b093f0052cee4f03aff293f7755b2eb84b0dbb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "51d2158efb353753d51d736db1f42f55d89fca10b4b8452b7642967358bd9fb6",
+      "pointerSize": 133,
+      "size": 13343014
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE117580_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE117580",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 9588797,
+    "candidate_study_IDs": [
+      "GSE155237"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE155237_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE155237_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE155237",
+    "git_oid": "9f197003cd191d1f19d7b63304874bad2511cc5a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE155237_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE155237",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 23921925,
+    "candidate_study_IDs": [
+      "GSE169159"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE169159_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE169159_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE169159",
+    "git_oid": "0dc003c7d1dddaf83ac08945bbcd071eb53023f9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "3ad6039a24627c9097921021291d8b351595e554bda0f8c6ac945f1a626a88cc",
+      "pointerSize": 133,
+      "size": 23921925
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE169159_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE169159",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 21713566,
+    "candidate_study_IDs": [
+      "GSE190001_BOOST"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE190001_BOOST_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE190001_BOOST_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190001_BOOST",
+    "git_oid": "c5e57d73b57bb101563b2049b5db2b13a65d600f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "997c9d27e73c14cd43cefe60663c873ec885f7686670a0d84be27b6b7f19f719",
+      "pointerSize": 133,
+      "size": 21713566
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE190001_BOOST_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190001_BOOST",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 19498836,
+    "candidate_study_IDs": [
+      "GSE190001_PRIME"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE190001_PRIME_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE190001_PRIME_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190001_PRIME",
+    "git_oid": "efe78a3c433560b8a8ceba420452cbe4a86e8ca6",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "6633f27b18c02dd5c564c70708bde699f9246feb0e4a0b8031dbfe252028e6e2",
+      "pointerSize": 133,
+      "size": 19498836
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE190001_PRIME_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190001_PRIME",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 16019515,
+    "candidate_study_IDs": [
+      "GSE190747"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE190747_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE190747_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190747",
+    "git_oid": "23f0bee82781e9c1e220546d9c2e72d797828740",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "3fc83589b0a642d05103ff7346c22e8b80cc36fc1578572617b44f2ab6dafcbf",
+      "pointerSize": 133,
+      "size": 16019515
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE190747_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190747",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 53098526,
+    "candidate_study_IDs": [
+      "GSE194378"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE194378_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE194378_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378",
+    "git_oid": "be7db6359ccd6f65269bc351d2e5864a8f7adadd",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "549374db587fdd069987e99e7c6fc93cb95b31e71fb84ba23af72263093aa364",
+      "pointerSize": 133,
+      "size": 53098526
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE194378_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE194378",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 29499908,
+    "candidate_study_IDs": [
+      "GSE199750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE199750_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE199750_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE199750",
+    "git_oid": "74b7ebb2bab40864f2a0bc988d18f9baa7e45518",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "5ad61900021a7f6c8ba3251424739eaa483ce12af48ffb235e2a6102a5321742",
+      "pointerSize": 133,
+      "size": 29499908
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE199750_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE199750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 22241786,
+    "candidate_study_IDs": [
+      "GSE201533"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE201533_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE201533_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201533",
+    "git_oid": "a84e3f8f3d8e007952dd50113a366027d549ccd1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "91bbc3b91c1d09123a2ddb00a08f15d8ffa41a6ba8e13b20f60f592ee0f40a7d",
+      "pointerSize": 133,
+      "size": 22241786
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE201533_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201533",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 6912852,
+    "candidate_study_IDs": [
+      "GSE201642"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE201642_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE201642_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201642",
+    "git_oid": "aed1ca85225c38b053a5ab4f246ea2a538fcbcda",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE201642_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201642",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 33443091,
+    "candidate_study_IDs": [
+      "GSE207750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE207750_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE207750_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE207750",
+    "git_oid": "087392dfc57412d904f33f19bf7c489f5b227a10",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "55717e8d31c44fa73e392b2de83bc30c19a1371294946356daa88794a882e951",
+      "pointerSize": 133,
+      "size": 33443091
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE207750_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE207750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 25337744,
+    "candidate_study_IDs": [
+      "GSE209985"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE209985_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE209985_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE209985",
+    "git_oid": "abd1db0ca3c5bab3ba252411e728a04c37e53516",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "3efe3bacf9740c08897220502487519753a3515a7334804294f786a158f72ea1",
+      "pointerSize": 133,
+      "size": 25337744
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE209985_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE209985",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 43122919,
+    "candidate_study_IDs": [
+      "GSE217770"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE217770_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE217770_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE217770",
+    "git_oid": "0d196e038f7f5dfc3adb2762cafed54a1989446a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "b05203ae28c8ceed3ea5e69b2a345106da01248b82adfc3a226fd6376cda7502",
+      "pointerSize": 133,
+      "size": 43122919
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE217770_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE217770",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 72982889,
+    "candidate_study_IDs": [
+      "GSE220682"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE220682_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE220682_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE220682",
+    "git_oid": "33ddf4778824d2ab31bb01ccea0223fde1cd96ca",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "4ea816bfd7b54d6e6aed16545e219b4c7cfac6c0a73a0a91aff62911f6dc32ea",
+      "pointerSize": 133,
+      "size": 72982889
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE220682_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE220682",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 22811523,
+    "candidate_study_IDs": [
+      "GSE228839"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE228839_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE228839_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE228839",
+    "git_oid": "28b8b5bd27e52c733f8e6eee971c7f0431ca828f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "77670b6bb294f0fb7e0d2a4982b55ee3790d80266b39bce650332a0273cb30c8",
+      "pointerSize": 133,
+      "size": 22811523
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE228839_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE228839",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 6959578,
+    "candidate_study_IDs": [
+      "GSE230494"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE230494_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE230494_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE230494",
+    "git_oid": "9b934ed499a15cd06ff47709ad703cada109988a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE230494_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE230494",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 5235047,
+    "candidate_study_IDs": [
+      "GSE246525"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE246525_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE246525_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE246525",
+    "git_oid": "7250a4480906225e49aca94ac1da4479d501875e",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE246525_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE246525",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 19166220,
+    "candidate_study_IDs": [
+      "GSE247401"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE247401_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE247401_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE247401",
+    "git_oid": "324f1e4da9743184d0f6654f2047422cb63024dc",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "8d1c8c8d254121c641d5f0fb559d0d2165669515704673e9af2fa65fbc222db3",
+      "pointerSize": 133,
+      "size": 19166220
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE247401_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE247401",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 9194004,
+    "candidate_study_IDs": [
+      "GSE250023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE250023_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE250023_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE250023",
+    "git_oid": "9c634dc7aa51f15545d0898a7f6999081256f23b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE250023_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE250023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 11783751,
+    "candidate_study_IDs": [
+      "GSE265975"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE265975_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE265975_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE265975",
+    "git_oid": "85a15c20dc164b0cad06aeb017bcc623b4f47acb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "83ba1e859c55648f6ded08d4a1b0e41378ffb788b3f0ca2822a5478aa86db824",
+      "pointerSize": 133,
+      "size": 11783751
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE265975_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE265975",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 37807830,
+    "candidate_study_IDs": [
+      "GSE276544"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE276544_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE276544_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE276544",
+    "git_oid": "cc1a8314deaa470b602c7e80b005d8dc6ad5d2b3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "e15cd82996c55a5a0bc659ae6cc13eb72f23c0214be712681e56af74049bc4ca",
+      "pointerSize": 133,
+      "size": 37807830
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE276544_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE276544",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 20115784,
+    "candidate_study_IDs": [
+      "GSE281864"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE281864_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE281864_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE281864",
+    "git_oid": "5ce5322ae6f518c75379d9ebcb185386215ee033",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "a48b2f8dd666b79b61c432f471621f4f9f13ff3562559fecf0cf52619e355d61",
+      "pointerSize": 133,
+      "size": 20115784
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE281864_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE281864",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 11095119,
+    "candidate_study_IDs": [
+      "GSE29614"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE29614_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE29614_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29614",
+    "git_oid": "0072df7936225ce7d3391ccdf19528ef3ccaa899",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "86da028ef8ca53eedc4d91426c384521d80307f3191ce5861990c816c48c6bcb",
+      "pointerSize": 133,
+      "size": 11095119
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE29614_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29614",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 31901610,
+    "candidate_study_IDs": [
+      "GSE29615"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE29615_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE29615_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29615",
+    "git_oid": "3e54341a29017019400b080ce19ec0b78851afe9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "e78393ebecd4900f2c0381aa2075b5715a76d31b2e005dee1853f7b2b7784c85",
+      "pointerSize": 133,
+      "size": 31901610
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE29615_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29615",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 30762918,
+    "candidate_study_IDs": [
+      "GSE29617"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE29617_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE29617_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29617",
+    "git_oid": "6e7ed0642c3933d00c4af99d997c25d991462d70",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "1d8785b7605737f06bd0129cccfe9ab803bd612f1dbbf2c66582c4a10ce39f54",
+      "pointerSize": 133,
+      "size": 30762918
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE29617_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29617",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 35477116,
+    "candidate_study_IDs": [
+      "GSE41080"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE41080_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE41080_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE41080",
+    "git_oid": "45009610c086b6bd2f76ac0d9347a02c0dd066b3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "996dbfd14132c346622d3633e6aa9748f4c9bc6f7e5164d3660f27e965cc3d5d",
+      "pointerSize": 133,
+      "size": 35477116
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE41080_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE41080",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 7208196,
+    "candidate_study_IDs": [
+      "GSE45735"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE45735_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE45735_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE45735",
+    "git_oid": "fac18e1bb6f010c31857b4467ac0f7db2a0044eb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE45735_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE45735",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 128916832,
+    "candidate_study_IDs": [
+      "GSE47353"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE47353_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE47353_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE47353",
+    "git_oid": "f06e5ae176dd7862adfc41cc9048b1b125fe3119",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "e3fad83c0fd0127a29475d58a55804b083d1d9905c859aeb184cb02c4df6fd20",
+      "pointerSize": 134,
+      "size": 128916832
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE47353_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE47353",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 166360595,
+    "candidate_study_IDs": [
+      "GSE48018"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE48018_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE48018_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48018",
+    "git_oid": "08739c2ddba670b0cfca37fde0b5f25295b39a97",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "16edfdec42d961994172d702abff2784a14e7ca330787789ad96e5e075ed1277",
+      "pointerSize": 134,
+      "size": 166360595
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE48018_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48018",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 171231303,
+    "candidate_study_IDs": [
+      "GSE48023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE48023_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE48023_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48023",
+    "git_oid": "c89915528c49aeac0eac61c3da46ed9fb14087e7",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "c1a508c4dfe3f02f37d6b5c82cf914d562b65a36d2fd6ff2b611b120df226ac0",
+      "pointerSize": 134,
+      "size": 171231303
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE48023_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 182071131,
+    "candidate_study_IDs": [
+      "GSE48762"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE48762_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE48762_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48762",
+    "git_oid": "427076850a8bcf90b15256d212a61e5968e2dada",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "198ee61e63d40787b559b83b8db338fe61dec8e86f73d4fdd3bc0c3630492c71",
+      "pointerSize": 134,
+      "size": 182071131
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE48762_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48762",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 57816621,
+    "candidate_study_IDs": [
+      "GSE52005"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE52005_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE52005_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE52005",
+    "git_oid": "8e10b18b73d3e838f3042290b9ed1b68cc3c0ef2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "36d01296976023824849c97bfb11573a20576eb2e630dd9667aa89b1ade59177",
+      "pointerSize": 133,
+      "size": 57816621
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE52005_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE52005",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 29627642,
+    "candidate_study_IDs": [
+      "GSE59635"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE59635_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE59635_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59635",
+    "git_oid": "0b075534482e7d227e7eec94213447d88bce3361",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "20cfd2e7c41045ee8e5e7417c8f66c6fd0f72382e61332df40f4ccc58c35133d",
+      "pointerSize": 133,
+      "size": 29627642
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE59635_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59635",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 61167337,
+    "candidate_study_IDs": [
+      "GSE59654"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE59654_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE59654_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59654",
+    "git_oid": "b44fd3387a9cc0358e3209d5fb60efe65980fab7",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "2c529275f20a350e505c11ebb68edc67c93dc63945761064f681c3a7be92a8d0",
+      "pointerSize": 133,
+      "size": 61167337
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE59654_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59654",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 49382562,
+    "candidate_study_IDs": [
+      "GSE59743"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE59743_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE59743_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59743",
+    "git_oid": "382c55e4d051edb307bdf560892f878439def629",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "a76b6128ef81d804f478be5427c658c352a446044cd97461867c16a72b9c8f3e",
+      "pointerSize": 133,
+      "size": 49382562
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE59743_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59743",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 35959502,
+    "candidate_study_IDs": [
+      "GSE61754"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE61754_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE61754_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE61754",
+    "git_oid": "32194a5a81e9c3a80ea63bc93070952b20a53d71",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "5b8714e13e9922992209bd144280875af96c621966d7f9509c94390459a757c2",
+      "pointerSize": 133,
+      "size": 35959502
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE61754_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE61754",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 339433237,
+    "candidate_study_IDs": [
+      "GSE68310"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE68310_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE68310_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE68310",
+    "git_oid": "2cb45c6fc275e0ae6e40e9037a57b9d1ed58e7f5",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "1e0de55e149eb9b19d1cbbb9263c225c18dc2977dfe3f3f521b8638784ea97db",
+      "pointerSize": 134,
+      "size": 339433237
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE68310_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE68310",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 141539330,
+    "candidate_study_IDs": [
+      "GSE73072_H1N1_DEE3"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_H1N1_DEE3_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_H1N1_DEE3_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H1N1_DEE3",
+    "git_oid": "7223f0ec8d114bb0d12b428b8a2eae3f9729ad1d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "8e57c498e311cb8a2dca7b69c0637349aebf88cb0e5c6e907aa2877bafda034e",
+      "pointerSize": 134,
+      "size": 141539330
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_H1N1_DEE3_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H1N1_DEE3",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 114604158,
+    "candidate_study_IDs": [
+      "GSE73072_H1N1_DEE4"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_H1N1_DEE4_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_H1N1_DEE4_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H1N1_DEE4",
+    "git_oid": "8f446e811e2737d522feedb174608c7a2db40544",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "a4e2ebca156d18b89223e7e0f075187ab3d6c8ef8dd0061c1acb507286a11263",
+      "pointerSize": 134,
+      "size": 114604158
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_H1N1_DEE4_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H1N1_DEE4",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 105462109,
+    "candidate_study_IDs": [
+      "GSE73072_H3N2_DEE2"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_H3N2_DEE2_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_H3N2_DEE2_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H3N2_DEE2",
+    "git_oid": "ef8d4ce0a58373d61f24bd5cb0ce1a7917b919bc",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "18ef92c703ae1e29b7b9a20fbc87d46b7fcd4cf77a184926ec3b283f58a6264f",
+      "pointerSize": 134,
+      "size": 105462109
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_H3N2_DEE2_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H3N2_DEE2",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 143046795,
+    "candidate_study_IDs": [
+      "GSE73072_H3N2_DEE5"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_H3N2_DEE5_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_H3N2_DEE5_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H3N2_DEE5",
+    "git_oid": "163c6e95f9ab7522da65214547060a5cff78f474",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "ce56e2a02dc216f14f9e78c3393492993e0090327b810990c96bdbc9a7ab04c3",
+      "pointerSize": 134,
+      "size": 143046795
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_H3N2_DEE5_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H3N2_DEE5",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 139749963,
+    "candidate_study_IDs": [
+      "GSE73072_HRV_DUKE"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_HRV_DUKE_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_HRV_DUKE_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_HRV_DUKE",
+    "git_oid": "e0403241d3d2d64d0788c52a3ca3513d85505a0c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "15fc5e47fb5d0ca11d5f60d8d8503b892b596b62da206b2da2f559903763a225",
+      "pointerSize": 134,
+      "size": 139749963
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_HRV_DUKE_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_HRV_DUKE",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 87696414,
+    "candidate_study_IDs": [
+      "GSE73072_HRV_UVA"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_HRV_UVA_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_HRV_UVA_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_HRV_UVA",
+    "git_oid": "acd60646f9ce7cc083e2a52003a1bb6e07c99033",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "c0945060dc488f03cb05ffb34f70caa5186d7f9d8a773691e82a209fef828e81",
+      "pointerSize": 133,
+      "size": 87696414
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_HRV_UVA_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_HRV_UVA",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 124695621,
+    "candidate_study_IDs": [
+      "GSE73072_RSV_DEE1"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE73072_RSV_DEE1_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE73072_RSV_DEE1_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_RSV_DEE1",
+    "git_oid": "16b2c3c84616e13c67129efe0bf7927e8af3082c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "9bb9f5f4b1f15acaa19267636a69e17b91c82aaf0911b18e63e603b6e689fdf7",
+      "pointerSize": 134,
+      "size": 124695621
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE73072_RSV_DEE1_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_RSV_DEE1",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 31887824,
+    "candidate_study_IDs": [
+      "GSE74811"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE74811_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE74811_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74811",
+    "git_oid": "5d3e6afd1995178e46e465a92601fad9b5db56b1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "ee2cbd7df6bf415746986606249b0776f13ce23f66c3be87d0cd8f5be9c77068",
+      "pointerSize": 133,
+      "size": 31887824
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE74811_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74811",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 108880279,
+    "candidate_study_IDs": [
+      "GSE74813"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE74813_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE74813_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74813",
+    "git_oid": "92c89810c1cdf69ad66420fb4551f6cfabe98c27",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "6524bc3f9e40f244a8401e3a2df37366a157dcfa92692b465edf7ca5232bf2b9",
+      "pointerSize": 134,
+      "size": 108880279
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE74813_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74813",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 28853476,
+    "candidate_study_IDs": [
+      "GSE74815"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE74815_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE74815_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74815",
+    "git_oid": "f304e20a08edf0081ae93b6df0a1477e12a38f8e",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "bf7f979fb441564f141a94068287062d23a05177548e0a63134e99672f8110ad",
+      "pointerSize": 133,
+      "size": 28853476
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE74815_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74815",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 67539029,
+    "candidate_study_IDs": [
+      "GSE74816"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE74816_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE74816_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74816",
+    "git_oid": "e7aad4e8ebbc9b0c205d7c13d9ec74f61f1639d1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "c3929b6e4325f74a78b7f345d582dfed4513ddbb0897ef9f9d22a8a5da853849",
+      "pointerSize": 133,
+      "size": 67539029
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE74816_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74816",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 44663849,
+    "candidate_study_IDs": [
+      "GSE90732"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/GSE90732_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/GSE90732_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE90732",
+    "git_oid": "7989298bbd8f0133c7a8ef4387d5cb3c3a6ec13a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "25810c25e52df3aa2e56d9e71cfcb5de7599868595d60cb18918d9c0bc3663b1",
+      "pointerSize": 133,
+      "size": 44663849
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/GSE90732_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE90732",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 34452453,
+    "candidate_study_IDs": [
+      "SDY112"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/SDY112_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/SDY112_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY112",
+    "git_oid": "7437754a0684c66b28631918ff99d19ade2eeb14",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "f4b10766b363bc07cfce30953cb5e2c5b27aa4817c57015e6cc9991aba4ec99c",
+      "pointerSize": 133,
+      "size": 34452453
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/SDY112_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY112",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 30340761,
+    "candidate_study_IDs": [
+      "SDY311"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/SDY311_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/SDY311_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY311",
+    "git_oid": "ec0a3ffd0812fb0f34f249efc43d764d9249417f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "72c804125a13a971f2735a78d6a4a975ce09cc9b33892517fe47873eecf2fa00",
+      "pointerSize": 133,
+      "size": 30340761
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/SDY311_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY311",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 27561870,
+    "candidate_study_IDs": [
+      "SDY315"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/bulk_gene_expr/SDY315_gene_expr.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "harmonized_expression_matrix",
+    "file_id": "HF:bulk_gene_expr/SDY315_gene_expr.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY315",
+    "git_oid": "89192da579c0b89275c47530b1afa9e521c9816d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "a598cfbaf745530e26ea075340630327b283fa25931c6246958c65b8c32257b4",
+      "pointerSize": 133,
+      "size": 27561870
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "bulk_gene_expr/SDY315_gene_expr.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY315",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 46761,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/croissant.json",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:croissant.json",
+    "file_listing_verified": true,
+    "filename_study_label": "croissant.json",
+    "git_oid": "bc9cbcdad95b3cc1171bc8862c7b281aa6bea522",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/croissant.json",
+    "local_snapshot_sha256": "2e5428c43a1b2904e24bf7a21d096c10d6342d2d0a90567d4069be57927bf308",
+    "path_in_resource": "croissant.json",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 7659,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_antibody_sample.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "example_derived_data",
+    "file_id": "HF:example_dataset/GSE194378_antibody_sample.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378_antibody_sample.csv",
+    "git_oid": "5e67d7d9d0af6d4200d327fc80a47c8d9a575b2c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "example_dataset/GSE194378_antibody_sample.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 31770,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_gene_expr_sample.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "example_derived_data",
+    "file_id": "HF:example_dataset/GSE194378_gene_expr_sample.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378_gene_expr_sample.csv",
+    "git_oid": "cf8ba1bbcd731821e069ecee9af6a5b750788fec",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "example_dataset/GSE194378_gene_expr_sample.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 103073,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/example_dataset/GSE194378_meta_sample.csv",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "example_derived_data",
+    "file_id": "HF:example_dataset/GSE194378_meta_sample.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378_meta_sample.csv",
+    "git_oid": "7c9793273a8d85dd5fc3ba6793e3e0df9b7652e9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "example_dataset/GSE194378_meta_sample.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 324703,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/gene_expr_colnames.txt",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:gene_expr_colnames.txt",
+    "file_listing_verified": true,
+    "filename_study_label": "gene_expr_colnames.txt",
+    "git_oid": "dd74a6cfb983f8dc39a4f125b6cfcba23ce305ae",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/gene_expr_colnames.txt",
+    "local_snapshot_sha256": "3a3d9000bf17604635aad9c3151fa3e3532f84ee4c19eddfd84bbb4c931759c2",
+    "path_in_resource": "gene_expr_colnames.txt",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 134426,
+    "candidate_study_IDs": [
+      "E_MTAB_12993_blood"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/E_MTAB_12993_blood_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/E_MTAB_12993_blood_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "E_MTAB_12993_blood",
+    "git_oid": "bf788821386f8be224cd6efec0844586983b9fd2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_blood_meta.csv",
+    "local_snapshot_sha256": "430f9f873e32949e38e7dd4b1ca5bc8e8f00bc725973e0f710312eaa310ce062",
+    "path_in_resource": "meta/E_MTAB_12993_blood_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "E_MTAB_12993_blood",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 34639,
+    "candidate_study_IDs": [
+      "E_MTAB_12993_nose"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/E_MTAB_12993_nose_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/E_MTAB_12993_nose_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "E_MTAB_12993_nose",
+    "git_oid": "77b9fdbf5b04d067607cd0c9e5ddcb25baa0f3a1",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/E_MTAB_12993_nose_meta.csv",
+    "local_snapshot_sha256": "a93eef1c0ba1802b86e90a8ef3ffab4c7cee99d43bcdd12c2d033a7a65bea0eb",
+    "path_in_resource": "meta/E_MTAB_12993_nose_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "E_MTAB_12993_nose",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 27970,
+    "candidate_study_IDs": [
+      "GSE101709"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE101709_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE101709_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101709",
+    "git_oid": "64a1eb47438b98f85b8f4dd3b3c09193780d5831",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE101709_meta.csv",
+    "local_snapshot_sha256": "ec4b9971de6b83849a4c1d4560bdb5e76d282fedb7d85e1f5c7339e9c50c7493",
+    "path_in_resource": "meta/GSE101709_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101709",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 22648,
+    "candidate_study_IDs": [
+      "GSE101710"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE101710_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE101710_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE101710",
+    "git_oid": "82b00997d383f20939ecad8ec33484024fa127fe",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE101710_meta.csv",
+    "local_snapshot_sha256": "f273f282b7f0dfb316514b11b82f5daa13c9c14546d8c75f4462809dfb8bb05e",
+    "path_in_resource": "meta/GSE101710_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE101710",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 98059,
+    "candidate_study_IDs": [
+      "GSE102012"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE102012_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE102012_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE102012",
+    "git_oid": "3b3eb199ef2b26d218030e8043a5cb76297c2327",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE102012_meta.csv",
+    "local_snapshot_sha256": "a5f250fea3ff918b452625d38851c8b5a17e106889c33e5e9eaff4fb6f52668e",
+    "path_in_resource": "meta/GSE102012_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE102012",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 174441,
+    "candidate_study_IDs": [
+      "GSE107990"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE107990_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE107990_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE107990",
+    "git_oid": "f39bdadbd3a6a6b46acd5449e58d3e7d44c7ea19",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE107990_meta.csv",
+    "local_snapshot_sha256": "79245359ec97525c19cd30714a7f2e4cff73fa5bfae8682a542da9c95a5def0d",
+    "path_in_resource": "meta/GSE107990_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE107990",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 26509,
+    "candidate_study_IDs": [
+      "GSE11348"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE11348_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE11348_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE11348",
+    "git_oid": "28b22be598596b5a0c57e965c5f09c3b6d9aa852",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE11348_meta.csv",
+    "local_snapshot_sha256": "ffc86c098c93efa015b213846aefd883ec5c4720bbe64d89e2a913469b2f434b",
+    "path_in_resource": "meta/GSE11348_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE11348",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 27211,
+    "candidate_study_IDs": [
+      "GSE117580"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE117580_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE117580_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE117580",
+    "git_oid": "f56572ebd63d58519996160b28a0df1e6ea3704b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE117580_meta.csv",
+    "local_snapshot_sha256": "3472f92333c4c32828d9f40e6150f5994dc4493a786477d3cedf45655da2350e",
+    "path_in_resource": "meta/GSE117580_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE117580",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 20558,
+    "candidate_study_IDs": [
+      "GSE155237"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE155237_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE155237_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE155237",
+    "git_oid": "89b695046832711671852fbdc251b67edd42d9c8",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE155237_meta.csv",
+    "local_snapshot_sha256": "536bc7894ed63be8cc3997b902cfcc64380c3b95da6c9198a5d4bc9dcf3a2bf2",
+    "path_in_resource": "meta/GSE155237_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE155237",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 50180,
+    "candidate_study_IDs": [
+      "GSE169159"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE169159_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE169159_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE169159",
+    "git_oid": "3fd99e95129fc429201f10e4a610385e07e9d9e2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE169159_meta.csv",
+    "local_snapshot_sha256": "34a95dd819e24b138ff8bb422c574f9257b3c48166d05e1f8508ba995b902519",
+    "path_in_resource": "meta/GSE169159_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE169159",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 79006,
+    "candidate_study_IDs": [
+      "GSE190001_BOOST"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190001_BOOST_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE190001_BOOST_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190001_BOOST",
+    "git_oid": "5c1d83a500be072d4bc7db2469d49450df50416f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE190001_BOOST_meta.csv",
+    "local_snapshot_sha256": "04fb7428b41eee2a928b0b5617b8b393e4178c999c4f8cf71f4602ded57e361b",
+    "path_in_resource": "meta/GSE190001_BOOST_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190001_BOOST",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 74654,
+    "candidate_study_IDs": [
+      "GSE190001_PRIME"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190001_PRIME_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE190001_PRIME_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190001_PRIME",
+    "git_oid": "41b0dac4139a8779684168766cc8aa3adb79e6c9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE190001_PRIME_meta.csv",
+    "local_snapshot_sha256": "1abb26b844d6e849f8bc7e049dadfc69fb3662bbb79387441b5c7c95540313be",
+    "path_in_resource": "meta/GSE190001_PRIME_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190001_PRIME",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 34250,
+    "candidate_study_IDs": [
+      "GSE190747"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE190747_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE190747_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE190747",
+    "git_oid": "8fdf345b92360aa3e6975456e96f4d95c4ef8e48",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE190747_meta.csv",
+    "local_snapshot_sha256": "e8660d9cf2ef9db5e1c25ff9e0237f1a019f985368f932cbbc02dfa7af09341d",
+    "path_in_resource": "meta/GSE190747_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE190747",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 127436,
+    "candidate_study_IDs": [
+      "GSE194378"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE194378_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE194378_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE194378",
+    "git_oid": "69c04a45f179dedf854ea8c2158a2b33a1c64333",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE194378_meta.csv",
+    "local_snapshot_sha256": "c74cb30d0b0affc1939ebc9cf32bdf8c6d2250677f8af206150c8f1354b96562",
+    "path_in_resource": "meta/GSE194378_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE194378",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 74139,
+    "candidate_study_IDs": [
+      "GSE199750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE199750_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE199750_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE199750",
+    "git_oid": "83728b692adf266ee242138e0c6e90b6edb46ec8",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE199750_meta.csv",
+    "local_snapshot_sha256": "e22d6cf0b21ca5bc20f570d6b2b996bf8b3dd204967fbee6b8582238ec7cc960",
+    "path_in_resource": "meta/GSE199750_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE199750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 40307,
+    "candidate_study_IDs": [
+      "GSE201533"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE201533_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE201533_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201533",
+    "git_oid": "13875458cde146b38a7370f53c9eeeb0d7c58e83",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE201533_meta.csv",
+    "local_snapshot_sha256": "9e0477f016f460dec56ac4379b064a678795e0ba345663c797c7149d7ae60467",
+    "path_in_resource": "meta/GSE201533_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201533",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 13411,
+    "candidate_study_IDs": [
+      "GSE201642"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE201642_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE201642_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201642",
+    "git_oid": "02379f47c35e5b3c7be420013eaa814536f359f9",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE201642_meta.csv",
+    "local_snapshot_sha256": "d25dc631cfc13f375c1882deb867ed4dbfc5b65aa9a649df01caeb94ddbb5751",
+    "path_in_resource": "meta/GSE201642_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201642",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 84725,
+    "candidate_study_IDs": [
+      "GSE207750"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE207750_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE207750_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE207750",
+    "git_oid": "edf6dcb00cd15a5e506a3183edfbbc9326305023",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE207750_meta.csv",
+    "local_snapshot_sha256": "d33202bdf493de7650294c63eb15e5aa4097943b17e12f8c5b04508cfb32db5c",
+    "path_in_resource": "meta/GSE207750_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE207750",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 49648,
+    "candidate_study_IDs": [
+      "GSE209985"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE209985_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE209985_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE209985",
+    "git_oid": "dd0e336dbe182398fc64ed8ccd07a21079e09c46",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE209985_meta.csv",
+    "local_snapshot_sha256": "52a2620f2694f8e3f9bc352465dac7a4b7db60cfc342ff76cc7290f8f51094c1",
+    "path_in_resource": "meta/GSE209985_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE209985",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 103394,
+    "candidate_study_IDs": [
+      "GSE217770"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE217770_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE217770_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE217770",
+    "git_oid": "ca7a869e6f38f14f507ddc3fd876341d43c92686",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE217770_meta.csv",
+    "local_snapshot_sha256": "bfcd9848d74ec45a1a03de84db619b845eb119ed0d15636e664eb50a7fc65074",
+    "path_in_resource": "meta/GSE217770_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE217770",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 159568,
+    "candidate_study_IDs": [
+      "GSE220682"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE220682_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE220682_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE220682",
+    "git_oid": "78f2472be1ae69ad07073e5f0c3fcac26c7573e4",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE220682_meta.csv",
+    "local_snapshot_sha256": "80892c7b3d00b7f56f3c8fa8a99b12a3292115b39113d65f47d52abfc4dba989",
+    "path_in_resource": "meta/GSE220682_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE220682",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 48030,
+    "candidate_study_IDs": [
+      "GSE228839"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE228839_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE228839_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE228839",
+    "git_oid": "cd49561ecac47719236a5cf2bdda87436e819862",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE228839_meta.csv",
+    "local_snapshot_sha256": "4f5082f911ff542c06ea21df78b704122265bd1e51f7398c9896575085e595f8",
+    "path_in_resource": "meta/GSE228839_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE228839",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 15052,
+    "candidate_study_IDs": [
+      "GSE230494"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE230494_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE230494_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE230494",
+    "git_oid": "359fa3496d7ae570f0867e10b77afa880d824459",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE230494_meta.csv",
+    "local_snapshot_sha256": "3192d91b440aff85d7fa3c8c8ae95902619203b031bc7c903b7a20b5dc7f1cc7",
+    "path_in_resource": "meta/GSE230494_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE230494",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 10782,
+    "candidate_study_IDs": [
+      "GSE246525"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE246525_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE246525_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE246525",
+    "git_oid": "78e3df883d246e0044af2f93767334c32b5a924d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE246525_meta.csv",
+    "local_snapshot_sha256": "fbfda2b11749729a509b142174501eea19b8343744e991a071ce114ac6083486",
+    "path_in_resource": "meta/GSE246525_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE246525",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 15270,
+    "candidate_study_IDs": [
+      "GSE247401"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE247401_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE247401_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE247401",
+    "git_oid": "089babbadd291480fb3802a5f2af9cbd6cb7fb5e",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE247401_meta.csv",
+    "local_snapshot_sha256": "c4c215b3581fa957347b0880e419b5daa95915989322508ecc7a92aecfc1671c",
+    "path_in_resource": "meta/GSE247401_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE247401",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 18699,
+    "candidate_study_IDs": [
+      "GSE250023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE250023_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE250023_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE250023",
+    "git_oid": "5fffc3f40674849f895e67ad1c0f659e9e7cc8e8",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE250023_meta.csv",
+    "local_snapshot_sha256": "f7b9e7d18d13e6212f56dc8ee73cc812287284fe099e96bd15fcfe31cfcb08c2",
+    "path_in_resource": "meta/GSE250023_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE250023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 26404,
+    "candidate_study_IDs": [
+      "GSE265975"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE265975_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE265975_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE265975",
+    "git_oid": "56c209b733677c10007831817215571d21efcd5f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE265975_meta.csv",
+    "local_snapshot_sha256": "26ba6842f7b2078b11181cb88e8f9f3e9386a3272a2dd2ba4a56d9a3c5722d1f",
+    "path_in_resource": "meta/GSE265975_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE265975",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 90533,
+    "candidate_study_IDs": [
+      "GSE276544"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE276544_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE276544_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE276544",
+    "git_oid": "dd4b7634065beb6630c86b6d8c291452071448c3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE276544_meta.csv",
+    "local_snapshot_sha256": "2e5cf8c9d880750380097ddb4da68103fd60ebaf89ede8e05e20b9da4340fdf0",
+    "path_in_resource": "meta/GSE276544_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE276544",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 46352,
+    "candidate_study_IDs": [
+      "GSE281864"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE281864_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE281864_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE281864",
+    "git_oid": "6f2f94c87e0ee5354e64edb7b65a83709a11514f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE281864_meta.csv",
+    "local_snapshot_sha256": "3900da6b99605da119d31da40ef011c849c68db11a8c3f8a3afd4762c8555f7f",
+    "path_in_resource": "meta/GSE281864_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE281864",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 8342,
+    "candidate_study_IDs": [
+      "GSE29614"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29614_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE29614_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29614",
+    "git_oid": "47d977dfba2b01491645e08ce70e852743e7672b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE29614_meta.csv",
+    "local_snapshot_sha256": "7240d8471bd7992273acf21b5a5cfdbc03f817c0be92e4653550af495f381f89",
+    "path_in_resource": "meta/GSE29614_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29614",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 24119,
+    "candidate_study_IDs": [
+      "GSE29615"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29615_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE29615_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29615",
+    "git_oid": "796f11ab51c3559524232e7afa5b74a694311b1f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE29615_meta.csv",
+    "local_snapshot_sha256": "b061ec8f3f7c4aa692583a413534582422da98be310f238f38ffff8eabff4c83",
+    "path_in_resource": "meta/GSE29615_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29615",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 23132,
+    "candidate_study_IDs": [
+      "GSE29617"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE29617_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE29617_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE29617",
+    "git_oid": "5e256fc368fb3172442e5c216854965999d1aacc",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE29617_meta.csv",
+    "local_snapshot_sha256": "2be094f496d64111a3b332dbe04f79b55cd403cc816cb5112fab945b967071a0",
+    "path_in_resource": "meta/GSE29617_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE29617",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 25924,
+    "candidate_study_IDs": [
+      "GSE41080"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE41080_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE41080_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE41080",
+    "git_oid": "ca4469f3fdb00c9d195d0ef0a385040abcf1883c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE41080_meta.csv",
+    "local_snapshot_sha256": "892ac08ca8a2eb7dde3bb4413f82b4bd01b451d9de88d073a5e3efe3a0c3d8e9",
+    "path_in_resource": "meta/GSE41080_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE41080",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 16596,
+    "candidate_study_IDs": [
+      "GSE45735"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE45735_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE45735_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE45735",
+    "git_oid": "890b8c794481c5f4e8f1eb1284c08944f2510ced",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE45735_meta.csv",
+    "local_snapshot_sha256": "fe3574a3de8a74adb131d996adc41c9b811abecd4f99c66b9f53cf070ab742ca",
+    "path_in_resource": "meta/GSE45735_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE45735",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 77368,
+    "candidate_study_IDs": [
+      "GSE47353"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE47353_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE47353_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE47353",
+    "git_oid": "c163abec666a7356210b0b50754747775b7b8b2d",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE47353_meta.csv",
+    "local_snapshot_sha256": "8adbee886bc7cf9fabb284eaf97f750004bac6dbb87c624b5a22312e489954bd",
+    "path_in_resource": "meta/GSE47353_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE47353",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 120295,
+    "candidate_study_IDs": [
+      "GSE48018"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48018_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE48018_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48018",
+    "git_oid": "55068c6bcf7c5d95269924e8ef83e52a897b0159",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE48018_meta.csv",
+    "local_snapshot_sha256": "a6ec46654fd132bba76f250b05fab3970800fb002d8482ccd7b7caed1782c8d1",
+    "path_in_resource": "meta/GSE48018_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48018",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 121506,
+    "candidate_study_IDs": [
+      "GSE48023"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48023_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE48023_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48023",
+    "git_oid": "325264a92ea31e69a9d38d1572978bdbaca079a3",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE48023_meta.csv",
+    "local_snapshot_sha256": "3d57061fad0596378712d63fe03a8ad707ceb85d85474c2abbf928e232db1cab",
+    "path_in_resource": "meta/GSE48023_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48023",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 209267,
+    "candidate_study_IDs": [
+      "GSE48762"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE48762_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE48762_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE48762",
+    "git_oid": "39518f65805ea01ffaea87c3ac7fad1aeac22a4f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE48762_meta.csv",
+    "local_snapshot_sha256": "5b32336659eb680bcdce6bff835f3955081477c1990c9face8172fc4eb5d0f4e",
+    "path_in_resource": "meta/GSE48762_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE48762",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 38165,
+    "candidate_study_IDs": [
+      "GSE52005"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE52005_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE52005_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE52005",
+    "git_oid": "aa01e7d682c2e7604d81854f22d8eb895a185a62",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE52005_meta.csv",
+    "local_snapshot_sha256": "36cb32593c4cf865245d439fc123be21ccf9cb4e609e7251888416af8d6e2947",
+    "path_in_resource": "meta/GSE52005_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE52005",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 20677,
+    "candidate_study_IDs": [
+      "GSE59635"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59635_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE59635_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59635",
+    "git_oid": "d3e3507367530374910f4ae0ec8d2551e81bdfd2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE59635_meta.csv",
+    "local_snapshot_sha256": "fcf6b617995a703f7a07929821a0d364514d63dbb5b387046cada533eca7d71f",
+    "path_in_resource": "meta/GSE59635_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59635",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 43934,
+    "candidate_study_IDs": [
+      "GSE59654"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59654_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE59654_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59654",
+    "git_oid": "60d7ea6ebb7c5addd355ae401b3dffb3b75a81db",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE59654_meta.csv",
+    "local_snapshot_sha256": "fbd5ab4e62b252d4e76670f77da9ddc2fb33a9051e91be6c033a00e0761e28b4",
+    "path_in_resource": "meta/GSE59654_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59654",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 33848,
+    "candidate_study_IDs": [
+      "GSE59743"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE59743_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE59743_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE59743",
+    "git_oid": "ce2d50dc5dad949fdc6e000875b2ca9a7c749704",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE59743_meta.csv",
+    "local_snapshot_sha256": "f427937f080f98795fdd04d877c379d4624073755f4c3362f360790df124f4f6",
+    "path_in_resource": "meta/GSE59743_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE59743",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 26682,
+    "candidate_study_IDs": [
+      "GSE61754"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE61754_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE61754_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE61754",
+    "git_oid": "d281cead2c9614859fbc15d94f46ba1368f85f4b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE61754_meta.csv",
+    "local_snapshot_sha256": "18e7185866d904220d963f7e569a660ed9074493ef3beac6947ff2d2e8779991",
+    "path_in_resource": "meta/GSE61754_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE61754",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 256987,
+    "candidate_study_IDs": [
+      "GSE68310"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE68310_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE68310_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE68310",
+    "git_oid": "575b213b75ede23b05465a0bf1c31fdbd868c71c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE68310_meta.csv",
+    "local_snapshot_sha256": "30e834f64e01e08a898a03f1b345f856941b36e15463aa7de535d789e21c26f4",
+    "path_in_resource": "meta/GSE68310_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE68310",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 130897,
+    "candidate_study_IDs": [
+      "GSE73072_H1N1_DEE3"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H1N1_DEE3_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_H1N1_DEE3_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H1N1_DEE3",
+    "git_oid": "c97c6a2d83420494cc1c3148ce25fc8c36763d17",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE3_meta.csv",
+    "local_snapshot_sha256": "db47529e3ff2f895964322bebf6f8d14cfb009032102399ab54de5f6ac3ec4ea",
+    "path_in_resource": "meta/GSE73072_H1N1_DEE3_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H1N1_DEE3",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 106749,
+    "candidate_study_IDs": [
+      "GSE73072_H1N1_DEE4"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H1N1_DEE4_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_H1N1_DEE4_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H1N1_DEE4",
+    "git_oid": "0d9785012a7f678d2246cb6e0e3a75e6f1e778d5",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_H1N1_DEE4_meta.csv",
+    "local_snapshot_sha256": "56e4dea1a5fa22734e6dce58d2f3ef10b7a61bcc3e951ba29bdeb094f2f94b44",
+    "path_in_resource": "meta/GSE73072_H1N1_DEE4_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H1N1_DEE4",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 98246,
+    "candidate_study_IDs": [
+      "GSE73072_H3N2_DEE2"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H3N2_DEE2_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_H3N2_DEE2_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H3N2_DEE2",
+    "git_oid": "4c75095244d976ecd8cd4adf4a23b3f67e04423f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE2_meta.csv",
+    "local_snapshot_sha256": "2c9150bb9d7c05851b8990ed8883605e3d7b7099e4953f8380c493888675ef9a",
+    "path_in_resource": "meta/GSE73072_H3N2_DEE2_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H3N2_DEE2",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 133623,
+    "candidate_study_IDs": [
+      "GSE73072_H3N2_DEE5"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_H3N2_DEE5_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_H3N2_DEE5_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_H3N2_DEE5",
+    "git_oid": "e83d92de5e02bc7e3c4390c0714ceffb255a739b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_H3N2_DEE5_meta.csv",
+    "local_snapshot_sha256": "479253263706aac45790e8214b8a6cf2a8f8bff58dcdfa7b2dfd7713459d7ff4",
+    "path_in_resource": "meta/GSE73072_H3N2_DEE5_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_H3N2_DEE5",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 126961,
+    "candidate_study_IDs": [
+      "GSE73072_HRV_DUKE"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_HRV_DUKE_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_HRV_DUKE_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_HRV_DUKE",
+    "git_oid": "0a79ee1e2565c2805e06e67cdc373f7b1faf4bb6",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_DUKE_meta.csv",
+    "local_snapshot_sha256": "6dfa873c8b0375604faf9c2ec6c84e9c3047718bd41fce4816769343f317366d",
+    "path_in_resource": "meta/GSE73072_HRV_DUKE_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_HRV_DUKE",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 79476,
+    "candidate_study_IDs": [
+      "GSE73072_HRV_UVA"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_HRV_UVA_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_HRV_UVA_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_HRV_UVA",
+    "git_oid": "05001b528575222dec3a2808a7126bcf16f28627",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_HRV_UVA_meta.csv",
+    "local_snapshot_sha256": "22de955990148bed48874c3255d9f632ea034148ded51edca5676990892c0f34",
+    "path_in_resource": "meta/GSE73072_HRV_UVA_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_HRV_UVA",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 115031,
+    "candidate_study_IDs": [
+      "GSE73072_RSV_DEE1"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE73072_RSV_DEE1_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE73072_RSV_DEE1_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE73072_RSV_DEE1",
+    "git_oid": "c2415a588a49ce8dd7095282510c6b973e299989",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE73072_RSV_DEE1_meta.csv",
+    "local_snapshot_sha256": "41eb2dc4228d066dbbf651a4642bb01fc7332bdb0827d30009a49a825a81bc4e",
+    "path_in_resource": "meta/GSE73072_RSV_DEE1_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE73072_RSV_DEE1",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 25904,
+    "candidate_study_IDs": [
+      "GSE74811"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74811_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE74811_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74811",
+    "git_oid": "a04ba4dbb01f91b46e8cad14febb3607110c4ffb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE74811_meta.csv",
+    "local_snapshot_sha256": "1ef82657bc3b89ed80ea82077f5462797ec70a19272df6cd3fc65007a0aac5f0",
+    "path_in_resource": "meta/GSE74811_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74811",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 92009,
+    "candidate_study_IDs": [
+      "GSE74813"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74813_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE74813_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74813",
+    "git_oid": "56b7b2f31d82476bbd82dd14487687ebaf16eee5",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE74813_meta.csv",
+    "local_snapshot_sha256": "195e3830cd6cb88c8b89b066e7b4ab227f5cefa4b5992db30abd6f96a896d30d",
+    "path_in_resource": "meta/GSE74813_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74813",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 24636,
+    "candidate_study_IDs": [
+      "GSE74815"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74815_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE74815_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74815",
+    "git_oid": "055d19d6917791567e778e38cb5487a3def1661a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE74815_meta.csv",
+    "local_snapshot_sha256": "e6d18b941fe773ecc2ca8f3cd24e0c87058b8b70332ef73737a524a37bca468a",
+    "path_in_resource": "meta/GSE74815_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74815",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 56914,
+    "candidate_study_IDs": [
+      "GSE74816"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE74816_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE74816_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE74816",
+    "git_oid": "698d60e94c3d9a8a745f05017661bf725078b4fb",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE74816_meta.csv",
+    "local_snapshot_sha256": "d2c5af6b7382847a04db113394c2f626be0a75a85e9851cdca8e3dad631a4d68",
+    "path_in_resource": "meta/GSE74816_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE74816",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 29172,
+    "candidate_study_IDs": [
+      "GSE90732"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/GSE90732_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/GSE90732_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE90732",
+    "git_oid": "d1ddc529647c47bd240f8d7e832344875d78ad35",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/GSE90732_meta.csv",
+    "local_snapshot_sha256": "932abc70fd238655a926ee1b1041d9e6cfcb47129b5922f4bace4612f3e5f5f1",
+    "path_in_resource": "meta/GSE90732_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE90732",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 26787,
+    "candidate_study_IDs": [
+      "SDY112"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY112_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/SDY112_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY112",
+    "git_oid": "cb518cadbfbbf4adff49efd44a2c399d5a7ee935",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/SDY112_meta.csv",
+    "local_snapshot_sha256": "c6c7ad6fd50d8cc87a26e30e81484be71f6fbcf4563b220b3257a1dbf90a33f2",
+    "path_in_resource": "meta/SDY112_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY112",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 22593,
+    "candidate_study_IDs": [
+      "SDY311"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY311_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/SDY311_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY311",
+    "git_oid": "b14822a52370bf7f04baffc356d108ad41808d1f",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/SDY311_meta.csv",
+    "local_snapshot_sha256": "698e27df15143eeb45186f9b26ac9b8d373fb90b3451c779cbdfd6ec52c3bfc6",
+    "path_in_resource": "meta/SDY311_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY311",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 21441,
+    "candidate_study_IDs": [
+      "SDY315"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/meta/SDY315_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "harmonized_sample_metadata",
+    "file_id": "HF:meta/SDY315_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "SDY315",
+    "git_oid": "875772fcb21e97f7b0a767a811d00b9373e50626",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/meta/SDY315_meta.csv",
+    "local_snapshot_sha256": "ced6b18e96d892b82a4752946b2732a9b2703faa98412f41a484fbf4373af73f",
+    "path_in_resource": "meta/SDY315_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "SDY315",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 438728,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/relation.png",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:relation.png",
+    "file_listing_verified": true,
+    "filename_study_label": "relation.png",
+    "git_oid": "c1fbf444d054319a455f72efe19fdbe05a7cfd84",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "ff96fa86a009654f7fd39903350be01d94e353cd23145f955a2f778354d60e61",
+      "pointerSize": 131,
+      "size": 438728
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "relation.png",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 20158063316,
+    "candidate_study_IDs": [
+      "EMTAB10026"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/EMTAB10026_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/EMTAB10026_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "EMTAB10026",
+    "git_oid": "1390469faba1078558851dcf54500c5ce4f6c045",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "eada3407f3bae8e7430a2f88f7f6c445b05877cc9172e5c37ed09b9eb8973596",
+      "pointerSize": 136,
+      "size": 20158063316
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/EMTAB10026_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "EMTAB10026",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 38770448690,
+    "candidate_study_IDs": [
+      "GSE195673"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/GSE195673_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/GSE195673_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE195673",
+    "git_oid": "e9c9670ccde6d0d93fe1d96eb64ccab5960c106c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "f82a44cebe94805dc5531c1a0a3b42b79a5ac39d423dd0bca50849cafaa7d2e1",
+      "pointerSize": 136,
+      "size": 38770448690
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/GSE195673_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE195673",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 484187768,
+    "candidate_study_IDs": [
+      "GSE201534"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/GSE201534_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/GSE201534_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE201534",
+    "git_oid": "bf526482cf3c0cd050d0186b3db793bc6623088c",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "919b39c4709a01daef31a5af1bcffebb84a677fde56caa0cc8ebdd5c6a7f79a2",
+      "pointerSize": 134,
+      "size": 484187768
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/GSE201534_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE201534",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 647779127,
+    "candidate_study_IDs": [
+      "GSE246937"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/GSE246937_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/GSE246937_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE246937",
+    "git_oid": "ef60a6caafa4dea1725061113f1524353a8ff524",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "98df6769624981f665d7ab9d9fe96a57ebbd06436c7235f78fa656175f20c60f",
+      "pointerSize": 134,
+      "size": 647779127
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/GSE246937_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE246937",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 5135236957,
+    "candidate_study_IDs": [
+      "GSE247917"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/GSE247917_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/GSE247917_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "GSE247917",
+    "git_oid": "eefd36112df970d79a0bc9c5f0fbc3c9e6e6ef1e",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "df8f3fd4e2396f01257d4edd66e6b4271f591fabb76cd645f46a87d759dc1752",
+      "pointerSize": 135,
+      "size": 5135236957
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/GSE247917_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "GSE247917",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 8155833298,
+    "candidate_study_IDs": [
+      "challenge_covid19"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/challenge_covid19_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/challenge_covid19_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "challenge_covid19",
+    "git_oid": "50521797e34b87d0b54960d1c5cfece5f5b87a6a",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "ca2581dc55c84dfbb9b16b3bcc7e33de23f3c43efc296f85d4f69b072b8b0dc6",
+      "pointerSize": 135,
+      "size": 8155833298
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/challenge_covid19_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "challenge_covid19",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 18556163949,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/combined.h5ad.gz",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/combined.h5ad.gz",
+    "file_listing_verified": true,
+    "filename_study_label": "combined",
+    "git_oid": "2819b249f023cecbd01933b14ed27bbd9c3203b2",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "312ed2dc0bd22313e18b92b7cc5ba84329dc146b69b7f2b9d44657fb1ffc25c9",
+      "pointerSize": 136,
+      "size": 18556163949
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/combined.h5ad.gz",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 15935835988,
+    "candidate_study_IDs": [
+      "eskd_covid19"
+    ],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/single_cell_gene_expr/eskd_covid19_processed.h5ad",
+    "content_inspection": "listing_and_author_documentation_only",
+    "data_level": "integrated_single_cell_object; layer_rawness_unverified",
+    "file_id": "HF:single_cell_gene_expr/eskd_covid19_processed.h5ad",
+    "file_listing_verified": true,
+    "filename_study_label": "eskd_covid19",
+    "git_oid": "50ab7ffbae9b9a3b857ac70d09a4929bfc89db3b",
+    "instrument_raw_claim": false,
+    "lfs_metadata": {
+      "oid": "9e9f962b25419c60a3e744d6b90b89e0f46978e3a68e538d326b34ae698be2f9",
+      "pointerSize": 136,
+      "size": 15935835988
+    },
+    "local_snapshot": null,
+    "local_snapshot_sha256": null,
+    "path_in_resource": "single_cell_gene_expr/eskd_covid19_processed.h5ad",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": "eskd_covid19",
+    "study_linkage_status": "exact_study_label"
+  },
+  {
+    "bytes_listed": 37419,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_citations.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:study_citations.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "study_citations.csv",
+    "git_oid": "8393de1a72d1d651d0fc63997045dda6b0058eed",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/study_citations.csv",
+    "local_snapshot_sha256": "778a24884e106d3b3b52256a0360ef469d5df63cb3d65d1fbbb8ce711471c51f",
+    "path_in_resource": "study_citations.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  },
+  {
+    "bytes_listed": 20190,
+    "candidate_study_IDs": [],
+    "canonical_download_url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_meta.csv",
+    "content_inspection": "local_metadata_or_antibody_table",
+    "data_level": "resource_documentation_or_metadata",
+    "file_id": "HF:study_meta.csv",
+    "file_listing_verified": true,
+    "filename_study_label": "study",
+    "git_oid": "832317021646dfa4baff2068904aae8c4c7fc628",
+    "instrument_raw_claim": false,
+    "lfs_metadata": null,
+    "local_snapshot": "data_dictionary/sources/hr_vilage/study_meta.csv",
+    "local_snapshot_sha256": "48977830c893ed1babf334c16a24b52e9f701cc239b1b3b3be747fdf1371e1f1",
+    "path_in_resource": "study_meta.csv",
+    "resource_revision": "c68349578b97af04d1102eac5ad9f30f85362c53",
+    "study_ID": null,
+    "study_linkage_status": "no_single_study_link_established"
+  }
+]

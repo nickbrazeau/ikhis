@@ -1,0 +1,874 @@
+[
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_bf185450a94a1e35d2",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE17156",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Exact cross-accession subject overlap requires primary sample mapping.",
+    "gap_id": "GAP_74fe24ab71881f6bf5",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE17156",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_52749540fcc461db86",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE30550",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Exact cross-accession subject overlap requires primary sample mapping.",
+    "gap_id": "GAP_8bc6402487fbb33bc4",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE30550",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_690e8f9485b174c292",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE52428",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Exact cross-accession subject overlap requires primary sample mapping.",
+    "gap_id": "GAP_558954df7bc851347d",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE52428",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_adb92ee594a9572f89",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE61754",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_98f809741ebe8bac1d",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE73072",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Exact cross-accession subject overlap requires primary sample mapping.",
+    "gap_id": "GAP_9ae4ce1854cc9910b2",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE73072",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_d6ea40dfe68cdd6c6f",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE90732",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_43b9f4e632b978a12a",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE118223",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_0795b3f2eefff0be59",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE175551",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "GEO series links a BioProject but no SRA relation; raw sequence-read access must not be inferred from the presence of gene counts.",
+    "gap_id": "GAP_bc64796bb1bc79cb9c",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE175551",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Representative sample is labelled SRA but provides only a BioSample relation; actual raw experiment/run accession remains unresolved.",
+    "gap_id": "GAP_07d3262d2f15f0800b",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE175551",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_44872c3449361331db",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE299820",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Linked primary paper additionally reports single-cell RNA, ATAC and methylation; these repositories require follow-up and are not assumed to reside in this bulk accession.",
+    "gap_id": "GAP_9f1d6b8bc32c94eefb",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE299820",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_25cb4928c4554b36c6",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE111368",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_1a465187372921de17",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE68310",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_aff85a9f6fe138d383",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE194378",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Subject/sample crosswalk and archive member inventory not exhaustively expanded; no raw binary or patient matrix downloads in this catalogue pass.",
+    "gap_id": "GAP_b2dbe0803d24fd76ca",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE117580",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Public catalogue listing verified; processed matrix payload not downloaded. Exact participant overlap must use SDRF identifiers.",
+    "gap_id": "GAP_3f8553865683d52779",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:E-MTAB-13038",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Public catalogue listing verified; processed matrix payload not downloaded. Exact participant overlap must use SDRF identifiers.",
+    "gap_id": "GAP_a3e86fb2347b9cbd4c",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:E-MTAB-13041",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "DAC approval not requested; participant-level records not downloaded.",
+    "gap_id": "GAP_f8fe2975ed3d09b68e",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:EGAD50000000956",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Validate current repository transport and enumerate deposited FCS/raw versus normalized files. Clinical/antibody/viral-load participant-level supplement inventory not yet expanded.",
+    "gap_id": "GAP_c8f17cb2d9fb111720",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:FR-FCM-Z2NZ",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Full deposited FCS and participant-level clinical raw files require a data request.",
+    "gap_id": "GAP_9c2760958072faf28c",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:MCILWAIN2021_CHALLENGE",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Raw mass-spectrometer files and stable repository accession unresolved.",
+    "gap_id": "GAP_28ef3a44176aac73e7",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:BURKE2017_NPL",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Repository and supplementary table field inventories pending.",
+    "gap_id": "GAP_6006ef3da8d5991023",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:FLU_DAY_PREDICTION2026",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Full raw cytometry and clinical participant datasets not currently public; future request window explicitly limited to IPD meta-analysis.",
+    "gap_id": "GAP_9ce0e49652300cf33d",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:IMPERIAL_H3N2_MULTIMODAL2026",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Array archive members and sample-to-clinical participant crosswalk not expanded.",
+    "gap_id": "GAP_87dad843ebe5de1453",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE253685",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Array archive members and sample-to-clinical participant crosswalk not expanded.",
+    "gap_id": "GAP_983b046fd6b450de11",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:GSE253686",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Determine whether original FASTQ or only processed clonotype tables can be obtained, plus registration/license requirements.",
+    "gap_id": "GAP_50067a89288bb8191a",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:KAW2025STM",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Enumerate supplement columns and participant crosswalk; original instrument raw files are not confirmed.",
+    "gap_id": "GAP_4ba06d737dbe3efa54",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:WALTERS2025_IMMUNE",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Distinguish inoculum, human post-challenge samples, natural infection, passage controls, amplicon/resequencing replicates; repository run counts are not participant counts.",
+    "gap_id": "GAP_206eab9fc3d4d11464",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:SRP091397",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Distinguish inoculum, human post-challenge samples, natural infection, passage controls, amplicon/resequencing replicates; repository run counts are not participant counts.",
+    "gap_id": "GAP_ac233c7efdfcf8e17b",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:PRJNA528931",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Crosswalk to other Imperial datasets and per-assay participant/raw cytokine/cytometry files pending.",
+    "gap_id": "GAP_321d0dce68a8b91083",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:E-MTAB-15137",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Individual controlled-file manifest not retrieved; no access application sent.",
+    "gap_id": "GAP_d9dff6fb63bc4bb235",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:EGAD50000002407",
+    "status": "open"
+  },
+  {
+    "category": "source_file_or_cohort_mapping",
+    "description": "Retrieve complete calibrated concentration tables, detection limits, and instrument raw files if publicly deposited or available upon request.",
+    "gap_id": "GAP_3ceb00cf1b21b70f99",
+    "next_action": "Inspect the named original repository, sample manifest or supplementary table.",
+    "record_id": "FLU:MCCLAIN2016_CYTOKINES",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: A single-cell cytokine dictionary of human peripheral blood",
+    "gap_id": "GAP_495d9d720691759b13",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Interleukin 10(IL-10) inhibits cytokine synthesis by human monocytes: an autoregulatory role of IL-10 produced by monocytes",
+    "gap_id": "GAP_00a028ef9d8b916b39",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S04",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Activated signal transducer and activator of transcription-3 (STAT3) is a poor regulator of tumour necrosis factor-α production by human monocytes",
+    "gap_id": "GAP_e3b79d15bb17143ff6",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S05",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Transpresentation of interleukin-15 by IL-15/IL-15Rα mRNA-engineered human dendritic cells boosts antitumoral natural killer cell activity",
+    "gap_id": "GAP_2252981e3a4f87355f",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S06",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Distinct roles of IL-12 and IL-15 in human natural killer cell activation by dendritic cells from secondary lymphoid organs",
+    "gap_id": "GAP_33e9e0126c6f2b3c6b",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S07",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Residual Type 1 Immunity in Patients Genetically Deficient for Interleukin 12 Receptor β1 (IL-12Rβ1): Evidence for an IL-12Rβ1–Independent Pathway of IL-12 Responsiveness in Human T Cells",
+    "gap_id": "GAP_dc6dacafa545ab94c6",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S08",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: A single-cell cytokine dictionary of human peripheral blood",
+    "gap_id": "GAP_cd2575bfe61c1d0148",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:C-S09",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Discovery of stimulation-responsive immune enhancers with CRISPR activation",
+    "gap_id": "GAP_0b95ccb305064a947f",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:G02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Human epistatic interaction controls IL7R splicing and increases Multiple Sclerosis risk",
+    "gap_id": "GAP_97b8b69a9de99f8468",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:G03",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease",
+    "gap_id": "GAP_4603a124bc0381f5f3",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:G06",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+    "gap_id": "GAP_d077026d36fadd1b88",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:G08",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Context-specific regulation of surface and soluble IL7R expression by an autoimmune risk allele",
+    "gap_id": "GAP_bc9d2b6924d3bf3ae0",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:G10",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Social network architecture of human immune cells unveiled by quantitative proteomics",
+    "gap_id": "GAP_de648cf029138ebb07",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S01",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Single-cell mass cytometry of differential immune and drug responses across a human hematopoietic continuum",
+    "gap_id": "GAP_212fe012149486d382",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Plasma proteomic associations with genetics and health in the UK Biobank",
+    "gap_id": "GAP_07bc1132b588076dda",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S05",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Large-scale plasma proteomics comparisons through genetics and disease associations",
+    "gap_id": "GAP_d258051de9182759cd",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S06",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Comparative studies of 2168 plasma proteins measured by two affinity-based platforms in 4000 Chinese adults",
+    "gap_id": "GAP_172e8e0039c64226e7",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S07",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Activated platelets mediate inflammatory signaling by regulated interleukin 1β synthesis",
+    "gap_id": "GAP_b8f3b4d4d33a965a4d",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:P_S08",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Cross-Talk between ICAM-1 and Granulocyte-Macrophage Colony-Stimulating Factor Receptor Signaling Modulates Eosinophil Survival and Activation",
+    "gap_id": "GAP_882598d7c6c0c5843c",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S01",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: An Interleukin 5 Mutant Distinguishes between Two Functional Responses in Human Eosinophils",
+    "gap_id": "GAP_346d8527af7fb73478",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: CD25 and protein phosphatase 2A cooperate to enhance IL-2R signaling in human regulatory T cells",
+    "gap_id": "GAP_5ffe32c0da112c8ebc",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S03",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Time-Dependent Regulation of IL-2R α-Chain (CD25) Expression by TCR Signal Strength and IL-2-Induced STAT5 Signaling in Activated Human Blood T Lymphocytes",
+    "gap_id": "GAP_c1b65c7015e13101e1",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S04",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: IL-1R1 signaling facilitates Munro’s microabscess formation in psoriasiform imiquimod-induced skin inflammation",
+    "gap_id": "GAP_268293b44ad05f0dc6",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S06",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Dermal fibroblasts are the key sensors of aseptic skin inflammation through interleukin 1 release by lesioned keratinocytes",
+    "gap_id": "GAP_be09408e72eaaffc60",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S07",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Human mid-gestation amniotic fluid contains interleukin-16 bioactivity",
+    "gap_id": "GAP_c647c7bad7c7c2334f",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCI-S08",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Chemokine receptor usage by human eosinophils. The importance of CCR3 demonstrated using an antagonistic monoclonal antibody.",
+    "gap_id": "GAP_6b8fd1da6e5928a281",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S001",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: CCL26/eotaxin-3 is more effective to induce the migration of eosinophils of asthmatics than CCL11/eotaxin-1 and CCL24/eotaxin-2",
+    "gap_id": "GAP_9522eec23761f1992d",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S002",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Human macrophage-derived chemokine (MDC), a novel chemoattractant for monocytes, monocyte-derived dendritic cells, and natural killer cells",
+    "gap_id": "GAP_436da91cf211a77902",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S003",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Macrophage-Derived Chemokine (MDC/CCL22) and CCR4 Are Involved in the Formation of T Lymphocyte-Dendritic Cell Clusters in Human Inflamed Skin and Secondary Lymphoid Tissue",
+    "gap_id": "GAP_b546bbcb930135c57d",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S004",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Preferential migration of activated CD4+ and CD8+ T cells in response to MIP-1 alpha and MIP-1 beta.",
+    "gap_id": "GAP_acdebbb9f11b486eb3",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S005",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Chemotaxis of T lymphocytes on extracellular matrix proteins: Analysis of the in vitro method to quantitate chemotaxis of human T cells",
+    "gap_id": "GAP_54dcf439791d71741f",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S006",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Distinct conformations of the chemokine receptor CCR4 with implications for its targeting in allergy",
+    "gap_id": "GAP_f9eead4c8c9f7ce378",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S007",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Chemokine receptor specific for IP10 and mig: structure, function, and expression in activated T-lymphocytes.",
+    "gap_id": "GAP_fcb19d3ed57b0e5f20",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S008",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: CXCR3 and Its Ligand CXCL10 Are Expressed by Inflammatory Cells Infiltrating Lung Allografts and Mediate Chemotaxis of T Cells at Sites of Rejection",
+    "gap_id": "GAP_788041fa3c859907e9",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S009",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: A Novel Highly Potent Therapeutic Antibody Neutralizes Multiple Human Chemokines and Mimics Viral Immune Modulation",
+    "gap_id": "GAP_1373dac1d4440c1028",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XCH_S010",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Tuning sensitivity to IL-4 and IL-13: differential expression of IL-4Rα, IL-13Rα1, and γc regulates relative cytokine sensitivity",
+    "gap_id": "GAP_f0cdc60b826fc4c0dc",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S01",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Shear Stress Modulation of IL-1β-Induced E-Selectin Expression in Human Endothelial Cells",
+    "gap_id": "GAP_385e6f8cb075bdcda2",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: In Vivo Depletion of Lymphotoxin-Alpha Expressing Lymphocytes Inhibits Xenogeneic Graft-versus-Host-Disease",
+    "gap_id": "GAP_849ec76c60cbb6695c",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S03",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Migration of Human Monocytes in Response to Vascular Endothelial Growth Factor (VEGF) Is Mediated via the VEGF Receptor flt-1",
+    "gap_id": "GAP_6c09d581a2a7b425db",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S04",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Human Dendritic Cells Mitigate NK-Cell Dysfunction Mediated by Nonselective JAK1/2 Blockade",
+    "gap_id": "GAP_8a09bb9783da51fc3d",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S05",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Retrograde inflammatory signaling from neutrophils to endothelial cells by soluble interleukin-6 receptor alpha.",
+    "gap_id": "GAP_d66f09af038cf4afcf",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "preserved_baseline_0.2.0:XRE-S06",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Human Epistatic Interaction Controls IL7R Splicing and Increases Multiple Sclerosis Risk",
+    "gap_id": "GAP_a9b8c306ee51b87a1b",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MG01",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+    "gap_id": "GAP_9fede235e9e78b0b93",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MG02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Context-specific regulation of surface and soluble IL7R expression by an autoimmune risk allele",
+    "gap_id": "GAP_a4c5ef3a00f1c87cac",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MG03",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Differentiating the roles of STAT5B and STAT5A in human CD4+ T cells",
+    "gap_id": "GAP_13df7c9d6f46c7f9b9",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MA-S02",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Functional CRISPR dissection of gene networks controlling human regulatory T cell identity",
+    "gap_id": "GAP_2795a877443dc55cda",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MA-S03",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Fast and Efficient Genome Editing of Human FOXP3+ Regulatory T Cells",
+    "gap_id": "GAP_5f05fad8975646173e",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MA-S04",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: IL-2 regulates FOXP3 expression in human CD4+CD25+ regulatory T cells through a STAT-dependent mechanism and induces the expansion of these cells in vivo",
+    "gap_id": "GAP_dcb48eebab6df22627",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MA-S05",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Negative Feedback Regulation of T Cells via Interleukin-2 and FOXP3 Reciprocity",
+    "gap_id": "GAP_bb0e211760317f211a",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MA-S07",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Loss of Functional Beta2-Microglobulin in Metastatic Melanomas From Five Patients Receiving Immunotherapy",
+    "gap_id": "GAP_dddeff9da9cf5bb6ef",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S001",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: HLA class I deficiencies due to mutations in subunit 1 of the peptide transporter TAP1",
+    "gap_id": "GAP_063c233c76fe7bbe84",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S002",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Asymptomatic deficiency in the peptide transporter associated to antigen processing (TAP)",
+    "gap_id": "GAP_f141c37fc3b6507985",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S003",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Maturation of Dendritic Cells Is Accompanied by Rapid Transcriptional Silencing of Class II Transactivator (Ciita) Expression",
+    "gap_id": "GAP_09f9309c99c07b87cb",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S004",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies",
+    "gap_id": "GAP_ad86f10bc5d4a9109f",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S006",
+    "status": "open"
+  },
+  {
+    "category": "atlas_original_data_route",
+    "description": "No explicit cohort-data accession recorded for this primary study/preprint: B Cells Can Trigger the T-Cell-Mediated Autoimmune Response Against Melanocytes in Psoriasis",
+    "gap_id": "GAP_73fc3b53478b18a9b2",
+    "next_action": "Inspect source data-availability statement and supplements; validate related accession mentions before linking.",
+    "record_id": "unreviewed_candidate_0.3.0:MP_S007",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Corresponding subject metadata is not inspected or has no usable subject IDs; join cannot yet be assessed.",
+    "gap_id": "GAP_d80be17364329110f0",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE190001",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_6fe2ce5cd8941c5cdf",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE199750",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_7bb44fa085201970a8",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE201642",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_e9afc177a44d7fc2f2",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE207750",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_d7e80262f4cc9fb86c",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE230494",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Corresponding subject metadata is not inspected or has no usable subject IDs; join cannot yet be assessed.",
+    "gap_id": "GAP_c2f8b25f80b4e92acb",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE246937",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_4bf87bba6de2074383",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE41080",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_d6a089ab34bab6b40f",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE48762",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_5339561ed709311021",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:GSE59654",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Some antibody subject IDs do not match the inspected metadata table.",
+    "gap_id": "GAP_f5ae1cef6b3491a643",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:SDY112",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Corresponding subject metadata is not inspected or has no usable subject IDs; join cannot yet be assessed.",
+    "gap_id": "GAP_8d7ad13b6d81b03f0d",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:SDY312",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Corresponding subject metadata is not inspected or has no usable subject IDs; join cannot yet be assessed.",
+    "gap_id": "GAP_ae23ffc9b089b95308",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:SDY314",
+    "status": "open"
+  },
+  {
+    "category": "subject_join",
+    "description": "Corresponding subject metadata is not inspected or has no usable subject IDs; join cannot yet be assessed.",
+    "gap_id": "GAP_a2bc5ec9f30b62cd1c",
+    "next_action": "Recover original subject mapping before joining measurements.",
+    "record_id": "HR:challenge_covid19",
+    "status": "open"
+  },
+  {
+    "category": "archive_schema",
+    "description": "Remote raw archives and many supplementary workbooks are listed but their members/fields are not yet inspected.",
+    "gap_id": "archive_schema",
+    "next_action": "Expand members, inspect headers and register assay units and detection limits.",
+    "record_id": "catalog",
+    "status": "open"
+  },
+  {
+    "category": "cohort_deduplication",
+    "description": "No complete participant-level crosswalk across reused challenge cohorts.",
+    "gap_id": "cohort_deduplication",
+    "next_action": "Map trial, arm, participant, episode, specimen and visit identifiers before pooling.",
+    "record_id": "catalog",
+    "status": "open"
+  },
+  {
+    "category": "search_completeness",
+    "description": "Repository discovery and title screening do not establish an exhaustive census of all influenza challenge data.",
+    "gap_id": "search_completeness",
+    "next_action": "Continue full-record screening, trial/publication citation chaining and non-GEO repository discovery.",
+    "record_id": "catalog",
+    "status": "open"
+  },
+  {
+    "category": "matrix_layers",
+    "description": "Current HR expression scales and H5AD layers are not independently inspected.",
+    "gap_id": "matrix_layers",
+    "next_action": "Inspect each matrix/layer and its exact processing provenance before assigning numeric units.",
+    "record_id": "catalog",
+    "status": "open"
+  }
+]

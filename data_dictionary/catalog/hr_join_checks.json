@@ -1,0 +1,335 @@
+[
+  {
+    "antibody_distinct_subjects": 26,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 26,
+    "shared_subject_ids": 26,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE101709"
+  },
+  {
+    "antibody_distinct_subjects": 20,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 20,
+    "shared_subject_ids": 20,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE101710"
+  },
+  {
+    "antibody_distinct_subjects": 32,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 32,
+    "shared_subject_ids": 32,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE169159"
+  },
+  {
+    "antibody_distinct_subjects": 23,
+    "antibody_ids_absent_from_metadata": null,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": null,
+    "shared_subject_ids": null,
+    "status": "metadata_table_not_inspected",
+    "study_ID": "GSE190001"
+  },
+  {
+    "antibody_distinct_subjects": 30,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 30,
+    "shared_subject_ids": 30,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE190747"
+  },
+  {
+    "antibody_distinct_subjects": 73,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 75,
+    "shared_subject_ids": 73,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE194378"
+  },
+  {
+    "antibody_distinct_subjects": 99,
+    "antibody_ids_absent_from_metadata": 17,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 86,
+    "shared_subject_ids": 82,
+    "status": "requires_join_review",
+    "study_ID": "GSE199750"
+  },
+  {
+    "antibody_distinct_subjects": 43,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 43,
+    "shared_subject_ids": 43,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE201533"
+  },
+  {
+    "antibody_distinct_subjects": 15,
+    "antibody_ids_absent_from_metadata": 15,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 15,
+    "shared_subject_ids": 0,
+    "status": "requires_join_review",
+    "study_ID": "GSE201642"
+  },
+  {
+    "antibody_distinct_subjects": 275,
+    "antibody_ids_absent_from_metadata": 4,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 271,
+    "shared_subject_ids": 271,
+    "status": "requires_join_review",
+    "study_ID": "GSE207750"
+  },
+  {
+    "antibody_distinct_subjects": 40,
+    "antibody_ids_absent_from_metadata": 5,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 39,
+    "shared_subject_ids": 35,
+    "status": "requires_join_review",
+    "study_ID": "GSE230494"
+  },
+  {
+    "antibody_distinct_subjects": 10,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 10,
+    "shared_subject_ids": 10,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE246525"
+  },
+  {
+    "antibody_distinct_subjects": 10,
+    "antibody_ids_absent_from_metadata": null,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": null,
+    "shared_subject_ids": null,
+    "status": "metadata_table_not_inspected",
+    "study_ID": "GSE246937"
+  },
+  {
+    "antibody_distinct_subjects": 17,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 18,
+    "shared_subject_ids": 17,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE250023"
+  },
+  {
+    "antibody_distinct_subjects": 9,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 9,
+    "shared_subject_ids": 9,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE29614"
+  },
+  {
+    "antibody_distinct_subjects": 28,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 28,
+    "shared_subject_ids": 28,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE29615"
+  },
+  {
+    "antibody_distinct_subjects": 28,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 28,
+    "shared_subject_ids": 28,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE29617"
+  },
+  {
+    "antibody_distinct_subjects": 89,
+    "antibody_ids_absent_from_metadata": 7,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 91,
+    "shared_subject_ids": 82,
+    "status": "requires_join_review",
+    "study_ID": "GSE41080"
+  },
+  {
+    "antibody_distinct_subjects": 5,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 5,
+    "shared_subject_ids": 5,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE45735"
+  },
+  {
+    "antibody_distinct_subjects": 63,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 63,
+    "shared_subject_ids": 63,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE47353"
+  },
+  {
+    "antibody_distinct_subjects": 116,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 116,
+    "shared_subject_ids": 116,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE48018"
+  },
+  {
+    "antibody_distinct_subjects": 110,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 110,
+    "shared_subject_ids": 110,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE48023"
+  },
+  {
+    "antibody_distinct_subjects": 13,
+    "antibody_ids_absent_from_metadata": 13,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 46,
+    "shared_subject_ids": 0,
+    "status": "requires_join_review",
+    "study_ID": "GSE48762"
+  },
+  {
+    "antibody_distinct_subjects": 19,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 19,
+    "shared_subject_ids": 19,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE59635"
+  },
+  {
+    "antibody_distinct_subjects": 69,
+    "antibody_ids_absent_from_metadata": 30,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 39,
+    "shared_subject_ids": 39,
+    "status": "requires_join_review",
+    "study_ID": "GSE59654"
+  },
+  {
+    "antibody_distinct_subjects": 30,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 30,
+    "shared_subject_ids": 30,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE59743"
+  },
+  {
+    "antibody_distinct_subjects": 133,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 133,
+    "shared_subject_ids": 133,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE68310"
+  },
+  {
+    "antibody_distinct_subjects": 28,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 28,
+    "shared_subject_ids": 28,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE74811"
+  },
+  {
+    "antibody_distinct_subjects": 63,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 63,
+    "shared_subject_ids": 63,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE74813"
+  },
+  {
+    "antibody_distinct_subjects": 26,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 26,
+    "shared_subject_ids": 26,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE74815"
+  },
+  {
+    "antibody_distinct_subjects": 72,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 72,
+    "shared_subject_ids": 72,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "GSE74816"
+  },
+  {
+    "antibody_distinct_subjects": 91,
+    "antibody_ids_absent_from_metadata": 2,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 89,
+    "shared_subject_ids": 89,
+    "status": "requires_join_review",
+    "study_ID": "SDY112"
+  },
+  {
+    "antibody_distinct_subjects": 63,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 63,
+    "shared_subject_ids": 63,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "SDY311"
+  },
+  {
+    "antibody_distinct_subjects": 73,
+    "antibody_ids_absent_from_metadata": null,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": null,
+    "shared_subject_ids": null,
+    "status": "metadata_table_not_inspected",
+    "study_ID": "SDY312"
+  },
+  {
+    "antibody_distinct_subjects": 90,
+    "antibody_ids_absent_from_metadata": null,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": null,
+    "shared_subject_ids": null,
+    "status": "metadata_table_not_inspected",
+    "study_ID": "SDY314"
+  },
+  {
+    "antibody_distinct_subjects": 69,
+    "antibody_ids_absent_from_metadata": 0,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": 71,
+    "shared_subject_ids": 69,
+    "status": "all_antibody_subjects_match_metadata",
+    "study_ID": "SDY315"
+  },
+  {
+    "antibody_distinct_subjects": 16,
+    "antibody_ids_absent_from_metadata": null,
+    "caution": "Subject-level agreement does not verify visit/antigen alignment or cross-study independence.",
+    "metadata_distinct_subjects": null,
+    "shared_subject_ids": null,
+    "status": "metadata_table_not_inspected",
+    "study_ID": "challenge_covid19"
+  }
+]

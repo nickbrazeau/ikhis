@@ -1,0 +1,13 @@
+[
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/PMC13375583.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375583/",
+    "status": 200,
+    "bytes": 304626
+  },
+  {
+    "path": "CELREP116312.html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2211124725010836",
+    "error": "403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S2211124725010836"
+  }
+]

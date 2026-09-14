@@ -1,0 +1,26 @@
+[
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE253685.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253685&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 12418
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/GSE253686.soft.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253686&targ=self&view=brief&form=text",
+    "status": 200,
+    "bytes": 11099
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/EGAS50000001677.html",
+    "url": "https://ega-archive.org/studies/EGAS50000001677",
+    "status": 200,
+    "bytes": 18894
+  },
+  {
+    "path": "data_dictionary/sources/influenza/snapshots/KAW2025STM.html",
+    "url": "https://clients.adaptivebiotech.com/pub/walters-2025-stm",
+    "status": 200,
+    "bytes": 110263
+  }
+]

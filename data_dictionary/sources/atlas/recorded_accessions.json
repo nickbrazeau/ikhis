@@ -1,0 +1,178 @@
+[
+  {
+    "cohort_id": "C-CO01",
+    "study_id": "C-S01",
+    "accession": "GSE202186",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE202186",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO01",
+    "study_id": "G01",
+    "accession": "EGAS00000000109 (genotypes); expression ArrayExpress accession unavailable in inspected main text",
+    "scope": "atlas_baseline",
+    "parsed_accession": "EGAS00000000109",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO09",
+    "study_id": "G04",
+    "accession": "phs001703.v1.p1",
+    "scope": "atlas_baseline",
+    "parsed_accession": "phs001703.v1.p1",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO11",
+    "study_id": "G05",
+    "accession": "EGAS00001001456",
+    "scope": "atlas_baseline",
+    "parsed_accession": "EGAS00001001456",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO13",
+    "study_id": "G07",
+    "accession": "[\"EGAD00001008197\",\"EGAD00010002291\"]",
+    "scope": "atlas_baseline",
+    "parsed_accession": "EGAD00001008197",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO13",
+    "study_id": "G07",
+    "accession": "[\"EGAD00001008197\",\"EGAD00010002291\"]",
+    "scope": "atlas_baseline",
+    "parsed_accession": "EGAD00010002291",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "GCO15",
+    "study_id": "G09",
+    "accession": "GSE57542",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE57542",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "P_C03",
+    "study_id": "P_S03",
+    "accession": "GSE100866",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE100866",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "P_C04",
+    "study_id": "P_S04",
+    "accession": "GSE100501",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE100501",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "P_C04_PBMC",
+    "study_id": "P_S04",
+    "accession": "GSE100501",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE100501",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "XCI-CO05",
+    "study_id": "XCI-S05",
+    "accession": "GSE74668 (transcript arm only)",
+    "scope": "atlas_baseline",
+    "parsed_accession": "GSE74668",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO07",
+    "study_id": "MG04",
+    "accession": "E-MTAB-13324",
+    "scope": "atlas_candidate",
+    "parsed_accession": "E-MTAB-13324",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO08",
+    "study_id": "MG04",
+    "accession": "E-MTAB-13324",
+    "scope": "atlas_candidate",
+    "parsed_accession": "E-MTAB-13324",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO09",
+    "study_id": "MG04",
+    "accession": "E-MTAB-13324",
+    "scope": "atlas_candidate",
+    "parsed_accession": "E-MTAB-13324",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO11",
+    "study_id": "MG04",
+    "accession": "E-MTAB-13324",
+    "scope": "atlas_candidate",
+    "parsed_accession": "E-MTAB-13324",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO12",
+    "study_id": "MG05",
+    "accession": "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+    "scope": "atlas_candidate",
+    "parsed_accession": "EGAD00001011338",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO13",
+    "study_id": "MG05",
+    "accession": "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+    "scope": "atlas_candidate",
+    "parsed_accession": "EGAD00001011338",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO14",
+    "study_id": "MG05",
+    "accession": "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+    "scope": "atlas_candidate",
+    "parsed_accession": "EGAD00001011338",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MGCO15",
+    "study_id": "MG05",
+    "accession": "unavailable for these functional/PrimeFlow panels; related edited-cell RNA-seq EGAD00001011338",
+    "scope": "atlas_candidate",
+    "parsed_accession": "EGAD00001011338",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MA-CO01",
+    "study_id": "MA-S01",
+    "accession": "GSE116698",
+    "scope": "atlas_candidate",
+    "parsed_accession": "GSE116698",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MA-CO09",
+    "study_id": "MA-S06",
+    "accession": "PRJDB16517",
+    "scope": "atlas_candidate",
+    "parsed_accession": "PRJDB16517",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  },
+  {
+    "cohort_id": "MP_C009",
+    "study_id": "MP_S005",
+    "accession": "SAMN03471796 (article links WM278/WM793 cell-line context)",
+    "scope": "atlas_candidate",
+    "parsed_accession": "SAMN03471796",
+    "identity_basis": "explicit atlas cohort accession field; adjacent/related-data caveats retained verbatim"
+  }
+]
