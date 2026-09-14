@@ -1,0 +1,766 @@
+---
+format: html
+page-layout: full
+---
+
+
+
+
+Single_cell_merge_data_demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Single-Cell Merged Data Exploration Demo¶
+
+Author: Yiran Song
+
+Date: May 10, 2025
+
+
+This script demonstrates how to load and explore the merged single-cell RNA-seq dataset
+
+(combined_filtered_concat_processed.h5ad). It includes:
+
+
+Metadata summaries (e.g., tissue, sex, age, dataset)
+Binning of time_point_day into biologically meaningful intervals
+Cross-tabulation of binned time points by study type
+UMAP visualizations colored by dataset, tissue, and study type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+
+
+
+
+
+import scanpy as sc
+import pandas as pd
+import numpy as np
+import anndata as ad
+import pandas as pd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [2]:
+
+
+
+
+
+
+
+combined = ad.read_h5ad("./meta_processed/combined_filtered_concat_processed_v2.h5ad")
+combined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Out[2]:
+
+
+
+
+AnnData object with n_obs × n_vars = 2557942 × 13589
+    obs: 'sample_id', 'cell_type', 'sex', 'donor_id', 'time_point_day', 'dataset', 'covid_status', 'age', 'tissue', 'study_type'
+    uns: 'log1p', 'neighbors', 'pca', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    obsp: 'connectivities', 'distances'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [3]:
+
+
+
+
+
+
+
+print(combined.obs['tissue'].value_counts())
+print(combined.obs['sex'].value_counts())
+print(combined.obs['age'].value_counts())
+print(combined.obs["tissue"].value_counts())
+print(combined.obs["dataset"].value_counts())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tissue
+PBMC     1933916
+LN        355221
+Nasal     234182
+blood      34623
+Name: count, dtype: int64
+sex
+M         734008
+nan       716113
+F         347073
+Male      334516
+Female    312850
+          113382
+Name: count, dtype: int64
+age
+nan    1969553
+66       43703
+72       42475
+74       33269
+82       31049
+73       29664
+77       26433
+80       25947
+69       23616
+81       23060
+64       21917
+87       21288
+23       20545
+54       19306
+60       18584
+75       18307
+62       18117
+61       18081
+39       17833
+40       16650
+70       15572
+57       15185
+53       14639
+85       14182
+79       11730
+78       11259
+86        7759
+45        7132
+68        6279
+65        6211
+76        4046
+41        2117
+49        1150
+71         769
+88         515
+Name: count, dtype: int64
+tissue
+PBMC     1933916
+LN        355221
+Nasal     234182
+blood      34623
+Name: count, dtype: int64
+dataset
+EMTAB10026           647366
+challenge_covid19    606074
+eskd_covid19         588389
+GSE195673            383635
+GSE247917            195489
+GSE201534             87160
+GSE246937             49829
+Name: count, dtype: int64
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [5]:
+
+
+
+
+
+
+
+table = pd.crosstab(combined.obs['time_point_day'], combined.obs['study_type'])
+# print(table)
+
+tp = pd.to_numeric(combined.obs['time_point_day'], errors='coerce')
+bins = [-np.inf, 0, 1, 2, 3, 4, 5, 6, 7, 14, 28, 180, 200, 360, np.inf]
+labels = ["<0", "0", "1", "2", "3", "4", "5", "6", "7", "8–14", "15–28", "29–180", "181–200", "201–360+"]  # 14 labels
+combined.obs['binned_day'] = pd.cut(tp, bins=bins, labels=labels, right=False)
+binned_table = pd.crosstab(combined.obs['binned_day'], combined.obs['study_type'])
+binned_table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Out[5]:
+
+
+
+
+
+
+
+
+
+
+study_type
+inoculation
+vaccine
+
+
+
+
+binned_day
+
+
+
+
+
+
+
+
+<0
+99875
+0
+
+
+
+
+0
+594368
+50117
+
+
+
+
+1
+41380
+60037
+
+
+
+
+2
+0
+13763
+
+
+
+
+3
+83871
+0
+
+
+
+
+5
+33447
+0
+
+
+
+
+6
+0
+5772
+
+
+
+
+7
+195385
+105472
+
+
+
+
+8–14
+131770
+38664
+
+
+
+
+15–28
+73344
+360265
+
+
+
+
+181–200
+0
+65581
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [6]:
+
+
+
+
+
+
+
+sc.pl.umap(
+    combined,
+    color='dataset',
+    save='_combined_by_dataset.png',  
+    show=True
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING: saving figure to file figures/umap_combined_by_dataset.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/nas/longleaf/home/yrsong/.conda/envs/commot_env/lib/python3.8/site-packages/scanpy/plotting/_tools/scatterplots.py:394: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  cax = scatter(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [7]:
+
+
+
+
+
+
+
+sc.pl.umap(
+    combined,
+    color='tissue',
+    save='_tissue_by_dataset.png', 
+    show=True
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING: saving figure to file figures/umap_tissue_by_dataset.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/nas/longleaf/home/yrsong/.conda/envs/commot_env/lib/python3.8/site-packages/scanpy/plotting/_tools/scatterplots.py:394: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  cax = scatter(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [8]:
+
+
+
+
+
+
+
+sc.pl.umap(
+    combined,
+    color='study_type',
+    save='_study_type_by_dataset.png', 
+    show=True
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARNING: saving figure to file figures/umap_study_type_by_dataset.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/nas/longleaf/home/yrsong/.conda/envs/commot_env/lib/python3.8/site-packages/scanpy/plotting/_tools/scatterplots.py:394: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  cax = scatter(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [ ]:
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

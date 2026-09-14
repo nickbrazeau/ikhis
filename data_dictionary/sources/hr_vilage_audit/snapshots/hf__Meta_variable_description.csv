@@ -1,0 +1,50 @@
+﻿Variable Name,Description
+geo_accession,GEO sample accession number (GSM).
+ID,Subject identifier within one study (unique per participant); useful when aligning with antibody raw data.
+study_ID,Study or cohort identifier
+tissue,"Sample source (e.g., whole blood, PBMC, nasal swab)."
+platform,"Gene expression platform used (e.g., RNA-seq, microarray, scRNA-seq)."
+pathogen,"Infectious agent studied (e.g., SARS-CoV-2, influenza)."
+batch,Technical or experimental batch ID within one study
+title,Sample title from GEO metadata.
+timepoint,Exact time or day post-vaccination/infection.
+timepoint_group,Categorical grouping of timepoints
+infection_group,"Infection status grouping (e.g., infected vs. uninfected); represents the outcome in inoculation studies."
+symptom_group,"Symptom severity group (e.g., symptomatic vs. asymptomatic); represents the outcome in inoculation studies."
+symptom_group_original,Original symptom classification from source study.
+Total_DSS,Disease Severity Score (quantitative summary of symptoms).
+MFC,Maximum fold change (MFC)
+responder,"Indicator of vaccine response (e.g., responder, moderate responder, or non-responder), defined based on Maximum Fold Change (MFC)."
+responder_original,Original response classification before harmonization.
+study_group,"Group assignment within a study (e.g., vaccine arm, control)."
+Enrollment_year,Year when participant enrolled in the study.
+vaccine,"Vaccine type (e.g., mRNA-1273, BNT162b2)."
+vaccine_dose,"Vaccine dose number (e.g., 1st, 2nd, 3rd)."
+sex,Biological sex (Male/Female).
+age,Participant age in years.
+age_group,"Age category (e.g., 18–30, 31–50, >50)."
+immport_expsamp_acc,ImmPort experiment sample accession.
+Expsample.Accession,Alternate experimental sample accession in ImmPort
+ethnicity,"Participant ethnicity (e.g., Hispanic, non-Hispanic)."
+race,"Race as recorded in metadata (e.g., White, Asian, Black)."
+race_ethnicity,Combined race and ethnicity classification.
+sham,Indicator for sham or placebo treatment.
+BMI,Body Mass Index (kg/m²).
+PreviousCOVID19,Prior SARS-CoV-2 infection (Yes/No).
+symptom_group_previous_covid,Symptom group classification for previously infected individuals.
+UnderlyingDisease,Presence of underlying or chronic medical conditions.
+turbo_reatment,Indicator of whether the RNA sample was treated with TurboDNase (Thermo Fisher Scientific) to remove contaminating genomic DNA during RNA extraction. Marked as “Turbo Treated” if DNase treatment was applied.
+Medications,Medications taken by participant during study.
+side_effect,Reported vaccine side effects.
+Duration_of_symptoms,Duration (in days) of reported symptoms.
+days.since.covid.19.diagnosis,Days since COVID-19 diagnosis at time of sampling.
+Vaccinated.in.prior.3.seasons,Whether vaccinated in the prior three influenza seasons (Yes/No).
+influenza.vaccination.count..previous.10.years.,Number of influenza vaccinations received in the previous 10 years.
+Height_cm,Height in centimeters.
+Weight_kg,Weight in kilograms.
+Current.smoker,Current smoking status (Yes/No).
+Prior.smoker,Former smoking status (Yes/No).
+Sleep.apnea,Presence of sleep apnea (Yes/No).
+diabetes,Presence of diabetes (Yes/No).
+seroconversion,Binary or quantitative measure of antibody seroconversion.
+viral_shedding,Presence or level of viral shedding post-infection or vaccination.

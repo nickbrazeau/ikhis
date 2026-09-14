@@ -1,0 +1,83 @@
+{
+  "run_id": "MP_RUN_20260913_01",
+  "agent_role": "evidence_extractor_not_independent_reviewer",
+  "timestamp_start": "2026-09-13T19:19:19+00:00",
+  "timestamp_end": "2026-09-13T19:58:46.608808+00:00",
+  "timezone": "UTC (runtime timestamps); user timezone America/New_York",
+  "LLM_provider": "OpenAI",
+  "LLM_model": "unavailable",
+  "model_snapshot_if_available": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.3.0 mechanism-candidate phase",
+  "agent_prompt_version": "parent antigen lane task; EXTRACTION_CONTRACT_0.3.md plus original extraction contract",
+  "instruction_bundle_hash": "unavailable",
+  "source_versions": {
+    "MP_S001": "PMC author manuscript; NIHMS38285; final article 1996-01-17",
+    "MP_S002": "Publisher version 1, 1999-03-01",
+    "MP_S003": "PMC full text of published article",
+    "MP_S004": "PMC full text of published article",
+    "MP_S005": "PMC author manuscript; EMS133687; final article 2021-09-27",
+    "MP_S006": "Publisher article 2025-01-14; supplementary information MOESM1",
+    "MP_S007": "PMC full text of published article 2025-12-16"
+  },
+  "retrieval_queries": [
+    "MP_Q001",
+    "MP_Q002",
+    "MP_Q003",
+    "MP_Q004",
+    "MP_Q005",
+    "MP_Q006",
+    "MP_Q007",
+    "MP_Q008",
+    "MP_Q009",
+    "MP_Q010",
+    "MP_Q011",
+    "MP_Q012",
+    "MP_Q013",
+    "MP_Q014",
+    "MP_Q015",
+    "MP_Q016",
+    "MP_Q017",
+    "MP_Q018",
+    "MP_Q019",
+    "MP_Q020",
+    "MP_Q021"
+  ],
+  "retrieval_dates": [
+    "2026-09-13"
+  ],
+  "source_hashes": "computed centrally by coordinator",
+  "code_commit": "unavailable",
+  "environment_hash": "unavailable",
+  "output_hash": "unavailable",
+  "critic_run_ids": [],
+  "independent_review": "pending_user_trigger",
+  "human_review": "pending",
+  "human_edits": "unavailable",
+  "skills_read": [
+    "life-science-research:research-router-skill",
+    "life-science-research:ncbi-entrez-skill (no Entrez calls used)",
+    "pdf:pdf"
+  ],
+  "access_failures": [
+    "Initial PMC web opens returned browser challenges",
+    "Europe PMC web route returned403/unsafe errors",
+    "Initial sandbox Python URL retrieval failed DNS; authorized direct primary-source retrieval succeeded",
+    "fitz not installed; bundled Poppler used successfully"
+  ],
+  "actions_excluded": [
+    "independent review",
+    "numeric priors",
+    "production edits",
+    "freeze"
+  ],
+  "scope": "Broad immune antigen-processing/presentation mechanisms; no cytokine priority set; human and nonhuman preparations explicitly separated.",
+  "output_files": [
+    "pack.json",
+    "screening.json",
+    "bridges.json",
+    "notes.md",
+    "run.json"
+  ],
+  "supplement_checks": "Kuilman supplementary Fig4i and6l rendered with bundled Poppler; Fig4i used for extraction. Restifo Fig5 image visually inspected."
+}

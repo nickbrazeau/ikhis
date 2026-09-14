@@ -1,0 +1,124 @@
+entity_id,name,entity_type,layer,species,mapping_status
+CENTITY_02eb5230be1385dcdbeb,iTreg suppression of responder proliferation,cellular_function,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_050417f5cd440b7a193c,cell-surface HLA-DR,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_074828d17052a8fe87b1,CD81 transcript,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_074d95f6edafd40b73e0,suppression of responder proliferation,cellular_function,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_08b37440634eb8f03e46,IL12-induced intracellular IFNG protein,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_0ebc68c14c42f930466e,bulk autologous PBMC proliferation,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_0f3634a190e187f902b8,IL12,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1086367c63b58bde0a61,trichostatin A during LPS maturation,experimental_intervention,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_146ed1b09ef6a2262251,IL7R exon6 inclusion,splice_event,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_14f266aedabf7c6a6696,IL6,secreted_protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_14f6736159458ef33552,RBPJ overexpression with HDAC3 deletion,combined_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_17ed0f44568a8f5e5f22,KCNN4 enhancer CRISPR deletion,regulatory_element_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1a994417e6e89d124a15,supernatant IL7R,soluble_protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1b55133a24cfe76e7c0b,1074mel lysis by HLA-A2.1-restricted human antimelanoma CD8 T cells,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1b7fbe7a93f51b2de3db,CD28 costimulation omission,experimental_condition,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1c04cc6dca43d8b1b9d9,IL2-stimulated STAT5 phosphorylation,protein_modification,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_1f2800b2df926c5d94e2,intracellular IFNG protein,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_201c8f288e154efcca2f,FOXP3-positive Treg fraction across STAT5B genotypes,protein_expression_stratum,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_205ea8db552f3511e39d,bulk psoriasis PBMC proliferation,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_206e8d6844eb1cff184f,RBPJ CRISPR knockout,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_247249f3a7b771635395,B2M replacement plus mouse H-2Kd vaccinia in human targets,experimental_intervention,G,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_2a3700c179bb8146591e,surface folded HLA class I,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2ab22d8aebbdef936194,DDX39B transcript,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2af58d529079fa8d2b70,psoriasis versus healthy donor PBMC context,disease_context,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2d8432a588914ff26bec,A-FOS dominant-negative protein,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2dd3b34252e1bbd8f789,TNF-sensitive WEHI164 cytotoxic bioactivity of patient-2 CTL supernatant,measured_readout,F,nonhuman primate COS target (species unavailable in article); Homo sapiens recipient,local_exact_form; external_mapping_unavailable
+CENTITY_2e1f883ba1792e6463aa,nuclear FOS/JUNB protein,protein_localization,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2e7a2f06dc6fafa3fe01,CD3/CD28 restimulation,receptor_perturbation,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_2ec40ba5d909f3c98ffc,MEL9 TCR22 Jurkat CD69 activation,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_3279f7d0ac6a6a8ca843,B2M knockout in matched-TMG MEL9 B cells,experimental_intervention,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_39c5a5893383a38eeda2,FOXP3 intracellular protein,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_39ea9e4335d826b065c1,TAP2-deficient patient-2 PBMCs,genetic_context,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_3aad83e6dc28ac157241,lysis by patient-2 expanded CD8 alpha-beta T cells,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_3bdda56584e0254da047,DDX39B-targeting siRNA DDX_4,siRNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_3cbac6b5f947272e371c,IL12-context FOXP3-regulated RNA program,transcriptional_program,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_3f548097855005de88d4,ETS2 transcript,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_40b9718a9fd77db23d1c,surface CD81,surface_protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_42937ef1ec70115c0a93,LPS maturation,experimental_intervention,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_43aeed4f2a3569bb689f,vaccinia-specific murine CD8-mediated target lysis,measured_readout,F,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_43e7102c36826a30838c,PHF19-upstream enhancer CRISPRi,regulatory_element_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_4b5bbe090ff3ca0ecf6d,MEL9 TCR1 Jurkat CD69 activation,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_4d7128784f0c10b274c6,autologous B-cell re-addition to B-depleted PBMCs,experimental_intervention,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_4df8e5d3dc316eae01b9,DDX39A RNA abundance after24 h LPS,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_5218c272e08f66e4e714,TAP2 intron IX splice-acceptor G>A (article numbering),genomic_variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_5501559586cbe8512a5c,AP-1-bound activation-induced chromatin accessibility,regulatory_chromatin_state,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_59a7469f75790a7d4c7b,TAP1-expressing vaccinia,experimental_intervention,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_5af44cfdd62b02d84dfb,lysis by HLA-A2.1-restricted human antimelanoma CD8 T cells,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_5c89725c98daf6b30c14,activation of human-TCR-expressing mouse hybridoma,measured_readout,F,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_5fe34bc58d70f9729c0d,IL2,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_605923cfd8382a28de83,CD3 triggering,receptor_perturbation,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_605defd17f4011946051,FOXP3 intracellular protein-positive T cells,protein_expression_stratum,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_6237e81389f14e5f6145,Vα3S1/Vβ13S1 mouse T-hybridoma activation,measured_readout,F,Homo sapiens source; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_62f7b6db9c1117fdfc9e,activation of human-TCR-expressing mouse hybridoma by melanoma targets,measured_readout,F,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_6324cf255a361aab2d85,rs2523506 genotype,variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_66014874252e0b22fea0,rs6897932 C versus T in IL7R minigene,variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_6b46bf23311dc268c8a1,FOXP3 RNA,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_6da2f02e9717d6701d87,surface HLA class I on TAP1-deficient TND-3,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_6efb6e984ddf049da362,TRAF1 transcript,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7035c2064e8bb275b427,extracellular IL7R immunoreactivity,soluble_protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_712981d400466cae5a81,CD3-induced FOXP3 protein expression,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_74a0c1100cc6ee518264,TAP2 cDNA lacking G at coding nucleotide 1635,measured_readout,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7841354940fa3f0c2f37,surface HLA class I on TND-3,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_79662c632947630ffdc5,TBX21 CRISPR knockout,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_79f22ebb70bdad5c6988,CIITA protein isoforms,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7a2f7301d3c6046ada45,DDX39B,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7ae5aa63c1cbd11bab5e,"activation-inducible RNA program including IRF8, TBX21, IFNG and CSF2",transcriptional_program,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7c585f295dc641e3ad94,KCNN4 transcript,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7d5ad984eddb36846dca,purified human ERAP1 Hap2 versus Hap10,experimental_intervention,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7e73b73c7f90a8769450,siRNA-resistant wild-type DDX39B complementation,protein_complementation,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7ec159faaad28c6a392d,CD8-positive-cell proliferation,measured_readout,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_7f343bb746510b0e9471,zymosan phagocytosis,cellular_process,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_8147ee6da158b11d6948,IL2 supplementation during CD25 blockade,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_81d0203f4c4c7a147317,24-h supernatant IL7R,soluble_protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_826a22abd1fe78dc7cb5,intracellular IL2 and IFNG protein program,protein_program,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_844f8dde48a4b4eb8652,rs6897932 C carriage,variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_84726b2e166df467ef03,surface HLA class I on HA-L,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_87137693fe46492512cc,intracellular IL2 in FOXP3-negative CD4 cells,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_8995f8e57fac3958ef26,STAT5A siRNA depletion,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_93351e230419f3e9e44f,B2M-expressing vaccinia in HLA-A2.1-negative 1259mel,experimental_intervention,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_98e2e74e7cad55522d31,FOXP3 CRISPR knockout,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_9a324d05a3a5a728e4e5,W6/32 blockade of primary tonsillar B-cell/hybridoma coculture,experimental_intervention,P,Homo sapiens source; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_9fcefd9b7b042d6f6777,FOXP3 intracellular protein induction,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a152e7bcaa1d123424ea,B-cell depletion from patient PBMCs,experimental_intervention,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a21fed62bc418e5cd471,uncomplemented autologous TAP2-deficient HA-L EBV-B targets,antigen_presenting_cell_context,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a2ca93b4c5dea04e71ca,mouse TCR-hybridoma sGFP activation,measured_readout,F,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_a300a72e5831ec5f1c86,IL2 RNA,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a5774dc0882364e8933c,DDX39B RNA at2 h or24 h LPS,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a5aa2fe10376d36e57a6,rs2523506 A versus C in DDX39B 5-prime UTR,variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a63e94bdd57905745e48,STAT5B siRNA depletion,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a6a828a428f9b3e16977,HLA-DRA RNA,measured_readout,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a6c5c5795c0d222db4e3,ETS2 CRISPR coding-exon disruption,gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a7ab21d3487bf20a2af6,IVA12 HLA-class-II blocking antibody,experimental_intervention,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_a91dc1460707f82724fe,Renilla luciferase reporter,reporter,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_acde9150fc6d2141b83b,B2M-expressing vaccinia,experimental_intervention,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_af28cdd6475108be8109,ERAP1 knockout with ADAMTSL5 precursor-length variation,experimental_intervention,G,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_affc9a65fcbc1c31a8ae,IL2 neutralization during CD3 triggering,protein_blockade,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_b14a17d17077d5a01888,W6/32 pan-HLA-class-I blockade,experimental_intervention,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_b69f053604b6fbbc2b37,CD81 TSS-directed ZIM3-dCas9 CRISPRi,regulatory_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_b6a426c15679e628d2e8,TAP2-expressing vaccinia,experimental_intervention,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_b95be9e9157060dbfaf9,detected ADAMTSL5 autoantigen peptide,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_ba2f6e45c9981a694f37,Treg suppression of CD4/CD8 responder proliferation,cellular_function,F,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_bc54bfc5b387dc73bb9d,CIITA RNA,measured_readout,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_bcb299835e25979e1ea2,IL7R exon6–7 RNA amplicon,RNA_amplicon,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_bd6ca4513a4b913db222,FOXP3 RNA in CD25-negative cells,RNA,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_bda5d610fab5afaa079e,surface HLA class I versus heterozygous-parent PBMCs,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_c2d704edc77b9707c1e0,rs2523506 A carriage,variant,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_cf7c912d5542ec7cf61b,chr21q22 1.85-kb enhancer CRISPR deletion,regulatory_element_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_d4b1d3723dd97eece2b0,intracellular immunoreactive B2M in 1074mel,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_dbb54adf1f6420f80ca6,four HLA-C*06:02-homozygous EBV-B ligand preparations,biological_preparation,C,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_dc337c7b30b4e776e9ce,ERAP1 Hap2 versus Hap10 reconstitution of ERAP1-null WM793,experimental_intervention,G,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_dcc6c3dba24e8bb702d1,rs2523506-by-rs6897932 genotype interaction,variant_interaction,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_de8f30f3908763151611,HLA-B*0702 plus EBV BMRF1 expression in COS cells,experimental_intervention,G,nonhuman primate COS target (species unavailable in article); Homo sapiens recipient,local_exact_form; external_mapping_unavailable
+CENTITY_e150a0135654cf7f0930,IL7R exon6,splice_event,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_e26c6ceffa4a0dddeb03,IL7R reporter exon6,splice_event,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_e82de60df48e2bc050fa,CIITA type-I/type-III RNA,measured_readout,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_e8e99a9ce028e3187a87,FOXP3 protein,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_ed0ab18f8b62a2180552,RBPJ-mediated FOXP3 protein repression,protein,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_efd2ced58f01a53ba763,DT-9-reactive surface HLA-C-enriched signal,measured_readout,P,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_f66d046fd983572ac09a,IL2RA CRISPR knockout,experimental_gene_perturbation,G,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_f6837c330398e8fc8cff,DDX39B sh3/sh5 depletion,shRNA_perturbation,T,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_fa3360ce38ad05f7c588,ADAMTSL5 11mer trimming products,measured_readout,P,Homo sapiens,local_exact_form; external_mapping_unavailable
+CENTITY_fab970e890a2a3056dfc,ERAP1 knockout,experimental_intervention,G,Homo sapiens target; Mus musculus recipient,local_exact_form; external_mapping_unavailable
+CENTITY_fb78a4b2df9d75106dff,NFAT1 chromatin binding,protein_DNA_binding,P,Homo sapiens,local_exact_form; external_mapping_unavailable

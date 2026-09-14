@@ -1,0 +1,147 @@
+Mirrored primary PDF verified title/DOI 10.1038/ng2103. URL https://www.direct-ms.org/wp-content/uploads/2018/01/IL-7-gene-Nature-Genetics-07.pdf
+Accessed 2026-09-13 UTC; PDF page indices are zero based.
+L354@P4: The effect of rs6897932 on differential splicing of IL7R
+L355@P4: The alternative splicing of IL7R has potent consequences for the
+L356@P4: function of the receptor, as transcripts that include exon 6 encode a
+L357@P4: membrane-bound IL7Ra, whereas transcripts that skip exon 6 encode
+L358@P4: a soluble form of the protein14. To test whether the alternate ‘C’
+L359@P4: and ‘T’ alleles of rs6897932 could affect the inclusion of exon 6,
+L360@P4: we cloned the two allelic versions of exon 6 and the surrounding
+L361@P4: intronic sequences into the alternative splicing minigene construct
+L362@P4: pI-11 (ref. 15). Analysis of transcripts from the two minigenes showed
+L363@P4: that the multiple sclerosis–associated ‘C’ allele resulted in an approximately twofold increase in the skipping of exon 6 compared with
+L364@P4: transcripts containing the ‘T’ allele (Fig. 2). The data are consistent
+L365@P4: with at least two possible mechanisms: the multiple sclerosis–
+L366@P4: associated ‘C’ allele weakens an exonic splicing enhancer (ESE),
+L367@P4: or it augments an exonic splicing silencer (ESS). The latter is more
+L368@P4: likely, as transversions at rs6897932 to either a G or an A nucleotide
+L369@P4: substantially decreased exon skipping (for example, production of
+L370@P4: soluble IL7Ra), and substitutions adjacent to the SNP essentially
+L371@P4: abolished skipping (Fig. 2). Thus, our results are consistent with
+L372@P4: the presence of a weak ESS that mediates a low level of exon 6
+L373@P4: skipping, resulting in about 10% soluble IL7Ra. Our data suggest a
+L374@P4: functional role for the alternative rs6897932 alleles on the splicing of
+L375@P4: exon 6 in IL7R.
+L376@P4: Allele-specific expression of IL7R
+L377@P4: We analyzed peripheral blood mononuclear cells from 94 healthy
+L378@P4: controls by quantitative real-time PCR to detect differential expression
+L379@P4: of IL7R using one amplicon that spanned exons 6–7 and two control
+L380@P4: amplicons spanning exons 4–5 and exons 7–8, respectively. Using
+L381@P4: analysis of variance with Bonferroni correction, we observed significantly lower expression of the exon 6–7 amplicon for carriers of the
+L382@P4: multiple sclerosis–associated ‘C’ allele (P ¼ 0.015); the two control
+L383@P4: amplicons (exons 4–5 and 7–8) did not show significantly different
+L384@P4: expression by genotype. Consistent with our in vitro experiments, this
+L385@P4: suggests that carriers of the ‘C’ allele at rs6897932 produce less
+L386@P4: membrane-bound IL7Ra protein compared with carriers of the
+L387@P4: ‘T’ allele, leading to a further increase of the soluble form of IL7Ra.
+L388@P4: This hypothesis is supported by our previous report that interleukin-7
+L389@P4: (IL7) function and IL7Ra expression in T cells is reduced in individuals with multiple sclerosis16.
+L390@P4: DISCUSSION
+L391@P4: Traditional methods for identifying the genetic basis of complex
+L392@P4: human disease have often been successful when a single, relatively
+L393@P4: common locus contributes strongly to the phenotype17,18. HLA-DRB1
+L394@P4: is one locus that carries such an effect in multiple sclerosis19; however,
+L395@P4: it explains less than 50% of the total genetic basis of the disease20.
+L396@P4: Identifying the remaining genetic effects in multiple sclerosis has been
+L397@P4: hampered by allelic, locus and phenotypic heterogeneity. Traditionally,
+L398@P4: genetic linkage, expression and association studies have been used
+L399@P4: © 2007 Nature Publishing Group http://www.nature.com/naturegenetics
+L400@P4: T7
+L401@P4: CMV U
+L402@P4: (614 bp) (573 bp)
+L403@P4: (326 bp)
+L404@P4: (232 bp)
+L405@P4: U Exon 6 D
+L406@P4: UD
+L407@P4: (94 bp)
+L408@P4: Exon 6 *
+L409@P4: D pA pl-11
+L410@P4: HeLa cells
+L411@P4: a
+L412@P4: b
+L413@P4: c
+L414@P4: T CTC T C
+L415@P4: Included
+L416@P4: Skipped
+L417@P4: Included
+L418@P4: Skipped
+L419@P4: DT3 cells AT3 cells
+L420@P4: HeLa cells
+L421@P4: T
+L422@P4: 100
+L423@P4: 80
+L424@P4: 60
+L425@P4: 40
+L426@P4: 20
+L427@P4: 0
+L428@P4: 100
+L429@P4: Percentage exon 6 inclusion
+L430@P4: 80
+L431@P4: 60
+L432@P4: 40
+L433@P4: 20
+L434@P4: 0
+L435@P4: C
+L436@P4: T C G A Mut
+L437@P4: T CTC
+L438@P4: DT3 cells AT3 cells
+L439@P4: pl-11-IL7R382 = T
+L440@P4: or
+L441@P4: pl-11-IL7R172 = C
+L442@P4: Xbal Xhol SP6 Figure 2 Transfections and splicing analysis of IL7R minigenes. (a) Splicing
+L443@P4: construct pI-11 and insertion of IL7R genomic sequence to create
+L444@P4: minigenes pI-11-IL7R382 and pI-11-IL7R172, which contain the ‘T’ and
+L445@P4: ‘C’ alleles of rs6897932, respectively. The location of rs6897932 is shown
+L446@P4: by an asterisk. CMV indicates the CMV promoter; pA indicates the bovine
+L447@P4: growth hormone polyadenylation sequence. XbaI and XhoI sites were used
+L448@P4: for cloning. The locations of T7 and SP6 vector-specific primers are
+L449@P4: indicated by arrows. U is the 5¢ exon of pI-11, and D is the 3¢ exon of
+L450@P4: pI-11. Sizes of exon 6 and parts of its flanking introns are shown in
+L451@P4: parentheses. (b) The IL7R minigenes pI-11-IL7R382 and pI-11-IL7R172
+L452@P4: containing the ‘T’ allele and ‘C’ allele, respectively, of rs6897932, which
+L453@P4: were stably transfected in triplicate in each of HeLa, DT3 and AT3 cells.
+L454@P4: Mature minigene transcripts that either include or skip exon 6 produce
+L455@P4: 326-bp or 232-bp RT-PCR products. Error bars represent s.d. (c) The
+L456@P4: percentage of exon 6 inclusion is plotted against the nucleotide found at the
+L711@P7: Analysis of exon 6 inclusion in cell culture. To amplify exon 6 of IL7R via
+L712@P7: PCR, we used genomic DNA from two phenotypically normal individuals who
+L713@P7: were homozygous for the ‘C’ or ‘T’ alleles of rs6897932. The last 614
+L714@P7: nucleotides of intron 5, the entire exon 6 and the first 573 nucleotides of
+L715@P7: intron 6 of IL7R were amplified and cloned between the XbaI and XhoI sites in
+L716@P7: the splicing reporter minigene pI-11 (ref. 15), to create splicing reporters pI-11-
+L717@P7: IL7R172 and pI-11-IL7R382.
+L718@P7: We created mutants of the minigenes with either A or G at rs6897932 and
+L719@P7: also created a version of pI-11-IL7R382 in which 3 nt upstream and 3 nt
+L720@P7: downstream of this locus were mutated (TAA[T]CAT - GCC[T]ACG). All
+L721@P7: constructs and subclones were sequenced. The sequences of these constructs
+L722@P7: and subclones and the oligonucleotides used in their construction are available
+L723@P7: upon request.
+L724@P7: Rat DT3 and AT3 cells were cultured in low-glucose DMEM (Gibco) with
+L725@P7: 10% FBS. HeLa cells were cultured in high-glucose DMEM with 10% FBS.
+L726@P7: Stable transfections (Fig. 2b) were as described in ref. 50. Transient transfections (Fig. 2c) used the same stable transfection protocol, except that 100 ng of
+L727@P7: DNA was transfected in cells, and cells were harvested 48 h post-transfection
+L728@P7: without any selection. All transfections were performed in triplicate for
+L729@P7: each construct.
+L730@P7: Total RNA was extracted from stable cells using Trizol reagent (Invitrogen)
+L731@P7: according to the manufacturer’s protocol, and exon 6 inclusion was determined
+L732@P7: by RT-PCR analysis as previously described15,50. PCR products were loaded
+L733@P7: directly on a 5% polyacrylamide nondenaturing gel, electrophoresed at 100 V
+L734@P7: for 3–4 h and exposed to Amersham Hyperfilm-MP or Molecular Dynamics
+L735@P7: phosphorimager screens. Quantification of PCR products was performed with
+L736@P7: ImageQuant software (Molecular Dynamics). In each case, RT-PCR products
+L737@P7: were normalized for molar equivalence.
+L738@P7: Stable minigene transfection. Rat DT3 cells were cultured in low-glucose
+L739@P7: DMEM (Gibco) with 10% FBS. Stable transfections were as described in
+L740@P7: ref. 50. All transfections were performed in triplicate for each construct, as
+L741@P7: described above.
+L742@P7: Allele-specific IL7R isoform expression in healthy controls. Real-time PCR
+L743@P7: was carried out in 94 control individuals using Applied Biosystems TaqMan
+L744@P7: one-step real-time PCR master mix reagents kit under the manufacturer’s
+L745@P7: recommended conditions on an ABI 7900HT Sequence Detection System using
+L746@P7: SDS 2.0 software. Positive and negative controls, as well as a calibration curve
+L747@P7: spanning five orders of magnitude constructed with an in vitro–transcribed
+L748@P7: clone of GAPDH, all in triplicate, were also included in each reaction plate.
+L749@P7: Amplification values are expressed as 1012/2ct. Three different gene expression
+L750@P7: TaqMan assays were tested: Hs00233682_m1, which covers the IL7R exon 4/5
+L751@P7: boundary, Hs00904814_m1, which covers the exon 6/7 boundary, and
+L752@P7: Hs00902338_g1, which covers the exon 7/8 boundary.

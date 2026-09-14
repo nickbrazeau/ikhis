@@ -1,0 +1,316 @@
+{
+  "run_id": "MA-RUN-20260913",
+  "agent_role": "Evidence extractor: human T-cell activation/regulatory mechanisms; not independent reviewer",
+  "timestamp_start": "2026-09-13T19:19:09Z",
+  "timestamp_end": "2026-09-13T19:44:37.730644+00:00",
+  "timezone": "UTC (runtime clock); user America/New_York",
+  "LLM_provider": "OpenAI",
+  "LLM_model": "unavailable",
+  "model_family_instructions": "GPT-6",
+  "model_snapshot_if_available": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.3.0 extraction phase",
+  "agent_prompt_version": "EXTRACTION_CONTRACT_0.3 plus original EXTRACTION_CONTRACT; user all-cytokines scope steering",
+  "instruction_bundle_hash": "unavailable",
+  "instruction_versions": [
+    "research/EXTRACTION_CONTRACT_0.3.md",
+    "research/EXTRACTION_CONTRACT.md",
+    "README.md",
+    "Parent assignment: MA prefix and mechanisms_activation-only writes"
+  ],
+  "skills_used": [
+    "ncbi-entrez-skill (script unavailable requests dependency; public-web fallback)",
+    "pdf:pdf (read-only analytical supplement text extraction)"
+  ],
+  "source_versions": [
+    {
+      "source_id": "MA-S01",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    },
+    {
+      "source_id": "MA-S02",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    },
+    {
+      "source_id": "MA-S03",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    },
+    {
+      "source_id": "MA-S04",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    },
+    {
+      "source_id": "MA-S05",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    },
+    {
+      "source_id": "MA-S06",
+      "version": "Primary article as retrieved 2026-09-13; abstract, extended-data captions and public Figures 3/4 plus supplementary analytical Methods; main Methods/Results inaccessible"
+    },
+    {
+      "source_id": "MA-S07",
+      "version": "Primary article as retrieved 2026-09-13; PMC/publisher full HTML; selected Methods/Results inspected"
+    }
+  ],
+  "retrieval_queries": [
+    {
+      "search_id": "MA-Q01",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "human T cells CD28 AP-1 chromatin anergy",
+      "additional_queries": [],
+      "database": "PubMed Entrez script",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [],
+      "screening_notes": "Failed twice: requests dependency absent in system and bundled Python; no Entrez result set.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q02",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "human primary T cells CD28 AP-1 chromatin accessibility anergy CRISPR IL2 2019 2020",
+      "additional_queries": [
+        "human T cells STAT5 FOXP3 knockdown IL-2 regulatory suppression primary study",
+        "human T cells NFAT knockdown IL-2 secretion proliferation primary cells"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S01",
+        "MA-S02",
+        "MA-S04",
+        "MA-S05"
+      ],
+      "screening_notes": "Broad human mechanistic discovery. Returned results aggregated across three query strings; appearances attributed to batch, not individual rank.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q03",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"AP-1 activity induced by co-stimulation\" full text",
+      "additional_queries": [
+        "\"Differentiating the roles of STAT5B and STAT5A\" full text",
+        "\"human\" \"AP-1\" \"A-FOS\" \"IL-2\" chromatin 2019",
+        "\"Functional CRISPR dissection of gene networks controlling human regulatory T cell identity\""
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S01",
+        "MA-S02",
+        "MA-S03",
+        "MA-S06"
+      ],
+      "screening_notes": "Full-text discovery and primary citation chain; 2025 and other recent regulatory sources surfaced.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q04",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3\" PMC",
+      "additional_queries": [
+        "\"Fast and Efficient Genome Editing of Human\" PMID",
+        "\"AP-1 activity induced by co-stimulation\" correction retraction",
+        "\"Functional CRISPR dissection\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S01",
+        "MA-S03",
+        "MA-S04",
+        "MA-S06"
+      ],
+      "screening_notes": "Metadata, access, and correction screening; exact individual originating query unavailable in aggregated tool result.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q05",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3\" pubmed",
+      "additional_queries": [
+        "\"Fast and Efficient Genome Editing of Human FOXP3\" pubmed",
+        "\"AP-1 activity induced by co-stimulation\" correction retraction",
+        "\"Functional CRISPR dissection of gene networks\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S01",
+        "MA-S03",
+        "MA-S04",
+        "MA-S06"
+      ],
+      "screening_notes": "Resolved PubMed identifiers; no matching correction found for AP1/2020 Treg paper in bounded results.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q06",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"s41586-025-08795-5\" \"Methods\" \"Human\"",
+      "additional_queries": [
+        "\"s41586-025-08795-5\" \"HDAC3\" \"inhibitor\"",
+        "\"s41586-025-08795-5\" \"suppression\" \"CellTrace\"",
+        "\"s41586-025-08795-5\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S06"
+      ],
+      "screening_notes": "Located author correction10.1038/s41586-025-09356-6; competing-interest addition, no biological-results correction stated. Full wet-lab Methods not retrieved.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q07",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"Differentiating the roles of STAT5B and STAT5A\" correction retraction",
+      "additional_queries": [
+        "\"Fast and Efficient Genome Editing\" correction retraction",
+        "\"IL-2 regulates FOXP3 expression\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S02",
+        "MA-S04",
+        "MA-S05",
+        "MA-S07"
+      ],
+      "screening_notes": "Correction check plus additional contrary/feedback evidence discovery. No matching correction for selected older papers surfaced.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q08",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"Negative Feedback Regulation of T Cells via Interleukin-2 and FOXP3 Reciprocity\" correction retraction",
+      "additional_queries": [
+        "\"Fast and Efficient Genome Editing of Human FOXP3+ Regulatory T Cells\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S04",
+        "MA-S07"
+      ],
+      "screening_notes": "No matching correction surfaced;2009 conference abstract detected and excluded from independent evidence.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    },
+    {
+      "search_id": "MA-Q09",
+      "lane": "human_T_cell_activation_regulatory_mechanisms",
+      "query": "\"10.1084/jem.20182009\" correction retraction",
+      "additional_queries": [
+        "\"10.1016/j.clim.2013.04.014\" correction retraction",
+        "\"10.1038/s41590-020-0784-4\" correction retraction",
+        "\"10.3389/fimmu.2021.655122\" correction retraction"
+      ],
+      "database": "Public web ranked search",
+      "searched_at": "2026-09-13",
+      "result_source_ids": [
+        "MA-S01",
+        "MA-S02",
+        "MA-S03",
+        "MA-S04"
+      ],
+      "screening_notes": "No matching correction/retraction notice in returned bounded set. Public source-site article notices also inspected; not exhaustive registry clearance.",
+      "query_attribution": "Tool returned a combined result set for the separately submitted query strings in this batch."
+    }
+  ],
+  "retrieval_dates": [
+    "2026-09-13"
+  ],
+  "source_hashes": "Computed in source_manifest.json as file-integrity hashes only; not a reviewed release",
+  "code_commit": "unavailable",
+  "environment_hash": "unavailable",
+  "output_hash": "unavailable",
+  "critic_run_ids": [],
+  "human_edits": [],
+  "independent_review": "pending_user_trigger",
+  "human_review": "pending",
+  "numerical_priors_constructed": false,
+  "production_release_frozen": false,
+  "write_scope": "research/mechanisms_activation only",
+  "failed_attempts": [
+    {
+      "route": "Entrez skill/system Python and bundled Python",
+      "result": "requests dependency unavailable; no results; no package installed"
+    },
+    {
+      "route": "Unprivileged curl PMC",
+      "result": "DNS unavailable; approved read-only retrieval succeeded"
+    },
+    {
+      "route": "web.open PMC7037242 and PMC4169138",
+      "result": "recaptcha placeholder; approved curl subsequently retrieved real full HTML"
+    },
+    {
+      "route": "web.open Nature2025 article",
+      "result": "unsafe redirect/internal fetch failure; curl retrieved subscription-limited primary HTML"
+    },
+    {
+      "route": "Harvard primary PDF URL",
+      "result": "404 HTML; saved with .failed.html extension"
+    },
+    {
+      "route": "Kyoto repository PDF URL",
+      "result": "HTML response not PDF; saved with .failed.html extension"
+    },
+    {
+      "route": "Nature2025 main PDF URL",
+      "result": "HTML response not PDF; saved with .failed.html extension"
+    },
+    {
+      "route": "Nature public figure3/4 pages and supplementary analysis Methods PDF",
+      "result": "Retrieved; no complete wet-lab Methods; two assertions remain needs_full_text"
+    }
+  ],
+  "structural_check_role": "Extraction completeness/reference validation only; not biological scientific review.",
+  "structural_validation": {
+    "ids_resolve": true,
+    "snapshots_exist": true,
+    "permitted_pending_statuses_only": true,
+    "checks_present": true,
+    "counts": {
+      "sources": 7,
+      "cohorts": 10,
+      "assertions": 25,
+      "bridges": 17,
+      "candidate_bridges": 14,
+      "blocked_bridges": 3,
+      "needs_full_text_assertions": 2
+    },
+    "scientific_review_performed": false,
+    "source_snapshot_registration": {
+      "timestamp": "2026-09-13T19:44:37.730644+00:00",
+      "operation": "source_snapshot_registration",
+      "role": "provenance completion; not scientific review",
+      "sources_updated": 7,
+      "registered_supporting_files": 32,
+      "registered_failed_retrieval_files": 4,
+      "all_assertion_supporting_files_registered_under_source": true,
+      "all_bridge_supporting_files_registered_under_source": true,
+      "assertion_and_bridge_statuses_preserved": true,
+      "source_access_limitations_preserved": true
+    }
+  },
+  "provenance_updates": [
+    {
+      "timestamp": "2026-09-13T19:44:37.730644+00:00",
+      "operation": "source_snapshot_registration",
+      "role": "provenance completion; not scientific review",
+      "sources_updated": 7,
+      "registered_supporting_files": 32,
+      "registered_failed_retrieval_files": 4,
+      "all_assertion_supporting_files_registered_under_source": true,
+      "all_bridge_supporting_files_registered_under_source": true,
+      "assertion_and_bridge_statuses_preserved": true,
+      "source_access_limitations_preserved": true
+    }
+  ],
+  "provenance_integrity": {
+    "pack_sha256": "13029e98a272e452bba73695e8e911f9e240533aca32583c534c54b9f6bf9cde",
+    "source_manifest_sha256": "2e730c28f95a4d8f59d574ca8d219105ee5461a3f3345ef2f6008b3934d1de30",
+    "checked_at": "2026-09-13T19:44:37.730644+00:00",
+    "scope": "Source file integrity and registration only; no review or release freeze."
+  }
+}

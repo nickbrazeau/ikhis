@@ -1,0 +1,69 @@
+{
+  "citation_volume": [
+    "12"
+  ],
+  "citation_journal_title": [
+    "Frontiers in Immunology"
+  ],
+  "citation_publisher": [
+    "Frontiers"
+  ],
+  "citation_journal_abbrev": [
+    "Front. Immunol."
+  ],
+  "citation_issn": [
+    "1664-3224"
+  ],
+  "citation_doi": [
+    "10.3389/fimmu.2021.655122"
+  ],
+  "citation_firstpage": [
+    "655122"
+  ],
+  "citation_language": [
+    "English"
+  ],
+  "citation_title": [
+    "Fast and Efficient Genome Editing of Human FOXP3+ Regulatory T Cells"
+  ],
+  "citation_keywords": [
+    "Treg - regulatory T cell; CD4; IL6R; CRISPR; human; Genome editing"
+  ],
+  "citation_abstract": [
+    "FOXP3+ regulatory T cells (Tregs) are central for maintaining peripheral tolerance and immune homeostasis. Because of their immunosuppressive characteristics, Tregs are a potential therapeutic target in various diseases such as autoimmunity, transplantation and infectious diseases like COVID-19. Numerous studies are currently exploring the potential of adoptive Treg therapy in different disease settings and novel genome editing techniques like CRISPR/Cas will likely widen possibilities to strengthen its efficacy. However, robust and expeditious protocols for genome editing of human Tregs are limited. Here, we describe a rapid and effective protocol for reaching high genome editing efficiencies in human Tregs without compromising cell integrity, suitable for potential therapeutic applications. By deletion of IL2RA encoding for IL-2 receptor \u03b1-chain (CD25) in Tregs, we demonstrated the applicability of the method for downstream functional assays and highlighted the importance for CD25 for in vitro suppressive function of human Tregs. Moreover, deletion of IL6RA (CD126) in human Tregs elicits cytokine unresponsiveness and thus may prevent IL-6-mediated instability of Tregs, making it an attractive target to potentially boost functionality in settings of adoptive Treg therapies to contain overreaching inflammation or autoimmunity. Thus, our rapid and efficient protocol for genome editing in human Tregs may advance possibilities for Treg-based cellular therapies."
+  ],
+  "citation_article_type": [
+    "Methods"
+  ],
+  "citation_pdf_url": [
+    "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.655122/pdf"
+  ],
+  "citation_xml_url": [
+    "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.655122/xml"
+  ],
+  "citation_fulltext_world_readable": [
+    "yes"
+  ],
+  "citation_online_date": [
+    "2021/07/13"
+  ],
+  "citation_publication_date": [
+    "2021/08/02"
+  ],
+  "citation_author": [
+    "Van Zeebroeck, Lauren ",
+    "Arroyo Hornero, Rebeca ",
+    "C\u00f4rte-Real, Beatriz F. ",
+    "Hamad, Ibrahim ",
+    "Meissner, Torsten B. ",
+    "Kleinewietfeld, Markus "
+  ],
+  "citation_author_institution": [
+    "Vlaams Instituut voor Biotechnologie (VIB) Laboratory of Translational Immunomodulation, Vlaams Instituut voor Biotechnologie (VIB) Center for Inflammation Research (IRC), Hasselt University, Belgium",
+    "Vlaams Instituut voor Biotechnologie (VIB) Laboratory of Translational Immunomodulation, Vlaams Instituut voor Biotechnologie (VIB) Center for Inflammation Research (IRC), Hasselt University, Belgium",
+    "Vlaams Instituut voor Biotechnologie (VIB) Laboratory of Translational Immunomodulation, Vlaams Instituut voor Biotechnologie (VIB) Center for Inflammation Research (IRC), Hasselt University, Belgium",
+    "Vlaams Instituut voor Biotechnologie (VIB) Laboratory of Translational Immunomodulation, Vlaams Instituut voor Biotechnologie (VIB) Center for Inflammation Research (IRC), Hasselt University, Belgium",
+    "Department of Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, United States",
+    "Vlaams Instituut voor Biotechnologie (VIB) Laboratory of Translational Immunomodulation, Vlaams Instituut voor Biotechnologie (VIB) Center for Inflammation Research (IRC), Hasselt University, Belgium"
+  ]
+}

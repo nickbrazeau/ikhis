@@ -1,0 +1,47 @@
+[
+  {
+    "id": "README.md",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/README.md",
+    "output": "sources/hr_vilage/README.md"
+  },
+  {
+    "id": "study_meta.csv",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_meta.csv",
+    "output": "sources/hr_vilage/study_meta.csv"
+  },
+  {
+    "id": "study_citations.csv",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/study_citations.csv",
+    "output": "sources/hr_vilage/study_citations.csv"
+  },
+  {
+    "id": "Meta_variable_description.csv",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/Meta_variable_description.csv",
+    "output": "sources/hr_vilage/Meta_variable_description.csv"
+  },
+  {
+    "id": "gene_expr_colnames.txt",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/gene_expr_colnames.txt",
+    "output": "sources/hr_vilage/gene_expr_colnames.txt"
+  },
+  {
+    "id": "croissant.json",
+    "url": "https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M/resolve/c68349578b97af04d1102eac5ad9f30f85362c53/croissant.json",
+    "output": "sources/hr_vilage/croissant.json"
+  },
+  {
+    "id": "hf_file_tree",
+    "url": "https://huggingface.co/api/datasets/xuejun72/HR-VILAGE-3K3M/tree/c68349578b97af04d1102eac5ad9f30f85362c53?recursive=true&limit=1000",
+    "output": "sources/hr_vilage/hf_file_tree.json"
+  },
+  {
+    "id": "github_tree",
+    "url": "https://api.github.com/repos/XuejunSun98/HR-VILAGE-3K3M/git/trees/716c27dccba847875f85be63103e2245acaa3320?recursive=1",
+    "output": "sources/hr_vilage/github_tree.json"
+  },
+  {
+    "id": "github_study_meta",
+    "url": "https://raw.githubusercontent.com/XuejunSun98/HR-VILAGE-3K3M/716c27dccba847875f85be63103e2245acaa3320/study_meta.csv",
+    "output": "sources/hr_vilage/github_study_meta.csv"
+  }
+]

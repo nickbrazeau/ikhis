@@ -1,0 +1,118 @@
+{
+  "assertion_review_states": {
+    "extracted_pending_review": 74,
+    "needs_full_text": 2
+  },
+  "baseline_sha256": "101ac8ee52d3a8cfbbf41aa5dc9e9ae671f3f4bbe2b812168d623f5258c7d81d",
+  "baseline_table_fingerprints": {
+    "adjudications": "ROWS_115fb3e99880543c1f42",
+    "agent_runs": "ROWS_fe21e2bb9330ee6e6a0b",
+    "artifact_hashes": "ROWS_61304e13febfb4788d6d",
+    "assay_coverage": "ROWS_52311c1348fb9e76e190",
+    "cell_states": "ROWS_50eb0ecc5f1821cc6ef9",
+    "cells": "ROWS_4d1d49c7bab317c11894",
+    "cohorts": "ROWS_43691169ac9410dc3881",
+    "contexts": "ROWS_ccab2a0f746c38692e12",
+    "coverage_gaps": "ROWS_de46cfa280e32689ef0c",
+    "critic_findings": "ROWS_0485281f68969b71f95f",
+    "critic_runs": "ROWS_a4e155088b50b588392b",
+    "datasets": "ROWS_4c78904cae2356270631",
+    "edge_assertions": "ROWS_0d5baea144a28ffc22b0",
+    "entities": "ROWS_973cc3387ffdbe896273",
+    "entity_aliases": "ROWS_1c7d6e9006d5e10bfc29",
+    "entity_components": "ROWS_287437db28306200c05f",
+    "evidence_instances": "ROWS_7d0d161fc64f9be21b21",
+    "fine_mapping": "ROWS_4f53cda18c2baa0c0354",
+    "genetic_associations": "ROWS_7ff93fd1d095422be7fd",
+    "instruction_versions": "ROWS_8735bfe8456be9a8ed99",
+    "journal_metrics": "ROWS_4f53cda18c2baa0c0354",
+    "materialized_paths": "ROWS_4f53cda18c2baa0c0354",
+    "molecular_qtls": "ROWS_821d14389fe54b903883",
+    "multiomic_links": "ROWS_5643ccdbc22a621c719f",
+    "prior_changes": "ROWS_7ad99375138517fef98e",
+    "prior_parameters": "ROWS_1264003fb6feb8a9d936",
+    "protein_modifications": "ROWS_5561d5a4680a4e029410",
+    "proteomic_observations": "ROWS_e2000e40a76f24342974",
+    "quantitative_results": "ROWS_436a1a1d2b57442f0f0d",
+    "regulatory_evidence": "ROWS_91c1498b5977cde88324",
+    "release_changes": "ROWS_84a8d86c2aebecf51cfb",
+    "samples": "ROWS_4f53cda18c2baa0c0354",
+    "screening_candidates": "ROWS_678010a65f6378a62535",
+    "screening_decisions": "ROWS_083161956f61dce6c944",
+    "search_log": "ROWS_de385c8cb1d11b49e760",
+    "source_registry": "ROWS_e8d3ff6274b23ec4ba91",
+    "transcriptional_programs": "ROWS_4f53cda18c2baa0c0354",
+    "transcriptomic_observations": "ROWS_fb5af465ef076536a6cf"
+  },
+  "baseline_tables_unchanged": true,
+  "candidate_source_dois": 19,
+  "connection_classifications": {
+    "blocked_connection": 11,
+    "context_contrast": 14,
+    "mechanism_proposal": 8,
+    "response_profile": 14
+  },
+  "counts": {
+    "candidate_assertions": 76,
+    "candidate_bridges": 47,
+    "candidate_cohorts": 42,
+    "candidate_contexts": 72,
+    "candidate_entities": 123,
+    "candidate_gaps": 21,
+    "candidate_graphs": 24,
+    "candidate_inputs": 129,
+    "candidate_metadata": 9,
+    "candidate_screening": 83,
+    "candidate_searches": 42,
+    "candidate_sources": 19,
+    "cytokine_inventory": 626
+  },
+  "literature_search_status": "focused ranked searches; not exhaustive",
+  "new_approved_paths": 0,
+  "new_priors": 0,
+  "review_status": "pending_user_triggered_review",
+  "scope": {
+    "baseline_release": "0.2.0",
+    "candidate_directory": "candidates/0.3.0",
+    "cytokine_scope": "all_cytokines",
+    "domains": [
+      "genomic_regulatory",
+      "transcriptional",
+      "proteomic",
+      "cellular_communication",
+      "immune_function"
+    ],
+    "fixed_priority_panel": null,
+    "historical_assay_labels_define_scope": false,
+    "inventory_membership_creates_assertions": false,
+    "inventory_role": "expandable_resource_annotation_discovery_registry",
+    "mechanism_lanes": [
+      "genetic",
+      "activation",
+      "antigen"
+    ],
+    "new_evidence_enters_priors_before_review": false,
+    "new_paths_are_production_approved": false,
+    "reference_species": "Homo sapiens",
+    "review_status": "pending_user_triggered_review",
+    "version": "0.3.0-candidate"
+  },
+  "screening_decisions": {
+    "await_full_text": 23,
+    "exclude": 16,
+    "include": 44
+  },
+  "source_binding_status": "exact_sha256; pending scientific review",
+  "sources_reusing_baseline_doi": {
+    "MG01": [
+      "G03"
+    ],
+    "MG02": [
+      "G08"
+    ],
+    "MG03": [
+      "G10"
+    ]
+  },
+  "version": "0.3.0-candidate"
+}

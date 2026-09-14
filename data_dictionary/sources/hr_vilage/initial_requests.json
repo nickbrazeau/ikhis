@@ -1,0 +1,5 @@
+[
+  {"id":"hf_info","url":"https://huggingface.co/api/datasets/xuejun72/HR-VILAGE-3K3M","output":"sources/hr_vilage/hf_info.json"},
+  {"id":"github_info","url":"https://api.github.com/repos/XuejunSun98/HR-VILAGE-3K3M/commits/main","output":"sources/hr_vilage/github_commit.json"},
+  {"id":"paper_html","url":"https://arxiv.org/html/2505.14725v2","output":"sources/hr_vilage/paper_v2.html"}
+]

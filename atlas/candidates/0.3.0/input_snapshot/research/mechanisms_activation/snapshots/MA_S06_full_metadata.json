@@ -1,0 +1,164 @@
+{
+  "citation_pdf_url": [
+    "https://www.nature.com/articles/s41586-025-08795-5.pdf"
+  ],
+  "citation_fulltext_html_url": [
+    "https://www.nature.com/articles/s41586-025-08795-5"
+  ],
+  "citation_journal_title": [
+    "Nature"
+  ],
+  "citation_journal_abbrev": [
+    "Nature"
+  ],
+  "citation_publisher": [
+    "Nature Publishing Group"
+  ],
+  "citation_issn": [
+    "1476-4687"
+  ],
+  "citation_title": [
+    "Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3"
+  ],
+  "citation_volume": [
+    "642"
+  ],
+  "citation_issue": [
+    "8066"
+  ],
+  "citation_publication_date": [
+    "2025/06"
+  ],
+  "citation_online_date": [
+    "2025/03/26"
+  ],
+  "citation_firstpage": [
+    "191"
+  ],
+  "citation_lastpage": [
+    "200"
+  ],
+  "citation_article_type": [
+    "Article"
+  ],
+  "citation_language": [
+    "en"
+  ],
+  "citation_doi": [
+    "10.1038/s41586-025-08795-5"
+  ],
+  "citation_springer_api_url": [
+    "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41586-025-08795-5&api_key="
+  ],
+  "citation_reference": [
+    "citation_journal_title=Annu. Rev. Immunol.; citation_title=Regulatory T cells and human disease; citation_author=S Sakaguchi; citation_volume=38; citation_publication_date=2020; citation_pages=541-566; citation_doi=10.1146/annurev-immunol-042718-041717; citation_id=CR1",
+    "citation_journal_title=Nat. Rev. Immunol.; citation_title=Treg cell-based therapies: challenges and perspectives; citation_author=C Raffin, LT Vo, JA Bluestone; citation_volume=20; citation_publication_date=2020; citation_pages=158-172; citation_doi=10.1038/s41577-019-0232-6; citation_id=CR2",
+    "citation_journal_title=J. Exp. Med.; citation_title=Taking regulatory T cells into medicine; citation_author=S Sakaguchi; citation_volume=218; citation_publication_date=2021; citation_pages=e20210831; citation_doi=10.1084/jem.20210831; citation_id=CR3",
+    "citation_journal_title=J. Exp. Med.; citation_title=Conversion of peripheral CD4+CD25\u2212 naive T cells to CD4+CD25+ regulatory T cells by TGF-\u03b2 induction of transcription factor Foxp3; citation_author=W Chen; citation_volume=198; citation_publication_date=2003; citation_pages=1875-1886; citation_doi=10.1084/jem.20030152; citation_id=CR4",
+    "citation_journal_title=Trends Immunol.; citation_title=Induced regulatory T cells: their development, stability, and applications; citation_author=M Kanamori, H Nakatsukasa, M Okada, Q Lu, A Yoshimura; citation_volume=37; citation_publication_date=2016; citation_pages=803-811; citation_doi=10.1016/j.it.2016.08.012; citation_id=CR5",
+    "citation_journal_title=PLoS Biol.; citation_title=Epigenetic control of the Foxp3 locus in regulatory T cells; citation_author=S Floess; citation_volume=5; citation_publication_date=2007; citation_doi=10.1371/journal.pbio.0050038; citation_id=CR6",
+    "citation_journal_title=Nat. Rev. Drug Discov.; citation_title=Next-generation regulatory T cell therapy; citation_author=LMR Ferreira, YD Muller, JA Bluestone, Q Tang; citation_volume=18; citation_publication_date=2019; citation_pages=749-769; citation_doi=10.1038/s41573-019-0041-4; citation_id=CR7",
+    "citation_journal_title=Curr. Opin. Immunol.; citation_title=New Treg cell-based therapies of autoimmune diseases: towards antigen-specific immune suppression; citation_author=N Mikami, R Kawakami, S Sakaguchi; citation_volume=67; citation_publication_date=2020; citation_pages=36-41; citation_doi=10.1016/j.coi.2020.07.004; citation_id=CR8",
+    "citation_journal_title=Nature; citation_title=Targeting REGNASE-1 programs long-lived effector T cells for cancer therapy; citation_author=J Wei; citation_volume=576; citation_publication_date=2019; citation_pages=471-476; citation_doi=10.1038/s41586-019-1821-z; citation_id=CR9",
+    "Shifrut, E. et al. Genome-wide CRISPR screens in primary human T cells reveal key regulators of immune function. Cell \n                  https://doi.org/10.1016/j.cell.2018.10.024\n                  \n                 (2018).",
+    "citation_journal_title=Cell; citation_title=Systematic immunotherapy target discovery using genome-scale in vivo CRISPR screens in CD8 T cells; citation_author=MB Dong; citation_volume=178; citation_publication_date=2019; citation_pages=1189-1204.e23; citation_doi=10.1016/j.cell.2019.07.044; citation_id=CR11",
+    "citation_journal_title=Nature; citation_title=CRISPR screen in regulatory T cells reveals modulators of Foxp3; citation_author=JT Cortez; citation_volume=582; citation_publication_date=2020; citation_pages=416-420; citation_doi=10.1038/s41586-020-2246-4; citation_id=CR12",
+    "citation_journal_title=Immunity; citation_title=A genome-wide CRISPR screen reveals a role for the non-canonical nucleosome-remodeling BAF complex in Foxp3 expression and regulatory T cell function; citation_author=C-S Loo; citation_volume=53; citation_publication_date=2020; citation_pages=143-157.e8; citation_doi=10.1016/j.immuni.2020.06.011; citation_id=CR13",
+    "citation_journal_title=Nat. Immunol.; citation_title=Functional CRISPR dissection of gene networks controlling human regulatory T cell identity; citation_author=K Schumann; citation_volume=21; citation_publication_date=2020; citation_pages=1456-1466; citation_doi=10.1038/s41590-020-0784-4; citation_id=CR14",
+    "citation_journal_title=Nat. Biotechnol.; citation_title=Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9; citation_author=JG Doench; citation_volume=34; citation_publication_date=2016; citation_pages=184-191; citation_doi=10.1038/nbt.3437; citation_id=CR15",
+    "citation_journal_title=Genome Biol.; citation_title=MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens; citation_author=W Li; citation_volume=15; citation_publication_date=2014; citation_doi=10.1186/s13059-014-0554-4; citation_id=CR16",
+    "citation_journal_title=Nat. Immunol.; citation_title=Smad3 and NFAT cooperate to induce Foxp3 expression through its enhancer; citation_author=Y Tone; citation_volume=9; citation_publication_date=2007; citation_pages=194-202; citation_doi=10.1038/ni1549; citation_id=CR17",
+    "citation_journal_title=J. Exp. Med.; citation_title=TGF-\u03b2 signaling controls Foxp3 methylation and Treg cell differentiation by modulating Uhrf1 activity; citation_author=X Sun, Y Cui, H Feng, H Liu, X Liu; citation_volume=216; citation_publication_date=2019; citation_pages=2819-2837; citation_doi=10.1084/jem.20190550; citation_id=CR18",
+    "citation_journal_title=Science; citation_title=Control of regulatory T cell development by the transcription factor Foxp3; citation_author=S Hori, T Nomura, S Sakaguchi; citation_volume=299; citation_publication_date=2003; citation_pages=1057-1061; citation_doi=10.1126/science.1079490; citation_id=CR19",
+    "citation_journal_title=J. Exp. Med.; citation_title=Optimized RNP transfection for highly efficient CRISPR/Cas9-mediated gene knockout in primary T cells; citation_author=A Seki, S Rutz; citation_volume=215; citation_publication_date=2018; citation_pages=985-997; citation_doi=10.1084/jem.20171626; citation_id=CR20",
+    "citation_journal_title=Nat. Commun.; citation_title=DHX36 prevents the accumulation of translationally inactive mRNAs with G4-structures in untranslated regions; citation_author=M Sauer; citation_volume=10; citation_publication_date=2019; citation_pages=2421; citation_doi=10.1038/s41467-019-10432-5; citation_id=CR21",
+    "citation_journal_title=Nat. Immunol.; citation_title=Single-cell gene expression reveals a landscape of regulatory T cell phenotypes shaped by the TCR; citation_author=D Zemmour; citation_volume=19; citation_publication_date=2018; citation_pages=291-301; citation_doi=10.1038/s41590-018-0051-0; citation_id=CR22",
+    "Luo, Y. et al. Single-cell transcriptomic analysis reveals disparate effector differentiation pathways in human Treg compartment. Nat. Commun. \n                  https://doi.org/10.1038/s41467-021-24213-6\n                  \n                 (2021).",
+    "Chen, K. Y. et al. Joint single-cell measurements of surface proteins, intracellular proteins and gene expression with icCITE-seq. Preprint at bioRxiv \n                  https://doi.org/10.1101/2025.01.11.632564\n                  \n                 (2025).",
+    "citation_journal_title=Nat. Genet.; citation_title=Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks; citation_author=JW Freimer; citation_volume=54; citation_publication_date=2022; citation_pages=1133-1144; citation_doi=10.1038/s41588-022-01106-y; citation_id=CR25",
+    "citation_journal_title=Cell; citation_title=Perturb-seq: dissecting molecular circuits with scalable single-cell RNA profiling of pooled genetic screens; citation_author=A Dixit; citation_volume=167; citation_publication_date=2016; citation_pages=1853-1866.e17; citation_doi=10.1016/j.cell.2016.11.038; citation_id=CR26",
+    "citation_journal_title=Nat. Genet.; citation_title=Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion; citation_author=CJ Frangieh; citation_volume=53; citation_publication_date=2021; citation_pages=332-341; citation_doi=10.1038/s41588-021-00779-1; citation_id=CR27",
+    "citation_journal_title=eLife; citation_title=Glycolysis and glutaminolysis cooperatively control T cell function by limiting metabolite supply to N-glycosylation; citation_author=L Araujo, P Khim, H Mkhikian, C-L Mortales, M Demetriou; citation_volume=6; citation_publication_date=2017; citation_pages=e21330; citation_doi=10.7554/eLife.21330; citation_id=CR28",
+    "citation_journal_title=Science; citation_title=Repression of the transcription factor Th-POK by Runx complexes in cytotoxic T cell development; citation_author=R Setoguchi; citation_volume=319; citation_publication_date=2008; citation_pages=822-825; citation_doi=10.1126/science.1151844; citation_id=CR29",
+    "citation_journal_title=Immunity; citation_title=The zinc finger transcription factor Zbtb7b represses CD8-lineage gene expression in peripheral CD4+ T cells; citation_author=L Wang; citation_volume=29; citation_publication_date=2008; citation_pages=876-887; citation_doi=10.1016/j.immuni.2008.09.019; citation_id=CR30",
+    "citation_journal_title=Nat. Struct. Mol. Biol.; citation_title=Structural basis for the assembly of the SMRT/NCoR core transcriptional repression machinery; citation_author=J Oberoi; citation_volume=18; citation_publication_date=2011; citation_pages=177-184; citation_doi=10.1038/nsmb.1983; citation_id=CR31",
+    "citation_journal_title=Genes Dev.; citation_title=A histone deacetylase corepressor complex regulates the Notch signal transduction pathway; citation_author=HY Kao; citation_volume=12; citation_publication_date=1998; citation_pages=2269-2277; citation_doi=10.1101/gad.12.15.2269; citation_id=CR32",
+    "citation_journal_title=Cell; citation_title=The suppressor of hairless protein participates in Notch receptor signaling; citation_author=ME Fortini, S Artavanis-Tsakonas; citation_volume=79; citation_publication_date=1994; citation_pages=273-282; citation_doi=10.1016/0092-8674(94)90196-1; citation_id=CR33",
+    "citation_journal_title=Genes Dev.; citation_title=Dynamic binding of RBPJ is determined by Notch signaling status; citation_author=D Castel; citation_volume=27; citation_publication_date=2013; citation_pages=1059-1071; citation_doi=10.1101/gad.211912.112; citation_id=CR34",
+    "Jarriault, S. et al. Signalling downstream of activated mammalian Notch. Nature \n                  https://doi.org/10.1038/377355a0\n                  \n                 (1995).",
+    "citation_journal_title=EMBO J.; citation_title=SHARP is a novel component of the Notch/RBP-J\u03ba signalling pathway; citation_author=F Oswald; citation_volume=21; citation_publication_date=2002; citation_pages=5417-5426; citation_doi=10.1093/emboj/cdf549; citation_id=CR36",
+    "citation_journal_title=Nucleic Acids Res.; citation_title=A phospho-dependent mechanism involving NCoR and KMT2D controls a permissive chromatin state at Notch target genes; citation_author=F Oswald; citation_volume=44; citation_publication_date=2016; citation_pages=4703-4720; citation_doi=10.1093/nar/gkw105; citation_id=CR37",
+    "citation_journal_title=Nat. Commun.; citation_title=Rbpj expression in regulatory T cells is critical for restraining T2 responses; citation_author=M Delacher; citation_volume=10; citation_publication_date=2019; citation_doi=10.1038/s41467-019-09276-w; citation_id=CR38",
+    "citation_journal_title=Nature; citation_title=Role of conserved non-coding DNA elements in the Foxp3 gene in regulatory T-cell fate; citation_author=Y Zheng; citation_volume=463; citation_publication_date=2010; citation_pages=808-812; citation_doi=10.1038/nature08750; citation_id=CR39",
+    "citation_journal_title=Cell; citation_title=Control of the inheritance of regulatory T cell identity by a cis element in the Foxp3 locus; citation_author=Y Feng; citation_volume=158; citation_publication_date=2014; citation_pages=749-763; citation_doi=10.1016/j.cell.2014.07.031; citation_id=CR40",
+    "citation_journal_title=Cell; citation_title=Function of a Foxp3 cis-element in protecting regulatory T cell identity; citation_author=X Li, Y Liang, M LeBlanc, C Benner, Y Zheng; citation_volume=158; citation_publication_date=2014; citation_pages=734-748; citation_doi=10.1016/j.cell.2014.07.030; citation_id=CR41",
+    "citation_journal_title=Immunity; citation_title=Distinct Foxp3 enhancer elements coordinate development, maintenance, and function of regulatory T cells; citation_author=R Kawakami; citation_volume=54; citation_publication_date=2021; citation_pages=947-961.e8; citation_doi=10.1016/j.immuni.2021.04.005; citation_id=CR42",
+    "citation_journal_title=Immunity; citation_title=A distal Foxp3 enhancer enables interleukin-2 dependent thymic Treg cell lineage commitment for robust immune tolerance; citation_author=S Dikiy; citation_volume=54; citation_publication_date=2021; citation_pages=931-946.e11; citation_doi=10.1016/j.immuni.2021.03.020; citation_id=CR43",
+    "citation_journal_title=Immunity; citation_title=T cell receptor stimulation-induced epigenetic changes and Foxp3 expression are independent and complementary events required for Treg cell development; citation_author=N Ohkura; citation_volume=37; citation_publication_date=2012; citation_pages=785-799; citation_doi=10.1016/j.immuni.2012.09.010; citation_id=CR44",
+    "citation_journal_title=Proc. Natl Acad. Sci. USA; citation_title=Epigenetic conversion of conventional T cells into regulatory T cells by CD28 signal deprivation; citation_author=N Mikami; citation_volume=117; citation_publication_date=2020; citation_pages=12258-12268; citation_doi=10.1073/pnas.1922600117; citation_id=CR45",
+    "citation_journal_title=J. Exp. Med.; citation_title=Control of Foxp3 stability through modulation of TET activity; citation_author=X Yue; citation_volume=213; citation_publication_date=2016; citation_pages=377-397; citation_doi=10.1084/jem.20151438; citation_id=CR46",
+    "citation_journal_title=PLoS ONE; citation_title=Comparative analysis of protocols to induce human CD4+Foxp3+ regulatory T cells by combinations of IL-2, TGF-\u03b2, retinoic acid, rapamycin and butyrate; citation_author=A Schmidt, M Eriksson, M-M Shang, H Weyd, J Tegn\u00e9r; citation_volume=11; citation_publication_date=2016; citation_pages=e0148474; citation_doi=10.1371/journal.pone.0148474; citation_id=CR47",
+    "citation_journal_title=Nat. Genet.; citation_title=Rational targeting of a NuRD subcomplex guided by comprehensive in situ mutagenesis; citation_author=F Sher; citation_volume=51; citation_publication_date=2019; citation_pages=1149-1159; citation_doi=10.1038/s41588-019-0453-4; citation_id=CR48",
+    "Yuan, Z. et al. Structural and functional studies of the RBPJ-SHARP complex reveal a conserved corepressor binding site. Cell Rep. 26, 845\u2013854.e6 (2019).",
+    "citation_journal_title=Nature; citation_title=A complex containing N-CoR, mSln3 and histone deacetylase mediates transcriptional repression; citation_author=T Heinzel; citation_volume=387; citation_publication_date=1997; citation_pages=43-48; citation_doi=10.1038/387043a0; citation_id=CR50",
+    "citation_journal_title=Nat. Biotechnol.; citation_title=Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells; citation_author=EP Mimitou; citation_volume=39; citation_publication_date=2021; citation_pages=1246-1258; citation_doi=10.1038/s41587-021-00927-2; citation_id=CR51",
+    "citation_journal_title=eLife; citation_title=An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites; citation_author=PJ Skene, S Henikoff; citation_volume=6; citation_publication_date=2017; citation_pages=e21856; citation_doi=10.7554/eLife.21856; citation_id=CR52",
+    "citation_journal_title=Cell; citation_title=Direct promoter repression by BCL11A controls the fetal to adult hemoglobin switch; citation_author=N Liu; citation_volume=173; citation_publication_date=2018; citation_pages=430-442.e17; citation_doi=10.1016/j.cell.2018.03.016; citation_id=CR53",
+    "citation_journal_title=Immunity; citation_title=The transcription factor Foxp3 shapes regulatory T cell identity by tuning the activity of trans-acting intermediaries; citation_author=J Veeken; citation_volume=53; citation_publication_date=2020; citation_pages=971-984.e5; citation_doi=10.1016/j.immuni.2020.10.010; citation_id=CR54",
+    "citation_journal_title=Nature; citation_title=Single-cell CRISPR screens in vivo map T cell fate regulomes in cancer; citation_author=P Zhou; citation_volume=624; citation_publication_date=2023; citation_pages=154-163; citation_doi=10.1038/s41586-023-06733-x; citation_id=CR55",
+    "citation_journal_title=Cell Rep.; citation_title=RBPJ controls development of pathogenic Th17 cells by regulating IL-23 receptor expression; citation_author=G Meyer Zu Horste; citation_volume=16; citation_publication_date=2016; citation_pages=392-404; citation_doi=10.1016/j.celrep.2016.05.088; citation_id=CR56",
+    "citation_journal_title=Nat. Commun.; citation_title=Joint single-cell DNA accessibility and protein epitope profiling reveals environmental regulation of epigenomic heterogeneity; citation_author=X Chen; citation_volume=9; citation_publication_date=2018; citation_doi=10.1038/s41467-018-07115-y; citation_id=CR57",
+    "citation_journal_title=Cell Rep. Methods; citation_title=Integrating transcription-factor abundance with chromatin accessibility in human erythroid lineage commitment; citation_author=R Baskar; citation_volume=2; citation_publication_date=2022; citation_pages=100188; citation_doi=10.1016/j.crmeth.2022.100188; citation_id=CR58",
+    "citation_journal_title=Proc. Natl Acad. Sci. USA; citation_title=Heterogeneity of natural Foxp3+ T cells: a committed regulatory T-cell lineage and an uncommitted minor population retaining plasticity; citation_author=N Komatsu; citation_volume=106; citation_publication_date=2009; citation_pages=1903-1908; citation_doi=10.1073/pnas.0811556106; citation_id=CR59",
+    "citation_journal_title=Immunity; citation_title=A critical role for Dnmt1 and DNA methylation in T cell development, function, and survival; citation_author=PP Lee; citation_volume=15; citation_publication_date=2001; citation_pages=763-774; citation_doi=10.1016/S1074-7613(01)00227-8; citation_id=CR60",
+    "citation_journal_title=Genes Dev.; citation_title=Pancreatic cancer modeling using retrograde viral vector delivery and in vivo CRISPR/Cas9-mediated somatic genome editing; citation_author=SH Chiou; citation_volume=29; citation_publication_date=2015; citation_pages=1576-1585; citation_doi=10.1101/gad.264861.115; citation_id=CR61",
+    "citation_journal_title=Int. Immunol.; citation_title=Inducible gene knockout of transcription factor recombination signal binding protein-J reveals its essential role in T versus B lineage decision; citation_author=H Han; citation_volume=14; citation_publication_date=2002; citation_pages=637-645; citation_doi=10.1093/intimm/dxf030; citation_id=CR62",
+    "National Research Council, Division on Earth and Life Studies, Institute for Laboratory Animal Research & Committee for the Update of the Guide for the Care and Use of Laboratory Animals. Guide for the Care and Use of Laboratory Animals 8th edn (National Academies Press, 2011).",
+    "citation_journal_title=Gene Ther.; citation_title=Plat-E: an efficient and stable system for transient packaging of retroviruses; citation_author=S Morita, T Kojima, T Kitamura; citation_volume=7; citation_publication_date=2000; citation_pages=1063-1066; citation_doi=10.1038/sj.gt.3301206; citation_id=CR64",
+    "citation_journal_title=Nat. Protoc.; citation_title=Genome-scale CRISPR\u2013Cas9 knockout and transcriptional activation screening; citation_author=J Joung; citation_volume=12; citation_publication_date=2017; citation_pages=828-863; citation_doi=10.1038/nprot.2017.016; citation_id=CR65",
+    "citation_journal_title=Nat. Commun.; citation_title=Metascape provides a biologist-oriented resource for the analysis of systems-level datasets; citation_author=Y Zhou; citation_volume=10; citation_publication_date=2019; citation_doi=10.1038/s41467-019-09234-6; citation_id=CR66",
+    "Korotkevich, G. et al. Fast gene set enrichment analysis. Preprint at bioRxiv \n                  https://doi.org/10.1101/060012\n                  \n                 (2021).",
+    "citation_journal_title=Methods Mol. Biol.; citation_title=Rapid quantitative evaluation of CRISPR genome editing by TIDE and TIDER; citation_author=EK Brinkman, B Steensel; citation_volume=1961; citation_publication_date=2019; citation_pages=29-44; citation_doi=10.1007/978-1-4939-9170-9_3; citation_id=CR68",
+    "citation_journal_title=CRISPR J.; citation_title=Inference of CRISPR edits from Sanger trace data; citation_author=D Conant; citation_volume=5; citation_publication_date=2022; citation_pages=123-130; citation_doi=10.1089/crispr.2021.0113; citation_id=CR69",
+    "citation_journal_title=Genome Biol.; citation_title=CRISPRO: identification of functional protein coding sequences based on genome editing dense mutagenesis; citation_author=VAC Schoonenberg; citation_volume=19; citation_publication_date=2018; citation_doi=10.1186/s13059-018-1563-5; citation_id=CR70",
+    "citation_journal_title=Nat. Methods; citation_title=An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues; citation_author=MR Corces; citation_volume=14; citation_publication_date=2017; citation_pages=959-962; citation_doi=10.1038/nmeth.4396; citation_id=CR71",
+    "citation_journal_title=Curr. Protoc. Mol. Biol.; citation_title=ATAC-seq: a method for assaying chromatin accessibility genome-wide; citation_author=JD Buenrostro, B Wu, HY Chang, WJ Greenleaf; citation_volume=109; citation_publication_date=2015; citation_pages=21.29.1-21.29.9; citation_doi=10.1002/0471142727.mb2129s109; citation_id=CR72",
+    "citation_journal_title=BMC Biol.; citation_title=Fueling the fire: emerging role of the hexosamine biosynthetic pathway in cancer; citation_author=NM Akella, L Ciraku, MJ Reginato; citation_volume=17; citation_publication_date=2019; citation_doi=10.1186/s12915-019-0671-3; citation_id=CR73",
+    "citation_journal_title=Nat. Rev. Mol. Cell Biol.; citation_title=Glycosylation-directed quality control of protein folding; citation_author=C Xu, DT Ng; citation_volume=16; citation_publication_date=2015; citation_pages=742-752; citation_doi=10.1038/nrm4073; citation_id=CR74"
+  ],
+  "citation_author": [
+    "Chen, Kelvin Y.",
+    "Kibayashi, Tatsuya",
+    "Giguelay, Ambre",
+    "Hata, Mayu",
+    "Nakajima, Shunsuke",
+    "Mikami, Norihisa",
+    "Takeshima, Yusuke",
+    "Ichiyama, Kenji",
+    "Omiya, Ryusuke",
+    "Ludwig, Leif S.",
+    "Hattori, Kunihiro",
+    "Sakaguchi, Shimon"
+  ],
+  "citation_author_institution": [
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Joint Research Chair of Innovative Drug Discovery in Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Research Division, Chugai Pharmaceutical Co. Ltd, Yokohama, Japan",
+    "Berlin Institute of Health at Charit\u00e9\u2013Universit\u00e4tsmedizin Berlin, Berlin, Germany",
+    "Max-Delbr\u00fcck-Center for Molecular Medicine in the Helmholtz Association (MDC), Berlin Institute for Medical Systems Biology (BIMSB), Berlin, Germany",
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Joint Research Chair of Innovative Drug Discovery in Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Research Division, Chugai Pharmaceutical Co. Ltd, Yokohama, Japan",
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Joint Research Chair of Innovative Drug Discovery in Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Research Division, Chugai Pharmaceutical Co. Ltd, Yokohama, Japan",
+    "Berlin Institute of Health at Charit\u00e9\u2013Universit\u00e4tsmedizin Berlin, Berlin, Germany",
+    "Max-Delbr\u00fcck-Center for Molecular Medicine in the Helmholtz Association (MDC), Berlin Institute for Medical Systems Biology (BIMSB), Berlin, Germany",
+    "Joint Research Chair of Innovative Drug Discovery in Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Research Division, Chugai Pharmaceutical Co. Ltd, Yokohama, Japan",
+    "Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan",
+    "Department of Experimental Pathology, Institute for Life and Medical Sciences, Kyoto University, Kyoto, Japan"
+  ]
+}

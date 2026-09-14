@@ -1,0 +1,1059 @@
+[
+  {
+    "bridge_id": "MA-B01",
+    "mechanism_id": "MA-M01",
+    "from_assertion_id": "MA-A01",
+    "to_assertion_id": "MA-A02",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S01"
+    ],
+    "source_locators": [
+      "Results Co-stimulation is required for open chromatin formation; FigS5A; Methods nuclear proteins/Western blot",
+      "Fig5D–G; Results AP-1 inhibition; Methods A-FOS preparation/electroporation/ATAC-seq"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S01_full.txt"
+    ],
+    "evidence_summary": "CD28 withdrawal reduces nuclear AP-1; perturbing AP-1 with A-FOS reduces activation-induced chromatin opening. This supports an AP-1 requirement within CD3/CD28 activation, without identifying a natural indirect-effect fraction.",
+    "entity_mapping": "Intermediate is the AP-1 FOS/JUN protein family; A-FOS perturbs JUN-partner DNA-binding capacity. Nuclear abundance and complex activity are distinct measured/perturbed aspects, not identical observations.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive; CD3 stimulation with or without CD28",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "Bead coating: 24 ng anti-CD3 and 52 ng anti-CD28 or mouse IgG per 100 µL beads",
+        "duration": "5 h primary chromatin comparison; FigS5A nuclear-blot sampling points not transcribed",
+        "time_point": "5 h for ATAC; nuclear-blot time labels unavailable",
+        "cohort_id": "MA-CO01"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive cells electroporated before activation",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "25 µg A-FOS or GFP per 3.5 million naive cells",
+        "duration": "2 h recovery then 5 h activation",
+        "time_point": "5 h after CD3/CD28 stimulation",
+        "cohort_id": "MA-CO01"
+      },
+      "biological_preparation_left": "Negatively isolated CD4+CD45RO− naive T cells",
+      "biological_preparation_right": "Negatively isolated CD4+CD45RO− naive T cells",
+      "cohort_linkage": "Same primary naive-cell preparation/protocol and paper; total3 donors; exact overlap across experiments unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "CD28 contrast begins at activation; A-FOS precedes activation by2h; chromatin sampled5h later. Scheduling documented; no time-resolved AP-1→ATAC lag measured.",
+    "measurement_basis": "Nuclear immunoblot plus relevant protein intermediate perturbation and ATAC endpoint; not RNA→protein inference.",
+    "experimental_linkage": "Same primary naive-cell preparation/protocol and paper; total3 donors; exact overlap across experiments unavailable.",
+    "limitations": "No rescue of CD28 omission by AP-1, broad dominant-negative effects, and other CD28 signaling branches remain possible.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "supported",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "supported",
+      "experimental_linkage": "supported",
+      "mediation_test": "supported"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B02",
+    "mechanism_id": "MA-M01",
+    "from_assertion_id": "MA-A02",
+    "to_assertion_id": "MA-A03",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S01"
+    ],
+    "source_locators": [
+      "Fig5D–G; Results AP-1 inhibition; Methods A-FOS preparation/electroporation/ATAC-seq",
+      "Fig5H; Methods RNA-seq and A-FOS electroporation"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S01_full.txt"
+    ],
+    "evidence_summary": "AP-1 inhibition produces chromatin and RNA branches. Co-occurrence does not prove that a measured accessibility change caused a particular RNA change.",
+    "entity_mapping": "Shared A-FOS treatment; G-layer accessibility and T-layer RNA remain separate endpoints.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive cells electroporated before activation",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "25 µg A-FOS or GFP per 3.5 million naive cells",
+        "duration": "2 h recovery then 5 h activation",
+        "time_point": "5 h after CD3/CD28 stimulation",
+        "cohort_id": "MA-CO01"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive human CD4 cells activated with CD3/CD28",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "25 µg A-FOS or GFP per 3.5 million cells",
+        "duration": "2 h recovery then 5 h activation",
+        "time_point": "5 h",
+        "cohort_id": "MA-CO01"
+      },
+      "biological_preparation_left": "Negatively isolated CD4+CD45RO− naive T cells",
+      "biological_preparation_right": "Negatively isolated CD4+CD45RO− naive T cells",
+      "cohort_linkage": "Same source/protocol,3 donors total; exact matched aliquot and donor overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Both sampled after5h activation following2h electroporation recovery; no measured serial order.",
+    "measurement_basis": "ATAC-seq and RNA-seq are distinct endpoint assays under the same perturbation.",
+    "experimental_linkage": "Same source/protocol,3 donors total; exact matched aliquot and donor overlap unavailable.",
+    "limitations": "Cannot infer secretion, protein abundance, or functional anergy from the RNA/chromatin profile.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B03",
+    "mechanism_id": "MA-M01",
+    "from_assertion_id": "MA-A01",
+    "to_assertion_id": "MA-A05",
+    "bridge_type": "context_contrast",
+    "bridge_relation": "opposes",
+    "source_ids": [
+      "MA-S01"
+    ],
+    "source_locators": [
+      "Results Co-stimulation is required for open chromatin formation; FigS5A; Methods nuclear proteins/Western blot",
+      "FigS5D; Results Co-stimulation is required"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S01_full.txt"
+    ],
+    "evidence_summary": "Under CD28 omission nuclear AP-1 falls strongly while most NFAT1 binding remains detectable. This opposes treating NFAT1 presence as sufficient for chromatin opening in this context.",
+    "entity_mapping": "AP-1 nuclear protein and NFAT1 DNA occupancy are distinct TF measurements; no serial mapping.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive; CD3 stimulation with or without CD28",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "Bead coating: 24 ng anti-CD3 and 52 ng anti-CD28 or mouse IgG per 100 µL beads",
+        "duration": "5 h primary chromatin comparison; FigS5A nuclear-blot sampling points not transcribed",
+        "time_point": "5 h for ATAC; nuclear-blot time labels unavailable",
+        "cohort_id": "MA-CO01"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Negatively isolated CD4+CD45RO− naive T cells",
+        "cell_state": "naive; CD3 stimulation with or without CD28",
+        "tissue": "peripheral blood",
+        "stimulation": "anti-CD3 beads with CD28 or IgG; A-FOS versus GFP electroporation",
+        "dose": "Bead coating: 24 ng anti-CD3 and 52 ng anti-CD28 or mouse IgG per 100 µL beads",
+        "duration": "5 h primary chromatin comparison; FigS5A nuclear-blot sampling points not transcribed",
+        "time_point": "5 h for ATAC; nuclear-blot time labels unavailable",
+        "cohort_id": "MA-CO01"
+      },
+      "biological_preparation_left": "Negatively isolated CD4+CD45RO− naive T cells",
+      "biological_preparation_right": "Negatively isolated CD4+CD45RO− naive T cells",
+      "cohort_linkage": "Same naive-cell source protocol; figure-specific donor overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Documented activation contrasts; exact NFAT/nuclear sampling-time identity unavailable.",
+    "measurement_basis": "Nuclear Western blot versus ChIP-seq; comparison does not test NFAT knockout.",
+    "experimental_linkage": "Same naive-cell source protocol; figure-specific donor overlap unavailable.",
+    "limitations": "IL2 locus is an exception to retained NFAT binding; no universal NFAT dispensability claim.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "not_demonstrated",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B04",
+    "mechanism_id": "MA-M02",
+    "from_assertion_id": "MA-A06",
+    "to_assertion_id": "MA-A07",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S02"
+    ],
+    "source_locators": [
+      "Methods2.4; Results3.1; Fig2D",
+      "Methods2.4/flow; Results3.1; Fig2E"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S02_full.txt"
+    ],
+    "evidence_summary": "STAT5B depletion reduces both FOXP3 RNA and protein, a transcriptional/protein response profile.",
+    "entity_mapping": "Same gene perturbation; FOXP3 RNA and FOXP3 protein remain different molecular layers.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+        "cell_state": "Unstimulated CD4 cells after siRNA transfection",
+        "tissue": "peripheral blood",
+        "stimulation": "STAT5 siRNA; no further stimulation for RNA study",
+        "dose": "2 nmol siRNA cocktail per 2×10^5 cells/10 µL",
+        "duration": "24–72 h",
+        "time_point": "24 and 72 h",
+        "cohort_id": "MA-CO02"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+        "cell_state": "Unstimulated CD4 cells after siRNA transfection",
+        "tissue": "peripheral blood",
+        "stimulation": "STAT5 siRNA; no further stimulation for RNA study",
+        "dose": "2 nmol siRNA cocktail per 2×10^5 cells/10 µL",
+        "duration": "72 h",
+        "time_point": "72 h",
+        "cohort_id": "MA-CO02"
+      },
+      "biological_preparation_left": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+      "biological_preparation_right": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+      "cohort_linkage": "Healthy primary CD4 protocol shared; differing sample counts and donor/aliquot overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "RNA24/72h and protein72h; documented sampling supports response profile, not translation kinetics.",
+    "measurement_basis": "qPCR and flow; no pulse-labeling/translation or isoform-specific bridge.",
+    "experimental_linkage": "Healthy primary CD4 protocol shared; differing sample counts and donor/aliquot overlap unavailable.",
+    "limitations": "No rescue and no measured suppression in the knockdown preparation.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B05",
+    "mechanism_id": "MA-M02",
+    "from_assertion_id": "MA-A06",
+    "to_assertion_id": "MA-A08",
+    "bridge_type": "context_contrast",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S02"
+    ],
+    "source_locators": [
+      "Methods2.4; Results3.1; Fig2D",
+      "Methods2.4; Results3.1; Fig2D"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S02_full.txt"
+    ],
+    "evidence_summary": "STAT5B and STAT5A depletion produce differing FOXP3 RNA responses in the tested preparation.",
+    "entity_mapping": "Paralogs are distinct genes, not interchangeable STAT5 observations.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+        "cell_state": "Unstimulated CD4 cells after siRNA transfection",
+        "tissue": "peripheral blood",
+        "stimulation": "STAT5 siRNA; no further stimulation for RNA study",
+        "dose": "2 nmol siRNA cocktail per 2×10^5 cells/10 µL",
+        "duration": "24–72 h",
+        "time_point": "24 and 72 h",
+        "cohort_id": "MA-CO02"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+        "cell_state": "Unstimulated CD4 cells after siRNA transfection",
+        "tissue": "peripheral blood",
+        "stimulation": "STAT5 siRNA; no further stimulation for RNA study",
+        "dose": "2 nmol siRNA cocktail per 2×10^5 cells/10 µL",
+        "duration": "24–72 h",
+        "time_point": "24 and 72 h",
+        "cohort_id": "MA-CO02"
+      },
+      "biological_preparation_left": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+      "biological_preparation_right": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+      "cohort_linkage": "Same healthy-cell protocol; exact pairing unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Matched24/72h schedule.",
+    "measurement_basis": "Same qPCR endpoint with paralog-specific siRNA conditions.",
+    "experimental_linkage": "Same healthy-cell protocol; exact pairing unavailable.",
+    "limitations": "Partial knockdown and small groups; STAT5A null is not equivalence or proof of global dispensability.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B06",
+    "mechanism_id": "MA-M02",
+    "from_assertion_id": "MA-A07",
+    "to_assertion_id": "MA-A09",
+    "bridge_type": "serial_transition",
+    "bridge_relation": "inconclusive",
+    "source_ids": [
+      "MA-S02"
+    ],
+    "source_locators": [
+      "Methods2.4/flow; Results3.1; Fig2E",
+      "Methods2.2/2.7; Results3.2; Fig3"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S02_full.txt"
+    ],
+    "evidence_summary": "A proposed STAT5B→FOXP3→suppression connection is blocked: knockdown protein data and patient correlation do not demonstrate FOXP3 mediation of function.",
+    "entity_mapping": "Left is FOXP3 protein after siRNA; right is cross-person FOXP3-positive fraction correlated with function. Neither identical molecular state nor experimental causal transfer is shown.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+        "cell_state": "Unstimulated CD4 cells after siRNA transfection",
+        "tissue": "peripheral blood",
+        "stimulation": "STAT5 siRNA; no further stimulation for RNA study",
+        "dose": "2 nmol siRNA cocktail per 2×10^5 cells/10 µL",
+        "duration": "72 h",
+        "time_point": "72 h",
+        "cohort_id": "MA-CO02"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "FACS-sorted CD4+CD25hiCD127low/− Tregs and CD4+CD25− responders",
+        "cell_state": "Patient-derived and control Tregs",
+        "tissue": "peripheral blood",
+        "stimulation": "Natural STAT5B deficiency; suppression correlation",
+        "dose": "unavailable",
+        "duration": "Methods2.7 standard assay: 7 days; last16 h thymidine",
+        "time_point": "After culture; per-sample temporal pairing unavailable",
+        "cohort_id": "MA-CO03"
+      },
+      "biological_preparation_left": "Purified human CD4+ cells; FOXP3 protein readout gated CD4+CD25+",
+      "biological_preparation_right": "FACS-sorted CD4+CD25hiCD127low/− Tregs and CD4+CD25− responders",
+      "cohort_linkage": "Different healthy and patient cohorts; earlier patient-publication overlap unresolved.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "72h siRNA endpoint versus disease-cohort ex vivo assay; serial time order unavailable.",
+    "measurement_basis": "Flow abundance/frequency differ; downstream is thymidine incorporation; no FOXP3 rescue/depletion in the STAT5B-deficient functional experiment.",
+    "experimental_linkage": "Different healthy and patient cohorts; earlier patient-publication overlap unresolved.",
+    "limitations": "Genotype, disease and alternative STAT5 targets confound transport.",
+    "status": "blocked_missing_evidence",
+    "checks": {
+      "entity_continuity": "not_demonstrated",
+      "context_compatibility": "not_demonstrated",
+      "temporal_compatibility": "not_demonstrated",
+      "measurement_link": "not_demonstrated",
+      "experimental_linkage": "not_demonstrated",
+      "mediation_test": "not_demonstrated"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B07",
+    "mechanism_id": "MA-M03",
+    "from_assertion_id": "MA-A13",
+    "to_assertion_id": "MA-A12",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S03"
+    ],
+    "source_locators": [
+      "Fig1b,f; Results Novel regulators; Methods pooled RNP screen",
+      "Fig1f pooled discovery; Fig2c arrayed validation; Fig4/Methods arrayed screen"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S03_full.txt"
+    ],
+    "evidence_summary": "IL12-associated intracellular IFNG induction is sensitive to TBX21 perturbation in expanded primary human Tregs. This is conditional TBX21 dependence, not a demonstrated IL12→TBX21 induction edge.",
+    "entity_mapping": "Intermediate TBX21/T-bet is directly targeted by CRISPR. Downstream IFNG is intracellular protein accumulation in both assays; no secretion is inferred.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Sorted CD4+CD25hiCD127low Tregs (>97% purity), expanded",
+        "cell_state": "Expanded Tregs in pooled RNP experiment with controls",
+        "tissue": "peripheral blood",
+        "stimulation": "Pooled CRISPR RNP screen; cytokine treatments",
+        "dose": "10 ng/mL IL12 plus600 IU/mL IL2 versus IL2 alone",
+        "duration": "72 h cytokine after48 h post-edit recovery; final4.5 h PMA/ionomycin/brefeldin",
+        "time_point": "After72 h cytokine",
+        "cohort_id": "MA-CO04"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Sorted CD4+CD25hiCD127low Tregs, expanded",
+        "cell_state": "Expanded human Tregs after CRISPR",
+        "tissue": "peripheral blood",
+        "stimulation": "Arrayed CRISPR with 3 gRNAs/TF; IL12 or no added IL12",
+        "dose": "10 ng/mL IL12 with600 IU/mL IL2",
+        "duration": "48 h after editing then72 h cytokine; final4.5 h PMA/ionomycin/brefeldin",
+        "time_point": "After72 h cytokine",
+        "cohort_id": "MA-CO04"
+      },
+      "biological_preparation_left": "Sorted CD4+CD25hiCD127low Tregs (>97% purity), expanded",
+      "biological_preparation_right": "Sorted CD4+CD25hiCD127low Tregs, expanded",
+      "cohort_linkage": "Same pooled-screen preparation and donor cohort for primary discovery; arrayed2-donor follow-up is separate. No single-cell lineage matching assumed.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Editing precedes72h IL12 exposure and terminal intracellular cytokine assay. Experimental scheduling documented, no measured TBX21 induction trajectory.",
+    "measurement_basis": "IL12 perturbation/flow plus targeted TBX21 indel enrichment in IFNG-low fraction with separate arrayed validation.",
+    "experimental_linkage": "Same pooled-screen preparation and donor cohort for primary discovery; arrayed2-donor follow-up is separate. No single-cell lineage matching assumed.",
+    "limitations": "Pooled-screen enrichment, incomplete editing, no TBX21 rescue, and cytokine-restimulation context limit the claim to a required regulator of the assayed response.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "supported",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "supported",
+      "experimental_linkage": "supported",
+      "mediation_test": "supported"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B08",
+    "mechanism_id": "MA-M04",
+    "from_assertion_id": "MA-A10",
+    "to_assertion_id": "MA-A11",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S03"
+    ],
+    "source_locators": [
+      "Figs3a,b; Results Multidimensional analysis; Methods arrayed Cas9 RNP screen",
+      "Figs5/6; Methods scRNA-seq and computational analysis"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S03_full.txt"
+    ],
+    "evidence_summary": "FOXP3 knockout changes RNA programs and intracellular cytokine proteins across the study, preserved as a branched regulatory profile.",
+    "entity_mapping": "FOXP3 perturbation is shared; IL2/IFNG protein and a multi-gene RNA program are not treated as matched species or direct translation.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Sorted CD4+CD25hiCD127low Tregs, expanded",
+        "cell_state": "Expanded human Tregs after CRISPR",
+        "tissue": "peripheral blood",
+        "stimulation": "Arrayed CRISPR with 3 gRNAs/TF; IL12 or no added IL12",
+        "dose": "IL12 10 ng/mL with IL2 600 IU/mL; controls IL2 alone",
+        "duration": "48 h after editing then 72 h cytokine; final 6 h PMA/ionomycin/brefeldin for arrayed flow",
+        "time_point": "5 days after editing, plus final restimulation",
+        "cohort_id": "MA-CO05"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Sorted Tregs; activated 48 h before editing for scRNA-seq",
+        "cell_state": "Tregs activated48 h before electroporation",
+        "tissue": "peripheral blood",
+        "stimulation": "Selected TF knockout and IL12 condition; PMA/ionomycin restimulation",
+        "dose": "IL12 condition versus control as study protocol; exact scRNA culture dose/timing not repeated in scRNA Methods",
+        "duration": "48 h activation before editing; final6 h PMA/ionomycin in IL2 300 IU/mL; intervening scRNA culture duration unavailable",
+        "time_point": "After CRISPR/cytokine culture and 6 h restimulation",
+        "cohort_id": "MA-CO06"
+      },
+      "biological_preparation_left": "Sorted CD4+CD25hiCD127low Tregs, expanded",
+      "biological_preparation_right": "Sorted Tregs; activated 48 h before editing for scRNA-seq",
+      "cohort_linkage": "Arrayed donor pair and scRNA donor pair overlap unavailable; scRNA preactivation48h versus prolonged expansion in arrayed screen.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "RNA and flow terminal activation differ; no ordered transition established.",
+    "measurement_basis": "Arrayed flow and scRNA-seq read distinct layers; external ChIP enrichment not a direct gene-specific binding result here.",
+    "experimental_linkage": "Arrayed donor pair and scRNA donor pair overlap unavailable; scRNA preactivation48h versus prolonged expansion in arrayed screen.",
+    "limitations": "Preparation mismatch and2-donor size preclude a serial RNA→protein/function claim.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "not_demonstrated",
+      "temporal_compatibility": "not_demonstrated",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B09",
+    "mechanism_id": "MA-M05",
+    "from_assertion_id": "MA-A14",
+    "to_assertion_id": "MA-A15",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S04"
+    ],
+    "source_locators": [
+      "Fig4E; Methods Phosflow, nucleofection/sorting",
+      "Fig4F; Methods Suppression Assay"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S04_full.txt"
+    ],
+    "evidence_summary": "IL2RA disruption reduces acute pSTAT5 responsiveness and later measured suppressive function; these are separate branches of the receptor perturbation.",
+    "entity_mapping": "Shared IL2RA knockout; pSTAT5 and suppression remain distinct endpoints.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "IL2 100 U/mL",
+        "duration": "2 h rest then15 min IL2",
+        "time_point": "15 min after IL2",
+        "cohort_id": "MA-CO07"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "Treg:PBMC1:2; inspector beads:cell1:1",
+        "duration": "4 days suppression coculture",
+        "time_point": "4-day responder assay",
+        "cohort_id": "MA-CO07"
+      },
+      "biological_preparation_left": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "biological_preparation_right": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "cohort_linkage": "Same expanded/edited/sorted protocol; pSTAT5n=3 and suppressionn=3–6; actual donor overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "15min IL2 pulse versus4-day responder coculture. Scheduling is documented but is not serial tracking of the same cells.",
+    "measurement_basis": "Phospho-flow and responder CFSE dilution.",
+    "experimental_linkage": "Same expanded/edited/sorted protocol; pSTAT5n=3 and suppressionn=3–6; actual donor overlap unavailable.",
+    "limitations": "IL2 consumption, cell persistence and other CD25-related effects may contribute; pSTAT5 is not established mediator of suppression.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B10",
+    "mechanism_id": "MA-M05",
+    "from_assertion_id": "MA-A14",
+    "to_assertion_id": "MA-A15",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "inconclusive",
+    "source_ids": [
+      "MA-S04"
+    ],
+    "source_locators": [
+      "Fig4E; Methods Phosflow, nucleofection/sorting",
+      "Fig4F; Methods Suppression Assay"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S04_full.txt"
+    ],
+    "evidence_summary": "The stronger hypothesis that the suppression defect is mediated by deficient STAT5 phosphorylation remains untested in these experiments.",
+    "entity_mapping": "Proposed STAT5 phosphoprotein intermediate was measured but not separately perturbed or rescued in the suppression assay.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "IL2 100 U/mL",
+        "duration": "2 h rest then15 min IL2",
+        "time_point": "15 min after IL2",
+        "cohort_id": "MA-CO07"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "Treg:PBMC1:2; inspector beads:cell1:1",
+        "duration": "4 days suppression coculture",
+        "time_point": "4-day responder assay",
+        "cohort_id": "MA-CO07"
+      },
+      "biological_preparation_left": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "biological_preparation_right": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "cohort_linkage": "Same receptor-knockout source; assays may use different donors.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Different15min and4-day endpoint schedules; no serial same-cell trace.",
+    "measurement_basis": "No active-STAT5 rescue or matched STAT5 perturbation with functional endpoint.",
+    "experimental_linkage": "Same receptor-knockout source; assays may use different donors.",
+    "limitations": "Receptor perturbation alone cannot distinguish STAT5 mediation from IL2 deprivation or survival effects.",
+    "status": "blocked_missing_evidence",
+    "checks": {
+      "entity_continuity": "supported",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "not_demonstrated",
+      "measurement_link": "not_demonstrated",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_demonstrated"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B11",
+    "mechanism_id": "MA-M05",
+    "from_assertion_id": "MA-A15",
+    "to_assertion_id": "MA-A16",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "opposes",
+    "source_ids": [
+      "MA-S04"
+    ],
+    "source_locators": [
+      "Fig4F; Methods Suppression Assay",
+      "Fig4D; Results CD25-KO; Methods Flow Cytometry"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S04_full.txt"
+    ],
+    "evidence_summary": "Suppression is impaired while FOXP3 abundance shows no detectable change, opposing use of FOXP3 protein alone as the functional endpoint.",
+    "entity_mapping": "Different F and P endpoints under shared IL2RA perturbation.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "Treg:PBMC1:2; inspector beads:cell1:1",
+        "duration": "4 days suppression coculture",
+        "time_point": "4-day responder assay",
+        "cohort_id": "MA-CO07"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+        "cell_state": "Expanded7 days; edited; living CD25− sorted4 days after editing",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2RA CRISPR versus mock/CD25-positive controls",
+        "dose": "unavailable",
+        "duration": "4 days after nucleofection and sorting",
+        "time_point": "4 days post-edit",
+        "cohort_id": "MA-CO07"
+      },
+      "biological_preparation_left": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "biological_preparation_right": "PI−CD4+CD25+CD127− sorted Tregs; expanded 7 days before editing",
+      "cohort_linkage": "Same source/protocol; group counts and donor overlap differ or unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Post-edit protein assay and4-day functional coculture not the same timepoint.",
+    "measurement_basis": "Direct functional assay plus FOXP3 protein flow; null without equivalence bounds.",
+    "experimental_linkage": "Same source/protocol; group counts and donor overlap differ or unavailable.",
+    "limitations": "Neither unchanged FOXP3 nor its expression alone establishes preserved Treg function.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B12",
+    "mechanism_id": "MA-M06",
+    "from_assertion_id": "MA-A17",
+    "to_assertion_id": "MA-A18",
+    "bridge_type": "shared_intervention",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S05"
+    ],
+    "source_locators": [
+      "Fig1A,C; Methods IL2 induction and quantitative PCR",
+      "Fig1B; Methods Western blot analysis"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S05_full.txt"
+    ],
+    "evidence_summary": "IL2 increases FOXP3 RNA at6h and protein at18h in sorted CD25bright cells.",
+    "entity_mapping": "Same FOXP3 locus but RNA and protein remain separate molecular species; no direct translation experiment.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+        "cell_state": "Freshly sorted healthy-donor CD25bright T cells",
+        "tissue": "peripheral blood",
+        "stimulation": "Recombinant human IL2",
+        "dose": "100 U/mL",
+        "duration": "6 h",
+        "time_point": "6 h",
+        "cohort_id": "MA-CO08"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+        "cell_state": "Freshly sorted healthy-donor CD25bright T cells",
+        "tissue": "peripheral blood",
+        "stimulation": "Recombinant human IL2",
+        "dose": "100 U/mL",
+        "duration": "18 h",
+        "time_point": "18 h",
+        "cohort_id": "MA-CO08"
+      },
+      "biological_preparation_left": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+      "biological_preparation_right": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+      "cohort_linkage": "Same source preparation; RNA/protein donor matching unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "6hRNA precedes18hprotein by assay schedule, not longitudinal same-cell tracking.",
+    "measurement_basis": "qPCR versus Western blot; both measured.",
+    "experimental_linkage": "Same source preparation; RNA/protein donor matching unavailable.",
+    "limitations": "Does not prove that measured RNA caused measured protein or that either caused suppression.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B13",
+    "mechanism_id": "MA-M06",
+    "from_assertion_id": "MA-A17",
+    "to_assertion_id": "MA-A19",
+    "bridge_type": "context_contrast",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S05"
+    ],
+    "source_locators": [
+      "Fig1A,C; Methods IL2 induction and quantitative PCR",
+      "Fig1A,C; Methods IL2 induction/quantitative PCR"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S05_full.txt"
+    ],
+    "evidence_summary": "IL2 response differs between freshly sorted CD25bright and CD25-negative human CD4 cells at6h.",
+    "entity_mapping": "Same FOXP3 RNA endpoint across cell-state strata.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+        "cell_state": "Freshly sorted healthy-donor CD25bright T cells",
+        "tissue": "peripheral blood",
+        "stimulation": "Recombinant human IL2",
+        "dose": "100 U/mL",
+        "duration": "6 h",
+        "time_point": "6 h",
+        "cohort_id": "MA-CO08"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+        "cell_state": "Fresh CD4+CD25− sorted cells",
+        "tissue": "peripheral blood",
+        "stimulation": "IL2",
+        "dose": "100 U/mL",
+        "duration": "6 h",
+        "time_point": "6 h",
+        "cohort_id": "MA-CO08"
+      },
+      "biological_preparation_left": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+      "biological_preparation_right": "FACS-sorted CD4+CD25bright or CD4+CD25− T cells (>95% purity)",
+      "cohort_linkage": "Same sorting protocol and paper; subset pairing explicit for proteinFig1B only, RNA pairing unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Same6h exposure schedule.",
+    "measurement_basis": "qPCR direct comparison; no receptor blockade.",
+    "experimental_linkage": "Same sorting protocol and paper; subset pairing explicit for proteinFig1B only, RNA pairing unavailable.",
+    "limitations": "CD25 strata contain other state differences; cannot assign all difference to CD25 or transport to activated cells.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B14",
+    "mechanism_id": "MA-M07",
+    "from_assertion_id": "MA-A22",
+    "to_assertion_id": "MA-A23",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S07"
+    ],
+    "source_locators": [
+      "Fig1B,D; Methods PBMC isolation/activation and flow",
+      "Fig3C,D; Fig4; Methods antibody/activation and flow"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S07_full.txt"
+    ],
+    "evidence_summary": "The anti-CD3-associated FOXP3 protein response depends partly on endogenous IL2 activity in the PBMC culture, supported by neutralization and IL2 competition.",
+    "entity_mapping": "IL2 is the perturbed intermediate; FOXP3 intracellular protein is the common downstream endpoint. Upstream source-cell IL2 secretion is not identified.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Normal-donor unfractionated PBMCs; CD4/CD8 flow gates",
+        "tissue": "peripheral blood",
+        "stimulation": "Anti-CD3 in PBMC cultures at3×10^6 cells/mL",
+        "dose": "Soluble anti-CD3 OKT3 1:800,000 dilution",
+        "duration": "24 h",
+        "time_point": "24 h",
+        "cohort_id": "MA-CO10"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Normal-donor unfractionated PBMCs; CD4/CD8 flow gates",
+        "tissue": "peripheral blood",
+        "stimulation": "Anti-CD3 in PBMC cultures at3×10^6 cells/mL",
+        "dose": "AntiIL2 dose series; Fig3D1 µg/mL; IL2 competition0–10 nM",
+        "duration": "24 h",
+        "time_point": "24 h",
+        "cohort_id": "MA-CO10"
+      },
+      "biological_preparation_left": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "biological_preparation_right": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "cohort_linkage": "Same PBMC protocol; Fig1 and Fig3 exact donor overlap unavailable. Four blocking experiments; no purified-cell transfer.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Anti-CD3 and blockade startt=0; FOXP3 measured24h. Schedule supports intervention ordering, not a measured secretion→STAT5→FOXP3 trajectory.",
+    "measurement_basis": "Direct FOXP3 flow under CD3 activation, IL2 antibody blockade and exogenous IL2 competition.",
+    "experimental_linkage": "Same PBMC protocol; Fig1 and Fig3 exact donor overlap unavailable. Four blocking experiments; no purified-cell transfer.",
+    "limitations": "Neither antibody fully inhibitory alone; mixed-cell indirect effects possible. No STAT5 assay or stable Treg-function claim.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "supported",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "supported",
+      "experimental_linkage": "supported",
+      "mediation_test": "supported"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B15",
+    "mechanism_id": "MA-M07",
+    "from_assertion_id": "MA-A23",
+    "to_assertion_id": "MA-A24",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "supports",
+    "source_ids": [
+      "MA-S07"
+    ],
+    "source_locators": [
+      "Fig3C,D; Fig4; Methods antibody/activation and flow",
+      "Fig3A,B; Fig4A,B; Methods antibody/activation and flow"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S07_full.txt"
+    ],
+    "evidence_summary": "Neutralization/CD25 blockade and IL2 competition strengthen the narrow IL2/CD25 dependence of FOXP3 induction; high combined blockade resists10nM IL2 rescue.",
+    "entity_mapping": "Same IL2 protein/receptor interaction perturbed by antibodies and competitive supplementation; no claim of downstream STAT5 mediation.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Normal-donor unfractionated PBMCs; CD4/CD8 flow gates",
+        "tissue": "peripheral blood",
+        "stimulation": "Anti-CD3 in PBMC cultures at3×10^6 cells/mL",
+        "dose": "AntiIL2 dose series; Fig3D1 µg/mL; IL2 competition0–10 nM",
+        "duration": "24 h",
+        "time_point": "24 h",
+        "cohort_id": "MA-CO10"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Normal-donor unfractionated PBMCs; CD4/CD8 flow gates",
+        "tissue": "peripheral blood",
+        "stimulation": "Anti-CD3 in PBMC cultures at3×10^6 cells/mL",
+        "dose": "IL2 up to10 nM; Fig3B antiCD251 µg/mL; Fig4 combined antibodies1 versus10 µg/mL",
+        "duration": "24 h",
+        "time_point": "24 h",
+        "cohort_id": "MA-CO10"
+      },
+      "biological_preparation_left": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "biological_preparation_right": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "cohort_linkage": "Same source PBMC assay; exact donor pairing across panels unavailable,4 experiments reported.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Blockade and ligand added atactivation; FOXP3 assay24h.",
+    "measurement_basis": "Intracellular FOXP3 with dose-dependent antibody/ligand conditions.",
+    "experimental_linkage": "Same source PBMC assay; exact donor pairing across panels unavailable,4 experiments reported.",
+    "limitations": "Competitive rescue is concentration dependent. High combined blocker failure is retained; a complete negative-feedback loop is not established.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "supported",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "supported",
+      "experimental_linkage": "supported",
+      "mediation_test": "supported"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B16",
+    "mechanism_id": "MA-M07",
+    "from_assertion_id": "MA-A22",
+    "to_assertion_id": "MA-A25",
+    "bridge_type": "context_contrast",
+    "bridge_relation": "opposes",
+    "source_ids": [
+      "MA-S07"
+    ],
+    "source_locators": [
+      "Fig1B,D; Methods PBMC isolation/activation and flow",
+      "Fig5C; TableS1 summarized in Results; Methods cytokine production"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S07_full.txt"
+    ],
+    "evidence_summary": "FOXP3 induction in activated PBMCs does not by itself establish suppression of neighboring FOXP3-negative-cell IL2 responses.",
+    "entity_mapping": "FOXP3 protein frequency versus intracellular IL2 in a different gate; no translation or serial regulatory inference.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Normal-donor unfractionated PBMCs; CD4/CD8 flow gates",
+        "tissue": "peripheral blood",
+        "stimulation": "Anti-CD3 in PBMC cultures at3×10^6 cells/mL",
+        "dose": "Soluble anti-CD3 OKT3 1:800,000 dilution",
+        "duration": "24 h",
+        "time_point": "24 h",
+        "cohort_id": "MA-CO10"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+        "cell_state": "Mixed activated PBMCs; CD4 gate",
+        "tissue": "peripheral blood",
+        "stimulation": "24h antiCD3+IL2 followed by6h antiCD3/antiCD28 with brefeldin A",
+        "dose": "Initial IL210 nM; antiCD2810 µg/mL",
+        "duration": "24h preactivation plus6h restimulation",
+        "time_point": "After6h restimulation",
+        "cohort_id": "MA-CO10"
+      },
+      "biological_preparation_left": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "biological_preparation_right": "Unfractionated PBMCs; CD4+ and CD8+ gates",
+      "cohort_linkage": "Same source PBMC culture; baseline and restimulation donors overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Initial24h activation followed by6h restimulation in separate experiment.",
+    "measurement_basis": "Both intracellular flow, not purified Treg suppression or secretion assays.",
+    "experimental_linkage": "Same source PBMC culture; baseline and restimulation donors overlap unavailable.",
+    "limitations": "Does not oppose all Treg suppressive activity; culture ratios, timing and activated non-Treg FOXP3 expression matter.",
+    "status": "candidate_pending_review",
+    "checks": {
+      "entity_continuity": "not_applicable_nonserial",
+      "context_compatibility": "supported",
+      "temporal_compatibility": "supported",
+      "measurement_link": "not_applicable_nonserial",
+      "experimental_linkage": "supported",
+      "mediation_test": "not_applicable_nonserial"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  },
+  {
+    "bridge_id": "MA-B17",
+    "mechanism_id": "MA-M08",
+    "from_assertion_id": "MA-A21",
+    "to_assertion_id": "MA-A20",
+    "bridge_type": "mediation_test",
+    "bridge_relation": "inconclusive",
+    "source_ids": [
+      "MA-S06"
+    ],
+    "source_locators": [
+      "Public Fig4b,d,e; main wet-lab Methods unavailable",
+      "Public Fig3j caption; main wet-lab Methods unavailable"
+    ],
+    "supporting_snapshot_paths": [
+      "research/mechanisms_activation/snapshots/MA_S06_full.txt",
+      "research/mechanisms_activation/snapshots/MA_S06_fig4_full.txt",
+      "research/mechanisms_activation/snapshots/MA_S06_methods.txt",
+      "research/mechanisms_activation/snapshots/MA_S06_fig3_full.txt"
+    ],
+    "evidence_summary": "RBPJ/HDAC3 repression and RBPJ-dependent suppression are promising follow-up hypotheses, blocked until complete primary wet-lab Methods and Results are inspected.",
+    "entity_mapping": "FOXP3 expression and suppressive function remain distinct; even HDAC3-dependent FOXP3 repression would not demonstrate FOXP3 mediation of suppression.",
+    "context_comparison": {
+      "left": {
+        "species": "Homo sapiens",
+        "cell_type": "Primary human CD4+ T cells polarized to iTregs",
+        "cell_state": "unavailable",
+        "tissue": "peripheral blood",
+        "stimulation": "RBPJ and HDAC3 genetic perturbation",
+        "dose": "unavailable",
+        "duration": "unavailable",
+        "time_point": "unavailable",
+        "cohort_id": "MA-CO09"
+      },
+      "right": {
+        "species": "Homo sapiens",
+        "cell_type": "Primary human CD4+ T cells polarized to iTregs",
+        "cell_state": "unavailable",
+        "tissue": "peripheral blood",
+        "stimulation": "RBPJ and HDAC3 genetic perturbation",
+        "dose": "unavailable",
+        "duration": "unavailable",
+        "time_point": "unavailable",
+        "cohort_id": "MA-CO09"
+      },
+      "biological_preparation_left": "Primary human CD4+ T cells polarized to iTregs",
+      "biological_preparation_right": "Primary human CD4+ T cells polarized to iTregs",
+      "cohort_linkage": "Same paper; Fig4n=4,Fig3jn=3; donor overlap unavailable.",
+      "transportability": "No equivalence beyond the explicitly compared preparations; overlapping donor identity is unavailable unless stated."
+    },
+    "temporal_basis": "Full intervention and endpoint timing unavailable.",
+    "measurement_basis": "Public figure captions and analytical supplement only; main wet-lab Methods/Results inaccessible.",
+    "experimental_linkage": "Same paper; Fig4n=4,Fig3jn=3; donor overlap unavailable.",
+    "limitations": "Source correction adds competing-interest disclosure. No claims from mouse-host GvHD transported into human in vivo.",
+    "status": "blocked_missing_evidence",
+    "checks": {
+      "entity_continuity": "not_demonstrated",
+      "context_compatibility": "not_demonstrated",
+      "temporal_compatibility": "not_demonstrated",
+      "measurement_link": "not_demonstrated",
+      "experimental_linkage": "not_demonstrated",
+      "mediation_test": "not_demonstrated"
+    },
+    "check_role": "Extractor attestations; independent and human review pending"
+  }
+]

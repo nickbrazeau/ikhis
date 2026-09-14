@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hf_info",
+    "requested_url": "https://huggingface.co/api/datasets/xuejun72/HR-VILAGE-3K3M",
+    "output": "sources/hr_vilage/hf_info.json",
+    "retrieved_at": "2026-09-14T17:59:20.522779+00:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "resource_commit": "unavailable",
+    "etag": "W/\"2a01-/SFAGtWnNP8LB4DohDX18Bt+OuU\"",
+    "pagination_link": "",
+    "credential_metadata_redacted": false,
+    "status": "retrieved",
+    "bytes": 10753,
+    "sha256": "9caf691a19141f2e796a2bd05c57b8ede10e39642ab3ff61ac0d16113801f388"
+  },
+  {
+    "id": "github_info",
+    "requested_url": "https://api.github.com/repos/XuejunSun98/HR-VILAGE-3K3M/commits/main",
+    "output": "sources/hr_vilage/github_commit.json",
+    "retrieved_at": "2026-09-14T17:59:20.523122+00:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "resource_commit": "unavailable",
+    "etag": "W/\"02e9bf41ab0e70b0f5f03fc636d9d120f79c143c040d6fc55feb654c85aa0ce0\"",
+    "pagination_link": "",
+    "credential_metadata_redacted": false,
+    "status": "retrieved",
+    "bytes": 30240,
+    "sha256": "0d56a488de4ef79fbbd46aecd10ab9c9a5ab9fa987d6df4cef80454bfc74bd21"
+  },
+  {
+    "id": "paper_html",
+    "requested_url": "https://arxiv.org/html/2505.14725v2",
+    "output": "sources/hr_vilage/paper_v2.html",
+    "retrieved_at": "2026-09-14T17:59:20.523312+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "resource_commit": "unavailable",
+    "etag": "\"CPfjxrmZupYDEAE=\"",
+    "pagination_link": "<https://arxiv.org/html/2505.14725>; rel='canonical'",
+    "credential_metadata_redacted": false,
+    "status": "retrieved",
+    "bytes": 270348,
+    "sha256": "a06475222d88fa97b219980f7e54ed3f2de47791bc6c22f6b38459445f97e713"
+  }
+]

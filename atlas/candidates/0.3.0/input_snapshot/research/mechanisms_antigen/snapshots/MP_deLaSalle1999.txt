@@ -1,0 +1,332 @@
+JCI -
+HLA class I deficiencies due to mutations in subunit 1 of the peptide transporter TAP1
+You don't have javascript enabled. Please enable javascript for full site funcionality.
+Go to
+JCI Insight
+About
+Editors
+Consulting Editors
+For authors
+Journal stats
+Publication ethics
+Publication alerts by email
+Advertising
+Job board
+Contact
+Clinical Research and Public Health
+Current issue
+Past issues
+By specialty
+COVID-19
+Cardiology
+Gastroenterology
+Immunology
+Metabolism
+Nephrology
+Neuroscience
+Oncology
+Pulmonology
+Vascular biology
+All ...
+Videos
+ASCI Milestone Awards
+Video Abstracts
+Conversations with Giants in Medicine
+Reviews
+Reviews
+View all reviews ...
+Review Series
+The cGAS-STING pathway: DNA sensing in health and disease (Jun 2026)
+Neurodegeneration (Mar 2026)
+Clinical innovation and scientific progress in GLP-1 medicine (Nov 2025)
+Pancreatic Cancer (Jul 2025)
+Complement Biology and Therapeutics (May 2025)
+Evolving insights into MASLD and MASH pathogenesis and treatment (Apr 2025)
+Microbiome in Health and Disease (Feb 2025)
+View all review series ...
+Viewpoint
+Collections
+In-Press Preview
+Clinical Research and Public Health
+Research Letters
+Letters to the Editor
+Editorials
+Commentaries
+Editor's notes
+Reviews
+Viewpoints
+100th anniversary
+Top read articles
+The Journal of Clinical Investigation
+Current issue
+Past issues
+Specialties
+Reviews
+Review series
+Videos
+ASCI Milestone Awards
+Video Abstracts
+Conversations with Giants in Medicine
+Collections
+In-Press Preview
+Clinical Research and Public Health
+Research Letters
+Letters to the Editor
+Editorials
+Commentaries
+Editor's notes
+Reviews
+Viewpoints
+100th anniversary
+Top read articles
+Journal Details
+About
+Editors
+Consulting Editors
+For authors
+Journal stats
+Publication ethics
+Publication alerts by email
+Advertising
+Job board
+Contact
+Top
+Tools
+View PDF
+Download citation information
+Send a comment
+Terms of use
+Standard abbreviations
+Need help? Email the journal
+Go to
+Top
+Abstract
+Introduction
+Methods
+Results
+Discussion
+Acknowledgments
+References
+Version history
+PDF
+Metrics
+Article usage
+Citations to this article
+Advertisement
+Article
+Free access    |    10.1172/JCI5687
+HLA class I deficiencies due to mutations in subunit 1 of the peptide transporter TAP1
+Henri de la Salle,1
+Jacques Zimmer,1
+Dominique Fricker,1
+Catherine Angenieux,1
+Jean-Pierre Cazenave,2
+Mitsuo Okubo,3
+Hiroo Maeda,3
+Alessandro Plebani,4
+Marie-Marthe Tongio,5
+Anne Dormoy,5 and
+Daniel Hanau1
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+de la Salle, H.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Zimmer, J.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Fricker, D.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Angenieux, C.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Cazenave, J.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Okubo, M.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Maeda, H.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Plebani, A.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Tongio, M.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Dormoy, A.
+in:
+PubMed
+|
+Google Scholar
+1Laboratoire des Cellules Dendritiques, INSERM CJF 94-03, and2INSERM U311, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France3Blood Transfusion Service, Saitama Medical Center, Saitama Medical School, Saitama, 350-8550 Japan4Clinica Pediatrica, Università di Brescia, 25123 Brescia, Italy5Laboratoire d’Histocompatibilité, Etablissement de Transfusion Sanguine de Strasbourg, 67065 Strasbourg, France
+Address correspondence to: Henri de la Salle, Etablissement de Transfusion Sanguine de Strasbourg, 10 rue Spielmann BP 36, 67065 Strasbourg Cedex, France. Phone: 33-3-88-212-525; Fax: 33-3-88-212-544; E-mail: henri.delasalle@etss.u-strasbg.fr
+Find articles by
+Hanau, D.
+in:
+PubMed
+|
+Google Scholar
+Published March 1, 1999
+-
+More info
+Published in
+Volume 103, Issue 5
+on
+March 1, 1999
+J Clin Invest.
+1999;103(5):R9–R13.
+https://doi.org/10.1172/JCI5687.
+©
+1999 The American Society for Clinical Investigation
+Published March 1, 1999
+-
+Version history
+Received:
+November 2, 1998;
+Accepted:
+January 5, 1999
+View PDF
+Abstract
+The transporter associated with antigen processing (TAP), which is composed of two subunits (TAP1 and TAP2) that have different biochemical and functional properties, plays a key role in peptide loading and the cell surface expression of HLA class I molecules. Three cases of HLA class I deficiency have previously been shown to result from the absence of a functional TAP2 subunit. In the present study, we analyzed two cases displaying not only the typical lung syndrome of HLA class I deficiency but also skin lesions, and found these patients to be TAP1-deficient. This defect leads to unstable HLA class I molecules and their retention in the endoplasmic reticulum. However, the absence of TAP1 is compatible with life and does not seem to result in higher susceptibility to viral infections than TAP2 deficiency. This work also reveals that vasculitis is often observed in HLA class I–deficient patients.
+Introduction
+HLA class I molecules are assembled in the endoplasmic reticulum (ER) where they bind peptides derived from the degradation of intracellular proteins. These peptides are transported from the cytosol into the lumen of the ER by a peptide transporter constituted of two subunits, TAP1 and TAP2. Absence of either of these subunits abolishes the transport of the peptides, and consequently their presentation by HLA class I molecules. This general rule may not apply for particular peptides. Indeed, it has been reported that some peptides generated by proteolytic degradation in the lumen of the ER can be presented by HLA class I molecules in TAP1+TAP2– cells but not in TAP1–TAP2+ cells (1). This observation is consistent with the fact that TAP1, but not TAP2, interacts with HLA class I heavy chains during the assembly of class I molecules (2), which would suggest that TAP1 alone could facilitate the transport or binding of some peptides in TAP2-deficient cells. Thus HLA class I molecules may not present the same repertoires of peptides in TAP1+TAP2– and TAP1–TAP2+ cells. This raises the question of whether human TAP1 deficiency would be compatible with life, because presentation of intracellular antigens may be less efficient in cells which are deficient in TAP1 than in TAP2-deficient cells.
+Only a few cases of human HLA class I deficiency have been reported. These can be divided into two groups, which are reviewed in ref. 3. In the first group, at present comprising three individuals, numbers of HLA class I molecules are reduced tenfold due to a transcription defect (4); this deficiency can be partially overcome by inflammatory cytokines (3). These patients have not been reported to be immunodeficient. The second group includes to date six patients in whom the cell surface expression of HLA class I molecules is reduced to 1–3% of normal levels. The patients are healthy during the first years of life and do not appear to suffer from abnormal viral infections. However, in late childhood they begin to display bacterial infections of the respiratory tract with chronic bacterial colonization of the lungs. The syndrome evolves to progressive degradation of the lung tissues with the development of bronchiectasis leading to respiratory insufficiency. Thus the pathology indirectly demonstrates a defect of the immune response. Other tissues are not affected, except the skin. In two cases chronic skin ulcers were reported (5, 6), while in a third case general vasculitis was observed (7). In three cases, the HLA class I deficiency has been shown to result from the absence of a functional TAP2 subunit (7, 8). This report describes the genetic defects of two other HLA class I–deficient patients presenting cutaneous lesions (5, 6, 9).
+Methods
+Cell lines and recombinant vaccinia viruses. BRE and STF-6 are skin fibroblast cell lines derived from patient 1 (6) and an unrelated healthy individual, respectively. TND-3 and TND-4 are EBV-transformed B (EBV-B) cell lines from patient 2 and her hemizygous brother, respectively (9). STF-1 and ST-EMO are respectively fibroblast and EBV-B cell lines from a TAP2-deficient patient studied previously (8), while ST-EAH is an EBV-B cell line derived from an unaffected brother of the same patient. MRC-5 (CCL 171; American Type Culture Collection, Rockville, Maryland, USA) is a diploid fibroblast cell line. The recombinant vaccinia viruses (gift of G. Russ and J.R. Benink, National Institutes of Health, Bethesda, Maryland, USA) expressing either the TAP1 or the TAP2 subunit of TAP have been previously described (10).
+Antibodies and flow cytometry. The monoclonal antibodies (MAB) W6/32 (pan anti–HLA class I) and B1G6 (anti-β2-microglobulin) were purchased from DAKO A/S (Glostrup, Denmark) and Immunotech (Marseille, France), respectively. Cells were labeled with W6/32 followed by phycoerythrin-conjugated goat anti–mouse Ig (DAKO A/S) and analyzed on a FACSCaliburTM flow cytometer (Becton Dickinson, San Jose, California, USA).
+Biochemical analyses. Trypsinized fibroblasts or EBV-B cells (5 × 106) were incubated for 30 min in methionine- and cysteine-free RPMI 1640 culture medium (ICN Pharmaceuticals, Costa Mesa, California, USA) containing 10% dialyzed FCS (Life Technologies, Ltd., Paisley, United Kingdom). The cells were then labeled for 20 min in 1 ml of the same medium supplemented with 0.5 mCi [35S]methionine/[35S ]cysteine mix (Promix; Amersham, Little Chalfont, United Kingdom), and washed and chased in complete RPMI 1640 for different times (1b). All subsequent steps were performed on ice or at 4°C. After centrifugation, cell membranes were solubilized in PBS and 1% Triton-X 100 and the lysates pre-cleared for 2 h on protein A-agarose in the presence of 5 μl normal mouse serum. HLA class I molecules were then immunoprecipitated for 1 h using either W6/32 (50 μl) or B1G6 (5 μg). Immunoprecipitates were recovered on protein A–sepharose (Sigma Chemical Corp., St. Louis, Missouri, USA). They were treated or not either with neuraminidase (Sigma Chemical Co.), in which case they were then analyzed by isoelectric focusing gel electrophoresis (IEF), or with Endoglycosidase H (Endo H) (New England Biolabs, Inc., Beverly, Massachusetts, USA), in which case they were then analysed by SDS-PAGE, as previously described (8).
+Reverse transcriptase-polymerase chain reaction and sequencing. Total RNA from TND-3 and BRF cell lines was reverse transcribed and TAP1 cDNA was amplified using the reverse transcriptase-polymerase chain reaction (RT-PCR) Titan kit (Boehringer Mannheim GmbH, Mannheim, Germany) and the following pairs of oligonucleotides: GTGCCAATGGCTAGCTCT/CCTGTCTGGTTCTGTTGGAA and TGTCCTGCGCCAGGAGACGG/AGTGCGCAGGTCTGAGAAGG. Amplified cDNA was cloned and sequenced or directly sequenced with the BigDye sequencing kit (PE Applied Biosystems, Warrington, United Kingdom). The mutations identified were confirmed by direct sequencing of genomic DNA, amplified by PCR using either TTCTGCTGATGCCCTCCAGG/TCAGGGAACAGACTGAAGGT (patient 1) or GAGAGCTGATCTCATGGGGA/TCAGGGAACAGACTGAAGGT (patient 2).
+Synthetic peptides and peptide stabilization assay. Peptides RYLKDQQLL (HLA-A*2402 specific) and ETFNTPAMY (HLA-A*2601 specific) (gifts of S. Stevanovic, University of Tübingen, Germany) were previously described (11, 12).
+Results
+Maturation of HLA class I molecules in HLA class I–deficient cell lines. To find the cause of the low expression of HLA class I molecules on the plasma membrane, we examined the maturation and assembly of HLA class I molecules in cell lines derived from the patients. This work was performed using a skin fibroblast cell line, BRE, obtained from an Italian patient (patient 1) (6) and an EBV-B cell line, TND-3, derived from a Japanese patient (patient 2) (9). HLA class I+ controls were the fibroblast cell line MRC-5 and TND-4, an EBV-B cell line from a hemizygous healthy brother of patient 2. Cells were metabolically labeled with [35S]methionine and [35S]cysteine and lysed in detergent. HLA class I molecules were then immunoprecipitated with the MAB W6/32 and treated or not with neuraminidase. The samples were analyzed by isoelectric focusing gel electrophoresis. In the absence of neuraminidase treatment, samples from HLA class I+ control cells (MRC-5) displayed additional bands corresponding to sialylated HLA class I heavy chains. In contrast, neuraminidase treatment did not change the IEF migration pattern of samples from HLA class I–deficient cells, showing that the HLA class I heavy chains of these cells were not sialylated (Fig. 1a). An absence of sialylation indicates that HLA class I molecules cannot reach the distal Golgi compartments and must therefore be blocked in upstream compartments. The possibility of a retention of class I heavy chains in the ER was further investigated by testing the Endo H sensitivity of HLA class I heavy chains (Fig. 1b). Cells were metabolically labeled and chased for 0–4 hours. HLA class I molecules were then immunoprecipitated with W6/32, treated or not with Endo H and analyzed by sodium dodecyl sulfate-polyacrylamide gel electrophoresis. Autoradiography showed that in the HLA class I+ control cells MRC-5 and TND-4, HLA class I heavy chains were stable and became Endo H–resistant in less than one hour (data shown for TND-4 only). In contrast, in HLA class I–deficient cells, the quantity of labeled HLA class I molecules decreased during the 4 hours of chase and a barely detectable number (if any; the faint band seen may have been an artifact) of the heavy chains became Endo H–resistant. These experiments demonstrate that HLA class I molecules are blocked in the ER of the deficient cells.
+Figure 1
+Absence of maturation and instability of HLA class I molecules in HLA class I–deficient patients. (a) BRE and TND-3 cells from HLA class I–deficient patients and MRC-5 HLA class I+ control cells were metabolically labeled, lysed, and HLA class I molecules immunoprecipitated with W6/32 (pan anti–HLA class I heavy chains). Immunoprecipitates were treated (+N) or not (–N) with neuraminidase and analyzed by IEF. (b) BRE and TND-3 (HLA class I–) and TND-4 (HLA class I+) cells were metabolically labeled for 20 min and chased for 0, 1, 2, or 4 hours. HLA class I molecules were immunoprecipitated with W6/32, treated (+) or not (–) with Endo H, and separated by SDS PAGE. (c) Cells were metabolically labeled for 30 min and chased for 30 min, and HLA class I molecules were immunoprecipitated with B1G6 (anti-β2m) and adsorbed on protein–agarose beads. The adsorbed proteins were further incubated for 0, 30, or 60 min at 37°C in lysis buffer, and the beads were washed. After treatment (+N) or not (–N) with neuraminidase, the immunoprecipitated proteins were eluted and analyzed by IEF. IEF, isoelectric focusing gel electrophoresis; SDS-PAGE, sodium dodecyl sulfate-polyacrylamide gel electrophoresis; β2m, β2-microglobulin.
+All these findings point to a defect in peptide loading. Therefore, we tested whether HLA class I/β2 microglobulin (β2m) complexes were unstable at 37°C, as this is a property of peptide-free HLA class I molecules. Cells were metabolically labeled, chased, and lysed in detergent, and HLA class I molecules were immunoprecipitated using the anti-β2m MAB B1G6. After adsorption on protein A–sepharose, the immunoprecipitates were incubated at 37°C for different times. Samples from HLA class I+ cells were treated with neuraminidase (+N), whereas those from TND-3 and BRE (HLA class I–) cells were not (–N). TND-4 immunoprecipitates treated or not with neuraminidase provided a control of the sialylation of heavy chains. The samples were then analyzed by IEF (Fig. 1c). As compared to the immunoprecipitates with W6/32 (Fig. 1a), HLA-B molecules from BRE and TND-3 cells were poorly immunoprecipitated. This discrepancy was confirmed by repeating the experiments using W6/32 and B1G6 in parallel (data not shown). Because W6/32 recognizes HLA class I heavy chains that associate with β2m, the difference may result from low stability in the particular HLA-B isotype, even at 4°C, the temperature used for immunoprecipitation. Consistent with this hypothesis, HLA-B molecules were highly unstable in immunoprecipitates from HLA class I– cells and nearly undetectable after 30 minutes of incubation at 37°C. HLA-A molecules from these cells were also unstable, although HLA-A*24 molecules from TND-3 cells appeared to be less sensitive to incubation at 37°C. The HLA class I heavy chain/β2m complexes from HLA class I+ controls were in fact stable at 37°C. Altogether, these experiments show that the HLA class I molecules of the class I–deficient cells are peptide-free and consequently remain blocked in the ER.
+The low expression of HLA class I molecules on BRE and TND-3 cells results in each case from a homozygous mutation in the TAP1 gene. The properties of these HLA class I molecules suggest a peptide transporter defect. Because the TAP genes are located in the HLA class II genetic region, and both patients were born from first-cousin parents, we checked whether they were HLA homozygous. DNA was extracted from BRE and TND-3 cells and the HLA genotypes were determined by molecular typing. The two patients were found to be HLA homozygous [HLA-A*2601, B*4901, C*07, DRB1*1302, DRB3*0301, DQB1*0604, DPB1*1501, patient 1; HLA-A*2402, B*4006, C*15, DRB1*0803, DQB1*0601, DPB1*0501 patient 2]. These results were thus compatible with a TAP deficiency. Levels of expression of class I molecules were compared using skin fibroblast cell lines derived from patient 1 (BRE), a previously described TAP2-deficient patient (STF-1), and an unrelated healthy individual (STF-6). Experiments were also performed using EBV-B cell lines from patient 2 (TND-3), the same TAP2-deficient patient (ST-EMO), and a normal individual (ST-EAH). These cells were labeled with W6/32 and analyzed by flow cytometry. The mean fluorescence intensities of HLA class I molecules at the surface of cells from patients 1 and 2 and from the TAP2-deficient individual were similar to each other and 100-fold less than on normal cells (Fig. 2a).
+Figure 2
+BRE and TND-3 cell lines are TAP1 deficient. (a) Cells were labeled with the MAB W6/32 and analyzed by flow cytometry. Closed histograms, isotype control. Thick lines: left, BRE fibroblast cell line from patient 1; right, TND-3 EBV-B cell line from patient 2. Dotted lines: left, STF-1 TAP2-deficient fibroblast cell line; right, ST-EMO TAP2-deficient EBV-B cell line. Thin lines: left, STF-6 normal fibroblast cell line; right, ST-EAH normal EBV-B cell line. (b) Cells were infected overnight with TAP1 or TAP2 recombinant vaccinia viruses, labeled with W6/32, and analyzed by flow cytometry. Left, BRE cells from patient 1; right, TND-3 cells from patient 2. (c) BRE and TND-3 cells were incubated overnight at 26°C in culture medium (RPMI 1640 supplemented with 10% FCS; Life Technologies) in the presence of 100 μg/ml synthetic peptides, then labeled with MAB W6/32 and analyzed by flow cytometry. Closed histograms, isotype control. Thick lines, incubation without peptide. Thin lines: P1, HLA-A2402-specific peptide; P2, HLA-A2601-specific peptide. (d) Molecular genetic characterization of the mutation. Upper sequence, normal TAP1 sequence; lower sequences, corresponding TAP1 sequences in patients 1 and 2. G indicates the exon 2 nucleotide involved in the splicing reaction between exon 1 and exon 2, and arrows point to the positions of the two mutations.
+To determine whether the defect could be explained by a TAP deficiency, BRE and TND-3 cells were infected overnight with recombinant vaccinia viruses expressing either the TAP1 or the TAP2 subunit. The cells were then labeled with W6/32 and assayed by flow cytometry (Fig. 2b). In these experiments, infection with the recombinant vector expressing the TAP1 subunit restored HLA class I expression on the surface of fibroblasts from patient 1 (BRE) and on 40% EBV-B cells from patient 2 (TND-3). The latter partial effect is not surprising as EBV-B cell lines are poorly infected by vaccinia virus. Infection with the TAP2 recombinant virus did not change HLA class I expression on BRE or TND-3 cells, but restored this expression on TAP2-deficient fibroblasts (STF-1) and EBV-B cells (ST-EMO; data not shown). These results demonstrate that patients 1 and 2 are both TAP1 deficient.
+Absence of peptide loading was further confirmed using a peptide stabilization assay. TND-3 and BRE cells were incubated overnight at 26°C in the presence of HLA-A*2402 and HLA-A*2601–specific peptides, labeled with W6/32 MAB and analyzed by flow cytometry (Fig. 2c). Incubation alone at 26°C induced an increase of the cell surface expression of HLA-class I molecules, an expected result as peptide-free HLA class I molecules are more stable at lower temperatures. Addition of HLA-matched peptides induced a further increase of cell surface HLA class I molecules. Controls with HLA-unmatched peptides had no effect. This stabilization effect was also observed when the cells were incubated overnight at 37°C (not shown).
+Finally, to characterize the mutations in the TAP1 gene, RNA from BRE and TND-3 cells was reverse transcribed, and TAP1 cDNA was PCR amplified and sequenced. TAP1 cDNA from BRE cells displayed a deletion of one cytosine in exon 2, at nucleotide 819 of the coding sequence, while in TND-3 TAP1 cDNA one guanine was missing at position 778, at the exon 1–exon 2 junction. The identity and homozygosity of these mutations were verified by amplification and direct sequencing of genomic DNA from BRE and TND-3 cells (Fig. 2d). This showed the mutation in the TAP1 gene of patient 2 to be more precisely a G-to-A transition in the consensus sequence of the 3′ terminus of the intron, which, since exon 2 begins with a guanine, leads to a shift of the splicing site by one nucleotide.
+Discussion
+Six severely affected HLA class I–deficient individuals have been described to date. Among these patients, three have been found to have TAP2 deficiency (7, 8). In this work, we analyzed the genetic defects of two other patients. Using a simple complementation assay, we showed that they display a TAP1 deficiency. Molecular genetic experiments further demonstrated that one of these individuals has a deletion of one nucleotide in exon 2, while the second has a mutation at the 3′ splicing site of intron 1. Both mutations introduce a frame shift into the first third of the coding sequence, leading to the absence of a functional TAP1 subunit. Due to this deficiency, most HLA class I heavy chain/β2m complexes are retained in the ER and are unstable at 37°C. The complexes can be stabilized by binding with exogenous HLA-A–specific peptides. HLA-B appeared to be more unstable than HLA-A, probably as a result of the biochemical properties of these particular variants, since in TAP2-deficient patients we found HLA-B molecules to be more stable than HLA-A (13). On the other hand, the deficiency does not seem to affect the expression of CD1 antigen: it was previously shown that Langerhans’ cells, in non-lesional skin, normally expressed this HLA class I–like molecule (6), in agreement with our previous observation on TAP2-deficient dendritic cells (14).
+These observations suggest that TAP deficiency is the most frequent if not the sole cause of severe HLA class I deficiency. These two newly characterized patients developed chronic inflammation of the respiratory tract in late childhood and skin lesions at different ages. In patient 1, skin lesions were first observed at the age of 8, whereas they developed at the age of 21 in patient 2. These lesions were found to be negative for microorganisms and from their appearance do not reflect viral infections but rather a vasculitic process (5, 6). General vasculitis has been observed in one TAP2-deficient patient (7). Thus, although TAP1 and TAP2 subunits display different biochemical and functional properties, the pathologies resulting from TAP1 and TAP2 deficiency are similar. However, due to the limited number of HLA class I–deficient individuals, the identification of additional cases may be important in defining a general clinical picture associated with HLA class I–deficiency.
+The effects of TAP deficiency on T cell subsets have been partially studied in the present two patients, who were reported to have normal ratios of CD8+ to CD4+ T cells (6, 9). However, we have previously shown in two TAP2– deficient patients that numbers of CD8+ αβ T cells are generally low and normal ratios of CD8+ to CD4+ cells can result from a sharp expansion of γδ T cells, one third of them being CD8+ (8). Additional studies will thus be necessary to investigate more precisely the T cell populations in patient 2, a 46-year-old who is still alive but no longer followed by one of our teams.
+In one case, no cytotoxic response to autologous cells infected with herpes virus could be raised in vitro, although antibodies were found in the serum (6). This is in accordance with the expected inefficient HLA class I restricted cytotoxic response of CD8+ αβ T cells, because in these TAP-deficient patients the HLA class I restricted immune response can only be directed against TAP-independent epitopes, which should be less numerous than their TAP-dependent counterparts. Cytotoxic CD8+ αβ T cells recognizing viral antigens may nevertheless exist, since we previously demonstrated in one TAP2-deficient patient that HLA class I molecules can present peptides from an intracellular viral antigen to CD8+ αβ T cells, allowing the development of cellular immune responses against pathogens (13). The frequency of precursors of cytotoxic CD8+ αβ T cells will have to be more extensively investigated using lymphocytes from patient 2.
+HLA class I–peptide complexes are recognized by specific receptors (such as killer inhibitory receptors), which are expressed on natural killer (NK) cells and other cells of the immune system including T cells. Some of these receptors seem to recognize well defined repertoires of peptide complexes and hence control immune responses. Recently, we showed that while skin fibroblasts are killed by activated autologous NK cells, inflammatory cytokines such as interferons alpha and gamma protect normal, but not TAP2–, fibroblasts by increasing levels of cell surface HLA class I molecules (15). This suggests a role of HLA class I/killer inhibitory receptor interactions in the control of immune responses in normal individuals. An absence of such immune regulation in HLA class I–deficient patients could lead to autoimmune reactions. The skin lesions of the two TAP1-deficient patients, which likely result from vascular inflammation, could be explained by such an immune disorder. NK cells activated by inflammatory cytokines may be implicated in these lesions. In addition, T cells, which have been found in lesion areas (5, 6), may be also involved, due to the absence of regulation of their potential cytotoxicity or ability to produce cytokines by HLA class I/CD94 or other HLA class I/killer inhibitory receptor interactions. This disorder could perhaps be observed in other HLA class I–deficient patients, and may explain previously described general vasculitis (7).
+In conclusion, our results demonstrate that human TAP1 deficiency is compatible with life. The syndromes associated with TAP1 and TAP2 deficiency are similar and characterized by the development of chronic inflammation of the respiratory tract in late childhood and vasculitis at variable ages. Medical observations suggest that the different biochemical properties of the TAP1 and TAP2 subunits do not result in major differences in the health status of the patients. The question of why chronic skin lesions develop in severe HLA class I deficiency will require further investigation to determine the identity and function of the immune cells in the lesion areas.
+Acknowledgments
+The authors thank N. Froelich for helpful technical assistance. This work was supported by a grant (BFR 96/003) from the Ministère de l’Education Nationale et de la Formation Professionnelle of Luxembourg (to J. Zimmer), by the Etablissement de Transfusion Sanguine de Strasbourg and by INSERM CJF 94-03.
+References
+Gabathuler, R, Reid, G, Kolaitis, G, Driscoll, J, Jefferies, WA. Comparison of cell lines deficient in antigen presentation reveals a functional role for TAP-1 alone in antigen processing. J Exp Med 1994.  180:1415-1425. View this article via:  PubMed  CrossRef
+Google Scholar
+Androlewicz, MJ, Ortmann, B, van Endert, PM, Spies, T, Creswell, P. Characteristics of peptide and major histocompatibility complex class I/β2-microglobulin binding to the transporters associated with antigen processing (TAP1 and TAP2). Proc Natl Acad Sci USA 1994.  91:12716-12720. View this article via:  PubMed  CrossRef
+Google Scholar
+de la Salle, H., et al. 1998. HLA class I deficiencies. In Primary immunodeficiency diseases: a molecular and genetic approach. H.D. Ochs, C.E.I. Smith, and J.M. Puck, editors. Oxford University Press. New York, NY. 181–188.View this article via:  PubMed
+Google Scholar
+Sullivan, KE, Stobo, JD, Peterlin, BM. Molecular analysis of the bare lymphocyte syndrome. J Clin Invest 1985.  76:75-79. View this article via:
+JCI
+PubMed
+Google Scholar
+Watanabe, S, Iwata, M, Maeda, H, Ishibashi, Y. Immunohistochemical studies of major histocompatibility antigens in a case of the bare lymphocyte syndrome without immunodeficiency. J Am Acad Dermatol 1987.  17:895-900. View this article via:  PubMed
+Google Scholar
+Plebani, A, et al. Defective expression of HLA class I and CD1a molecules in a boy with Marfan-like phenotype and deep skin ulcers. J Am Acad Dermatol 1996.  35:814-818. View this article via:  PubMed  CrossRef
+Google Scholar
+Teisserenc, H, et al. A case of primary immunodeficiency due to a defect of the major histocompatibility gene complex class I processing and presentation pathway. Immunol Lett 1997.  57:183-187. View this article via:  PubMed  CrossRef
+Google Scholar
+de la Salle, H, et al. Homozygous human TAP peptide transporter mutation in HLA class I deficiency. Science 1994.  265:237-241. View this article via:  PubMed  CrossRef
+Google Scholar
+Maeda, H, et al. Defective expression of HLA class I antigens: a case of the bare lymphocyte without immunodeficiency. Immunogenetics 1985.  21:549-558. View this article via:  PubMed  CrossRef
+Google Scholar
+Russ, G, et al. Assembly, intracellular localization, and nucleotide binding properties of the human peptide transporters TAP1 and TAP2 expressed by recombinant vaccinia viruses. J Biol Chem 1995.  270:21312-21318. View this article via:  PubMed  CrossRef
+Google Scholar
+Dai, LC, West, K, Littaua, R, Takahashi, K, Ennis, FA. Mutation of human immunodeficiency virus type 1 at amino acid 585 on gp41 results in loss of killing by CD8+ A24–restricted cytotoxic T lymphocytes. J Virol 1992.  66:3151-3154. View this article via:  PubMed
+Google Scholar
+Dumrese, T, et al. HLA-A26 subtype A pockets accommodate acidic N-termini of ligands. Immunogenetics 1998.  48:350-353. View this article via:  PubMed  CrossRef
+Google Scholar
+de la Salle, H, et al. Human peptide transporter deficiency. Importance of HLA-B in the presentation of TAP-independent EBV antigens. J Immunol 1997.  158:4555-4563. View this article via:  PubMed
+Google Scholar
+Hanau, D, et al. CD1 expression is not affected by human peptide transporter deficiency. Hum Immunol 1993.  41:61-68. View this article via:  PubMed  CrossRef
+Google Scholar
+Zimmer, J., et al. 1999. Inefficient protection of human TAP-deficient fibrolasts from autologous NK cell-mediated lysis by cytokines inducing HLA class I expression. Eur. J. Immunol. In press.View this article via:  PubMed
+Google Scholar
+Version history
+Version
+1
+(March 1, 1999):
+No description
+Article tools
+View PDF
+Download citation information
+Send a comment
+Terms of use
+Standard abbreviations
+Need help? Email the journal
+Metrics
+Article usage
+Citations to this article
+Go to
+Top
+Abstract
+Introduction
+Methods
+Results
+Discussion
+Acknowledgments
+References
+Version history
+Advertisement
+Advertisement
+Copyright © 2026
+American Society for Clinical Investigation
+ISSN: 0021-9738 (print), 1558-8238 (online)
+Sign up for email alerts

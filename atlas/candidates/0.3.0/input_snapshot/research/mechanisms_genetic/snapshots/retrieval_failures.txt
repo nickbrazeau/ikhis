@@ -1,0 +1,17 @@
+NCBI Entrez helper failed: missing_dependency: requests is required: No module named 'requests'.
+Shell urllib Nature retrieval failed: URLError [Errno 8] nodename nor servname provided, or not known.
+Public web fallback failures:
+Checking your browser - reCAPTCHA (https://pmc.ncbi.nlm.nih.gov/articles/11168933/)
+citeturn153view0 [wordlim: 200] Crawled: 5 days ago; Content type: text/html; Source: open({"ref_id":"https://pmc.ncbi.nlm.nih.gov/articles/11168933/","lineno":null}); Total lines: 3
+L0: Checking your browser before accessing pmc.ncbi.nlm.nih.gov ...
+L1: 
+L2: Click cite0†here if you are not automatically redirected after 5 seconds.
+
+
+Internal Error ()
+citeturn153view1 [wordlim: 200] Source: open({"ref_id":"https://www.nature.com/articles/s41586-024-07501-1?error=cookies_not_supported&code=unavailable","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.nature.com/articles/s41586-024-07501-1?code=unavailable&error=cookies_not_supported: Cache miss
+
+Internal Error ()
+citeturn160view0 [wordlim: 200] Source: open({"ref_id":"https://api.repository.cam.ac.uk/server/api/core/bitstreams/0b154208-9497-4821-a9b9-42a522ce5831/content","lineno":null}); Total lines: 1
+

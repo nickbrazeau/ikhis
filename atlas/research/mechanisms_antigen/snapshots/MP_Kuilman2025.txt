@@ -1,0 +1,786 @@
+Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies | Nature Communications
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature
+nature communications
+articles
+article
+Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies
+Download PDF
+Download PDF
+Article
+Open access
+Published: 14 January 2025
+Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies
+Thomas Kuilman1,
+Deborah S. Schrikkema1,
+Jules Gadiot1,
+Raquel Gomez-Eerland1,
+Laura Bies1,
+Julia Walker1,
+Robbert M. Spaapen1,
+Hanna Kok1,
+Demi Houg1,
+Milena Viyacheva1,
+Yvonne B. Claassen1,
+Manuel Saornil1,
+Oscar Krijgsman1,
+Bas Stringer1,
+Huiwen Ding1,
+Anou Geleijnse1,
+Anne C. Meinema1,
+Bianca Weissbrich1,
+Melissa Lancee1,
+Carmen G. Engele1,
+Marianna Sabatino1,
+Pei-Ling Chen2,3,
+Kenneth Y. Tsai
+ORCID: orcid.org/0000-0001-5325-212X2,3,
+James J. Mulé
+ORCID: orcid.org/0000-0001-7354-05163,4,
+Vernon K. Sondak3,
+Jitske van den Bulk1,5,
+Noel F. de Miranda
+ORCID: orcid.org/0000-0001-6122-10245,
+Inge Jedema
+ORCID: orcid.org/0000-0001-9042-64596,
+John G. Haanen
+ORCID: orcid.org/0000-0001-5884-77046,7,8,
+Jeroen W. J. van Heijst1,
+Ton N. Schumacher
+ORCID: orcid.org/0000-0003-0517-88049,10 na1,
+Carsten Linnemann1 na1 &
+…
+Gavin M. Bendle1 na1
+Show authors
+Nature Communications
+volume 16,  Article number: 649 (2025) Cite this article
+Save article
+View saved research
+29k Accesses
+21 Citations
+11 Altmetric
+Metrics details
+Abstract
+Adoptive cell therapy with tumor-infiltrating lymphocytes (TIL) can mediate tumor regression, including complete and durable responses, in a range of solid cancers, most notably in melanoma. However, its wider application and efficacy has been restricted by the limited accessibility, proliferative capacity and effector function of tumor-specific TIL. Here, we develop a platform for the efficient identification of tumor-specific TCR genes from diagnostic tumor biopsies, including core-needle biopsies frozen in a non-viable format, to enable engineered T cell therapy. Using a genetic screening approach that detects antigen-reactive TCRs with high sensitivity and specificity based on T cell activation, we show that high complexity TCR libraries can be efficiently screened against multiplexed antigen libraries to identify both HLA class I and II restricted TCRs. Through the identification of neoantigen-specific TCRs directly from melanoma as well as low tumor mutational burden microsatellite-stable colorectal carcinoma samples, we demonstrate the pan-cancer potential of this platform.
+Similar content being viewed by others
+Discovery of tumor-reactive T cell receptors by massively parallel library synthesis and screening
+Article
+23 April 2024
+T cell receptor therapeutics: immunological targeting of the intracellular cancer proteome
+Article
+27 October 2023
+High-resolution profile of neoantigen-specific TCR activation links moderate stimulation to increased resilience of engineered TCR-T cells
+Article
+Open access
+03 December 2024
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Applied immunology
+Functional genomics
+Immunogenetics
+Tumour immunology
+Introduction
+Gene-modified T cell therapies, and in particular chimeric antigen receptor (CAR) T cell therapies, have been shown to display profound clinical activity in patients with hematological cancers. For instance, CD19 CAR T cells have yielded complete response rates of 74% in indolent non-Hodgkin lymphoma1 and 81% in B-cell acute lymphoblastic leukemia2. Furthermore, more recent studies that use BCMA CAR T cells for the treatment of multiple myeloma have shown complete response rates of 39% to 67%3,4. As compared to the activity observed in hematological malignancies, TCR and CAR T cell therapies have to date only shown modest activity in solid tumors, with low rates of complete and durable responses5. Therapy resistance is likely to be multifactorial, but antigen modulation, and lack of sufficiently tumor-specific target antigens for chimeric antigen receptors, are factors that are thought to contribute to the limited success of gene-modified T cell therapies in this setting to date6.
+In contrast to CAR therapy, TIL therapy has been shown to lead to complete and durable responses in cancers such as melanoma and breast cancer7,8,9, demonstrating that tumor-reactive TCRs can be present in TIL and that these can drive tumor eradication. A number of observations are consistent with the notion that the anti-tumor reactivity of TIL therapy is driven by the polyclonal, TCR-mediated, recognition of cancer neoantigens10,11, thereby also explaining the low toxicity of the infused T cells. However, TIL therapy only remains available for a select group of patients, given the challenges of obtaining viable TIL from surgically resected tumor material. In addition, clinical activity is limited by the low frequency of tumor-reactive TCRs in TIL7 and the dysfunctional state of the tumor-reactive T cells that are present in human cancers12,13,14.
+To address these issues, we set out to develop technology to extend the proven clinical activity of TIL to a larger patient group, by eliminating the need for large quantities of tumor material containing viable TIL. In addition, the technology we developed enables the generation of T cell products that contain a high frequency of tumor-reactive T cells with a phenotype associated with T cell potency. Here, we present a streamlined approach for the T cell activation‑based identification and target determination of (neo)antigen specific TCR genes from TIL. This technology combines tumor mutation and TCR repertoire profiling with high throughput DNA synthesis to create synthetic TCR and neoantigen gene expression libraries based on sequence information recovered from diagnostic tumor biopsies. Utilizing these synthetic gene libraries in a standardized functional genetic screening constitutes an efficient and powerful approach to identify TIL-derived TCR genes with specificity for tumor neoantigens, thereby enabling the efficient generation of polyclonal engineered T cell therapy products of defined specificity for individual patients.
+Results
+Enrichment analysis-based identification of antigen-specific TCRs
+We set out to develop a TCR discovery platform for use in fully individualized neoantigen-specific TCR-engineered T cell therapy of cancer with the following design considerations. First, the technology should be agnostic for HLA class restriction and antigen makeup, and should identify TCRs based on their T cell activation potential; second, the technology should be applicable to clinically relevant tumor specimens, such as core-needle biopsies frozen in a non-viable format15; and third, the technology should allow the identification of TCRs in a range of solid tumor types, including tumor types with a lower mutational burden. Given the documented sensitivity and specificity of genetic screening technology in other settings16,17, we envisioned the design of a genetic screening platform that removes the need for independent TCR identification and functional characterization assays18 and identifies antigen-reactive TCRs based on a single functional readout19.
+To evaluate the potential of this approach, we created a pipeline in which tumor-specific mutations, as well as intratumoral TCR repertoires, are identified using next generation sequencing (NGS) technology on patient-derived tumor samples (Fig. 1a, step 1). In the next step, neoantigen and TCR expression libraries are assembled using synthetic biology tools (step 2), and these libraries are expressed in autologous antigen presenting cells (APCs) and Jurkat reporter T cells, respectively, both specifically engineered to allow HLA-class I and II restricted TCR triggering. In a subsequent step, all TCRs are interrogated in a pooled fashion for triggering of T cell activation by any of the available neoantigens. Finally, isolation of activated and non-activated reporter T cells then allows the identification of neoantigen-specific TCR using an NGS-based analytical pipeline (step 3). Following characterization and selection, these TCRs can be used for T cell engineering into autologous T cells, to yield a fully individualized multi-specific T cell product for therapy (step 4).
+Fig. 1: A functional genetic screen outperforms an immunological approach to antigen-specific TCR identification.Full size image
+a Schematic of a functional genetic screening approach to identify neoantigen specific TCRs within a TCR library. Targeted sequencing of tumor material (step 1) enables identification of intratumoral TCR sequences and tumor neoantigens, which can be used to create TCR libraries and neoantigen libraries (step 2). In a functional genetic screening approach, the TCR library is screened to identify neoantigen-specific TCRs (step 3). From these TCRs, a selection can be made for manufacturing of a fully individualized T cell product (step 4). b An immunological screen was performed to test whether low-frequency neoantigen-specific T cells may be identified. Jurkat reporter T cells expressing defined antigen-specific TCRs (CDK4_17 and CDK4_8) at frequencies of 1:10-1:10,000 were cocultured with EBV-immortalized B cells loaded with a non-cognate (Irrelevant) or a cognate CDK4 peptide. Reporter T cells were analyzed by staining for the CD69 T cell activation marker and by FACS analysis. Data for defined antigen-specific TCRs at 1:1000 dilution are displayed. c, FACS sorting strategy for a functional genetic screen to identify antigen-specific TCRs. Cells expressing the TCRs from (b) were mixed at frequencies ranging from 1:10,000-1:1,000,000 into a population of cells expressing 24 non-relevant TCRs. A FACS plot is shown indicating ~10% top (activated T cells; green sorting gate) and ~10% bottom sorting gates (non-activated T cells; red sorting gate) based on CD69 expression on reporter T cells after a coculture with tandem minigene (TMG) expressing B cells encoding all cognate antigens as described in (b). d Enrichment of antigen-specific TCRs in a functional genetic screening approach. Genomic DNA was isolated from the samples in (c) and retroviral TCR inserts were recovered and quantified using PCR and Illumina-based sequencing. The bar graph shows the fold enrichment of individual TCRs in the activated T cell relative to the non-activated T cell sample. For each TCR, the frequency in the original pool of T cells is represented in the legend. Source data are provided as a Source Data file.
+Genetic screening approaches that compare the abundance of, e.g., sgRNAs in cell pools with or without a phenotype of interest, can identify modifiers with very high sensitivity, and we anticipated that a functional genetic screening approach could be more sensitive than classical flow cytometry-based approaches for the isolation of antigen-specific TCRs from complex libraries. To test this, we first transduced TCR KO Jurkat T cells20 expressing the CD8 co-receptor (‘reporter T cells’) with 2 TCRs (CDK4_17 and CDK4_8) that recognize a mutant CDK4 epitope presented in HLA-class I. The resulting cells were subsequently mixed with reporter T cells expressing an irrelevant TCR at frequencies ranging from 1:10 to 1:10,000. As expected, analysis of CD69 expression upon coculture of the pooled T cells with Epstein-Barr virus transformed lymphoblastoid cell lines (EBV-LCLs) expressing the cognate mutant CDK4 epitope could be used to identify neoantigen-specific T cells. However, in line with previous findings21, no signal above background was observed when these cells were present at frequencies below 1:1000 (Fig. 1b and Supplementary Fig. 1a).
+Next, we evaluated a functional genetic screening approach, in which the enrichment of cells expressing antigen-specific TCRs in a CD69-high sample relative to a CD69-low sample is monitored. To accomplish this, reporter T cells expressing one of five different TCRs with a previously defined antigen-specificity and with functional avidity in the physiological range (Supplementary Fig. 1c and refs. 22,23) were mixed at frequencies of 1:10,000 to 1:1,000,000 into reporter T cells expressing 24 irrelevant TCRs. Following coculture of the pool of reporter T cells with EBV-LCLs engineered to express the cognate antigens of the 5 TCRs with a defined specificity, reporter T cells were isolated by FACS based on their CD69 signal (the ∼10% highest and lowest expressors of CD69, Fig. 1c). Subsequently TCR sequences were recovered from these cell pools using PCR (Supplementary Fig. 1a) and quantified by NGS, to determine enrichment of individual TCRs in the CD69-high versus CD69-low samples. Notably, a clear enrichment of defined antigen-specific TCRs was observed, even when present at frequencies down to 1:100,000 and 1:1,000,000 (Fig. 1d). Hence, functional genetic screens can serve as a basis for the identification of antigen-specific TCRs represented at very low frequencies, surpassing the sensitivity of conventional immunological readouts.
+Optimized antigen presentation in autologous B cells
+To allow the screening of large TCR libraries against the entire collection of HLA class I and II alleles of individual patients, we developed technology to efficiently express tandem minigenes (TMG) encoding antigens of interest in immortalized autologous APCs. In brief, extending previous findings24, retroviral transduction of B cells with a BCL-6/BCL-xL plasmid allowed their expansion to a target cell number of 108 cells within a 21-day timeframe in the presence of CD40L-support from either feeder layer L cells or upon co-expression of CD40L in the B cells (Supplementary Fig. 2a–g).
+Analysis of the inclusion of LAMP1 sequences to support presentation by HLA class II25,26 and the number of minigenes (MGs) in a tandem array demonstrated that presentation of HLA class II-restricted antigens by immortalized B cells was dependent on LAMP1 translocation signals and identified a maximal number of MGs in TMG arrays to allow efficient HLA class II-restricted antigen presentation (Fig. 2a, b and Supplementary Fig. 2h, i). Strikingly, CD40L expression in immortalized B cells was shown to result in increased HLA class I- and HLA class II-restricted antigen presentation, extending previous reports on a stimulating effect of CD40L on antigen presentation27. To balance the number of MGs that we could screen with optimal HLA-II presentation, we selected a TMG12 design flanked by LAMP1 sequences for subsequent genetic screens (Supplementary Fig. 2j).
+Fig. 2: Optimized immortalization and antigen presentation in autologous B cells.Full size image
+a Antigen presentation capability of B cells for an HLA-I TCR. Reporter T cells expressing the NY-ESO-1 1G4 HLA-I TCR were cocultured with BCL-6/BCL-xL immortalized B cells expressing indicated antigen encoding constructs. TMGx indicates the tandem expression of x MGs, where x was 3, 12 or 40. +LAMP1 indicates fusion of LAMP1 signaling, transmembrane and cytoplasmic domains to the MG or TMG coding sequence. CD40L support was provided either by CD40L-expressing L cell feeder layer (‘L cells’) or by CD40L expression in immortalized B cells (‘+CD40L’). Expression of the T cell activation marker CD69 on reporter T cells was measured by flow cytometry. The dotted line indicates the percentage of TCR+ reporter T cells used in the coculture. Bars represent the average value of two biological biological replicates and grey dots represent individual replicate values. b As in a, but for reporter T cells expressing the NY-ESO-1 5B8 HLA-II TCR. Source data are provided as a Source Data file.
+Sensitivity and specificity of combinatorial TCR library screens
+With the aim to exploit the capacity of the genetic screening platform to identify antigen-specific TCRs from highly complex libraries (Fig. 3a), we explored the feasibility of identifying tumor-antigen reactive TCRs from fresh frozen non-viable tumor tissue, in which paired TCRα - TCRβ information cannot be obtained. Using a multiplex primer-based TCR chain amplification approach, we reproducibly identified more than 5000 clonotypes for both TCRα and TCRβ chains in a panel of three melanoma samples (Supplementary Fig. 3a–c). To address the absence of TCR pairing information, we assembled combinatorial TCR libraries that contain all possible combinations of the identified TCRα and β chains (Fig. 3b). To allow identification of individual TCRα–TCRβ chain combinations in such combinatorial libraries, we developed a PCR/Oxford Nanopore Technologies (ONT) sequencing approach (Supplementary Fig. 3d) that uses optimized ONT read filtering (Supplementary Fig. 3e–g). Application of this TCR identification and quantification method on four TCR libraries that were created by combinatorial assembly of 100 TCRα and 100 TCRβ chains showed that all 10,000 possible TCRαβ pairs were observed. Furthermore, abundance of individual TCRs showed a narrow distribution with >97% of TCRs present within a 4-fold range around the median (Fig. 3c and Supplementary Fig. 3h).
+Fig. 3: Sensitivity and specificity of combinatorial TCR library screen.Full size image
+a Schematic of a functional genetic screening approach to identify antigen-specific TCRs. A TCR library is expressed in T cells and cocultured with TMG-expressing B cells. Cells are subsequently sorted into activated and non-activated T cells. TCR inserts are retrieved from both samples by PCR, and comparative analysis using next-generation sequencing is used to identify candidate TCRs recognizing an antigen encoded by one of the expressed TMGs. td: transduced. b Schematic of a combinatorial TCR library cloning strategy. An assembly reaction using multiple TCRα and β chains is performed, in which assembled plasmids contain one TCRα chain linked with one TCRβ chain. c Density plot showing the frequency distribution of each combinatorial TCR identified within four TCR libraries each assembled from 100 TCRα and 100 β chains. d Schematic of the composition of a proof-of-concept combinatorial TCR library assembled using five TCRα and TCRβ chains of defined antigen specificity and 95 TCRα and β chains of undefined specificity. e An overnight 1:1 coculture of reporter T cells expressing the TCR library from d and EBV-immortalized B cells expressing the cognate antigens of the 5 defined antigen-specific TCRs in TMG format was performed and cells were stained and sorted. The gating strategy is indicated from top-left to bottom-right, and the red ‘non-activated’ and green ‘activated’ T cell sorting gates are represented. f TCR expression cassettes from samples in (e) were retrieved and quantified as described in (a). TCR reactivity in the absence and presence of exogenous antigen expression is represented. The 5 TCRs of defined antigen-specificity are colored according to the legend in (d). g Table representing statistical metrics from an enrichment analysis of the data in (f). Statistical testing was performed in a one-sided fashion, and a Bonferroni correction was applied to adjust p-values for multiple testing (see also Methods for a more detailed description). The top 10 candidate TCRs based on enrichment significance are represented, and candidate TCRs are colored according to the legend in (d). Source data are provided as a Source Data file.
+To provide proof of concept for the genetic screening of combinatorial TCR libraries, we next created a TCR library containing 10,000 TCR variants derived from 5 TCRαβ of defined antigen-specificity and 95 TCRα and TCRβ chains of undefined specificity (Fig. 3d). Given that neoantigen-specific TCRs are enriched in tumors and are represented within the top 100 most prevalent intratumoral TCRs in a variety of tumor indications9,28,29,30,31, we deemed a TCR library with this complexity relevant for the screening of TIL-derived TCR repertoires (see below). In brief, the combinatorial TCR library was introduced into reporter T cells (Supplementary Fig. 3i), and the resulting cells were cultured in the presence of B cells that had been engineered to express the cognate antigens recognized by the 5 defined antigen-specific TCRs. Subsequently, activated and non-activated T cells were isolated by FACS (Fig. 3e), and TCR enrichment in activated versus non-activated T cell pools was assessed using an unbiased differential representation analysis. Notably, all five defined antigen-specific TCRs were identified as significant hits while none of the 9,995 other TCR combinations displayed significant enrichment (Fig. 3f, g), thereby showing both the sensitivity and the specificity of the TCR screening platform.
+Identification of neoantigen-specific TCRs in cancers associated with high mutational burden
+Having established the concept of pan-HLA screening of highly diverse TCR libraries, we set out to identify neoantigen-specific TCRs from fresh-frozen tumor tissue of a melanoma patient. In this tumor sample we identified 738 tumor-specific non-synonymous mutations and applied a prioritization approach that weighs RNA expression of putative neoantigen-encoding transcripts and variant allele frequency (VAF), thereby selecting 563 of the 738 putative neoantigens, jointly encoded in 48 TMGs. Furthermore, based on the observation that different TMG-expressing B cells can be multiplexed without reducing the sensitivity of our functional genetic screening approach (Supplementary Fig. 3j), we created 14 combinatorially encoded B cell pools, that each contained 7 different TMG-expressing B cell populations (Supplementary Fig. 4a), allowing the one-step identification of TCR reactivity at the level of each of the 48 individual TMGs.
+In line with earlier results, we identified >6000 TCRα and β chain clonotypes from TIL in the fresh-frozen non-viable tumor tissue (Supplementary Fig. 4b, c). Next, combinatorial TCR libraries were assembled using 200 TCRα and β clonotypes selected on prevalence and including a single TCRαβ pair specific for the CDK4 neoantigen as a technical control, resulting in four combinatorial TCR libraries containing a total of 40,000 different TCRαβ pairs (Supplementary Fig. 4d, e). Reporter T cells transduced with these 4 sub-libraries were pooled (Supplementary Fig. 4f) and cocultured with each of the 14 B cell pools, after which activated and non-activated T cells were isolated based on CD69 and CD62L expression, using an autoMACS-based sorting strategy. Following recovery of TCR expression cassettes (Supplementary Fig. 4g) and quantification by NGS, a pairwise differential count analysis was performed. Next to the positive control TCR CDK4-17, this resulted in the identification of 56 significantly enriched candidate TCRs plus their cognate TMG (Fig. 4a, b).
+Fig. 4: Identification of neoantigen-specific TCRs in a melanoma sample.Full size image
+a Jurkat reporter T cells expressing a positive control TCR CDK4-17 or a combination of all sub-libraries from Supplementary Fig. 4d, e were mixed and cocultured with B cell pools from Supplementary Fig. 4a. Cells were subsequently sorted using MACS to isolate CD62L+ non-activated and CD62L-,CD69+ activated reporter T cells from each coculture. TCRs were retrieved and quantified as in Fig. 3. Candidate TCRs were identified by differential expression analysis. Statistical testing was one-sided, and a Bonferroni correction was applied to p-values (see Methods for a detailed description). Colored dots represent the 10 TCRs that were most significantly enriched, and the larger red dot represents the positive control TCR CDK4-17. b Table representing statistical metrics, and analogous color coding, of the 10 most enriched TCR candidates identified in (a) and their TMG reactivity. c Reporter T cells were transduced with expression constructs encoding candidate TCRs and were cocultured with autologous B cells that were non-transduced or that were expressing the matched TMG identified in the TCR library screen in (a, b). T cell activation was assessed by CD69 expression on reporter T cells by FACS. Bars represent the average value of two biological replicates and red dots represent individual replicate values. d 25-Mer peptides representing the MGs that were encoded in TMGs recognized by candidate TCRs validated in (c) were electroporated into B cells, and these cells were cocultured with reporter T cells expressing the relevant candidate TCR. TCRs recognizing the same TMG are represented with dots in the same color. TMGs 15 and 41 contained MGs harboring frameshift mutations, and partially overlapping peptides were ordered to cover the entire MG sequence. The size of each dot represents the percentage of CD69 + TCR-expressing reporter T cells as measured by FACS. e Summary table of the number of validated TCRs, their mutation specificity and HLA class restriction are shown for the melanoma patient screen. f Transcript expression and variant allele frequencies of the validated neoantigens (red) in comparison to all mutations included in the screen (black). Source data are provided as a Source Data file.
+In order to further validate reactivity of candidate TCRs identified in the screen, T cell activation assays were performed using a selection of 24 candidate TCRs that cover all TMGs identified as hits. Importantly, 23 (96%) of these TCRs showed specific reactivity above background against their respective TMG, of which only TCR5 displayed limited specific reactivity (Fig. 4c). Using a long peptide electroporation strategy, we then tested recognition of individual neoantigens encoded by each of the TMGs recognized by these TCRs. This resulted in deconvolution of specificity to a single peptide for 18 out of 23 tested TCRs. In addition, TCR22 recognized two partially overlapping peptides that cover a neoantigen that arose from a frameshift mutation (Fig. 4d). Using a similar assay, TCRs were evaluated for recognition of their cognate mutant and corresponding wild-type peptide, in most cases revealing a high degree of specificity for the mutant peptide for these TCRs (Supplementary Fig. 4h). Finally, HLA class restriction of all TCRs was determined using CRISPR/Cas9-mediated B2M knockout and antibody-mediated HLA class II blockade of TMG-positive target cells. All but one TCR (TCR22) were HLA class I-restricted (Supplementary Fig. 4i), and these TCRs were directed against a variety of non-recurring mutations (Fig. 4e). Finally, targeted neoantigens displayed a high transcript expression and VAF relative to all mutations included in the screen (Fig. 4f), supporting the prioritization strategy that we initially applied for the selection of mutations that were screened.
+In addition to this melanoma patient, we screened additional high mutational burden tumors across a number of indications. As shown in Table 1, we identified TCRs against multiple neoantigens in 6 out of 8 tumors, including a core-needle tumor biopsy from a non-small cell lung cancer (NSCLC) patient. In 38% of cases (3/8) we observed a combination of HLA class I- and class II-restricted responses. Finally, we also screened a Merkel cell carcinoma sample for virus-specific TCRs and identified and validated 2 TCRs against a small T antigen epitope. This demonstrates the wide applicability of the TCR discovery platform technology, using either combinatorial TCR libraries or other TCR libraries, for the identification of TCRs that target cancer neoantigens or virus-specific epitopes.
+Table 1 Summary table of TCR discovery platform screens for cancer indications associated with a range of mutational burdensFull size table
+Identification of neoantigen-specific TCRs in cancers with low mutational burden
+The objective response rate of microsatellite-stable colorectal cancer (MSS-CRC) patients to anti-PD-1 or anti-PD-L1 therapy is low32, and this low clinical activity may be explained by a limited number of neoantigen-specific T cells33. To test the applicability of our TCR library screening platform in a tumor type in which immune checkpoint blockade has been less effective, we screened resected frozen tumor material from a set of 5 MSS-CRC patients (ref. 34 and Table 1). In three of these patients, we identified and validated one or two TCRs, each recognizing different neoantigens, and displaying highly specific recognition of the mutated antigen with recognition of the wild-type antigen only at the highest peptide concentrations (Supplementary Figs. 5, 6). HLA class restriction assays revealed that both HLA class I and II restricted TCRs could be identified (Supplementary Fig. 6l). Among the identified TCRs was an HLA class II-restricted TCR targeting the recurring TP53 R282W mutation (Supplementary Fig. 6k), demonstrating that TCRs targeting both private as well as shared neoantigens may be uncovered.
+Next, to test the applicability of this approach using diagnostic tumor biopsies, a core-needle biopsy from a MSS-CRC patient was used to design a combinatorial TCR library from the 200 most prevalent TCRα and TCRβ chains (Supplementary Fig. 7a). The TCR library was expressed in reporter T cells, and screened against 135 identified expressed tumor-specific mutations. Using this approach 18 candidate TCRs were identified (Fig. 5a, b), each of which was subjected to validation, HLA-class restriction determination and TCR specificity deconvolution experiments (Fig. 5c). 16 out of 18 candidate TCRs were validated to be reactive to the TMG identified in the screen (Fig. 5d, left panel), and TCR specificity could be determined using a peptide electroporation assay for 15 out of these 16 validated TCRs (Fig. 5d, right panel). We identified 5 class II and 10 class I TCRs, and TCRs targeting the same neoantigen shared HLA-class restriction (Fig. 5e). For each of these 15 TCRs, peptide titration assays were performed using mutant (MT) and wild-type (WT) peptides (Fig. 5f), revealing that the majority of TCRs showed strong mutation-specific antigen recognition (Fig. 5g). In addition, in screens using core needle biopsy tumor samples from two triple-negative breast cancer patients, four TCRs targeting three different neoantigens were identified (Table 1). Taken together, these data indicate that the TCR library screening technology can be applied to routine diagnostic tumor biopsies from tumor types with a low TMB, underscoring its broad application potential.
+Fig. 5: Identification of neoantigen-specific TCRs in a diagnostic tumor biopsy of microsatellite-stable colorectal cancer.Full size image
+a A combinatorial library assembled from the 199 most prevalent alpha and beta chains from CRC17, and including a positive control TCR CDK4−17, were expressed in reporter T cells, which were subsequently cocultured with B cell pools combinatorially encoding 11 TMGs expressing 135 neoepitopes. Cells were MACS-sorted as in Fig. 4a and candidate TCRs were identified as in Fig. 3. Statistical testing was one-sided, and a Bonferroni correction was applied to p-values (see Methods for a detailed description). The 10 most significantly enriched TCRs and the positive control TCR CDK4-17 are represented by colored dots and the larger red dot respectively. b Table representing statistical metrics, and analogous color coding, of the 10 TCR candidates identified in (a) and their TMG reactivity. ‘+’ refers to B cells that express a mutated CDK4 epitope, which can be recognized by the positive control TCR. c, Candidate TCR validation and characterization experiments for the alpha10xbeta11 TCR, where TCR-expressing reporter T cells were cocultured with B cells electroporated with 10 μM of one of the twelve 25 mer peptides encoded in TMG8. T cells cultured in the absence of B cells, (-), with B cells without the antigen (B cells), with a B cell pool expressing TMG8 without (TMG8) or with an antibody blocking HLA-class II presentation (II block) or with PMA/Ionomycin (P + I) were included as controls. T cell activation was assessed by CD69 expression detected by FACS. Red dots represent individual biological replicates and bars represent their average. d Summary graph of the data in c for all TCRs. Validation of reactivity of TCRs against B cell pools expressing their respective TMGs (left panel) and TCR reactivity against the deconvoluted 25-mer epitope (right panel) are shown with coloring by neoantigen specificity. Dashed lines indicate thresholds for further characterization (5 for TMG reactivity; 10 for peptide reactivity). e As in (d) but the ratio of TCR reactivities against B cell pools expressing the relevant TMGs without versus with HLA-class II block as in (c) are shown. f Example of peptide titration assays for the alpha10xbeta11 TCR with mutant (MT) and wildtype (WT) peptide 87. T cell activation was measured as in (c) as the average of two biological replicates for titrated amounts of electroporated 25-mer peptide. g Summary graph of the data in (f) for all TCRs that displayed peptide reactivity above threshold in (d). The area under the curve for MT and WT peptide titrations, the neoantigen specificity, and HLA-class restriction is represented for each TCR. Source data are provided as a Source Data file.
+Discussion
+The fully individualized neoantigen-specific TCR discovery platform described here was developed to enable a next-generation individualized T cell therapy that combines the attractive features of TIL therapy and current engineered T cell therapies. Specifically, TIL therapy has been demonstrated to induce complete and durable clinical responses in patients with advanced metastatic solid cancer. Clinical responses to TIL therapy are frequently associated with the infusion of T cell products containing multiple TCRs reactive with different tumor antigen specificities9,11,35,36, validating the tumor-infiltrating lymphocytes in human cancer lesions as a source of therapeutically relevant TCR specificities. The TCR discovery platform described here aims to isolate such TCRs and engineer these into autologous blood-derived T cells to thereby deliver a more fit T cell product that is highly enriched in tumor-reactive T cells14,37,38,39,40,41,42,43,44,45. As compared to engineered T cell therapies that target a single tumor antigen, the multi-specific T cell products that may be created with this approach may be associated with a reduced risk of antigen escape46,47.
+Individualized TCR-T cell therapies are conceptually attractive and are being pursued by a number of groups. In a landmark first clinical study that explored this concept, limited clinical efficacy was observed48, and it is important to understand areas of optimization. First, while Foy et al isolated neoantigen-specific TCRs from PMBC, we have exploited the high sensitivity of our screening approach to identify neoantigen-specific TCRs from TIL using flash frozen, non-viable tumor biopsy or core-needle biopsy material as input36,37, thereby enabling the interrogation of a TCR subset that has proven clinical activity7,8,9 and is enriched in neoantigen-specific TCRs relative to PBMC-derived TCR repertoires. Second, in the prior work, binding of TCRs to peptide-HLA multimers was used as a basis for identification of neoantigen-specific TCRs, whereas the current platform uses a functional readout to identify TCRs of interest. This provides a more physiologically relevant measure of the intended activity of identified TCRs and also takes into account the endogenous processing and presentation capabilities of expressed neoantigens, as indicated by similar recognition of TMG and full-length gene by two TCRs (Supplementary Fig. 7c, d). Third, and perhaps most importantly, the platform that we describe enables the identification of both HLA class I-restricted and HLA class II-restricted TCRs. Pre-clinical evidence suggests that inclusion of both HLA class I- and HLA class II-restricted TCRs in T cell-based therapies enhances antitumor efficacy49,50, something that may thus be achieved with the approach described here. As an example, output of the melanoma patient screen (Fig. 4) would support the manufacture of a T cell product containing a mixture of HLA class I and class II restricted TCRs that target up to 6 different neoantigens. Where needed, additional TCR selection criteria may be applied to obtain an optimal TCR-T cell product. For instance, by targeting driver mutations and mutations displaying a high VAF, one may further reduce the likelihood of immune escape.
+The application of the TCR identification platform described in this manuscript is restricted to somatic mutation-derived (neo)antigens. We choose this restriction given the inherent lack of expression of this class of antigens in normal tissue, resulting in a favorable safety profile for TCRs targeting such antigens. However, the platform technology described here may be adapted in various ways to maximize the number of tumor-specific TCRs that can be identified. First, additional tumor-specific antigens, such as tumor-associated viral antigens (e.g., see Table 1), cancer germline antigens, and antigens arising from gene fusion, intron retention and exon skipping51 can readily be included. Second, individualized TCR libraries may be assembled in alternative ways. Underlying TCR repertoires may be derived from T cell sources other than TIL (as described here), such as peripheral blood (PB) T cells. While tumor-specific T cells are usually infrequent in PB T cells52, specific populations of cells, such as the CD8 + PD-1+ lymphocyte subset of PB T cells, are enriched in tumor-specific reactivity53. Similarly, tumor-specific T cells may be enriched from TIL using markers such as PD-1, CD39, CD103, and CXCL1314,28,45,54,55,56,57, and TCR repertoires derived from these T cell subsets may be used as an alternative basis for TCR library design. Also, TCRs may be selected for inclusion in the TCR library based on TCR clustering analysis, which can predict shared antigen specificity in some cases (Supplementary Fig. 7e–g). In addition, TCR repertoires may be identified or cloned using alternative and more cost-efficient technology19,58,59. Of specific interest would be the ability to obtain paired TCR identification from non-viable tumor material, as this would allow to assemble TCR libraries in a non-combinatorial fashion. This would enable deeper TCR repertoire interrogation and identification of TCR clonotypes that are less or not expanded. While metadata analysis suggests that there is enrichment of neoantigen-specific TCRs among the top 50 selected TCR clonotypes, there is a significant number of tumor-reactive TCRs identified among the less prevalent TCR clonotypes (Supplementary Fig. 7b). With TCR pairing information, TCR libraries can also be designed excluding orphan TCR chains (i.e., chains for which the paired other TCR chain is missing), which is a limitation of the current platform due to the potential amplification bias during bulk TCR identification and due to the use of combinatorial TCR libraries. Finally, this would address the possibility that the current platform may identify non-natural TCR pairs, which necessitates rigorous safety testing when using TCRs for individualized TCR-T cell therapy.
+Beyond its use to enable fully individualized TCR therapy, the TCR library screening platform may be used for other purposes, such as the screening for TCRs that target shared tumor antigens. Alternatively, a library of TCR variants of a given defined antigen-specific TCR may be screened to identify TCRs that display altered specificity. In the latter application, the ability to rapidly screen large pools of TCRs against collections of target cells in which the antigen of interest is either absent or present may be of value to exclude the introduction of off-target reactivity60. Finally, we speculate that the current technology may be applied to generate large datasets of antigen – TCR pairs that can be used as training sets for machine learning approaches to develop models that predict TCR-pHLA reactivity. Similarly, the development of large datasets linking TCR reactivity data with single-cell RNA profiling data of the originating T cells may allow the training of models that predict tumor reactivity with greater precision14,61,62, e.g., in a cancer type or oncogenic driver-dependent fashion. The combination of such models is expected to allow the field to progressively identify tumor-reactive TCR repertoires with increasing precision, further supporting the advancement of personalized TCR-T cell therapy.
+Methods
+Patient material
+Tumor tissue was collected from patients treated at the NKI-AVL (Amsterdam, the Netherlands), LUMC (Leiden, the Netherlands) and Moffitt Cancer Center (Tampa, Unites States) with informed consent and in accordance with guidelines of the Institutional Review Board of the Moffitt Cancer Center and the Medical Ethical Committees of the NKI-AVL and of the Leiden University Medical Centre.
+TCR library design
+To identify TCR chains from TIL in fresh-frozen non-viable tumor tissue, TCR transcripts were reverse-transcribed from tumor RNA, amplified, and sequenced using a multiplex PCR-based approach developed by MiLaboratories LLC. Libraries were sequenced using Illumina technology. MiXCR software was used to identify clonotypes, which were subsequently filtered for functionality, collapsed based on amino acid sequence, and a fixed number of TCRα and β chains was used for combinatorial TCR library assembly.
+Synthesis and combinatorial assembly of TCR libraries
+TCRα and β chain fragments were synthesized and used in a combinatorial assembly reaction, cloning a single TCRβ chain, a 2 A element, and a single TCRα chain in tandem in a TCR expression plasmid. TCR library assembly into the pMP71-TCR-T2A-blast or pMP71-TCR-T2A-puro vectors was performed by Twist Biopharma. Assembled plasmids express a TCRβ chain, a TCRα chain and a blasticidin or puromycin resistance gene from a single transcript, using 2A ribosomal skipping elements. The constant domains of both TCRα and β chains are of murine origin. For combinatorial TCR libraries consisting of 4 sub-libraries, α100, β100, α200 and β200 represent the TCRα chains 1-100, the TCRβ chains 1-100, the TCRα chains 101-199 and the TCRβ chains 101-199, respectively, where the α200 and β200 sub-libraries also include one alpha or beta chain for the positive control TCR CDK4-17, respectively.
+TCR library recovery, sequencing and quality control
+For recovery of TCR sequences, genomic DNA (obtained using the DNeasy Blood & Tissue Kit according to manufacturer’s protocol) or TCR plasmid library was used as template for PCR. The PCR was performed using a forward primer annealing to a 5’ upstream plasmid sequence and a reverse primer annealing to the TCRα chain C-region. In a second round PCR, the amplicon was extended to include adapters, which were used for another PCR extension with Oxford Nanopore Technology (ONT) barcode and sequencing adapters from the PCR Barcoding Kit (SQK-PBK004). PCR products after each round of PCR were purified using AMPure XP beads (Beckman Coulter) and analyzed using an Agilent TapeStation 4200. Finally, amplicons were pooled, and rapid 1D sequencing adapters were added according to manufacturer’s protocol. 50 fmol of sequence library was loaded onto a R9.4.1 Flow Cell (ONT) following the manufacturer’s protocol. Sequencing was performed on a GridION or PromethION with basecalling using the High Accuracy model (ONT). For the experiment described in Fig. 1c, d, primers flanking the TCRβ chain were used for amplification by PCR. In a second-round PCR, Illumina adapters were introduced into the amplicon, and amplicons were pooled in an equimolar fashion. Library sequencing was performed by Macrogen (Seoul, Korea), generating 50E6 2x151bp reads on a HiSeq X (Illumina). As quality control of TCR libraries in Supplementary Figs. 4e and 5b, summary statistics including the mean number of reads representing each TCR in the library (Mean Coverage), the number of missing TCR chains (Dropouts; the identity of the missing chain and the number of missing TCR combinations with that chain (in brackets)), and the number of TCRs that are represented within the range of median +/- a 2log-unit (Within range).
+TCR identification and quantification from sequence data
+ONT sequence reads were aligned to a reference consisting of individual TCRα and β chains using guppy_aligner from the guppy toolkit (ONT). Reads were counted when the following criteria were met: (i) having a barcode alignment score of ≥75; (ii) having a length <2000 bp; (iii) having an alignment length of >650 bp; (iv) having one TCRα and one TCRβ chain aligned in the same direction; (v) having one TCRα and one TCRβ chain identified in a read. For the experiment described in Fig. 1c, d, Illumina sequence reads were aligned to a reference consisting of individual TCRβ chains using BWA (version 0.7.17). Read count tables were further processed in the R programming language (https://www.r-project.org). In all cases, combinatorial TCR libraries were assembled using 100 or 200 TCRα and β clonotypes selected on prevalence and including a single TCRαβ pair specific for the CDK4 neoantigen as a technical control.
+B cell isolation, immortalization, expansion and transduction
+B cells were immortalized using (i) Epstein-Barr virus (EBV) infection as previously described34 (experiments in Fig. 3 and Supplementary Figs. 5 and 6); or (ii) BCL-6/BCL-xL expression. For (ii), B cells were isolated from patient peripheral blood mononuclear cells (PBMCs) using the MojoSort Human Pan B cell Isolation kit (Biolegend) and a Biolegend MojoSort Magnet, (experiment in Fig. 4) or using CD20 MicroBeads (Miltenyi) and an AutoMACS according to the manufacturer’s instructions. A total of 400,000 B cells were activated by seeding 100,000 irradiated hCD40L-expressing L cells (ATCC CRL-2648) in a tissue culture (TC)-treated 24-well plate at least 4 h prior to the addition of 200,000 B cells/well in RPMI medium supplemented with 10% (v/v) fetal calf serum, 1% (v/v) penicillin/streptomycin, 1% (v/v) sodium pyruvate, 1% (v/v) non-essential amino acids, 1% (v/v) glutamax, 50 nM 2-mercaptoethanol, and recombinant human IL-2 (100 IU/mL). After 48 h, medium was refreshed and supplemented with recombinant human IL-2 (100 IU/mL), IL-4 (50 ng/mL), and IL-21 (50 ng/mL). After 24 h, activated B cells were immortalized by retroviral transduction with expression constructs encoding (i) BCL-6/BCL-xL and (ii) CD40L. After 24 h, the B cells were transferred to a new well containing hCD40L-expressing L cells and were cultured in the presence of IL-21 (50 ng/mL) for 72 h. BCL-6/BCL-xL/CD40L transduced B cells were further expanded in the presence of IL-21 (50 ng/mL).
+Antigen presentation and additional engineering in B cells
+Immortalized B cells were transduced with retroviral constructs encoding a MG or a TMG. Twenty-four hours after transduction, cells were transferred to a well containing irradiated hCD40L-expressing L cells and were cultured in the presence of IL-21 (50 ng/mL) for 72 h. TMG expressing B cells were selected by culture in the presence of 1 µg/mL puromycin for 3–4 days. Following puromycin selection, TMG-expressing B cells were further expanded and used as target cells in functional genetic screens and in subsequent T cell assays. B cell pools were created by pooling TMG-encoding constructs prior to virus production (MEL10, NSCLC12 and CRC17) or by mixing B cells expressing individual TMGs in equal cellular ratios prior to the screen coculture.
+For peptide electroporation, B cells were electroporated using long polypeptides. B cells were harvested, washed with PBS, and subsequently resuspended in SF buffer (Lonza) at a concentration of 2.5E7 cells/mL. 20 µL cell suspension and 0.5 µL of a 25-AA peptide (40 mM in dimethyl sulfoxide) were mixed per well in a 96-well plate and transferred to an electroporation plate (Lonza). Using the Amaxa 4D Nucleofector X Unit (program Vero/DN100) and the Amaxa 4D Nucleofector 96-well shuttle device, cells were electroporated and subsequently rested in a CO2 incubator at 37°C. After 10 min, cells were transferred to a 96-well U-bottom tissue culture plate containing 180 µL of complete B cell medium without any cytokines for 4 h. Reported peptide concentrations are end concentrations after this 10-fold dilution step. Subsequently, cells were washed extensively (for all patients except NSCLC12 and CRC17) and used for coculture.
+To create B2M knockout cells for HLA class restriction assays, tracrRNA and crRNA oligonucleotides were annealed and preloaded onto Cas9 to form a ribonucleoprotein (RNP) complex. Briefly, the gRNA tracrRNA and the crRNA (both 200 µM) were thawed on ice, combined with IDTE buffer into a PCR tube, mixed, and annealed (95 °C for 5 min) in a PCR machine. Subsequently, the gRNA mix was kept at room temperature for 10 min, and Cas9 nuclease was added. The resulting RNP complex was incubated at room temperature for 15–20 min, aliquoted and kept at 80 °C until use. For the generation of B2M KO cell lines, 5E5 TMG-transduced B cells recognized by candidate TCRs in functional screens were harvested, washed with PBS and resuspended in SF buffer (Lonza) at a concentration of 2.5E7 cells/mL. An equimolar mix of RNP complexes with 3 gRNAs targeting B2M were mixed and added to the cells (20 µL per well). Cells were then electroporated in an electroporation strip using the 4D-Nucleofector X unit (program Vero/DN100). Cells were rested at 37 °C for 10 min after electroporation and transferred to a 24-well plate containing complete B cell medium and IL-21 (50 ng/mL). Cultures of B2M KO B cells were maintained by transfer in fresh complete B cell medium supplemented with IL-21 (50 ng/mL) every 3-4 days, at a concentration of 2E5 cells/mL.
+Jurkat reporter T cell generation
+Clonal derivatives of Jurkat E6-1 (ATCC) that lack endogenous TCR expression were created as previously described20. Subsequently, clonal derivatives were created after retroviral transduction with a CD8A-P2A-CD8B transgene. TCR-KO, CD8+ Jurkat reporter T cell clones were maintained in RPMI medium supplemented with 10% (v/v) fetal calf serum and 1% (v/v) penicillin/streptomycin. Jurkat reporter T cells were further engineered by retroviral transduction to express individual TCRs or TCR libraries, and transduced cells were selected using 4–6 μg/mL blasticidin or 250 ng/mL puromycin.
+Retrovirus production
+3E6 293 Vec-Baev (Biovec Pharma) or 1.2E6 Phoenix-Ampho (ATCC) cells were seeded into 10 cm2 dishes and were transfected 24 h later with 10 μg plasmid DNA using serum-free DMEM and FuGENE® 6 transfection reagent (Promega). After 48 h, virus-containing supernatant was harvested and in some cases centrifuged at 840 x g for 10 min to remove cellular debris. Supernatants were subsequently passed through a 0.45 μm filter and used for transduction.
+Whole exome and RNA sequencing
+Isolation of gDNA and RNA from tumor samples was performed as described previously34 or according to the Allprep DNA/RNA Mini Kit manufacturer’s protocol using a TissueLyser (Qiagen) for tissue disruption and homogenization. gDNA and RNA concentrations were measured using the Qubit dsDNA/RNA BR Assay Kits (Invitrogen). Isolation of matched normal gDNA was performed from PBMCs deprived of B cells using the DNeasy Blood&Tissue Kit (Qiagen) according to the manufacturer’s protocol. Whole exome sequencing (WES) was performed using a SureSelect V7 capture kit (Agilent) and sequencing 2 × 151 bp on a NextSeq2000 (Illumina). Alternatively, WES was performed at Macrogen (Seoul, Korea) using a SureSelect V7 capture kit (Agilent) and sequencing 2 × 151 bp on a Novaseq (Illumina) to a coverage of 150x. mRNA library preparation was performed using the Stranded mRNA Prep Ligation kit (Illumina) or the SureSelect V7 capture kit (Agilent; after reverse transcription) and 2 × 101 or 2 × 151 bp sequencing was performed on a NextSeq2000 (Illumina). Alternatively, mRNA sequencing was performed at Macrogen (Seoul, Korea) using a TruSeq Stranded mRNA kit (Illumina) and sequencing 2 × 101 bp on a Novaseq (Illumina) to 2 × 101 bp 50E6 reads.
+Identification of mutations, tandem minigene design and combinatorial TMG encoding
+Mutation identification was performed as previously described34 (experiments in Supplementary Figs. 5 and 6). Alternatively, mutation calling was performed using GATK (version 4.1.3.0) according to their best practices for somatic short variant discovery (https://gatk.broadinstitute.org/hc/en-us/articles/360035894731-Somatic-short-variant-discovery-SNVs-Indels). STAR (version 2.7.3a) was used for aligning RNA reads, and primary transcript counts were used as a proxy for expression of a mutation. An adjusted version of the Neoepiscope tool63 was used for subsequent MG identification (https://github.com/ThijsMaas/neoepiscope) as follows. The first 12 amino acids (AA) of the MG consisted of wild-type sequence. This sequence was followed by the first altered AA in position 13. The MG sequence was completed with additional wild-type sequence (in case of point mutations) or additional out-of-frame sequence until the first STOP codon (in case of out-of-frame mutations). MGs had a length of 25 AA or more (in case of long out-of-frame sequences). In cases where a minimum of 25 AA could not be obtained using the design guidelines described above, sequence frames were moved away from start/stop codons to reach a 25 AA MG sequence. Mutations were further selected for screening using a combined, equal weighing of (i) variant-allele frequency and (ii) expression of the mutation-containing transcript. A variable number of MGs was distributed over TMGs with each TMG flanked by LAMP1 signaling domain (N-terminal), and transmembrane and cytosolic domains (C-terminal) to allow targeting to the HLA class II presentation machinery25,26. TMGs were codon optimized and cloned into a pMX-P2A-Puro-T2A-Ly6G retroviral transfer vector to allow coexpression of the TMG, a puromycin resistance gene and murine Ly6G from the same transcript. TMGs were combinatorially encoded in TMG pools by ensuring that a given TMG is present in exactly one combination of TMG pools, and that every combination of TMG pools encodes exactly one TMG. As an example of how to achieve this, the combinatorial TMG design in Supplementary Fig. 4 was created by diagonal mirroring of the 7 × 7 block of TMGs from the R1-R7 design to obtain the C1-C7 design. As a positive control, autologous B cells expressing a construct encoding B2M-linker-HLA-A*02:01 and a minigene encoding a mutated CDK4 epitope were included. These cells can be recognized by the positive control TCR CDK4-17.
+Cocultures
+TCR-KO CD8+ Jurkat reporter T cells expressing the indicated TCR or TCR library were mixed with antigen-presenting B cells at a 1:1 ratio. To allow combinatorial TMG encoding, pools were created in which each TMG was present in a unique combination of two pools (in most cases a Row (R) and a Column (C) pool). Cocultures were set up in 96-well U-bottom TC-treated plates and incubated at 37°C for 20–24 h.
+FACS and MACS-based cell sorting for screens
+For FACS-based cell sorting, cells were stained with anti-CD20 (clone 2H7) and anti-CD69 (clone FN50) and CD20-negative cells were sorted into a ‘activated’ and a ‘non-activated’ population of cells expressing high and low CD69 levels, respectively, with each of these samples containing ~10% of the total number of reporter T cells. For MACS-based cell sorting, cells were harvested and the AutoMACS (Miltenyi) was used for sequential cell separations. First, dead cells were removed using a dead-cell removal kit and B cells were depleted using anti-CD20 microbeads. Subsequently, cells were separated based on CD62L expression. CD62L-negative cells were then stained with an anti-CD69 biotin-labeled antibody, after which the cells were separated using anti-biotin microbeads. CD62L-negative, CD69-positive cells were used as the ‘activated’ fraction containing activated reporter T cells. CD62L-positive cells were used as the ‘non-activated’ fraction containing non-activated reporter T cells, except for samples of pt4 (CRC4), for which CD62L-positive CD69-negative cells represented the ‘non-activated’ fraction. Cells were pelleted and stored at -80°C for subsequent gDNA isolation.
+Analysis of screening data to identify neoantigen-specific TCR candidates
+Screens were executed in triplicate when B cell pools were not designed using combinatorial TMG encoding (screens in Fig. 3 and Supplementary Fig. 5d (pt3/pt15)), while screens were executed once for each B cell pool (i.e., all TMGs were screened twice given their representation in two independent B cell pools) when applying combinatorial TMG encoding (all other screens, e.g. including the screen in Fig. 4 according to the combinatorial TMG encoding design in Supplementary Fig. 4). Neoantigen-specific TCR candidates were identified using differential count analysis with the DESeq2 Bioconductor package (version 1.26.0). An interaction model was applied to identify TCRs that were enriched in activated samples relative to non-activated samples, specifically in those samples that were derived from cocultures in the presence, but not the absence, of a given TMG (or pool of TMGs) in autologous B cells. Statistical testing was performed in a one-sided fashion. For screens in which combinatorial TMG encoding in pools was applied (Figs. 4 and 5), this analysis was repeated for every combination of row and column pools. All results were combined, and a Bonferroni correction was applied to adjust p-values for multiple testing. For visualization purposes, ‘TCR reactivity’ (Fig. 3f and Supplementary Figs. 5k, 6a, b) was calculated for each TCR as the difference between the sum of all DESeq2 rlog values of relevant activated samples, and the sum of all rlog values of relevant non-activated samples. These values were scaled according to the number of samples in the presence and absence of relevant antigen prior to graphical representation. Bonferroni-corrected p-values were used to identify candidate TCRs, with cut-offs of p < 0.01 for melanoma patient (MEL9) and pt4 screens and p < 1 for other screens.
+T cell activation and TCR characterization assays
+For T cell activation assays, cocultures were stained with anti-CD8 (clone SK1), anti-CD69 (clone FN50) and Near IR live/dead stain (Thermo Fisher Scientific), and the percentage of CD69-positive cells relative to live CD8-positive cells was determined by flow cytometry. Resulting data were analyzed using FlowJo. For TCR validation assays, pMP71 plasmids encoding individual TCRs were retrovirally transduced into Jurkat reporter T cells, TCR-expressing cells were blasticidin selected in case TCR-transduction efficiency was not sufficient, then cells were cocultured with B cells expressing the relevant TMG, and T cell activation was assessed. For deconvolution assays, 25-AA peptides minigenes covering the sequences encoded by the different MGs present in a TMG were electroporated into B cells, cells were cocultured with reporter T cells expressing the relevant TCR, and T cell activation was assessed. Peptides that partially overlap by a maximum of 15 amino acids were designed to cover out-of-frame mutations. To determine specificity of identified TCRs for the mutant peptide (Supplementary Fig. 4e), 25-AA wild-type and mutant peptides were electroporated into B cells at a 100 uM end concentration, or 9-AA peptides were loaded onto B cells at a concentration of 10 uM. Subsequently, B cells were cocultured with reporter T cells expressing the relevant TCR, and T cell activation was assessed. For HLA class restriction assays, reporter T cells expressing the relevant TCR were cocultured with B cell expressing the relevant TMG either in the presence or absence of an HLA class II blocking antibody (IVA12, 120 μg/mL) and with B2M KO B cells expressing the relevant TMG. EC50 was calculated using Prism 10 with 3-parameter agonist concentration versus response setting.
+TCR clustering analysis
+TCR clustering analysis was performed using GIANA64 with default settings or by calculating the minimal Levenshtein edit distance between the alpha and beta chain CDR3s. A minimal edit distance threshold of 2 or less between any pair of TCRs was used to predict recognition of the same antigen. Network graphs were made using the igraph R package (version 2.0.2). Only fully validated and deconvolved TCRs were included in the analysis.
+Reporting summary
+Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.
+Data availability
+The raw sequencing data are protected and are not available due to data privacy laws. The read counts from functional genetic screens are available in the Source Data file. Source data are provided with this paper.
+Code availability
+The code for analysing functional genetic screening data is available on GitHub (https://github.com/Neogene-Therapeutics/Nature_Communications).
+References
+Jacobson, C. A. et al. Axicabtagene ciloleucel in relapsed or refractory indolent non-Hodgkin lymphoma (ZUMA-5): a single-arm, multicentre, phase 2 trial. Lancet Oncol. 23, 91–103 (2022).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Maude, S. L. et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic Leukemia. N. Engl. J. Med. 378, 439–448 (2018).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Berdeja, J. G. et al. Ciltacabtagene autoleucel, a B-cell maturation antigen-directed chimeric antigen receptor T-cell therapy in patients with relapsed or refractory multiple myeloma (CARTITUDE-1): a phase 1b/2 open-label study. Lancet Lond. Engl. 398, 314–324 (2021).
+Article
+CAS
+Google Scholar
+Rodriguez-Otero, P. et al. Ide-cel or standard regimens in relapsed and refractory multiple myeloma. N. Engl. J. Med. 388, 1002–1014 (2023).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Patel, U. et al. CAR T cell therapy in solid tumors: a review of current clinical trials. Ejhaem 3, 24–31 (2022).
+Article
+PubMed
+MATH
+Google Scholar
+Labanieh, L. & Mackall, C. L. CAR immune cells: design principles, resistance and the next generation. Nature 614, 635–648 (2023).
+Article
+ADS
+PubMed
+MATH
+CAS
+Google Scholar
+Yang, J. C. & Rosenberg, S. A. Chapter seven adoptive T-cell therapy for cancer. Adv. Immunol. 130, 279–294 (2016).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Rohaan, M. W. et al. Tumor-infiltrating lymphocyte therapy or Ipilimumab in advanced melanoma. N. Engl. J. Med. 387, 2113–2125 (2022).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Zacharakis, N. et al. Immune recognition of somatic mutations leading to complete durable regression in metastatic breast cancer. Nat. Med. 24, 724–730 (2018).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Schumacher, T. N., Scheper, W. & Kvistborg, P. Cancer neoantigens. Annu Rev. Immunol. 37, 1–28 (2018).
+Google Scholar
+Berg et al. Tumor infiltrating lymphocytes (TIL) therapy in metastatic melanoma: boosting of neoantigen-specific T cell reactivity and long-term follow-up. J. Immunother. Cancer 8, e000848 (2020).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Janelle, V. & Delisle, J.-S. T-cell dysfunction as a limitation of adoptive immunotherapy: current concepts and mitigation strategies. Cancers 13, 598 (2021).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Oliveira, G. et al. Phenotype, specificity and avidity of antitumour CD8+ T cells in melanoma. Nature 596, 119–125 (2021).
+Lowery, F. J. et al. Molecular signatures of antitumor neoantigen-reactive T cells from metastatic human cancers. Science 375, 877–884 (2022).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Tsuji, T. et al. Rapid construction of antitumor T-cell receptor vectors from frozen tumors for engineered T-cell therapy. Cancer Immunol. Res. 6, 594–604 (2018).
+Przybyla, L. & Gilbert, L. A. A new era in functional genomics screens. Nat. Rev. Genet 23, 89–103 (2022).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Vredevoogd, D. W. et al. Augmenting immunotherapy impact by lowering tumor TNF cytotoxicity threshold. Cell 178, 585–599.e15 (2019).
+Article
+PubMed
+CAS
+Google Scholar
+Fahad, A. S. et al. Cell activation-based screening of natively paired human T cell receptor repertoires. Sci. Rep. 13, 8011 (2023).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Moravec, Z. et al. Discovery of tumor-reactive T cell receptors by massively parallel library synthesis and screening. Nat. Biotechnol. https://doi.org/10.1038/s41587-024-02210-6 (2024).
+Mezzadra, R. et al. Identification of CMTM6 and CMTM4 as PD-L1 protein regulators. Nature 549, 106–110 (2017).
+Article
+ADS
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Goncharov, M. M. et al. Pinpointing the tumor-specific T cells via TCR clusters. eLife 11, e77274 (2022).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Vazquez-Lombardi, R. et al. High-throughput T cell receptor engineering by functional screening identifies candidates with enhanced potency and specificity. Immunity 55, 1953–1966.e10 (2022).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Santegoets, S. J. et al. The common HLA class I-restricted tumor-infiltrating T cell response in HPV16-induced cancer. Cancer Immunol. Immunother. 72, 1553–1565 (2023).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Kwakkenbos, M. J. et al. Generation of stable monoclonal antibody-producing BCR+ human memory B cells by genetic programming. Nat. Med. 16, 123–128 (2010).
+Article
+PubMed
+CAS
+Google Scholar
+Wu, T. C. et al. Engineering an intracellular pathway for major histocompatibility complex class II presentation of antigens. Proc. Natl Acad. Sci. USA 92, 11671–11675 (1995).
+Article
+ADS
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Rowell, J. F. et al. Lysosome-associated membrane protein-1-mediated targeting of the HIV-1 envelope protein to an endosomal/lysosomal compartment enhances its presentation to MHC class II-restricted T cells. J. Immunol. 155, 1818–1828 (1995).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Wu, C. et al. Soluble CD40 ligand-activated human peripheral B cells as surrogated antigen presenting cells: a preliminary approach for anti-HBV immunotherapy. Virol. J. 7, 370–370 (2010).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Gros, A. et al. PD-1 identifies the patient-specific CD8+ tumor-reactive repertoire infiltrating human tumors. J. Clin. Invest. 124, 2246–2259 (2014).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Tran, E. et al. Immunogenicity of somatic mutations in human gastrointestinal cancers. Science 350, 1387–1390 (2015).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Tran, E. et al. T-cell transfer therapy targeting mutant KRAS in cancer. N. Engl. J. Med. 375, 2255–2262 (2016).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Stevanović, S. et al. Landscape of immunogenic tumor antigens in successful immunotherapy of virally induced epithelial cancer. Science 356, 200–205 (2017).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+Google Scholar
+Yarchoan, M., Hopkins, A. & Jaffee, E. M. Tumor mutational burden and response rate to PD-1 inhibition. N. Engl. J. Med. 377, 2500–2501 (2017).
+Article
+PubMed
+PubMed Central
+MATH
+Google Scholar
+Scheper, W. et al. Low and variable tumor reactivity of the intratumoral TCR repertoire in human cancers. Nat. Med. 25, 89–94 (2019).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Bulk et al. Neoantigen-specific immunity in low mutation burden colorectal cancers of the consensus molecular subtype 4. Genome Med. 11, 87 (2019).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Prickett, T. D. et al. Durable complete response from metastatic melanoma after transfer of autologous T cells recognizing 10 mutated tumor antigens. Cancer Immunol. Res. 4, 669–678 (2016).
+Article
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Creelan, B. C. et al. Tumor-infiltrating lymphocyte treatment for anti-PD-1-resistant metastatic lung cancer: a phase 1 trial. Nat. Med. 27, 1410–1418 (2021).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Chandran, S. S. & Klebanoff, C. A. T cell receptor‐based cancer immunotherapy: emerging efficacy and pathways of resistance. Immunol. Rev. 290, 127–147 (2019).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Berger, C. et al. Adoptive transfer of effector CD8+ T cells derived from central memory cells establishes persistent T cell memory in primates. J. Clin. Invest 118, 294–305 (2008).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Graef, P. et al. Serial transfer of single-cell-derived immunocompetence reveals stemness of CD8+ central memory T cells. Immunity 41, 116–126 (2014).
+Article
+PubMed
+CAS
+Google Scholar
+Bai, Z. et al. Single-cell antigen-specific landscape of CAR T infusion product identifies determinants of CD19-positive relapse in patients with ALL. Sci. Adv. 8, eabj2820 (2022).
+Article
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Deng, Q. et al. Characteristics of anti-CD19 CAR T cell infusion products associated with efficacy and toxicity in patients with large B cell lymphomas. Nat. Med. 26, 1878–1887 (2020).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Kvistborg, P. et al. TIL therapy broadens the tumor-reactive CD8+ T cell compartment in melanoma patients. Oncoimmunology 1, 409–418 (2012).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Andersen, R. et al. Long-lasting complete responses in patients with metastatic melanoma after adoptive cell therapy with tumor-infiltrating lymphocytes and an attenuated IL2 regimen. Clin. Cancer Res. 22, 3734–3745 (2016).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Klebanoff, C. A., Gattinoni, L. & Restifo, N. P. Sorting through subsets: which T-cell populations mediate highly effective adoptive immunotherapy? J. Immunother. 35, 651–660 (2012).
+Article
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Zheng, C. et al. Transcriptomic profiles of neoantigen-reactive T cells. Cancer Cell 40, 410–423.e7 (2022).
+Article
+PubMed
+MATH
+Google Scholar
+Majzner, R. G. & Mackall, C. L. Tumor antigen escape from CAR T-cell therapy. Cancer Discov. 8, 1219–1226 (2018).
+Article
+PubMed
+MATH
+CAS
+Google Scholar
+Watanabe, K., Kuramitsu, S., Posey, A. D. & June, C. H. Expanding the therapeutic window for CAR T cell therapy in solid tumors: the knowns and unknowns of CAR T cell biology. Front. Immunol. 9, 2486 (2018).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Foy, S. P. et al. Non-viral precision T cell receptor replacement for personalized cell therapy. Nature 615, 687–696 (2023).
+Alspach, E. et al. MHC-II neoantigens shape tumour immunity and response to immunotherapy. Nature 574, 696–701 (2019).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Poncette, L., Bluhm, J. & Blankenstein, T. The role of CD4 T cells in rejection of solid tumors. Curr. Opin. Immunol. 74, 18–24 (2022).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Lang, F., Schrörs, B., Löwer, M., Türeci, Ö. & Sahin, U. Identification of neoantigens for individualized therapeutic cancer vaccines. Nat. Rev. Drug Discov. 21, 261–282 (2022).
+Article
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Cohen, C. J. et al. Isolation of neoantigen-specific T cells from tumor and peripheral lymphocytes. J. Clin. Invest 125, 3981–3991 (2015).
+Article
+PubMed
+PubMed Central
+MATH
+Google Scholar
+Gros, A. et al. Prospective identification of neoantigen-specific lymphocytes in the peripheral blood of melanoma patients. Nat. Med. 22, 433–438 (2016).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Simoni, Y. et al. Bystander CD8+ T cells are abundant and phenotypically distinct in human tumour infiltrates. Nature 557, 575–579 (2018).
+Article
+ADS
+PubMed
+CAS
+Google Scholar
+Duhen, T. et al. Co-expression of CD39 and CD103 identifies tumor-reactive CD8 T cells in human solid tumors. Nat. Commun. 9, 2724 (2018).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+Google Scholar
+He, J. et al. Defined tumor antigen-specific T cells potentiate personalized TCR-T cell therapy and prediction of immunotherapy response. Cell Res. 32, 530–542 (2022).
+Veatch, J. R. et al. Neoantigen-specific CD4+ T cells in human melanoma have diverse differentiation states and correlate with CD8+ T cell, macrophage, and B cell function. Cancer Cell 40, 393–409.e9 (2022).
+Article
+PubMed
+PubMed Central
+MATH
+Google Scholar
+Hu, Z. et al. A cloning and expression system to probe T-cell receptor specificity and assess functional avidity to neoantigens. Blood 132, 1911–1921 (2018).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Genolet, R. et al. TCR sequencing and cloning methods for repertoire analysis and isolation of tumor-reactive TCRs. Cell Rep. Methods 3, 100459 (2023).
+Article
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Linette, G. P. et al. Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma. Blood 122, 863–871 (2013).
+Article
+PubMed
+PubMed Central
+CAS
+Google Scholar
+Tan, C. L. et al. Prediction of tumor-reactive T cell receptors from scRNA-seq data for personalized T cell therapy. Nat. Biotechnol. https://doi.org/10.1038/s41587-024-02161-y (2024).
+Pétremand, R. et al. Identification of clinically relevant T cell receptors for personalized T cell therapy using combinatorial algorithms. Nat. Biotechnol. https://doi.org/10.1038/s41587-024-02232-0 (2024).
+Wood, M. A. et al. neoepiscope improves neoepitope prediction with multivariant phasing. Bioinformatics 36, 713–720 (2019).
+Article
+Google Scholar
+Zhang, H., Zhan, X. & Li, B. GIANA allows computationally-efficient TCR clustering and multi-disease repertoire classification by isometric transformation. Nat. Commun. 12, 4699 (2021).
+Article
+ADS
+PubMed
+PubMed Central
+MATH
+CAS
+Google Scholar
+Download references
+Acknowledgements
+We thank members of Neogene screening and TCR selection teams for help in executing screens, Wouter Scheper, Ross Kettleborough, Rebecca Nugent, and Tavneet Gill for discussions and Moffitt Cancer Center CCSG Tissue Core (NCI P30-CA076292) and additional Alliance members for providing patient material. N.F.C.C.d.M. is funded by the European Research Council (ERC) under the European Union’s Horizon 2020 Research and Innovation Programme (grant agreement no. 852832).
+Author information
+Author notes
+These authors contributed equally: Ton N. Schumacher, Carsten Linnemann, and Gavin M. Bendle.
+Authors and Affiliations
+Neogene Therapeutics, A member of the AstraZeneca Group, Amsterdam, The Netherlands
+Thomas Kuilman, Deborah S. Schrikkema, Jules Gadiot, Raquel Gomez-Eerland, Laura Bies, Julia Walker, Robbert M. Spaapen, Hanna Kok, Demi Houg, Milena Viyacheva, Yvonne B. Claassen, Manuel Saornil, Oscar Krijgsman, Bas Stringer, Huiwen Ding, Anou Geleijnse, Anne C. Meinema, Bianca Weissbrich, Melissa Lancee, Carmen G. Engele, Marianna Sabatino, Jitske van den Bulk, Jeroen W. J. van Heijst, Carsten Linnemann & Gavin M. Bendle
+Department of Pathology, Moffitt Cancer Center, Tampa, FL, USA
+Pei-Ling Chen & Kenneth Y. Tsai
+Department of Cutaneous Oncology, Moffitt Cancer Center, Tampa, FL, USA
+Pei-Ling Chen, Kenneth Y. Tsai, James J. Mulé & Vernon K. Sondak
+Department of Immunology and Radiation Oncology Program, Moffitt Cancer Center, Tampa, FL, USA
+James J. Mulé
+Department of Pathology, Leiden University Medical Center, Leiden, The Netherlands
+Jitske van den Bulk & Noel F. de Miranda
+Division of Molecular Oncology & Immunology, The Netherlands Cancer Institute, Amsterdam, The Netherlands
+Inge Jedema & John G. Haanen
+Division of Medical Oncology, The Netherlands Cancer Institute, Amsterdam, The Netherlands
+John G. Haanen
+Department of Clinical Oncology, Leiden University Medical Center, Leiden, The Netherlands
+John G. Haanen
+Division of Molecular Oncology & Immunology, Oncode Institute, The Netherlands Cancer Institute, Amsterdam, The Netherlands
+Ton N. Schumacher
+Department of Hematology, Leiden University Medical Center, Leiden, The Netherlands
+Ton N. Schumacher
+Authors
+Thomas KuilmanView author publications
+Search author on:PubMed Google Scholar
+Deborah S. SchrikkemaView author publications
+Search author on:PubMed Google Scholar
+Jules GadiotView author publications
+Search author on:PubMed Google Scholar
+Raquel Gomez-EerlandView author publications
+Search author on:PubMed Google Scholar
+Laura BiesView author publications
+Search author on:PubMed Google Scholar
+Julia WalkerView author publications
+Search author on:PubMed Google Scholar
+Robbert M. SpaapenView author publications
+Search author on:PubMed Google Scholar
+Hanna KokView author publications
+Search author on:PubMed Google Scholar
+Demi HougView author publications
+Search author on:PubMed Google Scholar
+Milena ViyachevaView author publications
+Search author on:PubMed Google Scholar
+Yvonne B. ClaassenView author publications
+Search author on:PubMed Google Scholar
+Manuel SaornilView author publications
+Search author on:PubMed Google Scholar
+Oscar KrijgsmanView author publications
+Search author on:PubMed Google Scholar
+Bas StringerView author publications
+Search author on:PubMed Google Scholar
+Huiwen DingView author publications
+Search author on:PubMed Google Scholar
+Anou GeleijnseView author publications
+Search author on:PubMed Google Scholar
+Anne C. MeinemaView author publications
+Search author on:PubMed Google Scholar
+Bianca WeissbrichView author publications
+Search author on:PubMed Google Scholar
+Melissa LanceeView author publications
+Search author on:PubMed Google Scholar
+Carmen G. EngeleView author publications
+Search author on:PubMed Google Scholar
+Marianna SabatinoView author publications
+Search author on:PubMed Google Scholar
+Pei-Ling ChenView author publications
+Search author on:PubMed Google Scholar
+Kenneth Y. TsaiView author publications
+Search author on:PubMed Google Scholar
+James J. MuléView author publications
+Search author on:PubMed Google Scholar
+Vernon K. SondakView author publications
+Search author on:PubMed Google Scholar
+Jitske van den BulkView author publications
+Search author on:PubMed Google Scholar
+Noel F. de MirandaView author publications
+Search author on:PubMed Google Scholar
+Inge JedemaView author publications
+Search author on:PubMed Google Scholar
+John G. HaanenView author publications
+Search author on:PubMed Google Scholar
+Jeroen W. J. van HeijstView author publications
+Search author on:PubMed Google Scholar
+Ton N. SchumacherView author publications
+Search author on:PubMed Google Scholar
+Carsten LinnemannView author publications
+Search author on:PubMed Google Scholar
+Gavin M. BendleView author publications
+Search author on:PubMed Google Scholar
+Contributions
+Conceptualization: T.K., D.S.S., J.W.J.v.H., G.M.B., C.L., T.N.S.; cellular methodology: T.K., D.S.S., R.G., L.B., J.W., R.M.S, H.K., D.H., M.V., B.W., M.L., M.Sabatino. J.W.J.v.H., G.M.B., C.L., T.N.S.; molecular biology & sequencing methodology: T.K., J.G., Y.B.C., M.Saornil., A.C.M., C.G.E., M.S. G.M.B., C.L., T.N.S.; bioinformatic analyses: T.K., O.K., B.S., H.D., A.G.; sample and data sharing: P.-L.C., K.Y.T., J.J.M., V.K.S., J.v.d.B, N.F.d.M., I.J., J.H.; manuscript draft preparation: T.K. and D.S.S.; manuscript editing and reviewing: T.K., D.S.S., J.G., R.M.S., O.K., G.M.B., C.L., V.K.S, T.N.S.; supervision: T.K., D.S.S., J.G., O.K., G.M.B., C.L., T.N.S.
+Corresponding authors
+Correspondence to
+Thomas Kuilman or Gavin M. Bendle.
+Ethics declarations
+Competing interests
+T.K., D.S.S., J.G., R.G., R.M.S., L.B., J.W., H.K., D.H., M.V., Y.B.C., M.Saornil., O.K., B.S., H.D., A.G., A.C.M., B.W., M.L., C.G.E., M.Sabatino., J.v.d.B., J.W.J.v.H., G.M.B., and C.L. are salaried employees and stock option holders of Neogene Therapeutics. K.Y.T is a compensated consultant for Verrica Pharmaceuticals and NFlection Therapeutics (also with ownership interest), and receives research support from Incyte Corporation. J.J.M. is Associate Center Director at Moffitt Cancer Center, has ownership interest in Aleta Biotherapeutics, CG Oncology, Turnstone Biologics, Ankyra Therapeutics, and AffyImmune Therapeutics, and is a paid consultant/paid advisory board member for ONCoPEP, CG Oncology, Mersana Therapeutics, Turnstone Biologics, Vault Pharma, Ankyra Therapeutics, AffyImmune Therapeutics, UbiVac, Vycellix, and Aleta Biotherapeutics. V.K.S. is a compensated consultant for Alkermes, Bristol Myers Squibb, Genesis Drug Discovery & Development, Iovance, Merck, Mural Oncology, and Novartis, and receives research funding from SkylineDX and Turnstone, in addition to Neogene Therapeutics. I.J. is involved in projects supported by research agreements between the NKI and Neogene Therapeutics, Asher Biotherapeutics and Sastra Cell Therapy. J.H, is a member of the Neogene Therapeutics Scientific Advisory Board and is a stock option holder of Neogene Therapeutics. He is also advisor for Achilles Therapeutics, BioNTech, Instil Bio, PokeAcell, Scenic Biotech, T-Knife and Third Rock Ventures. T.N.S. is co-founder of Neogene Therapeutics; is advisor for Allogene Therapeutics, Asher Bio, Celsius, Merus, Neogene Therapeutics, and Scenic Biotech; is a stockholder in Allogene Therapeutics, Asher Bio, Cell Control, Celsius, Merus, Neogene Therapeutics and Scenic Biotech; and is venture partner at Third Rock Ventures. The remaining authors declare no competing interests. The Netherlands Cancer Institute has entered into a clinical trial collaboration with Neogene Therapeutics. The TCR library screening technology is described in patents WO2021011482A1 and US2021040558A1 (pending) with inventors C.L., T.N.S., D.S.S., T.K., J.W.J.v.H. G.M.B., R.G. and J.G. and the B cell immortalization technology is described in patent US20220228164A1 (pending) with inventors T.N.S, C.L., T.K., G.M.B., J.G., J.W.J.v.H., R.G., D.S.S., J.W. and L.B.; all patents are assigned to Neogene Therapeutics B.V.
+Peer review
+Peer review information
+Nature Communications thanks Michael Birnbaum, Dmitry Chudakov and Raphael Di Roberto for their contribution to the peer review of this work. A peer review file is available.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Supplementary Information (download PDF )
+Reporting summary (download PDF )
+Peer Review file (download PDF )
+Source data
+Source data (download XLSX )
+Rights and permissions
+Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Kuilman, T., Schrikkema, D.S., Gadiot, J. et al. Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies.
+Nat Commun 16, 649 (2025). https://doi.org/10.1038/s41467-024-55420-6
+Download citation
+Received: 09 September 2024
+Accepted: 10 December 2024
+Published: 14 January 2025
+Version of record: 14 January 2025
+DOI: https://doi.org/10.1038/s41467-024-55420-6
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Download PDF
+Associated content
+Collection
+Cancer immunotherapy
+Advertisement
+Explore content
+Research articles
+Reviews & Analysis
+News & Comment
+Videos
+Collections
+Subjects
+Follow us on Facebook
+Follow us on X
+Sign up for alerts
+RSS feed
+About the journal
+Aims & Scope
+Editors
+Journal Information
+Open Access Fees and Funding
+Calls for Papers
+Editorial Values Statement
+Journal Metrics
+Editors' Highlights
+Contact
+Editorial policies
+Top Articles
+Publish with us
+For authors
+For Reviewers
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature Communications
+(Nat Commun)
+ISSN 2041-1723 (online)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+Policy
+Use
+of cookies
+Your privacy choices/Manage cookies
+Legal
+notice
+Accessibility
+statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing: Cancer newsletter — what matters in cancer research, free to your inbox weekly.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Close banner
+Close
+Get what matters in cancer research, free to your inbox weekly.
+Sign up for Nature Briefing: Cancer

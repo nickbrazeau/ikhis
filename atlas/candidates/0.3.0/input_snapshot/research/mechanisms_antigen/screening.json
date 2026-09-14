@@ -1,0 +1,418 @@
+{
+  "scope": "Bounded ranked-search mechanism pilot, not exhaustive systematic retrieval",
+  "screened_at": "2026-09-13",
+  "candidates": [
+    {
+      "candidate_id": "MP_SC001",
+      "appearance_id": "MP_AP001",
+      "unique_paper_id": "MP_S001",
+      "query_id": "MP_Q001",
+      "title": "Loss of Functional Beta2-Microglobulin in Metastatic Melanomas From Five Patients Receiving Immunotherapy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2248456/",
+      "doi": "10.1093/jnci/88.2.100",
+      "pmid": "8537970",
+      "decision": "include",
+      "reason": "B2M protein/surface rescue and human HLA-compatible CTL lysis; full Methods/Results plus Fig5 image inspected.",
+      "source_id": "MP_S001",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC002",
+      "appearance_id": "MP_AP002",
+      "unique_paper_id": "MP_S003",
+      "query_id": "MP_Q002",
+      "title": "Asymptomatic deficiency in the peptide transporter associated to antigen processing (TAP)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1906261/",
+      "doi": "10.1046/j.1365-2249.2002.01862.x",
+      "pmid": "12067308",
+      "decision": "include",
+      "reason": "Human TAP2 splice defect, surface complementation and residual autologous EBV CTL response; context-dependent contrary evidence.",
+      "source_id": "MP_S003",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC003",
+      "appearance_id": "MP_AP003",
+      "unique_paper_id": "MP_UP003",
+      "query_id": "MP_Q003",
+      "title": "ERAP1 Allotypes 2 and 10 Differentially Regulate the Immunopeptidome of Melanocytes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41130749/",
+      "doi": "unavailable",
+      "pmid": "41130749",
+      "decision": "await_full_text",
+      "reason": "Recent immunopeptidome anchor surfaced; abstract/search only in this run. No assertion extracted.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC004",
+      "appearance_id": "MP_AP004",
+      "unique_paper_id": "MP_UP004",
+      "query_id": "MP_Q001",
+      "title": "Natural killer cell lines kill autologous beta2-microglobulin-deficient melanoma cells: implications for cancer immunotherapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9371813/",
+      "doi": "10.1073/pnas.94.24.13140",
+      "pmid": "9371813",
+      "decision": "exclude",
+      "reason": "NK-effector complement beyond this bounded antigen-specific T-cell lane; likely shared melanoma lines, not independent replication by title alone.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC005",
+      "appearance_id": "MP_AP005",
+      "unique_paper_id": "MP_UP005",
+      "query_id": "MP_Q001",
+      "title": "beta2-Microglobulin mutations, HLA class I antigen loss, and tumor progression in melanoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC508863/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "PMC web access challenged; not pursued after stronger gene-restoration full text recovered. No assertion extracted.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC006",
+      "appearance_id": "MP_AP006",
+      "unique_paper_id": "MP_S005",
+      "query_id": "MP_Q005",
+      "title": "ERAP1 Controls the Autoimmune Response against Melanocytes in Psoriasis by Generating the Melanocyte Autoantigen and Regulating its Amount for HLA-C*06:02 Presentation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611875/",
+      "doi": "10.4049/jimmunol.2100686",
+      "pmid": "34580106",
+      "decision": "include",
+      "reason": "KO, allotype rescue, biochemical trimming and reporter specificity; mouse recipient preserved.",
+      "source_id": "MP_S005",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC007",
+      "appearance_id": "MP_AP007",
+      "unique_paper_id": "MP_UP007",
+      "query_id": "MP_Q005",
+      "title": "Melanocyte antigen triggers autoimmunity in human psoriasis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4689169/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "Original TCR/autoantigen discovery appeared in citation chain. Search excerpts only; treated as provenance/reuse lead, not independent extracted evidence.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC008",
+      "appearance_id": "MP_AP008",
+      "unique_paper_id": "MP_S004",
+      "query_id": "MP_Q004",
+      "title": "Maturation of Dendritic Cells Is Accompanied by Rapid Transcriptional Silencing of Class II Transactivator (Ciita) Expression",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2193505/",
+      "doi": "10.1084/jem.194.4.379",
+      "pmid": "11514596",
+      "decision": "include",
+      "reason": "Primary-human-monocyte-derived DC RNA/protein/surface contrast; no inferred CD4 functional endpoint.",
+      "source_id": "MP_S004",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC009",
+      "appearance_id": "MP_AP009",
+      "unique_paper_id": "MP_S007",
+      "query_id": "MP_Q011",
+      "title": "B Cells Can Trigger the T-Cell-Mediated Autoimmune Response Against Melanocytes in Psoriasis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12732238/",
+      "doi": "10.3390/cells14242002",
+      "pmid": "41440022",
+      "decision": "include",
+      "reason": "Recent primary B-cell and PBMC perturbations plus distinct ligand/reporter experiments; seven-plus-seven versus 17-plus-9 cohorts separated.",
+      "source_id": "MP_S007",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC010",
+      "appearance_id": "MP_AP010",
+      "unique_paper_id": "MP_S006",
+      "query_id": "MP_Q008",
+      "title": "Enabling next-generation engineered TCR-T therapies based on high-throughput TCR discovery from diagnostic tumor biopsies",
+      "url": "https://www.nature.com/articles/s41467-024-55420-6",
+      "doi": "10.1038/s41467-024-55420-6",
+      "pmid": "39809767",
+      "decision": "include",
+      "reason": "Human B-cell/Jurkat host antigen-specific perturbation controls; supplemental Fig4i visually checked.",
+      "source_id": "MP_S006",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC011",
+      "appearance_id": "MP_AP011",
+      "unique_paper_id": "MP_S002",
+      "query_id": "MP_Q010",
+      "title": "HLA class I deficiencies due to mutations in subunit 1 of the peptide transporter TAP1",
+      "url": "https://www.jci.org/articles/view/5687",
+      "doi": "10.1172/JCI5687",
+      "pmid": "10074495",
+      "decision": "include",
+      "reason": "Citation-chained TAP1-specific rescue; transformed human B cells distinguished from separate fibroblast source.",
+      "source_id": "MP_S002",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC012",
+      "appearance_id": "MP_AP012",
+      "unique_paper_id": "MP_UP012",
+      "query_id": "MP_Q005",
+      "title": "Current knowledge on autoantigens and autoantibodies in psoriasis",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/sji.12945",
+      "doi": "10.1111/sji.12945",
+      "pmid": "32697368",
+      "decision": "exclude",
+      "reason": "Review/discovery only; not primary biological evidence.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC013",
+      "appearance_id": "MP_AP013",
+      "unique_paper_id": "MP_UP013",
+      "query_id": "MP_Q012",
+      "title": "Critical role of the tumor suppressor TSC1 for dendritic cell to activate CD4 T cells by promoting MHC class II expression via IRF4 and CIITA",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3702379/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "exclude",
+      "reason": "Distinct predominantly mouse perturbation lane; no human source/recipient mechanism inferred from search excerpt.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC014",
+      "appearance_id": "MP_AP014",
+      "unique_paper_id": "MP_UP014",
+      "query_id": "MP_Q021",
+      "title": "Review Reports - B Cells Can Trigger the T-Cell-Mediated Autoimmune Response Against Melanocytes in Psoriasis",
+      "url": "https://www.mdpi.com/2073-4409/14/24/2002/review_report",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "exclude",
+      "reason": "Publisher review reports surfaced in correction search; not biological primary evidence and not an independent review initiated by this run.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC015",
+      "appearance_id": "MP_AP015",
+      "unique_paper_id": "MP_UP015",
+      "query_id": "MP_Q012",
+      "title": "Extensive remodeling of DC function by rapid maturation-induced transcriptional silencing",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4150779/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "Citation/forward-search lead for CIITA chromatin mechanism. No assertion extracted.",
+      "source_id": "unavailable",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC016",
+      "appearance_id": "MP_AP016",
+      "unique_paper_id": "MP_S001",
+      "query_id": "MP_Q014",
+      "title": "Loss of Functional Beta2-Microglobulin in Metastatic Melanomas From Five Patients Receiving Immunotherapy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2248456/",
+      "doi": "10.1093/jnci/88.2.100",
+      "pmid": "8537970",
+      "decision": "include",
+      "reason": "Repeated appearance of already selected primary paper; same DOI and cohort, not additional evidence.",
+      "source_id": "MP_S001",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC017",
+      "appearance_id": "MP_AP017",
+      "unique_paper_id": "MP_S003",
+      "query_id": "MP_Q013",
+      "title": "Asymptomatic deficiency in the peptide transporter associated to antigen processing (TAP)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1906261/",
+      "doi": "10.1046/j.1365-2249.2002.01862.x",
+      "pmid": "12067308",
+      "decision": "include",
+      "reason": "Repeated appearance of same selected paper; deduplicated by DOI/PMID.",
+      "source_id": "MP_S003",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    },
+    {
+      "candidate_id": "MP_SC018",
+      "appearance_id": "MP_AP018",
+      "unique_paper_id": "MP_S004",
+      "query_id": "MP_Q012",
+      "title": "Maturation of Dendritic Cells Is Accompanied by Rapid Transcriptional Silencing of Class II Transactivator (Ciita) Expression",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2193505/",
+      "doi": "10.1084/jem.194.4.379",
+      "pmid": "11514596",
+      "decision": "include",
+      "reason": "Repeated appearance of same selected paper; deduplicated by DOI/PMID.",
+      "source_id": "MP_S004",
+      "query_attribution": "For multiquery batches, exact member-query rank attribution unavailable; batch and actual queries preserved in pack.json."
+    }
+  ],
+  "counts": {
+    "candidate_appearances": 18,
+    "unique_papers": 15,
+    "selected_unique_primary_papers": 7,
+    "note": "Counts cover the explicitly registered candidates, not every result returned by ranked search. Included repeat appearances do not add independent studies."
+  },
+  "citation_chains": [
+    {
+      "from_source": "search result for Asymptomatic deficiency/TAP/Villard (review citation)",
+      "to_source": "MP_S002",
+      "action": "opened primary JCI article; extracted Methods/Results"
+    },
+    {
+      "from_source": "MP_S002 references",
+      "to_title": "Human peptide transporter deficiency. Importance of HLA-B in the presentation of TAP-independent EBV antigens (1997)",
+      "action": "future full-text lead; not extracted"
+    },
+    {
+      "from_source": "MP_S004 references",
+      "to_title": "Inflammatory stimuli induce accumulation of MHC class II complexes on dendritic cells (Cella1997)",
+      "action": "future full-text functional bridge lead; not extracted"
+    },
+    {
+      "from_source": "MP_S005; MP_S007",
+      "to_title": "Melanocyte antigen triggers autoimmunity in human psoriasis (2015)",
+      "action": "same original TCR specificity reused; no independent TCR discovery count"
+    }
+  ],
+  "correction_retraction_checks": [
+    {
+      "source_id": "MP_S001",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q015",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search1.json",
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996.html"
+      ]
+    },
+    {
+      "source_id": "MP_S002",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q016",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search1.json",
+        "research/mechanisms_antigen/snapshots/MP_deLaSalle1999.html"
+      ]
+    },
+    {
+      "source_id": "MP_S003",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q017",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search1.json",
+        "research/mechanisms_antigen/snapshots/MP_deLaSalle2002.html"
+      ]
+    },
+    {
+      "source_id": "MP_S004",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q018",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search1.json",
+        "research/mechanisms_antigen/snapshots/MP_Landmann2001.html"
+      ]
+    },
+    {
+      "source_id": "MP_S005",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q019",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search2.json",
+        "research/mechanisms_antigen/snapshots/MP_ERAP2021.html"
+      ]
+    },
+    {
+      "source_id": "MP_S006",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q020",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search2.json",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025.html"
+      ]
+    },
+    {
+      "source_id": "MP_S007",
+      "checked_at": "2026-09-13",
+      "query_id": "MP_Q021",
+      "methods": "DOI plus correction/erratum/retraction ranked search; downloaded article header/notices/version area; text token scan",
+      "outcome": "No relevant notice identified in inspected material; bounded check, absence not certified.",
+      "snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_correction_search2.json",
+        "research/mechanisms_antigen/snapshots/MP_He2025.html"
+      ]
+    }
+  ],
+  "cohort_reuse_checks": [
+    {
+      "group": "MP_REUSE001",
+      "source_ids": [
+        "MP_S002",
+        "MP_S003"
+      ],
+      "finding": "ST-EMO is the same previously described TAP2-deficient EBV-B control in both studies; no independent replication count.",
+      "status": "known_reuse"
+    },
+    {
+      "group": "MP_REUSE002",
+      "source_ids": [
+        "MP_S005",
+        "MP_S007"
+      ],
+      "finding": "Same Vα3S1/Vβ13S1 TCR lineage and shared target lines such as WM278; no independent patient receptor replication.",
+      "status": "known_reuse"
+    },
+    {
+      "group": "MP_REUSE003",
+      "source_ids": [
+        "MP_S007"
+      ],
+      "finding": "Tonsil samples previously described in cited study[23]; seven-plus-seven and17-plus9 blood-cohort overlap unresolved.",
+      "status": "partly_resolved"
+    },
+    {
+      "group": "MP_REUSE004",
+      "source_ids": [
+        "MP_S001",
+        "MP_S002",
+        "MP_S003",
+        "MP_S004",
+        "MP_S005",
+        "MP_S006",
+        "MP_S007"
+      ],
+      "finding": "Exact DOI/PMID/title-term scan of existing research pack.json files found no selected-paper match; this is not a whole-project donor-registry adjudication.",
+      "status": "unresolved"
+    }
+  ],
+  "failed_access_paths": [
+    "PMC browser challenges in web open",
+    "EuropePMC403/unsafe web fetch",
+    "initial sandbox DNS failure; approved direct primary download succeeded"
+  ],
+  "remaining_full_text_candidates": [
+    "MP_SC003",
+    "MP_SC005",
+    "MP_SC007",
+    "MP_SC015"
+  ]
+}

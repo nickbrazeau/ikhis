@@ -1,0 +1,16 @@
+{
+  "version": "0.3.0-candidate",
+  "review_status": "pending_user_triggered_review",
+  "reference_species": "Homo sapiens",
+  "cytokine_scope": "all_cytokines",
+  "fixed_priority_panel": null,
+  "historical_assay_labels_define_scope": false,
+  "domains": ["genomic_regulatory", "transcriptional", "proteomic", "cellular_communication", "immune_function"],
+  "mechanism_lanes": ["genetic", "activation", "antigen"],
+  "inventory_role": "expandable_resource_annotation_discovery_registry",
+  "inventory_membership_creates_assertions": false,
+  "new_evidence_enters_priors_before_review": false,
+  "new_paths_are_production_approved": false,
+  "baseline_release": "0.2.0",
+  "candidate_directory": "candidates/0.3.0"
+}

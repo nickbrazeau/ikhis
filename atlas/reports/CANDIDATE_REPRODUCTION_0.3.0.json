@@ -1,0 +1,17 @@
+{
+  "candidate": "0.3.0",
+  "verified_at": "2026-09-13T20:06:31.189973+00:00",
+  "reproduction_status": "pass",
+  "input_files": 129,
+  "compared_artifacts": 147,
+  "missing": [],
+  "extra": [],
+  "changed": [],
+  "copied_input_mtimes_changed_to": "2000-01-01T00:00:00Z",
+  "network_used_for_reproduction": false,
+  "candidate_manifest_sha256": "707f04c897c5acd710b1084793a96f37354b3c33a29a4bf708ed2ca904ffe0e9",
+  "candidate_database_sha256": "f863a43d399d7501bc08dcdd3184ff30f3bf2a43381e764943f1e165d7d3a037",
+  "baseline_database_sha256": "101ac8ee52d3a8cfbbf41aa5dc9e9ae671f3f4bbe2b812168d623f5258c7d81d",
+  "scientific_review_performed": false,
+  "tests_passed": 65
+}

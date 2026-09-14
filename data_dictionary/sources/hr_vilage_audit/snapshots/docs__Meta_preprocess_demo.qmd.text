@@ -1,0 +1,489 @@
+---
+format: html
+page-layout: full
+---
+
+
+
+
+Meta_preprocess_demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Single-Cell Metadata Preprocessing Demo¶
+
+Author: Yiran Song
+
+Date: May 10, 2025
+
+
+This document demonstrates how to preprocess single cell metadata using the GSE195673 dataset as an example.
+
+Please note that each dataset may have unique characteristics, so this example is intended to illustrate a general approach.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [1]:
+
+
+
+
+
+
+
+import scanpy as sc
+import pandas as pd
+import numpy as np
+import anndata as ad
+import pandas as pd
+# pd.set_option('display.max_columns', None)
+
+# GSE195673
+GSE195673 = ad.read_h5ad("./h5ad_files/GSE195673_WU368.h5ad")
+print(GSE195673.obs.head())
+GSE195673
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          cell_id sample    donor tissue  \
+AAACCTGCAGTAGAGC-1  368-02a_s1@AAACCTGCAGTAGAGC-1     s1  368-02a  blood   
+AAACCTGGTCTTGATG-1  368-02a_s1@AAACCTGGTCTTGATG-1     s1  368-02a  blood   
+AAACCTGTCTTGCCGT-1  368-02a_s1@AAACCTGTCTTGCCGT-1     s1  368-02a  blood   
+AAACGGGAGAGACGAA-1  368-02a_s1@AAACGGGAGAGACGAA-1     s1  368-02a  blood   
+AAACGGGAGCCGATTT-1  368-02a_s1@AAACGGGAGCCGATTT-1     s1  368-02a  blood   
+
+                    pre_qc_bcr  n_hkg  n_feature    n_umi    pct_mt  \
+AAACCTGCAGTAGAGC-1        True     15        616    991.0  5.045409   
+AAACCTGGTCTTGATG-1       False      7        281    513.0  5.068226   
+AAACCTGTCTTGCCGT-1       False      9        755   1268.0  4.495268   
+AAACGGGAGAGACGAA-1        True     21       1439   4477.0  5.963815   
+AAACGGGAGCCGATTT-1        True     32       3153  23131.0  2.347499   
+
+                    n_gene_expressed  ... anno_leiden_0.23 timepoint  \
+AAACCTGCAGTAGAGC-1               608  ...                B       d28   
+AAACCTGGTCTTGATG-1               273  ...                B       d28   
+AAACCTGTCTTGCCGT-1               737  ...               NK       d28   
+AAACGGGAGAGACGAA-1              1426  ...                B       d28   
+AAACGGGAGCCGATTT-1              3073  ...                B       d28   
+
+                   timepoint_ms sorting lymph_node_num bio_rep  tech_rep  \
+AAACCTGCAGTAGAGC-1           w4      PB             na       1         1   
+AAACCTGGTCTTGATG-1           w4      PB             na       1         1   
+AAACCTGTCTTGCCGT-1           w4      PB             na       1         1   
+AAACGGGAGAGACGAA-1           w4      PB             na       1         1   
+AAACGGGAGCCGATTT-1           w4      PB             na       1         1   
+
+                    sequence_type     biosample   bioproject  
+AAACCTGCAGTAGAGC-1            tgx  SAMN25184235  PRJNA777934  
+AAACCTGGTCTTGATG-1            tgx  SAMN25184235  PRJNA777934  
+AAACCTGTCTTGCCGT-1            tgx  SAMN25184235  PRJNA777934  
+AAACGGGAGAGACGAA-1            tgx  SAMN25184235  PRJNA777934  
+AAACGGGAGCCGATTT-1            tgx  SAMN25184235  PRJNA777934  
+
+[5 rows x 21 columns]
+
+
+
+
+
+
+
+
+
+Out[1]:
+
+
+
+
+AnnData object with n_obs × n_vars = 383635 × 15842
+    obs: 'cell_id', 'sample', 'donor', 'tissue', 'pre_qc_bcr', 'n_hkg', 'n_feature', 'n_umi', 'pct_mt', 'n_gene_expressed', 'leiden_0.23', 'anno_leiden_0.23', 'timepoint', 'timepoint_ms', 'sorting', 'lymph_node_num', 'bio_rep', 'tech_rep', 'sequence_type', 'biosample', 'bioproject'
+    var: 'gene_ids', 'gene_name', 'biotype', 'mt', 'hkg', 'highly_variable', 'highly_variable_rank', 'means', 'variances', 'variances_norm'
+    uns: 'anno_leiden_0.23_colors', 'dendrogram_anno_leiden_0.23', 'dendrogram_leiden_0.23', 'hvg', 'leiden', 'neighbors', 'pca', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    layers: 'log_norm', 'raw_counts', 'scaled'
+    obsp: 'connectivities', 'distances'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [2]:
+
+
+
+
+
+
+
+GSE195673.obs_names = [f"{idx}_GSE195673" for idx in GSE195673.obs_names]
+GSE195673.obs_names
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Out[2]:
+
+
+
+
+Index(['AAACCTGCAGTAGAGC-1_GSE195673', 'AAACCTGGTCTTGATG-1_GSE195673',
+       'AAACCTGTCTTGCCGT-1_GSE195673', 'AAACGGGAGAGACGAA-1_GSE195673',
+       'AAACGGGAGCCGATTT-1_GSE195673', 'AAACGGGCAAACGCGA-1_GSE195673',
+       'AAACGGGCAAACTGCT-1_GSE195673', 'AAACGGGGTAGCTCCG-1_GSE195673',
+       'AAACGGGGTCCCGACA-1_GSE195673', 'AAACGGGGTCCGTCAG-1_GSE195673',
+       ...
+       'TTTGTCAAGTATGACA-56_GSE195673', 'TTTGTCAAGTGAACGC-56_GSE195673',
+       'TTTGTCACAACTTGAC-56_GSE195673', 'TTTGTCACAATTGCTG-56_GSE195673',
+       'TTTGTCAGTGTAATGA-56_GSE195673', 'TTTGTCAGTTCCATGA-56_GSE195673',
+       'TTTGTCATCAGGCAAG-56_GSE195673', 'TTTGTCATCGAGAGCA-56_GSE195673',
+       'TTTGTCATCTGGGCCA-56_GSE195673', 'TTTGTCATCTTGTTTG-56_GSE195673'],
+      dtype='object', length=383635)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [3]:
+
+
+
+
+
+
+
+import re
+def extract_time_value(s, pattern):
+    """Helper to extract numerical time values from strings using regex."""
+    match = re.search(pattern, str(s))
+    return float(match.group(1)) if match else np.nan
+
+def parse_gse195673_time(x):
+    if pd.isna(x):
+        return np.nan
+    if "+" in str(x):  # Handle "d28+d35" case
+        days = [float(d[1:]) for d in x.split("+")]
+        return sum(days) / len(days)  # Average of the days
+    return float(x[1:])  # Extract number after "d"
+
+# Apply to GSE195673
+GSE195673.obs["time_point_day"] = GSE195673.obs["timepoint"].apply(parse_gse195673_time)
+GSE195673.obs["time_point_day"] = GSE195673.obs["time_point_day"].astype(float)
+GSE195673.obs["time_point_hour"] = GSE195673.obs["time_point_day"] * 24
+GSE195673.obs["time_point_week"] = GSE195673.obs["time_point_day"] / 7
+print(GSE195673.obs['time_point_hour'].unique())
+print(GSE195673.obs['time_point_day'].unique())
+print(GSE195673.obs['timepoint'].unique())
+
+GSE195673.obs['study_type'] = 'vaccine'
+
+GSE195673.obs.rename(columns={
+    'donor': 'donor_id',
+    'sample': 'sample',
+    'anno_leiden_0.23': 'cell_type',
+    'biosample': 'sample_id',
+    'sorting': 'tissue'
+}, inplace=True)
+GSE195673
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ 672.  756. 1440. 2640.  840. 4824.]
+[ 28.   31.5  60.  110.   35.  201. ]
+['d28', 'd28+d35', 'd60', 'd110', 'd35', 'd201']
+Categories (6, object): ['d28', 'd28+d35', 'd35', 'd60', 'd110', 'd201']
+
+
+
+
+
+
+
+
+
+Out[3]:
+
+
+
+
+AnnData object with n_obs × n_vars = 383635 × 15842
+    obs: 'cell_id', 'sample', 'donor_id', 'tissue', 'pre_qc_bcr', 'n_hkg', 'n_feature', 'n_umi', 'pct_mt', 'n_gene_expressed', 'leiden_0.23', 'cell_type', 'timepoint', 'timepoint_ms', 'tissue', 'lymph_node_num', 'bio_rep', 'tech_rep', 'sequence_type', 'sample_id', 'bioproject', 'time_point_day', 'time_point_hour', 'time_point_week', 'study_type'
+    var: 'gene_ids', 'gene_name', 'biotype', 'mt', 'hkg', 'highly_variable', 'highly_variable_rank', 'means', 'variances', 'variances_norm'
+    uns: 'anno_leiden_0.23_colors', 'dendrogram_anno_leiden_0.23', 'dendrogram_leiden_0.23', 'hvg', 'leiden', 'neighbors', 'pca', 'umap'
+    obsm: 'X_pca', 'X_umap'
+    varm: 'PCs'
+    layers: 'log_norm', 'raw_counts', 'scaled'
+    obsp: 'connectivities', 'distances'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [5]:
+
+
+
+
+
+
+
+GSE195673.obs['dataset'] = 'GSE195673'
+print(GSE195673.obs['donor_id'].unique())
+print(GSE195673.obs['sample_id'].unique())
+print(GSE195673.obs['dataset'].unique())
+print(GSE195673.obs['cell_type'].unique())
+print(GSE195673.obs['study_type'].unique())
+print(GSE195673.obs['tissue'])
+# GSE195673.write("./meta_processed/GSE195673.h5ad")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+['368-02a', '368-10', '368-20', '368-22', '368-01a', '368-04', '368-07', '368-13']
+Categories (8, object): ['368-01a', '368-02a', '368-04', '368-07', '368-10', '368-13', '368-20', '368-22']
+['SAMN25184235', 'SAMN25184236', 'SAMN25184237', 'SAMN25184238', 'SAMN25184239', ..., 'SAMN25184286', 'SAMN25184287', 'SAMN25184288', 'SAMN25184289', 'SAMN25184290']
+Length: 56
+Categories (56, object): ['SAMN25184235', 'SAMN25184236', 'SAMN25184237', 'SAMN25184238', ..., 'SAMN25184287', 'SAMN25184288', 'SAMN25184289', 'SAMN25184290']
+['GSE195673']
+['B', 'NK', 'Monocyte', 'pDC', 'CD8+ T', 'CD4+ T', 'FDC', 'B & T']
+Categories (8, object): ['B', 'B & T', 'CD4+ T', 'CD8+ T', 'FDC', 'Monocyte', 'NK', 'pDC']
+['vaccine']
+                              tissue tissue
+AAACCTGCAGTAGAGC-1_GSE195673   blood     PB
+AAACCTGGTCTTGATG-1_GSE195673   blood     PB
+AAACCTGTCTTGCCGT-1_GSE195673   blood     PB
+AAACGGGAGAGACGAA-1_GSE195673   blood     PB
+AAACGGGAGCCGATTT-1_GSE195673   blood     PB
+...                              ...    ...
+TTTGTCAGTTCCATGA-56_GSE195673     LN     NS
+TTTGTCATCAGGCAAG-56_GSE195673     LN     NS
+TTTGTCATCGAGAGCA-56_GSE195673     LN     NS
+TTTGTCATCTGGGCCA-56_GSE195673     LN     NS
+TTTGTCATCTTGTTTG-56_GSE195673     LN     NS
+
+[383635 rows x 2 columns]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [ ]:
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MP_deLaSalle2002",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1906261/",
+    "status": 200,
+    "bytes": 155342,
+    "retrieved_at": "2026-09-13T19:22:11.054995+00:00"
+  },
+  {
+    "name": "MP_deLaSalle1999",
+    "url": "https://www.jci.org/articles/view/5687",
+    "status": 200,
+    "bytes": 95831,
+    "retrieved_at": "2026-09-13T19:22:11.726997+00:00"
+  },
+  {
+    "name": "MP_Landmann2001",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2193505/",
+    "status": 200,
+    "bytes": 230928,
+    "retrieved_at": "2026-09-13T19:22:11.140988+00:00"
+  },
+  {
+    "name": "MP_ERAP2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611875/",
+    "status": 200,
+    "bytes": 227547,
+    "retrieved_at": "2026-09-13T19:22:11.109981+00:00"
+  },
+  {
+    "name": "MP_He2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12732238/",
+    "status": 200,
+    "bytes": 345729,
+    "retrieved_at": "2026-09-13T19:22:11.586704+00:00"
+  },
+  {
+    "name": "MP_Kuilman2025",
+    "url": "https://www.nature.com/articles/s41467-024-55420-6",
+    "status": 200,
+    "bytes": 587248,
+    "retrieved_at": "2026-09-13T19:22:14.716587+00:00"
+  }
+]

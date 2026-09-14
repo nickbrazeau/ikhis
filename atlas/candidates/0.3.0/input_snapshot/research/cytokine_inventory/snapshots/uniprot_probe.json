@@ -1,0 +1,474 @@
+{
+  "results": [
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q9UHD0",
+      "uniProtkbId": "IL19_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-19"
+          },
+          "shortNames": [
+            {
+              "value": "IL-19"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Melanoma differentiation-associated protein-like protein"
+            }
+          },
+          {
+            "fullName": {
+              "value": "NG.1"
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "IL19"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000035988"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q92583",
+      "uniProtkbId": "CCL17_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "C-C motif chemokine 17"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "CC chemokine TARC"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Small-inducible cytokine A17"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "8702936"
+                }
+              ],
+              "value": "Thymus and activation-regulated chemokine"
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CCL17"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI00001362D9"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "O95972",
+      "uniProtkbId": "BMP15_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Bone morphogenetic protein 15"
+          },
+          "shortNames": [
+            {
+              "value": "BMP-15"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Growth/differentiation factor 9B"
+            },
+            "shortNames": [
+              {
+                "value": "GDF-9B"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "BMP15"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI000013CD7C"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P27539",
+      "uniProtkbId": "GDF1_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Embryonic growth/differentiation factor 1"
+          },
+          "shortNames": [
+            {
+              "value": "GDF-1"
+            }
+          ]
+        },
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "GDF1"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000169571"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P58499",
+      "uniProtkbId": "FAM3B_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein FAM3B"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cytokine-like protein 2-21"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Pancreatic-derived factor"
+            },
+            "shortNames": [
+              {
+                "value": "PANDER"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "FAM3B"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI00000015C5"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P19875",
+      "uniProtkbId": "CXCL2_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "C-X-C motif chemokine 2"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Growth-regulated protein beta"
+            },
+            "shortNames": [
+              {
+                "value": "Gro-beta"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Macrophage inflammatory protein 2-alpha"
+            },
+            "shortNames": [
+              {
+                "value": "MIP2-alpha"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-beta(5-73)"
+              }
+            },
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GRO-beta-T"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "Hematopoietic synergistic factor"
+                },
+                "shortNames": [
+                  {
+                    "value": "HSF"
+                  }
+                ]
+              },
+              {
+                "fullName": {
+                  "value": "SB-251353"
+                }
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CXCL2"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000047AA8"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P55000",
+      "uniProtkbId": "SLUR1_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Secreted Ly-6/uPAR-related protein 1"
+          },
+          "shortNames": [
+            {
+              "value": "SLURP-1"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "ARS component B"
+            }
+          },
+          {
+            "fullName": {
+              "value": "ARS(component B)-81/S"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Anti-neoplastic urinary protein"
+            },
+            "shortNames": [
+              {
+                "value": "ANUP"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "SLURP1"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI000011D637"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q9UBR5",
+      "uniProtkbId": "CKLF_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Chemokine-like factor"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "C32"
+            }
+          }
+        ]
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CKLF"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000036209"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q9GZX6",
+      "uniProtkbId": "IL22_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-22"
+          },
+          "shortNames": [
+            {
+              "value": "IL-22"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cytokine Zcyto18"
+            }
+          },
+          {
+            "fullName": {
+              "value": "IL-10-related T-cell-derived-inducible factor"
+            },
+            "shortNames": [
+              {
+                "value": "IL-TIF"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "IL22"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000034E46"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P12645",
+      "uniProtkbId": "BMP3_HUMAN",
+      "organism": {
+        "taxonId": 9606
+      },
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Bone morphogenetic protein 3"
+          },
+          "shortNames": [
+            {
+              "value": "BMP-3"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Bone morphogenetic protein 3A"
+            },
+            "shortNames": [
+              {
+                "value": "BMP-3A"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Osteogenin"
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "BMP3"
+          }
+        }
+      ],
+      "extraAttributes": {
+        "uniParcId": "UPI0000051C21"
+      }
+    }
+  ]
+}

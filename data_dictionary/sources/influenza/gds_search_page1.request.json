@@ -1,0 +1,12 @@
+{
+  "endpoint": "esearch",
+  "params": {
+    "db": "gds",
+    "term": "GSE[ETYP] AND Homo sapiens[Organism] AND influenza AND (challenge OR inoculation OR experimentally)",
+    "retmode": "json",
+    "retmax": 10
+  },
+  "max_items": 10,
+  "save_raw": true,
+  "raw_output_path": "data_dictionary/sources/influenza/snapshots/gds_search_page1.json"
+}

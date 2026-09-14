@@ -1,0 +1,67 @@
+{
+  "candidate_version": "0.3.0",
+  "prepared_on": "2026-09-13",
+  "role": "coordinator, extraction integration and structural validation; not independent reviewer",
+  "user_authorized_scope": "Steps 1\u20133; all cytokines and broad immune mechanisms; fixed cytokine priority coverage set removed; user will trigger review afterward",
+  "scientific_review_status": "pending_not_started",
+  "human_adjudication_status": "pending",
+  "production_release_frozen": false,
+  "new_priors": 0,
+  "baseline_release": "0.2.0",
+  "model_family_instructions": "GPT-6",
+  "exact_model_snapshot": "unavailable",
+  "reasoning_mode": "unavailable",
+  "runtime_python": "3.9.6",
+  "baseline_git_commit": "578649092ca6d5c881ed1a3c08a92dc47b57194f",
+  "git_commit_scope": "Commit identifies preceding working checkout only; current candidate changes are uncommitted and bound by input_manifest.json",
+  "instruction_hashes": {
+    "README.md": "7adb59c8542cc655d4d871bbab87d4e3ecbf2f66dc9102531c8c407261cbab42",
+    "protocol/PROTOCOL.md": "6f52b8cee9ed4a2be8cce6fe1ec0f3a57c010bd14e047444d16a8b0686aadb37",
+    "protocol/PRODUCT_SCOPE.md": "a3030f357cfeedbac29b9b877b408f3fd0d5cc7278b63b75c7f1d98540fd202e",
+    "protocol/AMENDMENT_0.3.md": "5e1caf3d13bd3193afe0d0179ae1322ff564a053b335606ce792eeceb1b48ac8",
+    "research/EXTRACTION_CONTRACT_0.3.md": "688a94599ef2530d74d76a999e72d20cad2a0198691fd844f64162e8f4f23c5f"
+  },
+  "applied_coordinator_skills": [
+    {
+      "path": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/research-router-skill/SKILL.md",
+      "sha256": "e9e39c6c411da80f9fd62a62e70cbedac2404bdcfb51ddb8fda1dc3332c7e357"
+    },
+    {
+      "path": "/Users/nfb9/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/SKILL.md",
+      "sha256": "456b5f2cb25b12403b5f000fa808bbc1f1278709bedbffdc4919a7677d31fe2c"
+    }
+  ],
+  "extraction_run_paths": [
+    "research/mechanisms_genetic/run.json",
+    "research/mechanisms_activation/run.json",
+    "research/mechanisms_antigen/run.json"
+  ],
+  "inventory_provenance": "research/cytokine_inventory/inventory_manifest.json",
+  "candidate_provenance": "candidates/0.3.0/input_manifest.json",
+  "source_access_policy": "Primary sources, explicit access levels, actual retrieval records; failed routes do not support assertions",
+  "validation_scope": "Schema, source dependencies, pending-review boundary, unchanged baseline rows, conservative connection triage and offline reproduction; not scientific approval",
+  "source_recovery_followup": {
+    "source_id": "MG05",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11168933/",
+    "retrieved_on": "2026-09-13",
+    "route": "approved public HTTP retrieval after web.open returned recaptcha",
+    "download_size_bytes": 407839,
+    "article_title_verified": "A disease-associated gene desert directs macrophage inflammation through ETS2",
+    "curation": "Completed: four primary macrophage assertions and two nonserial profiles added; MG05 access resolved; detailed allele/native-protein work remains a separate evidence gap."
+  },
+  "coordinator_completion": {
+    "candidate_assertions": 76,
+    "assertions_with_primary_methods_results": 74,
+    "needs_full_text_assertions": 2,
+    "source_records": 19,
+    "source_records_reusing_baseline_dois": 3,
+    "cohort_context_records": 42,
+    "connection_proposals": 47,
+    "mechanism_dossiers": 24,
+    "tests_passed_before_final_report_polish": 65,
+    "baseline_records_unchanged": true,
+    "credential_metadata_findings": 0,
+    "status": "Candidate extraction, integration and structural checks complete; final offline reproduction recorded separately",
+    "antigen_lane_completion": "All five deliverables were written before the extractor turn ended on a usage-limit message; coordinator validated delivered IDs, sources, statuses and dependencies. No missing deliverable remains."
+  }
+}

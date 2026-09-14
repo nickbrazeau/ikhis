@@ -1,0 +1,170 @@
+
+Human Epistatic Interaction Controls IL7R Splicing and Increases Multiple Sclerosis Risk - PubMed (https://pubmed.ncbi.nlm.nih.gov/28340352/)
+citeturn170view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn164view0","pattern":"Erratum"}); Total lines: 530
+No matching text found for "Erratum"
+
+Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens - PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC10835965/)
+citeturn170view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn164view3","pattern":"PMID"}); Total lines: 721
+L36: # Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens
+L37: 
+L38: cite13†Celia Alda-Catalinas†pubmed.ncbi.nlm.nih.gov L39: 
+L40: ### Celia Alda-Catalinas
+L41: 
+L42: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L43: 
+L44: Find articles by cite13†Celia Alda-Catalinas†pubmed.ncbi.nlm.nih.gov L45: 
+L46: ^{1,}^{#}, cite14†Ximena Ibarra-Soria†pubmed.ncbi.nlm.nih.gov L47: ### Ximena Ibarra-Soria
+L48: 
+L49: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L50: 
+L51: Find articles by cite14†Ximena Ibarra-Soria†pubmed.ncbi.nlm.nih.gov L52: 
+L53: ^{1,}^{#}, cite15†Christina Flouri†pubmed.ncbi.nlm.nih.gov L54: 
+L55: ### Christina Flouri
+L56: 
+L57: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L58: 
+L59: Find articles by cite15†Christina Flouri†pubmed.ncbi.nlm.nih.gov L60: 
+L61: ^{1}, cite16†Jorge Esparza Gordillo†pubmed.ncbi.nlm.nih.gov L62: ### Jorge Esparza Gordillo
+L63: 
+L64: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L65: 
+L66: Find articles by cite16†Jorge Esparza Gordillo†pubmed.ncbi.nlm.nih.gov L67: 
+L68: ^{1}, cite17†Diana Cousminer†pubmed.ncbi.nlm.nih.gov L69: 
+L70: ### Diana Cousminer
+L71: 
+L72: ^{2}Genomic Sciences, GSK, Collegeville, PA USA
+L73: 
+L74: Find articles by cite17†Diana Cousminer†pubmed.ncbi.nlm.nih.gov L75: 
+L76: ^{2}, cite18†Anna Hutchinson†pubmed.ncbi.nlm.nih.gov L77: ### Anna Hutchinson
+L78: 
+L79: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L80: 
+L81: Find articles by cite18†Anna Hutchinson†pubmed.ncbi.nlm.nih.gov L82: 
+L83: ^{1}, cite19†Bin Sun†pubmed.ncbi.nlm.nih.gov L84: 
+L85: ### Bin Sun
+L86: 
+L87: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L88: 
+L89: Find articles by cite19†Bin Sun†pubmed.ncbi.nlm.nih.gov L90: 
+L91: ^{1}, cite20†William Pembroke†pubmed.ncbi.nlm.nih.gov L92: ### William Pembroke
+L93: 
+L94: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L95: 
+L96: Find articles by cite20†William Pembroke†pubmed.ncbi.nlm.nih.gov L97: 
+L98: ^{1}, cite21†Sebastian Ullrich†pubmed.ncbi.nlm.nih.gov L99: 
+L100: ### Sebastian Ullrich
+L101: 
+L102: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L103: 
+L104: Find articles by cite21†Sebastian Ullrich†pubmed.ncbi.nlm.nih.gov L105: 
+L106: ^{1}, cite22†Adam Krejci†pubmed.ncbi.nlm.nih.gov L107: ### Adam Krejci
+L108: 
+L109: ^{3}Myllia Biotechnology, Vienna, Austria
+L110: 
+L111: Find articles by cite22†Adam Krejci†pubmed.ncbi.nlm.nih.gov L112: 
+L113: ^{3}, cite23†Adrian Cortes†pubmed.ncbi.nlm.nih.gov L114: 
+L115: ### Adrian Cortes
+L116: 
+L117: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L118: 
+L119: Find articles by cite23†Adrian Cortes†pubmed.ncbi.nlm.nih.gov L120: 
+L121: ^{1}, cite24†Alison Acevedo†pubmed.ncbi.nlm.nih.gov L122: ### Alison Acevedo
+L123: 
+L124: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L125: 
+L126: Find articles by cite24†Alison Acevedo†pubmed.ncbi.nlm.nih.gov L127: 
+L128: ^{1}, cite25†Sunir Malla†pubmed.ncbi.nlm.nih.gov L129: 
+L130: ### Sunir Malla
+L131: 
+L132: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L133: 
+L134: Find articles by cite25†Sunir Malla†pubmed.ncbi.nlm.nih.gov L135: 
+L136: ^{1}, cite26†Carl Fishwick†pubmed.ncbi.nlm.nih.gov L137: 
+L138: ### Carl Fishwick
+L139: 
+L140: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L141: 
+L142: Find articles by cite26†Carl Fishwick†pubmed.ncbi.nlm.nih.gov L143: 
+L144: ^{1}, cite27†Gerard Drewes†pubmed.ncbi.nlm.nih.gov L145: ### Gerard Drewes
+L146: 
+L147: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L148: 
+L149: ^{2}Genomic Sciences, GSK, Collegeville, PA USA
+L150: 
+L151: Find articles by cite27†Gerard Drewes†pubmed.ncbi.nlm.nih.gov L152: 
+L153: ^{1,}^{2}, cite28†Radu Rapiteanu†pubmed.ncbi.nlm.nih.gov L154: ### Radu Rapiteanu
+L155: 
+L156: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L157: 
+L158: Find articles by cite28†Radu Rapiteanu†pubmed.ncbi.nlm.nih.gov L159: 
+L160: ^{1,}^{✉}
+L161: 
+L162:   * [Button: Author information]
+L163:   * [Button: Article notes]
+L164:   * [Button: Copyright and License information]
+L165: 
+L166: ^{1}Genomic Sciences, GSK, Stevenage, UK
+L167: 
+L168: ^{2}Genomic Sciences, GSK, Collegeville, PA USA
+L169: 
+L170: ^{3}Myllia Biotechnology, Vienna, Austria
+L171: 
+L172: ^{✉}
+L173: 
+L174: Corresponding author.
+L175: 
+L176: ^{#}
+L177: 
+L178: Contributed equally.
+L179: 
+L180: Received 2023 Jun 18; Accepted 2024 Jan 18; Collection date 2024.
+L181: © The Author(s) 2024
+L182: Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made.
+L183: The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.
+L184: To view a copy of this licence, visit cite29†http://creativecommons.org/licenses/by/4.0/†creativecommons.org . The Creative Commons Public Domain Dedication waiver (cite30†http://creativecommons.org/publicdomain/zero/1.0/†creativecommons.org ) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+L185: cite31†PMC Copyright notice L186: 
+L187: PMCID: PMC10835965  PMID: cite32†38308274†pubmed.ncbi.nlm.nih.gov L188: ## Abstract
+L189: 
+L190: ### Background
+L191: 
+L192: Drug targets with genetic evidence are expected to increase clinical success by at least twofold. Yet, translating disease-associated genetic variants into functional knowledge remains a fundamental challenge of drug discovery. A key issue is that the vast majority of complex disease associations cannot be cleanly mapped to a gene. Immune disease-associated variants are enriched within regulatory elements found in T-cell-specific open chromatin regions.
+L193: ### Results
+L194: To identify genes and molecular programs modulated by these regulatory elements, we develop a CRISPRi-based single-cell functional screening approach in primary human T cells. Our pipeline enables the interrogation of transcriptomic changes induced by the perturbation of regulatory elements at scale. We first optimize an efficient CRISPRi protocol in primary CD4^{+} T cells via CROPseq vectors.
+L195: Subsequently, we perform a screen targeting 45 non-coding regulatory elements and 35 transcription start sites and profile approximately 250,000 T -cell single-cell transcriptomes. We develop a bespoke analytical pipeline for element-to-gene (E2G) mapping and demonstrate that our method can identify both previously annotated and novel E2G links.
+L196: Lastly, we integrate genetic association data for immune-related traits and demonstrate how our platform can aid in the identification of effector genes for GWAS loci.
+L197: ### Conclusions
+L198: 
+L199: We describe “primary T cell crisprQTL” — a scalable, single-cell functional genomics approach for mapping regulatory elements to genes in primary human T cells. We show how this framework can facilitate the interrogation of immune disease GWAS hits and propose that the combination of experimental and QTL-based techniques is likely to address the variant-to-function problem.
+L200: ### Supplementary Information
+L201: 
+L202: The online version contains supplementary material available at 10.1186/s13059-024-03176-z.
+L203: 
+L204: Keywords: Enhancer, Regulatory element, GWAS, Variant to function, crisprQTL, CRISPR, T cells, scRNA-seq, CROPseq
+L205: ## Background
+L206: Genome-wide association studies (GWAS) have revealed thousands of disease-associated single-nucleotide polymorphisms (SNPs) [cite33†1 ]. Drug targets supported by human genetic evidence are expected to increase clinical success by at least twofold [cite34†2 –cite35†6 ]. Thus, understanding the molecular mechanisms underpinning GWAS hits is key to reducing attrition in drug discovery.
+L207: More than 90% of disease-associated variants are located in non-coding genomic regions [cite36†7 –cite37†9 ], making it challenging to identify the causal effector gene(s) they regulate [cite38†10 –cite39†14 ].
+L208: Non-coding disease-associated variants are enriched within cell type-specific open chromatin regions, especially regulatory elements such as promoters and enhancers [cite36†7 , cite40†11 , cite41†15 –cite42†21 ], and they often impact gene expression in a cell type-specific manner [cite43†22 –cite44†30 ]. Hence, several studies have combined genetic fine-mapping with epigenomic profiles to prioritize candidate cis-regulatory elements within trait-relevant cell populations [cite45†31 –cite46†39 ].
+L209: However, identifying the genes and downstream molecular programs modulated by disease-associated regulatory elements remains difficult with currently available tools.
+L210: CD4^{+} T cells play critical roles in autoimmune and inflammatory disorders, such as inflammatory bowel disease, type 1 diabetes, Crohn’s disease, and rheumatoid arthritis [cite47†40 , cite48†41 ]. These cells are heterogeneous and highly plastic as they differentiate and acquire distinct functions to counter pathogens and navigate changing environments [cite49†42 ].
+L211: Fine-mapping of GWAS loci, expression quantitative trait loci (eQTLs), and epigenomic studies have shown that immune disease-associated risk variants are enriched in CD4^{+} T-cell regulatory regions [cite50†18 , cite51†19 , cite43†22 , cite52†29 , cite45†31 , cite53†32 , cite54†35 , cite55†43 , cite56†44 ].
+L212: CRISPR is a powerful tool to functionally characterize and map non-coding regulatory elements to genes [cite57†45 –cite58†52 ]. In recent years, the combination of CRISPR screening with single-cell RNA sequencing (scRNA-seq) has enabled deep phenotyping of genetic perturbations at scale [cite59†53 –cite60†55 ], providing an unprecedented opportunity to disentangle genome regulation.
+L213: Specifically, high-throughput single-cell CRISPR-interference (CRISPRi) screens of regulatory regions have been performed to generate enhancer-gene maps at scale [cite61†49 , cite58†52 ]. These studies have so far used immortalized cell lines due to their ease of manipulation. However, the epigenetic regulation of immortalized, highly passaged cell lines is adapted to their highly proliferative state rather than being representative of the tissues from which they were derived [cite62†56 , cite63†57 ].
+L214: Therefore, we sought to establish a method that allowed us to query the function of regulatory elements in a physiologically relevant cell context.
+L215: Here, we present the method called “primary T cell crisprQTL,” a high-throughput, single-cell, pooled CRISPRi-based functional screening framework to map non-coding regulatory elements to genes in primary human CD4^{+} T cells. We perturbed transcription start sites (TSSs) and putative regulatory elements with ZIM3-dCas9 and profiled 250,195 high-quality single CD4^{+} T-cell transcriptomes.
+L216: We developed an analytical pipeline to robustly assign perturbations to cells and to determine gene expression changes. We demonstrate that our method can identify high-confidence cis element-to-gene (E2G) pairs and nominate novel E2G links supported by genetic evidence.
+L217: ## Results
+L218: ### Implementation of single-cell CRISPRi technology in human primary CD4^{+} T cells
+L219: To enable lentiviral-based CRISPRi perturbations in unexpanded primary CD4^{+} T cells, we tested a panel of dCas9-KRAB lentiviral constructs targeting the TSS of four cell surface receptors: CD4, CD81, BST2, and ATP1B3. We designed dCas9 constructs using two KRAB repressor domains (KOX1 or ZIM3) under the control of two promoters (EFS or CBh) (Additional file cite64†1 : Fig. S1A). ZIM3 has been shown to improve CRISPRi silencing efficiency compared to the more widely used KOX1 domain [cite65†58 ].
+L220: Briefly, T cells were activated and transduced with dCas9-KRAB lentivirus and selected with blasticidin. Cells were then reactivated and transduced with TSS-targeting guide RNAs (gRNAs) or with a non-targeting (NT) control cloned into a CROPseq backbone [cite66†59 ]. After puromycin selection of cells expressing the gRNA, the effect of the CRISPRi perturbation on the expression of the target protein was analyzed by flow cytometry (Fig. cite67†1 A).
+L221: We observed variable silencing efficacy for different genes (Fig. cite67†1 B, Additional file cite64†1 : Fig. S1B), likely due to differences in gRNA efficiency, basal gene expression, and local chromatin context, consistent with previous CRISPR modulation studies [cite68†60 , cite69†61 ]. Generally, using a ZIM3 repressor under a CBh promoter resulted in marginally improved silencing compared to the other constructs across multiple target genes (Additional file cite64†1 : Fig.
+L222: S1B) and timepoints (Additional file cite64†1 : Fig. S1C). Thus, we selected the CBh-ZIM3-dCas9 construct for all subsequent experiments. To test the robustness of our method, we performed a CRISPRi experiment targeting the TSSs of CD4, CD81, and BST2 in primary T cells derived from four donors, across a time-course series, and achieved up to 85% silencing efficiency (Fig. cite67†1 C).
+L223: #### Fig. 1.
+L224: 
+L225: cite70†Open in a new tab L226: A Schematic of the CRISPRi protocol in primary CD4^{+} T cells. B Histograms showing expression of the target gene (CD4, CD81, BST2) 10 days after gRNA transduction into primary CD4^{+} T cells expressing a CBh-ZIM3-dCas9 repressor construct, analyzed by flow cytometry. gRNA #1 and gRNA #2 refer to two different gRNA designs for a given TSS. The wild-type (WT) control are non-transduced cells stained with the same antibody for the corresponding target gene.
+L227: C Quantification of the percentage of cells retaining cell surface expression of CD4, CD81, and BST2 at days 4, 6, 8, or 11 after transduction of a TSS-targeting gRNA (red) or NT control gRNA (gray) into primary CD4^{+} T cells expressing CBh-ZIM3-dCas9, analyzed by flow cytometry. Replicates are cells derived from four donors. Differences between non-targeting and targeting gRNAs are significant for all genes and timepoints (p-value < 0.00005, Bonferroni-Dunn test).
+L228: D Normalized expression levels of the same target genes, measured by 10X Genomics 3′ scRNA-seq, 11 days after the corresponding targeting (red) or non-targeting (gray) gRNAs were transduced into primary CD4^{+} T cells expressing a CBh-ZIM3-dCas9 repressor construct. The dashed line indicates the median expression level in cells with non-targeting controls. The number of cells in each group is indicated at the top. Note gRNA #1 and #2 for CD81 TSS were analyzed together due to sequence similarity
+
+
+Human Epistatic Interaction Controls IL7R Splicing and Increases Multiple Sclerosis Risk - PubMed (https://pubmed.ncbi.nlm.nih.gov/28340352/)
+citeturn170view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn164view0","pattern":"Retraction"}); Total lines: 530
+No matching text found for "Retraction"

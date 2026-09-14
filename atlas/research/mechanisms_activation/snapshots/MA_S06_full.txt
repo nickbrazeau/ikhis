@@ -1,0 +1,755 @@
+Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3 | Nature
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About the journal
+Publish with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature
+articles
+article
+Article
+Published: 26 March 2025
+Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3
+Kelvin Y. Chen
+ORCID: orcid.org/0000-0002-4406-26041 na1,
+Tatsuya Kibayashi2,3 na1,
+Ambre Giguelay
+ORCID: orcid.org/0000-0003-0417-11094,5,
+Mayu Hata1,
+Shunsuke Nakajima2,3,
+Norihisa Mikami1,
+Yusuke Takeshima
+ORCID: orcid.org/0000-0001-8312-93091,
+Kenji Ichiyama1,
+Ryusuke Omiya2,3,
+Leif S. Ludwig
+ORCID: orcid.org/0000-0002-2916-21644,5,
+Kunihiro Hattori2,3 &
+…
+Shimon Sakaguchi
+ORCID: orcid.org/0000-0001-8265-60941,6 Show authors
+Nature
+volume 642, pages 191–200 (2025) Cite this article
+Save article
+View saved research
+40k Accesses
+50 Citations
+75 Altmetric
+Metrics details
+An Author Correction to this article was published on 10 July 2025
+This article has been updated
+Abstract
+Regulatory T (Treg) cells, which specifically express the master transcription factor FOXP3, have a pivotal role in maintaining immunological tolerance and homeostasis and have the potential to revolutionize cell therapies for autoimmune diseases1,2,3. Although stimulation of naive CD4+ T cells in the presence of TGFβ and IL-2 can induce FOXP3+ Treg cells in vitro (iTreg cells), the resulting cells are often unstable and have thus far hampered translational efforts4,5,6. A systematic approach towards understanding the regulatory networks that dictate Treg differentiation could lead to more effective iTreg cell-based therapies. Here we performed a genome-wide CRISPR loss-of-function screen to catalogue gene regulatory determinants of FOXP3 induction in primary human T cells and characterized their effects at single-cell resolution using Perturb-icCITE-seq. We identify the RBPJ–NCOR repressor complex as a novel, context-specific negative regulator of FOXP3 expression. RBPJ-targeted knockout enhanced iTreg differentiation and function, independent of canonical Notch signalling. Repeated cytokine and T cell receptor signalling stimulation in vitro revealed that RBPJ-deficient iTreg cells exhibit increased phenotypic stability compared with control cells through DNA demethylation of the FOXP3 enhancer CNS2, reinforcing FOXP3 expression. Conversely, overexpression of RBPJ potently suppressed FOXP3 induction through direct modulation of FOXP3 histone acetylation by HDAC3. Finally, RBPJ-ablated human iTreg cells more effectively suppressed xenogeneic graft-versus-host disease than control iTreg cells in a humanized mouse model. Together, our findings reveal novel regulators of FOXP3 and point towards new avenues to improve the efficacy of adoptive cell therapy for autoimmune disease.
+This is a preview of subscription content, access via your institution
+Access options
+Access through your institution
+Access Nature and 54 other Nature Portfolio journals
+Get Nature+, our best-value online-access subscription
+$32.99 / 30 days
+cancel any time
+Learn more
+Subscribe to this journal
+Receive 52 print issues and online access
+$199.00 per year
+only $3.83 per issue
+Learn more
+Buy this article
+Purchase on SpringerLink
+Instant access to the full article PDF.
+USD 39.95
+Prices may be subject to local taxes which are calculated during checkout
+Additional access options:
+Log in
+Learn about institutional subscriptions
+Read our FAQs
+Contact customer support
+Fig. 1: A whole-genome CRISPR screen in primary human T cells uncovers novel regulators of FOXP3 induction.
+Fig. 2: Validation of FOXP3 regulators with Perturb-icCITE-seq.
+Fig. 3: RBPJ knockout improves FOXP3 expression, function and stability in iTreg cells.
+Fig. 4: The RBPJ–NCOR–HDAC3 complex directly represses FOXP3 through modulation of local histone acetylation.
+Fig. 5: RBPJ ablation improves iTreg in vivo stability and suppressive function.
+Similar content being viewed by others
+Deciphering the role of protein kinase A in the control of FoxP3 expression in regulatory T cells in health and autoimmunity
+Article
+Open access
+30 July 2024
+The regulation and differentiation of regulatory T cells and their dysfunction in autoimmune diseases
+Article
+19 February 2024
+The role of transcription factors in shaping regulatory T cell identity
+Article
+19 June 2023
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Gene regulation
+Immunogenetics
+Immunology
+Translational immunology
+Data availability
+All CRISPR screen data reported in this paper are provided in Supplementary Tables 1 and 4. All next-generation sequencing data generated as part of this study have been deposited in the DNA Data Bank of Japan (DDBJ) Sequence Read Archive under series accession number PRJDB16517. All data have been aligned to the human reference genome GRCh38 (hg38). Source data are provided with this paper.
+Code availability
+The Perturb-icCITE-seq processing scripts used for this paper are available in GitHub (https://github.com/agiguelay/Perturb-icCITEseq).
+Change history
+10 July 2025
+A Correction to this paper has been published: https://doi.org/10.1038/s41586-025-09356-6
+References
+Sakaguchi, S. et al. Regulatory T cells and human disease. Annu. Rev. Immunol. 38, 541–566 (2020).
+Article
+CAS
+PubMed
+Google Scholar
+Raffin, C., Vo, L. T. & Bluestone, J. A. Treg cell-based therapies: challenges and perspectives. Nat. Rev. Immunol. 20, 158–172 (2020).
+Article
+CAS
+PubMed
+Google Scholar
+Sakaguchi, S. Taking regulatory T cells into medicine. J. Exp. Med. 218, e20210831 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chen, W. et al. Conversion of peripheral CD4+CD25− naive T cells to CD4+CD25+ regulatory T cells by TGF-β induction of transcription factor Foxp3. J. Exp. Med. 198, 1875–1886 (2003).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kanamori, M., Nakatsukasa, H., Okada, M., Lu, Q. & Yoshimura, A. Induced regulatory T cells: their development, stability, and applications. Trends Immunol. 37, 803–811 (2016).
+Article
+CAS
+PubMed
+Google Scholar
+Floess, S. et al. Epigenetic control of the Foxp3 locus in regulatory T cells. PLoS Biol. 5, e38 (2007).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Ferreira, L. M. R., Muller, Y. D., Bluestone, J. A. & Tang, Q. Next-generation regulatory T cell therapy. Nat. Rev. Drug Discov. 18, 749–769 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Mikami, N., Kawakami, R. & Sakaguchi, S. New Treg cell-based therapies of autoimmune diseases: towards antigen-specific immune suppression. Curr. Opin. Immunol. 67, 36–41 (2020).
+Article
+CAS
+PubMed
+Google Scholar
+Wei, J. et al. Targeting REGNASE-1 programs long-lived effector T cells for cancer therapy. Nature 576, 471–476 (2019).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Shifrut, E. et al. Genome-wide CRISPR screens in primary human T cells reveal key regulators of immune function. Cell https://doi.org/10.1016/j.cell.2018.10.024 (2018).
+Dong, M. B. et al. Systematic immunotherapy target discovery using genome-scale in vivo CRISPR screens in CD8 T cells. Cell 178, 1189–1204.e23 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Cortez, J. T. et al. CRISPR screen in regulatory T cells reveals modulators of Foxp3. Nature 582, 416–420 (2020).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Loo, C.-S. et al. A genome-wide CRISPR screen reveals a role for the non-canonical nucleosome-remodeling BAF complex in Foxp3 expression and regulatory T cell function. Immunity 53, 143–157.e8 (2020).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Schumann, K. et al. Functional CRISPR dissection of gene networks controlling human regulatory T cell identity. Nat. Immunol. 21, 1456–1466 (2020).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Doench, J. G. et al. Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Nat. Biotechnol. 34, 184–191 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Li, W. et al. MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens. Genome Biol. 15, 554 (2014).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Tone, Y. et al. Smad3 and NFAT cooperate to induce Foxp3 expression through its enhancer. Nat. Immunol. 9, 194–202 (2007).
+Article
+PubMed
+Google Scholar
+Sun, X., Cui, Y., Feng, H., Liu, H. & Liu, X. TGF-β signaling controls Foxp3 methylation and Treg cell differentiation by modulating Uhrf1 activity. J. Exp. Med. 216, 2819–2837 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hori, S., Nomura, T. & Sakaguchi, S. Control of regulatory T cell development by the transcription factor Foxp3. Science 299, 1057–1061 (2003).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Seki, A. & Rutz, S. Optimized RNP transfection for highly efficient CRISPR/Cas9-mediated gene knockout in primary T cells. J. Exp. Med. 215, 985–997 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Sauer, M. et al. DHX36 prevents the accumulation of translationally inactive mRNAs with G4-structures in untranslated regions. Nat. Commun. 10, 2421 (2019).
+Article
+ADS
+PubMed
+PubMed Central
+Google Scholar
+Zemmour, D. et al. Single-cell gene expression reveals a landscape of regulatory T cell phenotypes shaped by the TCR. Nat. Immunol. 19, 291–301 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Luo, Y. et al. Single-cell transcriptomic analysis reveals disparate effector differentiation pathways in human Treg compartment. Nat. Commun. https://doi.org/10.1038/s41467-021-24213-6 (2021).
+Chen, K. Y. et al. Joint single-cell measurements of surface proteins, intracellular proteins and gene expression with icCITE-seq. Preprint at bioRxiv https://doi.org/10.1101/2025.01.11.632564 (2025).
+Freimer, J. W. et al. Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks. Nat. Genet. 54, 1133–1144 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Dixit, A. et al. Perturb-seq: dissecting molecular circuits with scalable single-cell RNA profiling of pooled genetic screens. Cell 167, 1853–1866.e17 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Frangieh, C. J. et al. Multimodal pooled Perturb-CITE-seq screens in patient models define mechanisms of cancer immune evasion. Nat. Genet. 53, 332–341 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Araujo, L., Khim, P., Mkhikian, H., Mortales, C.-L. & Demetriou, M. Glycolysis and glutaminolysis cooperatively control T cell function by limiting metabolite supply to N-glycosylation. eLife 6, e21330 (2017).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Setoguchi, R. et al. Repression of the transcription factor Th-POK by Runx complexes in cytotoxic T cell development. Science 319, 822–825 (2008).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Wang, L. et al. The zinc finger transcription factor Zbtb7b represses CD8-lineage gene expression in peripheral CD4+ T cells. Immunity 29, 876–887 (2008).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Oberoi, J. et al. Structural basis for the assembly of the SMRT/NCoR core transcriptional repression machinery. Nat. Struct. Mol. Biol. 18, 177–184 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kao, H. Y. et al. A histone deacetylase corepressor complex regulates the Notch signal transduction pathway. Genes Dev. 12, 2269–2277 (1998).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Fortini, M. E. & Artavanis-Tsakonas, S. The suppressor of hairless protein participates in Notch receptor signaling. Cell 79, 273–282 (1994).
+Article
+CAS
+PubMed
+Google Scholar
+Castel, D. et al. Dynamic binding of RBPJ is determined by Notch signaling status. Genes Dev. 27, 1059–1071 (2013).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Jarriault, S. et al. Signalling downstream of activated mammalian Notch. Nature https://doi.org/10.1038/377355a0 (1995).
+Oswald, F. et al. SHARP is a novel component of the Notch/RBP-Jκ signalling pathway. EMBO J. 21, 5417–5426 (2002).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Oswald, F. et al. A phospho-dependent mechanism involving NCoR and KMT2D controls a permissive chromatin state at Notch target genes. Nucleic Acids Res. 44, 4703–4720 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Delacher, M. et al. Rbpj expression in regulatory T cells is critical for restraining T2 responses. Nat. Commun. 10, 1621 (2019).
+Article
+ADS
+PubMed
+PubMed Central
+Google Scholar
+Zheng, Y. et al. Role of conserved non-coding DNA elements in the Foxp3 gene in regulatory T-cell fate. Nature 463, 808–812 (2010).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Feng, Y. et al. Control of the inheritance of regulatory T cell identity by a cis element in the Foxp3 locus. Cell 158, 749–763 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Li, X., Liang, Y., LeBlanc, M., Benner, C. & Zheng, Y. Function of a Foxp3 cis-element in protecting regulatory T cell identity. Cell 158, 734–748 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kawakami, R. et al. Distinct Foxp3 enhancer elements coordinate development, maintenance, and function of regulatory T cells. Immunity 54, 947–961.e8 (2021).
+Article
+CAS
+PubMed
+Google Scholar
+Dikiy, S. et al. A distal Foxp3 enhancer enables interleukin-2 dependent thymic Treg cell lineage commitment for robust immune tolerance. Immunity 54, 931–946.e11 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Ohkura, N. et al. T cell receptor stimulation-induced epigenetic changes and Foxp3 expression are independent and complementary events required for Treg cell development. Immunity 37, 785–799 (2012).
+Article
+CAS
+PubMed
+Google Scholar
+Mikami, N. et al. Epigenetic conversion of conventional T cells into regulatory T cells by CD28 signal deprivation. Proc. Natl Acad. Sci. USA 117, 12258–12268 (2020).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Yue, X. et al. Control of Foxp3 stability through modulation of TET activity. J. Exp. Med. 213, 377–397 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Schmidt, A., Eriksson, M., Shang, M.-M., Weyd, H. & Tegnér, J. Comparative analysis of protocols to induce human CD4+Foxp3+ regulatory T cells by combinations of IL-2, TGF-β, retinoic acid, rapamycin and butyrate. PLoS ONE 11, e0148474 (2016).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Sher, F. et al. Rational targeting of a NuRD subcomplex guided by comprehensive in situ mutagenesis. Nat. Genet. 51, 1149–1159 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Yuan, Z. et al. Structural and functional studies of the RBPJ-SHARP complex reveal a conserved corepressor binding site. Cell Rep. 26, 845–854.e6 (2019).
+Heinzel, T. et al. A complex containing N-CoR, mSln3 and histone deacetylase mediates transcriptional repression. Nature 387, 43–48 (1997).
+Article
+ADS
+CAS
+PubMed
+Google Scholar
+Mimitou, E. P. et al. Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells. Nat. Biotechnol. 39, 1246–1258 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Skene, P. J. & Henikoff, S. An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. eLife 6, e21856 (2017).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Liu, N. et al. Direct promoter repression by BCL11A controls the fetal to adult hemoglobin switch. Cell 173, 430–442.e17 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+van der Veeken, J. et al. The transcription factor Foxp3 shapes regulatory T cell identity by tuning the activity of trans-acting intermediaries. Immunity 53, 971–984.e5 (2020).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Zhou, P. et al. Single-cell CRISPR screens in vivo map T cell fate regulomes in cancer. Nature 624, 154–163 (2023).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Meyer Zu Horste, G. et al. RBPJ controls development of pathogenic Th17 cells by regulating IL-23 receptor expression. Cell Rep. 16, 392–404 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chen, X. et al. Joint single-cell DNA accessibility and protein epitope profiling reveals environmental regulation of epigenomic heterogeneity. Nat. Commun. 9, 4590 (2018).
+Article
+ADS
+PubMed
+PubMed Central
+Google Scholar
+Baskar, R. et al. Integrating transcription-factor abundance with chromatin accessibility in human erythroid lineage commitment. Cell Rep. Methods 2, 100188 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Komatsu, N. et al. Heterogeneity of natural Foxp3+ T cells: a committed regulatory T-cell lineage and an uncommitted minor population retaining plasticity. Proc. Natl Acad. Sci. USA 106, 1903–1908 (2009).
+Article
+ADS
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Lee, P. P. et al. A critical role for Dnmt1 and DNA methylation in T cell development, function, and survival. Immunity 15, 763–774 (2001).
+Article
+CAS
+PubMed
+Google Scholar
+Chiou, S. H. et al. Pancreatic cancer modeling using retrograde viral vector delivery and in vivo CRISPR/Cas9-mediated somatic genome editing. Genes Dev. 29, 1576–1585 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Han, H. et al. Inducible gene knockout of transcription factor recombination signal binding protein-J reveals its essential role in T versus B lineage decision. Int. Immunol. 14, 637–645 (2002).
+Article
+CAS
+PubMed
+Google Scholar
+National Research Council, Division on Earth and Life Studies, Institute for Laboratory Animal Research & Committee for the Update of the Guide for the Care and Use of Laboratory Animals. Guide for the Care and Use of Laboratory Animals 8th edn (National Academies Press, 2011).
+Morita, S., Kojima, T. & Kitamura, T. Plat-E: an efficient and stable system for transient packaging of retroviruses. Gene Ther. 7, 1063–1066 (2000).
+Article
+CAS
+PubMed
+Google Scholar
+Joung, J. et al. Genome-scale CRISPR–Cas9 knockout and transcriptional activation screening. Nat. Protoc. 12, 828–863 (2017).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhou, Y. et al. Metascape provides a biologist-oriented resource for the analysis of systems-level datasets. Nat. Commun. 10, 1523 (2019).
+Article
+ADS
+PubMed
+PubMed Central
+Google Scholar
+Korotkevich, G. et al. Fast gene set enrichment analysis. Preprint at bioRxiv https://doi.org/10.1101/060012 (2021).
+Brinkman, E. K. & van Steensel, B. Rapid quantitative evaluation of CRISPR genome editing by TIDE and TIDER. Methods Mol. Biol. 1961, 29–44 (2019).
+Article
+CAS
+PubMed
+Google Scholar
+Conant, D. et al. Inference of CRISPR edits from Sanger trace data. CRISPR J. 5, 123–130 (2022).
+Article
+CAS
+PubMed
+Google Scholar
+Schoonenberg, V. A. C. et al. CRISPRO: identification of functional protein coding sequences based on genome editing dense mutagenesis. Genome Biol. 19, 169 (2018).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Corces, M. R. et al. An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues. Nat. Methods 14, 959–962 (2017).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Buenrostro, J. D., Wu, B., Chang, H. Y. & Greenleaf, W. J. ATAC-seq: a method for assaying chromatin accessibility genome-wide. Curr. Protoc. Mol. Biol. 109, 21.29.1–21.29.9 (2015).
+Article
+PubMed
+Google Scholar
+Akella, N. M., Ciraku, L. & Reginato, M. J. Fueling the fire: emerging role of the hexosamine biosynthetic pathway in cancer. BMC Biol. 17, 52 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Xu, C. & Ng, D. T. Glycosylation-directed quality control of protein folding. Nat. Rev. Mol. Cell Biol. 16, 742–752 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Download references
+Acknowledgements
+We thank the members of the Sakaguchi laboratory for technical advice and discussions; S. Hori for providing FOXP3-hCD2/CD52 mice; the Genome Information Research Center of the Research Institute for Microbial Diseases at Osaka University for next-generation sequencing support; and the Research Cluster of the Berlin Institute of Health for computational support on the high-performance computing (HPC). The graphics in Fig. 5a and Extended Data Figs. 1a and 4a were created in BioRender (https://biorender.com). This research was supported by Grants-in-Aid by the Japan Society for Promotion of Science (JSPS) for Specially Promoted Research no. 16H06295 and the Japan Agency for Medical Research and Development (P-CREATE, 18cm0106303; LEAP, 18gm0010005) to S.S. and the Japan Society for the Promotion of Science (JSPS) KAKENHI Grant-in-Aid for Early-Career Scientists 23K14545 to K.Y.C.
+Author information
+Author notes
+These authors contributed equally: Kelvin Y. Chen, Tatsuya Kibayashi
+Authors and Affiliations
+Laboratory of Experimental Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan
+Kelvin Y. Chen, Mayu Hata, Norihisa Mikami, Yusuke Takeshima, Kenji Ichiyama & Shimon Sakaguchi
+Joint Research Chair of Innovative Drug Discovery in Immunology, Immunology Frontier Research Center, Osaka University, Osaka, Japan
+Tatsuya Kibayashi, Shunsuke Nakajima, Ryusuke Omiya & Kunihiro Hattori
+Research Division, Chugai Pharmaceutical Co. Ltd, Yokohama, Japan
+Tatsuya Kibayashi, Shunsuke Nakajima, Ryusuke Omiya & Kunihiro Hattori
+Berlin Institute of Health at Charité–Universitätsmedizin Berlin, Berlin, Germany
+Ambre Giguelay & Leif S. Ludwig
+Max-Delbrück-Center for Molecular Medicine in the Helmholtz Association (MDC), Berlin Institute for Medical Systems Biology (BIMSB), Berlin, Germany
+Ambre Giguelay & Leif S. Ludwig
+Department of Experimental Pathology, Institute for Life and Medical Sciences, Kyoto University, Kyoto, Japan
+Shimon Sakaguchi
+Authors
+Kelvin Y. Chen
+View author publications
+Search author on:PubMed Google Scholar
+Tatsuya Kibayashi
+View author publications
+Search author on:PubMed Google Scholar
+Ambre Giguelay
+View author publications
+Search author on:PubMed Google Scholar
+Mayu Hata
+View author publications
+Search author on:PubMed Google Scholar
+Shunsuke Nakajima
+View author publications
+Search author on:PubMed Google Scholar
+Norihisa Mikami
+View author publications
+Search author on:PubMed Google Scholar
+Yusuke Takeshima
+View author publications
+Search author on:PubMed Google Scholar
+Kenji Ichiyama
+View author publications
+Search author on:PubMed Google Scholar
+Ryusuke Omiya
+View author publications
+Search author on:PubMed Google Scholar
+Leif S. Ludwig
+View author publications
+Search author on:PubMed Google Scholar
+Kunihiro Hattori
+View author publications
+Search author on:PubMed Google Scholar
+Shimon Sakaguchi
+View author publications
+Search author on:PubMed Google Scholar
+Contributions
+K.Y.C., T.K. and S.S. conceived and designed experiments with input from N.M. K.Y.C., T.K., M.H. and S.N. carried out the experiments. K.Y.C., T.K. and Y.T. carried out analyses, with substantial contributions from A.G. on the single-cell dataset. K.Y.C. conceived and designed the methods with input from T.K. and K.I. R.O. provided insights and discussions for experimental planning. L.S.L., K.H. and S.S. each supervised various aspects of the work. K.Y.C., T.K. and S.S. drafted the manuscript with input from all other authors.
+Corresponding authors
+Correspondence to
+Kelvin Y. Chen or Shimon Sakaguchi.
+Ethics declarations
+Competing interests
+S.S. has received grant support from Chugai Pharmaceutical. S.S. is the founder and scientific advisor for RegCell. RegCell had no role in the design, conduct, or funding of this research. T.K., R.O. and K.H. are employed by Chugai Pharmaceutical, and R.O. and K.H. also hold stocks in the company. The other authors declare no competing interests.
+Peer review
+Peer review information
+Nature thanks Massimiliano Pagani and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Extended data figures and tables
+Extended Data Fig. 1 Design and validation of the iTreg whole-genome CRISPR screen in primary human T cells.
+a, Detailed timeline schematic of the CRISPR screening pipeline. The schematic of the cells was adapted from ref. 51, Springer Nature, and the graphic of the next-generation sequencing was created using BioRender (https://biorender.com). b, Gating strategy used for the FOXP3 screen in a. c, Scatter plot of gene-level LFC (between FOXP3hi and FOXP3lo sorting bins), comparing screens between two replicates. d, Gene-set enrichment analysis of top-ranked FOXP3 negative (left) and positive (right) screen hits in a curated list from a previous study13. FDR = False discovery rate, permutation test. Representative unique and shared hits are shown in the text-box on the right. e, Western Blot analysis of protein expression of RBPJ, HDAC3 and NCOR2 in cells treated with the indicated perturbations. Data is representative of two independent donors (n = 4 donors). f, Representative histograms depicting FOXP3 expression in iTregs with indicated genetic perturbations, related to Fig. 1e,f. Negative (red) and positive (blue) regulators are overlaid on NTC (gray). MFI, median fluorescence intensity.
+Extended Data Fig. 2 Supporting information for gene perturbation analyses by Perturb-icCITE-seq.
+a, Violin plots for indicated proteins showing the distribution of protein expression for select targeted genes (KO). The boxplot spans from the first to the third quartile of the distribution, with the median positioned in the center. Whiskers represent the minimum and maximum values, excluding outliers. b, Heatmap showing mean expression score for select protein markers across gRNA perturbations in iTreg cells (Supplementary Table 2). c, Selection of significant (p ≤ 0.1) positive (orange) and negative (blue) regulators of FOXP3 (non-null regulatory coefficient; Methods) as determined by icCITE-seq FOXP3 protein signal. The x axis shows FOXP3 protein coefficient and y axis shows −log10 of the adjusted P-value (adj. P) calculated using the Wilcoxon Rank-Sum test with Bonferroni correction for multiple testing. d,e, UMAP embeddings of the regulatory profiles of the 228 targeted genes, colored by their associated target module (d) and icCITE-seq FOXP3 protein expression score (e), related to Fig. 2d. f, UMAP embedding of the regulated profiles of 2,192 impacted genes. Color is indicative of the associated gene program (GP). g, Regulatory coefficient (β) values on RNA following targeted gene perturbation of indicated genes. Perturbations in the TCR and TGFβ signaling pathways. Values plotted in a represent cells from a single replicate.
+Extended Data Fig. 3 Elucidating perturbation-induced phenotypes with Perturb-icCITE-seq.
+a, Regulatory coefficient (β) values on RNA following targeted gene perturbation of indicated genes. Perturbations in the hexosamine pathways. b, Hexosamine signaling and downstream pathways. The graphic was adapted from refs. 73,74, Springer Nature. Gene names of ALG enzymes that mediate the assembly of mature precursor molecules are indicated by the number (e.g. ALG1, ALG2, ALG11, etc.). Positive regulators of FOXP3 expression as determined by the whole-genome screen are colored in red. c, Volcano plot of differentially regulated genes between ZBTB7B KO and control-edited iTreg cells as determined by Perturb-icCITE-seq. The x axis shows LFC and y axis shows −log10 of the adjusted P-value (adj. P) calculated using the Wilcoxon Rank-Sum test with Bonferroni correction for multiple testing. d, A heatmap of Jaccard similarity indexes computed on the differentially expressed genes (absolute fold-change ≥ 1.2, p ≤ 0.01) between members of the NCOR complex. e, Network graph showing the major transcriptional effects (magnitude ≥ 0.2) of perturbed targets on each other. Red/blue arrows are indicative of positive/negative effects on gene expression. Arrow color is determined by the mean regulatory effect size β coefficient. f, Distribution of perturbed gene eigencentrality calculated on either the complete target regulatory network graph (top) or a subset (bottom, edges with an absolute coefficient ≥ 0.2, related to (e)). g, Volcano plot of differentially regulated surface proteins between FOXP3-expressing RBPJ KO and control-edited iTreg cells as determined by Perturb-icCITE-seq. The x axis shows LFC and y axis shows −log10 of the adjusted P-value (adj. P) calculated using the Wilcoxon Rank-Sum test with Bonferroni correction for multiple testing.
+Extended Data Fig. 4 RBPJ is a negative regulator of FOXP3 expression in mice and humans.
+a, Representative histograms depicting FOXP3 expression in RBPJ-ablated iTregs in human (top; n = 3 donors) and mouse (bottom; n = 3 biological replicates) cells without CD28 co-stimulation. Two individual gRNAs (blue and red) are overlaid on a non-targeting control (gray). The silhouette of the human was adapted from ref. 51, Springer Nature, and the schematic of the mouse was created using BioRender (https://biorender.com). b, Summarized data of the experiment in (a), FOXP3 expression was determined by flow cytometry for human (n = 4 donors, CD28 + ; 3 donors CD28-) and mouse (n = 3 biological replicates) iTregs. c, Analysis of relative FOXP3 MFI in human (top) and mouse (bottom) FOXP3+ iTreg cells after polarization in CD4+ T cells, related to the experiment in (a and b). d, TGFβ dose titration analysis of FOXP3 induction in control or RBPJ-depleted human CD4+ T cells (n = 4 donors), demonstrating its dependence in RBPJ KO cells. e, Western Blot analysis of protein expression of RBPJ in cells treated with the indicated perturbations. Naive CD4+ T cells from RBPJflox/flox mice were isolated and transduced with viral particles harboring Thy1.1-T2A-Cre or mock Thy1.1 constructs to induce knockout of the RBPJ. Data is representative of two biological replicates (n = 2). f,g Left, Representative histograms depicting Foxp3 expression in iTregs derived from RBPJflox/flox CD4+ T cells treated under the indicated conditions with (g) or without (f) CD28 co-stimulation (n = 3 biological replicates). Right, Summarized data of the experiment. Foxp3 expression was determined by flow cytometry. h, Analysis of %FOXP3+ cells after iTreg polarization in human CD4+ T cells with indicated genetic perturbations (n = 4 donors, related to the experiment in Fig. 3b). i, Analysis of relative FOXP3 MFI in FOXP3+ iTreg cells after polarization in human CD4+ T cells treated with the indicated dose of Notch signaling-related inhibitors (n = 4 donors). j, Relative FOXP3 MFI analysis in control or RBPJ-depleted human nTregs (n = 3 donors), showing that nTregs were only marginally affected. k, Summarized data (n = 4 donors) for the antisense oligonucleotide (ASO) experiment in (Fig. 3c; n = 4 donors). l, Statistical analysis of FOXP3 MFI in FOXP3+ iTregs from the experiment in (k). m, Quantification of relative RBPJ mRNA knockdown efficiency as determined by qPCR, related to the experiment in (k,l). n, Scatter plot of differential gene expression fold changes from bulk RNA-seq in NTC vs. RBPJ-knockout resting T cells, along with their respective enrichment in the CRISPR screen. All data are presented as mean ± s.e.m. ns, not significant. Statistical analysis was performed with a one-way ANOVA with Dunnett’s multiple comparison test for b (bottom), c and k-m, two-tailed unpaired Student’s t-test in f,g.
+Source Data
+Extended Data Fig. 5 icRNA-seq analysis of RNA expression in FACS-enriched FOXP3+ cells.
+a, Schematic depicting the icRNA protocol (Methods). b, Validation of FOXP3 intracellular staining using the icRNA protocol. Data is representative of three independent trials and the antibody clone used is indicated. The schematic was adapted from ref. 51, Springer Nature. c, Gene expression levels for FOXP3 measured by icRNA-seq (n = 4 donors, mean ± s.e.m.). Statistical analysis was performed with a two-tailed unpaired Student’s t-test. d, Bioanalyzer trace depicting high-quality RNA obtained from fixed and permeabilized FACS-sorted cells. e, Scatter plot of gene expression fold changes from Perturb-seq and icRNA-seq in FOXP3+ RBPJ-knockout vs FOXP3+ NTC iTreg cells. The color is representative of the −log10 of the adjusted P-value calculated using a two-tailed Wilcoxon Rank-Sum test with Bonferroni correction for multiple testing. f, Activity scores of gene signatures associated with nTregs from the Perturb-icCITE-seq experiment. P-values by a two-tailed Wilcoxon signed-rank test.
+Source Data
+Extended Data Fig. 6 RBPJ ablation increases iTreg stability.
+a, Summarized DNA demethylation rate across FOXP3 CNS2 (n = 4 donors for (+)Ascorbate; 3 donors for (-) Ascorbate) from RBPJ-KO iTregs and non-targeting controls, related to the experiment in (Fig. 3g). For statistical assessment, the donor-level demethylation rate of NTC gRNA 1 and 2 were averaged compared to each RBPJ gRNA species. b, Statistical analysis of the mean change of FOXP3+ cells in control or RBPJ-ablated iTregs on Day 14 (n = 6 donors), related to the experiment in (Fig. 3h,i). Mean change was measured by averaging the change in FOXP3+ Day 14 versus Day 7 per donor in both gRNA species for control and RBPJ. c, Left, Gating strategy used for the experiment in (Fig. 3h,i). FOXP3hi and FOXP3lo cells were sorted and subjected to bisulfite sequencing at FOXP3 CNS2 to assess DNA demethylation rate. The heatmap (right) shows summarized DNA methylation status at each of the 11 CNS2 CpGs across eight independent donors. d, Foxp3 stability assessed in iTreg cells derived from RBPJflox/flox/Foxp3-hCD2 reporter mice. Naive CD4+ T cells from mice were isolated and transduced with viral particles harboring Thy1.1-T2A-Cre or mock Thy1.1 constructs to induce knockout of the RBPJ and cultured under iTreg polarizing conditions. Foxp3+ iTregs were sorted to purity by flow cytometry and cultured for seven days in the presence of IL-2 before analysis. Analysis of %Foxp3+ cells (left) and relative Foxp3 MFI (right) at the end of culture (n = 4 biological replicates). e, Assessment of the effect of Rbpj knockout in Foxp3 lineage-committed mouse iTregs. Left, Schematic of experiment for assessing in vitro Foxp3 stability. Foxp3+ iTregs were sorted by flow cytometry and retrovirally transduced with constructs expressing Thy1.1-T2A-Cre or mock Thy1.1. Thy1.1+ were rested and cultured for an additional seven days before analysis. Analysis of %Foxp3+ cells (middle) and relative Foxp3 MFI (right) at the end of culture (n = 4 biological replicates). f,g, Relative CTLA-4 (f) and CD25 (g) MFI analysis in control or RBPJ-ablated human FOXP3+ iTregs (n = 4 donors). All data are presented as mean ± s.e.m. ns, not significant. Repeated measures one-way ANOVA with Dunnett’s multiple comparison test for a and f,g; two-tailed paired and unpaired Student’s t-test in b and d,e, respectively.
+Source Data
+Extended Data Fig. 7 RBPJ binds to the FOXP3 promoter and modulates histone acetylation.
+a, Comparison of FOXP3hi versus FOXP3lo gRNA enrichment scores within specific domains, related to the saturation mutagenesis experiment in Fig. 4a. Regions surrounding the amino acid positions 235 and 362 have been removed from the BTD and CTD domains, respectively. BTD, β-trefoil DNA-binding domain; AA, amino acid. P-values by a two-tailed Wilcoxon signed-rank test. b, RBPJ-overexpressing human CD4+ iTreg cells (n = 3 independent donors) were assessed for FOXP3 expression and quantified for %FOXP3+ (left) and FOXP3 MFI (bottom). c, RBPJ overexpression has minimal effects on FOXP3 in nTregs, as assessed by flow cytometry (n = 4 independent donors). d, Electromobility shift assays (EMSA) showing binding of RBPJ to the FOXP3 promoter. Lysate was prepared from RBPJ-overexpressing iTreg cells (Methods). Data is representative of two independent experiments. e, Analysis of %FOXP3+ cells (left) and FOXP3 MFI (right) after iTreg polarization in HDAC3-deficient human CD4+ T cells (n = 4 donors). f,g, Summary of H3K9ac ChIP-seq signal enrichment at FOXP3. All data are plotted as ± s.e.m. Repeated measures one-way ANOVA with Dunnett’s multiple comparison test for c; two-tailed paired Student’s t-test in b. Values plotted in a represent CRISPRO gRNA enrichment scores calculated using data from three independent biological replicates.
+Source Data
+Extended Data Fig. 8 inChIP and inATAC assessment of chromatin and histone acetylation in FACS-enriched FOXP3+ cells.
+a, Schematic depicting the inATAC and inChIP protocol (Methods). The schematic was adapted from ref. 51, Springer Nature. b, Validation of FOXP3 intracellular staining using the inChIP/inATAC protocol. Comparisons between the two staining protocols were sourced from the same pool of cells. Data is representative of four independent trials and the antibody clones used are indicated. c. Genome coverage track of inATAC and inChIP data at the FOXP3 (Top) and CTLA4 loci. Data was generated from FACS-sorted FOXP3+ or FOXP3- iTreg cells and representative of three independent donors. Standard ATAC and Standard H3K9ac tracks were sourced from a separate donor, using a heterogeneous population (FOXP3+ and FOXP3-) of cells. d, H3ac and H3K9ac inChIP comparison of FOXP3+ iTregs transduced with WT or mutant RBPJ at the FOXP3 and CD4 loci. Results demonstrate that overexpression of WT RBPJ markedly diminishes histone acetylation at FOXP3, but not CD4.
+Extended Data Fig. 9 Supporting information for RBPJ ablation improves iTreg in vivo stability and suppressive function.
+a, Survival curve for the indicated conditions (n = 12). Survival P-values by log-rank test adjusted for multiple testing. b, Relative body weight change of the cohort in a over time. c, Statistical analysis of FOXP3% in iTregs five days post-transfer (n = 4; n = 3 for nTregs). Data are presented as mean ± s.e.m., Repeated measures one-way ANOVA with Dunnett’s multiple comparison test.
+Source Data
+Supplementary information
+Supplementary Methods (download PDF )
+Reporting Summary (download PDF )
+Supplementary Figure 1 (download PDF )
+Original source images for western blots.
+Supplementary Figure 2 (download PDF )
+Gating strategies used for cell sorting.
+Supplementary Tables (download ZIP )
+Supplementary Tables 1–6. Supplementary Table 1: Gene- and guide-level MAGeCK results for whole-genome CRISPR screen. Supplementary Table 2: Protein expression scores pertaining to Extended Data Fig. 2b. Supplementary Table 3: Gene Programs, Target Modules and GO Enrichment related to Perturb-icCITE-seq. Supplementary Table 4: Guide-level CRISPRO results for the RBPJ tiling screen. Supplementary Table 5: Primers, gRNA and ASO sequences used in this study. Supplementary Table 6: Antibodies used in this study.
+Source data
+Source Data Fig. 1 (download XLSX )
+Source Data Fig. 3 (download XLSX )
+Source Data Fig. 4 (download XLSX )
+Source Data Fig. 5 (download XLSX )
+Source Data Extended Data Fig. 4 (download XLSX )
+Source Data Extended Data Fig. 5 (download XLSX )
+Source Data Extended Data Fig. 6 (download XLSX )
+Source Data Extended Data Fig. 7 (download XLSX )
+Source Data Extended Data Fig. 9 (download XLSX )
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Chen, K.Y., Kibayashi, T., Giguelay, A. et al. Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3.
+Nature 642, 191–200 (2025). https://doi.org/10.1038/s41586-025-08795-5
+Download citation
+Received: 08 September 2023
+Accepted: 14 February 2025
+Published: 26 March 2025
+Version of record: 26 March 2025
+Issue date: 05 June 2025
+DOI: https://doi.org/10.1038/s41586-025-08795-5
+Share this article
+Anyone you share the following link with will be able to read this content:Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Access through your institution
+Buy or subscribe
+Associated content
+Collection
+Nobel Prize in Physiology or Medicine 2025
+Advertisement
+Explore content
+Research articles
+News
+Opinion
+Research Analysis
+Careers
+Books & Culture
+Podcasts
+Videos
+Current issue
+Browse issues
+Collections
+Subjects
+Follow us on Facebook
+Follow us on Bluesky
+Follow us on X
+Subscribe
+Sign up for alerts
+RSS feed
+About the journal
+Journal Staff
+About the Editors
+Research Cross-Journal Editorial Team
+Journal Information
+Journal Metrics
+Our publishing models
+Editorial Values Statement
+Editorial policies
+Journalistic Principles
+History of Nature
+Awards
+Contact
+Send a news tip
+Publish with us
+For Authors
+For Referees
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature
+(Nature)
+ISSN 1476-4687 (online)
+ISSN 0028-0836 (print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+Policy
+Use
+of cookies
+Your privacy choices/Manage cookies
+Legal
+notice
+Accessibility
+statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing: Translational Research newsletter — top stories in biotechnology, drug discovery and pharma.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Close banner
+Close
+Get what matters in translational research, free to your inbox weekly.
+Sign up for Nature Briefing: Translational Research

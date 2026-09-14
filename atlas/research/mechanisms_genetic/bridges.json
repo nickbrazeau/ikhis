@@ -1,0 +1,606 @@
+{
+  "schema_version": "0.3.0",
+  "review_status": "pending",
+  "bridges": [
+    {
+      "bridge_id": "MG-B001",
+      "mechanism_id": "MG-M01",
+      "from_assertion_id": "MG-A001",
+      "to_assertion_id": "MG-A002",
+      "bridge_type": "mediation_test",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG01"
+      ],
+      "source_locators": [
+        "Fig1A,E,F; Methods DDX39B RNAi-mediated knockdown and rescue",
+        "Fig1E,F; Results first subsection; Methods DDX39B RNAi-mediated knockdown and rescue"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG01_selected_primary.txt"
+      ],
+      "evidence_summary": "DDX39B depletion plus complementation identifies a DDX39B-dependent endogenous IL7R splicing phenotype in HeLa.",
+      "entity_mapping": "Measured depleted DDX39B protein is the same gene product restored by siRNA-resistant WT cDNA; D199A is distinct helicase-defective state.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "DDX39B siRNA depletion/rescue or allele-specific reporters",
+          "cell_identity_state": "HeLa; unavailable",
+          "tissue": "cell culture",
+          "stimulation_dose": "DDX_4; matched negative-control siRNA; 50 nM",
+          "time": "siRNA days1,3,5; harvest day9 in rescue",
+          "cohort_linkage": "MGCO01"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "DDX39B siRNA depletion/rescue or allele-specific reporters",
+          "cell_identity_state": "HeLa; unavailable",
+          "tissue": "cell culture",
+          "stimulation_dose": "DDX_4 knockdown with inducible WT or D199A transgene; unavailable",
+          "time": "siRNA days1,3,5; harvest day9",
+          "cohort_linkage": "MGCO01"
+        }
+      },
+      "temporal_basis": "Documented siRNA days1,3,5 and rescue endpoint day9; no time-resolved binding/splicing kinetics.",
+      "measurement_basis": "Protein western blot verifies intervention; exon5/exon7 RT-PCR measures endogenous exon6 inclusion.",
+      "experimental_linkage": "Same HeLa rescue protocol; WT versus D199A lines are separate engineered cultures, not paired donor samples.",
+      "limitations": "Supports narrow intermediate dependence. Does not prove direct RNA binding, physiological allele effects, primary-cell transport, or downstream secretion.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "supported",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "supported",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "supported"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B002",
+      "mechanism_id": "MG-M02",
+      "from_assertion_id": "MG-A003",
+      "to_assertion_id": "MG-A004",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG01"
+      ],
+      "source_locators": [
+        "Fig6; Methods primary human CD4 culture and transduction",
+        "Results accompanying Fig6; FigS10 caption; Methods transduction and ELISA"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG01_selected_primary.txt"
+      ],
+      "evidence_summary": "Activated primary CD4 cells show exon6 skipping and altered extracellular IL7R under DDX39B shRNAs.",
+      "entity_mapping": "Shared intervention DDX39B depletion; RNA exon6 skipped species and ELISA IL7R epitope signal kept distinct.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "anti-CD3/CD28 activation; DDX39B sh3 or sh5",
+          "cell_identity_state": "primary CD4+ T cell; previously activated, transduced and selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "anti-CD3/CD28 preactivation; IL2-supported lentiviral knockdown/selection; anti-CD3 50 ng/mL; anti-CD28 100 ng/mL; IL2 100 ng/mL; puromycin 1.5 microgram/mL",
+          "time": "48 h preactivation; 72 h transduction; 96 h selection; final24 h without IL2/puromycin",
+          "cohort_linkage": "MGCO02"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "anti-CD3/CD28 activation; DDX39B sh3 or sh5",
+          "cell_identity_state": "primary CD4+ T cell; previously activated, transduced and selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "same activated CD4 shRNA protocol as MG-A003; same protocol as MG-A003",
+          "time": "final24-h collection without IL2/puromycin after transduction/selection",
+          "cohort_linkage": "MGCO02"
+        }
+      },
+      "temporal_basis": "Documented activation/transduction/selection and final24-h collection; no measured RNA-before-protein ordering.",
+      "measurement_basis": "RT-PCR splice ratio and non-isoform-specific ELISA.",
+      "experimental_linkage": "Same six-donor preparation/protocol; FigS10 explicitly from Fig6 cells; individual RNA/protein wells unavailable.",
+      "limitations": "Branched response only; sh3 all six and sh5 only two protein increases; cannot equate all extracellular IL7R with splice-derived soluble isoform.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B003",
+      "mechanism_id": "MG-M02",
+      "from_assertion_id": "MG-A003",
+      "to_assertion_id": "MG-A004",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MG01"
+      ],
+      "source_locators": [
+        "Fig6; Methods primary human CD4 culture and transduction",
+        "Results accompanying Fig6; FigS10 caption; Methods transduction and ELISA"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG01_selected_primary.txt"
+      ],
+      "evidence_summary": "Proposed exon6-skipped RNA\u2192soluble IL7R transition cannot be assigned to the measured extracellular protein in this experiment.",
+      "entity_mapping": "Specific RNA isoform lacks corresponding isoform-resolved protein identification.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "anti-CD3/CD28 activation; DDX39B sh3 or sh5",
+          "cell_identity_state": "primary CD4+ T cell; previously activated, transduced and selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "anti-CD3/CD28 preactivation; IL2-supported lentiviral knockdown/selection; anti-CD3 50 ng/mL; anti-CD28 100 ng/mL; IL2 100 ng/mL; puromycin 1.5 microgram/mL",
+          "time": "48 h preactivation; 72 h transduction; 96 h selection; final24 h without IL2/puromycin",
+          "cohort_linkage": "MGCO02"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "anti-CD3/CD28 activation; DDX39B sh3 or sh5",
+          "cell_identity_state": "primary CD4+ T cell; previously activated, transduced and selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "same activated CD4 shRNA protocol as MG-A003; same protocol as MG-A003",
+          "time": "final24-h collection without IL2/puromycin after transduction/selection",
+          "cohort_linkage": "MGCO02"
+        }
+      },
+      "temporal_basis": "Only endpoint/collection schedule; no measured sequence.",
+      "measurement_basis": "ELISA detects all IL7R isoforms and sh5 lacks RNA/protein concordance.",
+      "experimental_linkage": "Same donor protocol reduces context mismatch but does not supply missing molecular identity.",
+      "limitations": "Need selective splice manipulation and isoform-specific protein or equivalent direct translation evidence.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": "not_demonstrated",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_demonstrated",
+        "measurement_link": "not_demonstrated",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_demonstrated"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B004",
+      "mechanism_id": "MG-M03",
+      "from_assertion_id": "MG-A004",
+      "to_assertion_id": "MG-A009",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MG01",
+        "MG03"
+      ],
+      "source_locators": [
+        "Results accompanying Fig6; FigS10 caption; Methods transduction and ELISA",
+        "Results sIL7R regulated by rs6897932 and associated with DDX39A; Fig3 and Supplementary Fig7"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG01_selected_primary.txt",
+        "research/mechanisms_genetic/snapshots/MG03_selected_primary.txt"
+      ],
+      "evidence_summary": "Primary CD4 depletion/protein response and monocyte DDX39B RNA/protein null are contextual contrasts.",
+      "entity_mapping": "DDX39B shRNA/protein depletion differs from endogenous DDX39B RNA abundance; extracellular IL7R measured by related ELISA methods.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "anti-CD3/CD28 activation; DDX39B sh3 or sh5",
+          "cell_identity_state": "primary CD4+ T cell; previously activated, transduced and selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "same activated CD4 shRNA protocol as MG-A003; same protocol as MG-A003",
+          "time": "final24-h collection without IL2/puromycin after transduction/selection",
+          "cohort_linkage": "MGCO02"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "LPS 20 ng/mL 24 h; microarray and supernatant ELISA",
+          "cell_identity_state": "CD14+ monocyte; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "LPS; 20 ng/mL",
+          "time": "RNA2 h and24 h; supernatant24 h",
+          "cohort_linkage": "MGCO06"
+        }
+      },
+      "temporal_basis": "CD4 prolonged activation/selection +24-h collection versus monocyte2/24-h LPS RNA and24-h supernatant.",
+      "measurement_basis": "Perturbational endpoints versus observational association; not replication tests of same hypothesis.",
+      "experimental_linkage": "Separate studies and donors; monocyte samples explicitly reuse Fairfax cohort, not CD4 donors.",
+      "limitations": "Cannot treat monocyte transcript null as refutation of DDX39B protein-dependent splicing in CD4 cells.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "not_demonstrated",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "not_demonstrated",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B005",
+      "mechanism_id": "MG-M04",
+      "from_assertion_id": "MG-A005",
+      "to_assertion_id": "MG-A016",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MG01"
+      ],
+      "source_locators": [
+        "Fig4; Methods Luciferase translation efficiency assays",
+        "Fig3C; Results allele-specific DDX39B protein; Methods DDX39B western blot analyses in LCLs"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG01_selected_primary.txt"
+      ],
+      "evidence_summary": "UTR luciferase reporter effect is directionally compatible with native LCL protein association but not an explicit same-system native translation transition.",
+      "entity_mapping": "Reporter protein is Renilla luciferase; target native protein is DDX39B. Molecular species differ.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "DDX39B siRNA depletion/rescue or allele-specific reporters",
+          "cell_identity_state": "HeLa; unavailable",
+          "tissue": "cell culture",
+          "stimulation_dose": "unavailable; 25 ng UTR-Renilla reporter +10 ng Firefly control per24-well",
+          "time": "24 h",
+          "cohort_linkage": "MGCO01"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "rs2523506-stratified western blot and qPCR",
+          "cell_identity_state": "lymphoblastoid cell line; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "unavailable; unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MGCO10"
+        }
+      },
+      "temporal_basis": "Reporter24 h; LCL sampling time unavailable; no shared experiment ordering.",
+      "measurement_basis": "Activity/RNA ratio in independent HeLa wells versus endogenous LCL western blot.",
+      "experimental_linkage": "Separate biological preparations within same paper; no common donor and no allele-edit transfer experiment.",
+      "limitations": "Native primary-cell allele\u2192DDX39B translation requires further evidence; linked-locus alternatives remain for LCL genotype association.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": "not_demonstrated",
+        "context_compatibility": "not_demonstrated",
+        "temporal_compatibility": "not_demonstrated",
+        "measurement_link": "not_demonstrated",
+        "experimental_linkage": "not_demonstrated",
+        "mediation_test": "not_demonstrated"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B006",
+      "mechanism_id": "MG-M05",
+      "from_assertion_id": "MG-A012",
+      "to_assertion_id": "MG-A013",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG04"
+      ],
+      "source_locators": [
+        "Fig1D; Results implementation; Methods gRNA transduction",
+        "Fig1B,C; Methods gRNA transduction and flow"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG04_CD4_results.txt",
+        "research/mechanisms_genetic/snapshots/MG04_CD4_methods.txt"
+      ],
+      "evidence_summary": "CD81 TSS repression lowers target RNA and measured cell-surface CD81 in activated primary CD4 cells.",
+      "entity_mapping": "Same CD81 TSS intervention; transcript and surface-protein species explicitly distinguished.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD81 TSS-directed CRISPRi; flow time course",
+          "cell_identity_state": "primary CD4+ T cell; CD3/CD28 activated, lentivirally transduced and antibiotic-selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "CD3/CD28 reactivation; CD81 TSS guide versus non-targeting; bead:cell1:1; guide MOI0.1; IL2 15 ng/mL",
+          "time": "11 days after guide transduction",
+          "cohort_linkage": "MGCO11; relationship to MGCO07 donor panel unavailable"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD81 TSS-directed CRISPRi; flow time course",
+          "cell_identity_state": "primary CD4+ T cell; CD3/CD28 activated, lentivirally transduced and antibiotic-selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "CD3/CD28 reactivation; CD81 TSS guide versus non-targeting; bead:cell1:1; guide MOI0.1; IL2 15 ng/mL",
+          "time": "4\u201311 days after guide transduction",
+          "cohort_linkage": "MGCO07"
+        }
+      },
+      "temporal_basis": "RNA day11; flow days4,6,8,11. Different assay schedules do not show RNA reduction precedes surface loss.",
+      "measurement_basis": "3-prime scRNA-seq and flow anti-CD81 clone5A6; article reports cross-assay change correlation for tested targets.",
+      "experimental_linkage": "Same primary-cell CRISPRi protocol; four donors explicit for flow, RNA donor overlap unavailable.",
+      "limitations": "RNA/flow correlation and shared guide treatment do not independently test translation, protein turnover or trafficking mediation.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B007",
+      "mechanism_id": "MG-M05",
+      "from_assertion_id": "MG-A012",
+      "to_assertion_id": "MG-A013",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MG04"
+      ],
+      "source_locators": [
+        "Fig1D; Results implementation; Methods gRNA transduction",
+        "Fig1B,C; Methods gRNA transduction and flow"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG04_CD4_results.txt",
+        "research/mechanisms_genetic/snapshots/MG04_CD4_methods.txt"
+      ],
+      "evidence_summary": "Direct CD81 transcript reduction\u2192surface protein reduction is plausible but not established as a serial intervention-tested transition.",
+      "entity_mapping": "No separately perturbed RNA intermediate or isoform/translation bridge.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD81 TSS-directed CRISPRi; flow time course",
+          "cell_identity_state": "primary CD4+ T cell; CD3/CD28 activated, lentivirally transduced and antibiotic-selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "CD3/CD28 reactivation; CD81 TSS guide versus non-targeting; bead:cell1:1; guide MOI0.1; IL2 15 ng/mL",
+          "time": "11 days after guide transduction",
+          "cohort_linkage": "MGCO11; relationship to MGCO07 donor panel unavailable"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD81 TSS-directed CRISPRi; flow time course",
+          "cell_identity_state": "primary CD4+ T cell; CD3/CD28 activated, lentivirally transduced and antibiotic-selected",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "CD3/CD28 reactivation; CD81 TSS guide versus non-targeting; bead:cell1:1; guide MOI0.1; IL2 15 ng/mL",
+          "time": "4\u201311 days after guide transduction",
+          "cohort_linkage": "MGCO07"
+        }
+      },
+      "temporal_basis": "No measured RNA-first ordering; RNA sampled at final flow timepoint.",
+      "measurement_basis": "Parallel molecular endpoints, no mediator rescue.",
+      "experimental_linkage": "Same protocol but RNA/flow sample-level linkage unavailable.",
+      "limitations": "Retain promoter\u2192RNA and promoter\u2192surface-protein branches until intermediate-specific evidence is found.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": "not_demonstrated",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_demonstrated",
+        "measurement_link": "not_demonstrated",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_demonstrated"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B008",
+      "mechanism_id": "MG-M06",
+      "from_assertion_id": "MG-A007",
+      "to_assertion_id": "MG-A008",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG02"
+      ],
+      "source_locators": [
+        "Fig2b; Results differential splicing; Methods analysis of exon6 inclusion",
+        "Results allele-specific expression; Methods allele-specific IL7R isoform expression"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG02_Gregory_results_methods.txt"
+      ],
+      "evidence_summary": "Allele-directed HeLa minigene and healthy PBMC junction-RNA association are directionally compatible with exon6 exclusion.",
+      "entity_mapping": "HeLa reporter skipped exon versus endogenous PBMC exon6\u20137 junction abundance; neither is protein.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "stable IL7R C/T minigene transfection; triplicates",
+          "cell_identity_state": "HeLa; unavailable",
+          "tissue": "cell culture",
+          "stimulation_dose": "unavailable; unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MGCO04"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "genotype-stratified IL7R exon-junction qPCR",
+          "cell_identity_state": "PBMC; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "unavailable; unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MGCO05"
+        }
+      },
+      "temporal_basis": "Stable HeLa duration unavailable; cross-sectional blood RNA time unavailable.",
+      "measurement_basis": "Minigene RT-PCR versus endogenous qPCR with unchanged control junctions.",
+      "experimental_linkage": "Separate cell-line and94-donor arms; no cell/sample identity shared.",
+      "limitations": "Compatible splice-related observations, not serial RNA\u2192protein transition or primary immune-cell allele editing.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "not_demonstrated",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "not_demonstrated",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B009",
+      "mechanism_id": "MG-M03",
+      "from_assertion_id": "MG-A009",
+      "to_assertion_id": "MG-A011",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MG03"
+      ],
+      "source_locators": [
+        "Results sIL7R regulated by rs6897932 and associated with DDX39A; Fig3 and Supplementary Fig7",
+        "Fig3c; Results sIL7R subsection"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG03_selected_primary.txt"
+      ],
+      "evidence_summary": "Within stimulated monocyte data, DDX39B RNA shows null association while DDX39A RNA is inversely associated with extracellular IL7R.",
+      "entity_mapping": "DDX39A and DDX39B are different paralogues; do not merge entities.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "LPS 20 ng/mL 24 h; microarray and supernatant ELISA",
+          "cell_identity_state": "CD14+ monocyte; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "LPS; 20 ng/mL",
+          "time": "RNA2 h and24 h; supernatant24 h",
+          "cohort_linkage": "MGCO06"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "LPS 20 ng/mL 24 h; microarray and supernatant ELISA",
+          "cell_identity_state": "CD14+ monocyte; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation_dose": "LPS; 20 ng/mL",
+          "time": "24 h",
+          "cohort_linkage": "MGCO06"
+        }
+      },
+      "temporal_basis": "Both24-h RNA values compared to24-h supernatant; extra2-h analyses reported.",
+      "measurement_basis": "Microarray transcript abundance versus ELISA protein.",
+      "experimental_linkage": "Same161-sample reused monocyte dataset; exact donor-level files not accessed.",
+      "limitations": "Paralogue contrast is observational; it does not establish DDX39A causal splicing or protein-dependent mechanism.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B010",
+      "mechanism_id": "MG-M07",
+      "from_assertion_id": "MG-A017",
+      "to_assertion_id": "MG-A020",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG05"
+      ],
+      "source_locators": [
+        "Fig1e,f; Results Resolving molecular mechanisms at chr21q22; Methods monocyte differentiation, CRISPR editing and PrimeFlow; selected L303,309,391\u2013399",
+        "ExtendedDataFig5c,d; Results deletion phenocopies ETS2 disruption; Methods Phagocytosis; selected L332,334,417\u2013418"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG05_fulltext.html",
+        "research/mechanisms_genetic/snapshots/MG05_selected_primary.txt"
+      ],
+      "evidence_summary": "Chr21q22 enhancer deletion reduces ETS2 RNA induction and phagocytosis in separately sized primary-macrophage panels under the same differentiation protocol.",
+      "entity_mapping": "Common intervention identifies a branched profile. Distinct RNA/protein/function endpoints retained; no direct serial entity transition proposed.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD14 MicroBead-positive monocytes from PBMC isolated by Histopaque density centrifugation of healthy-donor NHS leukocyte cones; Cas9-RNP nucleofection before TPP macrophage differentiation. Each figure panel donor count retained separately; overlap between panels unavailable, not four independent cohorts.",
+          "cell_identity_state": "primary monocyte-derived inflammatory macrophage; TPP inflammatory differentiation",
+          "tissue": "peripheral blood-derived cell culture",
+          "stimulation_dose": "GM-CSF-supported differentiation followed by TNF/PGE2/Pam3CSK4; GM-CSF50 ng/mL;TNF50 ng/mL;PGE2 1 microgram/mL;Pam3CSK4 1 microgram/mL;RNP into5 million monocytes in100 microlitre buffer",
+          "time": "3 days GM-CSF then3 days GM-CSF+TPP; PrimeFlow days0,3,4,5,6 of differentiation",
+          "cohort_linkage": "MGCO12; overlap with paired endpoint panel unavailable"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD14 MicroBead-positive monocytes from PBMC isolated by Histopaque density centrifugation of healthy-donor NHS leukocyte cones; Cas9-RNP nucleofection before TPP macrophage differentiation. Each figure panel donor count retained separately; overlap between panels unavailable, not four independent cohorts.",
+          "cell_identity_state": "primary monocyte-derived inflammatory macrophage; TPP inflammatory differentiation",
+          "tissue": "peripheral blood-derived cell culture",
+          "stimulation_dose": "GM-CSF-supported differentiation followed by TNF/PGE2/Pam3CSK4; GM-CSF50 ng/mL;TNF50 ng/mL;PGE2 1 microgram/mL;Pam3CSK4 1 microgram/mL;RNP into5 million monocytes in100 microlitre buffer",
+          "time": "3 days GM-CSF then3 days GM-CSF+TPP; after TPP differentiation; exact zymosan incubation duration unavailable",
+          "cohort_linkage": "MGCO15; overlap with paired endpoint panel unavailable"
+        }
+      },
+      "temporal_basis": "Documented monocyte editing before6-day differentiation; RNA sampled days0,3,4,5,6 or supernatant collectedday6; phagocytosis after differentiation with exact particle incubation duration unavailable. No measured serial endpoint ordering.",
+      "measurement_basis": "PrimeFlow ETS2 AlexaFluor647;BRWD1/PSMG1 AlexaFluor568;PCR/Bioanalyzer deletion confirmation; Green Zymosan flow cytometry;index=positive fraction times positive-cell MFI;100000 cells/well;cytochalasinD10 microgram/mL negative control",
+      "experimental_linkage": "Same source and primary-cell differentiation/CRISPR protocol. Distinct figure-panel donor counts; sample-level donor overlap unavailable.",
+      "limitations": "Shared intervention only. No native ETS2 protein measurement or enhancer rescue in the extracted arms; no IL6 neutralization or transfer test mediating phagocytosis. These panels cannot be counted as independent donor replications.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    },
+    {
+      "bridge_id": "MG-B011",
+      "mechanism_id": "MG-M08",
+      "from_assertion_id": "MG-A018",
+      "to_assertion_id": "MG-A019",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MG05"
+      ],
+      "source_locators": [
+        "Fig2b; Results Macrophage inflammation requires ETS2; Methods CRISPR editing and Cytokine quantification; selected L325,328,395\u2013396,415\u2013416",
+        "Fig2c; Results Macrophage inflammation requires ETS2; Methods Phagocytosis; selected L325,328,417\u2013418"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_genetic/snapshots/MG05_fulltext.html",
+        "research/mechanisms_genetic/snapshots/MG05_selected_primary.txt"
+      ],
+      "evidence_summary": "ETS2 coding-exon disruption reduces day6 supernatant IL6 protein and fluorescent-zymosan phagocytosis in separately sized primary-macrophage panels.",
+      "entity_mapping": "Common intervention identifies a branched profile. Distinct RNA/protein/function endpoints retained; no direct serial entity transition proposed.",
+      "context_comparison": {
+        "left": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD14 MicroBead-positive monocytes from PBMC isolated by Histopaque density centrifugation of healthy-donor NHS leukocyte cones; Cas9-RNP nucleofection before TPP macrophage differentiation. Each figure panel donor count retained separately; overlap between panels unavailable, not four independent cohorts.",
+          "cell_identity_state": "primary monocyte-derived inflammatory macrophage; TPP inflammatory differentiation",
+          "tissue": "peripheral blood-derived cell culture",
+          "stimulation_dose": "GM-CSF-supported differentiation followed by TNF/PGE2/Pam3CSK4; GM-CSF50 ng/mL;TNF50 ng/mL;PGE2 1 microgram/mL;Pam3CSK4 1 microgram/mL;RNP into5 million monocytes in100 microlitre buffer",
+          "time": "3 days GM-CSF then3 days GM-CSF+TPP; supernatant collected day6 of TPP macrophage culture",
+          "cohort_linkage": "MGCO13; overlap with paired endpoint panel unavailable"
+        },
+        "right": {
+          "species": "Homo sapiens",
+          "biological_preparation": "CD14 MicroBead-positive monocytes from PBMC isolated by Histopaque density centrifugation of healthy-donor NHS leukocyte cones; Cas9-RNP nucleofection before TPP macrophage differentiation. Each figure panel donor count retained separately; overlap between panels unavailable, not four independent cohorts.",
+          "cell_identity_state": "primary monocyte-derived inflammatory macrophage; TPP inflammatory differentiation",
+          "tissue": "peripheral blood-derived cell culture",
+          "stimulation_dose": "GM-CSF-supported differentiation followed by TNF/PGE2/Pam3CSK4; GM-CSF50 ng/mL;TNF50 ng/mL;PGE2 1 microgram/mL;Pam3CSK4 1 microgram/mL;RNP into5 million monocytes in100 microlitre buffer",
+          "time": "3 days GM-CSF then3 days GM-CSF+TPP; after TPP differentiation; exact zymosan incubation duration unavailable",
+          "cohort_linkage": "MGCO14; overlap with paired endpoint panel unavailable"
+        }
+      },
+      "temporal_basis": "Documented monocyte editing before6-day differentiation; RNA sampled days0,3,4,5,6 or supernatant collectedday6; phagocytosis after differentiation with exact particle incubation duration unavailable. No measured serial endpoint ordering.",
+      "measurement_basis": "Meso Scale Diagnostics electrochemiluminescence; DISCOVERY WORKBENCH4.0; Green Zymosan flow cytometry;index=positive fraction times positive-cell MFI;100000 cells/well;cytochalasinD10 microgram/mL negative control",
+      "experimental_linkage": "Same source and primary-cell differentiation/CRISPR protocol. Distinct figure-panel donor counts; sample-level donor overlap unavailable.",
+      "limitations": "Shared intervention only. No native ETS2 protein measurement or enhancer rescue in the extracted arms; no IL6 neutralization or transfer test mediating phagocytosis. These panels cannot be counted as independent donor replications.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": "not_applicable_nonserial",
+        "context_compatibility": "supported",
+        "temporal_compatibility": "not_applicable_nonserial",
+        "measurement_link": "supported",
+        "experimental_linkage": "supported",
+        "mediation_test": "not_applicable_nonserial"
+      },
+      "checks_role": "extractor_attestation_pending_independent_review"
+    }
+  ]
+}

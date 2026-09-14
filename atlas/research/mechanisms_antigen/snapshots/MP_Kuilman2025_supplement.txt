@@ -1,0 +1,599 @@
+PAGE 1
+Inventory of Supporting Information • Supplementary Fig. 1 | Detection of low-frequency neoantigen specific T cells in a conventional flow cytometry based immunological screen and amplification of the TCRβ cassette from genomic DNA in a functional genetic screen. • Supplementary Fig. 2 | Optimized immortalization and antigen presentation in autologous B cells. • Supplementary Fig. 3 | De novo TCR identification from TIL and recovery of TCRs from the TCR library expression cassette. • Supplementary Fig. 4 | Identification and characterization of neoantigen-specific TCRs from a melanoma sample. • Supplementary Fig. 5 | Identification of candidate TCRs from a set of microsatellite-stable colorectal cancers. • Supplementary Fig. 6 | Validation and characterization of neoantigen-specific TCRs from a set of microsatellite-stable colorectal cancers. • Supplementary Fig. 7 | Identification of TIL-derived TCRs from a microsatellite-stable colorectal cancer.  
+
+PAGE 2
+a b c
+M 1 2
+0 10
+% CD69+ of CD8+
+1:1E1 1:1E2 1:1E3 1:1E4
+0 100
+Peptide (nM)
+CD69+ (% of live)
+105 103 101 10-1 10-3
+CMV1 (EC50: 4.9 nM)
+CDK4-17 (EC50: 2.2 nM)
+GCN1L1 (EC50: 5.2 nM)
+
+PAGE 3
+Supplementary Fig. 1 | Detection of low-frequency neoantigen specific T cells in a conventional flow cytometry based immunological screen and amplification of the TCRβ cassette from genomic DNA in a functional genetic screen. a, The number of CD69-positive from Fig. 1b are displayed for defined antigen-specific TCRs at 1:10-1:10,000 dilutions. Grey bars indicate irrelevant, and black bars represent cognate peptide loading. b, Genomic DNA was isolated from the samples in Fig. 1c and a PCR strategy was applied to amplify TCRβ chains. TapeStation analysis of the second round PCR products is represented. ‘M’ indicates a lane loaded with a marker, sample 1 indicates the activated T cell sample and sample 2 indicates the non-activated T cell sample. c, Peptide titration assay with cognate minimal epitope peptides. Reporter T cells expressing the TCR were cocultured with autologous immortalized B cells loaded with the indicated concentrations of peptide. Activation of reporter T cells was measured by CD69 expression by FACS in two biological replicates for each condition. Source data are provided as a Source Data file.   
+
+PAGE 4
+CD69+ (%
+)
+0
+100
+Non MG TMG3 TMG40TMG12TMG3
++LAMP1
+TMG40
++LAMP1
+TMG12
++LAMP1
+MG
++LAMP1
+L cells +CD40L Donor 2 - NY-ESO-1 1G4 (class I)
+0 100
+CD69+ (%)
+L cells +CD40L Donor 2 - NY-ESO-1 5B8 (class II)
+Non MG TMG3 TMG40TMG12TMG3
++LAMP1
+TMG40
++LAMP1
+TMG12
++LAMP1
+MG
++LAMP1
+h
+i
+j Signaling Cytosolic
+MG1 MG3 MG5 MG7
+MG10 MG12MG8MG6MG4MG2
+MG9 MG11 Trans-
+membrane
+MGs
+LAMP1
+domains
+d e
+gf
+0 10 20 30 40
+2 5 8
+Process time (days)
+Number of cells
+(log10)
+Untransduced
+BC5
+BC176
+BC2
+BC1 
+BC3
+Transduced
+0 10 20 30 40
+5 8 11
+Process time (days)
+Number of cells
+(log10)
+BC176
+BC2
+BC1
+BC5
+BC3
+c
+Count
+GFP
+0 400
+0-103 103 104 105
+Untransduced
+Transduced
+0 10 20 30
+0 100
+Process time (days)
+GFP+ (% CD19)
+Transduced
+BC5
+BC176
+BC2
+BC1 
+BC3
+0 100
+% GFP+ (day 5)
+L cells
++CD40L
+-
+a b
+0 5 10 15 20 25 30
+Days post transduction
+0 2 4 6 8 10 12
+Number of cells (log10)
+L cells
++CD40L
+-
+Day 0: Bead-based
+selection of B cells 
+& activation (IL-2 &
+hCD40 L cells)
+Day 2: IL-2/4/21
+supplementation
+Day 3: Tranduction
+with BCL-6/BCL-xL 
++/- hCD40L
+L cells
++CD40L 
+-Day 4: IL-21
+supplementation 
+& hCD40L L cell
+support
+Day 7: IL-21
+supplementation 
+& hCD40L L cell
+support
+Continued IL-21
+supplementation 
+& hCD40L L cell
+support
+Day 7: IL-21
+supplementation
+Continued IL-21
+supplementation
+
+PAGE 5
+Supplementary Fig. 2 | Optimized immortalization and antigen presentation in autologous B cells. a, A workflow for B cell isolation and immortalization is represented comparing two different ways to provide CD40L support. +/- CD40L (purple) indicates that B cells were or were not co-transduced with hCD40L; L cells (green) indicates that B cells were grown on hCD40L L cell support; - indicates that no CD40L support was provided. b, A growth curve of isolated and immortalized B cells that were expanded as described in a. B cells were expanded without any hCD40L support (blue line), in the presence of hCD40L expressing L cells (black line) or upon expression of hCD40L in B cells (red line). c, Transduction efficiency of BCL-6/BCL-xL-GFP for cells on the indicated CD40L support, with “-” indicating no L cell support. Cells from b were measured by FACS 5 days after transduction, and the percentage of GFP+ cells for each condition is represented. d, B cells were isolated from PBMCs using human pan-B cell selection (Miltenyi) on a MojoSort Magnet. Cells were transduced with BCL-6/BCL-xL-GFP and transduction efficiency was determined using FACS for GFP. e, GFP expression in autologous B cells transduced with BCL-6/BCL-xL-GFP over time. GFP expression on CD19+ B cells that were isolated from 5 healthy donor PMBCs and cultured for the indicated period. f, Number of untransduced B cells over time. The green line indicates 108 cells, which is the target cell amount. g, As in f, but for cells from e. h, As in Fig. 2c, but for B cells isolated from PBMC donor 2. i, As in Fig. 2d, but for B cells isolated from PBMC donor 2. j, Schematic of final TMG design. Up to 12 minigenes are concatenated and flanked with the LAMP1 signaling sequence at the 5’ end with the LAMP1 transmembrane and cytosolic targeting sequences at the 3’ end. Source data are provided as a Source Data file.   
+
+PAGE 6
+j
+Fold enrichment
+CD69hi / CD69lo samples
+CDK4_8
+(1:1000)
+1 10 100
+CMV_1
+(1:10,000)
+GCN1L1
+(1:10,000)
+NY-ESO-1_1G4
+(1:10,000)
+100% TMG 10% TMG 1% TMG 0.1% TMG 0% TMG
+a
+d
+M 1
+Number of
+clonotypes (x103)
+10
+0
+α
+β
+α
+β
+α
+β
+α
+β
+#1
+#2
+#3-1
+#3-2
+b c
+TCR-alpha; Pearson 0.9910−6 10−4 10−2 1
+Frequency replicate 210−6 10−4 10−2 1
+Frequency replicate 1
+10−6 10−4 10−2 1
+Frequency replicate 1
+TCR-beta; Pearson 1.00
+10−6 10−4 10−2 1
+Frequency replicate 2
+e f
+TCR-alpha
+- Filter
+TCR-beta
+Filter-
+Error rate clonotype identification
+110-210-410-6
+40 50 60 70 80
+Barcode score threshold
+Error rate barcode identification
+110-210-410-6
+g
+GCN1L1
+CDK4#8
+CDK4#17
+CMV#1
+CMV#2
+1x10-5 1x10-3 1x10-1
+TCR-alpha frequency
+TCR-beta frequency
+1x10-5 1x10-3 1x10-1
+h
+i
+Library 1 2 3 4
+Dropouts 0 0 0 0
+Median coverage 128 149 151 138
+Within range 97.32% 97.18% 97.45% 97.50%
+%mTCRβ+ (of CD8+)
+0 100
+Pre
+Post
+
+PAGE 7
+Supplementary Fig. 3 | De novo TCR identification from TIL and recovery of TCRs from the TCR library expression cassette. a, Bar graph of the number of TCR chain clonotypes identified from 3 fresh-frozen non-viable melanoma samples, with two technical replicates (#3-1 and #3-2). b, Correlation plots for TCRα chains between the replicates of tumor sample 3 from a. Shared clonotype frequencies in both replicates and the Pearson correlation coefficient are represented. c, As in b but for TCRβ chains. d, TCR expression cassettes (~1500 bp) were retrieved from genomic DNA by a multi-round PCR strategy. TapeStation analysis in lane ‘1’ represents the second round PCR product, whereas ‘M’ indicates the marker lane. e, A library preparation with one sample barcode was performed on the PCR product from d and was sequenced using ONT. After analysis using the guppy software package, sample misassignment rates were calculated as a function of the barcode score threshold applied during analysis. f, Reads from e were aligned to a combined reference containing sequences from the matching TCR and from 99 non-matching TCRs. Clonotype misassignment rates are represented without (-) or with the filtering (Filter) strategy described in Methods. g, The indicated TCR plasmids were mixed at varying frequencies in 9 plasmid mixes, and TCR chain frequencies were quantified as in d-f and are represented for each of the 9 samples. h, The median read coverage per TCR, dropout TCRs that were not detected, and the percentage of TCR combinations that were represented within a 4-fold range around the median are summarized for the data from Fig. 3c. i, The TCR library from Fig. 3d was retrovirally transduced into reporter T cells. The percentage of TCR-transduced reporter T cells before and after puromycin selection is represented as measured by murine TCRβ constant domain expression using FACS. j, Reporter T cells expressing antigen-specific TCRs at indicated frequencies were cocultured with EBV-immortalized B cells expressing the cognate antigens at indicated frequencies. TCR expression cassettes were retrieved and quantified from non-activated and activated T cell samples as described in d-f, and the relative enrichment is represented. Source data are provided as a Source Data file.   
+
+PAGE 8
+d e f
+g
+M - -- -M M2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 281
+Pre Post
+0 80
+%mTCRβ+
+(of CD8+)
+α100 x β100
+α100 x β200
+α200 x β100
+α200 x β200
+h
+i
+1 2 3 4 6 7 8 9 10 11 12 13 14 17 18 19 20 21
+CD69+ (% of CD8+)
+0 100
+TCR
+Non-loaded Mutant
+ Wild-type
+CD69+ (% of T cells)
+0 120
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 21 22 23 24 26 TCR
+Non-transduced
+Matched TMG
+Class I KO RNP
+Class II Ab (IVA12)
+a b c
+Number of clonotypes
+(x 103)
+Alpha Beta0
+10
+Density (x 10-3) α100xβ100
+α100xβ200
+α200xβ100
+α200xβ200
+0 6
+1 10 1000
+Coverage
+100
+R1 R2 R3 R4 R5 R6 R7 C1 C2 C3 C4 C5 C6 C7
+1 2 3 4 5 6 7 1 8 15 22 29 36 43
+8 9 10 11 12 13 14 2 9 16 23 30 37 44
+15 16 17 18 19 20 21 3 10 17 24 31 38 45
+22 23 24 25 26 27 28 4 11 18 25 32 39 46
+29 30 31 32 33 + 35 5 12 19 26 33 40 47
+36 37 38 39 40 41 42 6 13 20 27 + 41 48
+43 44 45 46 47 48 49 7 14 21 28 35 42 49
+Combinatorial TMG encoding design
+Top 200
+100
+Rank
+100 101 102 103 104
+TCRα counts
+TCRβ counts
+106
+Count
+Mean coverage 307 326 394
+Dropouts - - a111
+(95)
+a111
+(99)
+334
+Library α100
+β100
+α100
+β200
+α200
+β100
+α200
+β200
+Within range 97% 97% 96% 96%
+
+PAGE 9
+Supplementary Fig. 4 | Identification and characterization of neoantigen-specific TCRs from a melanoma sample. a, B cells expressing one of 48 TMGs were mixed into the 14 indicated pools (R1-R7 and C1-C7) to allow combinatorial TMG encoding. + indicates positive control B cells expressing a mutated CDK4 epitope. b, The number of TCR chain clonotypes in a fresh-frozen non-viable melanoma specimen. c, Read support of the clonotypes in b relative to their rank order. d, TCR representation in combinatorial TCR sub-libraries assembled from the 199 most prevalent TCRα and β chains in b and from the TCR chains of a positive control TCR CDK4-17. e, Quality control summary statistics of sub-libraries in d as described in Methods. f, TCR libraries from d were retrovirally transduced into reporter T cells. The percentage of TCR-transduced reporter T cells before and after blasticidin selection is represented as measured by murine TCRβ constant domain expression using FACS. g, Upon coculture of cells from f with B cell pools from a and subsequent cell sorting as in Fig. 4a, TCR expression cassettes were amplified from gDNA. TapeStation analysis of the ~1500 bp second round PCR products are represented. ‘M’ indicates a marker lane, and pairwise non-activated and activated samples from C1-C7 and R1-R7 pools are loaded from left to right, respectively. h, Reporter T cells expressing TCRs recognizing non-frameshift mutations from Fig. 4c were cocultured with B cells or these cells electroporated with 100 µM mutant or wild-type 25-mer peptides or these cells loaded with 10 µM mutant or wild-type 9-mer peptides (TCRs 17-21). T cell activation was assessed by CD69 expression on reporter T cells by FACS. Bars represent the average value of two biological replicates. i, Reporter T cells expressing validated TCRs were cocultured with B cells expressing the matched TMG alone, or combined with an antibody blocking HLA-class II presentation (‘Class II Ab (IVA12)’) or combined with CRISPR/CAS9-mediated B2M knockout (‘Class I KO RNP’). Non-transduced B cells were included as control. T cell activation was assessed by CD69 expression by FACS in two biological replicates. Error bars represent the standard deviation. Source data are provided as a Source Data file.   
+
+PAGE 10
+a b
+d
+c
+Library pt3 pt4 pt15
+Mean coverage 241 291 240
+Dropouts - - -
+Within range 97% 98% 98%
+0 100
+%mTCRβ+
+(of CD8+)
+Pre Post
+e
+1M 2 3 4 5 6 7 8
+ 1M - 2 3 4 M 5 6 7 8
+f g
+1M 2 3 4 5 6 7 8
+0.6
+0.8
+1
+h
+1 2 3 4 5 6 7 8
+8 7 6 5 4 3 2 1
+0.6
+0.8
+1
+j
+2 3 4 5 6 7 8
+8 7 6 5 4 3 2 1
+1
+i
+1 2 3 4 5 6 7 8
+8 7 6 5 4 3 2 1
+0.6
+0.8
+1
+pt3 / 15:
+Main screen:
+* 3 replicate screens
+for TMG-B cell pool
+* 1 replicate screen
+for B cell controls
+TMG screen:
+* 1 replicate screen
+for each
+TMG-B cell line
+Cell sorting:
+* FACS
+(CD69)
+pt4:
+ C1 C2
+R1 1 3
+R2 2 +
+Cell sorting:
+* AutoMACS
+(CD69 + CD62L)
+Main screen:
+* 1 replicate screen
+for each combinatorial
+TMG-B cell pool
+(R1, R2, C1 and C2)
+Clonotypes (x103)
+0 30
+α
+β
+α
+β
+α
+β
+pt3
+pt4
+pt15
+k
+pt4
+−4 0 8
+TCR reactivity in
+absence of neoantigens−4 0 8
+−4 0 8
+pt3 pt15
+−4 0 8
+TCR reactivity in presence of neoantigens
+
+PAGE 11
+Supplementary Fig. 5 | Identification of candidate TCRs from a set of microsatellite-stable colorectal cancers. a, Tumor RNA derived from fresh-frozen tumor tissue of three microsatellite stable (MSS) colorectal carcinoma (CRC) patients was subjected to TCR clonotype identification. The number of identified TCR chain clonotypes is represented. b, The 100 most prevalent TCR chains from a were used for combinatorial TCR library assembly. The table represents quality control summary statistics of the libraries (see Methods). c, The TCR libraries from b were retrovirally transduced into Jurkat reporter T cells, and the percentage of TCR-transduced reporter T cells before and after blasticidin selection was measured by the murine TCRβ constant domain expression using FACS. d, Pt3 and pt15 TCR libraries were screened in triplicate against a pool of TMG expressing B cell lines, in one replicate against non-transduced B cells, and in one replicate against each individual TMG expressing B cell line. A FACS-sort based approach was used for isolation of activated and non-activated reporter T cells. The Pt4 TCR library was screened using a combinatorial TMG pooling approach (‘+’ indicates a minigene expressing a mutated CDK4 epitope) and a MACS based approach was applied for cell sorting. A positive control TCR CDK4-17 was mixed in at 1:10,000 frequency. e, Genomic DNA was isolated from pt3 sorted cell populations from screens in d. A TapeStation analysis is shown from the second round PCR of the TCR expression cassette amplification. ‘M’ indicates marker lane, while ‘-’ denotes water controls. The numbers represent pairs of non-activated and activated T cell samples. f, As in e, but for pt4. g, As in e, but for pt15. h, Heatmap of Pearson correlation coefficients of the TCR read counts between all samples from e after library preparation, sequencing and read identification. i, As in h, but for samples from f. j, As in h, but for samples from g. k, Plots showing the TCR reactivity following coculture with autologous immortalized B cells in the absence and presence of exogenous antigen expression for pt3, pt4 and pt15 screens. Candidate TCRs are represented in green. Source data are provided as a Source Data file.   
+
+PAGE 12
+c
+Ctrl
+TMG1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 15
+% CD69+ of CD8+
+pt3 TCR
+0 15
+% TCRb+ of CD8+
+f
+Ctrl
+TMG1
+1
+2
+3
+4
+5
+6
+7
+0 60
+% CD69+ of CD8+
+0 60
+% TCRb+ of CD8+
+b
+ TMG1 TMG2
+TCR reactivity in presence of neoantigens
+−2 3
+a55 x b24
+−2 3
+−2 3
+TCR reactivity in
+absence of neoantigens
+a55 x b24
+a
+TCR reactivity in presence of neoantigens
+TMG1 TMG2
+−1 2
+−1 2
+a7 x b58
+−1 2
+TCR reactivity in
+absence of neoantigens
+a7 x b58
+d
+0 100
+% TCRb+ of CD8+
+pt4 TCR1
+0 100
+% CD69+ of CD8+
+Ctrl
+TMG3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+pt4 TCR2
+Ctrl
+TMG3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+0 100
+% CD69+ of CD8+
+0 100
+% TCRb+ of CD8+
+e
+ng / ml
+0 100
+% CD69+ of CD8+
+pt3 TCR - AKAP8L R191W
+MUT
+WT
+104 103 102 101 100 10-1 10-2
+h i
+nM
+pt4 TCR1 - PDP1 R342W
+MUT
+WT
+% CD69+ of CD8+
+0 100
+104 103 102 101 100 10-1
+j
+nM
+pt4 TCR2 - GOLG4A R255H
+MUT
+WT
+% CD69+ of CD8+
+0 100
+104 103 102 101 100 10-1
+pt15 TCR - TP53 R282W
+ng / ml
+MUT
+WT
+% CD69+ of CD8+
+0 100
+104 103 102 101 100 10-1 10-2
+k l
+NTD
+TMG
+TMG / B2M KO
+TMG / HLA-II block
+pt15
+TCR
+pt3
+TCR
+0 100
+% CD69+ of CD8+
+pt4
+TCR1
+pt4
+TCR2
+g
+NTD WT MGMUT MG
+pt15
+TCR
+pt3
+TCR
+0 100
+% CD69+ of CD8+
+pt4
+TCR1
+pt4
+TCR2
+
+PAGE 13
+Supplementary Fig. 6 | Validation and characterization of neoantigen-specific TCRs from a set of microsatellite-stable colorectal cancers. a, As in Supplementary Fig. 5k (pt3), but for a coculture with B cells expressing a single TMG (TMG1 or 2) in each screen. b, As in a, but for individual TMGs for pt15. c, (Left) reporter T cells expressing the candidate TCR from pt3 were cocultured with autologous immortalized B cells electroporated with 10 μM of the 25-mer peptides encoded in TMG1. B cells without the antigen (ctrl) and B cells expressing TMG1 were included as controls. T cell activation was assessed by CD69 expression on reporter T cells by FACS. Bars represent the average value of two biological replicates and error bars represent the standard deviation. (Right) the percentage of TCR-positive cells as measured by mTCRb expression by FACS. d, As in c, but for pt4 TCR1 and TMG3. e, As in c, but for pt4 TCR2 and TMG3. f, As in c, but for the pt15 TCR and TMG1. g, LAMP1-flanked minigenes encoding mutated peptides identified in c-f (MUT) or their wild-type counterparts (WT) were expressed in B cells, and T cell recognition assays with the indicated TCRs were performed as in c. h, Reporter T cells expressing the pt3 TCR were cocultured with autologous immortalized B cells electroporated with indicated concentrations of the 25-mer mutant and wildtype AKAP8L peptide. Activation of reporter T cells was measured by CD69 expression by FACS in two biological replicates. i, As in h, but for pt4 TCR1 and PDP1 peptides. j, As in h, but for pt4 TCR2 and GOLG4A peptides. k, As in h, but for pt15 TCR and TP53 peptides. l, Reporter T cells expressing TCRs from c-f were cocultured with B cells expressing the matched TMG alone, or combined with an antibody blocking HLA-class II presentation (‘TMG/class II block’) or combined with CRISPR/CAS9-mediated B2M knockout (‘TMG/class I block’). Non-transduced B cells (NTD) were included as a control. T cell activation was assessed by CD69 expression by FACS in two biological replicates. Error bars represent the standard deviation. Source data are provided as a Source Data file.   
+
+PAGE 14
+a b
+Top 200
+Rank
+100 101 102 103 104
+100 106
+Count
+TCRα counts
+TCRβ counts
+0 200
+Rank TCR chain
+MEL9
+MEL10
+MEL11
+MEL13
+MEL15
+NSCLC12
+SCC1
+MCC5
+CRC3
+CRC4
+CRC15
+CRC17
+All
+Sample
+Alpha Beta
+c d
+0 100
+CDK4_17 TCR
+CD69+ (% all cells)
+B cells peptide TMG
+FL gene B cells peptide TMG
+FL gene
+0 100
+MEL15 GSS TCR
+CD69+ (% all cells)
+e f
+MEL9 GIANA
+ CRC17
+TCR
+Measured
+ Predicted
+& measuredPredicted
+Shared target:
+g
+MEL9 CRC17
+Method
+Sample
+Cluster 128 175 328 384 All 107 All 128 175 328 384 All 87 107 All
+# edges sharing TCRα / TCRβ
+of correctly predicted edges 21 2 2 24 49 1 1 21 5 2 22 50 3 1 4
+# correctly predicted edges 21 2 2 59 84 1 1 21 5 2 52 80 3 1 4
+% correctly predicted edges
+sharing TCR chains 100% 100% 100% 41% 58% 100% 100% 100% 100% 100% 42% 63% 100% 100% 100%
+GIANA Minimal Levenshtein edit distance
+MEL9 CRC17 MEL9 CRC17
+TCR
+Measured
+ Predicted
+& measuredPredicted
+Shared target:
+Levenshtein
+
+PAGE 15
+Supplementary Fig. 7 | Identification of TIL-derived TCRs from a microsatellite-stable colorectal cancer. a, Identification of TCRα and β chain clonotypes in fresh-frozen non-viable tumor tissue from a microsatellite-stable colorectal cancer patient. Read support of the clonotypes relative to their rank order is represented on a double logarithmic scale. b, The rank order based on read support for all validated and deconvoluted TCRs identified for all patients that are screened (see Table 1). In addition, an aggregate of all samples (‘All’) was made. c, Reporter T cells expressing the CDK4_17 TCR were cocultured with autologous immortalized B cells electroporated with 10 μM 25-mer peptide, transduced with a TMG encoding the same peptide sequence or the full-length (FL) gene. B cells without the antigen (B cells) served as a control. T cell activation was assessed by CD69 expression on reporter T cells by FACS. Bars represent the average value of two biological replicates and error bars represent the standard deviation. d, As in c, but for the MEL15 GSS TCR. e, TCR clustering analysis using GIANA on the patient samples from Fig. 4 (MEL9) and Fig. 5 (CRC17). Orange filled squares (nodes) represent TCRs, while blue, red and green lines (edges) represent TCRs that have been experimentally validated to share a neoantigen target (‘measured’), have been predicted by GIANA to share a neoantigen target (‘predicted’) or have been measured and predicted, respectively. f, TCR clustering analysis using the minimal Levenshtein edit distance method on the patient samples from Fig. 4 (MEL9) and Fig. 5 (CRC17). Orange filled squares (nodes) represent TCRs, while blue, red and green lines (edges) represent TCRs that have been experimentally validated to share a neoantigen target (‘measured’), have been predicted by GIANA to share a neoantigen target (‘predicted’) or have been measured and predicted, respectively. g, The number of predicted and measured edges (‘correctly predicted edges’), the number of these that share an identical alpha or beta chain, and the percentage of correctly predicted edges that share identical chains are represented per antigen and summed over all antigens (‘All’) from the data in e and f. Source data are provided as a Source Data file. 

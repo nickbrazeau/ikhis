@@ -1,0 +1,1639 @@
+{
+  "schema_version": "0.3.0",
+  "role": "extractor_connection_proposals_pending_review",
+  "bridges": [
+    {
+      "bridge_id": "MP_B001",
+      "mechanism_id": "MP_M001",
+      "from_assertion_id": "MP_A001",
+      "to_assertion_id": "MP_A003",
+      "bridge_type": "mediation_test",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S001"
+      ],
+      "source_locators": [
+        "Fig3; Methods Western Blot Analyses; parsed text lines 116–117,230–233",
+        "Fig5; Methods Cytotoxic T Lymphocytes and Microcytotoxicity Assays; Results preceding Fig5"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996.txt",
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996_fig5.jpg"
+      ],
+      "evidence_summary": "Restoring functional B2M in 1074mel supports B2M-dependent susceptibility to HLA-compatible human CTL lysis.",
+      "entity_mapping": "Intermediate is human B2M protein restored by its coding vector; Fig3 validates protein and Fig5 tests lysis. This is not a quantified surface-HLA mediation claim.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors",
+          "cell_identity_state": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors; unavailable",
+          "tissue": "subcutaneous melanoma deposit; donor TIL tissue unavailable",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C002"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors",
+          "cell_identity_state": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors; unavailable",
+          "tissue": "subcutaneous melanoma deposit; donor TIL tissue unavailable",
+          "stimulation": "unavailable",
+          "dose": "10 plaque-forming units per target cell; Fig5 E:T titration",
+          "time": "vaccinia 60–90 min, 51Cr loading 1 h, then coculture 6 h",
+          "cohort_linkage": "MP_C002"
+        },
+        "comparison": "Human melanoma target; human allogeneic expanded CD8 recipient. Single compatible tumor line; viral-vector rescue could affect additional variables. No claim of peptide identity, direct binding or exclusive HLA-surface mediation."
+      },
+      "temporal_basis": "Documented scheduling: vector infection precedes CTL coculture; no matched time-course quantification of B2M protein and killing.",
+      "measurement_basis": {
+        "from_measurement": "protein_abundance",
+        "from_assay": "HB159 immunoblot",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "6-hour 51Cr release",
+        "interpretation": "Restoring functional B2M in 1074mel supports B2M-dependent susceptibility to HLA-compatible human CTL lysis."
+      },
+      "experimental_linkage": "Same 1074mel preparation/protocol and B2M-versus-control vector; immunoblot and lysis are distinct assays. Exact aliquot linkage unavailable.",
+      "limitations": "Human melanoma target; human allogeneic expanded CD8 recipient. Single compatible tumor line; viral-vector rescue could affect additional variables. No claim of peptide identity, direct binding or exclusive HLA-surface mediation.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "supported",
+          "explanation": "Intermediate is human B2M protein restored by its coding vector; Fig3 validates protein and Fig5 tests lysis. This is not a quantified surface-HLA mediation claim."
+        },
+        "context_compatibility": {
+          "status": "supported",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "supported",
+          "explanation": "Documented scheduling: vector infection precedes CTL coculture; no matched time-course quantification of B2M protein and killing."
+        },
+        "measurement_link": {
+          "status": "supported",
+          "explanation": "Restoring functional B2M in 1074mel supports B2M-dependent susceptibility to HLA-compatible human CTL lysis."
+        },
+        "experimental_linkage": {
+          "status": "supported",
+          "explanation": "Same 1074mel preparation/protocol and B2M-versus-control vector; immunoblot and lysis are distinct assays. Exact aliquot linkage unavailable."
+        },
+        "mediation_test": {
+          "status": "supported",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B002",
+      "mechanism_id": "MP_M001",
+      "from_assertion_id": "MP_A002",
+      "to_assertion_id": "MP_A003",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S001"
+      ],
+      "source_locators": [
+        "Fig1; Methods Cytofluorography; Results after Fig3",
+        "Fig5; Methods Cytotoxic T Lymphocytes and Microcytotoxicity Assays; Results preceding Fig5"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996.txt",
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996_fig5.jpg"
+      ],
+      "evidence_summary": "B2M rescue changes surface HLA and CTL lysis as a branched response.",
+      "entity_mapping": "W6/32-positive class-I abundance is distinct from a defined peptide-HLA complex and from human CTL killing.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "patient-derived melanoma cultures",
+          "cell_identity_state": "patient-derived melanoma cultures; unavailable",
+          "tissue": "subcutaneous melanoma deposits; lymph node",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C001"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors",
+          "cell_identity_state": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors; unavailable",
+          "tissue": "subcutaneous melanoma deposit; donor TIL tissue unavailable",
+          "stimulation": "unavailable",
+          "dose": "10 plaque-forming units per target cell; Fig5 E:T titration",
+          "time": "vaccinia 60–90 min, 51Cr loading 1 h, then coculture 6 h",
+          "cohort_linkage": "MP_C002"
+        },
+        "comparison": "HLA-intermediate necessity was not independently perturbed in this experiment. Do not relabel this profile as surface HLA causing killing."
+      },
+      "temporal_basis": "Vector precedes both measurements; ordering between measured surface abundance and lysis is not demonstrated.",
+      "measurement_basis": {
+        "from_measurement": "protein_abundance",
+        "from_assay": "W6/32 flow cytometry",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "6-hour 51Cr release",
+        "interpretation": "B2M rescue changes surface HLA and CTL lysis as a branched response."
+      },
+      "experimental_linkage": "1074mel is the shared subset of the surface panel and human CTL experiment; matched aliquots unavailable.",
+      "limitations": "HLA-intermediate necessity was not independently perturbed in this experiment. Do not relabel this profile as surface HLA causing killing.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "W6/32-positive class-I abundance is distinct from a defined peptide-HLA complex and from human CTL killing."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Vector precedes both measurements; ordering between measured surface abundance and lysis is not demonstrated."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "B2M rescue changes surface HLA and CTL lysis as a branched response."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "1074mel is the shared subset of the surface panel and human CTL experiment; matched aliquots unavailable."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B003",
+      "mechanism_id": "MP_M001",
+      "from_assertion_id": "MP_A003",
+      "to_assertion_id": "MP_A004",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "opposes",
+      "source_ids": [
+        "MP_S001"
+      ],
+      "source_locators": [
+        "Fig5; Methods Cytotoxic T Lymphocytes and Microcytotoxicity Assays; Results preceding Fig5",
+        "Fig5 caption and visually inspected Fig5 image; Methods Microcytotoxicity Assays"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996.txt",
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996_fig5.jpg"
+      ],
+      "evidence_summary": "HLA-mismatched 1259mel remains near background despite B2M restoration, limiting a universal rescue-to-killing claim.",
+      "entity_mapping": "Same B2M intervention and human antimelanoma effector restriction; different tumor HLA backgrounds.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors",
+          "cell_identity_state": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors; unavailable",
+          "tissue": "subcutaneous melanoma deposit; donor TIL tissue unavailable",
+          "stimulation": "unavailable",
+          "dose": "10 plaque-forming units per target cell; Fig5 E:T titration",
+          "time": "vaccinia 60–90 min, 51Cr loading 1 h, then coculture 6 h",
+          "cohort_linkage": "MP_C002"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "patient-derived melanoma cultures",
+          "cell_identity_state": "patient-derived melanoma cultures; unavailable",
+          "tissue": "subcutaneous melanoma deposits; lymph node",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C001"
+        },
+        "comparison": "Negative graph control is qualitative; target antigens and other line-specific differences are not fully matched."
+      },
+      "temporal_basis": "Matched Fig5 assay schedule; not a serial transition.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "6-hour 51Cr release",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "6-hour 51Cr release; qualitative graph inspection",
+        "interpretation": "HLA-mismatched 1259mel remains near background despite B2M restoration, limiting a universal rescue-to-killing claim."
+      },
+      "experimental_linkage": "Same Fig5 experiment, different target lines; no autologous comparison.",
+      "limitations": "Negative graph control is qualitative; target antigens and other line-specific differences are not fully matched.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same B2M intervention and human antimelanoma effector restriction; different tumor HLA backgrounds."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Matched Fig5 assay schedule; not a serial transition."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "HLA-mismatched 1259mel remains near background despite B2M restoration, limiting a universal rescue-to-killing claim."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same Fig5 experiment, different target lines; no autologous comparison."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B004",
+      "mechanism_id": "MP_M001",
+      "from_assertion_id": "MP_A003",
+      "to_assertion_id": "MP_A005",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S001"
+      ],
+      "source_locators": [
+        "Fig5; Methods Cytotoxic T Lymphocytes and Microcytotoxicity Assays; Results preceding Fig5",
+        "Fig4; Methods Cytotoxic T Lymphocytes and Microcytotoxicity Assays"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996.txt",
+        "research/mechanisms_antigen/snapshots/MP_Restifo1996_fig5.jpg"
+      ],
+      "evidence_summary": "Mouse vaccinia recognition provides a different antigen-processing context, not independent human-recipient replication.",
+      "entity_mapping": "Human HLA-A2.1/human CTL differs from mouse H-2Kd/mouse CTL despite common B2M rescue.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors",
+          "cell_identity_state": "1074mel target plus expanded human HLA-A2.1-restricted anti-melanoma CD8 T-cell effectors; unavailable",
+          "tissue": "subcutaneous melanoma deposit; donor TIL tissue unavailable",
+          "stimulation": "unavailable",
+          "dose": "10 plaque-forming units per target cell; Fig5 E:T titration",
+          "time": "vaccinia 60–90 min, 51Cr loading 1 h, then coculture 6 h",
+          "cohort_linkage": "MP_C002"
+        },
+        "to_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus",
+          "biological_preparation": "human melanoma or H82 target; BALB/c vaccinia-specific CD8 T-cell recipient",
+          "cell_identity_state": "human melanoma or H82 target; BALB/c vaccinia-specific CD8 T-cell recipient; unavailable",
+          "tissue": "human metastatic tumors; mouse spleen",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C003"
+        },
+        "comparison": "Recipient taxon, MHC molecule and antigen differ. H82 non-rescue limits sufficiency of B2M across targets."
+      },
+      "temporal_basis": "Both use vector-before-coculture schedules; not temporal pathway evidence.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "6-hour 51Cr release",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "6-hour 51Cr release",
+        "interpretation": "Mouse vaccinia recognition provides a different antigen-processing context, not independent human-recipient replication."
+      },
+      "experimental_linkage": "Overlapping human tumor lines but separate effector preparations and MHC restriction.",
+      "limitations": "Recipient taxon, MHC molecule and antigen differ. H82 non-rescue limits sufficiency of B2M across targets.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Human HLA-A2.1/human CTL differs from mouse H-2Kd/mouse CTL despite common B2M rescue."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Both use vector-before-coculture schedules; not temporal pathway evidence."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Mouse vaccinia recognition provides a different antigen-processing context, not independent human-recipient replication."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Overlapping human tumor lines but separate effector preparations and MHC restriction."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B005",
+      "mechanism_id": "MP_M002",
+      "from_assertion_id": "MP_A006",
+      "to_assertion_id": "MP_A007",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S002"
+      ],
+      "source_locators": [
+        "Fig2b; Methods Cell lines and recombinant vaccinia viruses; Results TAP1 complementation",
+        "Fig2b; Results TAP1/TAP2 complementation"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_deLaSalle1999.txt"
+      ],
+      "evidence_summary": "TAP1-specific, not TAP2, complementation supports the TND-3 surface-HLA defect being attributable to TAP1.",
+      "entity_mapping": "Different transporter subunits are experimentally contrasted, not treated as identical proteins.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "TND-3 EBV-transformed B-cell target",
+          "cell_identity_state": "TND-3 EBV-transformed B-cell target; unavailable",
+          "tissue": "peripheral blood origin",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "overnight infection",
+          "cohort_linkage": "MP_C004"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "TND-3 EBV-transformed B-cell target",
+          "cell_identity_state": "TND-3 EBV-transformed B-cell target; unavailable",
+          "tissue": "peripheral blood origin",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "overnight infection",
+          "cohort_linkage": "MP_C004"
+        },
+        "comparison": "Surface rescue only; no downstream antigen-specific T-cell endpoint in this complementation experiment."
+      },
+      "temporal_basis": "Overnight vector infection before flow measurement.",
+      "measurement_basis": {
+        "from_measurement": "protein_abundance",
+        "from_assay": "W6/32 flow cytometry",
+        "to_measurement": "protein_abundance",
+        "to_assay": "W6/32 flow cytometry",
+        "interpretation": "TAP1-specific, not TAP2, complementation supports the TND-3 surface-HLA defect being attributable to TAP1."
+      },
+      "experimental_linkage": "Same TND-3 EBV-B-cell system and figure; no primary B-cell preparation.",
+      "limitations": "Surface rescue only; no downstream antigen-specific T-cell endpoint in this complementation experiment.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Different transporter subunits are experimentally contrasted, not treated as identical proteins."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Overnight vector infection before flow measurement."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "TAP1-specific, not TAP2, complementation supports the TND-3 surface-HLA defect being attributable to TAP1."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same TND-3 EBV-B-cell system and figure; no primary B-cell preparation."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B006",
+      "mechanism_id": "MP_M003",
+      "from_assertion_id": "MP_A008",
+      "to_assertion_id": "MP_A009",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S003"
+      ],
+      "source_locators": [
+        "Fig3; Methods Mutation analysis; Results mutation characterization",
+        "Fig2a; Methods Complementation assay; Results mutation section"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_deLaSalle2002.txt"
+      ],
+      "evidence_summary": "The variant-to-splicing observation cannot yet form a measured transcript-to-TAP2-protein-to-HLA pathway.",
+      "entity_mapping": "Observed aberrant TAP2 cDNA is not the same molecular state as introduced wild-type TAP2; mutant protein abundance/function was not directly measured.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells",
+          "cell_identity_state": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C005"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells",
+          "cell_identity_state": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C005"
+        },
+        "comparison": "Whole-gene rescue does not establish a measured translation bridge or isolate the causal nucleotide."
+      },
+      "temporal_basis": "Patient genotype/cDNA observation and complementation are separate experiments; protein ordering is unmeasured.",
+      "measurement_basis": {
+        "from_measurement": "splicing",
+        "from_assay": "genomic PCR and RT-PCR sequencing",
+        "to_measurement": "protein_abundance",
+        "to_assay": "W6/32 flow cytometry",
+        "interpretation": "The variant-to-splicing observation cannot yet form a measured transcript-to-TAP2-protein-to-HLA pathway."
+      },
+      "experimental_linkage": "Same HA-L line, different assays and intervention states.",
+      "limitations": "Whole-gene rescue does not establish a measured translation bridge or isolate the causal nucleotide.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_demonstrated",
+          "explanation": "Observed aberrant TAP2 cDNA is not the same molecular state as introduced wild-type TAP2; mutant protein abundance/function was not directly measured."
+        },
+        "context_compatibility": {
+          "status": "supported",
+          "explanation": "Whole-gene rescue does not establish a measured translation bridge or isolate the causal nucleotide."
+        },
+        "temporal_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "Patient genotype/cDNA observation and complementation are separate experiments; protein ordering is unmeasured."
+        },
+        "measurement_link": {
+          "status": "not_demonstrated",
+          "explanation": "The variant-to-splicing observation cannot yet form a measured transcript-to-TAP2-protein-to-HLA pathway."
+        },
+        "experimental_linkage": {
+          "status": "supported",
+          "explanation": "Same HA-L line, different assays and intervention states."
+        },
+        "mediation_test": {
+          "status": "not_demonstrated",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B007",
+      "mechanism_id": "MP_M003",
+      "from_assertion_id": "MP_A009",
+      "to_assertion_id": "MP_A011",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "opposes",
+      "source_ids": [
+        "MP_S003"
+      ],
+      "source_locators": [
+        "Fig2a; Methods Complementation assay; Results mutation section",
+        "Fig5a; Methods Anti-EBV T-cell responses; Results Anti-EBV T-cell response"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_deLaSalle2002.txt"
+      ],
+      "evidence_summary": "Residual autologous CTL lysis occurs in uncomplemented HA-L, so low surface class I does not imply absent antigen recognition.",
+      "entity_mapping": "Surface-HLA restoration and selected EBV-directed lysis are distinct endpoints and intervention states.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells",
+          "cell_identity_state": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C005"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens",
+          "biological_preparation": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells",
+          "cell_identity_state": "HA-L EBV-transformed B-cell target; autologous expanded CD8 alpha-beta T cells; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C005"
+        },
+        "comparison": "One patient and expanded CTL specificity; antigen identity tested separately using nonhuman COS targets. No general antiviral-protection claim."
+      },
+      "temporal_basis": "No before/after complementation CTL test.",
+      "measurement_basis": {
+        "from_measurement": "protein_abundance",
+        "from_assay": "W6/32 flow cytometry",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "chromium-release cytotoxicity",
+        "interpretation": "Residual autologous CTL lysis occurs in uncomplemented HA-L, so low surface class I does not imply absent antigen recognition."
+      },
+      "experimental_linkage": "Same patient-2 EBV-B line; CTL is autologous but measured without rescue.",
+      "limitations": "One patient and expanded CTL specificity; antigen identity tested separately using nonhuman COS targets. No general antiviral-protection claim.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Surface-HLA restoration and selected EBV-directed lysis are distinct endpoints and intervention states."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No before/after complementation CTL test."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Residual autologous CTL lysis occurs in uncomplemented HA-L, so low surface class I does not imply absent antigen recognition."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same patient-2 EBV-B line; CTL is autologous but measured without rescue."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B008",
+      "mechanism_id": "MP_M004",
+      "from_assertion_id": "MP_A013",
+      "to_assertion_id": "MP_A014",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S004"
+      ],
+      "source_locators": [
+        "Fig3B–E; Methods DCs, RPA, Real Time PCR",
+        "Fig2C; Methods Immunoprecipitation and Immunoblotting"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Landmann2001.txt"
+      ],
+      "evidence_summary": "LPS lowers CIITA RNA and protein; the observations remain separate molecular layers.",
+      "entity_mapping": "CIITA type-I/type-III RNA and 121/124/132-kDa proteins are not one-to-one abundance proxies.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary-human-monocyte-derived cultured dendritic cells",
+          "cell_identity_state": "primary-human-monocyte-derived cultured dendritic cells; unavailable",
+          "tissue": "blood buffy coat origin",
+          "stimulation": "unavailable",
+          "dose": "10 ng/mL",
+          "time": "1–24 h; early plateau about 3–5 h",
+          "cohort_linkage": "MP_C008"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary-human-monocyte-derived cultured dendritic cells",
+          "cell_identity_state": "primary-human-monocyte-derived cultured dendritic cells; unavailable",
+          "tissue": "blood buffy coat origin",
+          "stimulation": "unavailable",
+          "dose": "10 ng/mL",
+          "time": "24 h maturation protocol",
+          "cohort_linkage": "MP_C008"
+        },
+        "comparison": "No precise isoform translation bridge or antigen-specific human CD4 endpoint."
+      },
+      "temporal_basis": "RNA time course precedes terminal protein assay on documented schedule; relative translation/turnover unmeasured.",
+      "measurement_basis": {
+        "from_measurement": "RNA_abundance",
+        "from_assay": "RPA and quantitative RT-PCR",
+        "to_measurement": "protein_abundance",
+        "to_assay": "anti-CIITA-C immunoprecipitation; anti-CIITA-N immunoblot",
+        "interpretation": "LPS lowers CIITA RNA and protein; the observations remain separate molecular layers."
+      },
+      "experimental_linkage": "Same human monocyte-derived DC protocol; cross-assay donor identity unavailable.",
+      "limitations": "No precise isoform translation bridge or antigen-specific human CD4 endpoint.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "CIITA type-I/type-III RNA and 121/124/132-kDa proteins are not one-to-one abundance proxies."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "RNA time course precedes terminal protein assay on documented schedule; relative translation/turnover unmeasured."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "LPS lowers CIITA RNA and protein; the observations remain separate molecular layers."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same human monocyte-derived DC protocol; cross-assay donor identity unavailable."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B009",
+      "mechanism_id": "MP_M004",
+      "from_assertion_id": "MP_A015",
+      "to_assertion_id": "MP_A016",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "opposes",
+      "source_ids": [
+        "MP_S004"
+      ],
+      "source_locators": [
+        "Fig1C–D; Methods DCs and Real Time PCR",
+        "Fig1A–B; Methods DCs and Cytofluorometry"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Landmann2001.txt"
+      ],
+      "evidence_summary": "Maturing human DCs show reduced DRA RNA at 24 h alongside increased surface HLA-DR.",
+      "entity_mapping": "HLA-DRA RNA is distinct from assembled HLA-DR surface protein.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary-human-monocyte-derived cultured dendritic cells",
+          "cell_identity_state": "primary-human-monocyte-derived cultured dendritic cells; unavailable",
+          "tissue": "blood buffy coat origin",
+          "stimulation": "unavailable",
+          "dose": "10 ng/mL",
+          "time": "3,24,48 h",
+          "cohort_linkage": "MP_C008"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary-human-monocyte-derived cultured dendritic cells",
+          "cell_identity_state": "primary-human-monocyte-derived cultured dendritic cells; unavailable",
+          "tissue": "blood buffy coat origin",
+          "stimulation": "unavailable",
+          "dose": "10 ng/mL",
+          "time": "24 h",
+          "cohort_linkage": "MP_C008"
+        },
+        "comparison": "Contradicts using RNA direction as a surface-protein proxy. No measured T-cell function follows from surface staining."
+      },
+      "temporal_basis": "Both include 24-h LPS treatment; early 3-h RNA increase also retained.",
+      "measurement_basis": {
+        "from_measurement": "RNA_abundance",
+        "from_assay": "RPA and quantitative RT-PCR",
+        "to_measurement": "protein_abundance",
+        "to_assay": "G46-6 HLA-DR flow cytometry",
+        "interpretation": "Maturing human DCs show reduced DRA RNA at 24 h alongside increased surface HLA-DR."
+      },
+      "experimental_linkage": "Same culture protocol; different flow/RNA experiments, donor overlap unavailable.",
+      "limitations": "Contradicts using RNA direction as a surface-protein proxy. No measured T-cell function follows from surface staining.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "HLA-DRA RNA is distinct from assembled HLA-DR surface protein."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Both include 24-h LPS treatment; early 3-h RNA increase also retained."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Maturing human DCs show reduced DRA RNA at 24 h alongside increased surface HLA-DR."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same culture protocol; different flow/RNA experiments, donor overlap unavailable."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B010",
+      "mechanism_id": "MP_M005",
+      "from_assertion_id": "MP_A018",
+      "to_assertion_id": "MP_A019",
+      "bridge_type": "shared_intervention",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S005"
+      ],
+      "source_locators": [
+        "Fig1A–J; Methods Evaluation of HLA expression; Results ERAP1 controls cell surface-expression",
+        "Fig3A–B; Methods reporter stimulation"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_ERAP2021.txt"
+      ],
+      "evidence_summary": "ERAP1 knockout lowers HLA-C-enriched surface staining and mouse reporter stimulation as parallel outcomes.",
+      "entity_mapping": "DT-9-reactive surface protein is distinct from antigen-specific peptide occupancy or mouse NFAT reporter function.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR",
+          "cell_identity_state": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR; unavailable",
+          "tissue": "melanoma cell culture",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C009"
+        },
+        "to_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus",
+          "biological_preparation": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR",
+          "cell_identity_state": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR; unavailable",
+          "tissue": "melanoma cell culture",
+          "stimulation": "unavailable",
+          "dose": "WM278 IFNG 1 ng/mL; WM793 no IFNG requirement stated",
+          "time": "target preparation 24 h; coculture 24 h",
+          "cohort_linkage": "MP_C009"
+        },
+        "comparison": "Surface abundance is not proven to mediate reporter loss; DT-9 specificity and mouse-recipient limits retained."
+      },
+      "temporal_basis": "KO precedes both assays; no matched surface-peptide time course.",
+      "measurement_basis": {
+        "from_measurement": "protein_abundance",
+        "from_assay": "DT-9/W6-32 flow; total HLA-C immunoblot",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "NFAT-sGFP positive mouse hybridoma fraction by flow",
+        "interpretation": "ERAP1 knockout lowers HLA-C-enriched surface staining and mouse reporter stimulation as parallel outcomes."
+      },
+      "experimental_linkage": "Shared WM793/WM278 clone systems and reporter protocol; aliquot pairing unavailable.",
+      "limitations": "Surface abundance is not proven to mediate reporter loss; DT-9 specificity and mouse-recipient limits retained.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "DT-9-reactive surface protein is distinct from antigen-specific peptide occupancy or mouse NFAT reporter function."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "KO precedes both assays; no matched surface-peptide time course."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "ERAP1 knockout lowers HLA-C-enriched surface staining and mouse reporter stimulation as parallel outcomes."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Shared WM793/WM278 clone systems and reporter protocol; aliquot pairing unavailable."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B011",
+      "mechanism_id": "MP_M005",
+      "from_assertion_id": "MP_A019",
+      "to_assertion_id": "MP_A020",
+      "bridge_type": "mediation_test",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S005"
+      ],
+      "source_locators": [
+        "Fig3A–B; Methods reporter stimulation",
+        "Fig2A and Fig3C–D; Methods Plasmid-based transfection"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_ERAP2021.txt"
+      ],
+      "evidence_summary": "ERAP1 reconstitution after knockout supports an ERAP1-dependent reporter-stimulation mechanism within WM793.",
+      "entity_mapping": "Human ERAP1 is removed then restored as Hap2/Hap10; human TCR specificity and mouse recipient host remain the same.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus",
+          "biological_preparation": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR",
+          "cell_identity_state": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR; unavailable",
+          "tissue": "melanoma cell culture",
+          "stimulation": "unavailable",
+          "dose": "WM278 IFNG 1 ng/mL; WM793 no IFNG requirement stated",
+          "time": "target preparation 24 h; coculture 24 h",
+          "cohort_linkage": "MP_C009"
+        },
+        "to_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus",
+          "biological_preparation": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR",
+          "cell_identity_state": "WM793 and WM278 melanoma clones; mouse T-hybridoma expressing human Vα3S1/Vβ13S1 TCR; unavailable",
+          "tissue": "melanoma cell culture",
+          "stimulation": "unavailable",
+          "dose": "100 ng reconstitution plasmid",
+          "time": "24 h transfection, then 24 h coculture",
+          "cohort_linkage": "MP_C009"
+        },
+        "comparison": "Narrow ERAP1-dependence only. Does not prove exclusive HLA-abundance mediation, exact presented peptide length, physiological allotype dosage or primary human-CD8 function."
+      },
+      "temporal_basis": "Documented schedule: reconstitution 24 h before reporter addition, then 24 h coculture.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "NFAT-sGFP positive mouse hybridoma fraction by flow",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "NFAT-sGFP positive hybridoma fraction",
+        "interpretation": "ERAP1 reconstitution after knockout supports an ERAP1-dependent reporter-stimulation mechanism within WM793."
+      },
+      "experimental_linkage": "WM793 subset of KO experiment; two independently isolated KO clones with both reconstitution constructs. Same TCR lineage, not independent patient specificities.",
+      "limitations": "Narrow ERAP1-dependence only. Does not prove exclusive HLA-abundance mediation, exact presented peptide length, physiological allotype dosage or primary human-CD8 function.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "supported",
+          "explanation": "Human ERAP1 is removed then restored as Hap2/Hap10; human TCR specificity and mouse recipient host remain the same."
+        },
+        "context_compatibility": {
+          "status": "supported",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "supported",
+          "explanation": "Documented schedule: reconstitution 24 h before reporter addition, then 24 h coculture."
+        },
+        "measurement_link": {
+          "status": "supported",
+          "explanation": "ERAP1 reconstitution after knockout supports an ERAP1-dependent reporter-stimulation mechanism within WM793."
+        },
+        "experimental_linkage": {
+          "status": "supported",
+          "explanation": "WM793 subset of KO experiment; two independently isolated KO clones with both reconstitution constructs. Same TCR lineage, not independent patient specificities."
+        },
+        "mediation_test": {
+          "status": "supported",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B012",
+      "mechanism_id": "MP_M005",
+      "from_assertion_id": "MP_A021",
+      "to_assertion_id": "MP_A022",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S005"
+      ],
+      "source_locators": [
+        "Fig5A–C; Methods In vitro peptide digestion assays",
+        "Fig4A–C; Methods Plasmid-based transfection; Results Generation of the autoantigenic epitope"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_ERAP2021.txt"
+      ],
+      "evidence_summary": "Biochemical trimming supports plausibility but cannot be equated to direct delivery of the measured digest products into the reporter experiment.",
+      "entity_mapping": "HPLC pools unresolved 9mer/8mer products; cellular assay expresses precursors with uncertain N-terminal methionine processing.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "not_applicable_cell_free_human_protein",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "purified recombinant human ERAP1 and synthetic ADAMTSL5 peptide",
+          "cell_identity_state": "purified recombinant human ERAP1 and synthetic ADAMTSL5 peptide; unavailable",
+          "tissue": "cell-free biochemical reaction",
+          "stimulation": "unavailable",
+          "dose": "20 nM peptide; 2 micrograms ERAP1 as reported",
+          "time": "37°C, up to 2 h",
+          "cohort_linkage": "MP_C010"
+        },
+        "to_context": {
+          "species": "Homo sapiens target; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus",
+          "biological_preparation": "engineered HEK293T target; mouse T-hybridoma recipient",
+          "cell_identity_state": "engineered HEK293T target; mouse T-hybridoma recipient; unavailable",
+          "tissue": "HEK293T culture",
+          "stimulation": "unavailable",
+          "dose": "75 ng each HLA-C, peptide and ERAP1/vector construct",
+          "time": "24 h transfection plus 24 h coculture",
+          "cohort_linkage": "MP_C011"
+        },
+        "comparison": "No same-species/state peptide transfer, absolute peptide-HLA quantification or cell-context equivalence."
+      },
+      "temporal_basis": "Cell-free reaction and separate cellular transfection/coculture schedules; no product-transfer test.",
+      "measurement_basis": {
+        "from_measurement": "protein_activity",
+        "from_assay": "reversed-phase HPLC",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "NFAT-sGFP reporter flow",
+        "interpretation": "Biochemical trimming supports plausibility but cannot be equated to direct delivery of the measured digest products into the reporter experiment."
+      },
+      "experimental_linkage": "Separate cell-free reaction versus engineered HEK293T plus mouse reporter.",
+      "limitations": "No same-species/state peptide transfer, absolute peptide-HLA quantification or cell-context equivalence.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_demonstrated",
+          "explanation": "HPLC pools unresolved 9mer/8mer products; cellular assay expresses precursors with uncertain N-terminal methionine processing."
+        },
+        "context_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "No same-species/state peptide transfer, absolute peptide-HLA quantification or cell-context equivalence."
+        },
+        "temporal_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "Cell-free reaction and separate cellular transfection/coculture schedules; no product-transfer test."
+        },
+        "measurement_link": {
+          "status": "not_demonstrated",
+          "explanation": "Biochemical trimming supports plausibility but cannot be equated to direct delivery of the measured digest products into the reporter experiment."
+        },
+        "experimental_linkage": {
+          "status": "not_demonstrated",
+          "explanation": "Separate cell-free reaction versus engineered HEK293T plus mouse reporter."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B013",
+      "mechanism_id": "MP_M006",
+      "from_assertion_id": "MP_A023",
+      "to_assertion_id": "MP_A024",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "opposes",
+      "source_ids": [
+        "MP_S006"
+      ],
+      "source_locators": [
+        "Supplementary Fig4i (PDF pp8–9); Methods Antigen presentation/additional engineering and T cell activation assays",
+        "Supplementary Fig4i (PDF pp8–9); main Results HLA restriction"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025.txt",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement.pdf",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement.txt",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement_p8.png"
+      ],
+      "evidence_summary": "B2M knockout lowers TCR1 activation but preserves TCR22 activation, limiting class-I-generalized claims.",
+      "entity_mapping": "Different patient-derived TCR specificities; same human Jurkat host design and matched-TMG APC framework.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens (Jurkat host; engineered TCR has murine constant domains)",
+          "biological_preparation": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter",
+          "cell_identity_state": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter; unavailable",
+          "tissue": "MEL9 tumor and peripheral blood; Jurkat culture",
+          "stimulation": "unavailable",
+          "dose": "three B2M gRNAs as RNPs; IL21 50 ng/mL during B-cell expansion",
+          "time": "20–24 h coculture at 1:1 reporter/APC",
+          "cohort_linkage": "MP_C012"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens (Jurkat host; engineered TCR has murine constant domains)",
+          "biological_preparation": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter",
+          "cell_identity_state": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter; unavailable",
+          "tissue": "MEL9 tumor and peripheral blood; Jurkat culture",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "20–24 h coculture at 1:1 reporter/APC",
+          "cohort_linkage": "MP_C012"
+        },
+        "comparison": "Immortalized human cells, engineered murine TCR constant domains, no primary effector function or surface-class-I mediation claim."
+      },
+      "temporal_basis": "Same 20–24 h coculture framework.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "CD69 flow cytometry; two biological replicates",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "CD69 flow cytometry; qualitative figure comparison",
+        "interpretation": "B2M knockout lowers TCR1 activation but preserves TCR22 activation, limiting class-I-generalized claims."
+      },
+      "experimental_linkage": "MEL9 B-cell/TCR experiment, supplemental Fig4i with two biological replicates; distinct antigen/TCR pairs.",
+      "limitations": "Immortalized human cells, engineered murine TCR constant domains, no primary effector function or surface-class-I mediation claim.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Different patient-derived TCR specificities; same human Jurkat host design and matched-TMG APC framework."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same 20–24 h coculture framework."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "B2M knockout lowers TCR1 activation but preserves TCR22 activation, limiting class-I-generalized claims."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "MEL9 B-cell/TCR experiment, supplemental Fig4i with two biological replicates; distinct antigen/TCR pairs."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B014",
+      "mechanism_id": "MP_M006",
+      "from_assertion_id": "MP_A024",
+      "to_assertion_id": "MP_A025",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S006"
+      ],
+      "source_locators": [
+        "Supplementary Fig4i (PDF pp8–9); main Results HLA restriction",
+        "Supplementary Fig4i (PDF pp8–9); Methods T cell activation and TCR characterization assays"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025.txt",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement.pdf",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement.txt",
+        "research/mechanisms_antigen/snapshots/MP_Kuilman2025_supplement_p8.png"
+      ],
+      "evidence_summary": "TCR22 remains active under B2M knockout but is inhibited by HLA-II blockade, supporting class-II restriction.",
+      "entity_mapping": "Same TCR22 and cognate-TMG response; different class-I versus class-II interventions.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens (Jurkat host; engineered TCR has murine constant domains)",
+          "biological_preparation": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter",
+          "cell_identity_state": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter; unavailable",
+          "tissue": "MEL9 tumor and peripheral blood; Jurkat culture",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "20–24 h coculture at 1:1 reporter/APC",
+          "cohort_linkage": "MP_C012"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Homo sapiens (Jurkat host; engineered TCR has murine constant domains)",
+          "biological_preparation": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter",
+          "cell_identity_state": "BCL6/BCL-xL/CD40L-immortalized autologous human B cells; engineered human Jurkat reporter; unavailable",
+          "tissue": "MEL9 tumor and peripheral blood; Jurkat culture",
+          "stimulation": "unavailable",
+          "dose": "120 micrograms/mL",
+          "time": "20–24 h coculture",
+          "cohort_linkage": "MP_C012"
+        },
+        "comparison": "Restricting class supported; no precise HLA-II allele/ligand quantity or clinical response inferred."
+      },
+      "temporal_basis": "Same assay schedule; not a serial transition.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "CD69 flow cytometry; qualitative figure comparison",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "CD69 flow cytometry",
+        "interpretation": "TCR22 remains active under B2M knockout but is inhibited by HLA-II blockade, supporting class-II restriction."
+      },
+      "experimental_linkage": "Within supplemental Fig4i framework; exact aliquot mapping not provided.",
+      "limitations": "Restricting class supported; no precise HLA-II allele/ligand quantity or clinical response inferred.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same TCR22 and cognate-TMG response; different class-I versus class-II interventions."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same assay schedule; not a serial transition."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "TCR22 remains active under B2M knockout but is inhibited by HLA-II blockade, supporting class-II restriction."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Within supplemental Fig4i framework; exact aliquot mapping not provided."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B015",
+      "mechanism_id": "MP_M007",
+      "from_assertion_id": "MP_A026",
+      "to_assertion_id": "MP_A027",
+      "bridge_type": "mediation_test",
+      "bridge_relation": "supports",
+      "source_ids": [
+        "MP_S007"
+      ],
+      "source_locators": [
+        "Fig3B; Methods 2.7; Results 3.4",
+        "Fig3B; Methods 2.7; Results 3.4"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_He2025.txt"
+      ],
+      "evidence_summary": "Depletion and autologous add-back support B-cell contribution to bulk spontaneous PBMC proliferation.",
+      "entity_mapping": "Intermediate is the autologous B-cell population itself; the same bulk DNA-incorporation endpoint is measured under removal and restoration.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs",
+          "cell_identity_state": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "pulse day4 overnight; harvest day5",
+          "cohort_linkage": "MP_C013"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs",
+          "cell_identity_state": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "pulse day4 overnight; harvest day5",
+          "cohort_linkage": "MP_C013"
+        },
+        "comparison": "This is a B-cell-dependence mechanism for bulk PBMC proliferation. It does not establish antigen identity, B-cell-specific HLA mechanism or CD8-specific response."
+      },
+      "temporal_basis": "B-cell fraction manipulations precede five-day culture; day4 thymidine pulse precedes harvest.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "3H-thymidine incorporation",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "3H-thymidine incorporation",
+        "interpretation": "Depletion and autologous add-back support B-cell contribution to bulk spontaneous PBMC proliferation."
+      },
+      "experimental_linkage": "Fig3B paired individual-donor comparisons in seven psoriasis samples; technical triplicate wells.",
+      "limitations": "This is a B-cell-dependence mechanism for bulk PBMC proliferation. It does not establish antigen identity, B-cell-specific HLA mechanism or CD8-specific response.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "supported",
+          "explanation": "Intermediate is the autologous B-cell population itself; the same bulk DNA-incorporation endpoint is measured under removal and restoration."
+        },
+        "context_compatibility": {
+          "status": "supported",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "supported",
+          "explanation": "B-cell fraction manipulations precede five-day culture; day4 thymidine pulse precedes harvest."
+        },
+        "measurement_link": {
+          "status": "supported",
+          "explanation": "Depletion and autologous add-back support B-cell contribution to bulk spontaneous PBMC proliferation."
+        },
+        "experimental_linkage": {
+          "status": "supported",
+          "explanation": "Fig3B paired individual-donor comparisons in seven psoriasis samples; technical triplicate wells."
+        },
+        "mediation_test": {
+          "status": "supported",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B016",
+      "mechanism_id": "MP_M007",
+      "from_assertion_id": "MP_A027",
+      "to_assertion_id": "MP_A028",
+      "bridge_type": "mediation_test",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S007"
+      ],
+      "source_locators": [
+        "Fig3B; Methods 2.7; Results 3.4",
+        "Fig3D; Methods 2.7; Results 3.4"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_He2025.txt"
+      ],
+      "evidence_summary": "Bulk class-I blockade is insufficient to assign the B-cell add-back effect specifically to B-cell HLA-I.",
+      "entity_mapping": "W6/32 targets HLA-I on multiple cell types, not specifically the re-added B-cell intermediate.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs",
+          "cell_identity_state": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "pulse day4 overnight; harvest day5",
+          "cohort_linkage": "MP_C013"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs",
+          "cell_identity_state": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "4-hour BrdU pulse on day4",
+          "cohort_linkage": "MP_C013"
+        },
+        "comparison": "B-cell-specific HLA perturbation and matching donor readouts needed."
+      },
+      "temporal_basis": "Five-day thymidine protocol and day4 BrdU protocol differ.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "3H-thymidine incorporation",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "BrdU incorporation assay",
+        "interpretation": "Bulk class-I blockade is insufficient to assign the B-cell add-back effect specifically to B-cell HLA-I."
+      },
+      "experimental_linkage": "Exact donor overlap and paired aliquots between Fig3B and 3D unavailable.",
+      "limitations": "B-cell-specific HLA perturbation and matching donor readouts needed.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_demonstrated",
+          "explanation": "W6/32 targets HLA-I on multiple cell types, not specifically the re-added B-cell intermediate."
+        },
+        "context_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "B-cell-specific HLA perturbation and matching donor readouts needed."
+        },
+        "temporal_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "Five-day thymidine protocol and day4 BrdU protocol differ."
+        },
+        "measurement_link": {
+          "status": "not_demonstrated",
+          "explanation": "Bulk class-I blockade is insufficient to assign the B-cell add-back effect specifically to B-cell HLA-I."
+        },
+        "experimental_linkage": {
+          "status": "not_demonstrated",
+          "explanation": "Exact donor overlap and paired aliquots between Fig3B and 3D unavailable."
+        },
+        "mediation_test": {
+          "status": "not_demonstrated",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B017",
+      "mechanism_id": "MP_M007",
+      "from_assertion_id": "MP_A026",
+      "to_assertion_id": "MP_A029",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S007"
+      ],
+      "source_locators": [
+        "Fig3B; Methods 2.7; Results 3.4",
+        "Fig3E; Methods 2.7; Results 3.4"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_He2025.txt"
+      ],
+      "evidence_summary": "B-depletion-associated bulk proliferation loss cannot be assigned directly to the separately measured CD8 CFSE response.",
+      "entity_mapping": "Bulk thymidine incorporation and CD8-specific division are different endpoint species/populations.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs",
+          "cell_identity_state": "primary PBMCs, B-cell-depleted and autologous-B-cell-reconstituted PBMCs; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "pulse day4 overnight; harvest day5",
+          "cohort_linkage": "MP_C013"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "CFSE-labeled primary PBMC subsets",
+          "cell_identity_state": "CFSE-labeled primary PBMC subsets; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "5 days",
+          "cohort_linkage": "MP_C014"
+        },
+        "comparison": "No CD8-resolved readout under the same B-cell manipulation; no antigen specificity."
+      },
+      "temporal_basis": "Both use five-day culture but no within-sample ordered transition.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "3H-thymidine incorporation",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "CFSE dilution within phenotyped PBMC subsets",
+        "interpretation": "B-depletion-associated bulk proliferation loss cannot be assigned directly to the separately measured CD8 CFSE response."
+      },
+      "experimental_linkage": "Seven-plus-seven versus 17-plus-9 cohorts; donor overlap unavailable.",
+      "limitations": "No CD8-resolved readout under the same B-cell manipulation; no antigen specificity.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_demonstrated",
+          "explanation": "Bulk thymidine incorporation and CD8-specific division are different endpoint species/populations."
+        },
+        "context_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "No CD8-resolved readout under the same B-cell manipulation; no antigen specificity."
+        },
+        "temporal_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "Both use five-day culture but no within-sample ordered transition."
+        },
+        "measurement_link": {
+          "status": "not_demonstrated",
+          "explanation": "B-depletion-associated bulk proliferation loss cannot be assigned directly to the separately measured CD8 CFSE response."
+        },
+        "experimental_linkage": {
+          "status": "not_demonstrated",
+          "explanation": "Seven-plus-seven versus 17-plus-9 cohorts; donor overlap unavailable."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B018",
+      "mechanism_id": "MP_M008",
+      "from_assertion_id": "MP_A030",
+      "to_assertion_id": "MP_A029",
+      "bridge_type": "serial_transition",
+      "bridge_relation": "inconclusive",
+      "source_ids": [
+        "MP_S007"
+      ],
+      "source_locators": [
+        "Fig1C; Methods 2.5–2.6; Results 3.1",
+        "Fig3E; Methods 2.7; Results 3.4"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_He2025.txt"
+      ],
+      "evidence_summary": "Antigen-specific mouse reporter stimulation by tonsillar B cells cannot be joined to the primary-human blood CD8 proliferation observation.",
+      "entity_mapping": "Mouse NFAT reporter bearing a selected human TCR is not the endogenous human CD8 repertoire.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens source; Mus musculus recipient",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "Mus musculus (human psoriatic TCR)",
+          "biological_preparation": "primary tonsillar B cells plus reused mouse TCR hybridoma",
+          "cell_identity_state": "primary tonsillar B cells plus reused mouse TCR hybridoma; unavailable",
+          "tissue": "tonsils",
+          "stimulation": "unavailable",
+          "dose": "W6/32 10 micrograms/mL; 2e4 source cells and 1e4 reporter cells/well",
+          "time": "24 h coculture",
+          "cohort_linkage": "MP_C015"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "CFSE-labeled primary PBMC subsets",
+          "cell_identity_state": "CFSE-labeled primary PBMC subsets; unavailable",
+          "tissue": "peripheral blood",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "5 days",
+          "cohort_linkage": "MP_C014"
+        },
+        "comparison": "Species, tissue, cell state, time and specificity mismatch block transport."
+      },
+      "temporal_basis": "24-h reporter versus five-day PBMC assay; no transfer or sequential recruitment experiment.",
+      "measurement_basis": {
+        "from_measurement": "cellular_phenotype",
+        "from_assay": "sGFP reporter flow",
+        "to_measurement": "cellular_phenotype",
+        "to_assay": "CFSE dilution within phenotyped PBMC subsets",
+        "interpretation": "Antigen-specific mouse reporter stimulation by tonsillar B cells cannot be joined to the primary-human blood CD8 proliferation observation."
+      },
+      "experimental_linkage": "Tonsils from three patients versus blood cohort 17 plus 9; overlap unavailable; TCR lineage reused.",
+      "limitations": "Species, tissue, cell state, time and specificity mismatch block transport.",
+      "status": "blocked_missing_evidence",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_demonstrated",
+          "explanation": "Mouse NFAT reporter bearing a selected human TCR is not the endogenous human CD8 repertoire."
+        },
+        "context_compatibility": {
+          "status": "contradictory",
+          "explanation": "Species, tissue, cell state, time and specificity mismatch block transport."
+        },
+        "temporal_compatibility": {
+          "status": "not_demonstrated",
+          "explanation": "24-h reporter versus five-day PBMC assay; no transfer or sequential recruitment experiment."
+        },
+        "measurement_link": {
+          "status": "not_demonstrated",
+          "explanation": "Antigen-specific mouse reporter stimulation by tonsillar B cells cannot be joined to the primary-human blood CD8 proliferation observation."
+        },
+        "experimental_linkage": {
+          "status": "not_demonstrated",
+          "explanation": "Tonsils from three patients versus blood cohort 17 plus 9; overlap unavailable; TCR lineage reused."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Relevant intermediate perturbation/rescue and measured endpoint support only the narrow stated dependency."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    },
+    {
+      "bridge_id": "MP_B019",
+      "mechanism_id": "MP_M008",
+      "from_assertion_id": "MP_A021",
+      "to_assertion_id": "MP_A031",
+      "bridge_type": "context_contrast",
+      "bridge_relation": "opposes",
+      "source_ids": [
+        "MP_S005",
+        "MP_S007"
+      ],
+      "source_locators": [
+        "Fig5A–C; Methods In vitro peptide digestion assays",
+        "Methods 2.9–2.12; Results 3.6"
+      ],
+      "supporting_snapshot_paths": [
+        "research/mechanisms_antigen/snapshots/MP_ERAP2021.txt",
+        "research/mechanisms_antigen/snapshots/MP_He2025.txt"
+      ],
+      "evidence_summary": "ADAMTSL5 biochemical/target-cell evidence cannot imply its presentation by the four B-cell lines where the peptide was not detected.",
+      "entity_mapping": "Same named autoantigen, distinct biochemical substrate versus ligand-recovery readouts.",
+      "context_comparison": {
+        "from_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "not_applicable_cell_free_human_protein",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "purified recombinant human ERAP1 and synthetic ADAMTSL5 peptide",
+          "cell_identity_state": "purified recombinant human ERAP1 and synthetic ADAMTSL5 peptide; unavailable",
+          "tissue": "cell-free biochemical reaction",
+          "stimulation": "unavailable",
+          "dose": "20 nM peptide; 2 micrograms ERAP1 as reported",
+          "time": "37°C, up to 2 h",
+          "cohort_linkage": "MP_C010"
+        },
+        "to_context": {
+          "species": "Homo sapiens",
+          "source_cell_taxon": "Homo sapiens",
+          "recipient_cell_taxon": "not_applicable_no_recipient_assay",
+          "biological_preparation": "four HLA-C*06:02-homozygous EBV-transformed B-cell lines",
+          "cell_identity_state": "four HLA-C*06:02-homozygous EBV-transformed B-cell lines; unavailable",
+          "tissue": "EBV-B-cell culture",
+          "stimulation": "unavailable",
+          "dose": "unavailable",
+          "time": "unavailable",
+          "cohort_linkage": "MP_C016"
+        },
+        "comparison": "Nondetection has sensitivity limits. Cell-line identifiers/FDR-file inconsistencies unresolved; no absence claim."
+      },
+      "temporal_basis": "Separate studies and experiments; no temporal connection.",
+      "measurement_basis": {
+        "from_measurement": "protein_activity",
+        "from_assay": "reversed-phase HPLC",
+        "to_measurement": "protein_abundance",
+        "to_assay": "W6/32 pan-HLA purification; LC-MS/MS; computational HLA assignment",
+        "interpretation": "ADAMTSL5 biochemical/target-cell evidence cannot imply its presentation by the four B-cell lines where the peptide was not detected."
+      },
+      "experimental_linkage": "Reused psoriatic TCR lineage across research program but different target preparations; no independent peptide-specific human cohort replication.",
+      "limitations": "Nondetection has sensitivity limits. Cell-line identifiers/FDR-file inconsistencies unresolved; no absence claim.",
+      "status": "candidate_pending_review",
+      "checks": {
+        "entity_continuity": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Same named autoantigen, distinct biochemical substrate versus ligand-recovery readouts."
+        },
+        "context_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Compatible only at the explicitly stated within-preparation or contrast scope; no transport assumed."
+        },
+        "temporal_compatibility": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Separate studies and experiments; no temporal connection."
+        },
+        "measurement_link": {
+          "status": "not_applicable_nonserial",
+          "explanation": "ADAMTSL5 biochemical/target-cell evidence cannot imply its presentation by the four B-cell lines where the peptide was not detected."
+        },
+        "experimental_linkage": {
+          "status": "not_applicable_nonserial",
+          "explanation": "Reused psoriatic TCR lineage across research program but different target preparations; no independent peptide-specific human cohort replication."
+        },
+        "mediation_test": {
+          "status": "not_applicable_nonserial",
+          "explanation": "No serial mediation asserted."
+        }
+      },
+      "attestation_role": "extractor_only_pending_independent_review"
+    }
+  ],
+  "summary": {
+    "total": 19,
+    "candidate_pending_review": 14,
+    "blocked_missing_evidence": 5,
+    "note": "No complete serial pathway asserted. Nonserial profiles are not mediation. Checks are extractor attestations only."
+  }
+}

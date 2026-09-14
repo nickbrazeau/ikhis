@@ -1,0 +1,2214 @@
+
+
+
+HR-VILAGE-3K3M: A Human Respiratory Viral Immunization Longitudinal Gene Expression Dataset for Systems Immunity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      Report GitHub Issue
+      ×
+    
+
+    
+
+      Title:
+      
+
+      
+Content selection saved. Describe the issue below:
+
+
+      Description:
+      
+    
+
+
+    
+      Submit without GitHub
+      Submit in GitHub
+    
+  
+
+
+    
+    arXiv is now an independent nonprofit!
+    Learn more
+    ×
+  
+
+
+
+  
+
+    
+      Back to arXiv
+    
+  
+
+  
+  
+    Why HTML?
+    
+      
+        
+      
+      Report Issue
+    
+    
+      
+        
+        
+      
+      Back to Abstract
+    
+    
+    
+      
+        
+      
+      Download PDF
+    
+    
+      
+        
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+          
+          
+        
+      
+      
+        
+          
+          
+        
+      
+      
+        
+          
+          
+        
+      
+    
+  
+
+
+
+Abstract
+1 Background and Summary
+2 Related Work
+
+2.1 Existing Datasets on Respiratory Viral Transcriptomics
+2.2 Batch Effect Correction and Data Harmonization Methods
+
+3 Methods
+4 Technical Validation
+
+4.1 Age and Sex Prediction Using Longitudinal Bulk Data
+4.2 Outcome Prediction Using Longitudinal Bulk Data
+4.3 Cell Type Annotation Using Paired Bulk and Single-Cell Data
+
+5 Potential HR-VILAGE-3K3M Applications
+6 Author Contribution
+7 Acknowledgment
+8 Funding
+9 Disclosure statement
+10 Data Availability Statement
+Supplementary 1 List of Studies Included in the HR-VILAGE-3K3M Dataset
+Supplementary 2 Experimental Compute Details
+Supplementary 3 Antibody Responder Prediction Details
+Supplementary 4 xCell Details
+Supplementary 5 Single-Cell Annotation Details
+References
+
+
+
+
+
+
+  
+    License: CC BY 4.0
+  
+  
+
+arXiv:2505.14725v2 [q-bio.GN] 31 May 2026
+
+
+
+
+
+
+HR-VILAGE-3K3M: A Human Respiratory Viral Immunization Longitudinal Gene Expression Dataset for Systems Immunity
+
+
+
+
+Xuejun Sun
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Yiran Song
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Xiaochen Zhou
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Ruilie Cai
+
+Affiliation: Department of Epidemiology and BiostatisticsUniversity of South Carolina, Columbia, SC 29208, USA
+
+  
+Yu Zhang
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Xinyi Li
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Rui Peng
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Jialiu Xie
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Yuanyuan Yan
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Muyao Tang
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Lakshmanane Premkumar
+
+Affiliation: Department of Microbiology and ImmunologyUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA*Corresponding authors: feizou@email.unc.edu, xiaojinz@email.unc.edu
+
+  
+Baiming Zou
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+James S. Hagood
+
+Affiliation: Department of PediatricsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Raymond J. Pickles
+
+Affiliation: Department of Microbiology and ImmunologyUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA*Corresponding authors: feizou@email.unc.edu, xiaojinz@email.unc.edu
+
+  
+Didong Li
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Fei Zou
+
+Affiliation: Department of BiostatisticsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+  
+Xiaojing Zheng
+
+Affiliation: Department of PediatricsUniversity of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA
+
+
+
+
+Abstract
+    
+
+Respiratory viral infections pose a global health burden, yet the cellular immune mechanisms underlying protection and pathology remain unclear. Natural infection cohorts often lack pre-exposure baselines and time-controlled sampling, whereas inoculation and vaccination trials generate well-structured longitudinal transcriptomic data. However, these datasets are scattered across repositories and processed inconsistently, hindering integrative and AI-driven analyses.
+To address these challenges, we developed the Human Respiratory Viral Immunization LongitudinAl Gene Expression (HR-VILAGE-3K3M) repository: an AI-ready resource integrating bulk and single-cell transcriptomic profiles from 3,178 subjects across 66 studies. The dataset spans vaccination, inoculation, and mixed exposures, with samples from blood and nasal swabs collected from public repositories including GEO, ImmPort, and ArrayExpress.
+We curated and harmonized subject-level metadata, standardized outcome measures, and applied unified preprocessing with rigorous quality control. We further provide benchmark analyses illustrating its utility. This resource supports discovery of biomarkers, immune mechanisms, and methodological development. As one of the largest longitudinal transcriptomic resources for human respiratory viral immunization, HR-VILAGE-3K3M enables reproducible and scalable analyses to accelerate vaccine and antiviral research.
+
+  
+
+
+
+
+
+Keywords: Human respiratory viral inoculation and vaccination studies, Transcriptomic data repository, Curated subject-level metadata, Data harmonization, AI-driven analyses, Systems-immunology applications
+
+
+
+
+
+
+
+
+1 Background and Summary
+
+
+
+
+
+Acute respiratory viral infections, such as those caused by influenza, respiratory syncytial virus (RSV), human rhinovirus (HRV) and SARS-CoV-2, represent a significant global health burden (Bender et al., 2024; Chow et al., 2023; Hodinka, 2016; Simões et al., 2015). Vaccination remains the most effective strategy for preventing infection and reducing transmission (Graça et al., 2023; Yaugel-Novoa et al., 2022; Nehme et al., 2011). Both humoral (antibody) and cellular immunity are essential for controlling viral infections . The diversity and specificity of antibody responses are influenced by the complex interactions among various immune cells. There is a critical need to deeply understand the human cellular immune responses to antigens over time.
+
+
+
+
+
+
+However, natural infection studies frequently lack pre-infection baseline data and cannot control infection timing. Conversely, human inoculation and vaccine studies offer unique opportunities to observe immune cell responses within a structured timeline. Studies involving blood leukocytes and nasal swabs have demonstrated that both systemic and local cellular immunity are crucial in defending against respiratory viral infections and diseases (Liu et al., 2016; Zaas et al., 2009; Huang et al., 2011; Davenport et al., 2015; Rosenheim et al., 2023; Proud et al., 2008; Muller et al., 2017; Habibi et al., 2020). Extensive transcriptomic data from human inoculation and vaccination studies have been deposited in publicly accessible databases, such as GEO (Gene Expression Omnibus), ImmPort Shared Data, and the ArrayExpress Collection at EMBL-EBI (Barrett et al., 2012; Bhattacharya et al., 2018; Parkinson et al., 2007). However, the analytical power of a single cohort is limited and likely to yield inconsistent results, highlighting the need for integrated data analysis across multiple studies. Furthermore, integrating these data is invaluable for promoting reusable research and for developing advanced Artificial Intelligence (AI) and machine learning (ML) models. By leveraging the structured and detailed information from these studies, researchers can build reliable and robust transfer learning models for enhancing our understanding of infectious diseases and outcome predictions, and improving the development of personalized treatments and new vaccines. The integration of AI/ML in this domain holds the potential to revolutionize how we approach and manage infectious diseases, leading to better health outcomes ultimately.
+
+
+
+
+
+
+Integrating data across studies presents several challenges. First, while public repositories host extensive gene expression datasets, there remains a significant gap between data availability and readiness for analysis. For instance, GEO provides data at various levels of processing, including raw, partially processed, and fully normalized data. These datasets are often generated through distinct study-specific pipelines by different research groups, leading to apparent batch effects. Second, metadata, including information on outcomes (e.g., infection status, symptoms, and antibody responses), is often fragmented in the supplementary files of the original papers or other places rather than where the gene expression data are deposited. For example, expression profiles are often available in GEO, while phenotypic data are stored in ImmPort, with subject-level antibody titers frequently missing. More problematic, the metadata use sample IDs that differ from those used by the expression data in several instances, making data merging impossible and requiring significant human effort to communicate with the principal investigators of those studies (Grewe et al., 2024; Lee et al., 2022d; Furman et al., 2017). Third, data have been profiled using various platforms (microarray, bulk RNA sequencing (RNA-Seq), and Single-cell RNA sequencing (scRNA-seq)) and are represented using inconsistent gene symbols due to different probe designs and methods of gene identification, such as alias gene symbols found in literature instead of official nomenclature (Ziemann et al., 2016). Lastly, a rigorous data preprocessing evaluation is lacking. Some datasets show abnormal sample correlations, including negative values indicative of technical artifacts, or irregular count distributions such as expression values restricted to a few discrete levels—likely stemming from improper preprocessing of raw data. In addition, duplicate samples originating from the same subjects but deposited under different studies are occasionally present, necessitating careful detection and removal to ensure consistency and integrity of the integrated dataset.
+
+
+
+
+
+
+To overcome these barriers, we created the Human Respiratory Viral Immunization Longitudinal Gene Expression (HR-VILAGE-3K3M) data repository, a curated benchmark dataset encompassing over 3,000 participants from 66 studies, including vaccination, inoculation, and post-vaccination infection studies. We undertook extensive efforts to align metadata and gene expression profiles from disparate sources, ensuring a unified and analyzable structure across all datasets. This involved resolving inconsistencies in sample identifiers, correcting formatting errors (e.g., Excel-induced gene symbol corruption), and harmonizing gene annotations to official HUGO Gene Nomenclature Committee (HGNC) symbols (Bruford et al., 2020). In many cases, essential subject-level antibody data were missing from public repositories and had to be obtained directly from study authors through targeted email outreach. We also standardized heterogeneous outcome definitions across studies to enable meaningful comparisons. To ensure data integrity, we conducted rigorous quality control by identifying and excluding duplicated samples, reprocessing data from raw files when available, and filtering out datasets exhibiting abnormal or unreliable sample-level correlations. These curation and preprocessing efforts were critical in transforming raw, fragmented datasets into harmonized, ready-to-use gene expression matrices, allowing researchers to bypass the otherwise time-consuming and technically challenging steps of data discovery, cleaning, and integration.
+
+
+
+
+
+
+HR-VILAGE-3K3M supports a wide range of applications, such as the discovery of early biomarkers, identification of disease-driving or causal genes, and understanding the temporal dynamics of immune responses to various pathogens through integrative data analysis across multiple studies. HR-VILAGE-3K3M will help facilitate the development of advanced AI/ML models, such as foundation models and multimodality learning, and better harness the power of AI to gain insights into infectious diseases. Ultimately, this will inform early disease diagnosis, vaccine development, and treatment strategies, promoting more robust and reproducible immunological research. In addition, it offers a benchmark database for the development of computational methodologies, such as batch effect correction, gene expression imputation, deep learning prediction, and single cell transcriptomic-informed deconvolution of bulk data.
+
+
+
+
+
+
+2 Related Work
+
+
+
+
+2.1 Existing Datasets on Respiratory Viral Transcriptomics
+
+
+
+
+
+Several community-curated resources have been developed to support transcriptomic research on respiratory viruses such as influenza and COVID-19. For example, the GitHub repository urmi-21/COVID-19-RNA-Seq-datasets provides study-level summary matrices but does not include fully processed data or integration-ready formats for comparative analyses, and its scope is limited to COVID-19 RNA-seq studies covering infection and vaccination.
+
+
+
+
+
+
+The study by Rogers et al. (Rogers et al., 2019) conducted a meta-analysis of 18 publicly available influenza-related microarray datasets spanning infection, vaccination, and control groups. Their analysis identified differentially expressed genes that distinguished infection from vaccination responses and further explored variability attributable to age and sex. While this collection provides valuable biological insights, it is restricted to microarray data, lacks RNA-seq and single-cell transcriptomic studies, does not include clinical outcomes, and does not provide a unified harmonization framework across studies.
+
+
+
+
+
+
+Another important resource is the pan-vaccine study by Fourati et al. (Fourati et al., 2022), which profiled immune responses across individuals vaccinated against 13 viral and bacterial pathogens. While valuable, this dataset includes only a limited number of respiratory viral vaccine samples (approximately 300 subjects), is restricted to bulk transcriptomic data, and does not provide ready-to-use processed data for downstream analyses.
+
+
+
+
+
+
+In comparison, HR-VILAGE-3K3M provides the most comprehensive and harmonized resource to date for respiratory viral studies. It integrates microarray, bulk RNA-seq, and single-cell RNA-seq datasets across 66 studies, covering over 3,000 subjects and 14,000 profiles. Importantly, vaccine and challenge studies in HR-VILAGE-3K3M provide defined pre- and post-exposure measurements along controlled timelines, enabling direct investigation of immune dynamics.
+
+
+
+
+
+
+2.2 Batch Effect Correction and Data Harmonization Methods
+
+
+
+
+
+A critical challenge in building integrated multi-study resources is mitigating batch effects. For microarray data, commonly used approaches include ComBat (empirical Bayes adjustment) (Wang et al., 2017), limma (linear modeling with moderated variance) (Ritchie et al., 2015), and the sva framework (surrogate variable analysis) (Leek et al., 2012). For RNA-seq data, extensions such as ComBat-seq (Zhang et al., 2020) and svaseq (Leek, 2014) have been developed.
+
+
+
+
+
+
+Single-cell RNA-seq integration presents unique challenges due to sparsity and high dimensionality. Widely used tools include Harmony (iterative alignment in PCA space) (Korsunsky et al., 2019), canonical correlation analysis (CCA) (Stuart et al., 2019), and mutual nearest neighbor (MNN) mapping (Haghverdi et al., 2018).
+
+
+
+
+
+
+Cross-platform integration methods bridging microarray and RNA-seq include Quantile Normalization (QN) (Bolstad et al., 2003b), Training Distribution Matching (TDM) (Thompson et al., 2015), and Bayesian approaches leveraging control samples to estimate batch effects (Tang et al., 2021). While QN was originally designed for microarray normalization, it is often applied to RNA-seq in practice due to its robustness across platforms.
+
+
+
+
+
+
+Ultimately, the choice of integration method depends on the modality, study design, and downstream objectives. In this work, we benchmark multiple normalization strategies and adopt harmonization approaches that maximize reproducibility and biological interpretability across diverse datasets.
+
+
+
+
+
+
+
+3 Methods
+
+
+
+
+
+Data collection and curation.
+The data collection workflow of HR-VILAGE-3K3M is summarized in Figure 1a. HR-VILAGE-3K3M consists of three components: gene expression profiles, metadata, and raw antibody data. We previously established a collection of human blood and nasal swab gene expression datasets from viral respiratory inoculation and vaccination studies. These datasets were gathered using targeted search queries from three publicly available repositories: GEO, ImmPort, and ArrayExpress, as detailed in (Lan et al., 2024). HR-VILAGE-3K3M extends the gene expression profiles from our previous collection by incorporating newly acquired data from recent studies. The metadata was obtained from GEO, ImmPort, and supplementary materials. Subject-level antibody titers were obtained from GEO, ImmPort, supplementary files, and by requesting them from study authors via email.
+
+
+
+
+
+
+Data processing.
+For bulk expression data, the profiling platforms and data processing states vary greatly across GEO (microarray and RNA-seq), ImmPort (microarray), and ArrayExpress (RNA-seq). GEO requires raw FASTQ files for RNA-seq but does not mandate raw microarray data. Advantageously, all Affymetrix microarray studies in HR-VILAGE-3K3M have raw CEL files. We thus processed them using a standardized pipeline that includes RMA normalization (Irizarry et al., 2003), probe-to-gene symbol mapping, Quantile Normalization (QN, (Bolstad et al., 2003a)), and log2⁡(x)\log_{2}(x) transformation. When multiple probes mapped to the same gene, the probe with the highest median expression was retained. For Illumina microarray data, raw IDAT files were rarely available, but most studies provided non-normalized intensity data, which were processed by mapping probes to gene symbols using Illumina annotation tables, followed by QN and log2⁡(x)\log_{2}(x) transformation. For RNA-seq, we mapped Ensembl IDs to HGNC gene symbols and provided raw counts data. In cases where only FASTQ files were available and raw counts were not provided, we performed read alignment and quantification to generate count matrices. All final expression matrices are provided at the gene level, with raw probe-level matrix data also available (when applicable) to support custom preprocessing workflows.
+
+
+
+
+
+
+For scRNA-seq, the studies provided variable data formats, including h5ad files, 10x matrix, and RObject files, with or without the metadata. We thus first integrate the metadata into the Python AnnData object (Virshup et al., 2024), merge the data from the same study, and align to have consistent gene identifiers and cell-level metadata. Then we process them with the standardized preprocessing pipeline, including removal of genes expressed in fewer than 10 cells, total-count normalization (target sum: 10,000), and log1p transformation. A dataset label was added to observations for tracking provenance. All scRNA-seq datasets were saved in AnnData (.h5ad) format, as it has an efficient processing speed and relatively smaller size. For visualization, all datasets were concatenated with an inner join over a shared set of 13,589 genes, with normalization, log1p transformation, Principal Component Analysis (PCA), neighborhood graph construction, and Uniform Manifold Approximation and Projection (UMAP, McInnes et al., 2018) embedding.
+
+
+
+
+Figure 1: Overview of HR-VILAGE-3K3M. (a) HR-VILAGE-3K3M construction workflow. (b) Distribution of sample timepoints for vaccine and inoculation studies, shown separately for bulk RNA-seq and single-cell RNA-seq datasets. (c) Composition of the dataset, stratified by platform, tissue type, study type, and pathogen, including both bulk and single-cell transcriptomic studies.
+
+
+
+
+Data quality control.
+Across all platforms, we observed variability in how gene identifiers were handled—some studies had already mapped probes or Ensembl IDs to gene symbols, while others had not. Even among those that did, gene symbol formatting was inconsistent, some with outdated or even misformatted entries (e.g., “14-Sep” instead of SEPTIN14) due to autoformatting by Excel (Ziemann et al., 2016). To ensure consistency and accuracy, we standardized all gene symbols using the HGNChelper R package (Oh et al., 2022), aligning them with current HGNC-approved nomenclature and removing entries that did not match official symbols.
+
+
+
+
+
+
+We also identified duplicate samples in different GEO datasets, which occurred when datasets are reused across multiple publications or submitted to GEO more than once (Liu et al., 2016; Woods et al., 2013; Huang et al., 2011; Zaas et al., 2009). We removed duplicate samples derived from the same subjects. Potential duplicates were flagged by reviewing study protocols and confirmed using Spearman correlation of gene expression profiles. For datasets originating from the same study group, we retained only the version with the most comprehensive timepoint coverage per subject and documented the duplicate study information on our data website to ensure transparency and traceability.
+
+
+
+
+
+
+We used GEO accession numbers as unique identifiers for each observation, ensuring that the row names of the metadata aligned with the row names of the gene expression matrices. A consistent subject identifier was also defined, allowing researchers to accurately link antibody measurements with metadata across studies. For gene-level quality control, probe IDs were mapped to gene symbols using platform-specific annotation tables from GEO, while Ensembl IDs were converted using the biomaRt package in R (Bruford et al., 2020). The resulting gene symbols were then standardized to official HGNC symbols using the HGNChelper R package (Oh et al., 2022).
+
+
+
+
+
+
+Additionally, for scRNA-seq, the primary expression matrix was verified or reassigned from raw count layers (raw_counts, counts, or equivalent). Sample-specific cell barcodes were prefixed with dataset identifiers to ensure uniqueness. All metadata fields of interest—such as donor ID, sample ID, time point (day), COVID status, sex, age, tissue type, and study type—were standardized across datasets. Missing columns were added where necessary and initialized with NA values, ensuring a consistent structure suitable for downstream integration and analysis. Duplicate metadata columns were removed to prevent merge conflicts. These steps ensured a harmonized, high-quality dataset suitable for downstream integration and analysis.
+
+
+
+
+
+
+Outcome definition.
+Different studies often have varying objectives and outcome definitions, making cross-study comparisons challenging. To address this, we established consistent outcome criteria across studies. For inoculation studies, infection status (infected vs. uninfected) and symptom status (symptomatic vs. asymptomatic) were typically predefined in the original publications (Liu et al., 2016; Habibi et al., 2020; Proud et al., 2008; Davenport et al., 2015; Muller et al., 2017). For influenza vaccine studies, we defined response status based on the Maximum Fold Change (MFC) in Hemagglutination Inhibition (HAI) titers: high responders were defined as having MFC ≥\geq 4 and a Day 28 HAI titer ≥\geq 40, while non-responders had MFC ≤\leq 1 (Team and Consortium, 2017). Participants who did not meet either threshold were classified as moderate responders. Raw antibody measurements for influenza studies are included in the antibody folder for reference and further analysis. For COVID-19 vaccine studies, where no universal response definition exists, we provided binding and neutralizing antibody data in the antibody folder, allowing users to define customized outcome criteria tailored to their research needs.
+
+
+
+
+
+
+Summary.
+We generated a rigorously processed meta-source benchmark expression dataset, HR-VILAGE-3K3M, comprising 3,178 participants and 14,136 expression profiles from 66 studies. It includes 462 participants (18–55 years) from 15 inoculation studies involving five viruses (H3N2, H1N1, HRV, RSV, and SARS-CoV-2), profiled at 1–23 time points. Additionally, it includes 2,412 participants (0.5–89+ years) from 47 influenza and COVID-19 vaccination studies, profiled at 1–22 time points, and 304 participants from four studies with mixed exposure, profiled at 2–7 time points. Figure 1b shows the bulk RNA-seq and scRNA-seq distribution of sample collection times following vaccination and inoculation, with dense sampling in the first few days for inoculation, while vaccination samples span longer durations—up to 180 and 360 days—though at lower frequencies. For each study, we provided both processed and raw gene expression data, along with the corresponding metadata and subject-level antibody information. Regarding sample types, 38 studies (58%) used whole blood, 23 (35%) used human peripheral blood mononuclear cells (PBMCs), and five (8%) used nasal swabs. Of these studies, 34 (52%) were conducted using microarray platforms, 25 (38%) using RNA-seq, and seven (11%) using 10x Genomics. In terms of study type, 15 (23%) were inoculation studies, 47 (71%) were vaccine studies, and 4 (6%) were mixed exposure studies, including post-vaccination infection, post-infection vaccination, and natural infection (Figure 1c). HR-VILAGE-3K3M provides a user-friendly platform for researchers to analyze the temporal dynamics of systems immunity to viral infections. The data is hosted on Hugging Face, enabling efficient access through Python with support for parallelized loading and selective retrieval. We also provide custom data splits for flexible loading by study type, tissue, and more. Our dataset is publicly available on Hugging Face at https://huggingface.co/datasets/xuejun72/HR-VILAGE-3K3M.
+
+
+
+
+
+
+4 Technical Validation
+
+
+
+
+
+In this section, we illustrate the utility of HR-VILAGE-3K3M through three representative analyses: outcome prediction using longitudinal bulk data and cell type annotation using paired bulk and single-cell data.
+
+
+
+
+
+4.1 Age and Sex Prediction Using Longitudinal Bulk Data
+
+
+
+
+
+We evaluated how well baseline whole-blood transcriptomes capture two fundamental biological traits—sex and age—using microarray and RNA-seq datasets from HR-VILAGE-3K3M. Sex prediction used a literature-curated set of Y-chromosome marker genes (Ellis et al., 2018), while age prediction leveraged genome-wide expression features within a cross-validation framework. These analyses served two purposes: (i) providing a robust quality-control (QC) screen for detecting potential sample mislabeling, and (ii) establishing a quantitative benchmark for predictive modeling across transcriptomic platforms.
+
+
+
+
+
+
+The analyses for sex prediction included 1,096 microarray and 646 RNA-seq baseline samples. Expression matrices were first quantile-normalized (QN) across all genes (Bolstad et al., 2003a), and RNA-seq data were further transformed using log2⁡(x+1)\log_{2}(x+1) to stabilize variance (Law et al., 2014). Y-chromosome marker genes were then selected from the normalized data, retaining only those expressed in all samples to ensure consistent cross-platform coverage. For each sample, a composite Y-score was computed as the sum of normalized expression values across all selected Y-chromosome marker genes. The optimal threshold separating males and females was determined using Youden’s JJ statistic(Youden, 1950), maximizing the difference between true-positive and false-positive rates (TPR – FPR) on the ROC curve. Samples with Y-scores above this threshold were classified as male, while those below were classified as female.
+
+
+
+
+
+
+The analyses for age prediction included 1,116 microarray and 784 RNA-seq baseline samples. Expression matrices were quantile-normalized (QN) (Bolstad et al., 2003a), and RNA-seq data were transformed using log2⁡(x+1)\log_{2}(x+1) to stabilize variance (Law et al., 2014). Genes missing in any sample were removed, and low-information genes (bottom 25% by mean and variance) were excluded to improve model stability. Age (in years) was used as the target variable. Within each cross-validation fold, the top 2,000 highly variable genes (HVGs) were selected from the training data (Yip et al., 2017), two modeling strategies were applied: (1) Ridge regression with L2 regularization optimized via RidgeCV (Hoerl and Kennard, 1970; Pedregosa et al., 2011), and (2) a Fully Connected Neural Network (FCNN) comprising two hidden layers (512 and 256 ReLU units), a dropout rate of 0.3, and the Adam optimizer (learning rate 1×10−31\times 10^{-3}) (Chollet and Team, 2015; Kingma, 2014). Early stopping and learning rate scheduling were employed to mitigate overfitting. Models were evaluated using 10-fold cross-validation with out-of-fold predictions (Arlot and Celisse, 2010). Performance metrics included the coefficient of determination (R2R^{2}) and mean absolute error (MAE, years), providing a consistent framework for assessing both linear and nonlinear age-related expression patterns across modalities.
+
+
+
+
+Table 1: Summary of Y-chromosome marker panels and classification performance.
+
+
+
+
+Dataset
+Number of Markers
+Threshold
+ROC-AUC
+
+
+
+
+
+Microarray
+11
+76.2183
+0.989
+
+
+
+RNA-seq
+9
+33.4438
+0.991
+
+
+
+
+
+Table 2: Age prediction performance across data modalities and models using top-2000 highly variable genes (HVGs). Values show mean (95% CI) across 5 CV folds.
+
+
+
+
+Dataset
+Model
+R2R^{2} (95% CI)
+MAE (years, 95% CI)
+
+
+
+
+
+Microarray
+FCNN
+0.855 (0.827, 0.882)
+6.47 (6.15, 6.79)
+
+
+
+RNA-seq
+FCNN
+0.704 (0.636, 0.773)
+6.88 (6.30, 7.47)
+
+
+
+Microarray
+Ridge Regression
+0.830 (0.806, 0.854)
+7.84 (7.59, 8.10)
+
+
+
+RNA-seq
+Ridge Regression
+0.674 (0.575, 0.773)
+7.56 (6.90, 8.22)
+
+
+
+
+
+
+
+Across both data modalities, baseline whole-blood transcriptomes captured strong and biologically consistent signals for both sex and age. The Y-chromosome marker–based classifiers achieved near-perfect discrimination between males and females, with ROC-AUC values of 0.989 for the microarray and 0.991 for the RNA-seq datasets (Table 1). For age prediction, Ridge regression models achieved R2=0.829R^{2}=0.829 (MAE = 7.90 years) for microarray and R2=0.708R^{2}=0.708 (MAE = 7.26 years) for RNA-seq, while the FCNN further improved performance to R2=0.859R^{2}=0.859 and R2=0.728R^{2}=0.728, respectively (Table 2). These results demonstrate that baseline transcriptomic profiles encode substantial age-related variation, with deep neural architectures capturing modest nonlinear gains. Microarray data yielded slightly higher predictive stability than RNA-seq, likely reflecting differences in cohort composition and platform-specific variability rather than intrinsic disparities in biological signal.
+
+
+
+
+
+
+4.2 Outcome Prediction Using Longitudinal Bulk Data
+
+
+
+
+
+To demonstrate the utility of the HR-VILAGE-3K3M dataset for evaluating batch effect correction and predictive modeling, we conducted a comprehensive benchmark analysis. We selected 19 influenza vaccine studies comprising 1,210 participants with balanced numbers of high and low antibody responders. Gene expression profiles for these participants spanned 1 to 19 time points, and we retained only samples collected during the early immune response window (prior to day 28 before antibody measurement). To stabilize variance, RNA-seq data were log-transformed using log2⁡(x+1)\log_{2}(x+1), and genes in the bottom 25% of both mean expression and variance were removed to reduce technical noise.
+
+
+
+
+
+
+We applied three batch effect correction methods—QN (Bolstad et al., 2003a), ComBat (Johnson et al., 2007), and Regression from scanpy (Wolf et al., 2018)—using study identifiers as the batch variable. To assess the effectiveness of these corrections, we visualized batch and outcome separation using t-SNE projections of the normalized gene expression data, highlighting clustering by both study and responder status.
+
+
+
+
+
+
+For predictive modeling, we first applied a PCA + generalized estimating equations (GEE) framework with an exchangeable working correlation structure to account for within-subject dependence. Gene expression data were projected onto the top 200 principal components (PCs) from the training folds and combined with a centered and scaled time covariate as well as categorical vaccine and tissue predictors. These features were used in a binomial GEE with robust variance estimators, and subject-level outcomes were summarized by majority vote across sample-level predictions. The second strategy used deep learning models, including Recurrent Neural Network (RNN) (Elman, 1990; Rumelhart et al., 1986), Long Short-Term Memory (LSTM) (Hochreiter and Schmidhuber, 1997), Gated Recurrent Unit (GRU) (Cho et al., 2014), and a Transformer (Vaswani et al., 2017). Time-ordered gene expression sequences were constructed for each subject, padded to a fixed length, and concatenated with numeric timepoints. In the Transformer, temporal information was encoded using Fourier-based positional encodings and two Pre-Norm encoder layers with multi-head attention, feed-forward blocks, and residual connections. Encoded representations were aggregated via masked mean pooling and passed through fully connected layers for binary classification. All models were trained using binary cross-entropy loss with the AdamW optimizer (Kingma, 2014) and evaluated via stratified 5-fold cross-validation repeated across six random seeds.
+
+
+
+
+Figure 2: Evaluation of Batch Effect Correction and Predictive Modeling on the HV-RIGEL-3K Dataset. (a) Batch Effect Correction Visualization. t-SNE plots display sample clustering before and after batch effect correction using QN, Regression, and ComBat. Points are colored by responder status (left panels) or study ID (right panels) to assess preservation of biological signal and reduction of batch-specific variation. (b) Antibody Responder Prediction Performance. Bar plots show mean accuracy, AUC, and F1 score across five modeling approaches—PCA-GEE, RNN, LSTM, GRU, and Transformer—under three batch correction methods (QN, Regression, ComBat). Results are averaged across stratified 5-fold cross-validation and six random seeds. 
+
+
+
+
+Batch effect correction. The QN-corrected data show clear separation by study (indicating preserved batch effects) but also better within-study separation by outcome. Regression moderately mixes study batches while retaining some biological structure. ComBat achieves the strongest batch mixing, as indicated by overlapping study clusters, but this comes at the cost of reduced separation between responder groups (Figure 2a).
+
+
+
+
+
+
+Antibody Responder Prediction.
+With quantile normalization (QN), the Transformer achieved the best overall performance, reaching the highest AUC (0.737) and accuracy (0.663), underscoring its ability to capture temporal dependencies in longitudinal gene expression data. Recurrent models (RNN, LSTM, GRU) showed moderate performance, with AUCs ranging from 0.602 to 0.702, while ComBat and Regression corrections generally produced lower scores. Overall, QN correction consistently enhanced predictive performance. These findings highlight the HR-VILAGE-3K3M dataset’s value as a benchmark for evaluating models of immune response dynamics (Figure 2b).
+
+
+
+
+
+
+4.3 Cell Type Annotation Using Paired Bulk and Single-Cell Data
+
+
+
+
+
+In this analysis, we investigated immune cell-type dynamics using paired bulk RNA-seq and scRNA-seq data from SARS-CoV-2 vaccine studies, with PBMCs samples collected from the same subjects on Day 1 and Day 7 from datasets GSE201533 and GSE201534.
+
+
+
+
+Figure 3: Comparison of immune cell-type composition and transcriptional activity using paired single-cell and bulk RNA-seq. (a) UMAP visualization of scRNA-seq data showing major immune cell types, colored by cell type annotation. (b) Bar plot of estimated immune cell-type proportions at Day 1 and Day 7 derived from single-cell RNA-seq data. (c) Bar plot of xCell enrichment scores for the same cell types based on bulk RNA-seq data at Day 1 and Day 7.
+
+
+
+
+For the single-cell data, since the original study lacked curated cell type annotations, we utilized two automated annotation methods, SingleR (a reference-based approach, (Aran et al., 2019) and GPTCelltype (a language-model-based approach, (Hou and Ji, 2024). Upon comparison, we observed that SingleR frequently produced rare or biologically implausible annotations, often assigning cell types with fewer than 100 cells or labels not typically present in PBMCs. Therefore, we supplemented and refined the annotation using GPTCelltype results to ensure biological consistency. The final annotation revealed that T cells comprised the dominant immune population (over 50%) at both time points, followed by Natural Killer (NK) cells and B cells (15–20% each). Monocytes were detected at lower proportions (Figure 3a).
+
+
+
+
+
+
+For the bulk data, we applied the xCell (Aran et al., 2017) algorithm to estimate enrichment scores for major immune cell types, including B cells, T cells, monocytes, and natural killer cells. Enrichment scores were computed by aggregating xCell subtype scores into cell type level, followed by averaging across samples for each time point. Unlike scRNA-seq-based proportions, xCell scores from bulk RNA-seq reflect both immune cell-type abundance and transcriptional activity, as the algorithm infers enrichment scores based on predefined gene signatures that capture cell-type-specific expression patterns. Importantly, xCell scores are not compositional and are not constrained to sum to one as they are influenced not only by cell frequency but also by the activation state of the cell populations.
+
+
+
+
+
+
+Comparison between the two modalities reveals consistent temporal trends (Figure 3b–c). Both scRNA-seq–derived cell proportions and xCell enrichment scores indicate an increase in B cells from Day 1 to Day 7, alongside a decrease in monocytes and NK cells. In contrast, T cell levels remain relatively stable across timepoints in the scRNA-seq data, while a modest decline in xCell scores may reflect reduced transcriptional activity or shifts in T cell activation states rather than changes in abundance.
+
+
+
+
+
+
+
+5 Potential HR-VILAGE-3K3M Applications
+
+
+
+
+
+Change point detection.
+The high-resolution transcriptomic data also enable the detection of the onset of cellular or pathway activation using change point analysis. Genes that exhibit the earliest expression changes in a pathway post-immunization are more likely to be driver genes. Additionally, the characteristics of HR-VILAGE-3K3M, including irregular sampling intervals, variable timepoints, and heterogeneous individual responses, make it particularly well-suited for benchmarking change point detection algorithms (Figure 4a). Furthermore, the availability of single-cell data facilitates the investigation of temporal changes in specific immune cell subsets, such as monocytes or T cells, including shifts in their abundance and pathway-level activation dynamics following immunization.
+
+
+
+
+Figure 4: Potential tasks using HR-VILAGE-3K3M. (a) Change point detection. (b) Gene expression imputation. (c) Causal inference (d) Deconvolution. (e) Building prediction model. (f) Pretraining and fine-tuning. 
+
+
+
+
+Gene expression imputation.
+Due to platform-specific differences, the bulk transcriptomic datasets in HR-VILAGE-3K3M exhibit a distinct pattern of missingness, where gene availability is largely determined by the study and profiling platform. This deviates from the assumptions of Missing Completely at Random (MCAR) or Missing at Random (MAR), posing challenges for data integration and downstream analysis. HR-VILAGE-3K3M thus serves as a valuable benchmark for developing and evaluating imputation methods specifically designed to address this structured missingness, thereby enhancing the utility of heterogeneous transcriptomic data (Figure 4b).
+
+
+
+
+
+
+Causal inference.
+Longitudinal studies are particularly effective at establishing cause-and-effect relationships. The HR-VILAGE-3K3M dataset, which contains multiple high-resolution transcriptomic data, offers valuable opportunities to develop advanced statistical methods, such as cross-lagged panel models, structural equation modeling, and dynamic causal modeling, to infer causal relationships. It enhances the validity of causal inferences by controlling for time-varying confounders and reducing biases associated with cross-sectional data. Additionally, the immunization longitudinal dataset captures temporal dynamic changes induced by immunization in the transcriptomic network structure, providing deeper insights into how immunization impacts the regulatory network (Figure 4c).
+
+
+
+
+
+
+Deconvolution.
+Two studies in HR-VILAGE-3K3M contain longitudinal paired bulk and single-cell gene expression data from the same individuals. Using time-series paired samples improves the accuracy of deconvolution methods due to the consistent biological context. Additionally, paired datasets allow for cross-validation, where single-cell data can be used to validate and refine the deconvolution results obtained from bulk data (Figure 4d).
+
+
+
+
+
+
+Building Prediction Model.
+Longitudinal data that integrates bulk and single-cell transcriptomics with clinical and antibody measurements provides a rich foundation for predictive modeling using multimodal deep learning. Models such as RNNs, LSTMs, GRUs, and Transformers are well-suited to capture temporal patterns and cross-modal relationships within this heterogeneous data. These approaches can support a wide range of prediction tasks, including classification (e.g., vaccine responder vs. non-responder), regression (e.g., prediction of antibody titers). By incorporating multiple biological and clinical modalities, these models enable the discovery of early immune signatures, enhance interpretability, and support applications such as risk stratification, response prediction, and personalized immunization strategies (Figure 4e).
+
+
+
+
+
+
+Pretraining and Fine-Tuning.
+The scale of heterogeneity of HR-VILAGE-3K3M makes it a resource for pretraining foundation models to capture complex human immune response dynamics to vaccination and inoculation. By integrating data from a diverse set of studies across platforms, tissues, timepoints, and pathogens, the dataset provides rich biological variation that can drive generalizable feature learning. After pretraining, the model can then be adapted through adaptive fine-tuning for specific downstream tasks (outcome prediction), and transfer learning to smaller, underpowered datasets that benefit from shared temporal or biological structure (Figure 4f).
+
+
+
+
+
+
+Overall, HR-VILAGE-3K3M provides a large, high-quality dataset that enables a wide range of downstream analyses and methodological development in systems immunology. By integrating longitudinal gene expression datasets from diverse studies and platforms, HR-VILAGE-3K3M supports the study of dynamic immune responses over time, facilitates cross-study comparisons, and allows robust benchmarking of computational tools.
+
+
+
+
+
+
+6 Author Contribution
+
+
+
+
+
+Conceptualization: X.S., F.Z., X.Z.; Methodology: X.S., F.Z., X.Z.; Data curation: X.S., Y.S., X.Z., X.L., R.P., X.Z.; Data infrastructure and resource development: R.C., Data preprocessing and quality control: X.S., Y.S., Y.Z., J.X., M.T.; Data integration: X.S; Data analysis: X.S., Y.S.; Investigation: L.P., B.Z., J.S.H., R.J.P., D.L.; Validation: X.S., F.Z., X.Z.; Supervision: F.Z., X.Z.; Writing—original draft preparation: X.S., Y.S., F.Z., X.Z.; Writing—review and editing: L.P., B.Z., J.S.H., R.J.P., D.L., F.Z., X.Z.
+
+
+
+
+
+
+7 Acknowledgment
+
+
+
+
+
+We sincerely thank the researchers who generously provided additional data for this work, including Simone Lucchesi, Ali H. Ellebedy, Hye Kyung Lee, Leonie M. Weskamm, Reinhold Förster, Swantje I. Hammerschmidt, Ellie N. Ivanova, Helder Nakaya, Xiaojun Li, and Ryan Thwaites. Their support significantly improved the quality and completeness of the HR-VILAGE-3K3M resource.
+
+
+
+
+
+
+We also gratefully acknowledge the researchers who responded to our outreach and provided helpful clarifications, including Hildegund Ertl, John Wherry, Kai Huang, Patricia W. Finn, Octavio Ramilo, Damien Chaussabel, Ellie Ivanova, Steven Kleinstein, Hailong Meng, Darawan Rinchai, Lothar Hennighausen, Maike Buchner, Leonie M. Weskamm, Qiuyu Gong, Claire E. Gustafson, and Purvesh Khatri. We sincerely appreciate their time, insights, and willingness to engage with our team.
+
+
+
+
+
+
+8 Funding
+
+
+
+
+
+This work did not receive funding.
+
+
+
+
+
+
+9 Disclosure statement
+
+
+
+
+
+The authors declare that they have no conflict of interest
+
+
+
+
+
+
+10 Data Availability Statement
+
+
+
+
+
+The HR-VILAGE-3K3M dataset is available on Hugging Face (xuejun72/HR-VILAGE-3K3M), with analysis code accessible on both Hugging Face and GitHub (XuejunSun98/HR-VILAGE-3K3M). Version 1 was released on May 17, 2025, followed by version 2 on October 13, 2025.
+
+
+
+
+
+
+
+
+
+Supplementary Information
+
+
+
+
+Supplementary 1 List of Studies Included in the HR-VILAGE-3K3M Dataset
+
+
+
+
+
+We include the full list of reference of our dataset Lindeboom et al., 2024; Proud et al., 2008; Davenport et al., 2015; Muller et al., 2017; Habibi et al., 2020; Liu et al., 2016; Zhai et al., 2015; Sparks et al., 2023; Jochems et al., 2018; Nakaya et al., 2015; Franco et al., 2013; Bucasas et al., 2011; Furman et al., 2013; Furman et al., 2014; Furman et al., 2017; Thakar et al., 2015; Avey et al., 2020; Tsang et al., 2014; Rinchai et al., 2022; Forst et al., 2022; Odak et al., 2024; Lee et al., 2022b; Lee et al., 2022a; Lee et al., 2022c; Lee et al., 2022d; Ryan et al., 2023; Watanabe et al., 2023; Drury et al., 2024; Grewe et al., 2024; Chang et al., 2024a; Chang et al., 2024b; Arunachalam et al., 2021; Wimmers et al., 2021; Aydillo et al., 2022; Thwaites et al., 2023; Nakaya et al., 2011; Cao et al., 2014; Obermoser et al., 2013; Narang et al., 2018; Monaco et al., 2019; Carre et al., 2021; Henn et al., 2013; Sarin et al., 2024; Huang et al., 2024; Ivanova et al., 2023; Kim et al., 2022; Lindeboom et al., 2023; Stephenson et al., 2024; Blazkova et al., 2017; Alpert et al., 2019; Tomic et al., 2019
+
+
+
+
+
+
+Supplementary 2 Experimental Compute Details
+
+
+
+
+
+Bulk data preprocessing and multimodal data alignment were performed locally using RStudio on a personal computer (Apple M4 chip, 16GB RAM, macOS). Single-cell preprocessing and antibody prediction model development were performed on an HPC cluster environment. Interactive Jupyter notebook sessions were configured with 4 CPU cores and 150 GB of RAM, without GPU acceleration. For memory-intensive operations such as merging single-cell datasets, batch jobs were submitted with increased computational resources, including up to 700 GB of RAM. Single-cell annotation was conducted in RStudio on the HPC cluster, utilizing up to 100 GB of RAM to accommodate tasks such as dimensionality reduction, clustering, and label assignment. Cell-type enrichment analysis was performed locally using the xCell R package, as it required minimal computational overhead. The combination of local and HPC-based computation ensured efficient execution of both lightweight preprocessing steps and computationally intensive deep learning models, ensuring scalability and reproducibility throughout the study.
+
+
+
+
+
+
+Supplementary 3 Antibody Responder Prediction Details
+
+
+
+
+
+Data filtering and sample filtering. We filtered studies based on biological relevance, retaining only influenza vaccine studies that included antibody measurements. Studies with extremely unbalanced responder distributions were excluded to ensure reliable model training. Additionally, we restricted the dataset to samples collected within the early immune response window (before day 28) and removed samples from control or placebo arms to focus on true vaccine-induced responses.
+
+
+
+
+
+
+Normalization and batch effect correction. For RNA-seq samples, we applied a log2(x + 1) transformation to stabilize variance. Genes with low signal—specifically those in the lowest 25% of both mean expression and variance—were removed to reduce noise. Batch effects were addressed using three normalization strategies: Quantile Normalization (QN,Bolstad et al., 2003a) mimicking the R normalize.quantiles method, ComBat (Johnson et al., 2007) adjustment, and regression of batch effects using scanpy (Wolf et al., 2018).
+
+
+
+
+
+
+Padding. For each subject, we created a time-ordered matrix combining gene expression with numeric timepoint values, and padded sequences to a uniform maximum length (maximum number of observations).
+
+
+
+
+
+
+PCA + GEE Baseline.
+To establish a population-averaged baseline for longitudinal prediction, we applied a generalized estimating equations (GEE) model to principal components (PCs) of the normalized gene-expression matrix. We computed the top 15 PCs—capturing the bulk (> 80%) of the variance—to reduce dimensionality and multicollinearity while retaining the dominant biological signal, and included the numeric timepoint as a covariate to account for temporal trends. Model performance was assessed with stratified 5-fold cross-validation repeated across six random seeds; test-set predictions were aggregated to the subject level via majority vote over visits.
+
+
+
+
+
+
+RNN, LSTM, and GRU Models. To capture temporal patterns in the longitudinal gene expression data, we implemented three deep learning sequence models: SimpleRNN (Elman, 1990; Rumelhart et al., 1986), LSTM (Hochreiter and Schmidhuber, 1997), and GRU (Cho et al., 2014). Each model was designed with a single recurrent layer of 64 hidden units followed by a dropout layer (rate = 0.4) to reduce overfitting and a final dense sigmoid output layer for binary classification. We used a masking layer to handle varying sequence lengths and padded all sequences to a unified maximum time length. The models were trained with the Adam optimizer (Kingma, 2014) (learning rate = 1e-4), binary cross-entropy loss, and a batch size of 64 for 20 epochs. To ensure robust evaluation, stratified 5-fold cross-validation was repeated across six random seeds. These hyperparameters were chosen based on common practice in biomedical time-series modeling and to maintain consistency across architectures for fair comparison across batch correction methods (QN, ComBat, and Regression).
+
+
+
+
+
+
+Transformer Model.
+To capture temporal patterns and feature interactions in longitudinal gene expression data, we implemented a custom Transformer architecture (Vaswani et al., 2017).
+At each visit, gene expression features were concatenated with the numeric timepoint, projected through a dense layer, and passed to a MultiHeadAttention mechanism (4 heads, key dimension 64) followed by layer normalization.
+The resulting sequence representations were aggregated via global average pooling and fed into dense layers with dropout for regularization.
+A final sigmoid output layer performed binary classification to predict immune response.
+The model was trained using the Adam optimizer (learning rate 1×10−41\times 10^{-4}), binary cross-entropy loss, a batch size of 16, and up to 100 epochs. Stratified 5-fold cross-validation was repeated across six random seeds to ensure robust evaluation.
+
+
+
+
+
+
+t-SNE Details. We run t-SNE using the TSNE class from the sklearn.manifold (Pedregosa et al., 2011) module in Python. The input data matrix X (typically with shape: samples ×\times features) is transformed into a 2-dimensional space using fit_transform(X). Key parameters include n_components=2 for 2D embedding, perplexity=30 to balance local and global data structure, max_iter=1000 for optimization convergence, and random_state=42 for reproducibility. The resulting output is a 2D array where each row corresponds to the t-SNE embedding of the original sample, preserving the original row indexing.
+
+
+
+
+
+
+Supplementary 4 xCell Details
+
+
+
+
+
+We used xCell (Aran et al., 2017), a gene signature-based method, to estimate the relative enrichment scores of 64 immune and stromal cell types from bulk transcriptomic data. xCell integrates gene expression signatures with spillover compensation to deconvolute cellular heterogeneity in bulk samples, making it especially suitable for inferring cell-type activity in immune-related studies.
+
+
+
+
+
+
+In our analysis, normalized bulk gene expression matrices were used as input to the xCell R package (v1.1.0). The xCell scores were computed using the default pipeline, which includes transformation of gene expression values, enrichment score calculation using single-sample gene set enrichment analysis (ssGSEA, Barbie et al., 2009), and subsequent spillover compensation. The resulting cell-type enrichment scores range from 0 to 1 and reflect the relative abundance or activity of each cell type within the bulk sample.
+
+
+
+
+
+
+To define a representative score for each immune cell type, we grouped the 64 xCell cell types into broader immune categories (e.g., B cells, T cells, NK cells, monocytes). For each group, we computed the mean xCell enrichment score across the constituent subtypes. Since the xCell enrichment scores for the 64 cell types are not mutually exclusive and often exhibit overlap in gene signatures, we did not use the sum of the enrichment scores to approximate overall immune cell proportions, as is commonly done in methods that produce compositional outputs. For example, the T cell score was defined as the average of the xCell scores for CD4+ naive T cells, CD4+ memory T cells, CD8+ T cells, regulatory T cells, and other annotated T cell subsets. This grouping strategy enabled a more interpretable summary of immune landscape variations across samples.
+
+
+
+
+
+
+Supplementary 5 Single-Cell Annotation Details
+
+
+
+SingleR-Based Annotation
+
+
+
+
+To annotate major immune cell types in the scRNA-seq datasets, we used the SingleR package Aran et al. (2019), which assigns cell types to single cells by comparing their expression profiles to reference transcriptomic datasets. We used the HumanPrimaryCellAtlasData() from the celldex package as the reference. The Seurat object was converted to a SingleCellExperiment format using as.SingleCellExperiment(), and annotation was performed with the following call:
+
+
+
+
+
+
+predictions <- SingleR(test = sce, ref = ref, labels = ref$label.main)
+
+
+
+
+
+
+
+Predicted labels were stored in the $SingleR_labels field of the Seurat object. The process was applied independently to each dataset (e.g., GSE201534, GSE246937), and visualizations were generated using DimPlot().
+
+
+
+
+
+
+
+GPTCelltype Annotation
+
+
+
+
+
+We used the GPTCelltype Hou and Ji (2024) to assign high-level cell annotations based on multi-resolution clustering and GPT-4-based label prediction. The method leverages large language models (LLMs) to interpret differentially expressed genes and return biologically coherent labels. The annotation pipeline involves the following steps. For each cell cluster, we identified the top differentially expressed genes using the Wilcoxon rank-sum test. The top 10 marker genes per cluster were selected based on adjusted p-values and log fold changes. We use the model gpt-4o and a tissue-specific prompt: “human peripheral blood mononuclear cells (PBMCs)”. The example function call is as below:
+
+
+
+
+
+
+annotation_result <- GPTCelltype::gptcelltype(markers, model = "gpt-4o",
+tissuename = "human peripheral blood mononuclear cells (PBMCs)")
+
+
+
+
+
+Merging SingleR and GPTCelltype Annotations
+
+
+
+
+To ensure biological validity and avoid overannotation, we applied a harmonized approach. Low-confidence or rare SingleR annotations (defined as cell types with fewer than 100 cells) and biologically implausible labels were removed. Missing or ambiguous annotations were replaced by GPTCelltype labels. The example function call is as follows:
+
+
+
+
+
+
+low_count_labels <- names(table(obj$SingleR_labels)[table(obj$SingleR_labels) < 100])
+obj$cell_type <- obj$SingleR_labels
+obj$cell_type[obj$SingleR_labels %in% low_count_labels] <- NA
+obj$cell_type[is.na(obj$cell_type)] <-obj$celltype_res.0.1[is.na(obj$cell_type)]
+
+
+
+Final labels were stored in the $cell_type field and used for downstream proportion and visualization analyses (e.g., UMAPs and bar plots). A final harmonization step was conducted to unify terminology across datasets.
+
+
+
+
+
+UMAP Visualization
+
+
+
+
+We utilized the Seurat R package Hao et al. (2023) for dimensionality reduction and visualization. Uniform Manifold Approximation and Projection (UMAP) embeddings were computed using the RunUMAP() function, following principal component analysis (PCA) for initial dimensionality reduction. Annotated plots were generated with DimPlot(), enabling visualization of distinct cell clusters. To enhance the interpretability of these plots, we applied color palettes from the RColorBrewer package Neuwirth (2022).
+
+
+
+
+
+
+
+
+References
+
+
+
+Alpert et al. (2019)
+A. Alpert, Y. Pickman, M. Leipold, Y. Rosenberg-Hasson, X. Ji, R. Gaujoux, H. Rabani, E. Starosvetsky, K. Kveler, S. Schaffert, et al.
+
+A clinically meaningful metric of immune age derived from high-dimensional longitudinal monitoring.
+
+Nature medicine 25 (3), pp. 487–495.
+
+Cited by: §Supplementary 1.
+
+Aran et al. (2017)
+D. Aran, Z. Hu, and A. J. Butte
+
+XCell: digitally portraying the tissue cellular heterogeneity landscape.
+
+Genome biology 18, pp. 1–14.
+
+Cited by: §4.3,
+§Supplementary 4.
+
+Aran et al. (2019)
+D. Aran, M. R. Looney, E. Liu, et al.
+
+Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage.
+
+Nature immunology 20 (2), pp. 163–172.
+
+Cited by: §4.3,
+§Supplementary 5.
+
+Arlot and Celisse (2010)
+S. Arlot and A. Celisse
+
+A survey of cross-validation procedures for model selection.
+
+Statistics Surveys 4, pp. 40–79.
+
+Cited by: §4.1.
+
+Arunachalam et al. (2021)
+P. S. Arunachalam, M. K. Scott, T. Hagan, C. Li, Y. Feng, F. Wimmers, L. Grigoryan, M. Trisal, V. V. Edara, L. Lai, et al.
+
+Systems vaccinology of the bnt162b2 mrna vaccine in humans.
+
+Nature 596 (7872), pp. 410–416.
+
+Cited by: §Supplementary 1.
+
+Avey et al. (2020)
+S. Avey, S. Mohanty, D. G. Chawla, H. Meng, T. Bandaranayake, I. Ueda, H. J. Zapata, K. Park, T. P. Blevins, S. Tsang, et al.
+
+Seasonal variability and shared molecular signatures of inactivated influenza vaccination in young and older adults.
+
+The Journal of Immunology 204 (6), pp. 1661–1673.
+
+Cited by: §Supplementary 1.
+
+Aydillo et al. (2022)
+T. Aydillo, A. S. Gonzalez-Reiche, D. Stadlbauer, M. A. Amper, V. D. Nair, C. Mariottini, S. C. Sealfon, H. Van Bakel, P. Palese, F. Krammer, et al.
+
+Transcriptome signatures preceding the induction of anti-stalk antibodies elicited after universal influenza vaccination.
+
+npj Vaccines 7 (1), pp. 160.
+
+Cited by: §Supplementary 1.
+
+Barbie et al. (2009)
+D. A. Barbie, P. Tamayo, J. S. Boehm, S. Y. Kim, S. E. Moody, I. F. Dunn, A. C. Schinzel, P. Sandy, E. Meylan, C. Scholl, et al.
+
+Systematic rna interference reveals that oncogenic kras-driven cancers require tbk1.
+
+Nature 462 (7269), pp. 108–112.
+
+Cited by: §Supplementary 4.
+
+Barrett et al. (2012)
+T. Barrett, S. E. Wilhite, P. Ledoux, C. Evangelista, I. F. Kim, M. Tomashevsky, K. A. Marshall, K. H. Phillippy, P. M. Sherman, M. Holko, et al.
+
+NCBI geo: archive for functional genomics data sets—update.
+
+Nucleic acids research 41 (D1), pp. D991–D995.
+
+Cited by: §1.
+
+Bender et al. (2024)
+R. G. Bender, S. B. Sirota, L. R. Swetschinski, R. V. Dominguez, A. Novotney, E. E. Wool, K. S. Ikuta, A. Vongpradith, E. L. B. Rogowski, M. Doxey, et al.
+
+Global, regional, and national incidence and mortality burden of non-covid-19 lower respiratory infections and aetiologies, 1990–2021: a systematic analysis from the global burden of disease study 2021.
+
+The Lancet Infectious Diseases 24 (9), pp. 974–1002.
+
+Cited by: §1.
+
+Bhattacharya et al. (2018)
+S. Bhattacharya, P. Dunn, C. G. Thomas, B. Smith, H. Schaefer, J. Chen, Z. Hu, K. A. Zalocusky, R. D. Shankar, S. S. Shen-Orr, et al.
+
+ImmPort, toward repurposing of open access immunological assay data for translational and clinical research.
+
+Scientific data 5 (1), pp. 1–9.
+
+Cited by: §1.
+
+Blazkova et al. (2017)
+J. Blazkova, S. Gupta, Y. Liu, B. Gaudilliere, E. A. Ganio, C. R. Bolen, R. Saar-Dover, G. K. Fragiadakis, M. S. Angst, S. Hasni, et al.
+
+Multicenter systems analysis of human blood reveals immature neutrophils in males and during pregnancy.
+
+The Journal of Immunology 198 (6), pp. 2479–2488.
+
+Cited by: §Supplementary 1.
+
+Bolstad et al. (2003a)
+B. M. Bolstad, R. A. Irizarry, M. Åstrand, and T. P. Speed
+
+A comparison of normalization methods for high density oligonucleotide array data based on variance and bias.
+
+Bioinformatics 19 (2), pp. 185–193.
+
+Cited by: §3,
+§4.1,
+§4.1,
+§4.2,
+§Supplementary 3.
+
+Bolstad et al. (2003b)
+B. M. Bolstad, R. A. Irizarry, M. Astrand, and T. P. Speed
+
+A comparison of normalization methods for high density oligonucleotide array data based on variance and bias.
+
+Bioinformatics 19 (2), pp. 185–193.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Bruford et al. (2020)
+E. A. Bruford, B. Braschi, P. Denny, T. E. Jones, R. L. Seal, and S. Tweedie
+
+Guidelines for human gene nomenclature.
+
+Nature genetics 52 (8), pp. 754–758.
+
+Cited by: §1,
+§3.
+
+Bucasas et al. (2011)
+K. L. Bucasas, L. M. Franco, C. A. Shaw, M. S. Bray, J. M. Wells, D. Niño, N. Arden, J. M. Quarles, R. B. Couch, and J. W. Belmont
+
+Early patterns of gene expression correlate with the humoral immune response to influenza vaccination in humans.
+
+The Journal of infectious diseases 203 (7), pp. 921–929.
+
+Cited by: §Supplementary 1.
+
+Cao et al. (2014)
+R. G. Cao, N. M. Suarez, G. Obermoser, S. M. Lopez, E. Flano, S. E. Mertz, R. A. Albrecht, A. García-Sastre, A. Mejias, H. Xu, et al.
+
+Differences in antibody responses between trivalent inactivated influenza vaccine and live attenuated influenza vaccine correlate with the kinetics and magnitude of interferon signaling in children.
+
+The Journal of infectious diseases 210 (2), pp. 224–233.
+
+Cited by: §Supplementary 1.
+
+Carre et al. (2021)
+C. Carre, G. Wong, V. Narang, C. Tan, J. Chong, H. X. Chin, W. Xu, Y. Lu, M. Chua, M. Poidinger, et al.
+
+Endoplasmic reticulum stress response and bile acid signatures associate with multi-strain seroresponsiveness during elderly influenza vaccination.
+
+Iscience 24 (9).
+
+Cited by: §Supplementary 1.
+
+Chang et al. (2024a)
+Y. Chang, K. Huang, J. M. Lee, C. L. Vagts, C. Ascoli, M. Amin, M. Ghassemi, C. M. Lora, R. Edafetanure-Ibeh, Y. Huang, et al.
+
+Altered transcriptomic immune responses of maintenance hemodialysis patients to the covid-19 mrna vaccine.
+
+Elife 13, pp. e83641.
+
+Cited by: §Supplementary 1.
+
+Chang et al. (2024b)
+Y. Chang, J. M. Lee, K. Huang, C. L. Vagts, C. Ascoli, R. Edafetanure-Ibeh, Y. Huang, R. A. Cherian, N. Sarup, S. R. Warpecha, et al.
+
+Network analysis of dysregulated immune response to covid-19 mrna vaccination in hemodialysis patients.
+
+Vaccines 12 (10), pp. 1146.
+
+Cited by: §Supplementary 1.
+
+Cho et al. (2014)
+K. Cho, B. Van Merriënboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio
+
+Learning phrase representations using rnn encoder-decoder for statistical machine translation.
+
+arXiv preprint arXiv:1406.1078.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Chollet and Team (2015)
+F. Chollet and K. Team
+
+Keras.
+
+Note: https://keras.ioVersion X.Y.Z; accessed 2025-11-06
+
+Cited by: §4.1.
+
+Chow et al. (2023)
+E. J. Chow, T. M. Uyeki, and H. Y. Chu
+
+The effects of the covid-19 pandemic on community respiratory virus activity.
+
+Nature Reviews Microbiology 21 (3), pp. 195–210.
+
+Cited by: §1.
+
+Davenport et al. (2015)
+E. E. Davenport, R. D. Antrobus, P. J. Lillie, S. Gilbert, and J. C. Knight
+
+Transcriptomic profiling facilitates classification of response to influenza challenge.
+
+Journal of molecular medicine 93, pp. 105–114.
+
+Cited by: §1,
+§3,
+§Supplementary 1.
+
+Drury et al. (2024)
+R. E. Drury, S. Camara, I. Chelysheva, S. Bibi, K. Sanders, S. Felle, K. Emary, D. Phillips, M. Voysey, D. M. Ferreira, et al.
+
+Multi-omics analysis reveals covid-19 vaccine induced attenuation of inflammatory responses during breakthrough disease.
+
+Nature Communications 15 (1), pp. 3402.
+
+Cited by: §Supplementary 1.
+
+Ellis et al. (2018)
+S. E. Ellis, L. Collado-Torres, A. E. Jaffe, and J. T. Leek
+
+Sex differences in gene expression and regulatory networks across human tissues.
+
+Genome Biology 19 (1), pp. 1–14.
+
+Cited by: §4.1.
+
+Elman (1990)
+J. L. Elman
+
+Finding structure in time.
+
+Cognitive science 14 (2), pp. 179–211.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Forst et al. (2022)
+C. V. Forst, M. Chung, M. Hockman, L. Lashua, E. Adney, A. Hickey, M. Carlock, T. Ross, E. Ghedin, and D. Gresham
+
+Vaccination history, body mass index, age, and baseline gene expression predict influenza vaccination outcomes.
+
+Viruses 14 (11), pp. 2446.
+
+Cited by: §Supplementary 1.
+
+Fourati et al. (2022)
+S. Fourati L. E. Tomalin et al.
+
+Pan-vaccine analysis reveals innate immune endotypes predictive of antibody responses to vaccination.
+
+Nature Immunology 23 (12), pp. 1770–1780.
+
+External Links: Document
+
+Cited by: §2.1.
+
+Franco et al. (2013)
+L. M. Franco, K. L. Bucasas, J. M. Wells, D. Niño, X. Wang, G. E. Zapata, N. Arden, A. Renwick, P. Yu, J. M. Quarles, et al.
+
+Integrative genomic analysis of the human immune response to influenza vaccination.
+
+Elife 2, pp. e00299.
+
+Cited by: §Supplementary 1.
+
+Furman et al. (2017)
+D. Furman, J. Chang, L. Lartigue, C. R. Bolen, F. Haddad, B. Gaudilliere, E. A. Ganio, G. K. Fragiadakis, M. H. Spitzer, I. Douchet, et al.
+
+Expression of specific inflammasome gene modules stratifies older individuals into two extreme clinical and immunological states.
+
+Nature medicine 23 (2), pp. 174–184.
+
+Cited by: §1,
+§Supplementary 1.
+
+Furman et al. (2014)
+D. Furman, B. P. Hejblum, N. Simon, V. Jojic, C. L. Dekker, R. Thiébaut, R. J. Tibshirani, and M. M. Davis
+
+Systems analysis of sex differences reveals an immunosuppressive role for testosterone in the response to influenza vaccination.
+
+Proceedings of the National Academy of Sciences 111 (2), pp. 869–874.
+
+Cited by: §Supplementary 1.
+
+Furman et al. (2013)
+D. Furman, V. Jojic, B. Kidd, S. Shen-Orr, J. Price, J. Jarrell, T. Tse, H. Huang, P. Lund, H. T. Maecker, et al.
+
+Apoptosis and other immune biomarkers predict influenza vaccine responsiveness.
+
+Molecular systems biology 9 (1), pp. 659.
+
+Cited by: §Supplementary 1.
+
+Graça et al. (2023)
+D. Graça, V. Brglez, J. Allouche, K. Zorzi, C. Fernandez, M. Teisseyre, M. Cremoni, S. Benzaken, C. Pradier, and B. Seitz-Polski
+
+Both humoral and cellular immune responses to sars-cov-2 are essential to prevent infection: a prospective study in a working vaccinated population from southern france.
+
+Journal of Clinical Immunology 43 (8), pp. 1724–1739.
+
+Cited by: §1.
+
+Grewe et al. (2024)
+I. Grewe, M. Friedrich, M. Dieck, M. Spohn, M. L. Ly, V. Krähling, L. Mayer, S. C. Mellinghoff, M. Rottstegge, R. Kraemer, et al.
+
+MVA-based sars-cov-2 vaccine candidates encoding different spike protein conformations induce distinct early transcriptional responses which may impact subsequent adaptive immunity.
+
+Frontiers in immunology 15, pp. 1500615.
+
+Cited by: §1,
+§Supplementary 1.
+
+Habibi et al. (2020)
+M. S. Habibi, R. S. Thwaites, M. Chang, A. Jozwik, A. Paras, F. Kirsebom, A. Varese, A. Owen, L. Cuthbertson, P. James, et al.
+
+Neutrophilic inflammation in the respiratory mucosa predisposes to rsv infection.
+
+Science 370 (6513), pp. eaba9301.
+
+Cited by: §1,
+§3,
+§Supplementary 1.
+
+Haghverdi et al. (2018)
+L. Haghverdi, A. T. L. Lun, J. E. Morgan, and J. C. Marioni
+
+Batch effects in single-cell rna-sequencing data are corrected by matching mutual nearest neighbors.
+
+Nature Biotechnology 36 (5), pp. 421–427.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Hao et al. (2023)
+Y. Hao, T. Stuart, M. H. Kowalski, S. Choudhary, P. Hoffman, A. Hartman, A. Srivastava, G. Molla, S. Madad, C. Fernandez-Granda, and R. Satija
+
+Dictionary learning for integrative, multimodal and scalable single-cell analysis.
+
+Nature Biotechnology.
+
+External Links: Document,
+Link
+
+Cited by: UMAP Visualization.
+
+Henn et al. (2013)
+A. D. Henn, S. Wu, X. Qiu, M. Ruda, M. Stover, H. Yang, Z. Liu, S. L. Welle, J. Holden-Wiltse, H. Wu, et al.
+
+High-resolution temporal response patterns to influenza vaccine reveal a distinct human plasma cell gene signature.
+
+Scientific reports 3 (1), pp. 2327.
+
+Cited by: §Supplementary 1.
+
+Hochreiter and Schmidhuber (1997)
+S. Hochreiter and J. Schmidhuber
+
+Long short-term memory.
+
+Neural computation 9 (8), pp. 1735–1780.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Hodinka (2016)
+R. L. Hodinka
+
+Respiratory rna viruses.
+
+Diagnostic Microbiology of the Immunocompromised Host, pp. 233–271.
+
+Cited by: §1.
+
+Hoerl and Kennard (1970)
+A. E. Hoerl and R. W. Kennard
+
+Ridge regression: biased estimation for nonorthogonal problems.
+
+Technometrics 12 (1), pp. 55–67.
+
+Cited by: §4.1.
+
+Hou and Ji (2024)
+W. Hou and Z. Ji
+
+Assessing gpt-4 for cell type annotation in single-cell rna-seq analysis.
+
+Nature Methods 21 (8), pp. 1462–1465.
+
+External Links: Document,
+Link
+
+Cited by: §4.3,
+GPTCelltype Annotation.
+
+Huang et al. (2024)
+B. Huang, J. Huang, N. H. Chiang, Z. Chen, G. Lui, L. Ling, M. Y. W. Kwan, J. S. C. Wong, P. Q. Mak, J. W. H. Ling, et al.
+
+Interferon response and profiling of interferon response genes in peripheral blood of vaccine-naive covid-19 patients.
+
+Frontiers in Immunology 14, pp. 1315602.
+
+Cited by: §Supplementary 1.
+
+Huang et al. (2011)
+Y. Huang, A. K. Zaas, A. Rao, N. Dobigeon, P. J. Woolf, T. Veldman, N. C. Øien, M. T. McClain, J. B. Varkey, B. Nicholson, et al.
+
+Temporal dynamics of host molecular responses differentiate symptomatic and asymptomatic influenza a infection.
+
+PLoS genetics 7 (8), pp. e1002234.
+
+Cited by: §1,
+§3.
+
+Irizarry et al. (2003)
+R. A. Irizarry, B. M. Bolstad, F. Collin, L. M. Cope, B. Hobbs, and T. P. Speed
+
+Summaries of affymetrix genechip probe level data.
+
+Nucleic acids research 31 (4), pp. e15–e15.
+
+Cited by: §3.
+
+Ivanova et al. (2023)
+E. N. Ivanova, J. Shwetar, J. C. Devlin, T. B. Buus, S. Gray-Gaillard, A. Koide, A. Cornelius, M. I. Samanovic, A. Herrera, E. P. Mimitou, et al.
+
+MRNA covid-19 vaccine elicits potent adaptive immune response without the acute inflammation of sars-cov-2 infection.
+
+Iscience 26 (12).
+
+Cited by: §Supplementary 1.
+
+Jochems et al. (2018)
+S. P. Jochems, F. Marcon, B. F. Carniel, M. Holloway, E. Mitsi, E. Smith, J. F. Gritzfeld, C. Solórzano, J. Reiné, S. Pojar, et al.
+
+Inflammation induced by influenza virus impairs human innate immune control of pneumococcus.
+
+Nature immunology 19 (12), pp. 1299–1308.
+
+Cited by: §Supplementary 1.
+
+Johnson et al. (2007)
+W. E. Johnson, C. Li, and A. Rabinovic
+
+Adjusting batch effects in microarray expression data using empirical bayes methods.
+
+Biostatistics 8 (1), pp. 118–127.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Kim et al. (2022)
+W. Kim, J. Q. Zhou, S. C. Horvath, A. J. Schmitz, A. J. Sturtz, T. Lei, Z. Liu, E. Kalaidina, M. Thapa, W. B. Alsoussi, et al.
+
+Germinal centre-driven maturation of b cell response to mrna vaccination.
+
+Nature 604 (7904), pp. 141–145.
+
+Cited by: §Supplementary 1.
+
+Kingma (2014)
+D. P. Kingma
+
+Adam: a method for stochastic optimization.
+
+arXiv preprint arXiv:1412.6980.
+
+Cited by: §4.1,
+§4.2,
+§Supplementary 3.
+
+Korsunsky et al. (2019)
+I. Korsunsky, N. Millard, J. Fan, et al.
+
+Fast, sensitive and accurate integration of single-cell data with harmony.
+
+Nature Methods 16 (12), pp. 1289–1296.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Lan et al. (2024)
+Z. Lan, T. Zhang, Y. Zhang, X. Sun, C. Liu, P. Liu, M. Tang, M. Fu, J. S. Hagood, R. J. Pickles, F. Zou, and X. Zheng
+
+A curated collection of transcriptome datasets to study the transcriptional response in blood and nasal samples following viral respiratory inoculation and vaccination.
+
+F1000Research.
+
+Note: version 1; peer review: awaiting peer review
+
+External Links: Document,
+Link
+
+Cited by: §3.
+
+Law et al. (2014)
+C. W. Law, Y. Chen, W. Shi, and G. K. Smyth
+
+Voom: precision weights unlock linear model analysis tools for rna-seq read counts.
+
+Genome Biology 15 (2), pp. R29.
+
+Cited by: §4.1,
+§4.1.
+
+Lee et al. (2022a)
+H. K. Lee, J. Go, H. Sung, S. W. Kim, M. Walter, L. Knabl, P. A. Furth, L. Hennighausen, and J. W. Huh
+
+Heterologous chadox1-bnt162b2 vaccination in korean cohort induces robust immune and antibody responses that includes omicron.
+
+Iscience 25 (6).
+
+Cited by: §Supplementary 1.
+
+Lee et al. (2022b)
+H. K. Lee, M. A. Hoechstetter, M. Buchner, T. T. Pham, J. W. Huh, K. Müller, S. Zange, H. von Buttlar, P. Girl, R. Wölfel, et al.
+
+Comprehensive analysis of immune responses in cll patients after heterologous covid-19 vaccination.
+
+medRxiv.
+
+Cited by: §Supplementary 1.
+
+Lee et al. (2022c)
+H. K. Lee, L. Knabl, J. I. Moliva, A. P. Werner, S. Boyoglu-Barnum, S. Kapferer, B. Pateter, M. Walter, N. J. Sullivan, P. A. Furth, et al.
+
+MRNA vaccination in octogenarians 15 and 20 months after recovery from covid-19 elicits robust immune and antibody responses that include omicron.
+
+Cell Reports 39 (2).
+
+Cited by: §Supplementary 1.
+
+Lee et al. (2022d)
+H. K. Lee, L. Knabl, M. Walter, L. Knabl Sr, Y. Dai, M. Füßl, Y. Caf, C. Jeller, P. Knabl, M. Obermoser, et al.
+
+Prior vaccination exceeds prior infection in eliciting innate and humoral immune responses in omicron infected outpatients.
+
+Frontiers in immunology 13, pp. 916686.
+
+Cited by: §1,
+§Supplementary 1.
+
+Leek et al. (2012)
+J. T. Leek, W. E. Johnson, H. S. Parker, et al.
+
+The sva package for removing batch effects and other unwanted variation in high-throughput experiments.
+
+Bioinformatics 28 (6), pp. 882–883.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Leek (2014)
+J. T. Leek
+
+Svaseq: removing batch effects and other unwanted noise from sequencing data.
+
+Nucleic Acids Research 42 (21), pp. e161.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Lindeboom et al. (2024)
+R. G. Lindeboom, K. B. Worlock, L. M. Dratva, M. Yoshida, D. Scobie, H. R. Wagstaffe, L. Richardson, A. Wilbrey-Clark, J. L. Barnes, L. Kretschmer, et al.
+
+Human sars-cov-2 challenge uncovers local and systemic response dynamics.
+
+Nature 631 (8019), pp. 189–198.
+
+Cited by: §Supplementary 1.
+
+Lindeboom et al. (2023)
+R. G. Lindeboom, K. B. Worlock, L. M. Dratva, M. Yoshida, D. Scobie, H. R. Wagstaffe, L. Richardson, A. Wilbrey-Clark, J. L. Barnes, K. Polanski, et al.
+
+Human sars-cov-2 challenge resolves local and systemic response dynamics.
+
+MedRxiv, pp. 2023–04.
+
+Cited by: §Supplementary 1.
+
+Liu et al. (2016)
+T. Liu, T. Burke, L. P. Park, C. W. Woods, A. K. Zaas, G. S. Ginsburg, and A. O. Hero
+
+An individualized predictor of health and disease using paired reference and target samples.
+
+BMC bioinformatics 17, pp. 1–15.
+
+Cited by: §1,
+§3,
+§3,
+§Supplementary 1.
+
+McInnes et al. (2018)
+L. McInnes, J. Healy, and J. Melville
+
+Umap: uniform manifold approximation and projection for dimension reduction.
+
+arXiv preprint arXiv:1802.03426.
+
+Cited by: §3.
+
+Monaco et al. (2019)
+G. Monaco, B. Lee, W. Xu, S. Mustafah, Y. Y. Hwang, C. Carré, N. Burdin, L. Visan, M. Ceccarelli, M. Poidinger, et al.
+
+RNA-seq signatures normalized by mrna abundance allow absolute deconvolution of human immune cell types.
+
+Cell reports 26 (6), pp. 1627–1640.
+
+Cited by: §Supplementary 1.
+
+Muller et al. (2017)
+J. Muller, E. Parizotto, R. Antrobus, J. Francis, C. Bunce, A. Stranks, M. Nichols, M. McClain, A. V. Hill, A. Ramasamy, et al.
+
+Development of an objective gene expression panel as an alternative to self-reported symptom scores in human influenza challenge trials.
+
+Journal of translational medicine 15, pp. 1–11.
+
+Cited by: §1,
+§3,
+§Supplementary 1.
+
+Nakaya et al. (2015)
+H. I. Nakaya, T. Hagan, S. S. Duraisingham, E. K. Lee, M. Kwissa, N. Rouphael, D. Frasca, M. Gersten, A. K. Mehta, R. Gaujoux, et al.
+
+Systems analysis of immunity to influenza vaccination across multiple years and in diverse populations reveals shared molecular signatures.
+
+Immunity 43 (6), pp. 1186–1198.
+
+Cited by: §Supplementary 1.
+
+Nakaya et al. (2011)
+H. I. Nakaya, J. Wrammert, E. K. Lee, L. Racioppi, S. Marie-Kunze, W. N. Haining, A. R. Means, S. P. Kasturi, N. Khan, G. Li, et al.
+
+Systems biology of vaccination for seasonal influenza in humans.
+
+Nature immunology 12 (8), pp. 786–795.
+
+Cited by: §Supplementary 1.
+
+Narang et al. (2018)
+V. Narang, Y. Lu, C. Tan, X. F. Camous, S. Z. Nyunt, C. Carre, E. W. H. Mok, G. Wong, S. Maurer-Stroh, B. Abel, et al.
+
+Influenza vaccine-induced antibody responses are not impaired by frailty in the community-dwelling elderly with natural influenza exposure.
+
+Frontiers in immunology 9, pp. 2465.
+
+Cited by: §Supplementary 1.
+
+Nehme et al. (2011)
+N. T. Nehme, J. Quintin, J. H. Cho, J. Lee, M. Lafarge, C. Kocks, and D. Ferrandon
+
+Relative roles of the cellular and humoral responses in the drosophila host defense against three gram-positive bacterial infections.
+
+PloS one 6 (3), pp. e14743.
+
+Cited by: §1.
+
+Neuwirth (2022)
+E. Neuwirth
+
+RColorBrewer: colorbrewer palettes.
+
+Note: R package version 1.1-3
+
+External Links: Link
+
+Cited by: UMAP Visualization.
+
+Obermoser et al. (2013)
+G. Obermoser, S. Presnell, K. Domico, H. Xu, Y. Wang, E. Anguiano, L. Thompson-Snipes, R. Ranganathan, B. Zeitner, A. Bjork, et al.
+
+Systems scale interactive exploration reveals quantitative and qualitative differences in response to influenza and pneumococcal vaccines.
+
+Immunity 38 (4), pp. 831–844.
+
+Cited by: §Supplementary 1.
+
+Odak et al. (2024)
+I. Odak, L. Riemann, I. Sandrock, A. Cossmann, G. M. Ramos, S. I. Hammerschmidt, C. Ritter, M. Friedrichsen, A. Hassan, A. Dopfer-Jablonka, et al.
+
+Systems biology analysis reveals distinct molecular signatures associated with immune responsiveness to the bnt162b covid-19 vaccine.
+
+EBioMedicine 99.
+
+Cited by: §Supplementary 1.
+
+Oh et al. (2022)
+S. Oh, J. Abdelnabi, R. Al-Dulaimi, A. Aggarwal, M. Ramos, S. Davis, M. Riester, and L. Waldron
+
+HGNChelper: identification and correction of invalid gene symbols for human and mouse.
+
+F1000Research 9, pp. 1493.
+
+Cited by: §3,
+§3.
+
+Parkinson et al. (2007)
+H. Parkinson, M. Kapushesky, M. Shojatalab, N. Abeygunawardena, R. Coulson, A. Farne, E. Holloway, N. Kolesnykov, P. Lilja, M. Lukk, et al.
+
+ArrayExpress—a public database of microarray experiments and gene expression profiles.
+
+Nucleic acids research 35 (suppl_1), pp. D747–D750.
+
+Cited by: §1.
+
+Pedregosa et al. (2011)
+F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay
+
+Scikit-learn: machine learning in Python.
+
+Journal of Machine Learning Research 12, pp. 2825–2830.
+
+Cited by: §4.1,
+§Supplementary 3.
+
+Proud et al. (2008)
+D. Proud, R. B. Turner, B. Winther, S. Wiehler, J. P. Tiesman, T. D. Reichling, K. D. Juhlin, A. W. Fulmer, B. Y. Ho, A. A. Walanski, et al.
+
+Gene expression profiles during in vivo human rhinovirus infection: insights into the host response.
+
+American journal of respiratory and critical care medicine 178 (9), pp. 962–968.
+
+Cited by: §1,
+§3,
+§Supplementary 1.
+
+Rinchai et al. (2022)
+D. Rinchai, S. Deola, G. Zoppoli, B. S. A. Kabeer, S. Taleb, I. Pavlovski, S. Maacha, G. Gentilcore, M. Toufiq, L. Mathew, et al.
+
+High–temporal resolution profiling reveals distinct immune trajectories following the first and second doses of covid-19 mrna vaccines.
+
+Science advances 8 (45), pp. eabp9961.
+
+Cited by: §Supplementary 1.
+
+Ritchie et al. (2015)
+M. E. Ritchie, B. Phipson, D. Wu, et al.
+
+Limma powers differential expression analyses for rna-sequencing and microarray studies.
+
+Nucleic Acids Research 43 (7), pp. e47.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Rogers et al. (2019)
+L. R. Rogers, G. de Los Campos, and G. I. Mias
+
+Microarray gene expression dataset re-analysis reveals variability in influenza infection and vaccination.
+
+Frontiers in Immunology 10, pp. 2616.
+
+External Links: Document
+
+Cited by: §2.1.
+
+Rosenheim et al. (2023)
+J. Rosenheim, R. K. Gupta, C. Thakker, T. Mann, L. C. Bell, C. M. Broderick, K. Madon, L. Papargyris, P. Dayananda, A. J. Kwok, et al.
+
+SARS-cov-2 human challenge reveals single-gene blood transcriptional biomarkers that discriminate early and late phases of acute respiratory viral infections.
+
+medRxiv, pp. 2023–06.
+
+Cited by: §1.
+
+Rumelhart et al. (1986)
+D. E. Rumelhart, G. E. Hinton, and R. J. Williams
+
+Learning representations by back-propagating errors.
+
+nature 323 (6088), pp. 533–536.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Ryan et al. (2023)
+F. J. Ryan, T. S. Norton, C. McCafferty, S. J. Blake, N. E. Stevens, J. James, G. L. Eden, Y. C. Tee, S. C. Benson, M. G. Masavuli, et al.
+
+A systems immunology study comparing innate and adaptive immune responses in adults to covid-19 mrna and adenovirus vectored vaccines.
+
+Cell Reports Medicine 4 (3).
+
+Cited by: §Supplementary 1.
+
+Sarin et al. (2024)
+K. Y. Sarin, H. Zheng, Y. Chaichian, P. S. Arunachalam, G. Swaminathan, A. Eschholz, F. Gao, O. F. Wirz, B. Lam, E. Yang, et al.
+
+Impaired innate and adaptive immune responses to bnt162b2 sars-cov-2 vaccination in systemic lupus erythematosus.
+
+JCI insight 9 (5), pp. e176556.
+
+Cited by: §Supplementary 1.
+
+Simões et al. (2015)
+E. A. Simões, J. P. DeVincenzo, M. Boeckh, L. Bont, J. E. Crowe Jr, P. Griffiths, F. G. Hayden, R. L. Hodinka, R. L. Smyth, K. Spencer, et al.
+
+Challenges and opportunities in developing respiratory syncytial virus therapeutics.
+
+The Journal of infectious diseases 211 (suppl_1), pp. S1–S20.
+
+Cited by: §1.
+
+Sparks et al. (2023)
+R. Sparks, W. W. Lau, C. Liu, K. L. Han, K. L. Vrindten, G. Sun, M. Cox, S. F. Andrews, N. Bansal, L. E. Failla, et al.
+
+Influenza vaccination reveals sex dimorphic imprints of prior mild covid-19.
+
+Nature 614 (7949), pp. 752–761.
+
+Cited by: §Supplementary 1.
+
+Stephenson et al. (2024)
+E. Stephenson, E. Macdonald-Dunlop, L. M. Dratva, R. G. Lindeboom, Z. K. Tuong, W. M. Tun, N. B. Buang, S. Ballereau, M. Cabantaus, A. Peñalver, et al.
+
+Temporal multi-omic analysis of covid-19 in end-stage kidney disease.
+
+medRxiv, pp. 2024–06.
+
+Cited by: §Supplementary 1.
+
+Stuart et al. (2019)
+T. Stuart A. Butler et al.
+
+Comprehensive integration of single-cell data.
+
+Cell 177 (7), pp. 1888–1902.e21.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Tang et al. (2021)
+K. Tang X. Ji et al.
+
+Rank-in: enabling integrative analysis across microarray and rna-seq for cancer.
+
+Nucleic Acids Research 49 (18), pp. e102.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Team and Consortium (2017)
+H. S. P. Team and H. Consortium
+
+Multicohort analysis reveals baseline transcriptional predictors of influenza vaccination responses.
+
+Science immunology 2 (14), pp. eaal4656.
+
+Cited by: §3.
+
+Thakar et al. (2015)
+J. Thakar, S. Mohanty, A. P. West, S. R. Joshi, I. Ueda, J. Wilson, H. Meng, T. P. Blevins, S. Tsang, M. Trentalange, et al.
+
+Aging-dependent alterations in gene expression and a mitochondrial signature of responsiveness to human influenza vaccination.
+
+Aging (Albany NY) 7 (1), pp. 38.
+
+Cited by: §Supplementary 1.
+
+Thompson et al. (2015)
+J. A. Thompson, J. Tan, and C. S. Greene
+
+Cross-platform normalization of microarray and rna-seq data for machine learning applications.
+
+PeerJ Preprints.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Thwaites et al. (2023)
+R. S. Thwaites, A. S. Uruchurtu, V. A. Negri, M. E. Cole, N. Singh, N. Poshai, D. Jackson, K. Hoschler, T. Baker, I. C. Scott, et al.
+
+Early mucosal events promote distinct mucosal and systemic antibody responses to live attenuated influenza vaccine.
+
+Nature Communications 14 (1), pp. 8053.
+
+Cited by: §Supplementary 1.
+
+Tomic et al. (2019)
+A. Tomic, I. Tomic, C. L. Dekker, H. T. Maecker, and M. M. Davis
+
+The fluprint dataset, a multidimensional analysis of the influenza vaccine imprint on the immune system.
+
+Scientific data 6 (1), pp. 214.
+
+Cited by: §Supplementary 1.
+
+Tsang et al. (2014)
+J. S. Tsang, P. L. Schwartzberg, Y. Kotliarov, A. Biancotto, Z. Xie, R. N. Germain, E. Wang, M. J. Olnes, M. Narayanan, H. Golding, et al.
+
+Global analyses of human immune variation reveal baseline predictors of postvaccination responses.
+
+Cell 157 (2), pp. 499–513.
+
+Cited by: §Supplementary 1.
+
+Vaswani et al. (2017)
+A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin
+
+Attention is all you need.
+
+Advances in neural information processing systems 30.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Virshup et al. (2024)
+I. Virshup, S. Rybakov, F. J. Theis, P. Angerer, and F. A. Wolf
+
+Anndata: annotated data.
+
+Journal of Open Source Software.
+
+External Links: Document
+
+Cited by: §3.
+
+Wang et al. (2017)
+M. Wang J. Huang et al.
+
+COMBAT: a combined association test for genes using summary statistics.
+
+Genetics 207 (3), pp. 883–891.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Watanabe et al. (2023)
+Y. Watanabe, H. Yamamoto, I. Matsuba, K. Watanabe, T. Kunishima, Y. Takechi, T. Takuma, Y. Araki, N. Hirotsu, H. Sakai, et al.
+
+Time-series transcriptome analysis of peripheral blood mononuclear cells obtained from individuals who received the sars-cov-2 mrna vaccine.
+
+Journal of Medical Virology 95 (6), pp. e28884.
+
+Cited by: §Supplementary 1.
+
+Wimmers et al. (2021)
+F. Wimmers, M. Donato, A. Kuo, T. Ashuach, S. Gupta, C. Li, M. Dvorak, M. H. Foecke, S. E. Chang, T. Hagan, et al.
+
+The single-cell epigenomic and transcriptional landscape of immunity to influenza vaccination.
+
+Cell 184 (15), pp. 3915–3935.
+
+Cited by: §Supplementary 1.
+
+Wolf et al. (2018)
+F. A. Wolf, P. Angerer, and F. J. Theis
+
+SCANPY: large-scale single-cell gene expression data analysis.
+
+Genome biology 19, pp. 1–5.
+
+Cited by: §4.2,
+§Supplementary 3.
+
+Woods et al. (2013)
+C. W. Woods, M. T. McClain, M. Chen, A. K. Zaas, B. P. Nicholson, J. Varkey, T. Veldman, S. F. Kingsmore, Y. Huang, R. Lambkin-Williams, et al.
+
+A host transcriptional signature for presymptomatic detection of infection in humans exposed to influenza h1n1 or h3n2.
+
+PloS one 8 (1), pp. e52198.
+
+Cited by: §3.
+
+Yaugel-Novoa et al. (2022)
+M. Yaugel-Novoa, T. Bourlet, and S. Paul
+
+Role of the humoral immune response during covid-19: guilty or not guilty?.
+
+Mucosal Immunology 15 (6), pp. 1170–1180.
+
+Cited by: §1.
+
+Yip et al. (2017)
+S. Y. Yip, P. C. Sham, and J. Wang
+
+Evaluation of tools for highly variable gene discovery from single-cell rna-seq data.
+
+Briefings in Bioinformatics 18 (2), pp. 288–295.
+
+Cited by: §4.1.
+
+Youden (1950)
+W. J. Youden
+
+Index for rating diagnostic tests.
+
+Cancer 3 (1), pp. 32–35.
+
+Cited by: §4.1.
+
+Zaas et al. (2009)
+A. K. Zaas, M. Chen, J. Varkey, T. Veldman, A. O. Hero, J. Lucas, Y. Huang, R. Turner, A. Gilbert, R. Lambkin-Williams, et al.
+
+Gene expression signatures diagnose influenza and other symptomatic respiratory viral infections in humans.
+
+Cell host & microbe 6 (3), pp. 207–217.
+
+Cited by: §1,
+§3.
+
+Zhai et al. (2015)
+Y. Zhai, L. M. Franco, R. L. Atmar, J. M. Quarles, N. Arden, K. L. Bucasas, J. M. Wells, D. Nino, X. Wang, G. E. Zapata, et al.
+
+Host transcriptional response to influenza and other acute respiratory viral infections–a prospective cohort study.
+
+PLoS pathogens 11 (6), pp. e1004869.
+
+Cited by: §Supplementary 1.
+
+Zhang et al. (2020)
+Y. Zhang, G. Parmigiani, and W. E. Johnson
+
+ComBat-seq: batch effect adjustment for rna-seq count data.
+
+NAR Genomics and Bioinformatics 2 (3), pp. lqaa078.
+
+External Links: Document
+
+Cited by: §2.2.
+
+Ziemann et al. (2016)
+M. Ziemann, Y. Eren, and A. El-Osta
+
+Gene name errors are widespread in the scientific literature.
+
+Genome biology 17, pp. 1–3.
+
+Cited by: §1,
+§3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    Experimental support, please
+    view the build logs
+    for errors. Generated by
+    
+      
+        L
+        A
+        T
+        E
+      
+      xml
+      
+    .
+  
+
+  
+
+    
+Instructions for reporting errors
+
+    
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:
+
+    
+      Click the "Report Issue" (
+            
+          ) button, located in the page header.
+    
+    
+Tip: You can select the relevant text first, to include it in your report.
+
+    
+Our team has already identified the following issues. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.
+
+    
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a list of packages that need conversion, and welcome developer contributions.
+
+  
+
+
+  
+
+    
+
+      
+
+        We gratefully acknowledge support from
+        our major funders,
+        member institutions, ,
+        and all contributors.
+      
+
+      
+        About
+        ·
+        Help
+        ·
+        Contact
+        ·
+        Subscribe
+        ·
+        Copyright
+        ·
+        Privacy
+        ·
+        Accessibility
+        ·
+        Operational Status (opens in new tab)
+      
+    
+
+
+    
+
+      
+Major funding support from
+
+      
+
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+
+    
+
+  
+
+
+
+  
+    
+      
+    
+  
+
+
+

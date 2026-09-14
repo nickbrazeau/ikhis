@@ -1,0 +1,260 @@
+{
+  "scope": "Selected shortlist from bounded ranked searches plus inherited anchors; not all web hits systematically screened and not an exhaustive review.",
+  "searched_at": "2026-09-13",
+  "candidate_appearances": [
+    {
+      "candidate_id": "MGSC01",
+      "query_id": "MGQ11",
+      "title": "Human Epistatic Interaction Controls IL7R Splicing and Increases Multiple Sclerosis Risk",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5456452/",
+      "doi": "10.1016/j.cell.2017.03.007",
+      "pmid": "28340352",
+      "source_id": "MG01",
+      "decision": "include",
+      "reason": "Inherited anchor; re-extract rescue, timing, primary-cell discordance and blood preparation."
+    },
+    {
+      "candidate_id": "MGSC02",
+      "query_id": "MGQ11",
+      "title": "Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+      "url": "https://www.nature.com/articles/ng2103",
+      "doi": "10.1038/ng2103",
+      "pmid": "17660817",
+      "source_id": "MG02",
+      "decision": "include",
+      "reason": "Primary PDF Methods/Results now inspected; do not convert RNA predictions into protein."
+    },
+    {
+      "candidate_id": "MGSC03",
+      "query_id": "MGQ11",
+      "title": "Context-specific regulation of surface and soluble IL7R expression by an autoimmune risk allele",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6783569/",
+      "doi": "10.1038/s41467-019-12393-1",
+      "pmid": "31594933",
+      "source_id": "MG03",
+      "decision": "include",
+      "reason": "Monocyte nulls, paralogue contrast and known eQTL cohort reuse."
+    },
+    {
+      "candidate_id": "MGSC04",
+      "query_id": "MGQ02",
+      "title": "Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens",
+      "url": "https://link.springer.com/article/10.1186/s13059-024-03176-z",
+      "doi": "10.1186/s13059-024-03176-z",
+      "pmid": "38308274",
+      "source_id": "MG04",
+      "decision": "include",
+      "reason": "Primary-cell regulatory intervention with RNA and surface-protein endpoints; broad immune regulation."
+    },
+    {
+      "candidate_id": "MGSC05",
+      "query_id": "MGQ01",
+      "title": "A disease-associated gene desert directs macrophage inflammation through ETS2",
+      "url": "https://www.nature.com/articles/s41586-024-07501-1",
+      "doi": "10.1038/s41586-024-07501-1",
+      "pmid": "38839969",
+      "source_id": "MG05",
+      "decision": "include",
+      "reason": "Access subsequently resolved via parent-retrieved full primary PMC HTML; relevant Methods/Results inspected and four narrow assertions extracted. Original failed-access screening preserved in initial fields.",
+      "initial_decision": "await_full_text",
+      "initial_reason": "Search discovery; full-text routes failed, no mechanism assertion extracted."
+    },
+    {
+      "candidate_id": "MGSC06",
+      "query_id": "MGQ05",
+      "title": "A disease-associated gene desert directs macrophage inflammation through ETS2",
+      "url": "https://www.nature.com/articles/s41586-024-07501-1",
+      "doi": "10.1038/s41586-024-07501-1",
+      "pmid": "38839969",
+      "source_id": "MG05",
+      "decision": "include",
+      "reason": "Access subsequently resolved via parent-retrieved full primary PMC HTML; relevant Methods/Results inspected and four narrow assertions extracted. Original failed-access screening preserved in initial fields.",
+      "initial_decision": "await_full_text",
+      "initial_reason": "Repeat ranked-search appearance of same DOI; no independent paper."
+    },
+    {
+      "candidate_id": "MGSC07",
+      "query_id": "MGQ06",
+      "title": "Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens",
+      "url": "https://link.springer.com/article/10.1186/s13059-024-03176-z",
+      "doi": "10.1186/s13059-024-03176-z",
+      "pmid": "38308274",
+      "source_id": "MG04",
+      "decision": "include",
+      "reason": "Repeat appearance confirms protein-readout relevance; same paper."
+    },
+    {
+      "candidate_id": "MGSC08",
+      "query_id": "MGQ03",
+      "title": "Human Epistatic Interaction Controls IL7R Splicing and Increases Multiple Sclerosis Risk",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5456452/",
+      "doi": "10.1016/j.cell.2017.03.007",
+      "pmid": "28340352",
+      "source_id": "MG01",
+      "decision": "include",
+      "reason": "Correction/retraction check; no matching related notice found in bounded search."
+    },
+    {
+      "candidate_id": "MGSC09",
+      "query_id": "MGQ04",
+      "title": "Context-specific regulation of surface and soluble IL7R expression by an autoimmune risk allele",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6783569/",
+      "doi": "10.1038/s41467-019-12393-1",
+      "pmid": "31594933",
+      "source_id": "MG03",
+      "decision": "include",
+      "reason": "Correction/retraction check; no matching related notice established."
+    },
+    {
+      "candidate_id": "MGSC10",
+      "query_id": "MGQ07",
+      "title": "A disease-associated gene desert directs macrophage inflammation through ETS2",
+      "url": "https://www.nature.com/articles/s41586-024-07501-1",
+      "doi": "10.1038/s41586-024-07501-1",
+      "pmid": "38839969",
+      "source_id": "MG05",
+      "decision": "include",
+      "reason": "Access subsequently resolved via parent-retrieved full primary PMC HTML; relevant Methods/Results inspected and four narrow assertions extracted. Original failed-access screening preserved in initial fields.",
+      "initial_decision": "await_full_text",
+      "initial_reason": "Correction query returned original and unrelated records; does not resolve notice relationships."
+    },
+    {
+      "candidate_id": "MGSC11",
+      "query_id": "MGQ08",
+      "title": "Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens",
+      "url": "https://link.springer.com/article/10.1186/s13059-024-03176-z",
+      "doi": "10.1186/s13059-024-03176-z",
+      "pmid": "38308274",
+      "source_id": "MG04",
+      "decision": "include",
+      "reason": "Correction search surfaced2023 preprint predecessor; not counted independently."
+    },
+    {
+      "candidate_id": "MGSC12",
+      "query_id": "MGQ09",
+      "title": "Interleukin 7 receptor alpha chain (IL7R) shows allelic and functional association with multiple sclerosis",
+      "url": "https://www.nature.com/articles/ng2103",
+      "doi": "10.1038/ng2103",
+      "pmid": "17660817",
+      "source_id": "MG02",
+      "decision": "include",
+      "reason": "Publisher original and Duke metadata surfaced; no matching correction notice established."
+    },
+    {
+      "candidate_id": "MGSC13",
+      "query_id": "MGQ02",
+      "title": "Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10035359/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "Relevant primary CRISPR/RNA/ATAC immune network study found in ranked search; outside this bounded extraction subset, not yet inspected."
+    },
+    {
+      "candidate_id": "MGSC14",
+      "query_id": "MGQ02",
+      "title": "Base-editing mutagenesis maps alleles to tune human T cell functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11065414/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "Relevant primary variant/protein-function study; transcript intermediary not checked."
+    },
+    {
+      "candidate_id": "MGSC15",
+      "query_id": "MGQ02",
+      "title": "Mapping variant effects on anti-tumor hallmarks of primary human T cells with base-editing screens",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488219/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "await_full_text",
+      "reason": "Relevant primary functional variant study; full Methods/Results not inspected."
+    },
+    {
+      "candidate_id": "MGSC16",
+      "query_id": "MGQ01",
+      "title": "The Relationship Between CSF1R Signaling, Monocyte-Macrophage Differentiation, and Susceptibility to Inflammatory Bowel Disease",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12143753/",
+      "doi": "unavailable",
+      "pmid": "unavailable",
+      "decision": "exclude",
+      "reason": "Commentary/review discovery only; raises ETS2 protein bridge question but not used as primary evidence."
+    },
+    {
+      "candidate_id": "MGSC17",
+      "query_id": "MGQ03",
+      "title": "RETRACTED ARTICLE: Detection and replication of epistasis influencing transcription in humans",
+      "url": "https://www.nature.com/articles/nature13005",
+      "doi": "10.1038/nature13005",
+      "pmid": "unavailable",
+      "decision": "exclude",
+      "reason": "Unrelated retracted epistasis paper, not a correction/retraction of MG01; matching generic words cannot establish publication relation."
+    },
+    {
+      "candidate_id": "MGSC18",
+      "query_id": "MGQ08",
+      "title": "Mapping the functional impact of non-coding regulatory elements in primary T cells through single-cell CRISPR screens (preprint)",
+      "url": "https://doi.org/10.1101/2023.05.14.540711",
+      "doi": "10.1101/2023.05.14.540711",
+      "pmid": "unavailable",
+      "decision": "exclude",
+      "reason": "Same-title predecessor to MG04; published paper retained, no independent study count."
+    },
+    {
+      "candidate_id": "MGSC19",
+      "query_id": "MGQ12",
+      "title": "A disease-associated gene desert directs macrophage inflammation through ETS2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11168933/",
+      "doi": "10.1038/s41586-024-07501-1",
+      "pmid": "38839969",
+      "source_id": "MG05",
+      "decision": "include",
+      "reason": "Complete primary article recovered; bounded four-assertion extraction and two shared-intervention profiles. Access resolved; broader mechanism extraction remains partial."
+    }
+  ],
+  "counts": {
+    "registered_candidate_appearances": 19,
+    "unique_included_primary_papers": 5,
+    "unique_primary_papers_with_assertions": 5
+  },
+  "citation_chains": [
+    {
+      "from": "G03",
+      "to": "MG02",
+      "relationship": "2007 minigene methods cited by2017 paper; reused reporter design not donor evidence"
+    },
+    {
+      "from": "G10",
+      "to": "G01",
+      "relationship": "explicit161-sample eQTL cohort reuse"
+    },
+    {
+      "from": "MG04",
+      "to": "10.1101/2023.05.14.540711",
+      "relationship": "same-title preprint predecessor; article retained"
+    },
+    {
+      "from": "MG04",
+      "to": "Gasperini2019",
+      "relationship": "K562 enhancer mapping cited in primary article; original K562 study not re-extracted, so no independent K562 assertion"
+    }
+  ],
+  "corrections_retractions_checked": {
+    "queries": [
+      "MGQ03",
+      "MGQ04",
+      "MGQ07",
+      "MGQ08",
+      "MGQ09"
+    ],
+    "primary_page_checks": [
+      "G03 PubMed find Erratum and Retraction: no matches",
+      "MG04 publisher find Correction: no match"
+    ],
+    "unavailable": [
+      "Structured Entrez CommentsCorrections relationships; helper missing dependency",
+      "G08/G10 PubMed full metadata text returned zero lines"
+    ],
+    "conclusion": "No matching notices found in bounded checks; comprehensive publication-status verification remains pending."
+  }
+}

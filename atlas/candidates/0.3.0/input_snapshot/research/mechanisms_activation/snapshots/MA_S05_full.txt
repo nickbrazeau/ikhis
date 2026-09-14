@@ -1,0 +1,423 @@
+IL-2 regulates FOXP3 expression in human CD4+CD25+ regulatory T cells through a STAT-dependent mechanism and induces the expansion of these cells in vivo - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock icon
+) or https:// means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Blood. 2006 Apr 27;108(5):1571–1579. doi: 10.1182/blood-2006-02-004747
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+IL-2 regulates FOXP3 expression in human CD4+CD25+ regulatory T cells through a STAT-dependent mechanism and induces the expansion of these cells in vivo
+Emmanuel Zorn
+Emmanuel Zorn
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Emmanuel Zorn
+1, Erik A Nelson
+Erik A Nelson
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Erik A Nelson
+1, Mehrdad Mohseni
+Mehrdad Mohseni
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Mehrdad Mohseni
+1, Fabrice Porcheray
+Fabrice Porcheray
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Fabrice Porcheray
+1, Haesook Kim
+Haesook Kim
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Haesook Kim
+1, Despina Litsa
+Despina Litsa
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Despina Litsa
+1, Roberto Bellucci
+Roberto Bellucci
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Roberto Bellucci
+1, Elke Raderschall
+Elke Raderschall
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Elke Raderschall
+1, Christine Canning
+Christine Canning
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Christine Canning
+1, Robert J Soiffer
+Robert J Soiffer
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Robert J Soiffer
+1, David A Frank
+David A Frank
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by David A Frank
+1, Jerome Ritz
+Jerome Ritz
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Find articles by Jerome Ritz
+1
+Author information
+Article notes
+Copyright and License information
+1From the Division of Hematologic Malignancies, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA.
+Reprints: Jerome Ritz, Dana-Farber Cancer Institute, 44 Binney St, Boston, MA 02115; e-mail: jerome_ritz@dfci.harvard.edu.
+Received 2006 Feb 27; Accepted 2006 Apr 16; Issue date 2006 Sep 1.
+© 2006 by The American Society of Hematology
+PMC Copyright notice
+PMCID: PMC1895505  PMID: 16645171
+Abstract
+IL-2 plays a critical role in the maintenance of CD4+CD25+ FOXP3+ regulatory T cells (Tregs) in vivo. We examined the effects of IL-2 signaling in human Tregs. In vitro, IL-2 selectively up-regulated the expression of FOXP3 in purified CD4+CD25+ T cells but not in CD4+CD25- cells. This regulation involved the binding of STAT3 and STAT5 proteins to a highly conserved STAT-binding site located in the first intron of the FOXP3 gene. We also examined the effects of low-dose IL-2 treatment in 12 patients with metastatic cancer and 9 patients with chronic myelogenous leukemia after allogeneic hematopoietic stem cell transplantation. Overall, IL-2 treatment resulted in a 1.9 median fold increase in the frequency of CD4+CD25+ cells in peripheral blood as well as a 9.7 median fold increase in FOXP3 expression in CD3+ T cells. CD56+CD3- natural killer (NK) cells also expanded during IL-2 therapy but did not express FOXP3. In vitro treatment of NK cells with 5-aza-2′-deoxycytidine restored the IL-2 signaling pathway leading to FOXP3 expression, suggesting that this gene was constitutively repressed by DNA methylation in these cells. Our findings support the clinical evaluation of low-dose IL-2 to selectively modulate CD4+CD25+ Tregs and increase expression of FOXP3 in vivo.
+Introduction
+Although IL-2 plays an important role in the development and expansion of effector T cells, recent studies have demonstrated that IL-2 is also critical for the establishment and maintenance of immune tolerance.1,2 Since autoimmunity is the primary immunologic abnormality in IL-2-deficient mice, it has been proposed that the negative regulatory effects of IL-2 are the predominant functional effects of this cytokine in vivo.3,4 The principal mechanism whereby IL-2 promotes immune tolerance appears to be through its role in the generation and maintenance of CD4+CD25+ regulatory T cells (Tregs). In particular, experiments in animal models have demonstrated that IL-2 controls Treg homeostasis in blood and peripheral lymphoid tissues.5-8 Recent clinical studies in patients with human immunodeficiency virus (HIV) and cancer have shown that treatment with recombinant IL-2 can induce the expansion of Tregs in peripheral blood.9-12 Some of these studies were performed in young adult patients with sarcoma who were lymphopenic due to previous chemotherapy.11 Treg expansion following IL-2 administration was more pronounced in lymphopenic patients, suggesting that homeostatic peripheral expansion also contributed to the proliferation of Tregs in vivo.
+Although IL-2 plays an important role in the development of Tregs, the cellular pathways whereby IL-2 influences the proliferation and function of Tregs have not been well defined. Tregs constitutively express CD25, the α subunit of the trimeric receptor for IL-2. Tregs therefore express the complete high-affinity IL-2Rαβγ complex and can presumably respond to physiologically low concentrations of IL-2 in vivo. IL-2R signaling is primarily mediated through activation of JAK1 and JAK3 with subsequent phosphorylation and activation of STAT3 and STAT5.13 These activated transcription factors translocate to the nucleus where they initiate a complex series of transcriptional events leading to many of the functional effects of IL-2 stimulation. IL-2R triggering also leads to activation of other signaling pathways including mitogen-activated protein kinase (MAPK) and phosphatidylinositol 3-kinase (PI3K), and these pathways also contribute to the varied functional effects of IL-2 on immune cells. Within Tregs, however, previous studies have shown that IL-2 primarily induces JAK/STAT signaling rather than PI3K signaling, and this may explain some of the different functional effects of IL-2 on Tregs and effector T cells.14,15
+Recent studies defining the mechanisms whereby Tregs mediate immune-suppressive functions have demonstrated that FOXP3 plays a critical role in the regulatory functions of CD4+CD25+ T cells in humans as well as in animal models.16-18 These studies include the demonstration that specific mutations of FOXP3 result in severe functional deficiencies of Tregs in mice and humans.19-21 Moreover, forced expression of FOXP3 appears to result in acquisition of immune-suppressive functions.16,18 FOXP3 gene expression also appears to be highly restricted to CD4+CD25+ Tregs and has therefore become a very useful marker for the specific detection and enumeration of Tregs as well as a surrogate marker for assessment of functional immune-suppressive activity.
+In the present studies, we show that IL-2 signaling directly targets the FOXP3 gene in CD4+CD25+ Tregs. This pathway involves the binding of STAT3 and STAT5 proteins to a highly conserved tandem STAT-binding site located in the first intron of the FOXP3 gene. Consistent with this observation, prolonged administration of low-dose IL-2 to hematopoietic stem cell recipients and cancer patients resulted in a substantial increase in the expression of FOXP3 as well as increased frequencies of CD4+CD25+ Tregs in peripheral blood T cells. IL-2 infusions also resulted in expansion of CD3-CD56+ natural killer (NK) cells, but these cells did not express FOXP3. Taken together, these studies demonstrate that FOXP3 gene expression can be directly activated through IL-2 signaling in CD4+CD25+ Tregs, but mechanisms for gene regulation can block these effects in other immune cells. These selective effects of IL-2 in vivo suggest that various components of the IL-2 signaling pathway can be used to directly modulate Treg proliferation and function in vivo.
+Patients, materials, and methods
+Patients and samples
+All patients included in this study were enrolled in clinical protocols approved by the Dana-Farber Cancer Institute investigational review board (IRB). Written informed consent was obtained from each patient prior to sample collection, in accordance with the Declaration of Helsinki. The clinical toxicities associated with prolonged administration of low-dose IL-2 and effects of IL-2 infusions on peripheral blood NK cells have been described previously.22,23 Patient peripheral blood mononuclear cells (PBMCs) were isolated from blood samples by density gradient centrifugation and cryopreserved in aliquots before being analyzed. Patient characteristics including disease, age, IL-2 treatment dose, and duration are summarized in Table 1.
+Table 1.
+Dose and duration of IL-2 therapy
+Patient no.
+Diagnosis
+Age, y
+IL-2 dose, U/m2 per d
+Duration of IL-2 therapy when tested, wk
+After IL-2 testing, wk
+1
+Renal cell carcinoma
+66
+1 × 106
+9
+NA
+2
+Renal cell carcinoma
+42
+3-6 × 105
+10
+NA
+3
+Renal cell carcinoma
+53
+1-1.5 × 106
+10
+NA
+4
+Renal cell carcinoma
+56
+6 × 105
+11
+NA
+5
+Renal cell carcinoma
+58
+6 × 105
+8
+NA
+6
+Lung sarcoma
+23
+1.5 × 105
+8
+NA
+7
+Renal cell carcinoma
+67
+1-1.5 × 106
+10
+19
+8
+Rectal cancer
+42
+6 × 105
+8
+NA
+9
+NSCL carcinoma
+31
+6 × 105
+6.5
+45
+10
+Colon cancer
+62
+6 × 105
+10
+NA
+11
+Renal cell carcinoma
+60
+0.6-1.25 × 106
+9
+17
+12
+Melanoma
+41
+4.5-6 × 105
+10
+19
+13
+CML (chronic phase)
+38
+2-4 × 105
+11
+19.5
+14
+CML (chronic phase)
+44
+4 × 105
+4
+17
+15
+CML (chronic phase)
+44
+2-4 × 105
+4
+NA
+16
+CML (chronic phase)
+49
+2-4 × 105
+9
+20
+17
+CML (chronic phase)
+41
+3-4 × 105
+5
+NA
+18
+CML (accelerated phase)
+24
+4 × 105
+5
+38
+19
+CML (chronic phase)
+33
+2-4 × 105
+4
+NA
+20
+CML (chronic phase)
+49
+2-4 × 105
+5
+17
+21
+CML (chronic phase)
+29
+2-4 × 105
+5.5
+21
+Open in a new tab
+NA indicates not applicable
+In vitro cell culture and reagents
+PBMCs and purified primary cells were cultured in RPMI 1640 supplemented with 10% heat-inactivated human AB serum, 4 mM glutamine, 1 mM sodium pyruvate, 10 mM Hepes, and antibiotics. NKL cell line was cultured in the same medium supplemented with 10% heat-inactivated fetal calf serum instead of human serum. Recombinant human IL-2 (AMGEN, Thousand Oaks, CA) was added to cultures at a concentration of 100 U/mL unless otherwise stated.
+Flow cytometry
+PBMCs were thawed and labeled with anti-CD4-PE (T4) and anti-CD25-FITC (IL-2R1) or anti-CD56-PE (NKH1; Beckman Coulter, Fullerton, CA). Labeled cells were analyzed using a Cytomics FC500 flow cytometer (Beckman Coulter). The frequency of each cell subset was calculated based on the percentage of positive cells in the total lymphocyte gate. For CD4+CD25+ cells, values were subsequently readjusted to represent percent of these cells within the CD3+ lymphocyte population. For intracellular staining, cells were first labeled with anti-CD4-PC5 (Beckman Coulter), fixed, and permeabilized using a fix/perm kit (eBioscience, San Diego, CA) according to the manufacturer's instructions and then labeled with anti-FOXP3-PE mab (PCH101; eBioscience).
+Cell sorting
+PBMCs from healthy donors were labeled with anti-CD4-FITC (T4) and anti-CD25-PE (IL-2R1). CD4+CD25bright and CD4+CD25- cells were then isolated using a BD FACSAria cell sorting instrument (Becton Dickinson, San Jose, CA). For NK cells and CD4+ T-cell populations, PBMCs collected from healthy individuals or from patients during IL-2 treatment were labeled with anti-CD4-FITC (T4), anti-CD56-PE N901 (NKH-1), and anti-CD3-PC5 (UCHT1) from Beckman Coulter. NK cells were isolated based on a CD3-CD56+ phenotype. CD3+CD4+ cell populations were also isolated and used as reference populations in FOXP3 expression experiments. Sorted cell populations were confirmed to be more than 95% pure.
+Quantitative PCR
+Total RNA was extracted using Trizol reagent (Invitrogen, Carlsbad, CA). Complementary DNA was then prepared from an average of 500 ng total RNA using the superscriptIII cDNA first-strand synthesis kit (Invitrogen). Real-time polymerase chain reaction (PCR) was performed on an ABI 7700 Sequence Detector (Applied Biosystems, Foster City, CA) platform, using Taqman universal PCR Master Mix (Applied Biosystems) and the following FOXP3 primer pair and probe: forward 5′-GCCTCCTCTTCTTCCTTGAA-3′; reverse 5′-GTGAGGCTGATCATGGCT-3′; probe VIC-5′-CCATCGCAGCTGCAGCTCTCAA-3′-TAMRA. Each PCR reaction was performed in triplicate with each of the FOXP3 primers at a final concentration of 0.3 μM and the probe at a final concentration of 0.1 μM. PCR conditions were as follows: 50°C for 2 minutes, 95°C for 10 minutes for one cycle followed by 50 cycles of 95°C for 30 seconds, and 60°C for 30 seconds. Results were adjusted based on the amplification of TFRC (CD71, transferrin receptor) as an endogenous control using a commercial kit (Applied Biosystems) and subsequently linearly transformed. For patient samples, values were then readjusted to represent the expression of FOXP3 in CD3+ cells using the phenotypic data for the corresponding samples.
+IL-2 induction of FOXP3 expression
+Sorted CD4+CD25- or CD4+CD25bright cells were incubated at 5 × 104 to 3 × 105 cells/well in round-bottom 96-well microplates for 6 hours in the presence of recombinant human IL-2 at a concentration of 100 U/mL unless otherwise stated. In some experiments, wells had been coated overnight with anti-CD3 monoclonal antibody (OKT3) at a concentration of 1 μg/mL.
+Western blot analysis of FOXP3 expression
+CD4+CD25bright and CD4+CD25- T cells (106) incubated for 18 hours with or without 100 U/mL IL-2 were harvested, washed, and lysed using RIPA buffer (Boston BioProducts, Worcester, MA) supplemented with protease inhibitor. Cell lysates were subsequently homogenized using QIAshredder Homogenizer columns (Qiagen, Valencia, CA). Soluble fractions were separated by sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) and transferred to nitrocellulose membrane. Membranes were saturated 1 hour at room temperature in TBST supplemented with 5% nonfat dry milk and immunoblotted overnight at 4°C with anti-FOXP3 monoclonal antibody (clone 236/E7; ABCAM, Cambridge, MA) or α-tubulin (clone B-5-1-2; Sigma, St Louis, MO). Membranes were then washed, probed with HRP-conjugated goat antimouse polyclonal antibodies (Zymed Laboratories, San Francisco, CA), and revealed with enhanced chemiluminescence (ECL; Amersham Biosciences, Uppsala, Sweden).
+Isolation of FOXP3 STAT-binding region
+We searched for conserved STAT-binding motifs using the UCSC genome browser, May 2004 assembly (http://genome.ucsc.edu). FOXP3 genomic DNA was amplified from human breast DNA (BioChain, Hayward, CA) using the following primers: 5′-GGACGTCCCTTTCTGACTG-3′ and 5′-TCACCTACCACATCCACCAG-3′. Amplified DNA was cloned using the Zero Blunt TOPO cloning kit (Invitrogen). Mutagenesis was performed with a Stratagene QuikChange Site-Directed Mutagenesis Kit using the following primers: for site P1, 5′-GGACGTCCCTTTCTGACTGGGTAACTCAGTAGCTGAATGGG-3′ and 5′-CCCATTCAGCTACTGAGT TACCCAGTCAGAAAGGGACGTCC-3′; for site P2, 5′-CCACAGGTTTCGAACCGAGTACTGGCTGCCCTGTCC-3′ and 5′-GGACAGGGCAGCCAGTACTCGGTTCGAAACCTGTGG-3′. Bases changed are in italics. These wild-type and mutated sequences were then amplified to add XhoI and HindIII restriction sites using the following primers: 5′-CTCGAGCTCGAGGGACGTCCCTTTCTGACTGG-3′ and 5′-AAGCTTAAGCTTTCACCTACCACATCCACCAG-3′, and ligated into the pLuc-MCS luciferase plasmid (Stratagene, La Jolla, CA).
+Luciferase reporter gene assays
+For reporter gene assays, 5 × 104 293 cells were transfected with 1 μg firefly luciferase vector (1 μg STAT5a1*6 expression vector or STAT3C expression vector) and 0.1 μg renilla luciferase vector (pRL-TK; Promega, Madison, WI) using Lipofectamine 2000 (Invitrogen). Twenty-four hours after transfection, luciferase activity was assessed using a Luminoskan Ascent (Labsystems, Helsinki, Finland) using a Dual-Luciferase Reporter Assay Kit (Promega) according to the manufacturer's protocol. All firefly luciferase activity was normalized to renilla luciferase.
+Treatment with 5-aza-2′-deoxycytidine
+NKL cells or primary CD3-CD56+ NK cells isolated from healthy blood were cultured for 2 days in complete medium supplemented with 100 U/mL IL-2 and 5-aza-2′-deoxycytidine (Sigma) at a final concentration of 1 μM or 10 μM as indicated. Cells were then thoroughly washed and incubated in the same medium with 5-aza-2′-deoxycytidine but without IL-2 for an additional 24 hours. IL-2 (100 U/mL) was added to half the cultures and cells were incubated for 18 hours before being tested for the expression of FOXP3.
+Results
+IL-2 up-regulates the expression of FOXP3 in CD4+CD25+ but not CD4+CD25- T cells
+We investigated the effect of IL-2 on the expression of FOXP3 in CD4+CD25bright Tregs and CD4+CD25- T cells purified from healthy individuals. As illustrated in Figure 1A, CD4+CD25+ cells constitutively express FOXP3, whereas CD4+CD25- cells do not. Incubation with IL-2 for 6 hours substantially increased the level of expression of FOXP3 in CD4+CD25+ T cells but not in CD4+CD25- cells. In most experiments, increased FOXP3 expression was detectable as early as 2 hours after incubation with IL-2 (data not shown). Stimulation with anti-CD3 antibodies alone did not induce FOXP3 expression in either CD4+CD25- or CD4+CD25+ cells but enhanced the effect of IL-2 on CD4+CD25+ Tregs. Western blot experiments using a monoclonal antibody specific for FOXP3 confirmed these findings. As shown in Figure 1B, FOXP3 protein is readily detectable in CD4+CD25+ cells but not in CD4+CD25- cells from the same individual. Incubation with IL-2 for 18 hours markedly increased the level of FOXP3 in CD4+CD25+ Tregs but not in CD4+CD25- cells. Dose-response experiments revealed that the effect of IL-2 on FOXP3 expression in Tregs was detectable at concentrations as low as 0.1 U/mL, which likely target the high-affinity receptor for IL-2 (Figure 1C). In contrast, CD4+CD25- cells did not respond to IL-2, even at concentrations up to 10 000 U/mL (data not shown).
+Figure 1.
+Open in a new tab
+Recombinant IL-2 regulates FOXP3 expression in CD4+CD25+ Tregs. (A) CD4+CD25- (▪) and CD4+CD25+ () T cells purified from healthy individuals were cultured for 6 hours in the presence of recombinant IL-2 with or without anti-CD3 stimulation. FOXP3 expression was then assessed by quantitative PCR. (B) Purified CD4+CD25- and CD4+CD25+ cells were cultured for 18 hours with or without IL-2. Levels of FOXP3 protein were subsequently assessed by Western blotting. Control blotting of α-tubulin is also shown in this figure. (C) Purified CD4+CD25- (□) or CD4+CD25+ (○) cells were cultured for 6 hours with varying concentrations of IL-2 and then assessed for FOXP3 expression by quantitative PCR.
+IL-2-induced activation of FOXP3 involves STAT3 and STAT5 proteins
+IL-2 signaling results in the phosphorylation of STAT3 and STAT5 proteins that subsequently translocate into the nucleus where they regulate transcription of various genes.24 To determine whether IL-2 signaling directly induced expression of FOXP3, we investigated whether STAT consensus binding sequences were located within the FOXP3 gene. Figure 2A depicts the proximal region of the FOXP3 gene located on the X chromosome. The level of interspecies conservation for this DNA sequence is shown below the exon/intron organization. As illustrated in this figure, exons are highly conserved between different mammalian species including human, chimpanzee, mouse, rat, and dog. Two other regions located within the first intron of FOXP3 showed the same level of conservation as that found for exons, suggesting that these segments include regulatory sequences. One of these 2 regions found between bases 48 873 406 and 48 873 819 of the X chromosome of the assembly of the UCSC genome browser contained 2 STAT consensus binding motifs defined as TTC(N3)GAA (shown in blue in Figure 2A).
+Figure 2.
+Open in a new tab
+IL-2 signaling targets FOXP3 through STAT3 and STAT5 proteins. (A) The location of the human FOXP3 gene on chromosome X is illustrated at top of figure. The middle box shows the proximal region of FOXP3 including exons 1 to 4 as obtained from the University of California Santa Cruz genome assembly Web site and corresponds to a segment located between bases 48 870 000 and 48 878 500 (http://genome.ucsc.edu). The degree of interspecies conservation of the DNA within this segment is represented by peak histograms. The bottom box illustrates a segment of the first intron of FOXP3 located between bases 48 873 406 and 48 873 819, which includes 2 consensus STAT-binding motifs (in blue). The red sequence identifies mutations of the 2 STAT-binding sites introduced in the luciferase constructs. (B) Plasmid constructs were generated that contained wild-type (WT) FOXP3 intronic segment encompassing the 2 STAT motifs upstream of the luciferase cDNA or a mutated version of this segment with disrupted STAT elements. WT (▪) as well as mutated constructs () were cotransfected in 293 cells together with a plasmid containing a constitutively activated form of STAT3, STAT3C, or a constitutively activated form of STAT5, STAT5a1*6. Transcriptional activity was assessed after 24 hours. Error bars indicate SD.
+To confirm that this particular sequence had STAT-dependent transcriptional activity, we tested the ability of this region to regulate expression of a luciferase reporter gene. This highly conserved region encompassing the 2 STAT-responsive elements was amplified by PCR from genomic DNA and inserted into a plasmid vector upstream from a luciferase reporter gene. We also generated a mutated construct by disrupting the 2 putative STAT-binding motifs using site-directed mutagenesis (shown in red in Figure 2A). When transfected into 293 cells, both wild-type and mutated constructs showed little reporter activity (Figure 2B). In contrast, when the wild-type construct was cotransfected with a constitutively activated form of STAT5, STAT5a1*6,25 a prominent induction of luciferase activity was observed. The signal was abrogated when the mutated version of the FOXP3 intronic region was used, indicating that the 2 STAT-binding elements were required for this activity. Similarly, cotransfection of the wild-type FOXP3 intronic element with a constitutively activated form of STAT3, STAT3C,26 resulted in substantial reporter gene activity. Again, the activity was abrogated when a reporter construct with mutated STAT motifs was used.
+Administration of low-dose recombinant IL-2 induces the expansion of CD4+CD25+ FOXP3+ T cells in vivo
+Based on these in vitro findings, we next examined the influence of IL-2 on Tregs in vivo. Twenty-one patients had previously received prolonged courses of low-dose recombinant IL-2 (2 × 105 to 1.5 × 106 U/m2 per day for 3 months) for advanced solid tumors (n = 12) or following T-cell-depleted allogeneic hematopoietic stem cell transplantation (HSCT) for chronic myelocytic leukemia (n = 9). The effects of IL-2 infusions on CD3+CD56- T cells and CD3-CD56+ NK cells in these patients have been reported previously.22,23,27 In the present study, blood samples collected prior to IL-2 therapy and during treatment were assessed for both phenotypic and molecular markers of Tregs. Patient characteristics, IL-2 doses, and length of treatment at the time of testing are summarized in Table 1. All patients had received at least 4 weeks of daily IL-2 therapy at the time of analysis, although samples from patients with advanced solid tumors were collected later than samples from patients who underwent HSCT (median sampling time in weeks: 9.5 and 5 for solid tumor patients and patients who underwent HSCT, respectively; P = .008). No other chemotherapy or immune-modulating therapy was administered during this period. As illustrated in Figure 3A, daily IL-2 treatment resulted in increased frequencies of CD4+CD25+ T cells within the total CD3+ population. Increased frequency of CD4+CD25+ cells was noted in 9 of 12 patients with solid tumors (light gray histograms) and in 7 of 8 evaluable patients following allogeneic HSCT (black histograms). Patients with advanced solid tumors had greater increases than patients who received IL-2 following allogeneic HSCT (median values: 246.5 and 45, respectively; P = .04). This likely reflects the longer duration of IL-2 therapy in solid tumor patients at the time of blood sampling. On the whole, changes in absolute counts of CD4+CD25+ cells were consistent with percent changes for most patients (data not shown). In particular, bone marrow transplant (BMT) recipients who had lower baseline values than solid tumor patients also showed lower increases following IL-2 therapy. Using quantitative PCR, we also assessed the expression of FOXP3 in these samples. Results in Figure 3B show a marked increase in FOXP3 expression levels following IL-2 therapy in 19 of 21 patients. The median percent increase in FOXP3 expression for all patients was 868, and 6 patients had more than a 2000% (> 20-fold) increase. The effect of IL-2 on FOXP3 expression appeared similar between both groups of patients (solid tumor patient, median = 937; patients who underwent HSCT, median = 868; P = .8). Comparable results were obtained when analyzing FOXP3 expression in total PBMCs (ie, not adjusted for percent CD3+ cells; data not shown). Additionally, we confirmed the effect of IL-2 on FOXP3 expression for a solid tumor patient (patient 9) and a patient who received a BMT (patient 20) by intracellular staining using a monoclonal antibody specific for FOXP3. A substantial increase in FOXP3+ cells was observed in both cases. Moreover, FOXP3 staining appeared brighter following IL-2 treatment, supporting our in vitro findings. Results for patient 9 are shown in Figure 3C.
+Figure 3.
+Open in a new tab
+Low-dose administration of IL-2 induces the expansion of Tregs in vivo. (A) Percent CD4+CD25+ in blood CD3+ cells was measured by flow cytometry for each patient in samples collected before and 4 to 11 weeks after beginning daily IL-2 therapy. Results are presented as percent change in the frequency of CD4+CD25+ in total CD3+ T cells between the 2 samples.  indicates patients with solid tumors. ▪ indicates patients who received IL-2 after allogeneic T-cell-depleted HSCT. Flow cytometry values for one patient (number 17) were not available. (B) FOXP3 expression was assessed by quantitative PCR assays using the same patient samples as mentioned in panel A. Percent change following IL-2 therapy was calculated using values obtained from samples before and after treatment. (C) Intracellular staining of patient 9′s PBMCs collected before and during IL-2 therapy with anti-FOXP3 mab. Cells were also stained with anti-CD4 mab. Events were acquired after gating on lymphocytes.
+Effects of IL-2 on CD4+CD25+ cells and FOXP3 expression in vivo are transient
+For 10 of the 21 patients included in this study, we could analyze a later sample collected 4 to 10 months after IL-2 treatment was terminated (Table 1). Patient 11 received an additional 12 weeks of IL-2 therapy following the initial course of treatment. Figure 4A-B illustrate the changes in Treg markers between samples collected during IL-2 treatment and at these later time points. These results indicate a decrease in both CD4+CD25+ frequency and FOXP3 levels for most patients, demonstrating that the effects of IL-2 on Tregs in vivo were transient.
+Figure 4.
+Open in a new tab
+Effect of IL-2 on Tregs in vivo is transient. (A) Percent changes in frequencies of CD4+CD25+/CD3+ were calculated using phenotypic values obtained from samples collected during IL-2 treatment and samples collected at later time points, 4 to 10 months after IL-2 therapy (Table 1). Patients with solid tumors are represented with ; patients after allogeneic HSCT are represented with ▪. (B) FOXP3 expression was assessed in the same samples collected during IL-2 treatment and after completion of therapy (Table 1). Percent changes were calculated using values obtained with these 2 sets of samples.
+Low dose IL-2 therapy induces the expansion of CD3-CD56+ NK cells but does not induce FOXP3 expression in NK cells
+Previous studies have demonstrated the expansion of CD3-CD56+ NK cells in vivo following IL-2 therapy. We confirmed this effect in our patient cohort (Figure 5A). All but one patient showed a substantial increase in percent CD56+ cells after 4 to 11 weeks of IL-2 treatment. As shown in Figure 2, IL-2 directly targets the FOXP3 gene through a mechanism involving the binding of STAT proteins to regulatory elements located in the first intron of the gene. We therefore investigated whether CD56+ NK cells expressed FOXP3 in response to IL-2. CD3-CD56+ cells were purified by cell sorting from 5 patient samples during IL-2 treatment. For all 5 patients, FOXP3 expression was virtually undetectable in purified NK cells, whereas high-level expression was detected in purified CD3+CD4+ T cells (Figure 5B). In contrast to CD4+CD25+ Tregs, these findings demonstrate that IL-2 does not induce FOXP3 expression in NK cells in vivo.
+Figure 5.
+Open in a new tab
+Low-dose IL-2 induces the expansion of FOXP3-CD56+ cells in vivo. (A) Percent change in frequencies of CD56+ cells in total blood lymphocytes was determined using values obtained by flow cytometry from samples collected before and during IL-2 treatment. Values for one patient (number 11) were not available. (B) CD4+ T cells and CD3-CD56+ NK cells were purified by cell sorting from 5 patient samples collected during IL-2 treatment. FOXP3 expression was assessed by quantitative PCR in both cell subsets for the 5 patients.
+FOXP3 expression in NK cells is repressed by DNA methylation
+To explain the lack of FOXP3 expression in NK cells following IL-2 therapy, we hypothesized that this gene might be regulated at a different level, possibly by DNA methylation. To test this hypothesis, we subjected the human NK cell line NKL to 2 different doses of the demethylating agent 5-aza-2′-deoxycytidine for 3 days before stimulating the cells with IL-2. As shown in Figure 6A, IL-2 induced the expression of FOXP3 in NKL cells treated with 1 μM or 10 μM 5-aza-2′-deoxycytidine. Similar data were obtained using primary CD3-CD56+ NK cells purified from a healthy donor (Figure 6B). These data suggest that FOXP3 gene was repressed in NK cells by DNA methylation.
+Figure 6.
+Open in a new tab
+Treatment with 5-aza-2′-deoxycytidine allows IL-2 induction of FOXP3 expression in NK cells. (A) Human NKL cells were treated with 2 different doses of 5-aza-2′-deoxycytidine for 3 days and then incubated with or without IL-2 for 18 hours. FOXP3 expression was then assessed by quantitative PCR. (B) Primary CD3-CD56+ NK cells were isolated from the blood of a healthy donor and treated with 5-aza-2′-deoxycytidine for 3 days at 10 μM. Cells were then incubated with or without IL-2 for an additional 18 hours before FOXP3 gene expression was tested by quantitative PCR.
+Discussion
+Recent studies from many laboratories have demonstrated the critical role of IL-2 in the biology of Tregs and have begun to redefine the immunologic effects of IL-2 in vivo. For example, mouse models have demonstrated that IL-2 is required for the generation of Tregs during antigen-specific immune responses as well as the regulation and maintenance of existing Treg pools in the periphery.5-8 Other investigations have shown that IL-2 is also involved in the suppressive function of these cells.28,29 However, despite this growing body of data, the mechanism whereby IL-2 controls Treg homeostasis remains unknown. It is still particularly unclear as to how IL-2 selectively regulates Tregs in vivo among other immune cells that also appear to respond to this cytokine in vitro. In our studies, we describe a direct pathway linking IL-2 signaling to the expression of the FOXP3 gene through STAT proteins.24 This signaling pathway was specific to CD4+CD25+ Tregs. In particular, IL-2 did not increase FOXP3 expression in CD4+CD25- cells. CD4+CD25- cell unresponsiveness was not due to the lack of IL-2Rα chain, as IL-2 failed to induce FOXP3 expression in these cells after CD3 stimulation and incubation with high concentrations of IL-2 that do not require the expression of high-affinity receptors. This differential responsiveness indicates a unique programming of CD4+CD25+ Tregs with respect to the IL-2 signaling pathway, leading to FOXP3 expression.
+Investigating further, we identified a tandem consensus STAT-binding motif located in the first intron of the FOXP3 gene. Tandem STAT-binding motifs are relatively common and may allow cooperative binding of STAT dimers. In addition, STAT-binding sites reside mostly in introns, with a preference for the first intron.30 In that respect, the STAT-regulatory elements identified in the FOXP3 gene follow a conventional pattern. As indicated by interspecies alignment, both sites have been conserved through evolution with a degree of stringency comparable with that of coding regions of the gene. Such conservation underscores the importance of these motifs as regulatory elements and provides additional evidence for the role of STAT proteins in regulating FOXP3 expression.
+Using a luciferase reporter assay, we demonstrated that activated forms of STAT3 and STAT5 proteins specifically bind to the intronic regulatory elements we identified. The importance of STAT proteins in Treg differentiation was previously suggested by studies done in mice deficient for both STAT5a and STAT5b. These mice show a reduction in the number of CD4+CD25+ T cells.31 Another mouse study demonstrated the key role of STAT5 in the maintenance of CD4+CD25+ Tregs in the periphery.14 These findings are consistent with other studies attributing the same role to IL-2 in regulating Treg pools.32 Given that STAT3 and STAT5 are critical signal-transducing proteins downstream of the IL-2 receptor, these studies underscore the importance of the IL-2 signaling pathway for Treg homeostasis. In our series of experiments, we further demonstrate that this essential signaling pathway targets the Treg lineage-specific FOXP3 gene. The significance of this IL-2/STAT/FOXP3 axis might extend to a broad range of immune responses. In a recent article, Kortylewski et al report the enhancement of tumor immunity in a mouse model following the inducible ablation of STAT3 in hematopoietic cells.33 Although the exact mechanism behind this observation is uncertain, it is plausible that ablation of STAT3 disrupted Treg pools, resulting in unrestrained tumor immunity. Based on our findings, it is also possible that IL-2 signaling through STAT proteins may contribute to the lineage specification of Tregs in the thymus as well as in the periphery by triggering de novo expression of FOXP3. A study published by Watanabe et al has described a role for IL-2 in the generation of FOXP3+ Tregs in the Hassall corpuscles in the thymus.34 However, more recent findings suggest that the role of IL-2 is restricted to regulating Treg pools in the periphery without directly modulating thymic output of these cells.6
+We also investigated the effect of IL-2 in vivo in 21 adult patients treated with daily low-dose IL-2 for advanced solid tumors (n = 12) or following T-cell-depleted allogeneic HSCT (n = 9). IL-2-induced expansion of CD4+CD25+ Tregs in peripheral blood was greater in solid tumor patients than in the patients who underwent HSCT, and this likely reflected the longer duration of IL-2 therapy in the solid tumor cohort. Overall, these findings are consistent with several recently published studies.9-12 One study by Sereti et al described expansion of CD4+CD45RO-CD25+ T cells in HIV patients treated with intermittent courses of moderate to high doses of IL-2.10 These cells expressed high levels of FOXP3 in comparison with normal CD4+CD25+ Tregs. In another study, Zhang et al reported the expansion of CD4+CD25+ Tregs in young adult patients with advanced sarcoma following chemotherapy and low to moderate doses of IL-2.11 IL-2-induced Tregs were shown to express normal levels of FOXP3. Finally, 2 subsequent studies reported an increase in CD4+CD25high Tregs in patients treated with high doses of IL-2 for advanced renal cell carcinoma or melanoma.9,12 IL-2 therapy in these patients also induced an increase in FOXP3 expression. Taken together, these studies performed in different patient populations and with different doses and schedules of administration convincingly demonstrate a consistent effect of IL-2 on CD4+CD25+ Tregs in vivo. In comparison with previous reports, our studies demonstrate that very low doses of IL-2 are sufficient to expand Tregs in vivo and that this can be accomplished without any other therapy or conditions of lymphopenia. Moreover, IL-2-induced modulation of Tregs can be maintained for prolonged periods without substantial toxicity, and the effects on Tregs are reversible after IL-2 treatment is stopped. In these various reports, administration of recombinant IL-2 appeared to have little effect on the function of Tregs in vivo. In 3 of 4 studies, despite higher FOXP3 expression, IL-2-expanded Tregs exhibited suppressive activity comparable with that of healthy donor Tregs. Only one study, by Sereti et al,10 reported that IL-2-induced Tregs mediated less suppressive activity than naturally occurring Tregs. Because we had very limited numbers of cells available for analysis, we could not examine the functional capacity of Tregs in our experiments.
+Using FOXP3 gene as an additional marker, we confirmed the effects of IL-2 on Tregs in vivo. Of interest, FOXP3 gene expression values increased more than 9-fold, while the frequency of CD4+CD25+ cells increased approximately 2-fold. Although, increases in CD4+CD25+ cells appeared more pronounced in advanced cancer patients than in patients who underwent HSCT, increases in FOXP3 expression levels were similar for both patient groups. These in vivo observations are consistent with our in vitro studies, which demonstrate that IL-2 signaling can directly induce FOXP3 gene expression within 2 to 4 hours after IL-2 stimulation and does not require cell proliferation. Similarly, analysis of our clinical samples suggest that increased FOXP3 gene expression can be observed relatively soon after initiation of IL-2 therapy. The in vivo effects of IL-2 on proliferation of CD4+CD25+ Tregs appear to be independent of the level of FOXP3 expression, and the level of Treg expansion in vivo appears to be dependent on the duration of IL-2 therapy. Further prospective analysis of patients receiving low-dose IL-2 will be needed to better define the relationships between duration of IL-2 therapy, the extent of Treg proliferation in vivo, and the functional capacity of these cells.
+As reported in earlier studies, prolonged administration of low-dose IL-2 results in the vigorous expansion of CD3-CD56+ NK cells in vivo.35,36 Although NK cells clearly respond to IL-2 in vivo, these cells did not express FOXP3 following IL-2 therapy. Since IL-2 signaling in NK cells is also known to activate STAT3 and STAT5,37,38 the lack of FOXP3 induction suggested that this gene is naturally repressed in NK cells. In vitro treatment with the demethylating agent 5-aza-2′-deoxycytidine restored this signaling pathway and FOXP3 expression in NK cells upon IL-2 stimulation, demonstrating that this gene was repressed by a mechanism involving DNA methylation.
+Since its first characterization as a T-cell growth factor, IL-2 has been used extensively to enhance T-cell proliferation and T-cell function in vitro and in vivo.39 More than 15 years ago, we began a series of clinical trials investigating the effects of therapy with low-dose IL-2 on tumor immunity in vivo.27,35,40 In most patients, daily IL-2 treatment was continued for a 3-month period, and no concomitant chemotherapy or immunotherapy was administered. Some of these studies were undertaken in patients who had recently engrafted with allogeneic hematopoietic stem cells.22,23 Transplant patients with active graft-versus-host disease (GVHD) were excluded, but no patients developed GVHD as a result of low-dose IL-2 and overall toxicity was minimal, even in this high-risk population. After several years, this approach was largely abandoned because, despite occasional tumor responses, there was little clinical evidence that IL-2 treatments were inducing significant tumor immunity. Our current analysis of cryopreserved PBMC samples obtained from patients on these clinical trials now suggests that expansion of T-cell effectors that may have been capable of mediating tumor rejection or GVHD did not occur because of the IL-2-induced expansion of Tregs and increased FOXP3 expression in these regulatory cells in vivo. Similar effects may help explain the inability of concomitant administration of IL-2 to enhance T-cell responses to cancer vaccines that has been recently reported.41-43 In fact, some of these clinical trials have demonstrated reduced effector T-cell responses in cohorts that received IL-2.42
+As the ability to specifically identify Tregs has improved, many studies have identified either quantitative or functional defects in these cells as potential contributors to autoimmune diseases.44 In a recent clinical study, we showed that poor reconstitution of CD4+CD25+ FOXP3+ Tregs following allogeneic HSCT correlates with the development of chronic GVHD.45 Moreover, recovery of normal levels of Tregs was associated with resolution of clinical manifestations of disease. Results of several preclinical models support the ability of Tregs to suppress alloimmunity and the pathologic manifestations of GVHD.46-49 Moreover, previous studies in murine models have shown that IL-2 administered after allogeneic HSCT resulted in the abrogation of GVHD.50,51 In a xenogeneic model, IL-2 was not able to induce GVHD mediated by human T cells.52 Taken together, these studies suggest that low-dose IL-2 therapy may provide a mechanism for selective expansion of Tregs in patients with active GVHD. A similar therapeutic approach may also be evaluated in autoimmune diseases where deficiencies in Treg number or functional capacity have been well documented. Since our studies suggest that this can be accomplished with relatively low doses of IL-2 that have not been associated with severe toxicities, this approach may be safely tested in carefully designed clinical trials.
+Prepublished online as Blood First Edition Paper, April 27, 2006; DOI 10.1182/blood-2006-02-004747.
+Supported by the Jock and Bunny Adams Research and Education Endowment, the Ted and Eileen Pasquarello Research Fund, the Brent Leahey fund, and National Institutes of Health (NIH) grants AI29530 and HL70149.
+E.Z. and E.A.N. contributed equally to this work.
+The publication costs of this article were defrayed in part by page charge payment. Therefore, and solely to indicate this fact, this article is hereby marked “advertisement” in accordance with 18 U.S.C. section 1734.
+References
+1.Malek TR, Bayer AL. Tolerance, not immunity, crucially depends on IL-2. Nat Rev Immunol. 2004;4: 665-674. [DOI] [PubMed] [Google Scholar]
+2.Nelson BH. IL-2, regulatory T cells, and tolerance. J Immunol. 2004;172: 3983-3988. [DOI] [PubMed] [Google Scholar]
+3.Sadlack B, Merz H, Schorle H, Schimpl A, Feller AC, Horak I. Ulcerative colitis-like disease in mice with a disrupted interleukin-2 gene. Cell. 1993;75: 253-261. [DOI] [PubMed] [Google Scholar]
+4.Willerford DM, Chen J, Ferry JA, Davidson L, Ma A, Alt FW. Interleukin-2 receptor alpha chain regulates the size and content of the peripheral lymphoid compartment. Immunity. 1995;3: 521-530. [DOI] [PubMed] [Google Scholar]
+5.Bayer AL, Yu A, Adeegbe D, Malek TR. Essential role for interleukin-2 for CD4(+)CD25(+) T regulatory cell development during the neonatal period. J Exp Med. 2005;201: 769-777. [DOI] [PMC free article] [PubMed] [Google Scholar]
+6.Fontenot JD, Rasmussen JP, Gavin MA, Rudensky AY. A function for interleukin 2 in Foxp3-expressing regulatory T cells. Nat Immunol. 2005; 6: 1142-1151. [DOI] [PubMed] [Google Scholar]
+7.Knoechel B, Lohr J, Kahn E, Bluestone JA, Abbas AK. Sequential development of interleukin 2-dependent effector and regulatory T cells in response to endogenous systemic antigen. J Exp Med. 2005;202: 1375-1386. [DOI] [PMC free article] [PubMed] [Google Scholar]
+8.Setoguchi R, Hori S, Takahashi T, Sakaguchi S. Homeostatic maintenance of natural Foxp3(+) CD25(+) CD4(+) regulatory T cells by interleukin (IL)-2 and induction of autoimmune disease by IL-2 neutralization. J Exp Med. 2005;201: 723-735. [DOI] [PMC free article] [PubMed] [Google Scholar]
+9.Ahmadzadeh M, Rosenberg SA. IL-2 administration increases CD4+CD25hiFoxp3+ regulatory T cells in cancer patients. Blood. Prepublished on November 22, 2005, as DOI 10.1182/blood-2005-06-2399. (Now available as Blood. 2006;107: 2409-2414.) [DOI] [PMC free article] [PubMed]
+10.Sereti I, Imamichi H, Natarajan V, et al. In vivo expansion of CD4CD45RO-CD25 T cells expressing foxP3 in IL-2-treated HIV-infected patients. J Clin Invest. 2005;115: 1839-1847. [DOI] [PMC free article] [PubMed] [Google Scholar]
+11.Zhang H, Chua KS, Guimond M, et al. Lymphopenia and interleukin-2 therapy alter homeostasis of CD4+CD25+ regulatory T cells. Nat Med. 2005; 11: 1238-1243. [DOI] [PubMed] [Google Scholar]
+12.Cesana GC, DeRaffele G, Cohen S, et al. Characterization of CD4+CD25+ regulatory T cells in patients treated with high-dose interleukin-2 for metastatic melanoma or renal cell carcinoma. J Clin Oncol. 2006;24: 1169-1177. [DOI] [PubMed] [Google Scholar]
+13.Frank DA, Robertson MJ, Bonni A, Ritz J, Greenberg ME. Interleukin 2 signaling involves the phosphorylation of Stat proteins. Proc Natl Acad Sci U S A. 1995;92: 7779-7783. [DOI] [PMC free article] [PubMed] [Google Scholar]
+14.Antov A, Yang L, Vig M, Baltimore D, Van Parijs L. Essential role for STAT5 signaling in CD25+CD4+ regulatory T cell homeostasis and the maintenance of self-tolerance. J Immunol. 2003;171: 3435-3441. [DOI] [PubMed] [Google Scholar]
+15.Bensinger SJ, Walsh PT, Zhang J, et al. Distinct IL-2 receptor signaling pattern in CD4+CD25+ regulatory T cells. J Immunol. 2004;172: 5287-5296. [DOI] [PMC free article] [PubMed] [Google Scholar]
+16.Fontenot JD, Gavin MA, Rudensky AY. Foxp3 programs the development and function of CD4+CD25+ regulatory T cells. Nat Immunol. 2003;4: 330-336. [DOI] [PubMed] [Google Scholar]
+17.Fontenot JD, Rasmussen JP, Williams LM, Dooley JL, Farr AG, Rudensky AY. Regulatory T cell lineage specification by the forkhead transcription factor foxp3. Immunity. 2005;22: 329-341. [DOI] [PubMed] [Google Scholar]
+18.Hori S, Nomura T, Sakaguchi S. Control of regulatory T cell development by the transcription factor Foxp3. Science. 2003;299: 1057-1061. [DOI] [PubMed] [Google Scholar]
+19.Bennett CL, Christie J, Ramsdell F, et al. The immune dysregulation, polyendocrinopathy, enteropathy, X-linked syndrome (IPEX) is caused by mutations of FOXP3. Nat Genet. 2001;27: 20-21. [DOI] [PubMed] [Google Scholar]
+20.Brunkow ME, Jeffery EW, Hjerrild KA, et al. Disruption of a new forkhead/winged-helix protein, scurfin, results in the fatal lymphoproliferative disorder of the scurfy mouse. Nat Genet. 2001;27: 68-73. [DOI] [PubMed] [Google Scholar]
+21.Wildin RS, Ramsdell F, Peake J, et al. X-linked neonatal diabetes mellitus, enteropathy and endocrinopathy syndrome is the human equivalent of mouse scurfy. Nat Genet. 2001;27: 18-20. [DOI] [PubMed] [Google Scholar]
+22.Soiffer RJ, Murray C, Cochran K, et al. Clinical and immunologic effects of prolonged infusion of low-dose recombinant interleukin-2 after autologous and T-cell-depleted allogeneic bone marrow transplantation. Blood. 1992;79: 517-526. [PubMed] [Google Scholar]
+23.Soiffer RJ, Murray C, Gonin R, Ritz J. Effect of low-dose interleukin-2 on disease relapse after T-cell-depleted allogeneic bone marrow transplantation. Blood. 1994;84: 964-971. [PubMed] [Google Scholar]
+24.Imada K, Leonard WJ. The Jak-STAT pathway. Mol Immunol. 2000;37: 1-11. [DOI] [PubMed] [Google Scholar]
+25.Onishi M, Nosaka T, Misawa K, et al. Identification and characterization of a constitutively active STAT5 mutant that promotes cell proliferation. Mol Cell Biol. 1998;18: 3871-3879. [DOI] [PMC free article] [PubMed] [Google Scholar]
+26.Bromberg JF, Wrzeszczynska MH, Devgan G, et al. Stat3 as an oncogene. Cell. 1999;98: 295-303. [DOI] [PubMed] [Google Scholar]
+27.Caligiuri MA, Murray C, Soiffer RJ, et al. Extended continuous infusion low-dose recombinant interleukin-2 in advanced cancer: prolonged immunomodulation without significant toxicity. J Clin Oncol. 1991;9: 2110-2119. [DOI] [PubMed] [Google Scholar]
+28.de la Rosa M, Rutz S, Dorninger H, Scheffold A. Interleukin-2 is essential for CD4+CD25+ regulatory T cell function. Eur J Immunol. 2004;34: 2480-2488. [DOI] [PubMed] [Google Scholar]
+29.Thornton AM, Donovan EE, Piccirillo CA, Shevach EM. Cutting edge: IL-2 is critically required for the in vitro activation of CD4+CD25+ T cell suppressor function. J Immunol. 2004;172: 6519-6523. [DOI] [PubMed] [Google Scholar]
+30.Nelson EA, Walker SR, Alvarez JV, Frank DA. Isolation of unique STAT5 targets by chromatin immunoprecipitation-based gene identification. J Biol Chem. 2004;279: 54724-54730. [DOI] [PubMed] [Google Scholar]
+31.Snow JW, Abraham N, Ma MC, Herndier BG, Pastuszak AW, Goldsmith MA. Loss of tolerance and autoimmunity affecting multiple organs in STAT5A/5B-deficient mice. J Immunol. 2003;171: 5042-5050. [DOI] [PubMed] [Google Scholar]
+32.Malek TR, Yu A, Vincek V, Scibelli P, Kong L. CD4 regulatory T cells prevent lethal autoimmunity in IL-2Rbeta-deficient mice: implications for the nonredundant function of IL-2. Immunity. 2002; 17: 167-178. [DOI] [PubMed] [Google Scholar]
+33.Kortylewski M, Kujawski M, Wang T, et al. Inhibiting Stat3 signaling in the hematopoietic system elicits multicomponent antitumor immunity. Nat Med. 2005;11: 1314-1321. [DOI] [PubMed] [Google Scholar]
+34.Watanabe N, Wang YH, Lee HK, et al. Hassall's corpuscles instruct dendritic cells to induce CD4+CD25+ regulatory T cells in human thymus. Nature. 2005;436: 1181-1185. [DOI] [PubMed] [Google Scholar]
+35.Caligiuri MA, Murray C, Robertson MJ, et al. Selective modulation of human natural killer cells in vivo after prolonged infusion of low dose recombinant interleukin 2. J Clin Invest. 1993;91: 123-132. [DOI] [PMC free article] [PubMed] [Google Scholar]
+36.Caligiuri MA, Zmuidzinas A, Manley TJ, Levine H, Smith KA, Ritz J. Functional consequences of interleukin 2 receptor expression on resting human lymphocytes: identification of a novel natural killer cell subset with high affinity receptors. J Exp Med. 1990;171: 1509-1526. [DOI] [PMC free article] [PubMed] [Google Scholar]
+37.Yu CR, Young HA, Ortaldo JR. Characterization of cytokine differential induction of STAT complexes in primary human T and NK cells. J Leukoc Biol. 1998;64: 245-258. [DOI] [PubMed] [Google Scholar]
+38.Wang KS, Frank DA, Ritz J. Interleukin-2 enhances the response of natural killer cells to interleukin-12 through up-regulation of the interleukin-12 receptor and STAT4. Blood. 2000;95: 3183-3190. [PubMed] [Google Scholar]
+39.Smith KA. Interleukin-2: inception, impact, and implications. Science. 1988;240: 1169-1176. [DOI] [PubMed] [Google Scholar]
+40.Soiffer RJ, Murray C, Shapiro C, et al. Expansion and manipulation of natural killer cells in patients with metastatic cancer by low-dose continuous infusion and intermittent bolus administration of interleukin 2. Clin Cancer Res. 1996;2: 493-499. [PubMed] [Google Scholar]
+41.Andersen MH, Gehl J, Reker S, et al. Dynamic changes of specific T cell responses to melanoma correlate with IL-2 administration. Semin Cancer Biol. 2003;13: 449-459. [DOI] [PubMed] [Google Scholar]
+42.Slingluff CL Jr, Petroni GR, Yamshchikov GV, et al. Immunologic and clinical outcomes of vaccination with a multiepitope melanoma peptide vaccine plus low-dose interleukin-2 administered either concurrently or on a delayed schedule. J Clin Oncol. 2004;22: 4474-4485. [DOI] [PubMed] [Google Scholar]
+43.Escobar A, Lopez M, Serrano A, et al. Dendritic cell immunizations alone or combined with low doses of interleukin-2 induce specific immune responses in melanoma patients. Clin Exp Immunol. 2005;142: 555-568. [DOI] [PMC free article] [PubMed] [Google Scholar]
+44.Hori S, Takahashi T, Sakaguchi S. Control of autoimmunity by naturally arising regulatory CD4+ T cells. Adv Immunol. 2003;81: 331-371. [DOI] [PubMed] [Google Scholar]
+45.Zorn E, Kim HT, Lee SJ, et al. Reduced frequency of FOXP3+ CD4+CD25+ regulatory T cells in patients with chronic graft-versus-host disease. Blood. 2005;106: 2903-2911. [DOI] [PMC free article] [PubMed] [Google Scholar]
+46.Edinger M, Hoffmann P, Ermann J, et al. CD4+CD25+ regulatory T cells preserve graft-versus-tumor activity while inhibiting graft-versus-host disease after bone marrow transplantation. Nat Med. 2003;9: 1144-1150. [DOI] [PubMed] [Google Scholar]
+47.Hoffmann P, Ermann J, Edinger M, Fathman CG, Strober S. Donor-type CD4(+)CD25(+) regulatory T cells suppress lethal acute graft-versushost disease after allogeneic bone marrow transplantation. J Exp Med. 2002;196: 389-399. [DOI] [PMC free article] [PubMed] [Google Scholar]
+48.Taylor PA, Lees CJ, Blazar BR. The infusion of ex vivo activated and expanded CD4(+)CD25(+) immune regulatory cells inhibits graft-versus-host disease lethality. Blood. 2002;99: 3493-3499. [DOI] [PubMed] [Google Scholar]
+49.Trenado A, Charlotte F, Fisson S, et al. Recipient-type specific CD4+CD25+ regulatory T cells favor immune reconstitution and control graft-versus-host disease while maintaining graft-versus-leukemia. J Clin Invest. 2003;112: 1688-1696. [DOI] [PMC free article] [PubMed] [Google Scholar]
+50.Sykes M, Romick ML, Hoyles KA, Sachs DH. In vivo administration of interleukin 2 plus T cell-depleted syngeneic marrow prevents graft-versus-host disease mortality and permits alloengraftment. J Exp Med. 1990;171: 645-658. [DOI] [PMC free article] [PubMed] [Google Scholar]
+51.Sykes M, Romick ML, Sachs DH. Interleukin 2 prevents graft-versus-host disease while preserving the graft-versus-leukemia effect of allogeneic T cells. Proc Natl Acad Sci U S A. 1990;87: 5633-5637. [DOI] [PMC free article] [PubMed] [Google Scholar]
+52.Roychowdhury S, Blaser BW, Freud AG, et al. IL-15 but not IL-2 rapidly induces lethal xenogeneic graft-versus-host disease. Blood. 2005;106: 2433-2435. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Articles from Blood are provided here courtesy of The American Society of Hematology
+ACTIONS
+View on publisher site
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

@@ -1,0 +1,344 @@
+[
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_Q09_web.json",
+    "bytes": 16462,
+    "sha256": "b2119512d21bf11e0bee846ecb951478cf70be477add592b9e7c465e6a8e7b2a",
+    "source_id": "unavailable",
+    "snapshot_role": "search_tool_response",
+    "access_level": "discovery_only",
+    "eligible_as_supporting_snapshot": false
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S01_full.html",
+    "bytes": 272189,
+    "sha256": "210c9c5b0b248c9dc3e6abf52786ca51656288768b9dbcb15f67260480c62b3a",
+    "source_id": "MA-S01",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S01_full.txt",
+    "bytes": 86036,
+    "sha256": "0510e3dcfe737257c3118f273492e05f76d643896062a8957267eef966cad549",
+    "source_id": "MA-S01",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S01_full_metadata.json",
+    "bytes": 2296,
+    "sha256": "1fd70f05928d928a33d84baa6f4af60509afa016579c5510ce4a90d1c0f0126d",
+    "source_id": "MA-S01",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S02_full.html",
+    "bytes": 192756,
+    "sha256": "2c94fd8923bc608c44f04f3c5a53970120a80cd0a4c7ef4ec9e86fbc1f69077a",
+    "source_id": "MA-S02",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S02_full.txt",
+    "bytes": 47769,
+    "sha256": "e532abc1ae62a5bfdf846d752ed8913cc4a31ec3365212e0e51d6383d4633741",
+    "source_id": "MA-S02",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S02_full_metadata.json",
+    "bytes": 2843,
+    "sha256": "4e9ec436976a2abdb27bd2404db8c767d41474658ee1b32855a05d21111b8ad7",
+    "source_id": "MA-S02",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S03_full.html",
+    "bytes": 270951,
+    "sha256": "93d58492599cf783a253d0d3dd49094e1d2bcc146c43b61d96f817568d952276",
+    "source_id": "MA-S03",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S03_full.txt",
+    "bytes": 95543,
+    "sha256": "9b7f0485c866ffe4363cd6b0b3aebb279b0e705eccbf874779fa4779e2a64e8e",
+    "source_id": "MA-S03",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S03_full_metadata.json",
+    "bytes": 6590,
+    "sha256": "60049370f7cf0d46031c1afa90c93e386817dbeb67e182b31a40ba75a5cd07b0",
+    "source_id": "MA-S03",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S04_full.html",
+    "bytes": 1094332,
+    "sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+    "source_id": "MA-S04",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S04_full.txt",
+    "bytes": 76403,
+    "sha256": "d58269eec27f9e8555e1aaea766e5e091f300fcb277883776cd8ad6538266895",
+    "source_id": "MA-S04",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S04_full_metadata.json",
+    "bytes": 3964,
+    "sha256": "3c7394c4c3b9d19cafb72199efadf2f69ec6a5f4f560fd2444f5819e5c4c0604",
+    "source_id": "MA-S04",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S05_full.html",
+    "bytes": 204856,
+    "sha256": "00790679faae73c30d6db60d751629bcb739a8d82ae5fd89d240475df569ceed",
+    "source_id": "MA-S05",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S05_full.txt",
+    "bytes": 57264,
+    "sha256": "56151f37553491bab0d5afd9a6a92e130477c1cbbb9160f0c9edea40b76510f3",
+    "source_id": "MA-S05",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S05_full_metadata.json",
+    "bytes": 2471,
+    "sha256": "f79957a08969383e354253291596aa3304bfcb47031cdc5574d17f53192a998a",
+    "source_id": "MA-S05",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_correction_full.html",
+    "bytes": 237259,
+    "sha256": "a156006bbc9bbdf89cb7ed083eb8c634e1ec33a6f917de39b47f111d6eb9a1e2",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_correction_notice",
+    "access_level": "primary_notice_inspected; competing-interest disclosure only",
+    "eligible_as_supporting_snapshot": true,
+    "resource_doi": "10.1038/s41586-025-09356-6",
+    "resource_relation": "corrects_competing_interest_disclosure_of_MA-S06",
+    "resource_url": "https://www.nature.com/articles/s41586-025-09356-6"
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_correction_full.txt",
+    "bytes": 7209,
+    "sha256": "6abb4859b4fc04145cef6678f66d7100a28cb0b4cadb3784d1d68d792d41db13",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_correction_notice",
+    "access_level": "primary_notice_inspected; competing-interest disclosure only",
+    "eligible_as_supporting_snapshot": true,
+    "resource_doi": "10.1038/s41586-025-09356-6",
+    "resource_relation": "corrects_competing_interest_disclosure_of_MA-S06",
+    "resource_url": "https://www.nature.com/articles/s41586-025-09356-6"
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_correction_full_metadata.json",
+    "bytes": 3632,
+    "sha256": "5fda2b950a9b991c66d39d7545017d6db2c3bab58d481b89b6a728a909f178c7",
+    "source_id": "MA-S06",
+    "snapshot_role": "correction_notice_metadata",
+    "access_level": "primary_notice_inspected; competing-interest disclosure only",
+    "eligible_as_supporting_snapshot": true,
+    "resource_doi": "10.1038/s41586-025-09356-6",
+    "resource_relation": "corrects_competing_interest_disclosure_of_MA-S06",
+    "resource_url": "https://www.nature.com/articles/s41586-025-09356-6"
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig3_full.html",
+    "bytes": 177990,
+    "sha256": "926cfd766f38fb588ae1fa7e00f071d47011f6fcdf882fb62638f3d80926db89",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_figure_caption",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig3_full.txt",
+    "bytes": 5244,
+    "sha256": "6c37c3cf7b7e757f1e15314933487e14637cc7c19901ef9dbe9dac11b0fad644",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_figure_caption",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig3_full_metadata.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "source_id": "MA-S06",
+    "snapshot_role": "figure_page_metadata",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig4_full.html",
+    "bytes": 177525,
+    "sha256": "4d3c0ef2dd654c1a1357ae48472573b9bda304b186b3d891700987f5e55b1342",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_figure_caption",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig4_full.txt",
+    "bytes": 5269,
+    "sha256": "8e8d9a9d3ce2b8729e34a530254ddba751ba7bd6e2610f410de59216bf305849",
+    "source_id": "MA-S06",
+    "snapshot_role": "primary_figure_caption",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_fig4_full_metadata.json",
+    "bytes": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "source_id": "MA-S06",
+    "snapshot_role": "figure_page_metadata",
+    "access_level": "public_caption_inspected; figure image not inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_full.failed.html",
+    "bytes": 236,
+    "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e",
+    "source_id": "MA-S06",
+    "snapshot_role": "failed_retrieval_response",
+    "access_level": "failed_access; not primary evidence",
+    "eligible_as_supporting_snapshot": false
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_full.html",
+    "bytes": 515928,
+    "sha256": "41dbd274ab85a18fb2048b742887c14db703cae09c6c23ad38d8273eb1e7f236",
+    "source_id": "MA-S06",
+    "snapshot_role": "subscription_limited_primary_article",
+    "access_level": "abstract_and_extended_data_captions; main wet-lab Methods/Results unavailable",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_full.txt",
+    "bytes": 43356,
+    "sha256": "c83609107e9fb39e58eb4f9486f2c76e65ca656a9edc24ca01e92893afa5544c",
+    "source_id": "MA-S06",
+    "snapshot_role": "subscription_limited_primary_article",
+    "access_level": "abstract_and_extended_data_captions; main wet-lab Methods/Results unavailable",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_full_metadata.json",
+    "bytes": 26291,
+    "sha256": "7b2eb4ca2d4fc287a4147be44a803f3f2b1fdad8d0bc5b7c71f31677a7fbc287",
+    "source_id": "MA-S06",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_methods.pdf",
+    "bytes": 529176,
+    "sha256": "be7d095528ea94d03451657bca5aa4bbeb17ffd8a9dd91330fd4e0d74fa73aa9",
+    "source_id": "MA-S06",
+    "snapshot_role": "supplementary_analytical_methods",
+    "access_level": "public_analysis_supplement_inspected; main wet-lab Methods unavailable",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_methods.txt",
+    "bytes": 11416,
+    "sha256": "99171892e66cba7aa17496cd7663393e32942c256003c15fe8126c067a377c3e",
+    "source_id": "MA-S06",
+    "snapshot_role": "supplementary_analytical_methods",
+    "access_level": "public_analysis_supplement_inspected; main wet-lab Methods unavailable",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_nature.failed.html",
+    "bytes": 515926,
+    "sha256": "60594c343cd21c45b7fd1b420f6777c574d449d1bb245669bb71ab07d8ff51bc",
+    "source_id": "MA-S06",
+    "snapshot_role": "failed_retrieval_response",
+    "access_level": "failed_access; not primary evidence",
+    "eligible_as_supporting_snapshot": false
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_repository.failed.html",
+    "bytes": 3058,
+    "sha256": "8d5c49893e197e978a18c122f0487cddee54a2033963f2f9ff6ed300a087d517",
+    "source_id": "MA-S06",
+    "snapshot_role": "failed_retrieval_response",
+    "access_level": "failed_access; not primary evidence",
+    "eligible_as_supporting_snapshot": false
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S06_web.json",
+    "bytes": 300,
+    "sha256": "7a94e18b956035d0ac2bf37b07c556e1d7215ed69ed4d233cdebe7354864996d",
+    "source_id": "MA-S06",
+    "snapshot_role": "failed_retrieval_response",
+    "access_level": "failed_access; not primary evidence",
+    "eligible_as_supporting_snapshot": false
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S07_full.html",
+    "bytes": 219712,
+    "sha256": "9a4fafb02aae934b0eecdf74e04c9c87a2b7ddfee130b2fc6f7a85b1f2c716e1",
+    "source_id": "MA-S07",
+    "snapshot_role": "primary_article_html",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S07_full.txt",
+    "bytes": 62118,
+    "sha256": "0bbf99005de825e9cee6760d8e217ca610cf7f3a091715c8d7fe69305ad37c99",
+    "source_id": "MA-S07",
+    "snapshot_role": "primary_article_text_conversion",
+    "access_level": "primary_full_text; selected Methods/Results inspected",
+    "eligible_as_supporting_snapshot": true
+  },
+  {
+    "path": "research/mechanisms_activation/snapshots/MA_S07_full_metadata.json",
+    "bytes": 1131,
+    "sha256": "875bbec16b4d330718e23a9437b5d16b609de9c5b6fb352646cfc2f341065494",
+    "source_id": "MA-S07",
+    "snapshot_role": "article_page_metadata",
+    "access_level": "metadata_extracted_from_retrieved_primary_page",
+    "eligible_as_supporting_snapshot": true
+  }
+]

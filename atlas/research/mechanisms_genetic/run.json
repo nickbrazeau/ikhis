@@ -1,0 +1,106 @@
+{
+  "run_id": "MG-RUN-20260913-01",
+  "agent_role": "evidence_extractor; not independent reviewer",
+  "timestamp_start": "2026-09-13T19:19:00Z",
+  "timestamp_start_basis": "first explicit runtime clock reading; contract/skill reads started shortly before this, exact earlier instant unavailable",
+  "timestamp_end": "2026-09-13T19:31:26Z",
+  "timezone": "UTC",
+  "LLM_provider": "OpenAI",
+  "LLM_model": "GPT-6",
+  "model_snapshot_if_available": "unavailable",
+  "reasoning_mode": "unavailable",
+  "protocol_version": "0.3.0 mechanism-candidate extraction contract; original evidence principles0.1.0",
+  "agent_prompt_version": "parent-directed human immune genetic/regulatory lane; user-approved steps1\u20133 only",
+  "instruction_bundle_hash": "unavailable",
+  "source_versions": [
+    {
+      "source_id": "MG01",
+      "version": "Published primary article; correction relationship check detailed in screening.json"
+    },
+    {
+      "source_id": "MG02",
+      "version": "Published primary article; correction relationship check detailed in screening.json"
+    },
+    {
+      "source_id": "MG03",
+      "version": "Published primary article; correction relationship check detailed in screening.json"
+    },
+    {
+      "source_id": "MG04",
+      "version": "Published primary article; correction relationship check detailed in screening.json"
+    },
+    {
+      "source_id": "MG05",
+      "version": "Published primary article; correction relationship check detailed in screening.json"
+    }
+  ],
+  "retrieval_queries": [
+    "MGQ01",
+    "MGQ02",
+    "MGQ03",
+    "MGQ04",
+    "MGQ05",
+    "MGQ06",
+    "MGQ07",
+    "MGQ08",
+    "MGQ09",
+    "MGQ10",
+    "MGQ11",
+    "MGQ12"
+  ],
+  "retrieval_dates": [
+    "2026-09-13"
+  ],
+  "source_hashes": "computed centrally",
+  "code_commit": "unavailable",
+  "environment_hash": "unavailable",
+  "output_hash": "computed centrally",
+  "critic_run_ids": [],
+  "human_edits": "unavailable",
+  "independent_review_status": "pending_not_started",
+  "human_review_status": "pending",
+  "production_edits": false,
+  "priors_constructed": false,
+  "scope": "Broad human immune regulation; no restriction to cytokine label panel. All cytokines within project scope.",
+  "used_skills": [
+    "ncbi-entrez-skill"
+  ],
+  "skill_failure": "helper missing requests; public web primary-source fallback",
+  "agent_path": "/root/genetic_mechanisms",
+  "write_scope": "research/mechanisms_genetic",
+  "timestamp_end_basis": "runtime clock at completion of substantive extraction; final structural validation and metadata cleanup followed",
+  "structural_validation": {
+    "status": "passed",
+    "scope": "IDs, source/cohort references, allowed statuses, bridge checks and snapshot existence; no independent scientific review",
+    "assertion_count": 20,
+    "bridge_count": 11,
+    "cohort_count": 15,
+    "source_count": 5
+  },
+  "provenance_completions": [
+    {
+      "timestamp": "2026-09-13T19:34:47Z",
+      "source_id": "MG04",
+      "change": "Registered Methods and enhancer Results in additional_snapshot_paths; confirmed all MG04 assertion supporting snapshots are registered. Saved previously inspected GWAS-intersection Methods excerpt. Assertion records and cohort caveats unchanged.",
+      "role": "extractor provenance completion; no independent review"
+    },
+    {
+      "timestamp_start": "2026-09-13T19:50:48Z",
+      "timestamp_end": "2026-09-13T19:53:47Z",
+      "source_id": "MG05",
+      "change": "Full primary PMC access resolved via parent approved curl. Identical HTML copied into lane and Methods/Results inspected. Four narrow assertions and two nonserial profiles added; remaining detailed extraction partial.",
+      "snapshot_sha256": "e5ed84ca9dd92d843302cc60d5f08169c7b7da8e2cd2ddcf3a2fb0fd46192b8a",
+      "role": "evidence_extractor; no independent review",
+      "new_assertion_ids": [
+        "MG-A017",
+        "MG-A018",
+        "MG-A019",
+        "MG-A020"
+      ],
+      "new_bridge_ids": [
+        "MG-B010",
+        "MG-B011"
+      ]
+    }
+  ]
+}

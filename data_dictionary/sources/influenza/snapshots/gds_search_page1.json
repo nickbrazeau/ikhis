@@ -1,0 +1,98 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "200",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "200342810",
+      "200307315",
+      "200319537",
+      "200319534",
+      "200319406",
+      "200314199",
+      "200286042",
+      "200309595",
+      "200309593",
+      "200325987"
+    ],
+    "translationset": [
+      {
+        "from": "Homo sapiens[Organism]",
+        "to": "\"Homo sapiens\"[Organism]"
+      },
+      {
+        "from": "influenza",
+        "to": "\"influenza, human\"[MeSH Terms] OR influenza[All Fields]"
+      },
+      {
+        "from": "inoculation",
+        "to": "\"vaccination\"[MeSH Terms] OR inoculation[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "GSE[ETYP]",
+        "field": "ETYP",
+        "count": "295798",
+        "explode": "N"
+      },
+      {
+        "term": "\"Homo sapiens\"[Organism]",
+        "field": "Organism",
+        "count": "4717648",
+        "explode": "Y"
+      },
+      "AND",
+      {
+        "term": "\"influenza, human\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "35133",
+        "explode": "Y"
+      },
+      {
+        "term": "influenza[All Fields]",
+        "field": "All Fields",
+        "count": "29915",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      {
+        "term": "challenge[All Fields]",
+        "field": "All Fields",
+        "count": "32627",
+        "explode": "N"
+      },
+      {
+        "term": "\"vaccination\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "81146",
+        "explode": "Y"
+      },
+      {
+        "term": "inoculation[All Fields]",
+        "field": "All Fields",
+        "count": "47425",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "OR",
+      {
+        "term": "experimentally[All Fields]",
+        "field": "All Fields",
+        "count": "3389",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND"
+    ],
+    "querytranslation": "GSE[ETYP] AND \"Homo sapiens\"[Organism] AND (\"influenza, human\"[MeSH Terms] OR influenza[All Fields]) AND (challenge[All Fields] OR (\"vaccination\"[MeSH Terms] OR inoculation[All Fields]) OR experimentally[All Fields])"
+  }
+}

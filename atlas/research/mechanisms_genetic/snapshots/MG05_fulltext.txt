@@ -1,0 +1,817 @@
+A disease-associated gene desert directs macrophage inflammation through ETS2 - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock icon
+) or https:// means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Nature. 2024 Jun 5;630(8016):447–456. doi: 10.1038/s41586-024-07501-1
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+A disease-associated gene desert directs macrophage inflammation through ETS2
+C T Stankey
+C T Stankey
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+2Department of Immunology and Inflammation, Imperial College London, London, UK
+3Washington University School of Medicine, St Louis, MO USA
+Find articles by C T Stankey
+1,2,3,#, C Bourges
+C Bourges
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+Find articles by C Bourges
+1,#, L M Haag
+L M Haag
+4Division of Gastroenterology, Infectious Diseases and Rheumatology, Charité–Universitätsmedizin Berlin, Berlin, Germany
+Find articles by L M Haag
+4,#, T Turner-Stokes
+T Turner-Stokes
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+2Department of Immunology and Inflammation, Imperial College London, London, UK
+Find articles by T Turner-Stokes
+1,2, A P Piedade
+A P Piedade
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+Find articles by A P Piedade
+1, C Palmer-Jones
+C Palmer-Jones
+5Department of Gastroenterology, Royal Free Hospital, London, UK
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+Find articles by C Palmer-Jones
+5,6, I Papa
+I Papa
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+Find articles by I Papa
+1, M Silva dos Santos
+M Silva dos Santos
+7Metabolomics STP, The Francis Crick Institute, London, UK
+Find articles by M Silva dos Santos
+7, Q Zhang
+Q Zhang
+8Genomics of Inflammation and Immunity Group, Human Genetics Programme, Wellcome Sanger Institute, Hinxton, UK
+Find articles by Q Zhang
+8, A J Cameron
+A J Cameron
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+Find articles by A J Cameron
+9, A Legrini
+A Legrini
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+Find articles by A Legrini
+9, T Zhang
+T Zhang
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+Find articles by T Zhang
+9, C S Wood
+C S Wood
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+Find articles by C S Wood
+9, F N New
+F N New
+10NanoString Technologies, Seattle, WA USA
+Find articles by F N New
+10, L O Randzavola
+L O Randzavola
+2Department of Immunology and Inflammation, Imperial College London, London, UK
+Find articles by L O Randzavola
+2, L Speidel
+L Speidel
+11Ancient Genomics Laboratory, The Francis Crick Institute, London, UK
+12Genetics Institute, University College London, London, UK
+Find articles by L Speidel
+11,12, A C Brown
+A C Brown
+13Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK
+Find articles by A C Brown
+13, A Hall
+A Hall
+14The Sheila Sherlock Liver Centre, Royal Free Hospital, London, UK
+15Department of Cellular Pathology, Royal Free Hospital, London, UK
+Find articles by A Hall
+14,15, F Saffioti
+F Saffioti
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+14The Sheila Sherlock Liver Centre, Royal Free Hospital, London, UK
+Find articles by F Saffioti
+6,14, E C Parkes
+E C Parkes
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+Find articles by E C Parkes
+1, W Edwards
+W Edwards
+16Cambridge Institute of Therapeutic Immunology and Infectious Disease, University of Cambridge, Cambridge, UK
+Find articles by W Edwards
+16, H Direskeneli
+H Direskeneli
+17Department of Internal Medicine, Division of Rheumatology, Marmara University, Istanbul, Turkey
+Find articles by H Direskeneli
+17, P C Grayson
+P C Grayson
+18Systemic Autoimmunity Branch, NIAMS, National Institutes of Health, Bethesda, MD USA
+Find articles by P C Grayson
+18, L Jiang
+L Jiang
+19Department of Rheumatology, Zhongshan Hospital, Fudan University, Shanghai, China
+Find articles by L Jiang
+19, P A Merkel
+P A Merkel
+20Division of Rheumatology, Department of Medicine, University of Pennsylvania, Philadelphia, PA USA
+21Division of Epidemiology, Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA USA
+Find articles by P A Merkel
+20,21, G Saruhan-Direskeneli
+G Saruhan-Direskeneli
+22Department of Physiology, Istanbul University, Istanbul Faculty of Medicine, Istanbul, Turkey
+Find articles by G Saruhan-Direskeneli
+22, A H Sawalha
+A H Sawalha
+23Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA USA
+24Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA USA
+25Lupus Center of Excellence, University of Pittsburgh, Pittsburgh, PA USA
+26Department of Immunology, University of Pittsburgh, Pittsburgh, PA USA
+Find articles by A H Sawalha
+23,24,25,26, E Tombetti
+E Tombetti
+27Department of Biomedical and Clinical Sciences, Milan University, Milan, Italy
+28Internal Medicine and Rheumatology, ASST FBF-Sacco, Milan, Italy
+Find articles by E Tombetti
+27,28, A Quaglia
+A Quaglia
+15Department of Cellular Pathology, Royal Free Hospital, London, UK
+29UCL Cancer Institute, London, UK
+Find articles by A Quaglia
+15,29, D Thorburn
+D Thorburn
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+14The Sheila Sherlock Liver Centre, Royal Free Hospital, London, UK
+Find articles by D Thorburn
+6,14, J C Knight
+J C Knight
+13Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK
+30Chinese Academy of Medical Sciences Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK
+31NIHR Comprehensive Biomedical Research Centre, Oxford, UK
+Find articles by J C Knight
+13,30,31, A P Rochford
+A P Rochford
+5Department of Gastroenterology, Royal Free Hospital, London, UK
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+Find articles by A P Rochford
+5,6, C D Murray
+C D Murray
+5Department of Gastroenterology, Royal Free Hospital, London, UK
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+Find articles by C D Murray
+5,6, P Divakar
+P Divakar
+10NanoString Technologies, Seattle, WA USA
+Find articles by P Divakar
+10, M Green
+M Green
+32Experimental Histopathology STP, The Francis Crick Institute, London, UK
+Find articles by M Green
+32, E Nye
+E Nye
+32Experimental Histopathology STP, The Francis Crick Institute, London, UK
+Find articles by E Nye
+32, J I MacRae
+J I MacRae
+7Metabolomics STP, The Francis Crick Institute, London, UK
+Find articles by J I MacRae
+7, N B Jamieson
+N B Jamieson
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+Find articles by N B Jamieson
+9, P Skoglund
+P Skoglund
+11Ancient Genomics Laboratory, The Francis Crick Institute, London, UK
+Find articles by P Skoglund
+11, M Z Cader
+M Z Cader
+16Cambridge Institute of Therapeutic Immunology and Infectious Disease, University of Cambridge, Cambridge, UK
+33Department of Medicine, University of Cambridge, Cambridge, UK
+Find articles by M Z Cader
+16,33, C Wallace
+C Wallace
+16Cambridge Institute of Therapeutic Immunology and Infectious Disease, University of Cambridge, Cambridge, UK
+34MRC Biostatistics Unit, Cambridge Institute of Public Health, Cambridge, UK
+Find articles by C Wallace
+16,34, D C Thomas
+D C Thomas
+16Cambridge Institute of Therapeutic Immunology and Infectious Disease, University of Cambridge, Cambridge, UK
+33Department of Medicine, University of Cambridge, Cambridge, UK
+Find articles by D C Thomas
+16,33, J C Lee
+J C Lee
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+5Department of Gastroenterology, Royal Free Hospital, London, UK
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+Find articles by J C Lee
+1,5,6,✉
+Author information
+Article notes
+Copyright and License information
+1Genetic Mechanisms of Disease Laboratory, The Francis Crick Institute, London, UK
+2Department of Immunology and Inflammation, Imperial College London, London, UK
+3Washington University School of Medicine, St Louis, MO USA
+4Division of Gastroenterology, Infectious Diseases and Rheumatology, Charité–Universitätsmedizin Berlin, Berlin, Germany
+5Department of Gastroenterology, Royal Free Hospital, London, UK
+6Institute for Liver and Digestive Health, Division of Medicine, University College London, London, UK
+7Metabolomics STP, The Francis Crick Institute, London, UK
+8Genomics of Inflammation and Immunity Group, Human Genetics Programme, Wellcome Sanger Institute, Hinxton, UK
+9Wolfson Wohl Cancer Centre, School of Cancer Sciences, University of Glasgow, Glasgow, UK
+10NanoString Technologies, Seattle, WA USA
+11Ancient Genomics Laboratory, The Francis Crick Institute, London, UK
+12Genetics Institute, University College London, London, UK
+13Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK
+14The Sheila Sherlock Liver Centre, Royal Free Hospital, London, UK
+15Department of Cellular Pathology, Royal Free Hospital, London, UK
+16Cambridge Institute of Therapeutic Immunology and Infectious Disease, University of Cambridge, Cambridge, UK
+17Department of Internal Medicine, Division of Rheumatology, Marmara University, Istanbul, Turkey
+18Systemic Autoimmunity Branch, NIAMS, National Institutes of Health, Bethesda, MD USA
+19Department of Rheumatology, Zhongshan Hospital, Fudan University, Shanghai, China
+20Division of Rheumatology, Department of Medicine, University of Pennsylvania, Philadelphia, PA USA
+21Division of Epidemiology, Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA USA
+22Department of Physiology, Istanbul University, Istanbul Faculty of Medicine, Istanbul, Turkey
+23Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA USA
+24Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA USA
+25Lupus Center of Excellence, University of Pittsburgh, Pittsburgh, PA USA
+26Department of Immunology, University of Pittsburgh, Pittsburgh, PA USA
+27Department of Biomedical and Clinical Sciences, Milan University, Milan, Italy
+28Internal Medicine and Rheumatology, ASST FBF-Sacco, Milan, Italy
+29UCL Cancer Institute, London, UK
+30Chinese Academy of Medical Sciences Institute, Nuffield Department of Medicine, University of Oxford, Oxford, UK
+31NIHR Comprehensive Biomedical Research Centre, Oxford, UK
+32Experimental Histopathology STP, The Francis Crick Institute, London, UK
+33Department of Medicine, University of Cambridge, Cambridge, UK
+34MRC Biostatistics Unit, Cambridge Institute of Public Health, Cambridge, UK
+✉
+Corresponding author.
+#
+Contributed equally.
+Received 2023 Apr 17; Accepted 2024 May 1; Issue date 2024.
+© The Author(s) 2024
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+PMC Copyright notice
+PMCID: PMC11168933 PMID: 38839969
+Abstract
+Increasing rates of autoimmune and inflammatory disease present a burgeoning threat to human health1. This is compounded by the limited efficacy of available treatments1 and high failure rates during drug development2, highlighting an urgent need to better understand disease mechanisms. Here we show how functional genomics could address this challenge. By investigating an intergenic haplotype on chr21q22—which has been independently linked to inflammatory bowel disease, ankylosing spondylitis, primary sclerosing cholangitis and Takayasu’s arteritis3–6—we identify that the causal gene, ETS2, is a central regulator of human inflammatory macrophages and delineate the shared disease mechanism that amplifies ETS2 expression. Genes regulated by ETS2 were prominently expressed in diseased tissues and more enriched for inflammatory bowel disease GWAS hits than most previously described pathways. Overexpressing ETS2 in resting macrophages reproduced the inflammatory state observed in chr21q22-associated diseases, with upregulation of multiple drug targets, including TNF and IL-23. Using a database of cellular signatures7, we identified drugs that might modulate this pathway and validated the potent anti-inflammatory activity of one class of small molecules in vitro and ex vivo. Together, this illustrates the power of functional genomics, applied directly in primary human cells, to identify immune-mediated disease mechanisms and potential therapeutic opportunities.
+Subject terms: Autoimmunity, Functional genomics, Immunogenetics
+ETS2—which is associated with inflammatory bowel disease, ankylosing spondylitis, primary sclerosing cholangitis and Takayasu’s arteritis—is a central regulator of human inflammatory macrophages.
+Main
+Nearly 5% of humans live with an autoimmune or inflammatory disease. These heterogeneous conditions, ranging from Crohn’s disease and ulcerative colitis (collectively inflammatory bowel disease (IBD)) to psoriasis and lupus, all require better therapies, but only 10% of drugs entering clinical development ever become approved treatments2. This high failure rate is mainly due to a lack of efficacy8 and reflects our poor understanding of disease mechanisms. Genetics provides a unique opportunity to address this, with hundreds of loci now directly linked to the pathogenesis of immune-mediated diseases9. Indeed, drugs that target pathways implicated by genetics have a far higher chance of being effective10.
+However, to fully realize the potential of genetics, knowledge of where risk variants lie must be translated into an understanding of how they drive disease9. Animal models can help with this, especially for coding variants in conserved genes11,12. Unfortunately, most risk variants do not lie in coding DNA, but in less-well-conserved, non-coding genomic regions. Resolving the biology at these loci is a formidable task, as the same DNA sequence can function differently depending on the cell type and/or external stimuli9. Most non-coding variants are thought to affect gene regulation13, but difficulties identifying causal genes, which may lie millions of bases away, and causal cell types, which may only express implicated genes under certain conditions, have hindered efforts to identify disease mechanisms. For example, although genome-wide association studies (GWASs) have identified over 240 IBD risk loci3, including several possible drug targets, fewer than 10 have been mechanistically resolved.
+Molecular mechanisms at chr21q22
+Some genetic variants predispose to multiple diseases, highlighting both their biological importance and an opportunity to study shared disease mechanisms. One notable example is an intergenic region on chromosome 21q22 (chr21q22), where the major allele haplotype predisposes to five inflammatory diseases3–6. Such regions, which were originally termed ‘gene deserts’ owing to their lack of coding genes, often contain GWAS hits but are poorly understood. To test for a shared disease mechanism, we performed co-localization analyses and confirmed that the genetic basis for every disease was the same, meaning that a common causal variant(s) and a shared molecular effect was responsible (Fig. 1a and Extended Data Fig. 1). As these heterogeneous diseases are all immune mediated, we reasoned that this locus must contain a distal enhancer that functioned in immune cells. By examining H3K27ac chromatin immunoprecipitation–sequencing (ChIP–seq) data, which marks active enhancers and promoters, we identified a monocyte/macrophage-specific enhancer within the locus (Fig. 1b). Monocytes and macrophages have a key role in many immune-mediated diseases, producing cytokines that are often targeted therapeutically14.
+Fig. 1. Resolving molecular mechanisms at chr21q22.
+Open in a new tab
+a, Disease associations at chr21q22. The red points denote the IBD 99% credible set. Co-localization results for each disease versus IBD. PP.H3, posterior probability of independent causal variants; PP.H4, posterior probability of shared causal variant. b, Immune cell H3K27ac ChIP–seq at chr21q22. IBD GWAS results are shown. NK cells, natural killer cells. rpm, reads per million. c, The ETS2 eQTL in resting monocytes, with co-localization versus IBD association. Macrophage promoter-capture Hi-C (pcHi-C) data at the disease-associated locus. d, Experimental schematic for studying the chr21q22 locus in inflammatory (TPP) macrophages. e, ETS2, BRWD1 and PSMG1 mRNA expression during TPP stimulation, measured using PrimeFlow RNA assays. Data are from one representative donor out of four. f, Relative ETS2, BRWD1 and PSMG1 expression (mean fluorescence intensity (MFI)) in chr21q22-edited macrophages versus unedited cells. n = 4. Data are mean ± s.e.m. Statistical analysis was performed using two-way analysis of variance (ANOVA)). g, SuSiE fine-mapping posterior probabilities for IBD-associated SNPs at chr21q22 (99% credible set). h, Macrophage MPRA at chr21q22. Data are oligo coverage (top), enhancer activity (sliding-window analysis with significant enhancer activity highlighted; middle) and expression-modulating effects of SNPs within the enhancer (bottom). For the box plots, the centre line shows the median, the box limits show the interquartile range, and the whiskers represent the minimum and maximum values. n = 8. False-discovery rate (FDR)-adjusted P values were calculated using QuASAR-MPRA (two-sided). i, Inflammatory macrophage PU.1 ChIP–seq peaks at chr21q22. Bottom, magnification of the location of rs2836882 and the nearest predicted PU.1 motif. j, BaalChIP analysis of allele-specific PU.1 ChIP–seq binding at rs2836882 in two heterozygous macrophage datasets (data are mean ± 95% posterior distribution of allelic balance). Total counts shown as a pie chart. k, Allele-specific ATAC–seq reads at rs2836882 in monocytes from 16 heterozygous donors (including healthy controls and patients with ankylosing spondylitis). Statistical analysis was performed using two-sided Wilcoxon matched-pair tests. l, H3K27ac ChIP–seq data from risk (top) or non-risk (bottom) allele homozygotes at rs2836882. Data are shown from two out of four donors. FDR-corrected P values were calculated using MEDIPS (two-sided). The diagrams in d and e were created using BioRender.
+Source Data
+Extended Data Fig. 1. Colocalisation between genetic associations at chr21q22.
+Open in a new tab
+a. Example comparison of genetic associations at chr21q22: IBD and ETS2 eQTL in unstimulated monocytes. Plot adapted from locuscomparer. b. Tukey box-and-whisker plot depicting ETS2 expression stratified by rs2836882 genotype in unstimulated monocytes (AA, n = 39; AG, n = 142; GG, n = 233)54. P-value is as reported in index study. c. Radar plot of representative colocalization results for the indicated genetic associations compared to IBD. Posterior probability of independent causal variants, PP.H3, dark blue; posterior probability of shared causal variant, PP.H4, light blue. PP.H4 > 0.5 was used to call colocalisation (denoted by dashed line). Labels are coloured according to class of data (indicated in the key). Asterisks denote colocalisation. Data sources are: IBD3, PSC5, AS4, Takayasu Arteritis6, BLUEPRINT56, Fairfax54, Quach55, Nedelec57, Alasoo58.
+Source Data
+We next sought to identify the gene regulated by this enhancer. Although the associated locus lacks coding genes, there are several nearby candidates that have been highlighted in previous studies, including PSMG1, BRWD1 and ETS2 (refs. 3–6,15) (Fig. 1a). Using promoter-capture Hi-C and expression quantitative locus (eQTL) data from human monocytes (Methods), we found that the disease-associated locus physically interacts with the promoter of ETS2—the most distant candidate gene (around 290 kb away)—and that the risk haplotype correlates with higher ETS2 expression (Fig. 1c). Indeed, increased ETS2 expression in monocytes and macrophages, either at rest or after early exposure to bacteria, was found to have the same genetic basis as inflammatory disease risk (Extended Data Fig. 1c). To directly confirm that ETS2 was causal, we used CRISPR–Cas9 to delete the 1.85 kb enhancer region in primary human monocytes before culturing these cells with inflammatory ligands, including TNF (a pro-inflammatory cytokine), prostaglandin E2 (a pro-inflammatory lipid) and Pam3CSK4 (a TLR1/2 agonist) (TPP model; Fig. 1d and Extended Data Fig. 2a–c). This model was designed to mimic chronic inflammation16, and better resembles disease macrophages than classical IFNγ-driven or IL-4-driven models17 (Extended Data Fig. 2). As flow cytometry antibodies were not available for the candidate genes, we used PrimeFlow to measure the dynamics of mRNA expression and detected increased levels of all three genes (ETS2, BRWD1 and PSMG1) after TPP stimulation of unedited monocytes (Fig. 1e). Deletion of the chr21q22 enhancer did not affect BRWD1 or PSMG1 expression, but the upregulation of ETS2 was profoundly reduced (Fig. 1f), confirming that this pleiotropic locus contains a distal ETS2 enhancer.
+Extended Data Fig. 2. CRISPR-Cas9 editing of the chr21q22 locus and ETS2 in monocytes.
+Open in a new tab
+a. Cas9 gRNAs were designed to flank the chr21q22 enhancer region at the indicated sites. b. Representative bioanalyzer trace of PCR-amplified target region following monocyte CRISPR/Cas9 editing with an equimolar mix of RNPs containing 5′ and 3′ chr21q22 gRNAs. Example editing efficiency calculation shown. c. Editing efficiency at the chr21q22 locus. Mean enhancer deletion: 42.4% (n = 11). d. Location and sequence of gRNAs used to disrupt ETS2. e. ETS2 editing efficiency. gRNA1 (mean), 89.7% (n = 31); gRNA2 (mean), 78.6% (n = 14). f. ETS2 expression (relative to NTC) following CRISPR/Cas9 editing, measured by qPCR (housekeeping gene PPIA; equivalent results with other housekeeping genes; n = 10). g. Viability following monocyte nucleofection with Cas9 RNPs and macrophage differentiation. Mean values: NTC, 97.9%; gRNA1: 98.3%; gRNA2, 98.6% (n = 6). h. Expression of myeloid lineage markers following ETS2 editing and TPP differentiation (n = 5). Gating strategy shown in Supplementary Information Fig. 2. i. GSVA enrichment scores for 67 different monocyte/macrophage activation conditions to identify stimuli that phenocopy CD14+ monocytes/macrophages from IBD patients. j. Chromatin accessibility in ETS2-edited versus unedited inflammatory macrophages (n = 3). k. Enhancer activity (H3K27ac) in ETS2-edited versus unedited inflammatory macrophages (n = 3). P values calculated using edgeR (two-sided) in j, k. Red points denote adjusted P-value (Padj) < 0.1, grey points NS. Error bars are mean±SEM in c, e-h. * P < 0.05. NTC: non-targeting control.
+Source Data
+To identify the causal variant, we performed statistical fine-mapping in a large IBD GWAS3. Unfortunately, this did not resolve the association owing to high linkage disequilibrium between candidate single-nucleotide polymorphisms (SNPs) (Methods and Fig. 1g). We therefore used a functional approach to first delineate the active enhancers at the locus, and then assess whether any candidate SNPs might alter enhancer activity. This method, massively parallel reporter assay (MPRA), simultaneously tests enhancer activity in thousands of short DNA sequences by coupling each to a uniquely barcoded reporter gene18. Sequences that alter gene expression are identified by normalizing the barcode counts in mRNA, extracted from transfected cells, to their matching counts in the input DNA library. After adapting MPRA for primary macrophages (Methods and Extended Data Fig. 3), we synthesized a pool of overlapping oligonucleotides to tile the 2 kb region containing all candidate SNPs, and included oligonucleotides with either risk or non-risk alleles for every variant. The resulting library was transfected into inflammatory macrophages from multiple donors, ensuring that a physiological repertoire of transcription factors could interact with the genomic sequences. Using a sliding-window analysis, we identified a single 442 bp focus of enhancer activity (chromosome 21: 40466236–40466677, hg19; Fig. 1h) that contained three (out of seven) candidate SNPs. Two of these polymorphisms were transcriptionally inert, but the third (rs2836882) had the strongest expression-modulating effect of any candidate SNP, with the risk allele (G) increasing transcription, consistent with the ETS2 eQTL (Fig. 1h and Extended Data Fig. 1b). This SNP was in the credible set of every co-localizing molecular trait, and lay within a macrophage PU.1 ChIP–seq peak (Fig. 1i). PU.1 is a non-classical pioneer factor in myeloid cells19 that can bind to DNA, initiate chromatin remodelling (thereby enabling other transcription factors to bind) and activate transcription20. To determine whether rs2836882 might affect PU.1 binding, we identified PU.1 ChIP–seq data from heterozygous macrophages and tested for allelic imbalances in binding. Despite not lying within a canonical PU.1 motif, strong allele-specific binding was detected, with over fourfold greater binding to the rs2836882 risk allele (Fig. 1i,j). This was replicated by genotyping PU.1-bound DNA in macrophages from five heterozygous donors (Extended Data Fig. 4a–f). Moreover, assay for transposase-accessible chromatin with sequencing (ATAC–seq) analysis of monocytes and macrophages from rs2836882 heterozygotes revealed allelic differences in chromatin accessibility that were consistent with differential binding of a pioneer factor (Fig. 1k and Extended Data Fig. 4g).
+Extended Data Fig. 3. Optimization of MPRA and mRNA overexpression in primary human macrophages.
+Open in a new tab
+a. Schematic of MPRA. A library of oligonucleotides (each containing a genomic sequence and unique barcode, separated by restriction enzyme sites) is cloned into a pGL4.10 M cloning vector. A promoter and reporter gene are inserted using directional cloning. The resulting plasmids are transfected into primary human macrophages (TPP) and RNA is extracted after 24 h. Barcode abundance in cellular mRNA and input DNA library are quantified by high-throughput sequencing, and mRNA barcode counts are normalized to corresponding counts in DNA library to assess expression-modulating activity. b. Identification of suitable promoters for MPRA in TPP macrophages. TPP macrophages were transfected with reporter vectors, each with GFP expression under the control of a different promoter. GFP expression was quantified by flow cytometry after 24 h. c. Adapted MPRA vector for use in primary human macrophages, containing RSV promoter. d. Heatmap showing pairwise correlation of expression-modulating activity of all constructs between donors. e. Principal component analysis of element counts (sum of barcodes tagging same genomic sequence) in mRNA from TPP macrophages (n = 8 donors; red) and four replicates of DNA vector (black). f. Primary human macrophages (M0) were transfected with different quantities of GFP mRNA using Lipofectamine MessengerMAX. GFP expression was quantified by flow cytometry 18 h after transfection. g. Cytokine secretion following ETS2 overexpression. Plot shows relative cytokine concentrations in macrophage supernatants (ETS2 relative to control) following transfection with 500 ng mRNA (n = 11). Error bars are mean±SEM. One-sample t-test (two-tailed) * P < 0.05, ** P < 0.01. The diagram in a was created using BioRender.
+Source Data
+Extended Data Fig. 4. Molecular effects of allelic variation at rs2836882.
+Open in a new tab
+a. Schematic of PU.1 ChIP-genotyping assay to assess allele-specific PU.1 binding at rs2836882 in human macrophages. b. Schematic of standard curve generation by TaqMan genotyping various pre-defined ratios of risk and non-risk containing DNA sequences. c. Standard curve generated using different allelic ratios of 200-nt DNA geneblocks centred on either the major (risk) or minor (non-risk) rs2836882 allele. d. Allele-specific PU.1 binding at rs2836882 in TPP macrophages (one-sample t-test, two-sided, n = 5). Error bars represent mean±95%CI. e. Schematic of PU.1 MPRA-ChIP assay to assess allele-specific PU.1 binding at individual SNPs within chr21q22 enhancer. f. Allele-specific PU.1 binding at SNPs within chr21q22 enhancer in TPP macrophages. Data represents the allelic ratio of normalized PU.1 binding for constructs centred on the SNP allele from the MPRA library (fixed-effects meta-analysis of QuASAR-MPRA results, two-sided, n = 6). Box represents median (IQR), whiskers represent minima and maxima. g. Allele-specific ATAC-seq reads at rs2836882 in two deeply sequenced heterozygous TPP macrophage datasets (left: 154.7 million non-duplicate paired-end reads, right: 165.4 million non-duplicate paired-end reads). h. H3K27ac ChIP-seq data from risk (red) or non-risk (blue) allele homozygotes at rs2836882 (n = 4). i. Rank Ordering of Super-Enhancers (ROSE) analysis of H3K27ac ChIP-seq data from TPP macrophages from major (left) and minor (right) allele homozygotes. Dashed line denotes inflection point of curve, with enhancers above this point being denoted as super-enhancers. Red points indicate rs2836882-containing chr21q22 enhancer. SE, super-enhancer. The diagrams in a, b and e were created using BioRender.
+Source Data
+To test for allele-specific enhancer activity at the endogenous locus, we performed H3K27ac ChIP–seq analysis of inflammatory macrophages from rs2836882 major and minor allele homozygotes. While most chr21q22 enhancer peaks were similar between these donors, the enhancer activity overlying rs2836882 was significantly stronger in major (risk) allele homozygotes (Fig. 1l and Extended Data Fig. 4h), contributing to an approximate 2.5-fold increase in activity across the locus (Extended Data Fig. 4i). Collectively, these data reveal a mechanism whereby the putative causal variant at chr21q22—identified by its functional effects in primary macrophages—promotes binding of a pioneer factor, enhances chromatin accessibility and increases activity of a distal ETS2 enhancer.
+Macrophage inflammation requires ETS2
+ETS2 is an ETS-family transcription factor and proto-oncogene21, but its exact role in human macrophages is unclear, with previous studies using either cell lines or complex mouse models and assessing a limited number of potential targets22–26. This has led to contradictory reports, with ETS2 being described as both necessary and redundant for macrophage development27,28, and both pro- and anti-inflammatory22–26. To clarify the role of ETS2 in human macrophages, and determine how dysregulated ETS2 expression might contribute to disease, we first used a CRISPR–Cas9-based loss-of-function approach (Fig. 2a). To control for off-target effects, two gRNAs targeting different ETS2 exons were designed, validated and individually incorporated into Cas9 ribonucleoproteins for transfection into primary monocytes. These produced on-target editing in around 90% and 79% of cells, respectively, and effectively reduced ETS2 expression (Extended Data Fig. 2d–f). Cell viability and macrophage marker expression were unaffected, suggesting that ETS2 was not required for macrophage survival or differentiation (Extended Data Fig. 2g,h). By contrast, pro-inflammatory cytokine production, including IL-6, IL-8 and IL-1β, was markedly reduced after ETS2 disruption (Fig. 2b), whereas IL-10—an anti-inflammatory cytokine—was less affected. TNF was not assessed as it had been added exogenously. We next investigated whether other macrophage functions were affected. Using fluorescently labelled particles that are detectable by flow cytometry, we found that phagocytosis was similarly impaired after ETS2 disruption (Fig. 2c). We also tested extracellular reactive oxygen species (ROS) production—a major contributor to inflammatory tissue damage29. Disrupting ETS2 profoundly reduced the macrophage oxidative burst—most likely by decreasing expression of key NADPH oxidase components (Fig. 2d and Extended Data Fig. 5a). Together, these data suggest that ETS2 is essential for multiple inflammatory functions in human macrophages.
+Fig. 2. ETS2 is essential for macrophage inflammatory responses.
+Open in a new tab
+a, Experimental schematic for studying ETS2 in inflammatory (TPP) macrophages. The diagram was created using BioRender. b, Cytokine secretion after ETS2 disruption. Heat map of relative cytokine levels from ETS2-edited versus unedited macrophages. n = 8. c, Phagocytosis of fluorescently labelled zymosan particles by ETS2-edited and unedited macrophages (non-targeting control (NTC)) (left). Data are from one representative donor out of seven. Right, the phagocytosis index (the product of the proportion and MFI of phagocytosing cells). n = 7. d, ROS production by ETS2-edited and unedited macrophages. Data from one representative donor out of six (left). Right, NADPH oxidase component expression in ETS2-edited and unedited macrophages (western blot densitometry). n = 7. Source gels are shown in Supplementary Fig. 1. RLU, relative light units. e, RNA-seq analysis of differentially expressed genes in ETS2-edited versus unedited TPP macrophages (limma with voom transformation, two-sided). n = 8. The horizontal line denotes the FDR-adjusted significance threshold. f, fGSEA of differentially expressed genes between ETS2-edited and unedited TPP macrophages. The results of selected GO Biological Pathways are shown. The dot size denotes the unadjusted P value (two-sided), and the colour denotes normalized enrichment score (NES). g, The log2[fold change (FC)] of genes differentially expressed by chr21q22 enhancer deletion, plotted against their fold change after ETS2 editing. The percentages denote upregulated (red) and downregulated (blue) genes. The coloured points (blue or red) represent differentially expressed genes after ETS2 editing (FDR < 0.1, two-sided). For c and d, data are mean ± s.e.m. Statistical analysis was performed using two-sided Wilcoxon tests (b–d); *P < 0.05.
+Source Data
+Extended Data Fig. 5. Functional effects of the chr21q22 enhancer.
+Open in a new tab
+a. Extracellular ROS production by unedited (NTC), chr21q22-edited, and ETS2 g1-edited TPP macrophages, quantified by chemiluminescence. Points represent relative area under curve for edited versus unedited cells (Wilcoxon signed-rank test, two-sided; n = 6). b. Cytokine secretion from inflammatory macrophages following deletion of the chr21q22 enhancer. Heatmap shows relative cytokine concentrations in the supernatants of chr21q22-edited TPP macrophages versus unedited (NTC) cells (Wilcoxon signed rank test, one-sided; n = 7). c. Representative flow cytometry histograms demonstrating phagocytosis of fluorescently-labelled zymosan particles by chr21q22-edited and unedited (NTC) TPP macrophages. d. Phagocytosis index for unedited and chr21q22-edited TPP macrophages, calculated as proportion of positive cells multiplied by mean fluorescence intensity of positive cells. Plot shows relative phagocytosis index for chr21q22-edited cells versus unedited cells (Wilcoxon signed-rank test two-sided; n = 7). e. Enrichment of differentially-expressed genes following deletion of the disease-associated chr21q22 locus (upregulated genes, top; downregulated genes, bottom) in ETS2-edited versus unedited macrophages. Padj, FDR-adjusted P-value (two-sided). f. Tukey box-and-whisker plot depicting quantitative PCR of selected ETS2-target genes in resting (M0) macrophages from minor and major allele homozygote IBD patients (n = 22, expression normalized to PPIA and scaled to minimum 0, maximum 1). Mann-Whitney test (one-sided). * P < 0.05, ** P < 0.01, *** P < 0.001.
+Source Data
+To understand the molecular basis for these effects, we performed RNA sequencing (RNA-seq) of ETS2-edited and unedited inflammatory macrophages from multiple donors. Disrupting ETS2 led to widespread transcriptional changes, with reduced expression of many inflammatory genes (Fig. 2e). These included cytokines (such as TNFSF10/TRAIL, TNFSF13, IL1A and IL1B), chemokines (such as CXCL3, CXCL5, CCL2 and CCL5), secreted effector molecules (such as S100A8, S100A9, MMP14 and MMP9), cell surface receptors (such as FCGR2A, FCGR2C and TREM1), pattern-recognition receptors (such as TLR2, TLR6 and NOD2) and signalling molecules (such as MAP2K, GPR84 and NLRP3). To better characterize the pathways affected, we performed gene set enrichment analysis (fGSEA) using the Gene Ontology (GO) Biological Pathways dataset. This corroborated the functional deficits, with the most negatively enriched pathways (downregulated by ETS2 disruption) being related to macrophage activation, inflammatory cytokine production, phagocytosis and ROS production (Fig. 2f). Genes involved in macrophage migration were also downregulated, but those relating to monocyte-to-macrophage differentiation were unaffected—consistent with ETS2 being required for inflammatory functions but not for monocyte-derived macrophage development. Fewer genes were upregulated after ETS2 disruption (Fig. 2e), but positive enrichment was noted for aerobic respiration and oxidative phosphorylation (OXPHOS; Fig. 2f)—metabolic processes that are linked to anti-inflammatory phenotypes30. Notably, these transcriptional effects were not due to major changes in chromatin accessibility, although enhancer activity was generally reduced (Extended Data Fig. 2j,k). As expected, deletion of the chr21q22 enhancer phenocopied both the transcriptional and functional effects of disrupting ETS2 (Fig. 2g and Extended Data Fig. 5a–e). Collectively, these data identify an essential role for ETS2 in macrophage inflammatory responses, which could explain why dysregulated ETS2 expression predisposes to disease. Indeed, differential expression of ETS2-regulated genes was observed in resting (M0) macrophages from patients with IBD stratified by rs2836882 genotype (matched for age, sex, therapy and disease activity) (Extended Data Fig. 5f).
+ETS2 coordinates macrophage inflammation
+We next studied the effects of increasing ETS2 expression, as this is what drives disease risk. To do this, we optimized a method for controlled overexpression of target genes in primary macrophages through transfection of in vitro transcribed mRNA that was modified to minimize immunogenicity (Fig. 3a, Methods and Extended Data Fig. 3f). Resting, non-activated macrophages were transfected with ETS2 mRNA or its reverse complement, thereby controlling for mRNA quantity, length and purine/pyrimidine composition (Fig. 3b). After transfection, cells were exposed to low-dose lipopolysaccharide to initiate a low-grade inflammatory response that could potentially be amplified (Fig. 3a). We found that overexpressing ETS2 increased pro-inflammatory cytokine secretion, while IL-10 was again less affected (Extended Data Fig. 3g). To better characterize this response, we performed RNA-seq and re-examined the inflammatory pathways that required ETS2. Notably, all of these pathways—including macrophage activation, cytokine production, ROS production, phagocytosis and migration—were induced in a dose-dependent manner by ETS2 overexpression, with greater enrichment of every pathway when more ETS2 mRNA was transfected (Fig. 3c). This shows that ETS2 is both necessary and sufficient for inflammatory responses in human macrophages, consistent with being a central regulator of effector functions, with dysregulation directly linked to disease.
+Fig. 3. ETS2 orchestrates macrophage inflammatory responses.
+Open in a new tab
+a, Experimental schematic for studying the effects of ETS2 overexpression. The diagram was created using BioRender. b, ETS2 mRNA levels in transfected (n = 8) or untransfected (from a separate experiment) macrophages. Data are mean ± s.e.m. CPM, counts per million. c, fGSEA analysis of differentially expressed genes between ETS2-overexpressing and control macrophages. Results shown for pathways downregulated by ETS2 disruption. The dot size denotes the unadjusted P value (two-sided), the colour denotes NES and the border colour denotes the quantity of transfected mRNA. d, fGSEA analysis of a Crohn’s disease intestinal macrophage signature in ETS2-overexpressing macrophages (versus control). FDR P-value, two-sided (top). Heat map of the relative expression of leading-edge genes after ETS2 overexpression (500 ng mRNA; bottom). e, Enrichment of macrophage signatures from patients with the indicated diseases in ETS2-overexpressing macrophages (versus control). The colour denotes the disease category, the numbers denote the NES and the dashed line denotes FDR = 0.05. The Crohn’s disease signature is from a different study to that shown in d. AS, ankylosing spondylitis. f, SNPsea analysis of genes tagged by 241 IBD SNPs within ETS2-regulated genes (red) and known IBD pathways (black). Significant pathways (Bonferroni-corrected P < 0.05) are indicated by hash symbols (#).
+Source Data
+ETS2 has a key pathogenic role in IBD
+To test whether ETS2 contributes to macrophage phenotypes in disease, we compared the effects of overexpressing ETS2 in resting macrophages with a single-cell RNA-seq (scRNA-seq) signature from intestinal macrophages in Crohn’s disease31. ETS2 overexpression induced a transcriptional state that closely resembled disease macrophages, with core (leading edge) enrichment of most signature genes, including several therapeutic targets (Fig. 3d). Similar enrichment was observed with myeloid signatures from other chr21q22-associated diseases and, to a lesser extent, from active bacterial infection, but not for signatures from influenza and tumour macrophages, suggesting that ETS2 was not simply inducing generic activation (Fig. 3e).
+Given the central role of ETS2 in inflammatory macrophages and the importance of these cells in disease, we hypothesized that other genetic associations would also implicate this pathway. A major goal of GWAS was to identify disease pathways, but this has proven to be challenging due to a paucity of confidently identified causal genes and variants9. To determine whether the macrophage ETS2 pathway was enriched for disease genetics, we focused on IBD as this has more GWAS hits than any other chr21q22-associated disease. Encouragingly, a network of 33 IBD-associated genes in intestinal mucosa was previously found to be enriched for predicted ETS2 motifs32. Examining the genes that were consistently downregulated in ETS2-edited macrophages (adjusted P (Padj) < 0.05 for both gRNAs), we identified over 20 IBD-risk-associated genes, including many thought to be causal at their respective loci3,33 (Extended Data Table 1). These included genes that are known to affect macrophage biology (such as SP140, LACC1, CCL2, CARD9, CXCL5, TLR4, SLAMF8 and FCGR2A) and some that are highly expressed in macrophages but not linked to specific pathways (such as ADCY7, PTPRC, TAGAP, PTAFR and PDLIM5). A polygenic risk score comprising these variants associated with features of more severe IBD across 18,249 patients, including earlier disease onset, increased the need for surgery, and stricturing or fistulating complications in Crohn’s disease (Extended Data Fig. 6a–h). To better test the enrichment of IBD GWAS hits in ETS2-mediated inflammation, and compare this with known disease pathways, we used SNPsea34—a method to identify pathways affected by disease loci. In total, 241 IBD loci were tested for enrichment in 7,658 GO Biological Pathways and 2 overlapping lists of ETS2-regulated genes (either those downregulated by ETS2 disruption or upregulated by ETS2 overexpression). Statistical significance was computed using 5 million matched null SNP sets, and pathways implicated by IBD genetics were extracted for comparison. Notably, IBD-associated SNPs were more significantly enriched in the macrophage ETS2 pathway than in many IBD pathways, with not a single null SNP set being more enriched in either ETS2-regulated gene list (Fig. 3f and Extended Data Fig. 6i). SNPs associated with primary sclerosing cholangitis (PSC), ankylosing spondylitis and Takayasu’s arteritis were also enriched in ETS2-target genes (Extended Data Fig. 6j). Collectively, this suggests that macrophage ETS2 signalling has a central role in multiple inflammatory diseases.
+Extended Data Table 1.
+IBD risk genes downregulated following ETS2 disruption
+Open in a new tab
+Results shown for IBD-associated genes that were differentially expressed between ETS2-edited and unedited (NTC) TPP macrophages (n = 9). Log2 fold-change is with respect to expression in unedited cells. Genes in bold have been denoted as causal at their respective loci or are the only candidate gene at the locus. P-value (two-sided) adjusted for multiple testing using Benjamini-Hochberg method. PMID denotes PubMed ID of study with strongest IBD association for each gene. *Consistent effect but adjusted P value (adj.P.val) <0.05 for one gRNA only. †Not included in PRS (rare variant that was not genotyped in IBD BioResource).
+Extended Data Fig. 6. Polygenic Risk Score of 22 ETS2-regulated IBD-associated genes.
+Open in a new tab
+a. Summary of IBD BioResource cohorts used for PRS analysis. b. Association between PRS and age at diagnosis. c. Association between PRS and extent of ulcerative colitis (E1, proctitis; E2, left-sided; E3, extensive colitis). d. Association between PRS and Crohn’s disease location (L1, ileal; L2, colonic; L3, ileocolonic). L2 is associated with a milder disease phenotype. e. Association between PRS and perianal involvement in Crohn’s disease. f. Association between PRS and Crohn’s disease behaviour (B1, inflammatory; B2, stricturing; B3, fistulating). B2 and B3 represent more aggressive, complicated forms of Crohn’s disease. g. Association between PRS and response to anti-TNFα in Crohn’s disease and ulcerative colitis (PR, primary responder; PNR, primary non-responder). h. Association between PRS and need for surgery in Crohn’s disease and ulcerative colitis. Overall, higher PRS was associated with: earlier age at diagnosis, ileal or ileocolonic forms of Crohn’s disease, B2/B3 Crohn’s disease behaviour, and increased need for surgery in IBD. Analysis in b performed using linear regression. Analyses in c-h performed using logistic regression (with diagnosis as covariate in g and h). SNPs included in PRS are listed in Extended Data Table 1. i. Plot of enrichment statistic (standardized effect size) against statistical significance from SNPsea analysis of genes tagged by 241 IBD SNPs within ETS2-regulated genes (red) and known IBD pathways (black). j. SNPsea analyses of SNPs associated with PSC, ankylosing spondylitis, Takayasu’s arteritis or Schizophrenia (negative control) within lists of ETS2-regulated genes–either upregulated by ETS2 overexpression, downregulated by ETS2 disruption, or downregulated following chr21q22 deletion (all FDR < 0.05). Dashed line denotes P < 0.05.
+Source Data
+ETS2 has distinct inflammatory effects
+We next investigated how ETS2 might control such diverse macrophage functions. Studying ETS2 biology is challenging because no ChIP-grade antibodies exist, precluding direct identification of its transcriptional targets. We therefore first used a guilt-by-association approach to identify genes that were co-expressed with ETS2 across 67 human macrophage activation conditions (comprising 28 stimuli and various durations of exposure)16. This identified PFKFB3—encoding the rate-limiting enzyme of glycolysis—as the most highly co-expressed gene, with HIF1A also highly co-expressed (Fig. 4a). Together, these genes facilitate a ‘glycolytic switch’ that is required for myeloid inflammatory responses35. We therefore hypothesized that ETS2 might control inflammation through metabolic reprogramming—a possibility supported by OXPHOS genes being negatively correlated with ETS2 (Fig. 4a) and upregulated after ETS2 disruption (Fig. 2f). To assess the metabolic consequences of disrupting ETS2, we quantified label incorporation from 13C-glucose in edited and unedited TPP macrophages using gas chromatography coupled with mass spectrometry (GC–MS). Widespread modest reductions in labelled and total glucose metabolites were detected after ETS2 disruption (Fig. 4b and Extended Data Fig. 7a–c). This affected both glycolytic and tricarboxylic acid (TCA) cycle metabolites, with significant reductions in lactate, a hallmark of anaerobic glycolysis, and succinate, a key inflammatory metabolite36. These results are consistent with glycolytic suppression, with reductions in TCA metabolites being due to reduced flux into TCA and increased consumption by mitochondrial OXPHOS37. To determine whether metabolic changes accounted for ETS2-mediated inflammatory effects, we treated ETS2-edited macrophages with roxadustat—a HIF1α stabilizer that promotes glycolysis. This had the predicted effect on glycolysis and OXPHOS genes, but did not rescue the effects of ETS2 disruption, either transcriptionally or functionally (Fig. 4c and Extended Data Fig. 7d,e). Thus, while disrupting ETS2 impairs macrophage glycometabolism, this does not fully explain the differences in inflammation.
+Fig. 4. ETS2 directs macrophage responses through transcriptional and metabolic effects.
+Open in a new tab
+a, Genes co-expressed with ETS2 across 67 monocyte/macrophage activation conditions. The dotted lines denote FDR-adjusted P < 0.05. b, The effect of ETS2 disruption on glucose metabolism. The colour denotes median log2-transformed fold change in label incorporation from 13C-glucose in ETS2-edited versus unedited cells. The bold black border denotes P < 0.05 (Wilcoxon matched-pairs, two-sided). n = 6. Sec., secreted. c, fGSEA analysis of differentially expressed genes between ETS2-edited and unedited macrophages that were treated with roxadustat or vehicle. Results shown for pathways downregulated by ETS2 disruption. d, Enrichment heat maps of macrophage ETS2 CUT&RUN peaks (IDR cut-off 0.01, n = 2) in 4 kb peak-centred regions from ATAC–seq (accessible chromatin), H3K4me3 ChIP–seq (active promoters) and H3K27ac ChIP–seq (active regulatory elements). e, Functional annotations of ETS2-binding sites (using gene coordinates and TPP macrophage H3K27ac ChIP–seq data). f, ETS2 motif enrichment in CUT&RUN peaks (hypergeometric P value, two-sided). g, ETS2 binding, chromatin accessibility (ATAC–seq) and regulatory activity (H3K27ac) at selected loci. h, Intersections between genes with ETS2 peaks in their core promoters or cis-regulatory elements and genes upregulated (Up) or downregulated (Dn) after ETS2 editing (KO) or overexpression (OE). The vertical bars denote the size of overlap for lists indicated by connected dots in the bottom panel. The horizontal bars denote the percentage of gene list within intersections. i, ETS2 binding, PU.1 binding, chromatin accessibility and enhancer activity at chr21q22. Predicted ETS2-binding sites (red) and PU.1-binding sites (purple) shown below. The dashed line is positioned at rs2836882.
+Source Data
+Extended Data Fig. 7. Effects of modulating ETS2.
+Open in a new tab
+a and b. Changes in total metabolite abundance (a) and percentage of label incorporation from 13C-glucose (b) following ETS2 editing in TPP macrophages (n = 6). Colour depicts median log2 fold-change in ETS2-edited macrophages relative to unedited macrophages (transfected with non-targeting control RNPs; NTC). Bold black border indicates P < 0.05 (Wilcoxon signed rank test, two-sided). c. Heatmap summarizing metabolic changes following ETS2 disruption. Colour depicts median log2 fold-change in ETS2 g1-edited cells relative to unedited cells (Wilcoxon signed rank test, two-sided, * P < 0.05). d. Phagocytosis index in unedited (NTC) and ETS2-edited TPP macrophages treated with roxadustat (ROX) or vehicle. Phagocytosis index is calculated as proportion of positive cells multiplied by mean fluorescence intensity of positive cells (488 nm channel). Data normalized to phagocytosis index in unedited cells (n = 5). e. Extracellular ROS production by unedited (NTC) and ETS2-edited TPP macrophages treated with ROX or vehicle – quantified using a chemiluminescence assay. Data represent log2 fold-change of area under curve (AUC) normalized to unedited (NTC) TPP macrophages (n = 5). f. TFmotifView enrichment results for motifs of transcription factors expressed in TPP macrophages (CPM > 0.5) within ETS2 CUT&RUN peaks. Results shown for all significantly enriched transcription factors (Bonferroni P value < 0.05, two-sided) with motifs in more than 10% peaks. g. Schematic of experiment to assess how ETS2 disruption affects the activity of the chr21q22 ETS2 enhancer in inflammatory (TPP) macrophages. h. Schematic of experiment to assess how ETS2 overexpression affects the activity of the chr21q22 ETS2 enhancer in resting (M0) macrophages. i. Normalized H3K27ac ChIP-seq read counts (edgeR fitted values) from chr21:40,465,000-40,470,000 in experiments depicted in g (left) and h (right) (edgeR P values, two-sided, n = 3 for each). Error bars in d and e represent mean±SEM. The diagrams in g and h were created using BioRender.
+Source Data
+We therefore revisited whether we could directly identify ETS2-target genes. As ChIP–seq involves steps that can alter protein epitopes and prevent antibody binding (such as fixation) we tested whether any anti-ETS2 antibodies might work for cleavage under targets and release using nuclease (CUT&RUN), which does not require these steps. One antibody identified multiple significantly enriched genomic regions (peaks), of which 6,560 were reproducibly detected across two biological replicates with acceptable quality metrics38 (Fig. 4d). These peaks were mostly located in active regulatory regions (90% in promoters or enhancers; Fig. 4d,e) and were highly enriched for both a canonical ETS2 motif (4.02-fold versus global controls; Fig. 4f) and for motifs of known ETS2 interactors, including FOS, JUN and NF-κB39 (Extended Data Fig. 7f). After combining the biological replicates to improve peak detection, we identified ETS2 binding at genes involved in multiple inflammatory functions, including NCF4 (ROS production), NLRP3 (inflammasome activation) and TLR4 (bacterial pattern recognition) (Fig. 4g). Overall, 48.3% (754 out of 1,560) of genes dysregulated after ETS2 disruption and 50.3% (1,078 out of 2,153) of genes dysregulated after ETS2 overexpression contained an ETS2-binding peak within their core promoter or cis-regulatory elements (Fig. 4h). Notably, ETS2 targets included HIF1A, PFKFB3 and other glycolytic genes (such as GPI, HK2 and HK3), consistent with the observed metabolic changes being directly induced as part of this complex inflammatory programme. Notably, we also detected ETS2 binding at the chr21q22 enhancer (Fig. 4i). This is consistent with reports that PU.1 and ETS2 can interact synergistically40, and suggests that ETS2 might contribute to the activity of its own enhancer. Indeed, manipulating ETS2 expression altered enhancer activity in a manner consistent with positive autoregulation (Extended Data Fig. 7g–i). Together, these data implicate ETS2 as a central regulator of monocyte and macrophage inflammatory responses that is able to direct a multifaceted effector programme and create a metabolic environment that is permissive for inflammation.
+Targeting the ETS2 pathway in disease
+To assess how ETS2 affects macrophage heterogeneity in diseased tissue, and whether this could be targeted therapeutically, we examined intestinal scRNA-seq data from patients with Crohn’s disease and healthy control individuals41. Within myeloid cells, seven clusters were detected and identified using established markers and/or previous literature (Fig. 5a,b). Inflammatory macrophages (cluster 1, expressing CD209, CCL4, IL1B and FCGR3A) and inflammatory monocytes (cluster 2, expressing S100A8/A9, TREM1, CD14 and MMP9) were expanded in disease, as previously described42, and expressed ETS2 and ETS2-regulated genes more highly than other clusters, including tissue-resident macrophages (cluster 0, expressing C1QA, C1QB, FTL and CD63) and conventional dendritic cells (cluster 5, expressing CLEC9A, CADM1 and XCR1) (Fig. 5a,b and Extended Data Fig. 8a). Using spatial transcriptomics, a similar increase in inflammatory macrophages was observed in PSC liver tissue, with these cells being closely apposed to cholangiocytes—the main target of pathology (Fig. 5c–e). Notably, expression of ETS2-regulated genes was higher the closer macrophages were to cholangiocytes (Fig. 5f and Extended Data Fig. 8b). Indeed, using bulk RNA-seq data, we found that the transcriptional footprint of ETS2 was detectable in affected tissues from multiple chr21q22-associated diseases (Extended Data Fig. 8c).
+Fig. 5. ETS2-driven inflammation is evident in disease and can be therapeutically targeted.
+Open in a new tab
+a, Myeloid cell clusters in intestinal scRNA-seq from Crohn’s disease and health (top). Middle, scaled expression of ETS2-regulated genes (downregulated by ETS2 disruption). Bottom, the source of cells (disease or health). b, Scaled expression of selected genes. c, Spatial transcriptomics of PSC and healthy liver. n = 4. The images show representative fields of view (0.51 mm × 0.51 mm) with cell segmentation and semisupervised clustering. The main key (left and middle below images) denotes InSituType cell types; clusters a–e (far right key) are unannotated cell populations. Hep., hepatocyte; LSECs, liver sinusoidal endothelial cells; non-inflamm. macs, non-inflammatory macrophages. d, The number of macrophages within the indicated distances of cholangiocytes. e, The distance from cholangiocytes to the nearest macrophage. Data are shown as Tukey box and whisker plots. Statistical analysis was performed using two-tailed Mann–Whitney U-tests. Data in d and e are from 10,532 PSC and 13,322 control cholangiocytes. f, Scaled expression of ETS2-regulated genes in 21,067 PSC macrophages at defined distances from cholangiocytes (excluding genes used to define macrophage subsets). g, Classes of drugs that phenocopy ETS2 disruption (from the NIH LINCS database). h, fGSEA results for NIH LINCS drug signatures. Significant MEK inhibitor signatures are coloured by molecule. i, The log2[fold change] of differentially expressed genes after chr21q22 enhancer deletion, plotted against their fold change after MEK inhibition. The percentages indicate the proportion of upregulated (red) and downregulated genes (blue). The coloured points (blue or red) were differentially expressed after MEK inhibition (FDR < 0.1). j, fGSEA of differentially expressed genes between MEK-inhibitor-treated and control TPP macrophages. Results are shown for pathways downregulated by ETS2 disruption. The dot size denotes the unadjusted P value (two-sided) and the colour denotes the NES. k, IBD biopsy cytokine release with PD-0325901, infliximab or vehicle control. l, GSVA enrichment scores for chr21q22-downregulated genes in IBD biopsies after MEK inhibition. m, GSVA enrichment scores of a biopsy-derived molecular inflammation score (bMIS). Data are mean ± 95% CI (f and l) and mean ± s.e.m. (k and m). Statistical analysis was performed using two-sided paired t-tests. n = 10 (k), n = 9 (l). **P < 0.01, ***P < 0.001, ****P < 0.0001.
+Source Data
+Extended Data Fig. 8. The transcriptional signature of ETS2 is detectable in affected tissues from chr21q22-linked diseases.
+Open in a new tab
+a. ETS2 expression in scRNA-seq clusters of myeloid cells from Crohn’s disease and healthy controls (upper panel). Relative contributions of single cells from Crohn’s disease or healthy controls to individual clusters (same UMAP dimensions as for combined analysis). b. Overlay of CosMx morphology 2D image data and raw transcripts of selected ETS2 target genes. Fluorescent morphology markers alone (top row), CXCL8 (cyan) and S1009A (yellow) transcripts (middle row), CCL5 (cyan) and CCL2 (yellow) transcripts (bottom row). Columns are representative examples of PSC with diseased ducts (left), PSC with uninflamed background liver (centre), and healthy liver (right). Size marker (white) on every field of view (FOV) denotes 50 µm. c. Gene set enrichment analysis (fGSEA) of genes downregulated following chr21q22 enhancer deletion or ETS2 disruption (gRNA1 or gRNA2) within intestinal macrophages from patients with active IBD (compared to control intestinal macrophages, n = 20; left), ankylosing spondylitis synovium (compared to control synovium, n = 15; centre), and PSC liver biopsies (compared to control liver biopsies, n = 17; right). Padj, FDR-adjusted P-value (two-sided).
+Source Data
+We next examined whether this pathway could be targeted pharmacologically. Specific ETS2 inhibitors do not exist and structural analyses indicate that there is no obvious allosteric inhibitory mechanism43. We therefore used the NIH LINCS database to identify drugs that might modulate ETS2 activity7. This contains over 30,000 differentially expressed gene lists from cell lines exposed to around 6,000 small molecules. Using fGSEA, 906 signatures mimicked the effect of disrupting ETS2 (Padj < 0.05), including several approved IBD therapies. The largest class of drugs was MEK inhibitors (Fig. 5g), which are licensed for non-inflammatory human diseases (such as neurofibromatosis). This result was not due to a single compound, but rather a class effect with multiple MEK1/2 inhibitors downregulating ETS2-target genes (Fig. 5h). This made biological sense, as MEK1/2, together with several other targets identified, are known regulators of ETS-family transcription factors (Fig. 5g). Some of these compounds have shown benefit in animal colitis models44, although this is often a poor indicator of clinical efficacy, as several IBD treatments are ineffective in mice and many compounds that improve mouse models are ineffective in humans45. To test whether MEK inhibition abrogates ETS2-driven inflammation in human macrophages, we treated TPP macrophages with PD-0325901, a selective non-ATP competitive MEK inhibitor. Potent anti-inflammatory activity was observed that phenocopied the effects of disrupting ETS2 or the chr21q22 enhancer (Fig. 5i,j and Extended Data Fig. 9a–c). To further assess the therapeutic potential, we cultured intestinal biopsies from active, untreated IBD with either a MEK inhibitor or a negative or positive control (Methods). MEK inhibition reduced inflammatory cytokine release to similar levels as infliximab (an anti-TNF antibody that is widely used for IBD; Fig. 5k). Moreover, ETS2-regulated gene expression was reduced (Fig. 5l and Extended Data Fig. 9d) and there was improvement in a transcriptional inflammation score46 (Fig. 5m). Together, these data show that targeting an upstream regulator of ETS2 can abrogate pathological inflammation in a chr21q22-associated disease, and may be useful therapeutically.
+Extended Data Fig. 9. Effect of MEK1/2 inhibition on ETS2-regulated genes.
+Open in a new tab
+a-c. Gene set enrichment analysis (fGSEA) in MEK1/2 inhibitor-treated TPP macrophages showing enrichment of gene sets upregulated (upper panel) or downregulated (lower panel) following ETS2 or chr21q22 editing (MEK1/2 inhibited using PD-0325901, 0.5 µM). Gene sets obtained from differential gene expression analysis (limma using voom transformation) following ETS2 disruption with gRNA1 (a), gRNA2 (b), or following chr21q22 deletion (c). d. fGSEA in intestinal biopsies from IBD patients showing enrichment of gene sets downregulated following ETS2 or chr21q22 editing in MEK inhibitor-treated biopsies. Upregulated gene sets were not enriched. e. Proportion and pathway analysis of MEK inhibitor-induced differentially expressed genes that have no evidence for being ETS2 targets in macrophages (incorporating differential expression from knockout or overexpression experiments and promoter / regulatory element binding from ETS2 CUT&RUN). Padj, FDR-adjusted P-value (two-sided).
+Source Data
+Discussion
+Arguably the greatest challenge in modern genetics is to translate the success of GWAS into a better understanding of disease. Here, by studying a pleiotropic disease locus, we identify a central regulator of human macrophage inflammation and a pathogenic pathway that is potentially druggable. These findings also provide clues to the gene–environment interactions at this locus, highlighting a potential role for ETS2 in macrophage responses to bacteria. This would provide a balancing selection pressure that might explain why the risk allele remains so common (frequency of around 75% in Europeans and >90% in Africans) despite first being detected in archaic humans over 500,000 years ago (Extended Data Fig. 10).
+Extended Data Fig. 10. Geographic distribution and history of rs2836882.
+Open in a new tab
+a. rs2836882 allele frequency in modern global populations (data from 1000 Genomes Project, plotted using Geography of Genetic Variants browser: https://popgen.uchicago.edu/ggv/). b. Genotypes of candidate SNPs at chr21q22 (99% credible set) in archaic humans (Neanderthals and Denisovans). Colour depicts the proportion of reads containing ALT alleles, with a value close to 0 consistent with a homozygous REF (risk) genotype, a value close to 1 consistent with a homozygous ALT (non-risk) genotype, and an intermediate value indicating a potential heterozygous genotype. Number in each cell indicates the number of reads at that SNP in the indicated sample. Putative causal variant highlighted in red. c. Inferred genealogy of the age of the rs2836882 polymorphism – analysed using Relate. The diagram in a was created using the Geography of Genetic Variants browser.
+Source Data
+Although ETS2 was reported to have pro-inflammatory effects on individual genes24,25, the full extent of its inflammatory programme—with effects on ROS production, phagocytosis, glycometabolism and macrophage activation—was unclear. Moreover, without direct proof of ETS2 targets, nor studies in primary human cells, it was difficult to reconcile reports of anti-inflammatory effects at other genes23,26. By systematically characterizing the effects of ETS2 disruption and overexpression in human macrophages, we identify an essential role in inflammation, delineate the mechanisms involved and show how ETS2 can induce pathogenic macrophage phenotypes. Increased ETS2 expression may also contribute to other human pathology. For example, Down’s syndrome (trisomy 21) was recently described as a cytokinopathy47, with basal increases in multiple inflammatory cytokines, including several ETS2 targets (such as IL-1β, TNF and IL-6). Whether the additional copy of ETS2 contributes to this phenotype is unknown, but warrants further study.
+Blocking individual cytokines is a common treatment strategy in inflammatory disease14, but emerging evidence suggests that targeting several cytokines at once may be a better approach48. Blocking ETS2 signalling through MEK1/2 inhibition affects multiple cytokines, including TNF and IL-23, which are targets of existing therapies, and IL-1β, which is linked to treatment resistance49 and not directly modulated by other small molecules (such as JAK inhibitors). However, long-term MEK inhibitor use may not be ideal owing to the physiological roles of MEK in other tissues, with multiple side-effects having been reported50. Targeting ETS2 directly—for example, through PROTACs—or selectively delivering MEK inhibitors to macrophages through antibody–drug conjugates could overcome this toxicity, and provide a safer means of blocking ETS2-driven inflammation.
+In summary, using an intergenic GWAS hit as a starting point, we have identified a druggable pathway that is both necessary and sufficient for human macrophage inflammation. Moreover, we show how genetic dysregulation of this pathway—through perturbation of pioneer factor binding at a critical long-range enhancer—predisposes to multiple diseases. This highlights the considerable, yet largely untapped, opportunity to resolve disease biology from non-coding genetic associations.
+Methods
+Analysis of existing data relating to chr21q22
+IBD GWAS summary statistics3 were used to perform multiple causal variant fine-mapping using susieR51, with reference minor allele and LD information calculated from 503 European samples from 1000 Genomes phase 3 (ref. 52). All R analyses used v.4.2.1. Palindromic SNPs (A/T or C/G) and any SNPs that did not match by position or alleles were pruned before imputation using the ssimp equations reimplemented in R. This did not affect any candidate SNP at chr21q22. SuSiE fine-mapping results were obtained for ETS2 (identifier ENSG00000157557 or ILMN_1720158) in monocyte/macrophage datasets from the eQTL Catalogue53. Co-localization analyses were performed comparing the chr21q22 IBD association with summary statistics from other chr21q22-associated diseases3–6 and monocyte/macrophage eQTLs54–58 to determine whether there was a shared genetic basis for these different associations. This was performed using coloc (v.5.2.0)59 using a posterior probability of H4 (PP.H4.abf) > 0.5 to call co-localization.
+Raw H3K27ac ChIP–seq data from primary human immune cells were downloaded from Gene Expression Omnibus (GEO series GSE18927 and GSE96014) and processed as described previously60 (code provided in the ‘Code availability’ section).
+Processed promoter-capture Hi-C data61 from 17 primary immune cell types were downloaded from OSF (https://osf.io/u8tzp) and cell type CHiCAGO scores for chr21q22-interacting regions were extracted.
+Monocyte-derived macrophage differentiation
+Leukocyte cones from healthy donors were obtained from NHS Blood and Transplant (Cambridge Blood Donor Centre, Colindale Blood Centre or Tooting Blood Donor Centre). Peripheral blood mononuclear cells (PBMCs) were isolated by density centrifugation (Histopaque 1077, Sigma-Aldrich) and monocytes were positively selected using CD14 Microbeads (Miltenyi Biotec). Macrophage differentiation was performed either using conditions that model chronic inflammation (TPP)16: 3 days GM-CSF (50 ng ml−1, Peprotech) followed by 3 days GM-CSF, TNF (50 ng ml−1, Peprotech), PGE2 (1 μg ml−1, Sigma-Aldrich) and Pam3CSK4 (1 μg ml−1, Invivogen); or, to produce resting (M0) macrophages: 6 days M-CSF (50 ng ml−1, Peprotech). All cultures were performed at 37 °C under 5% CO2 in antibiotic-free RPMI1640 medium containing 10% FBS, GlutaMax and MEM non-essential amino acids (all Thermo Fisher Scientific). Cells were detached using Accutase (BioLegend).
+Identifying a model of chronic inflammatory macrophages
+Human monocyte/macrophage gene expression data files (n = 314) relating to 28 different stimuli with multiple durations of exposure (collectively comprising 67 different activation conditions) were downloaded from the GEO (GSE47189) and quantile normalized. Data from biological replicates were summarized to the median value for every gene. Gene set variation analysis62 (using the GSVA package in R) was performed to identify the activation condition that most closely resembled CD14+ monocytes/macrophages from active IBD using disease-associated lists of differentially expressed genes63.
+CRISPR–Cas9 editing of primary human monocytes
+gRNA sequences were designed using CRISPick and synthesized by IDT (Supplementary Table 3). Alt-R CRISPR–Cas9 negative control crRNA 1 (IDT) was used as a non-targeting control. Cas9–gRNA ribonucleoproteins were assembled as described previously60 and nucleofected into 5 × 106 monocytes in 100 μl nucleofection buffer (Human Monocyte Nucleofection Kit, Lonza) using a Nucleofector 2b (Lonza, program Y-001). After nucleofection, monocytes were immediately transferred into 5 ml of prewarmed culture medium in a six-well plate, and differentiated into macrophages under TPP conditions. The editing efficiency was quantified by PCR amplification of the target region in extracted DNA. All primer sequences are provided in Supplementary Table 3. The editing efficiency at the chr21q22 locus was measured by quantification of amplified fragments (2100 Bioanalyzer, Agilent) as previously described60. The editing efficiency for individual gRNAs was assessed using the Inference of CRISPR Edits tool64 (ICE, Synthego).
+PrimeFlow RNA assay
+RNA abundance was quantified by PrimeFlow (Thermo Fisher Scientific) in chr21q22-edited and unedited (NTC) cells on days 0, 3, 4, 5 and 6 of TPP differentiation. Target probes specific for ETS2 (Alexa Fluor 647), BRWD1 (Alexa Fluor 568) and PSMG1 (Alexa Fluor 568) were used according to the manufacturer’s instructions. Data were collected using FACS Diva software and analysed using FlowJo v10 (BD Biosciences).
+MPRA
+Overlapping oligonucleotides containing 114 nucleotides of genomic sequence were designed to tile the region containing chr21q22 candidate SNPs (99% credible set) at 50 bp intervals. Six technical replicates were designed for every genomic sequence, each tagged by a unique 11-nucleotide barcode. Additional oligonucleotides were included to test the expression-modulating effect of every candidate SNP in the 99% credible set. Allelic constructs were designed as described previously60 and tagged by 30 unique 11-nucleotide barcodes. Positive and negative controls were included as described previously60. 170-nucleotide oligonucleotides were synthesized as part of a larger MPRA pool (Twist Biosciences) containing the 16-nucleotide universal primer site ACTGGCCGCTTCACTG, 114-nucleotide variable genomic sequence, KpnI and XbaI restriction sites (TGGACCTCTAGA), an 11-nucleotide barcode and the 17-nucleotide universal primer site AGATCGGAAGAGCGTCG. Cloning into the MPRA vector was performed as described previously60. A suitable promoter for the MPRA vector (RSV) was identified by testing promoter activities in TPP macrophages. The MPRA vector library was nucleofected into TPP macrophages (5 µg vector into 5 × 106 cells) in 100 μl nucleofection buffer (Human Macrophage Nucleofection Kit, Lonza) using a Nucleofector 2b (program Y-011). To ensure adequate barcode representation, a minimum of 2 × 107 cells was nucleofected for every donor (n = 8). After 24 h, RNA was extracted and sequencing libraries were made from mRNA or DNA input vector as described previously60. Libraries were sequenced on the Illumina HiSeq2500 high-output flow-cell (50 bp, single-end reads). Data were demultiplexed and converted to FASTQ files using bcl2fastq and preprocessed as previously described using FastQC60. To identify regions of enhancer activity, a paired t-test was first performed to identify genomic sequences that enhanced transcription and a sliding-window analysis (300 bp window) was then performed using the les package in R. Expression-modulating variants were identified using QuASAR-MPRA65, as described previously60.
+BaalChIP
+Publicly available PU.1 ChIP–seq datasets from human macrophages were downloaded from GEO, and BAM files were examined (IGV genome browser) to identify heterozygous samples (that is, files containing both A and G allele reads at chr21:40466570; hg19). Two suitable samples were identified (GSM1681423 and GSM1681429) and used for a Bayesian analysis of allelic imbalances in PU.1 binding (implemented in the BaalChIP package66 in R) with correction for biases introduced by overdispersion and biases towards the reference allele.
+Allele-specific PU.1 ChIP genotyping
+A 100 ml blood sample was taken from five healthy rs2836882 heterozygotes (assessed by Taqman genotyping; Thermo Fisher Scientific). All of the participants provided written informed consent. Ethical approval was provided by the London–Brent Regional Ethics Committee (21/LO/0682). Monocytes were isolated from PBMCs using CD14 Microbeads (Miltenyi Biotec) and differentiated into inflammatory macrophages using TPP conditions16. After differentiation, macrophages were detached and cross-linked for 10 min in fresh medium containing 1% formaldehyde. Cross-linking was quenched with glycine (final concentration 0.125 M, 5 min). Nucleus preparation and shearing were performed as described previously60 with 10 cycles sonication (30 s on/30 s off, Bioruptor Pico, Diagenode). PU.1 was immunoprecipitated overnight at 4 °C using a polyclonal anti-PU.1 antibody (1:25; Cell Signaling) using the SimpleChIP Plus kit (Cell Signaling). The ratio of rs2836882 alleles in the PU.1-bound DNA was quantified in duplicate by TaqMan genotyping (assay C 2601507_20). A standard curve was generated using fixed ratios of geneblocks containing either the risk or non-risk allele (200-nucleotide genomic sequence centred on rs2836882; Genewiz).
+PU.1 MPRA ChIP–seq
+The MPRA vector library was transfected into TPP macrophages from six healthy donors. Assessment of PU.1 binding to SNP alleles was performed as described previously60, with minimal sonication (to remove contaminants without chromatin shearing). Immunoprecipitation was performed as described above. Sequencing libraries were prepared as for MPRA and sequenced on the MiSeq system (50 bp, single-end reads).
+ATAC–seq analysis
+ATAC–seq in ETS2-edited and unedited TPP macrophages was performed using the Omni-ATAC protocol67 with the following modifications: the cell number was increased to 75,000 cells; the cell lysis time was increased to 5 min; the volume of Tn5 transposase in the transposition mixture was doubled; and the duration of the transposition step was extended to 40 min. Amplified libraries were cleaned using AMPure XP beads (Beckman Coulter) and sequenced on the NovaSeq6000 system (100 bp paired-end reads). Data were processed as described previously68. Differential ATAC–seq analysis was performed as described previously using edgeR and TMM normalization69. Allele-specific ATAC–seq analysis was performed in 16 heterozygous monocyte datasets from healthy controls and patients with ankylosing spondylitis70 and in 2 deeply sequenced heterozygous TPP macrophage samples. For these analyses, sequencing reads at rs2836882 were extracted from preprocessed data using splitSNP (https://github.com/astatham/splitSNP) (see the ‘Code availability’ section).
+H3K27ac ChIP–seq
+H3K27ac ChIP–seq was performed as described previously60 using an anti-H3K27ac antibody (1:250, Abcam) or an isotype control (1:500, rabbit IgG, Abcam). Sequencing libraries from TPP macrophages from major and minor allele homozygotes at rs2836882 (identified through the NIHR BioResource, n = 4) were sequenced on the HiSeq4000 system (50 bp, single-end reads). Sequencing libraries from ETS2-edited and unedited TPP macrophages (n = 3) or resting M0 macrophages overexpressing ETS2 or control mRNA (n = 3) were sequenced on the NovaSeq6000 system (100 bp, paired-end reads). Raw data were processed, quality controlled and analysed as described previously using the Burrows-Wheeler Aligner60. Unpaired differential ChIP–seq analysis, to compare rs2836882 genotypes, was performed using MEDIPS71 by dividing the 560 kb region around rs2836882 (chr21:40150000–40710000, hg19) into 5 kb bins. Paired differential ChIP–seq analyses, to assess the effect of perturbing ETS2 expression on enhancer activity, were performed using edgeR with TMM normalization69,72 (with donor as covariate). Genome-wide analyses used consensus MACS2 peaks. Superenhancer activity was evaluated using Rank-Ordering of Super-Enhancers (ROSE). Chr21q22-based analyses used the enhancer coordinates that exhibited allele-specific activity (chr21:40465000–40470000, hg19). Code is provided for all data analysis (see the ‘Code availability’ section).
+Assays of macrophage effector functions
+Flow cytometry
+Expression of myeloid markers was assessed using flow cytometry (BD LSRFortessa X-20) with the following panel: CD11b PE/Dazzle 594 (BioLegend), CD14 evolve605 (Thermo Fisher Scientific), CD16 PerCP (BioLegend), CD68 FITC (BioLegend), Live/Dead Fixable Aqua Dead Cell Stain (Thermo Fisher Scientific) and Fc Receptor Blocking Reagent (Miltenyi). All antibodies were used at a dilution of 1:40; Live/Dead stained was used at 1:400 dilution. Data were collected using FACS Diva and analysed using FlowJo v.10 (BD Biosciences).
+Cytokine quantification
+Supernatants were collected on day 6 of TPP macrophage culture and frozen. Cytokine concentrations were quantified in duplicate by electrochemiluminescence using assays (Meso Scale Diagnostics, DISCOVERY WORKBENCH v.4.0).
+Phagocytosis
+Phagocytosis was assessed using fluorescently labelled Zymosan particles (Green Zymosan, Abcam) according to the manufacturer’s instructions. Cells were seeded at 105 cells per well in 96-well round-bottom plates. Cytochalasin D (10 μg ml−1, Thermo Fisher Scientific) was used as a negative control. Phagocytosis was quantified by flow cytometry, and a phagocytosis index was calculated (the proportion of positive cells multiplied by their mean fluorescence intensity).
+Extracellular ROS production
+Extracellular ROS production was quantified using the Diogenes Enhanced Superoxide Detection Kit (National Diagnostics) according to the manufacturer’s protocol. Cells were seeded at a density of 105 cells per well and prestimulated with PMA (200 ng ml−1, Sigma-Aldrich).
+Western blotting
+Western blotting was performed as described previously73 using the following primary antibodies: mouse anti-gp91phox (1:2,000), mouse anti-p22phox (1:500; both Santa Cruz), rabbit anti-C17ORF62/EROS (1:1,000; Atlas), mouse anti-vinculin (Sigma-Aldrich). Loading controls were run on the same gel. Secondary antibodies were as follows: goat anti-rabbit IgG-horseradish or goat anti-mouse IgG-horseradish peroxidase (both 1:10,000; Jackson Immuno). Chemiluminescence was recorded on the ChemiDoc Touch imager (Bio-Rad) after incubation of the membrane with ECL (Thermo Fisher Scientific) or SuperSignal West Pico PLUS (Thermo Fisher Scientific) reagent. Densitometry analysis was performed using ImageJ.
+RNA-seq analysis
+RNA was isolated from macrophage lysates (AllPrep DNA/RNA Micro Kit, Qiagen) and sequencing libraries were prepared from 10 ng RNA using the SMARTer Stranded Total RNA-Seq Kit v2 Pico Input Mammalian (Takara) according to the manufacturer’s instructions. Libraries were sequenced on either the NextSeq 2000 (50 bp paired-end reads: CRISPR, roxadustat and PD-0325901 experiments) or NovaSeq 6000 (100 bp paired-end reads: overexpression experiments) system and preprocessed using MultiQC. Reads were trimmed using Trim Galore (Phred score 24) and filtered to remove reads <20 bp. Ribosomal reads (mapping to human ribosomal DNA complete repeating unit; GenBank: U13369 .1) were removed using BBSplit (https://sourceforge.net/projects/bbmap/). Reads were aligned to the human genome (hg38) using HISAT2 (ref. 74) and converted to BAM files, sorted and indexed using SAMtools75. Gene read counts were obtained using the featureCounts program76 from Rsubread using the GTF annotation file for GRCh38 (v.102). Differential expression analysis was performed in R using limma77 with voom transformation and including donor as a covariate. Differential expression results are shown in Supplementary Tables 1 and 2.
+GSEA
+GSEA was performed using fGSEA78 in R with differentially expressed gene lists ranked by t-statistic. Gene sets were obtained from GO Biological Pathways (MSigDB), experimentally derived based on differential expression analysis or sourced from published literature31,42,70,79–86. Specific details of disease macrophage signatures (Fig. 3f) are provided as source data. GO pathways shown in Figs. 2–5 are as follows: GO:0002274, GO:0042116, GO:0097529, GO:0006909, GO:0071706, GO:0032732, GO:0032755, GO:0032757, GO:2000379, GO:0009060, GO:0006119 and GO:0045649. Statistical significance was calculated using the adaptive multilevel split Monte Carlo method.
+IBD BioResource recall-by-genotype study
+IBD patients who were rs2836882 major or minor allele homozygotes (n = 11 of each) were identified through the NIHR IBD BioResource. Patients were matched for age, sex, treatment and disease activity, and all provided written informed consent. Ethical approval was provided by the London–Brent Regional Ethics Committee (21/LO/0682). A 50 ml blood sample was taken from all patients and M0 monocyte-derived macrophages were generated as described. After 6 days, cells were collected, lysed and RNA was extracted. Quantitative PCR analysis of a panel of ETS2-regulated genes was performed in triplicate after reverse transcription (SuperScript IV VILO, Thermo Fisher Scientific) using the Quantifast SYBR Green PCR kit (Qiagen) on the Roche LightCycler 480. Primer sequences are provided in Supplementary Table 3 and PPIA and RPLP0 were used as housekeeping genes. Expression values for each gene (2ΔcT) were scaled to a minimum 0 and maximum 1 to enable intergene comparison.
+In vitro transcription
+The cDNA sequence for ETS2 (NCBI Reference Sequence Database NM005239.5) preceded by a Kozak sequence was synthesized and cloned into a TOPO vector. This was linearized and a PCR amplicon generated, adding a T7 promoter and an AG initiation sequence (Phusion, NEB). A reverse complement (control) amplicon was also generated. These amplicons were used as templates for in vitro transcription using the HiScribe T7 mRNA Kit with CleanCap Reagent AG kit (NEB) according to the manufacturer’s instructions, but with substitution of N1-methyl-pseudouridine for uridine and methylcytidine for cytidine (both Stratech) to minimize non-specific cellular activation by the transfected mRNA. mRNA was purified using the MEGAclear Kit (Thermo Fisher Scientific) and polyadenylated using an Escherichia coli poly(A) polymerase (NEB) before further clean-up (MEGAclear), quantification and analysis of the product size (NorthernMax-Gly gel, Thermo Fisher Scientific). For optimizing overexpression conditions, GFP mRNA was produced using the same method. All primer sequences are provided in Supplementary Table 3.
+mRNA overexpression
+Lipofectamine MessengerMAX (Thermo Fisher Scientific) was diluted in Opti-MEM (1:75 v/v), vortexed and incubated at room temperature for 10 min. IVT mRNA was then diluted in a fixed volume of Opti-MEM (112.5 µl per transfection), mixed with an equal volume of diluted Lipofectamine MessengerMAX and incubated for a further 5 min at room temperature. The transfection mix was then added dropwise to 2.5 × 106 M0 macrophages (precultured for 6 days in a six-well plate in antibiotic-free RPMI1640 macrophage medium containing M-CSF (50 ng ml−1, Peprotech), with medium change on day 3). For GFP overexpression, cells were detached using Accutase 18 h after transfection and GFP expression was measured using flow cytometry. For ETS2/control overexpression, either 250 ng or 500 ng mRNA was transfected and low-dose LPS (0.5 ng ml−1) was added 18 h after transfection, and cells were detached using Accutase 6 h later. Representative ETS2 expression in untransfected macrophages was obtained from previous data (GSE193336). Differential H3K27ac ChIP–seq analysis in ETS2-overexpressing macrophages was performed using 500 ng RNA transfection (see the ‘Code availability’ section).
+PRS
+Plink1.9 (https://www.cog-genomics.org/plink/1.9/) was used to calculate a polygenic risk score (PRS) for patients in the IBD BioResource using 22 ETS2-regulated IBD-associated SNPs (β coefficients from a previous study3). Linear regression was used to compare PRSs with age at diagnosis, and logistic regression to estimate the effect of PRSs on IBD subphenotypes, including anti-TNF primary non-response (PNR), CD behaviour (B1 versus B2/B3), perianal disease and surgery. For variables with more than two levels (for example, CD location or UC location), ANOVA was used to investigate the relationship with PRS. For analyses of age at diagnosis, anti-TNF response and surgery, IBD diagnosis was included as a covariate.
+SNPsea
+Pathway analysis of 241 IBD-associated GWAS hits3 was performed using SNPsea v.1.0.4 (ref. 34). In brief, linkage intervals were defined for every lead SNP based on the furthest correlated SNPs (r2 > 0.5 in 1000 Genomes, European population) and were extended to the nearest recombination hotspots with recombination rate > 3 cM per Mb. If no genes were present in this region, the linkage interval was extended up- and downstream by 500 kb (as long-range regulatory interactions usually occur within 1 Mb). Genes within linkage intervals were tested for enrichment within 7,660 pathways, comprising 7,658 GO Biological Pathways and two lists of ETS2-regulated genes (either those significantly downregulated after ETS2 disruption with gRNA1 or those significantly upregulated after ETS2 overexpression, based on a consensus list obtained from differential expression analysis including all samples and using donor and mRNA quantity as covariates). The analysis was performed using a single score mode: assuming that only one gene per linkage interval is associated with the pathway. A null distribution of scores for each pathway was performed by sampling identically sized random SNP sets matched on the number of linked genes (5,000,000 iterations). A permutation P value was calculated by comparing the score of the IBD-associated gene list with the null scores. An enrichment statistic was calculated using a standardized effect size for the IBD-associated score compared to the mean and s.e.m. of the null scores. Gene sets relating to the following IBD-associated pathways were extracted for comparison: NOD2 signalling (GO:0032495), integrin signalling (GO:0033627, GO:0033622), TNF signalling (GO:0033209, GO:0034612), intestinal epithelium (GO:0060729, GO:0030277), Th17 cells (GO:0072539, GO:0072538, GO:2000318), T cell activation (GO:0046631, GO:0002827), IL-10 signalling (GO:0032613, GO:0032733) and autophagy (GO:0061919, GO:0010506, GO:0010508, GO:1905037, GO:0010507). SNPs associated with PSC5,87, ankylosing spondylitis4,87, Takayasu arteritis6,88,89 and schizophrenia90 (as a negative control) were collated from the indicated studies and tested for enrichment in ETS2-regulated gene lists.
+ETS2 co-expression
+Genes co-expressed with ETS2 across 67 human monocyte/macrophage activation conditions (normalized data from GSE47189) were identified using the rcorr function in the Hmisc package in R.
+13C-glucose GC–MS
+ETS2-edited or unedited TPP macrophages were generated in triplicate for each donor and on day 6, the medium was removed, cells were washed with PBS, and new medium with labelled glucose was added. Labelled medium was as follows: RPMI1640 medium, no glucose (Thermo Fisher Scientific), 10% FBS (Thermo Fisher Scientific), GlutaMax (Thermo Fisher Scientific), 13C-labelled glucose (Cambridge Isotype Laboratories). After 24 h, a timepoint selected from a time-course to establish steady-state conditions, the supernatants were snap-frozen and macrophages were detached by scraping. Macrophages were washed three times with ice-cold PBS, counted, resuspended in 600 µl ice-cold chloroform:methanol (2:1, v/v) and sonicated in a waterbath (3 times for 8 min). All of the extraction steps were performed at 4 °C as previously described91. The samples were analysed on the Agilent 7890B-7000C GC–MS system. Spitless injection (injection temperature of 270 °C) onto a DB-5MS (Agilent) was used, using helium as the carrier gas, in electron ionization mode. The initial oven temperature was 70 °C (2 min), followed by temperature gradients to 295 °C at 12.5 °C per min and to 320 °C at 25 °C per min (held for 3 min). The scan range was m/z 50–550. Data analysis was performed using in-house software MANIC (v.3.0), based on the software package GAVIN92. Label incorporation was calculated by subtracting the natural abundance of stable isotopes from the observed amounts. Total metabolite abundance was normalized to the internal standard (scyllo-inositol91).
+Roxadustat in TPP macrophages
+ETS2-edited or unedited TPP macrophages were generated as described previously. On day 5 of culture, cells were detached (Accutase) and replated at a density of 105 cells per well in 96-well round-bottom plates in TPP medium containing roxadustat (FG-4592, 30 μM). After 12 h, cells were collected for functional assays and RNA-seq as described.
+CUT&RUN
+Precultured TPP macrophages were collected and processed immediately using the CUT&RUN Assay kit (Cell Signaling) according to the manufacturer’s instructions but omitting the use of ConA-coated beads. In brief, 5 × 105 cells per reaction were pelleted, washed and resuspended in antibody binding buffer. Cells were incubated with antibodies: anti-ETS2 (1:100, Thermo Fisher Scientific) or IgG control (1:20, Cell Signaling) for 2 h at 4 °C. After washing in digitonin buffer, cells were incubated with pA/G-MNase for 1 h at 4 °C. Cells were washed twice in digitonin buffer, resuspended in the same buffer and cooled for 5 min on ice. Calcium chloride was added to activate pA/G-MNase digestion (30 min, 4 °C) before the reaction was stopped and cells incubated at 37 °C for 10 min to release cleaved chromatin fragments. DNA was extracted from the supernatants using spin columns (Cell Signaling). Library preparation was performed using the NEBNext Ultra II DNA Library Prep Kit according to a protocol available at protocols.io (10.17504/protocols.io.bagaibse). Size selection was performed using AMPure XP beads (Beckman Coulter) and the fragment size was assessed using the Agilent 2100 Bioanalyzer (High Sensitivity DNA kit). Indexed libraries were sequenced on the NovaSeq 6000 system (100 bp paired-end reads). Raw data were analysed using guidelines from the Henikoff laboratory93. In brief, paired-end reads were trimmed using Trim Galore and aligned to the human genome (GRCh37/hg19) using Bowtie2. BAM files were sorted, merged (technical and, where indicated, biological replicates), resorted and indexed using SAMtools. Picard was used to mark unmapped reads and SAMtools to remove these, re-sort and re-index. Bigwig files were created using the deepTools bamCoverage function. Processed data were initially analysed using the nf-core CUT&RUN pipeline v.3.0, using CPM normalization and default MACS2 parameters for peak calling. This analysis yielded acceptable quality metrics (including an average FRiP score of 0.23) but there was a high number of peaks with low fold enrichment (<4) over the control. More stringent parameters were therefore applied for peak calling (--qvalue 0.05 -f BAMPE --keep-dup all -B --nomodel) and we applied an irreproducible discovery rate (IDR; cut-off 0.001) to identify consistent peaks between replicates, implemented in the idr package in R (see the ‘Code availability’ section). Enrichment of binding motifs for ETS2 and other transcription factors expressed in TPP macrophages (cpm > 0.5) within consensus IDR peaks was calculated using TFmotifView94 using global genomic controls. The overlap between consensus IDR peaks and the core promoter (−250bp to +35 bp from the transcription start site) and/or putative cis-regulatory elements of ETS2-regulated genes was assessed using differentially expressed gene lists after ETS2 disruption (gRNA1) or ETS2 overexpression (based on a consensus across mRNA doses, as described earlier). Putative cis-regulatory elements were defined as shared interactions (CHiCAGO score > 5) in monocyte and M0 and M1 macrophage samples from publicly available promoter-capture Hi-C data61. Predicted ETS2- and PU.1-binding sites were identified at the rs2836882 locus (chr21:40466150–40467450) using CisBP95 (database 2.0, PWMs log odds motif model, default settings).
+Intestinal scRNA-seq
+Raw count data from colonic immune cells41 (including healthy controls and Crohn’s disease) were downloaded from the Single Cell Portal (https://singlecell.broadinstitute.org/single_cell). Myeloid cell data were extracted for further analysis using the cell annotation provided. Raw data were preprocessed, normalized and variance-stabilized using Seurat (v.4)96. PCA and UMAP clustering was performed and clusters annotated using established markers and/or previous literature. Marker genes were identified using the FindAllMarkers function. Modular expression of ETS2-regulated genes (downregulated after ETS2 editing, gRNA1) was measured using the AddModuleScore function.
+Spatial transcriptomics
+Formalin-fixed paraffin-embedded sections (thickness, 5 μm) were cut from two PSC liver explants and two controls (healthy liver adjacent to tumour metastases), baked overnight at 60 °C and prepared for CosMx according to manufacturer’s instructions using 15 min target retrieval and 30 min protease digestion. Tissue samples were obtained through Tissue Access for Patient Benefit (TAP-B, part of the UCL-RFH Biobank) under research ethics approval: 16/WA/0289 (Wales Research Ethics Committee 4). One case and one control were included on each slide. The Human Universal Cell Characterization core panel (960 genes) was used, supplemented with 8 additional genes to improve identification of cells of interest: CD1D, EREG, ETS2, FCN1, G0S2, LYVE1, MAP2K1, MT1G. Segmentation was performed using the CosMx Human Universal Cell Segmentation Kit (RNA), Human IO PanCK/CD45 Kit (RNA) and Human CD68 Marker, Ch5 (RNA). Fields of view (FOVs) were tiled across all available regions (221 control, 378 PSC) and cyclic fluorescence in situ hybridization was performed using the CosMx SMI (Nanostring) system. Data were preprocessed on the AtoMx Spatial Informatics Platform, with images segmented to obtain cell boundaries, transcripts assigned to single cells, and a transcript by cell count matrix was obtained97. Expression matrices, transcript coordinates, polygon coordinates, FOV coordinates and cell metadata were exported, and quality control, normalization and cell-typing were performed using InSituType98—an R package developed to extract all the information available in every cell’s expression profile. A semi-supervised strategy was used to phenotype cells, incorporating the Liver Human Cell Atlas reference matrix. Spatial analysis of macrophage phenotypes was performed according to proximity from cholangiocytes (anchor cell type). Radius and nearest-neighbour analyses were performed using PhenoptR (https://akoyabio.github.io/phenoptr/) with macrophage distribution from cholangiocytes binned in 100 µm increments up to 500 µm. Nearest-neighbour analysis was performed to determine the distance from cholangiocytes to the nearest inflammatory and non-inflammatory macrophage and vice versa.
+To generate overlay images, raw transcript and image (morphology 2D) data were exported from AtoMx. Overlays of selected ETS2-target genes (CXCL8, S100A9, CCL2, CCL5) and fluorescent morphology markers were generated using napari (v.0.4.17, https://napari.org/stable/index.html) on representative FOVs: FOV287 (PSC with involved duct), FOV294 (PSC background liver) and FOV55 (healthy liver).
+Chr21q22 disease datasets
+Publicly available raw RNA-seq data from the affected tissues of chr21q22-associated diseases (and controls from the same experiment) were downloaded from the GEO: IBD macrophages (GSE123141), PSC liver (GSE159676), ankylosing spondylitis synovium (GSE41038). Reads were trimmed, filtered and aligned as described earlier. For each disease dataset, a ranked list of genes was obtained by differential expression analysis between cases and controls using limma with voom transformation. For IBD macrophages, only IBD samples with active disease were included. fGSEA using ETS2-regulated gene lists was performed as described.
+LINCS signatures
+A total of 31,027 lists of downregulated genes after exposure of a cell line to a small molecule was obtained from the NIH LINCS database7 (downloaded in January 2021). These were used as gene sets for fGSEA (as described) with a ranked list of genes obtained by differential expression analysis between ETS2-edited and unedited TPP macrophages (gRNA1) using limma with voom transformation and donor as a covariate. Drug classes for gene sets with FDR-adjusted P < 0.05 were manually assigned on the basis of known mechanisms of action.
+MEK inhibition in TPP macrophages
+TPP macrophages were generated as described previously. On day 4 of culture, PD-0325901 (0.5 μM, Sigma-Aldrich) or vehicle (DMSO) was added. Cells were collected on day 6 and RNA was extracted and sequenced as described.
+Colonic biopsy explant culture
+During colonoscopy, intestinal mucosal biopsies (6 per donor) were collected from ten patients with IBD (seven patients with ulcerative colitis, three patients with Crohn’s disease). All had endoscopically active disease and were not receiving immunosuppressive or biologic therapies. All biopsies were collected from a single inflamed site. All patients provided written informed consent. Ethical approval was provided by the London–Brent Regional Ethics Committee (21/LO/0682). Biopsies were collected into Opti-MEM and, within 1 h, were weighed and placed in pairs onto a Transwell insert (Thermo Fisher Scientific), designed to create an air–liquid interface99, in a 24-well plate. Each well contained 1 ml medium and was supplemented with either DMSO (vehicle control), PD-0325901 (0.5 μM) or infliximab (10 μg ml−1; MSD). Medium was as follows: Opti-MEM I (Gibco), GlutaMax (Thermo Fisher Scientific), 10% FBS (Thermo Fisher Scientific), MEM non-essential amino acids (Thermo Fisher Scientific), 1% sodium pyruvate (Thermo Fisher Scientific), 1% penicillin–streptomycin (Thermo Fisher Scientific) and 50 μg ml−1 gentamicin (Merck). After 18 h, the supernatants and biopsies were snap-frozen. The supernatant cytokine concentrations were quantified using the LEGENDplex Human Inflammation Panel (BioLegend). RNA was extracted from biopsies and libraries were prepared as described earlier (n = 9, RNA from one donor was too degraded). Sequencing was performed on the NovaSeq 6000 system (100 bp paired-end reads). Data were processed as described earlier and GSVA was performed for ETS2-regulated genes and biopsy-derived signatures of IBD-associated inflammation46.
+Chr21q22 genotypes in archaic humans
+Using publicly available genomes from seven Neanderthal individuals100–103, one Denisovan individual104, and one Neanderthal and Denisovan F1 individual105, genotypes were called at the disease-associated chr21q22 candidate SNPs from the respective BAM files using bcftools mpileup with base and mapping quality options -q 20 -Q 20 -C 50 and using bcftools call -m -C alleles, specifying the two alleles expected at each site in a targets file (-T option). From the resulting .vcf file, the number of reads supporting the reference and alternative alleles was extracted and stored in the ‘DP4’ field.
+Inference of Relate genealogy at rs2836882
+Genome-wide genealogies, previously inferred for samples of the Simons Genome Diversity Project106 using Relate107,108 (https://reichdata.hms.harvard.edu/pub/datasets/sgdp/), were downloaded from https://www.dropbox.com/sh/2gjyxe3kqzh932o/AAAQcipCHnySgEB873t9EQjNa?dl=0. Using the inferred genealogies, the genealogy at rs2836882 (chr21:40466570) was plotted using the TreeView module of Relate.
+Data presentation
+The following R packages were used to create figures: GenomicRanges109, EnhancedVolcano110, ggplot2 (ref. 111), gplots112, karyoploteR113.
+Statistical methodology
+Statistical methods used in MPRA analysis, fGSEA and SNPsea are described above. For other analyses, comparison of continuous variables between two groups was performed using Wilcoxon matched-pairs tests (paired) or Mann–Whitney U-tests (unpaired) for nonparametric data or a t-tests for parametric data. Comparison against a hypothetical value was performed using Wilcoxon signed-rank tests for nonparametric data or one-sample t-tests for parametric data. A Shapiro–Wilk test was used to confirm normality. Two-sided tests were used as standard unless a specific hypothesis was being tested. Sample sizes are provided in the main text and figure captions.
+Reporting summary
+Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.
+Online content
+Any methods, additional references, Nature Portfolio reporting summaries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contributions and competing interests; and statements of data and code availability are available at 10.1038/s41586-024-07501-1.
+Supplementary information
+Supplementary Figures (15.2MB, pptx)
+Supplementary Fig. 1: uncropped Western blots from Fig. 2d. Two lanes were run for each sample: one lane to blot for vinculin and the NADPH oxidase components gp91phox, gp65 and p22phox, and one lane to blot for vinculin and the chaperone protein EROS. After transfer, the membranes were cut to blot for individual targets. Supplementary Fig. 2: example gating strategy. Example gating strategy for MPRA and macrophage phenotyping. Macrophages were gated by FSC-A/SSC-A and singlets were gated by FSC-A/FSC-H. Live cells were gated (and viability was quantified) using Live/Dead Fixable Aqua Dead Cell Stain.
+Reporting Summary (6.6MB, pdf)
+Supplementary Tables (5MB, xlsx)
+Supplementary Table 1: differentially expressed genes in primary macrophages after ETS2 or chr21q22 CRISPR–Cas9 editing. Supplementary Table 2: differentially expressed genes in primary macrophages after ETS2 overexpression. Supplementary Table 3: the primers and gRNA sequences used in this study.
+Peer Review File (4.2MB, pdf)
+Source data
+Source Data Fig. 1 (22.8KB, xlsx)
+Source Data Fig. 2 (38.9KB, xlsx)
+Source Data Fig. 3 (19.7KB, xlsx)
+Source Data Fig. 4 (1,019.1KB, xlsx)
+Source Data Fig. 5 (7.5MB, xlsx)
+Source Data Extended Data Fig. 1 (20.1KB, xlsx)
+Source Data Extended Data Fig. 2 (21.3KB, xlsx)
+Source Data Extended Data Fig. 3 (15.5KB, xlsx)
+Source Data Extended Data Fig. 4 (16.5KB, xlsx)
+Source Data Extended Data Fig. 5 (86KB, xlsx)
+Source Data Extended Data Fig. 6 (35.1KB, xlsx)
+Source Data Extended Data Fig. 7 (54.6KB, xlsx)
+Source Data Extended Data Fig. 8 (10.1KB, xlsx)
+Source Data Extended Data Fig. 9 (379.4KB, xlsx)
+Source Data Extended Data Fig. 10 (13.5KB, xlsx)
+Acknowledgements
+We thank the members of the Lee laboratory, K. Slowikowski and A. Kaser for discussions; G. Stockinger, C. Vinuesa, C. Swanton, R. Patani and C. Reis e Sousa for reading the manuscript; C. Cheshire and the staff at the Francis Crick Institute Advanced Sequencing Facility and Flow Cytometry STP for technical support; L. Lucaciu for help with patient recruitment; RFH PITU nurses for assistance obtaining infliximab; the members of Tissue Access for Patient Benefit (TAP-B) for providing liver samples; NIHR BioResource volunteers for their participation; and the NIHR BioResource centres, NHS Blood and Transplant, and NHS staff for their contributions. This work was supported by Crohn’s and Colitis UK (M2018-3), the Wellcome Trust (Sir Henry Wellcome Fellowship to L.S., 220457/Z/20/Z; Investigator Award to P.S., 217223/Z/19/Z; Senior Fellowship to C.W., WT220788; Clinical Research Career Development Fellowship to M.Z.C., 222056/Z/20/Z; Wellcome-Beit Prize Clinical Career Development Fellowship to D.C.T., 206617/A/17/A; and Intermediate Clinical Fellowship to J.C.L., 105920/Z/14/Z), and the Francis Crick Institute, which receives its core funding from Cancer Research UK (CC2219, FC001595), the UK Medical Research Council (CC2219, FC001595) and the Wellcome Trust (CC2219, FC001595). L.M.H. is supported by the Charité–Universitätsmedizin Berlin and the Berlin Institute of Health Charité (Clinician-Scientist Program); A.J.C. by the Medical Research Council (MR/V029711/1); A.L. by a Lord Kelvin/Adam Smith Leadership Grant; A.H.S. by the National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIH, R01:AR070148); N.B.J. by Cancer Research UK (C55370/A25813); T.Z. by the Chinese Scholarship Council (202308060128); A.Q. by the NIHR UCLH/UCL BRC; J.C.K. by Versus Arthritis (program grant, 20773), Janssen Oxford Translational fellowships and NIHR Oxford BRC; P.S. by the European Molecular Biology Organisation, the Vallee Foundation and the European Research Council (852558); C.W. by the Medical Research Council (MC UU 00002/4), GSK, MSD and the NIHR Cambridge BRC (BRC-1215-20014); and D.C.T. by the Sidharth Burman endowment. J.C.L. is a Lister Institute Prize Fellow. The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript. Experimental schematics in Figs. 1d, 2a and 3a and Extended Data Figs. 3a, 4a,b,e and 7g,h were created using BioRender. For the purpose of open access, the authors have applied a CC BY public copyright licence to any author accepted manuscript version arising from this submission.
+Extended data figures and tables
+Author contributions
+Conceptualization: J.I.M., N.B.J., P.S., M.Z.C., C.W., D.C.T. and J.C.L. Methodology: C.T.S., C.B., M.S.d.S., M.G., E.N., J.I.M., C.W. and J.C.L. Software: C.B., M.S.d.S., Q.Z., A.J.C., A.L., T.Z., C.S.W., L.S., J.I.M., N.B.J., P.S., C.W. and J.C.L. Investigation: C.T.S., C.B., L.M.H., T.T.-S., A.P.P., I.P., M.S.d.S., L.O.R., A.C.B., E.C.P., W.E., M.G., C.D.M. and J.C.L. Resources: C.T.S., C.B., C.P.-J., A.H., F.S., A.Q., D.T., A.P.R., C.D.M. and J.C.L. Formal analysis: C.T.S., C.B., M.S.d.S., Q.Z., A.J.C., A.L., T.Z., F.N.N., L.S., P.D., C.W. and J.C.L. Writing—original draft: C.T.S., C.B. and J.C.L. Writing—review and editing: all of the authors. Funding acquisition: J.C.L. Supervision: J.C.K., J.I.M., N.B.J., P.S., C.W., D.C.T. and J.C.L.
+Peer review
+Peer review information
+Nature thanks Joachim Schultze and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are available.
+Funding
+Open Access funding provided by The Francis Crick Institute.
+Data availability
+The datasets produced in this study are accessible at the following repositories: MPRA (GEO: GSE229472), RNA-seq data of ETS2 or chr21q22-edited TPP macrophages (EGA: EGAD00001011338), RNA-seq data of ETS2 overexpression (EGA: EGAD00001011341), RNA-seq data of MEK-inhibitor-treated TPP macrophages (EGA: EGAD00001011337), H3K27ac ChIP–seq data in TPP macrophages (EGA: EGAD00001011351), ATAC–seq and H3K27ac ChIP–seq data in ETS2-overexpressing or -edited macrophages (EGA: EGAD50000000154), ETS2 CUT&RUN data (EGA: EGAD00001011349), biopsy RNA-seq data (EGA: EGAD00001011333). MetaboLights: Metabolomics (MTBLS7665). The counts table for CosMx is provided at Zenodo (https://zenodo.org/records/10707942)114. The phenotype and genotype data used for the PRS analysis are available on application to the IBD Bioresource (https://www.ibdbioresource.nihr.ac.uk/). Source data are provided with this paper.
+Code availability
+Code to reproduce analyses are available at GitHub (https://github.com/JamesLeeLab/chr21q22_manuscript; https://github.com/chr1swallace/ibd-ets2-analysis; https://github.com/qzhang314/PRS_IBD_subpheno)114. Final code is deposited at Zenodo (https://zenodo.org/records/10707942).
+Competing interests
+C.T.S., C.B. and J.C.L. are listed as co-inventors on a patent application related to this work. C.W. holds a part-time position at GSK. GSK had no role in the design or conduct of this study. F.N.N. and P.D. are employees and shareholders of NanoString Technologies. NanoString had no role in the design or conduct of this study. The other authors declare no competing interests.
+Footnotes
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+These authors contributed equally: C. T. Stankey, C. Bourges, L. M. Haag
+Extended data
+is available for this paper at 10.1038/s41586-024-07501-1.
+Supplementary information
+The online version contains supplementary material available at 10.1038/s41586-024-07501-1.
+References
+1.Miller, F. W. The increasing prevalence of autoimmunity and autoimmune diseases: an urgent call to action for improved understanding, diagnosis, treatment, and prevention. Curr. Opin. Immunol.80, 102266 (2023).
+10.1016/j.coi.2022.102266 [DOI] [PMC free article] [PubMed] [Google Scholar]
+2.Dowden, H. & Munro, J. Trends in clinical success rates and therapeutic focus. Nat. Rev. Drug Discov.18, 495–496 (2019).
+10.1038/d41573-019-00074-z [DOI] [PubMed] [Google Scholar]
+3.de Lange, K. M. et al. Genome-wide association study implicates immune activation of multiple integrin genes in inflammatory bowel disease. Nat. Genet.49, 256–261 (2017).
+10.1038/ng.3760 [DOI] [PMC free article] [PubMed] [Google Scholar]
+4.International Genetics of Ankylosing Spondylitis Consortium et al. Identification of multiple risk variants for ankylosing spondylitis through high-density genotyping of immune-related loci. Nat. Genet.45, 730–738 (2013).
+10.1038/ng.2667 [DOI] [PMC free article] [PubMed] [Google Scholar]
+5.Ji, S. G. et al. Genome-wide association study of primary sclerosing cholangitis identifies new risk loci and quantifies the genetic relationship with inflammatory bowel disease. Nat. Genet.49, 269–273 (2017).
+10.1038/ng.3745 [DOI] [PMC free article] [PubMed] [Google Scholar]
+6.Ortiz-Fernandez, L. et al. Identification of susceptibility loci for Takayasu arteritis through a large multi-ancestral genome-wide association study. Am. J. Hum. Genet.108, 84–99 (2021).
+10.1016/j.ajhg.2020.11.014 [DOI] [PMC free article] [PubMed] [Google Scholar]
+7.Stathias, V. et al. LINCS Data Portal 2.0: next generation access point for perturbation-response signatures. Nucleic Acids Res.48, D431–D439 (2020).
+10.1093/nar/gkz1023 [DOI] [PMC free article] [PubMed] [Google Scholar]
+8.Harrison, R. K. Phase II and phase III failures: 2013–2015. Nat. Rev. Drug Discov.15, 817–818 (2016).
+10.1038/nrd.2016.184 [DOI] [PubMed] [Google Scholar]
+9.Claussnitzer, M. et al. A brief history of human disease genetics. Nature577, 179–189 (2020).
+10.1038/s41586-019-1879-7 [DOI] [PMC free article] [PubMed] [Google Scholar]
+10.King, E. A., Davis, J. W. & Degner, J. F. Are drug targets with genetic support twice as likely to be approved? Revised estimates of the impact of genetic support for drug mechanisms on the probability of drug approval. PLoS Genet.15, e1008489 (2019).
+10.1371/journal.pgen.1008489 [DOI] [PMC free article] [PubMed] [Google Scholar]
+11.Cader, M. Z. et al. C13orf31 (FAMIN) is a central regulator of immunometabolic function. Nat. Immunol.17, 1046–1056 (2016).
+10.1038/ni.3532 [DOI] [PMC free article] [PubMed] [Google Scholar]
+12.Murthy, A. et al. A Crohn’s disease variant in Atg16l1 enhances its degradation by caspase 3. Nature506, 456–462 (2014).
+10.1038/nature13044 [DOI] [PubMed] [Google Scholar]
+13.Hnisz, D. et al. Super-enhancers in the control of cell identity and disease. Cell155, 934–947 (2013).
+10.1016/j.cell.2013.09.053 [DOI] [PMC free article] [PubMed] [Google Scholar]
+14.Park, M. D., Silvin, A., Ginhoux, F. & Merad, M. Macrophages in health and disease. Cell185, 4259–4279 (2022).
+10.1016/j.cell.2022.10.007 [DOI] [PMC free article] [PubMed] [Google Scholar]
+15.Kugathasan, S. et al. Loci on 20q13 and 21q22 are associated with pediatric-onset inflammatory bowel disease. Nat. Genet.40, 1211–1215 (2008).
+10.1038/ng.203 [DOI] [PMC free article] [PubMed] [Google Scholar]
+16.Xue, J. et al. Transcriptome-based network analysis reveals a spectrum model of human macrophage activation. Immunity40, 274–288 (2014).
+10.1016/j.immuni.2014.01.006 [DOI] [PMC free article] [PubMed] [Google Scholar]
+17.Kuo, D. et al. HBEGF+ macrophages in rheumatoid arthritis induce fibroblast invasiveness. Sci. Transl. Med.11, eaau8587 (2019).
+10.1126/scitranslmed.aau8587 [DOI] [PMC free article] [PubMed] [Google Scholar]
+18.Melnikov, A. et al. Systematic dissection and optimization of inducible enhancers in human cells using a massively parallel reporter assay. Nat. Biotechnol.30, 271–277 (2012).
+10.1038/nbt.2137 [DOI] [PMC free article] [PubMed] [Google Scholar]
+19.Nerlov, C. & Graf, T. PU.1 induces myeloid lineage commitment in multipotent hematopoietic progenitors. Genes Dev.12, 2403–2412 (1998).
+10.1101/gad.12.15.2403 [DOI] [PMC free article] [PubMed] [Google Scholar]
+20.Minderjahn, J. et al. Mechanisms governing the pioneering and redistribution capabilities of the non-classical pioneer PU.1. Nat. Commun.11, 402 (2020).
+10.1038/s41467-019-13960-2 [DOI] [PMC free article] [PubMed] [Google Scholar]
+21.Martinez, L. A. Mutant p53 and ETS2, a tale of reciprocity. Front. Oncol.6, 35 (2016).
+10.3389/fonc.2016.00035 [DOI] [PMC free article] [PubMed] [Google Scholar]
+22.Wei, G. et al. Activated Ets2 is required for persistent inflammatory responses in the motheaten viable model. J. Immunol.173, 1374–1379 (2004).
+10.4049/jimmunol.173.2.1374 [DOI] [PubMed] [Google Scholar]
+23.Zhao, J., Huang, K., Peng, H. Z. & Feng, J. F. Protein C-ets-2 epigenetically suppresses TLRs-induced interleukin 6 production in macrophages. Biochem. Biophys. Res. Commun.522, 960–964 (2020).
+10.1016/j.bbrc.2019.11.123 [DOI] [PubMed] [Google Scholar]
+24.Chung, S. W., Chen, Y. H. & Perrella, M. A. Role of Ets-2 in the regulation of heme oxygenase-1 by endotoxin. J. Biol. Chem.280, 4578–4584 (2005).
+10.1074/jbc.M409125200 [DOI] [PubMed] [Google Scholar]
+25.Quinn, S. R. et al. The role of Ets2 transcription factor in the induction of microRNA-155 (miR-155) by lipopolysaccharide and its targeting by interleukin-10. J. Biol. Chem.289, 4316–4325 (2014).
+10.1074/jbc.M113.522730 [DOI] [PMC free article] [PubMed] [Google Scholar]
+26.Ma, X. et al. Ets2 suppresses inflammatory cytokines through MAPK/NF-κB signaling and directly binds to the IL-6 promoter in macrophages. Aging11, 10610–10625 (2019).
+10.18632/aging.102480 [DOI] [PMC free article] [PubMed] [Google Scholar]
+27.Aperlo, C., Pognonec, P., Stanley, E. R. & Boulukos, K. E. Constitutive c-ets2 expression in M1D+ myeloblast leukemic cells induces their differentiation to macrophages. Mol. Cell. Biol.16, 6851–6858 (1996).
+10.1128/MCB.16.12.6851 [DOI] [PMC free article] [PubMed] [Google Scholar]
+28.Henkel, G. W. et al. PU.1 but not ets-2 is essential for macrophage development from embryonic stem cells. Blood88, 2917–2926 (1996).
+10.1182/blood.V88.8.2917.bloodjournal8882917 [DOI] [PubMed] [Google Scholar]
+29.Mittal, M., Siddiqui, M. R., Tran, K., Reddy, S. P. & Malik, A. B. Reactive oxygen species in inflammation and tissue injury. Antioxid. Redox Signal.20, 1126–1167 (2014).
+10.1089/ars.2012.5149 [DOI] [PMC free article] [PubMed] [Google Scholar]
+30.Kelly, B. & O’Neill, L. A. Metabolic reprogramming in macrophages and dendritic cells in innate immunity. Cell Res.25, 771–784 (2015).
+10.1038/cr.2015.68 [DOI] [PMC free article] [PubMed] [Google Scholar]
+31.Martin, J. C. et al. Single-cell analysis of Crohn’s disease lesions identifies a pathogenic cellular module associated with resistance to anti-TNF therapy. Cell178, 1493–1508 (2019).
+10.1016/j.cell.2019.08.008 [DOI] [PMC free article] [PubMed] [Google Scholar]
+32.Peloquin, J. M. et al. Characterization of candidate genes in inflammatory bowel disease-associated risk loci. JCI Insight1, e87899 (2016).
+10.1172/jci.insight.87899 [DOI] [PMC free article] [PubMed] [Google Scholar]
+33.Sazonovs, A. et al. Large-scale sequencing identifies multiple genes and rare variants associated with Crohn’s disease susceptibility. Nat. Genet.54, 1275–1283 (2022).
+10.1038/s41588-022-01156-2 [DOI] [PMC free article] [PubMed] [Google Scholar]
+34.Slowikowski, K., Hu, X. & Raychaudhuri, S. SNPsea: an algorithm to identify cell types, tissues and pathways affected by risk loci. Bioinformatics30, 2496–2497 (2014).
+10.1093/bioinformatics/btu326 [DOI] [PMC free article] [PubMed] [Google Scholar]
+35.Cramer, T. et al. HIF-1α is essential for myeloid cell-mediated inflammation. Cell112, 645–657 (2003).
+10.1016/S0092-8674(03)00154-5 [DOI] [PMC free article] [PubMed] [Google Scholar]
+36.Tannahill, G. M. et al. Succinate is an inflammatory signal that induces IL-1β through HIF-1α. Nature496, 238–242 (2013).
+10.1038/nature11986 [DOI] [PMC free article] [PubMed] [Google Scholar]
+37.Shiratori, R. et al. Glycolytic suppression dramatically changes the intracellular metabolic profile of multiple cancer cell lines in a mitochondrial metabolism-dependent manner. Sci. Rep.9, 18699 (2019).
+10.1038/s41598-019-55296-3 [DOI] [PMC free article] [PubMed] [Google Scholar]
+38.Landt, S. G. et al. ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia. Genome Res.22, 1813–1831 (2012).
+10.1101/gr.136184.111 [DOI] [PMC free article] [PubMed] [Google Scholar]
+39.Basuyaux, J. P., Ferreira, E., Stehelin, D. & Buttice, G. The Ets transcription factors interact with each other and with the c-Fos/c-Jun complex via distinct protein domains in a DNA-dependent and -independent manner. J. Biol. Chem.272, 26188–26195 (1997).
+10.1074/jbc.272.42.26188 [DOI] [PubMed] [Google Scholar]
+40.Sevilla, L. et al. Bcl-XL expression correlates with primary macrophage differentiation, activation of functional competence, and survival and results from synergistic transcriptional activation by Ets2 and PU.1. J. Biol. Chem.276, 17800–17807 (2001).
+10.1074/jbc.M008270200 [DOI] [PubMed] [Google Scholar]
+41.Kong, L. et al. The landscape of immune dysregulation in Crohn’s disease revealed through single-cell transcriptomic profiling in the ileum and colon. Immunity56, 444–458 (2023).
+10.1016/j.immuni.2023.01.002 [DOI] [PMC free article] [PubMed] [Google Scholar]
+42.Chapuy, L. et al. Two distinct colonic CD14+ subsets characterized by single-cell RNA profiling in Crohn’s disease. Mucosal Immunol.12, 703–719 (2019).
+10.1038/s41385-018-0126-0 [DOI] [PubMed] [Google Scholar]
+43.Newman, J. A., Cooper, C. D., Aitkenhead, H. & Gileadi, O. Structural insights into the autoregulation and cooperativity of the human transcription factor Ets-2. J. Biol. Chem.290, 8539–8549 (2015).
+10.1074/jbc.M114.619270 [DOI] [PMC free article] [PubMed] [Google Scholar]
+44.Liu, H. et al. ERK differentially regulates Th17- and Treg-cell development and contributes to the pathogenesis of colitis. Eur. J. Immunol.43, 1716–1726 (2013).
+10.1002/eji.201242889 [DOI] [PubMed] [Google Scholar]
+45.Koboziev, I., Karlsson, F., Zhang, S. & Grisham, M. B. Pharmacological intervention studies using mouse models of the inflammatory bowel diseases: translating preclinical data into new drug therapies. Inflamm. Bowel Dis.17, 1229–1245 (2011).
+10.1002/ibd.21557 [DOI] [PMC free article] [PubMed] [Google Scholar]
+46.Argmann, C. et al. Biopsy and blood-based molecular biomarker of inflammation in IBD. Gut72, 1271–1287 (2023).
+10.1136/gutjnl-2021-326451 [DOI] [PMC free article] [PubMed] [Google Scholar]
+47.Malle, L. et al. Autoimmunity in Down’s syndrome via cytokines, CD4 T cells and CD11c+ B cells. Nature615, 305–314 (2023).
+10.1038/s41586-023-05736-y [DOI] [PMC free article] [PubMed] [Google Scholar]
+48.Feagan, B. G. et al. Guselkumab plus golimumab combination therapy versus guselkumab or golimumab monotherapy in patients with ulcerative colitis (VEGA): a randomised, double-blind, controlled, phase 2, proof-of-concept trial. Lancet Gastroenterol. Hepatol.8, 307–320 (2023).
+10.1016/S2468-1253(22)00427-7 [DOI] [PubMed] [Google Scholar]
+49.Friedrich, M. et al. IL-1-driven stromal-neutrophil interactions define a subset of patients with inflammatory bowel disease that does not respond to therapies. Nat. Med.27, 1970–1981 (2021).
+10.1038/s41591-021-01520-5 [DOI] [PMC free article] [PubMed] [Google Scholar]
+50.Klesse, L. J. et al. The use of MEK inhibitors in neurofibromatosis type 1-associated tumors and management of toxicities. Oncologist25, e1109–e1116 (2020).
+10.1634/theoncologist.2020-0069 [DOI] [PMC free article] [PubMed] [Google Scholar]
+51.Zou, Y., Carbonetto, P., Wang, G. & Stephens, M. Fine-mapping from summary data with the “sum of single effects” model. PLoS Genet.18, e1010299 (2022).
+10.1371/journal.pgen.1010299 [DOI] [PMC free article] [PubMed] [Google Scholar]
+52.1000 Genomes Consortium. A map of human genome variation from population-scale sequencing. Nature467, 1061–1073 (2010).
+10.1038/nature09534 [DOI] [PMC free article] [PubMed] [Google Scholar]
+53.Kerimov, N. et al. A compendium of uniformly processed human gene expression and splicing quantitative trait loci. Nat. Genet.53, 1290–1299 (2021). [DOI] [PMC free article] [PubMed]
+54.Fairfax, B. P. et al. Innate immune activity conditions the effect of regulatory variants upon monocyte gene expression. Science343, 1246949 (2014).
+10.1126/science.1246949 [DOI] [PMC free article] [PubMed] [Google Scholar]
+55.Quach, H. et al. Genetic adaptation and Neandertal admixture shaped the immune system of human populations. Cell167, 643–656 (2016).
+10.1016/j.cell.2016.09.024 [DOI] [PMC free article] [PubMed] [Google Scholar]
+56.Chen, L. et al. Genetic drivers of epigenetic and transcriptional variation in human immune cells. Cell167, 1398–1414 (2016).
+10.1016/j.cell.2016.10.026 [DOI] [PMC free article] [PubMed] [Google Scholar]
+57.Nedelec, Y. et al. Genetic ancestry and natural selection drive population differences in immune responses to pathogens. Cell167, 657–669 (2016).
+10.1016/j.cell.2016.09.025 [DOI] [PubMed] [Google Scholar]
+58.Alasoo, K. et al. Shared genetic effects on chromatin and gene expression indicate a role for enhancer priming in immune response. Nat. Genet.50, 424–431 (2018).
+10.1038/s41588-018-0046-7 [DOI] [PMC free article] [PubMed] [Google Scholar]
+59.Wallace, C. A more accurate method for colocalisation analysis allowing for multiple causal variants. PLoS Genet.17, e1009440 (2021).
+10.1371/journal.pgen.1009440 [DOI] [PMC free article] [PubMed] [Google Scholar]
+60.Bourges, C. et al. Resolving mechanisms of immune-mediated disease in primary CD4 T cells. EMBO Mol. Med.12, e12112 (2020).
+10.15252/emmm.202012112 [DOI] [PMC free article] [PubMed] [Google Scholar]
+61.Javierre, B. M. et al. Lineage-specific genome architecture links enhancers and non-coding disease variants to target gene promoters. Cell167, 1369–1384 (2016).
+10.1016/j.cell.2016.09.037 [DOI] [PMC free article] [PubMed] [Google Scholar]
+62.Hanzelmann, S., Castelo, R. & Guinney, J. GSVA: gene set variation analysis for microarray and RNA-seq data. BMC Bioinform.14, 7 (2013). 10.1186/1471-2105-14-7 [DOI] [PMC free article] [PubMed] [Google Scholar]
+63.Peters, J. E. et al. Insight into genotype-phenotype associations through eQTL mapping in multiple cell types in health and immune-mediated disease. PLoS Genet.12, e1005908 (2016).
+10.1371/journal.pgen.1005908 [DOI] [PMC free article] [PubMed] [Google Scholar]
+64.Conant, D. et al. Inference of CRISPR edits from Sanger trace data. CRISPR J.5, 123–130 (2022).
+10.1089/crispr.2021.0113 [DOI] [PubMed] [Google Scholar]
+65.Kalita, C. A. et al. QuASAR-MPRA: accurate allele-specific analysis for massively parallel reporter assays. Bioinformatics34, 787–794 (2018).
+10.1093/bioinformatics/btx598 [DOI] [PMC free article] [PubMed] [Google Scholar]
+66.de Santiago, I. et al. BaalChIP: Bayesian analysis of allele-specific transcription factor binding in cancer genomes. Genome Biol.18, 39 (2017).
+10.1186/s13059-017-1165-7 [DOI] [PMC free article] [PubMed] [Google Scholar]
+67.Corces, M. R. et al. An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues. Nat. Methods14, 959–962 (2017).
+10.1038/nmeth.4396 [DOI] [PMC free article] [PubMed] [Google Scholar]
+68.Calderon, D. et al. Landscape of stimulation-responsive chromatin across diverse human immune cells. Nat. Genet.51, 1494–1505 (2019).
+10.1038/s41588-019-0505-9 [DOI] [PMC free article] [PubMed] [Google Scholar]
+69.Reske, J. J., Wilson, M. R. & Chandler, R. L. ATAC-seq normalization method can significantly affect differential accessibility analysis and interpretation. Epigenet. Chromatin13, 22 (2020). 10.1186/s13072-020-00342-y [DOI] [PMC free article] [PubMed] [Google Scholar]
+70.Brown, A. C. et al. Comprehensive epigenomic profiling reveals the extent of disease-specific chromatin states and informs target discovery in ankylosing spondylitis. Cell Genom.3, 100306 (2023).
+10.1016/j.xgen.2023.100306 [DOI] [PMC free article] [PubMed] [Google Scholar]
+71.Lienhard, M., Grimm, C., Morkel, M., Herwig, R. & Chavez, L. MEDIPS: genome-wide differential coverage analysis of sequencing data derived from DNA enrichment experiments. Bioinformatics30, 284–286 (2014).
+10.1093/bioinformatics/btt650 [DOI] [PMC free article] [PubMed] [Google Scholar]
+72.Robinson, M. D., McCarthy, D. J. & Smyth, G. K. edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics26, 139–140 (2010).
+10.1093/bioinformatics/btp616 [DOI] [PMC free article] [PubMed] [Google Scholar]
+73.Randzavola, L. O. et al. EROS is a selective chaperone regulating the phagocyte NADPH oxidase and purinergic signalling. eLife11, e76387 (2022).
+10.7554/eLife.76387 [DOI] [PMC free article] [PubMed] [Google Scholar]
+74.Kim, D., Paggi, J. M., Park, C., Bennett, C. & Salzberg, S. L. Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype. Nat. Biotechnol.37, 907–915 (2019).
+10.1038/s41587-019-0201-4 [DOI] [PMC free article] [PubMed] [Google Scholar]
+75.Li, H. et al. The Sequence Alignment/Map format and SAMtools. Bioinformatics25, 2078–2079 (2009).
+10.1093/bioinformatics/btp352 [DOI] [PMC free article] [PubMed] [Google Scholar]
+76.Liao, Y., Smyth, G. K. & Shi, W. featureCounts: an efficient general purpose program for assigning sequence reads to genomic features. Bioinformatics30, 923–930 (2014).
+10.1093/bioinformatics/btt656 [DOI] [PubMed] [Google Scholar]
+77.Ritchie, M. E. et al. limma powers differential expression analyses for RNA-sequencing and microarray studies. Nucleic Acids Res.43, e47 (2015).
+10.1093/nar/gkv007 [DOI] [PMC free article] [PubMed] [Google Scholar]
+78.Korotkevich, G. et al. Fast gene set enrichment analysis. Preprint at bioRxiv10.1101/060012 (2021).
+79.Qing, G. et al. Single-cell RNA sequencing revealed CD14+ monocytes increased in patients with Takayasu’s arteritis requiring surgical management. Front. Cell Dev. Biol.9, 761300 (2021).
+10.3389/fcell.2021.761300 [DOI] [PMC free article] [PubMed] [Google Scholar]
+80.Smillie, C. S. et al. Intra- and inter-cellular rewiring of the human colon during ulcerative colitis. Cell178, 714–730 (2019).
+10.1016/j.cell.2019.06.029 [DOI] [PMC free article] [PubMed] [Google Scholar]
+81.Gao, K. M. et al. Human nasal wash RNA-Seq reveals distinct cell-specific innate immune responses in influenza versus SARS-CoV-2. JCI Insight6, e152288 (2021).
+10.1172/jci.insight.152288 [DOI] [PMC free article] [PubMed] [Google Scholar]
+82.Yang, Q. et al. The interaction of macrophages and CD8 T cells in bronchoalveolar lavage fluid is associated with latent tuberculosis infection. Emerg. Microbes Infect.12, 2239940 (2023).
+10.1080/22221751.2023.2239940 [DOI] [PMC free article] [PubMed] [Google Scholar]
+83.Reyes, M. et al. An immune-cell signature of bacterial sepsis. Nat. Med.26, 333–340 (2020).
+10.1038/s41591-020-0752-4 [DOI] [PMC free article] [PubMed] [Google Scholar]
+84.Mulder, K. et al. Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease. Immunity54, 1883–1900 (2021).
+10.1016/j.immuni.2021.07.007 [DOI] [PubMed] [Google Scholar]
+85.Cassetta, L. et al. Human tumor-associated macrophage and monocyte transcriptional landscapes reveal cancer-specific reprogramming, biomarkers, and therapeutic targets. Cancer Cell35, 588–602 (2019).
+10.1016/j.ccell.2019.02.009 [DOI] [PMC free article] [PubMed] [Google Scholar]
+86.Zernecke, A. et al. Integrated single-cell analysis-based classification of vascular mononuclear phagocytes in mouse and human atherosclerosis. Cardiovasc. Res.119, 1676–1689 (2023).
+10.1093/cvr/cvac161 [DOI] [PMC free article] [PubMed] [Google Scholar]
+87.Ellinghaus, D. et al. Analysis of five chronic inflammatory diseases identifies 27 new associations and highlights disease-specific patterns at shared loci. Nat. Genet.48, 510–518 (2016).
+10.1038/ng.3528 [DOI] [PMC free article] [PubMed] [Google Scholar]
+88.Renauer, P. A. et al. Identification of susceptibility loci in IL6, RPS9/LILRB3, and an intergenic locus on chromosome 21q22 in Takayasu arteritis in a genome-wide association study. Arthritis Rheumatol.67, 1361–1368 (2015).
+10.1002/art.39035 [DOI] [PMC free article] [PubMed] [Google Scholar]
+89.Terao, C. et al. Genetic determinants and an epistasis of LILRA3 and HLA-B*52 in Takayasu arteritis. Proc. Natl Acad. Sci. USA115, 13045–13050 (2018).
+10.1073/pnas.1808850115 [DOI] [PMC free article] [PubMed] [Google Scholar]
+90.Trubetskoy, V. et al. Mapping genomic loci implicates genes and synaptic biology in schizophrenia. Nature604, 502–508 (2022).
+10.1038/s41586-022-04434-5 [DOI] [PMC free article] [PubMed] [Google Scholar]
+91.Bussi, C. et al. Lysosomal damage drives mitochondrial proteome remodelling and reprograms macrophage immunometabolism. Nat. Commun.13, 7338 (2022).
+10.1038/s41467-022-34632-8 [DOI] [PMC free article] [PubMed] [Google Scholar]
+92.Behrends, V., Tredwell, G. D. & Bundy, J. G. A software complement to AMDIS for processing GC-MS metabolomic data. Anal. Biochem.415, 206–208 (2011).
+10.1016/j.ab.2011.04.009 [DOI] [PubMed] [Google Scholar]
+93.Meers, M. P., Bryson, T. D., Henikoff, J. G. & Henikoff, S. Improved CUT&RUN chromatin profiling tools. eLife8, e46314 (2019).
+10.7554/eLife.46314 [DOI] [PMC free article] [PubMed] [Google Scholar]
+94.Leporcq, C. et al. TFmotifView: a webserver for the visualization of transcription factor motifs in genomic regions. Nucleic Acids Res.48, W208–W217 (2020).
+10.1093/nar/gkaa252 [DOI] [PMC free article] [PubMed] [Google Scholar]
+95.Weirauch, M. T. et al. Determination and inference of eukaryotic transcription factor sequence specificity. Cell158, 1431–1443 (2014).
+10.1016/j.cell.2014.08.009 [DOI] [PMC free article] [PubMed] [Google Scholar]
+96.Hao, Y. et al. Integrated analysis of multimodal single-cell data. Cell184, 3573–3587 (2021).
+10.1016/j.cell.2021.04.048 [DOI] [PMC free article] [PubMed] [Google Scholar]
+97.He, S. et al. High-plex imaging of RNA and proteins at subcellular resolution in fixed tissue by spatial molecular imaging. Nat. Biotechnol.40, 1794–1806 (2022).
+10.1038/s41587-022-01483-z [DOI] [PubMed] [Google Scholar]
+98.Danaher, P. et al. InSituType: likelihood-based cell typing for single cell spatial transcriptomics. Preprint at bioRxiv10.1101/2022.10.19.512902 (2022).
+99.Vadstrup, K. et al. Validation and optimization of an ex vivo assay of intestinal mucosal biopsies in Crohn’s disease: reflects inflammation and drug effects. PLoS ONE11, e0155335 (2016).
+10.1371/journal.pone.0155335 [DOI] [PMC free article] [PubMed] [Google Scholar]
+100.Prufer, K. et al. The complete genome sequence of a Neanderthal from the Altai Mountains. Nature505, 43–49 (2014).
+10.1038/nature12886 [DOI] [PMC free article] [PubMed] [Google Scholar]
+101.Prufer, K. et al. A high-coverage Neandertal genome from Vindija Cave in Croatia. Science358, 655–658 (2017).
+10.1126/science.aao1887 [DOI] [PMC free article] [PubMed] [Google Scholar]
+102.Hajdinjak, M. et al. Reconstructing the genetic history of late Neanderthals. Nature555, 652–656 (2018).
+10.1038/nature26151 [DOI] [PMC free article] [PubMed] [Google Scholar]
+103.Mafessoni, F. et al. A high-coverage Neandertal genome from Chagyrskaya Cave. Proc. Natl Acad. Sci. USA117, 15132–15136 (2020).
+10.1073/pnas.2004944117 [DOI] [PMC free article] [PubMed] [Google Scholar]
+104.Meyer, M. et al. A high-coverage genome sequence from an archaic Denisovan individual. Science338, 222–226 (2012).
+10.1126/science.1224344 [DOI] [PMC free article] [PubMed] [Google Scholar]
+105.Slon, V. et al. The genome of the offspring of a Neanderthal mother and a Denisovan father. Nature561, 113–116 (2018).
+10.1038/s41586-018-0455-x [DOI] [PMC free article] [PubMed] [Google Scholar]
+106.Mallick, S. et al. The Simons Genome Diversity Project: 300 genomes from 142 diverse populations. Nature538, 201–206 (2016).
+10.1038/nature18964 [DOI] [PMC free article] [PubMed] [Google Scholar]
+107.Speidel, L., Forest, M., Shi, S. & Myers, S. R. A method for genome-wide genealogy estimation for thousands of samples. Nat. Genet.51, 1321–1329 (2019).
+10.1038/s41588-019-0484-x [DOI] [PMC free article] [PubMed] [Google Scholar]
+108.Speidel, L. et al. Inferring population histories for ancient genomes using genome-wide genealogies. Mol. Biol. Evol.38, 3497–3511 (2021).
+10.1093/molbev/msab174 [DOI] [PMC free article] [PubMed] [Google Scholar]
+109.Lawrence, M. et al. Software for computing and annotating genomic ranges. PLoS Comput. Biol.9, e1003118 (2013).
+10.1371/journal.pcbi.1003118 [DOI] [PMC free article] [PubMed] [Google Scholar]
+110.Blighe, K. et al. EnhancedVolcano: publication-ready volcano plots with enhanced colouring and labeling. Bioconductor10.18129/B9.bioc.EnhancedVolcano (2023).
+111.Hadley, W. Ggplot2 (Springer, 2016).
+112.Warnes, G. et al. gplots: various R programming tools for plotting data. CRANhttps://CRAN.R-project.org/package=gplots (2022).
+113.Gel, B. & Serra, E. karyoploteR: an R/Bioconductor package to plot customizable genomes displaying arbitrary data. Bioinformatics33, 3088–3090 (2017).
+10.1093/bioinformatics/btx346 [DOI] [PMC free article] [PubMed] [Google Scholar]
+114.Stankey, C. T. et al. Data for ‘A disease-associated gene desert directs macrophage inflammation through ETS2’. Zenodo10.5281/zenodo.10707942 (2024). [DOI] [PMC free article] [PubMed]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Supplementary Figures (15.2MB, pptx)
+Supplementary Fig. 1: uncropped Western blots from Fig. 2d. Two lanes were run for each sample: one lane to blot for vinculin and the NADPH oxidase components gp91phox, gp65 and p22phox, and one lane to blot for vinculin and the chaperone protein EROS. After transfer, the membranes were cut to blot for individual targets. Supplementary Fig. 2: example gating strategy. Example gating strategy for MPRA and macrophage phenotyping. Macrophages were gated by FSC-A/SSC-A and singlets were gated by FSC-A/FSC-H. Live cells were gated (and viability was quantified) using Live/Dead Fixable Aqua Dead Cell Stain.
+Reporting Summary (6.6MB, pdf)
+Supplementary Tables (5MB, xlsx)
+Supplementary Table 1: differentially expressed genes in primary macrophages after ETS2 or chr21q22 CRISPR–Cas9 editing. Supplementary Table 2: differentially expressed genes in primary macrophages after ETS2 overexpression. Supplementary Table 3: the primers and gRNA sequences used in this study.
+Peer Review File (4.2MB, pdf)
+Source Data Fig. 1 (22.8KB, xlsx)
+Source Data Fig. 2 (38.9KB, xlsx)
+Source Data Fig. 3 (19.7KB, xlsx)
+Source Data Fig. 4 (1,019.1KB, xlsx)
+Source Data Fig. 5 (7.5MB, xlsx)
+Source Data Extended Data Fig. 1 (20.1KB, xlsx)
+Source Data Extended Data Fig. 2 (21.3KB, xlsx)
+Source Data Extended Data Fig. 3 (15.5KB, xlsx)
+Source Data Extended Data Fig. 4 (16.5KB, xlsx)
+Source Data Extended Data Fig. 5 (86KB, xlsx)
+Source Data Extended Data Fig. 6 (35.1KB, xlsx)
+Source Data Extended Data Fig. 7 (54.6KB, xlsx)
+Source Data Extended Data Fig. 8 (10.1KB, xlsx)
+Source Data Extended Data Fig. 9 (379.4KB, xlsx)
+Source Data Extended Data Fig. 10 (13.5KB, xlsx)
+Data Availability Statement
+The datasets produced in this study are accessible at the following repositories: MPRA (GEO: GSE229472), RNA-seq data of ETS2 or chr21q22-edited TPP macrophages (EGA: EGAD00001011338), RNA-seq data of ETS2 overexpression (EGA: EGAD00001011341), RNA-seq data of MEK-inhibitor-treated TPP macrophages (EGA: EGAD00001011337), H3K27ac ChIP–seq data in TPP macrophages (EGA: EGAD00001011351), ATAC–seq and H3K27ac ChIP–seq data in ETS2-overexpressing or -edited macrophages (EGA: EGAD50000000154), ETS2 CUT&RUN data (EGA: EGAD00001011349), biopsy RNA-seq data (EGA: EGAD00001011333). MetaboLights: Metabolomics (MTBLS7665). The counts table for CosMx is provided at Zenodo (https://zenodo.org/records/10707942)114. The phenotype and genotype data used for the PRS analysis are available on application to the IBD Bioresource (https://www.ibdbioresource.nihr.ac.uk/). Source data are provided with this paper.
+Code to reproduce analyses are available at GitHub (https://github.com/JamesLeeLab/chr21q22_manuscript; https://github.com/chr1swallace/ibd-ets2-analysis; https://github.com/qzhang314/PRS_IBD_subpheno)114. Final code is deposited at Zenodo (https://zenodo.org/records/10707942).
+Articles from Nature are provided here courtesy of Nature Publishing Group
+ACTIONS
+View on publisher site
+PDF (45.1 MB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

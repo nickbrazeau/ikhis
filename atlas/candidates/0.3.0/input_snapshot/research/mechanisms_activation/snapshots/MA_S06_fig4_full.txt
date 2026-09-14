@@ -1,0 +1,147 @@
+Fig. 4: The RBPJ–NCOR–HDAC3 complex directly represses FOXP3 through modulation of local histone acetylation. | Nature | Nature
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Account
+Log in
+Content
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature
+articles
+article
+figure
+Fig. 4: The RBPJ–NCOR–HDAC3 complex directly represses FOXP3 through modulation of local histone acetylation. | Nature
+Fig. 4: The RBPJ–NCOR–HDAC3 complex directly represses FOXP3 through modulation of local histone acetylation.
+From: Genome-wide CRISPR screen in human T cells reveals regulators of FOXP3
+a, Saturation mutagenesis of the RBPJ coding sequence by pooled CRISPR screening. Each circle represents the enrichment score for an individual sgRNA across three independent donors. The black line is the locally estimated scatterplot smoothing curve. b, RBPJ-transduced or RBPJ-mutant-overexpressing lentivirus-transduced human CD4+ T cells were polarized into iTreg cells (n = 4 donors; 3 donors for RBPJ-Mut), assessed for FOXP3 expression (top) and quantified for per cent FOXP3+ and MFI (bottom). c, Human CD4+ T cells were nucleofected with luciferase reporter constructs containing the FOXP3 promoter reference sequence (WT), RBPJ-binding site mutated (A→G mutation) or RBPJ-binding site deleted (ΔRBPJ) FOXP3 promoter sequences and assessed for luciferase activity under FOXP3-inducing conditions (n = 5 donors; bottom left). RBPJ-transduced or mock-transduced cells were electroporated with a WT FOXP3 promoter luciferase reporter construct and cultured under FOXP3-inducing conditions before measuring luciferase activity (n = 3 donors; bottom right). d, Co-immunoprecipitation analysis of the interaction between RBPJ or F235A/L362A RBPJ-Mut and HDAC3 in human iTreg cells. e, Histogram of FOXP3 expression in HDAC3-deleted or control iTreg cells transduced with RBPJ (top left) or F235A/L362A-mutant RBPJ (top right). Summarized data of the experiment across four independent donors (bottom) are also shown. f, Summary of H3ac ChIP–seq signal enrichment at FOXP3. Data are plotted as mean ± s.e.m. for three independent donors. g, H3ac and H3K9ac inChIP–seq, inATAC-seq, CUT&RUN (control IgG and anti-AM antibody) and PhastCons species conservation tracks in iTreg cells. All data are presented as mean ± s.e.m. NS, not significant. Statistical analysis was performed with a one-way ANOVA with Dunnett’s multiple comparison test for b,c (bottom left), two-tailed paired Student’s t-test for c (bottom right) and e (bottom). Data are representative of four independent donors in b (top) and e (top), and two to three independent donors for g.
+Source Data
+Back to article page
+Explore content
+Research articles
+News
+Opinion
+Research Analysis
+Careers
+Books & Culture
+Podcasts
+Videos
+Current issue
+Browse issues
+Collections
+Subjects
+Follow us on Facebook
+Follow us on Bluesky
+Follow us on X
+Sign up for alerts
+RSS feed
+About the journal
+Journal Staff
+About the Editors
+Research Cross-Journal Editorial Team
+Journal Information
+Journal Metrics
+Our publishing models
+Editorial Values Statement
+Editorial policies
+Journalistic Principles
+History of Nature
+Awards
+Contact
+Send a news tip
+Publish with us
+For Authors
+For Referees
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature
+(Nature)
+ISSN 1476-4687 (online)
+ISSN 0028-0836 (print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+Policy
+Use
+of cookies
+Your privacy choices/Manage cookies
+Legal
+notice
+Accessibility
+statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

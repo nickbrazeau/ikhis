@@ -1,0 +1,45 @@
+{
+  "scope": "all_cytokines; no fixed panel",
+  "queries": [
+    {
+      "query_id": "CYTINV_REVIEWED",
+      "query": "organism_id:9606 AND reviewed:true AND (keyword:KW-0202 OR go:0005125)",
+      "endpoint": "https://rest.uniprot.org/uniprotkb/stream",
+      "retrieved_on": "2026-09-13",
+      "retrieval_limit": "none; complete stream response for the specified query",
+      "result_count": 243,
+      "request_path": "research/cytokine_inventory/reviewed.request.json",
+      "response_path": "research/cytokine_inventory/reviewed.response.json",
+      "snapshot_path": "research/cytokine_inventory/snapshots/uniprot_reviewed.tsv",
+      "snapshot_sha256": "27e647ab7eec68643294c2c8815bf8109612fb0196fd4861053951913a888d6c",
+      "resource_release": "unavailable; helper response did not preserve release headers"
+    },
+    {
+      "query_id": "CYTINV_UNREVIEWED",
+      "query": "organism_id:9606 AND reviewed:false AND (keyword:KW-0202 OR go:0005125)",
+      "endpoint": "https://rest.uniprot.org/uniprotkb/stream",
+      "retrieved_on": "2026-09-13",
+      "retrieval_limit": "none; complete stream response for the specified query",
+      "result_count": 383,
+      "request_path": "research/cytokine_inventory/unreviewed.request.json",
+      "response_path": "research/cytokine_inventory/unreviewed.response.json",
+      "snapshot_path": "research/cytokine_inventory/snapshots/uniprot_unreviewed.tsv",
+      "snapshot_sha256": "51186f59c5601c902169958ce636bd0615785a5191221b57c998ea9c0d892852",
+      "resource_release": "unavailable; helper response did not preserve release headers"
+    }
+  ],
+  "reviewed_resource_entries": 243,
+  "unreviewed_resource_entries": 383,
+  "distinct_reported_gene_symbols": 275,
+  "limitations": [
+    "A UniProt reviewed entry is resource curation, not independent review of this project extraction.",
+    "Entries include related forms, predicted/unreviewed records and broad cytokine-activity annotations; entry count is not a count of distinct active cytokines.",
+    "These two full queries cover their annotation sets, not every possible literature-supported cytokine or every active heteromeric complex.",
+    "Registry membership creates no biological edge, source-cell assignment, mechanism or numerical prior.",
+    "Source-backed additions and active-complex/isoform curation remain eligible beyond this seed inventory."
+  ],
+  "failed_preliminary_attempts": [
+    "System Python helper lacked requests.",
+    "Local research runtime request failed sandbox DNS; approved public helper calls then succeeded."
+  ]
+}
