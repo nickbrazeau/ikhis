@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-15",
+  "purpose": "Document authorized maintenance after the verified 2026-09-14 migration without rewriting the original receipt.",
+  "audit": "atlas/provenance/security_redactions_2026-09-15.json",
+  "files": {
+    "candidates/0.3.0/input_manifest.json": {
+      "migration_sha256": "caf517ae7f3701133f3664999e0d2a95a02873efe0aa008424d40f307d24f139",
+      "current_sha256": "4ef16daec643fdf32921076e7cabe0107c7761efba63169f411d0e5768a4f615",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/mechanism_graphs.json": {
+      "migration_sha256": "1e8ef37e9cbe3726c06f486a74fcfef5f8d140b4d900a4663bd8882920ed9421",
+      "current_sha256": "0072e3ea0a27bb46a92c5f11e3442933df16f68a658aadc600d65f20830d5b8a",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/immune_candidate.sqlite": {
+      "migration_sha256": "f863a43d399d7501bc08dcdd3184ff30f3bf2a43381e764943f1e165d7d3a037",
+      "current_sha256": "a827b75639c3b581aeea58482a239cef4528267346d75c9b42d28b2d0942bbe8",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/candidate_inputs.csv": {
+      "migration_sha256": "2a7a36dca6847148ec9d28b21ce12ff913ad09f2016ba68a4efdb3c932494b8d",
+      "current_sha256": "ea7739db0aca07fbd926b40f0686c7ccd23dd5a1bb112ca4e438be4ef988ac03",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/candidate_graphs.csv": {
+      "migration_sha256": "aa5af80c04fd66b9aca6caf5159860d514f55afbe2f95962ae9574dfcfb3c35f",
+      "current_sha256": "bab60833969b5ca6cba930b501b84b72a7c1933dcddd4dc52361e7adcdcebc63",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/candidate_assertions.csv": {
+      "migration_sha256": "17b3559cc7d534a4b526b89c223a99e0872311e84b28098d51d89f9437ca9ac9",
+      "current_sha256": "6317a666de3175b43a68c749f5b141faa036904d65bb896b8c99575297a3a2e0",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/manifest.json": {
+      "migration_sha256": "707f04c897c5acd710b1084793a96f37354b3c33a29a4bf708ed2ca904ffe0e9",
+      "current_sha256": "6b497d48add59f2468d0eddb1de0137a833e6dcf3db74f01c3a851134ceed6bf",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/candidate_bridges.csv": {
+      "migration_sha256": "9a3e746383dddba87788bfca39e3eb3537a9f2a7a9d5eefbdf119c92ac5d7b0c",
+      "current_sha256": "732f0c655335ce026079e3beea09c258f4f3e7b26b516065bbdbec1c61d66c29",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/candidate_sources.csv": {
+      "migration_sha256": "f6729b9f77efed846d3833faaa0b91e8c3d52854239d8a9500ea3a15d9f57cd3",
+      "current_sha256": "276d9e258ac2379d6f8ee2b7567ed27c262b01e78484ddcfed68462b8125b0f2",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/input_snapshot/research/mechanisms_activation/source_manifest.json": {
+      "migration_sha256": "2e730c28f95a4d8f59d574ca8d219105ee5461a3f3345ef2f6008b3934d1de30",
+      "current_sha256": "46d092cb5e2a9a61b498a4429193dbab9761b3de915cc8cb3ba6e3063ca76249",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/input_snapshot/research/mechanisms_activation/snapshots/MA_S04_full.html": {
+      "migration_sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+      "current_sha256": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "candidates/0.3.0/input_snapshot/scripts/sanitize_snapshots.py": {
+      "migration_sha256": "516962737ef0d7d10afd25cdeae30beecf8f18401eae2f8fe1f97adc004a4b61",
+      "current_sha256": "28890504af75b40284079f5c391dedef7a6126531017ce42321a78bd5ecf1114",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "provenance/security_scan_exceptions.json": {
+      "migration_sha256": "904ddb34c022701c31810dd0a2875209e9c35de2fb05b0493a57923a99841bf0",
+      "current_sha256": "af5164c5df5fb3edf5a83dc9663881d1c31ea1fcf512dfb487d81d94df70c0f2",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "reports/CANDIDATE_0.3.0.md": {
+      "migration_sha256": "b45af6ebcf4c0412eacc73599c8e10177d101b9ed59fc83b2aa9277e71207ac2",
+      "current_sha256": "345f5b5da69c751f36b1e72e5dff5d17f5eb963e099984d7076e307eb8d1cb56",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "research/mechanisms_activation/source_manifest.json": {
+      "migration_sha256": "2e730c28f95a4d8f59d574ca8d219105ee5461a3f3345ef2f6008b3934d1de30",
+      "current_sha256": "46d092cb5e2a9a61b498a4429193dbab9761b3de915cc8cb3ba6e3063ca76249",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "research/mechanisms_activation/snapshots/MA_S04_full.html": {
+      "migration_sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+      "current_sha256": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "scripts/sanitize_snapshots.py": {
+      "migration_sha256": "516962737ef0d7d10afd25cdeae30beecf8f18401eae2f8fe1f97adc004a4b61",
+      "current_sha256": "28890504af75b40284079f5c391dedef7a6126531017ce42321a78bd5ecf1114",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    },
+    "tests/test_snapshot_security.py": {
+      "migration_sha256": "091ec576bae9d9c2752eaefdcc46bc42a76d83a82aef6f6d2e84b6e71e428278",
+      "current_sha256": "f9c01cfaca1a2c56fb310862156ef5805bd493ce7c1956f43fab07d8743639ff",
+      "reason": "2026-09-15 Google-key redaction, scanner regression coverage, source-manifest/candidate regeneration, or security maintenance documentation. Scientific values and review decisions unchanged."
+    }
+  }
+}

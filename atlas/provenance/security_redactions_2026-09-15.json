@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-15",
+  "type": "third_party_google_api_key_redaction",
+  "alert_url": "https://github.com/nickbrazeau/ikhis/security/secret-scanning/2",
+  "source_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.655122/full",
+  "origin": "Publisher webpage browser configuration, field impactGoogleMapsApiKey",
+  "key_ownership": "Third-party publisher configuration; no IKHIS use found",
+  "key_validity": "Unknown; no API calls made with the key and no revocation claimed",
+  "redactions": {
+    "research/mechanisms_activation/snapshots/MA_S04_full.html": {
+      "original_sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+      "sanitized_sha256": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9",
+      "original_bytes": 1094332,
+      "sanitized_bytes": 1094316,
+      "occurrences_removed": 1
+    }
+  },
+  "candidate_original_manifest_sha256": "707f04c897c5acd710b1084793a96f37354b3c33a29a4bf708ed2ca904ffe0e9",
+  "integrity_policy": "Keep frozen releases unchanged. Rebuild the unreviewed candidate from the sanitized working snapshot and refreshed source manifest; retain original and replacement hashes here. Scientific records must remain unchanged apart from provenance hashes.",
+  "candidate_rebuilt_manifest_sha256": "6b497d48add59f2468d0eddb1de0137a833e6dcf3db74f01c3a851134ceed6bf",
+  "candidate_rebuilt_database_sha256": "a827b75639c3b581aeea58482a239cef4528267346d75c9b42d28b2d0942bbe8",
+  "validation": {
+    "atlas_tests_passed": 68,
+    "database_tables_compared": 51,
+    "scientific_or_identity_differences": [],
+    "only_comparison_exclusions": [
+      "source_dependencies dictionaries",
+      "candidate_inputs.sha256"
+    ],
+    "original_key_occurrences_removed": 2,
+    "git_history_rewritten": false,
+    "github_alert_state": "open; local remediation complete, publication and closure pending",
+    "dictionary_tests_passed": 15,
+    "total_tests_passed": 83,
+    "frozen_release_0_2_verified_artifacts": 914,
+    "frozen_release_0_1_verified_artifacts": 388,
+    "frozen_release_new_mismatches": 0,
+    "aws_google_scan": "no unmatched credential metadata in current repository files"
+  }
+}

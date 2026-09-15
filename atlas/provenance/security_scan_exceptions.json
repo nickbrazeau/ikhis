@@ -8,5 +8,25 @@
     "sha256": "36897a368ec0559db25c603d8451b5fd62a911eb0445eb207c8dfc0b927da3b4",
     "kind": "synthetic_review_fixture",
     "reason": "Compiled immutable review findings repeat the documented example.invalid SYNTHETIC_SIGNATURE/SYNTHETIC_TOKEN regression examples. No real credential is present. Exact-byte exception expires on any output change; the originating review file has its own exact-hash exception."
+  },
+  "tests/test_snapshot_security.py": {
+    "sha256": "f9c01cfaca1a2c56fb310862156ef5805bd493ce7c1956f43fab07d8743639ff",
+    "kind": "synthetic_review_fixture",
+    "reason": "Test source code contains only example.invalid synthetic signatures/tokens and keys constructed from repeated characters at runtime. No real credentials. Exact-byte exception expires on any file change; frozen test copies remain unchanged."
+  },
+  "tests/test_review_integrity.py": {
+    "sha256": "7ddb55820560ced697f3956fbe4245f1a50a102b3148917e428063b8a57fe1e8",
+    "kind": "synthetic_review_fixture",
+    "reason": "Test source code contains only example.invalid synthetic signatures/tokens and keys constructed from repeated characters at runtime. No real credentials. Exact-byte exception expires on any file change; frozen test copies remain unchanged."
+  },
+  "releases/0.2.0/input_snapshot/tests/test_snapshot_security.py": {
+    "sha256": "5bf17cb7fd8544e48ae00756d217519937f6b3ee616c3ba92383ac30b53f6db2",
+    "kind": "synthetic_review_fixture",
+    "reason": "Test source code contains only example.invalid synthetic signatures/tokens and keys constructed from repeated characters at runtime. No real credentials. Exact-byte exception expires on any file change; frozen test copies remain unchanged."
+  },
+  "releases/0.2.0/input_snapshot/tests/test_review_integrity.py": {
+    "sha256": "7ddb55820560ced697f3956fbe4245f1a50a102b3148917e428063b8a57fe1e8",
+    "kind": "synthetic_review_fixture",
+    "reason": "Test source code contains only example.invalid synthetic signatures/tokens and keys constructed from repeated characters at runtime. No real credentials. Exact-byte exception expires on any file change; frozen test copies remain unchanged."
   }
 }

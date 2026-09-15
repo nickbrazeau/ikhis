@@ -16,6 +16,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/mechanism_graphs.json"
+    ],
+    "asset_id": "ASSET_0072e3ea0a27bb46a92c",
+    "bytes": 542539,
+    "copy_count": 1,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/candidates/0.3.0/mechanism_graphs.json",
+    "sha256": "0072e3ea0a27bb46a92c5f11e3442933df16f68a658aadc600d65f20830d5b8a"
+  },
+  {
+    "all_paths": [
       "atlas/research/mechanisms_activation/snapshots/MA_S05_full.html",
       "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/snapshots/MA_S05_full.html"
     ],
@@ -246,18 +258,6 @@
     "format": "json",
     "preferred_path": "atlas/research/references/pubmed_entity_CCL22.request.json",
     "sha256": "08a1a9589b8395ea07c53cb1b2700b8e4bdefffb240223aaa70616657f326d33"
-  },
-  {
-    "all_paths": [
-      "atlas/tests/test_snapshot_security.py"
-    ],
-    "asset_id": "ASSET_091ec576bae9d9c2752e",
-    "bytes": 2127,
-    "copy_count": 1,
-    "data_level": "code_or_environment_specification",
-    "format": "py",
-    "preferred_path": "atlas/tests/test_snapshot_security.py",
-    "sha256": "091ec576bae9d9c2752eaefdcc46bc42a76d83a82aef6f6d2e84b6e71e428278"
   },
   {
     "all_paths": [
@@ -879,18 +879,6 @@
   },
   {
     "all_paths": [
-      "atlas/candidates/0.3.0/candidate_assertions.csv"
-    ],
-    "asset_id": "ASSET_17b3559cc7d534a4b526",
-    "bytes": 293527,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "csv",
-    "preferred_path": "atlas/candidates/0.3.0/candidate_assertions.csv",
-    "sha256": "17b3559cc7d534a4b526b89c223a99e0872311e84b28098d51d89f9437ca9ac9"
-  },
-  {
-    "all_paths": [
       "atlas/research/references/pubmed_entity_CCL17.request.json",
       "atlas/releases/0.1.0/input_snapshot/research/references/pubmed_entity_CCL17.request.json",
       "atlas/releases/0.2.0/input_snapshot/research/references/pubmed_entity_CCL17.request.json",
@@ -1170,18 +1158,6 @@
     "format": "json",
     "preferred_path": "atlas/research/chemokine_expansion/review_response.json",
     "sha256": "1e7c0b68bdb0fc5329d2189ea03ccb99fc71ac880cc900873fb55041b05c352e"
-  },
-  {
-    "all_paths": [
-      "atlas/candidates/0.3.0/mechanism_graphs.json"
-    ],
-    "asset_id": "ASSET_1e8ef37e9cbe3726c06f",
-    "bytes": 542539,
-    "copy_count": 1,
-    "data_level": "structured_curation_or_provenance",
-    "format": "json",
-    "preferred_path": "atlas/candidates/0.3.0/mechanism_graphs.json",
-    "sha256": "1e8ef37e9cbe3726c06f486a74fcfef5f8d140b4d900a4663bd8882920ed9421"
   },
   {
     "all_paths": [
@@ -1520,6 +1496,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/candidate_sources.csv"
+    ],
+    "asset_id": "ASSET_276d9e258ac2379d6f8e",
+    "bytes": 63573,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "csv",
+    "preferred_path": "atlas/candidates/0.3.0/candidate_sources.csv",
+    "sha256": "276d9e258ac2379d6f8ee2b7567ed27c262b01e78484ddcfed68462b8125b0f2"
+  },
+  {
+    "all_paths": [
       "atlas/releases/0.2.0/provenance_manifest.json"
     ],
     "asset_id": "ASSET_27cccb7b76ded05a568f",
@@ -1555,6 +1543,19 @@
     "format": "json",
     "preferred_path": "atlas/research/chemokine_expansion/snapshots/followup_fullmethods1.json",
     "sha256": "2878795f19b69d040debb0a455dc5a71971059d6cd403ace304a1f3c73b4655a"
+  },
+  {
+    "all_paths": [
+      "atlas/scripts/sanitize_snapshots.py",
+      "atlas/candidates/0.3.0/input_snapshot/scripts/sanitize_snapshots.py"
+    ],
+    "asset_id": "ASSET_28890504af75b4028407",
+    "bytes": 3441,
+    "copy_count": 2,
+    "data_level": "code_or_environment_specification",
+    "format": "py",
+    "preferred_path": "atlas/scripts/sanitize_snapshots.py",
+    "sha256": "28890504af75b40284079f5c391dedef7a6126531017ce42321a78bd5ecf1114"
   },
   {
     "all_paths": [
@@ -1598,18 +1599,6 @@
     "format": "json",
     "preferred_path": "atlas/research/references/pubmed_entity_IL16.request.json",
     "sha256": "29ce63250295d5087424c737e2b50ce8f1807482bc8aff9bffd62572826fac96"
-  },
-  {
-    "all_paths": [
-      "atlas/candidates/0.3.0/candidate_inputs.csv"
-    ],
-    "asset_id": "ASSET_2a7a36dca6847148ec9d",
-    "bytes": 15360,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "csv",
-    "preferred_path": "atlas/candidates/0.3.0/candidate_inputs.csv",
-    "sha256": "2a7a36dca6847148ec9d28b21ce12ff913ad09f2016ba68a4efdb3c932494b8d"
   },
   {
     "all_paths": [
@@ -1836,19 +1825,6 @@
   },
   {
     "all_paths": [
-      "atlas/research/mechanisms_activation/source_manifest.json",
-      "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/source_manifest.json"
-    ],
-    "asset_id": "ASSET_2e730c28f95a4d8f59d5",
-    "bytes": 14839,
-    "copy_count": 2,
-    "data_level": "structured_curation_or_provenance",
-    "format": "json",
-    "preferred_path": "atlas/research/mechanisms_activation/source_manifest.json",
-    "sha256": "2e730c28f95a4d8f59d574ca8d219105ee5461a3f3345ef2f6008b3934d1de30"
-  },
-  {
-    "all_paths": [
       "atlas/research/receptor_expansion/snapshots/root_search3.json",
       "atlas/releases/0.2.0/input_snapshot/research/receptor_expansion/snapshots/root_search3.json"
     ],
@@ -2058,6 +2034,18 @@
     "format": "json",
     "preferred_path": "atlas/research/proteomic/snapshots/open4.json",
     "sha256": "33af42195fbe81aad787405261cf95a4032bd19ff972bd9975430718018fe4a9"
+  },
+  {
+    "all_paths": [
+      "atlas/reports/CANDIDATE_0.3.0.md"
+    ],
+    "asset_id": "ASSET_345f5b5da69c751f36b1",
+    "bytes": 4574,
+    "copy_count": 1,
+    "data_level": "documentation_or_protocol",
+    "format": "md",
+    "preferred_path": "atlas/reports/CANDIDATE_0.3.0.md",
+    "sha256": "345f5b5da69c751f36b1e72e5dff5d17f5eb963e099984d7076e307eb8d1cb56"
   },
   {
     "all_paths": [
@@ -2692,6 +2680,19 @@
   },
   {
     "all_paths": [
+      "atlas/research/mechanisms_activation/snapshots/MA_S04_full.html",
+      "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/snapshots/MA_S04_full.html"
+    ],
+    "asset_id": "ASSET_435e9cb250d8f514ec95",
+    "bytes": 1094316,
+    "copy_count": 2,
+    "data_level": "documentary_or_repository_source_snapshot",
+    "format": "html",
+    "preferred_path": "atlas/research/mechanisms_activation/snapshots/MA_S04_full.html",
+    "sha256": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9"
+  },
+  {
+    "all_paths": [
       "atlas/research/mechanisms_activation/snapshots/MA_S06_fig3_full_metadata.json",
       "atlas/research/mechanisms_activation/snapshots/MA_S06_fig4_full_metadata.json",
       "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/snapshots/MA_S06_fig3_full_metadata.json",
@@ -2845,6 +2846,19 @@
     "format": "sql",
     "preferred_path": "atlas/releases/0.1.0/input_snapshot/data/schema.sql",
     "sha256": "46a167cfa5a981a35077dde4b9c827d1ea9a9e7db80d524a3091cb3a4a01b099"
+  },
+  {
+    "all_paths": [
+      "atlas/research/mechanisms_activation/source_manifest.json",
+      "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/source_manifest.json"
+    ],
+    "asset_id": "ASSET_46d092cb5e2a9a61b498",
+    "bytes": 14839,
+    "copy_count": 2,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/research/mechanisms_activation/source_manifest.json",
+    "sha256": "46d092cb5e2a9a61b498a4429193dbab9761b3de915cc8cb3ba6e3063ca76249"
   },
   {
     "all_paths": [
@@ -3107,6 +3121,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/input_manifest.json"
+    ],
+    "asset_id": "ASSET_4ef16daec643fdf32921",
+    "bytes": 16560,
+    "copy_count": 1,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/candidates/0.3.0/input_manifest.json",
+    "sha256": "4ef16daec643fdf32921076e7cabe0107c7761efba63169f411d0e5768a4f615"
+  },
+  {
+    "all_paths": [
       "atlas/research/receptor_expansion/snapshots/root_selected_methods.json",
       "atlas/releases/0.2.0/input_snapshot/research/receptor_expansion/snapshots/root_selected_methods.json"
     ],
@@ -3201,19 +3227,6 @@
     "format": "tsv",
     "preferred_path": "atlas/research/cytokine_inventory/snapshots/uniprot_unreviewed.tsv",
     "sha256": "51186f59c5601c902169958ce636bd0615785a5191221b57c998ea9c0d892852"
-  },
-  {
-    "all_paths": [
-      "atlas/scripts/sanitize_snapshots.py",
-      "atlas/candidates/0.3.0/input_snapshot/scripts/sanitize_snapshots.py"
-    ],
-    "asset_id": "ASSET_516962737ef0d7d10afd",
-    "bytes": 2990,
-    "copy_count": 2,
-    "data_level": "code_or_environment_specification",
-    "format": "py",
-    "preferred_path": "atlas/scripts/sanitize_snapshots.py",
-    "sha256": "516962737ef0d7d10afd25cdeae30beecf8f18401eae2f8fe1f97adc004a4b61"
   },
   {
     "all_paths": [
@@ -3996,6 +4009,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/candidate_assertions.csv"
+    ],
+    "asset_id": "ASSET_6317a666de3175b43a68",
+    "bytes": 293527,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "csv",
+    "preferred_path": "atlas/candidates/0.3.0/candidate_assertions.csv",
+    "sha256": "6317a666de3175b43a68c749f5b141faa036904d65bb896b8c99575297a3a2e0"
+  },
+  {
+    "all_paths": [
       "atlas/research/receptor_expansion/snapshots/root_search5.json",
       "atlas/releases/0.2.0/input_snapshot/research/receptor_expansion/snapshots/root_search5.json"
     ],
@@ -4107,6 +4132,18 @@
     "format": "json",
     "preferred_path": "atlas/research/references/uniprot_CCL22.request.json",
     "sha256": "66839f8fde82888c4789ee0bba6a5b6ff0a7b420dfdad4231e1641e3c96317f9"
+  },
+  {
+    "all_paths": [
+      "atlas/reports/SECURITY_ALERT_2.md"
+    ],
+    "asset_id": "ASSET_66a69e84d0943ee0183b",
+    "bytes": 3390,
+    "copy_count": 1,
+    "data_level": "documentation_or_protocol",
+    "format": "md",
+    "preferred_path": "atlas/reports/SECURITY_ALERT_2.md",
+    "sha256": "66a69e84d0943ee0183bd5a78512f16c24e465ac18a72e790e44ba8bde9a4380"
   },
   {
     "all_paths": [
@@ -4353,6 +4390,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/manifest.json"
+    ],
+    "asset_id": "ASSET_6b497d48add59f2468d0",
+    "bytes": 20161,
+    "copy_count": 1,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/candidates/0.3.0/manifest.json",
+    "sha256": "6b497d48add59f2468d0eddb1de0137a833e6dcf3db74f01c3a851134ceed6bf"
+  },
+  {
+    "all_paths": [
       "atlas/research/genomic/snapshots/G03_fulltext.html",
       "atlas/releases/0.1.0/input_snapshot/research/genomic/snapshots/G03_fulltext.html",
       "atlas/releases/0.2.0/input_snapshot/research/genomic/snapshots/G03_fulltext.html",
@@ -4586,18 +4635,6 @@
   },
   {
     "all_paths": [
-      "atlas/candidates/0.3.0/manifest.json"
-    ],
-    "asset_id": "ASSET_707f04c897c5acd710b1",
-    "bytes": 20161,
-    "copy_count": 1,
-    "data_level": "structured_curation_or_provenance",
-    "format": "json",
-    "preferred_path": "atlas/candidates/0.3.0/manifest.json",
-    "sha256": "707f04c897c5acd710b1084793a96f37354b3c33a29a4bf708ed2ca904ffe0e9"
-  },
-  {
-    "all_paths": [
       "atlas/research/references/pubmed_entity_IL12A.response.json",
       "atlas/releases/0.1.0/input_snapshot/research/references/pubmed_entity_IL12A.response.json",
       "atlas/releases/0.2.0/input_snapshot/research/references/pubmed_entity_IL12A.response.json",
@@ -4734,6 +4771,18 @@
     "format": "json",
     "preferred_path": "atlas/research/references/pubmed_entity_CCL3.response.json",
     "sha256": "732426a9f0549c5cb4855ee94fb22cf3e040e38c1ceaa0bead96bfac5f6bd1f6"
+  },
+  {
+    "all_paths": [
+      "atlas/candidates/0.3.0/candidate_bridges.csv"
+    ],
+    "asset_id": "ASSET_732f0c655335ce026079",
+    "bytes": 243995,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "csv",
+    "preferred_path": "atlas/candidates/0.3.0/candidate_bridges.csv",
+    "sha256": "732f0c655335ce026079e3beea09c258f4f3e7b26b516065bbdbec1c61d66c29"
   },
   {
     "all_paths": [
@@ -5855,15 +5904,14 @@
   },
   {
     "all_paths": [
-      "atlas/provenance/security_scan_exceptions.json",
       "atlas/releases/0.2.0/input_snapshot/provenance/security_scan_exceptions.json"
     ],
     "asset_id": "ASSET_904ddb34c022701c3181",
     "bytes": 842,
-    "copy_count": 2,
+    "copy_count": 1,
     "data_level": "structured_curation_or_provenance",
     "format": "json",
-    "preferred_path": "atlas/provenance/security_scan_exceptions.json",
+    "preferred_path": "atlas/releases/0.2.0/input_snapshot/provenance/security_scan_exceptions.json",
     "sha256": "904ddb34c022701c31810dd0a2875209e9c35de2fb05b0493a57923a99841bf0"
   },
   {
@@ -6183,19 +6231,6 @@
   },
   {
     "all_paths": [
-      "atlas/research/mechanisms_activation/snapshots/MA_S04_full.html",
-      "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_activation/snapshots/MA_S04_full.html"
-    ],
-    "asset_id": "ASSET_98249d5b017bfaa00043",
-    "bytes": 1094332,
-    "copy_count": 2,
-    "data_level": "documentary_or_repository_source_snapshot",
-    "format": "html",
-    "preferred_path": "atlas/research/mechanisms_activation/snapshots/MA_S04_full.html",
-    "sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c"
-  },
-  {
-    "all_paths": [
       "atlas/research/genomic/snapshots/Gsearch7_retrieval.txt",
       "atlas/releases/0.1.0/input_snapshot/research/genomic/snapshots/Gsearch7_retrieval.txt",
       "atlas/releases/0.2.0/input_snapshot/research/genomic/snapshots/Gsearch7_retrieval.txt",
@@ -6286,18 +6321,6 @@
     "format": "txt",
     "preferred_path": "atlas/research/genomic/snapshots/G05_open.txt",
     "sha256": "99c0394656e6b5bf925160701b2bc1da21310874bf86bdf7512f5402e0b8357a"
-  },
-  {
-    "all_paths": [
-      "atlas/candidates/0.3.0/candidate_bridges.csv"
-    ],
-    "asset_id": "ASSET_9a3e746383dddba87788",
-    "bytes": 243995,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "csv",
-    "preferred_path": "atlas/candidates/0.3.0/candidate_bridges.csv",
-    "sha256": "9a3e746383dddba87788bfca39e3eb3537a9f2a7a9d5eefbdf119c92ac5d7b0c"
   },
   {
     "all_paths": [
@@ -6828,6 +6851,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/immune_candidate.sqlite"
+    ],
+    "asset_id": "ASSET_a827b75639c3b581aeea",
+    "bytes": 4943872,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "sqlite",
+    "preferred_path": "atlas/candidates/0.3.0/immune_candidate.sqlite",
+    "sha256": "a827b75639c3b581aeea58482a239cef4528267346d75c9b42d28b2d0942bbe8"
+  },
+  {
+    "all_paths": [
       "atlas/research/receptor_expansion/snapshots/xre_search1.json",
       "atlas/releases/0.2.0/input_snapshot/research/receptor_expansion/snapshots/xre_search1.json"
     ],
@@ -6838,18 +6873,6 @@
     "format": "json",
     "preferred_path": "atlas/research/receptor_expansion/snapshots/xre_search1.json",
     "sha256": "a982c7934c601744abfde3e9e202f19b44579f5b1cae4881ae28232de8b2b426"
-  },
-  {
-    "all_paths": [
-      "atlas/candidates/0.3.0/candidate_graphs.csv"
-    ],
-    "asset_id": "ASSET_aa5af80c04fd66b9aca6",
-    "bytes": 448667,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "csv",
-    "preferred_path": "atlas/candidates/0.3.0/candidate_graphs.csv",
-    "sha256": "aa5af80c04fd66b9aca6caf5159860d514f55afbe2f95962ae9574dfcfb3c35f"
   },
   {
     "all_paths": [
@@ -6994,6 +7017,18 @@
     "format": "json",
     "preferred_path": "atlas/research/references/uniprot_IL12B.json",
     "sha256": "aefe8f13ba48952f0d1548e466bd3143647a8f9eadf1f722e070a8be5c9b5b18"
+  },
+  {
+    "all_paths": [
+      "atlas/provenance/security_scan_exceptions.json"
+    ],
+    "asset_id": "ASSET_af5164c5df5fb3edf5a8",
+    "bytes": 2588,
+    "copy_count": 1,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/provenance/security_scan_exceptions.json",
+    "sha256": "af5164c5df5fb3edf5a83dc9663881d1c31ea1fcf512dfb487d81d94df70c0f2"
   },
   {
     "all_paths": [
@@ -7162,18 +7197,6 @@
     "format": "csv",
     "preferred_path": "atlas/releases/0.1.0/evidence_instances.csv",
     "sha256": "b3f3337a7bb378c35738838692a071ffec53220c78ee742a21d640a9a6905e42"
-  },
-  {
-    "all_paths": [
-      "atlas/reports/CANDIDATE_0.3.0.md"
-    ],
-    "asset_id": "ASSET_b45af6ebcf4c0412eacc",
-    "bytes": 4100,
-    "copy_count": 1,
-    "data_level": "documentation_or_protocol",
-    "format": "md",
-    "preferred_path": "atlas/reports/CANDIDATE_0.3.0.md",
-    "sha256": "b45af6ebcf4c0412eacc73599c8e10177d101b9ed59fc83b2aa9277e71207ac2"
   },
   {
     "all_paths": [
@@ -7500,6 +7523,18 @@
     "format": "json",
     "preferred_path": "atlas/research/references/uniprot_IL6.response.json",
     "sha256": "ba67a15bf0527e9e1419233ddb7c177ce9e4dcd6e248002ed2e48a8e00be5b23"
+  },
+  {
+    "all_paths": [
+      "atlas/candidates/0.3.0/candidate_graphs.csv"
+    ],
+    "asset_id": "ASSET_bab60833969b5ca6cba9",
+    "bytes": 448667,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "csv",
+    "preferred_path": "atlas/candidates/0.3.0/candidate_graphs.csv",
+    "sha256": "bab60833969b5ca6cba930b501b84b72a7c1933dcddd4dc52361e7adcdcebc63"
   },
   {
     "all_paths": [
@@ -8071,18 +8106,6 @@
   },
   {
     "all_paths": [
-      "atlas/candidates/0.3.0/input_manifest.json"
-    ],
-    "asset_id": "ASSET_caf517ae7f3701133f36",
-    "bytes": 16560,
-    "copy_count": 1,
-    "data_level": "structured_curation_or_provenance",
-    "format": "json",
-    "preferred_path": "atlas/candidates/0.3.0/input_manifest.json",
-    "sha256": "caf517ae7f3701133f3664999e0d2a95a02873efe0aa008424d40f307d24f139"
-  },
-  {
-    "all_paths": [
       "atlas/research/references/uniprot_CCL22.json",
       "atlas/releases/0.1.0/input_snapshot/research/references/uniprot_CCL22.json",
       "atlas/releases/0.2.0/input_snapshot/research/references/uniprot_CCL22.json",
@@ -8095,6 +8118,18 @@
     "format": "json",
     "preferred_path": "atlas/research/references/uniprot_CCL22.json",
     "sha256": "cbd6c304448f3d236ddefa0726c93c66b5a45392ba11605cdfb380f10cd8a514"
+  },
+  {
+    "all_paths": [
+      "atlas/provenance/security_redactions_2026-09-15.json"
+    ],
+    "asset_id": "ASSET_cbdb733c6ff880c17712",
+    "bytes": 2209,
+    "copy_count": 1,
+    "data_level": "structured_curation_or_provenance",
+    "format": "json",
+    "preferred_path": "atlas/provenance/security_redactions_2026-09-15.json",
+    "sha256": "cbdb733c6ff880c17712dbe9e16905e84c25a4c0dfdcecc5a59c822fd5a54e78"
   },
   {
     "all_paths": [
@@ -9224,6 +9259,18 @@
   },
   {
     "all_paths": [
+      "atlas/candidates/0.3.0/candidate_inputs.csv"
+    ],
+    "asset_id": "ASSET_ea7739db0aca07fbd926",
+    "bytes": 15360,
+    "copy_count": 1,
+    "data_level": "derived_atlas_table_or_database",
+    "format": "csv",
+    "preferred_path": "atlas/candidates/0.3.0/candidate_inputs.csv",
+    "sha256": "ea7739db0aca07fbd926b40f0686c7ccd23dd5a1bb112ca4e438be4ef988ac03"
+  },
+  {
+    "all_paths": [
       "atlas/research/mechanisms_antigen/snapshots/MP_search_batch2.json",
       "atlas/candidates/0.3.0/input_snapshot/research/mechanisms_antigen/snapshots/MP_search_batch2.json"
     ],
@@ -9541,18 +9588,6 @@
   },
   {
     "all_paths": [
-      "atlas/candidates/0.3.0/candidate_sources.csv"
-    ],
-    "asset_id": "ASSET_f6729b9f77efed846d38",
-    "bytes": 63573,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "csv",
-    "preferred_path": "atlas/candidates/0.3.0/candidate_sources.csv",
-    "sha256": "f6729b9f77efed846d3833faaa0b91e8c3d52854239d8a9500ea3a15d9f57cd3"
-  },
-  {
-    "all_paths": [
       "atlas/research/cytokine/snapshots/PMC1810496.xml",
       "atlas/releases/0.1.0/input_snapshot/research/cytokine/snapshots/PMC1810496.xml",
       "atlas/releases/0.2.0/input_snapshot/research/cytokine/snapshots/PMC1810496.xml",
@@ -9578,18 +9613,6 @@
     "format": "json",
     "preferred_path": "atlas/research/mechanisms_activation/snapshots/MA_S05_full_metadata.json",
     "sha256": "f79957a08969383e354253291596aa3304bfcb47031cdc5574d17f53192a998a"
-  },
-  {
-    "all_paths": [
-      "atlas/candidates/0.3.0/immune_candidate.sqlite"
-    ],
-    "asset_id": "ASSET_f863a43d399d7501bc08",
-    "bytes": 4943872,
-    "copy_count": 1,
-    "data_level": "derived_atlas_table_or_database",
-    "format": "sqlite",
-    "preferred_path": "atlas/candidates/0.3.0/immune_candidate.sqlite",
-    "sha256": "f863a43d399d7501bc08dcdd3184ff30f3bf2a43381e764943f1e165d7d3a037"
   },
   {
     "all_paths": [
@@ -9620,6 +9643,18 @@
     "format": "json",
     "preferred_path": "atlas/research/cytokine/snapshots/open2.json",
     "sha256": "f9514d5acc67bcd4c065709c3ad0da971699e1c268100b3b55be3cd1abd6dcc0"
+  },
+  {
+    "all_paths": [
+      "atlas/tests/test_snapshot_security.py"
+    ],
+    "asset_id": "ASSET_f9c01cfaca1a2c56fb31",
+    "bytes": 3532,
+    "copy_count": 1,
+    "data_level": "code_or_environment_specification",
+    "format": "py",
+    "preferred_path": "atlas/tests/test_snapshot_security.py",
+    "sha256": "f9c01cfaca1a2c56fb310862156ef5805bd493ce7c1956f43fab07d8743639ff"
   },
   {
     "all_paths": [

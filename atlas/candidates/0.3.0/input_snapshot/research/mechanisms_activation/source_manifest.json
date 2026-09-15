@@ -91,8 +91,8 @@
   },
   {
     "path": "research/mechanisms_activation/snapshots/MA_S04_full.html",
-    "bytes": 1094332,
-    "sha256": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+    "bytes": 1094316,
+    "sha256": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9",
     "source_id": "MA-S04",
     "snapshot_role": "primary_article_html",
     "access_level": "primary_full_text; selected Methods/Results inspected",

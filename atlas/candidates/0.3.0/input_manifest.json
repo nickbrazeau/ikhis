@@ -44,7 +44,7 @@
     "research/mechanisms_activation/snapshots/MA_S03_full.html": "93d58492599cf783a253d0d3dd49094e1d2bcc146c43b61d96f817568d952276",
     "research/mechanisms_activation/snapshots/MA_S03_full.txt": "9b7f0485c866ffe4363cd6b0b3aebb279b0e705eccbf874779fa4779e2a64e8e",
     "research/mechanisms_activation/snapshots/MA_S03_full_metadata.json": "60049370f7cf0d46031c1afa90c93e386817dbeb67e182b31a40ba75a5cd07b0",
-    "research/mechanisms_activation/snapshots/MA_S04_full.html": "98249d5b017bfaa00043f5c3f24e488b2fda03072f736187c12466ad860adb1c",
+    "research/mechanisms_activation/snapshots/MA_S04_full.html": "435e9cb250d8f514ec950808ab62c7bbb21a344ce5c19b77212a034adf33a0b9",
     "research/mechanisms_activation/snapshots/MA_S04_full.txt": "d58269eec27f9e8555e1aaea766e5e091f300fcb277883776cd8ad6538266895",
     "research/mechanisms_activation/snapshots/MA_S04_full_metadata.json": "3c7394c4c3b9d19cafb72199efadf2f69ec6a5f4f560fd2444f5819e5c4c0604",
     "research/mechanisms_activation/snapshots/MA_S05_full.html": "00790679faae73c30d6db60d751629bcb739a8d82ae5fd89d240475df569ceed",
@@ -71,7 +71,7 @@
     "research/mechanisms_activation/snapshots/MA_S07_full.html": "9a4fafb02aae934b0eecdf74e04c9c87a2b7ddfee130b2fc6f7a85b1f2c716e1",
     "research/mechanisms_activation/snapshots/MA_S07_full.txt": "0bbf99005de825e9cee6760d8e217ca610cf7f3a091715c8d7fe69305ad37c99",
     "research/mechanisms_activation/snapshots/MA_S07_full_metadata.json": "875bbec16b4d330718e23a9437b5d16b609de9c5b6fb352646cfc2f341065494",
-    "research/mechanisms_activation/source_manifest.json": "2e730c28f95a4d8f59d574ca8d219105ee5461a3f3345ef2f6008b3934d1de30",
+    "research/mechanisms_activation/source_manifest.json": "46d092cb5e2a9a61b498a4429193dbab9761b3de915cc8cb3ba6e3063ca76249",
     "research/mechanisms_antigen/bridges.json": "5a3a79c7f9934a5ea0be5f5a37c47d0db4ba15b76b840e25691d517ec8941048",
     "research/mechanisms_antigen/build_pack.py": "7c78d3023f184d132654a1b2940b2013f2d05d3c53c735bb2fd0e73659d32b09",
     "research/mechanisms_antigen/finish_pack.py": "44e5fc9777197aec0ffad8a207f293b594ccbaa1ec3781f0658df6f82ea87a8d",
@@ -127,7 +127,7 @@
     "research/mechanisms_genetic/snapshots/retrieval_failures.txt": "1461de9f330bc2b00d640ab8279b5e420d2344fdf3be258fac09004f0593e56e",
     "scripts/build_candidate.py": "9be08c3734f393739289f892a510b6777b6457bab71ed1d94698b83e0ebae60d",
     "scripts/build_cytokine_inventory.py": "bd93d8f1684ba065acc7ac7f390bc7e425b5a5b32842b877796b0453d00207fc",
-    "scripts/sanitize_snapshots.py": "516962737ef0d7d10afd25cdeae30beecf8f18401eae2f8fe1f97adc004a4b61",
+    "scripts/sanitize_snapshots.py": "28890504af75b40284079f5c391dedef7a6126531017ce42321a78bd5ecf1114",
     "tests/test_candidate.py": "40a71ff14855ec8163eb91a75680a4bd99ea9511a43b43f5d0eae54d0a9039a0"
   },
   "version": "0.3.0-candidate"

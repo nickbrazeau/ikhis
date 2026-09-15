@@ -24,7 +24,7 @@ def fetch(record):
     if urlparse(record['url']).scheme != 'https':
         raise ValueError('HTTPS public sources required')
     target.parent.mkdir(parents=True, exist_ok=True)
-    result = {'id': record['id'], 'requested_url': record['url'], 'output': relative,
+    result = {'id': record['id'], 'requested_url': sanitize(record['url']), 'output': relative,
               'retrieved_at': datetime.now(timezone.utc).isoformat()}
     try:
         response = requests.get(record['url'], timeout=(10, 35), stream=True,
@@ -45,10 +45,12 @@ def fetch(record):
         result['etag'] = response.headers.get('ETag', 'unavailable')
         result['pagination_link'] = sanitize(response.headers.get('Link', ''))
         raw = bytes(data)
-        if target.suffix.lower() in {'.json', '.csv', '.tsv', '.txt', '.html', '.md', '.xml'}:
-            clean = sanitize(raw.decode('utf-8-sig')).encode('utf-8')
-            result['credential_metadata_redacted'] = clean != raw and sanitize(raw.decode('utf-8-sig')) != raw.decode('utf-8-sig')
-            raw = clean
+        # Metadata snapshots can have arbitrary extensions. Reject non-text input
+        # instead of silently bypassing the sanitizer for a new filename suffix.
+        original_text = raw.decode('utf-8-sig')
+        clean_text = sanitize(original_text)
+        result['credential_metadata_redacted'] = clean_text != original_text
+        raw = clean_text.encode('utf-8')
         target.write_bytes(raw)
         result.update(status='retrieved', bytes=len(raw), sha256=hashlib.sha256(raw).hexdigest())
     except Exception as error:

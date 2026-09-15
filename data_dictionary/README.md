@@ -2,7 +2,7 @@
 
 **[Browse the searchable catalog](reports/catalog.html)** · **[Read the coverage report](reports/DATA_DICTIONARY.md)** · [Data model and interpretation](DATA_MODEL.md)
 
-Version 0.1.0, checked 14 September 2026. The inventory covers 2,057 atlas files, all 66 study/cohort rows and 175 files in the pinned HR-VILAGE release, and 30 influenza-related catalog records (26 eligible challenge-related records and four adjacent exclusions). It includes 278 public viral-sequencing run identifiers. These are data records, not independent-cohort counts. Influenza discovery remains expandable; complete global coverage is not claimed.
+Version 0.1.0, checked 14 September 2026. The inventory covers 2,059 atlas files, all 66 study/cohort rows and 175 files in the pinned HR-VILAGE release, and 30 influenza-related catalog records (26 eligible challenge-related records and four adjacent exclusions). It includes 278 public viral-sequencing run identifiers. These are data records, not independent-cohort counts. Influenza discovery remains expandable; complete global coverage is not claimed.
 
 This sibling project inventories the data behind the [immune evidence atlas](../atlas/README.md) and the original data available for human influenza challenge studies, building on HR-VILAGE-3K3M.
 
@@ -44,7 +44,7 @@ Run from the IKHIS root. The compiler uses the Python standard library and local
 .venv/bin/python -m unittest discover -s data_dictionary/tests -v
 ```
 
-`provenance/build_manifest.json` binds the inputs and outputs with SHA-256 hashes. `provenance/atlas_migration.json` records the 2,751 original moved files, including an old embedded environment excluded from the data inventory. Verification detects changed source/output bytes and changes to the atlas file inventory. Regeneration does not change any atlas input, frozen release or candidate file.
+`provenance/build_manifest.json` binds the inputs and outputs with SHA-256 hashes. `provenance/atlas_migration.json` records the 2,751 original moved files, including an old embedded environment excluded from the data inventory. [Subsequent security maintenance](provenance/post_migration_changes.json) records later changes without rewriting that original receipt. Verification detects changed source/output bytes and changes to the atlas file inventory. Dictionary regeneration does not change any atlas input, frozen release or candidate file.
 
 The public-metadata fetcher uses request manifests, bounded responses and credential redaction. It stores requested canonical URLs and selected metadata, never signed redirect URLs, cookies or authorization headers. It does not execute repository code or download large biological matrices by default. The original snapshot and curation files remain under `sources/` for audit.
 

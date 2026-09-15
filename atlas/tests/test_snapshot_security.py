@@ -29,4 +29,27 @@ class SnapshotSecurityTests(unittest.TestCase):
             hits=list(sanitizer.findings([path]))
             self.assertEqual(len(hits),1)
             self.assertNotIn(b'=synthetic',hits[0][2])
+    def test_google_key_in_publisher_config_and_query_is_redacted(self):
+        import json
+        key='AIza'+'A'*35
+        source='<script>window.config='+json.dumps({'impactGoogleMapsApiKey':key})+';</script><p>FOXP3 results unchanged.</p>'
+        clean=sanitizer.sanitize(source)
+        self.assertNotIn(key,clean)
+        self.assertIn('REDACTED_GOOGLE_API_KEY',clean)
+        self.assertIn('<p>FOXP3 results unchanged.</p>',clean)
+        self.assertEqual(sanitizer.sanitize(clean),clean)
+        self.assertEqual(sanitizer.sanitize('https://example.invalid/map?key='+key+'&language=en'),
+                         'https://example.invalid/map?key=REDACTED_GOOGLE_API_KEY&language=en')
+    def test_google_key_scanned_in_other_text_formats_without_echoing_value(self):
+        import tempfile
+        key='AIza'+'B'*35
+        with tempfile.TemporaryDirectory() as folder:
+            for name in ('snapshot.qmd','snapshot.text','config.js','snapshot'):
+                path=Path(folder)/name;path.write_text('key="'+key+'"')
+                hits=list(sanitizer.findings([path]))
+                self.assertEqual(len(hits),1)
+                self.assertNotIn(key.encode(),hits[0][2])
+    def test_google_pattern_does_not_mask_short_or_long_nonkeys(self):
+        for value in ('AIza'+'C'*34,'AIza'+'C'*36,'gene_AIzalike_expression'):
+            self.assertEqual(sanitizer.sanitize(value),value)
 if __name__=='__main__':unittest.main()

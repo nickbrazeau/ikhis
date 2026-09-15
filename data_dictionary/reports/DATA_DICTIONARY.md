@@ -1,10 +1,40 @@
 # IKHIS data dictionary · 0.1.0
 
+## Human checklist
+
+Preparation is complete. Human review items remain unchecked until someone has completed and documented them.
+
+**Completed preparation**
+
+- [x] Move the existing project into `atlas/` and verify that its contents were preserved.
+- [x] Build the initial data dictionary, searchable catalog, source links and downloadable inventories.
+- [x] Check the data inventory, reproducibility, browser functionality and credential scan.
+
+**For human review**
+
+- [ ] Review the included influenza challenge records and the reasons for excluding adjacent studies.
+- [ ] Confirm which original raw files are available; decide which controlled or request-only datasets to pursue.
+- [ ] Review the open data gaps and assign an owner and next action to each follow-up being pursued.
+- [ ] Resolve unmatched participant IDs and unexplained participant-count differences before combining data.
+- [ ] Confirm specimen types, assay definitions, units, detection limits and sampling times in the original sources.
+- [ ] Check which records reuse the same participants so people are not counted more than once.
+- [ ] Record the review decision below, including any remaining limitations, before using the dictionary to assemble an analysis dataset.
+
+Reviewer: _not yet assigned_  
+Review date: _not yet reviewed_  
+Decision and remaining limitations: _pending_
+
+The atlas's separate scientific review remains pending.
+
+[Update the human checklist](../HUMAN_CHECKLIST.md). Its checkboxes and review notes are preserved when the report is rebuilt.
+
+---
+
 Checked 14 September 2026. [Browse the catalog](catalog.html) · [Project guide](../README.md) · [Database](../catalog/data_dictionary.sqlite)
 
 ## What is covered
 
-The local atlas inventory contains **2,057 files**, representing 721 distinct byte-identical assets after deduplication. It excludes Python environments, caches and operating-system files. The migration ledger separately binds all 2,751 moved files, including the old nested environment. Every atlas file has a path, content hash, format and storage/data classification. All 123 registered sources are accounted for, including 15 explicit cohort-data accessions; 55 primary-study/preprint records still have no explicit raw-data route in their cohort records. Those gaps are visible in the source-coverage table. Literature and repository snapshots are documentary inputs, not participant measurement files.
+The local atlas inventory contains **2,059 files**, representing 724 distinct byte-identical assets after deduplication. It excludes Python environments, caches and operating-system files. The migration ledger separately binds all 2,751 moved files, including the old nested environment. Every atlas file has a path, content hash, format and storage/data classification. All 123 registered sources are accounted for, including 15 explicit cohort-data accessions; 55 primary-study/preprint records still have no explicit raw-data route in their cohort records. Those gaps are visible in the source-coverage table. Literature and repository snapshots are documentary inputs, not participant measurement files.
 
 The pinned HR-VILAGE inventory covers **66 study/cohort rows and all 175 listed files**. All 59 bulk-study metadata tables and 37 antibody tables were inspected, together with three root metadata tables: 3,668 per-table field entries. The author common bulk feature list contains 41,667 labels; it is not an independently validated gene ontology. Full expression matrices and H5AD layers were not downloaded. Six HR rows are verified influenza challenge subsets; four belong to GSE73072, so these are three original GEO series, not six independent deposits.
 
@@ -61,4 +91,4 @@ The exact GEO query returned 200 records; all 200 titles plus two known leads we
 
 The remaining work is enumerated in 109 [open gap records](../catalog/open_gaps.csv): expand archive members and sample manifests; inspect supplementary workbook fields and immuneACCESS exports; resolve incomplete cytometry, proteomics, cytokine and raw-read routes; obtain subject/arm/time crosswalks; and continue screening repositories beyond the initial discovery set. Unknown raw-file fields and unavailable assay units remain explicitly unknown. No large raw biological files or controlled participant data were downloaded.
 
-The atlas's frozen releases and candidate bytes were preserved. Its independent scientific review remains pending.
+The atlas's original migration receipt is preserved. Later security maintenance redacted publisher credential metadata and rebuilt the unreviewed candidate, with changes documented in the [post-migration change log](../provenance/post_migration_changes.json). Frozen releases and scientific records remain unchanged. Independent scientific review remains pending.

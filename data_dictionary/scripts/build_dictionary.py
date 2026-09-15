@@ -10,6 +10,7 @@ import math
 from pathlib import Path
 import re
 import sqlite3
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 IKHIS = ROOT.parent
@@ -17,6 +18,8 @@ ATLAS = IKHIS / 'atlas'
 OUT = ROOT / 'catalog'
 REPORTS = ROOT / 'reports'
 HF = ROOT / 'sources/hr_vilage'
+sys.path.insert(0, str(ATLAS / 'scripts'))
+from sanitize_snapshots import scan_files as credential_findings
 MISSING = {'', 'NA', 'N/A', 'NaN', 'nan', 'null', 'None', '<NA>', 'unavailable', 'unknown'}
 ACCESSION = re.compile(r'GSE\d+|GSM\d+|SRP\d+|SRR\d+|PRJNA\d+|PRJEB\d+|PRJDB\d+|EGAS\d+|EGAD\d+|phs\d+(?:\.v\d+\.p\d+)?|E-MTAB-\d+|PXD\d+|MSV\d+|MTBLS\d+|SDY\d+|SAMN\d+')
 
@@ -560,6 +563,7 @@ def markdown_cell(value):
 
 
 def build_reports(summary, tables):
+    checklist = (ROOT / 'HUMAN_CHECKLIST.md').read_text().strip().replace('# Human checklist', '## Human checklist', 1)
     rows = ['| Record | Measurements / specimen | Raw access as checked | Source |', '|---|---|---|---|']
     for row in tables['datasets']:
         if row['scope'] != 'Influenza challenge search' or row['eligibility'] != 'included_human_influenza_challenge':
@@ -568,6 +572,12 @@ def build_reports(summary, tables):
                     markdown_cell('; '.join(row['modality']) + ' / ' + str(row['specimen'])),
                     markdown_cell(row['raw_access_status']), '[record](' + row['url'] + ')']) + ' |')
     text = f'''# IKHIS data dictionary · 0.1.0
+
+{checklist}
+
+[Update the human checklist](../HUMAN_CHECKLIST.md). Its checkboxes and review notes are preserved when the report is rebuilt.
+
+---
 
 Checked 14 September 2026. [Browse the catalog](catalog.html) · [Project guide](../README.md) · [Database](../catalog/data_dictionary.sqlite)
 
@@ -603,7 +613,7 @@ The exact GEO query returned 200 records; all 200 titles plus two known leads we
 
 The remaining work is enumerated in {summary['open_gaps']} [open gap records](../catalog/open_gaps.csv): expand archive members and sample manifests; inspect supplementary workbook fields and immuneACCESS exports; resolve incomplete cytometry, proteomics, cytokine and raw-read routes; obtain subject/arm/time crosswalks; and continue screening repositories beyond the initial discovery set. Unknown raw-file fields and unavailable assay units remain explicitly unknown. No large raw biological files or controlled participant data were downloaded.
 
-The atlas's frozen releases and candidate bytes were preserved. Its independent scientific review remains pending.
+The atlas's original migration receipt is preserved. Later security maintenance redacted publisher credential metadata and rebuilt the unreviewed candidate, with changes documented in the [post-migration change log](../provenance/post_migration_changes.json). Frozen releases and scientific records remain unchanged. Independent scientific review remains pending.
 '''
     (REPORTS / 'DATA_DICTIONARY.md').write_text(text)
     browser_rows = []
@@ -638,6 +648,11 @@ for(const id of ['search','scope','eligibility'])el(id).addEventListener(id==='s
 
 
 def build():
+    unsafe = [rel(path) for path, _, _ in credential_findings(
+        path for base in (ATLAS, ROOT / 'sources') for path in base.rglob('*')
+        if not any(part in {'.git', '.venv', '__pycache__'} for part in path.parts))]
+    if unsafe:
+        raise ValueError('Credential metadata must be redacted before dictionary build: ' + ', '.join(unsafe))
     OUT.mkdir(exist_ok=True); REPORTS.mkdir(exist_ok=True)
     primary = read(ROOT / 'sources/influenza/studies.json')
     source_rows = validate_sources(primary)
@@ -713,6 +728,9 @@ def build():
         inputs.update({rel(path): sha(path) for path in sorted(directory.rglob('*')) if path.is_file() and '__pycache__' not in path.parts})
     inputs.update({rel(path): sha(path) for path in sorted(ROOT.glob('*.md'))})
     inputs[rel(ROOT / 'provenance/atlas_migration.json')] = sha(ROOT / 'provenance/atlas_migration.json')
+    change_log = ROOT / 'provenance/post_migration_changes.json'
+    if change_log.exists():
+        inputs[rel(change_log)] = sha(change_log)
     inputs.update({r['path']: r['sha256'] for r in files})
     outputs = {rel(path): sha(path) for directory in (OUT, REPORTS) for path in sorted(directory.iterdir()) if path.is_file()}
     write(ROOT / 'provenance/build_manifest.json', {'catalog_version': '0.1.0', 'observed_on': '2026-09-14',

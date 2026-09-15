@@ -17,10 +17,16 @@ def rows(name):
 
 
 class DictionaryTests(unittest.TestCase):
-    def test_all_moved_bytes_preserved(self):
+    def test_migration_hashes_and_documented_subsequent_changes(self):
         ledger = b.read(ROOT / 'provenance/atlas_migration.json')
         self.assertEqual(ledger['file_count'], len(ledger['files_sha256']))
+        change_log = ROOT / 'provenance/post_migration_changes.json'
+        changes = b.read(change_log)['files'] if change_log.exists() else {}
         for path, digest in ledger['files_sha256'].items():
+            if path in changes:
+                self.assertEqual(changes[path]['migration_sha256'], digest)
+                self.assertTrue(changes[path]['reason'])
+                digest = changes[path]['current_sha256']
             self.assertEqual(b.sha(b.ATLAS / path), digest, path)
 
     def test_complete_pinned_hr_inventory_and_unique_study_join(self):
@@ -80,6 +86,15 @@ class DictionaryTests(unittest.TestCase):
             stream.write(b' changed'); stream.flush()
             with self.assertRaisesRegex(ValueError, 'hash mismatch'):
                 b.check_hash(path, digest)
+
+    def test_google_key_blocks_build_before_outputs_change(self):
+        output = ROOT / 'catalog/data_dictionary.sqlite'
+        original = b.sha(output)
+        with tempfile.TemporaryDirectory(dir=ROOT / 'sources') as folder:
+            (Path(folder) / 'new_snapshot.qmd').write_text('key="' + 'AIza' + 'F' * 35 + '"')
+            with self.assertRaisesRegex(ValueError, 'Credential metadata must be redacted'):
+                b.build()
+        self.assertEqual(b.sha(output), original)
 
     def test_file_relationships_and_availability_boundaries(self):
         datasets = rows('datasets')
